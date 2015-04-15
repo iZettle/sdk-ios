@@ -1,0 +1,88 @@
+iZettle SDK Release Notes
+
+v1.0.0 - 2015-04-15
+- Methods for login, logout and user info has been removed. Login will be presented when needed, and logout is now available from the new settings view.
+- You can now pass an optional currency parameter to the charge method that will be validated by iZettle (if provided) for the currently logged in user.
+- A new method to retrieve information about a payment has been added.
+- A new method for refunding a previous payment has been added.
+- A new settings view is now accessable from all iZettle views (and is also presentable from the iZettleSDK singleton by itself) and contains iZettle FAQ, card reader settings, etc.
+- PaymentInfo is now returned wrapped in an object
+- Methods taking completion blocks will now throw an exception if the completion is nil.
+- The key "type" in the payment info has been removed as it was redundant. Use entryMode instead.
+- MessageUI.framework is now a required framework.
+
+v0.8.3 - 2015-02-04
+- iZettleSDK will no longer accept method invocation from a background thread
+- Fixed a problem where payments would fail if the device failed to get a location
+- Added more prefixes to categories and class names.
+- The old card reader with Apple dock connector (com.izettle.reader.iOS.a.a.a) is no longer supported.
+
+v0.8.2 - 2014-12-12
+- Updated the iZettle UI
+- Stability improvements and bug fixes
+
+v0.8.1 - 2014-11-04
+- Support for XCode 6 and compilation with iOS 8
+- iZettle SDK no longer supports iOS 6
+- UI Tweaks
+- The SDK now requires the integrating app to provide values in the info.plist for the keys "NSLocationWhenInUseUsageDescription" (iOS 8 only) and "NSLocationUsageDescription" (iOS 7 and below)
+
+v0.8.0 - 2014-09-03
+- Fixes iOS8-related bugs, NOTE: XCode5 is still required when using iZettle SDK.
+- More detailed NSErrors where the underlying errors are propagated.
+- Fixes a bug where the UI could get stuck in the signature view.
+- Chip & Pin reader is no longer kept awake when the app is inactive.
+
+v0.7.1 - 2014-06-18
+- Removed blocking network calls before presenting and after finisihing login or charge flows.
+
+v0.7.0 - 2014-06-05
+- Removed IZChargeOptions from chargeAmount: method (only card reader payments are now allowed).
+- Move API documentation out from this file and the header file into "iZettle API.md"
+- Removed payment and user info result constants.
+- Added completion blocks to login, logout and userInfo to better match the new URL Scheme Wrapper API's
+- Added support for arm64.
+- Switched back to create purchases instead of just payments to be able to see them in history and reports.
+- Changed the references dictionary to a reference string.
+- The completion block of chargeAmount: now either returns a paymentInfo or an NSError
+- The paymentInfo dictionary returned has been flattened and some keys have changed names or been removed, see "iZettle API.md"
+- Fixed a problem where amounts could loose their decimals if calling charge when not logged in.
+
+v0.6.1 - 2014-05-13
+* Fixed crash that could occur in a class load method.
+
+v0.6.0 - 2014-04-29
+- Removed references to purchase and removed purchase related keys.
+- Removed description and image from charge method.
+- Added references dictionary to charge method to allow user data to be associated with a payment.
+- Removed cash payment option.
+- Added support for Chip & Pin card reader key injection and firmware updating.
+- Only enable location services during payments.
+
+v0.5.3 - 2014-01-09
+- Fixes a problem with "loginFromViewController:" where the SDK would crash upon cancelling and return NO upon a successful login.
+
+v0.5.2 - 2013-12-19
+- iZettle views will only be presented in Portrait orientation for iPhone
+- Fixes a problem where IZPaymentTypeKey could return the wrong payment type
+- iZettle SDK will suppress update-dialogs asking the user to update iZettle
+
+v0.5.1 - 2013-12-18
+- Added abortOngoingPurchase method
+
+v0.5 - 2013-12-12
+- Prefixed SBJson and Reachability with IZ to avoid symbol collisions
+- Resetting NSDecimalNumber number behaviors after a purchase
+- Various bug fixes and stability improvements
+
+v0.4.3 - 2013-11-07
+- Improved handling of bad/no network conditions
+
+v0.4.2 - 2013-11-06
+- Fixes issues with detection of the Gemalto reader
+- Various bug fixes and stability improvements
+
+v0.4.1 - 2013-10-31
+- Fixes a problem where iZettle asked for microphone access
+- Fixes problems with music playback during the use of iZettle
+- Various bug fixes

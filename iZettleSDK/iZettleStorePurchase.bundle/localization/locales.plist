@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>en_GB</key>
+		<string>S1zFbKk-a21IBBqHOCbFUQ</string>
+	</dict>
+	<dict>
+		<key>sv_SE</key>
+		<string>65htvhyA_L2P9o9PxmG6ig</string>
+	</dict>
+	<dict>
+		<key>da_DK</key>
+		<string>FqA0XbIpSSWFnLnbRusiXA</string>
+	</dict>
+	<dict>
+		<key>nb_NO</key>
+		<string>0UpzDFAry4NKcXBd_aS3OA</string>
+	</dict>
+	<dict>
+		<key>fi_FI</key>
+		<string>7clUolKeDPwVWFDhwjF7tA</string>
+	</dict>
+	<dict>
+		<key>es_ES</key>
+		<string>sx6tK5jBsP0l9g-AzZzMkQ</string>
+	</dict>
+	<dict>
+		<key>de_DE</key>
+		<string>sNOXz7SNCmYEMt9bZNiDog</string>
+	</dict>
+	<dict>
+		<key>nl_NL</key>
+		<string>pNxTpxe8uyACzDR2zifWmw</string>
+	</dict>
+	<dict>
+		<key>pt_BR</key>
+		<string>TIHLDls7MSsI4FCZNZxq6w</string>
+	</dict>
+	<dict>
+		<key>es_MX</key>
+		<string>0F9BXvleNeILwG25BRU2BA</string>
+	</dict>
+    <dict>
+        <key>fr_FR</key>
+        <string></string>
+    </dict>
+</array>
+</plist>
