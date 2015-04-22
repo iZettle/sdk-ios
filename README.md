@@ -2,13 +2,13 @@
 
 ## Installation guide
 
+
 ### 1. Requirements
+* iOS 7.1 or later
+* XCode 6 (iOS 8 SDK)
+* An iZettle API Key (please visit [http://developer.izettle.com](http://developer.izettle.com/) in order to obtain one)
 
-    iOS 7 or greater
-    XCode 6 is recommended
-    iOS 8 SDK is recommended
-
-### 2. Include the following framework and bundles in your project:
+### 2. Include the following framework and bundles in your project
 
     iZettleSDK.framework
     iZettleShared.bundle
@@ -16,7 +16,7 @@
 
 Make sure that the bundles are included in the “Copy Bundle Resources” build phase.
 
-### 3. Make sure you link with the following frameworks and libraries:
+### 3. Make sure you link with the following frameworks and libraries
 
     libiZettleSDK.a
     libz.dylib
@@ -31,11 +31,11 @@ Make sure that the bundles are included in the “Copy Bundle Resources” build
     Accelerate.framework
     MessageUI.framework
 
-### 4. Modify your targets "Other Linker Flags" and add:
+### 4. Modify your targets "Other Linker Flags" and add
 
     -ObjC
 
-### 5. Setup external accessory protocols in info.plist:
+### 5. Setup external accessory protocols in info.plist
 
 Add/modify the property "Supported external accessory protocols" and add *com.miura.shuttle.izettle*
 
@@ -79,8 +79,6 @@ Example:
     	[[iZettleSDK shared] startWithAPIKey:@"API_KEY"];
     	return YES;
 	}
-
-In order to obtain an API key, please visit [http://developer.izettle.com](http://developer.izettle.com/).
 
 ## Operations
 
