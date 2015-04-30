@@ -48,7 +48,7 @@ This is what it should look like in the "source code" view of your info.plist:
     
 **Important**
 
-The iZettle bluetooth card reader is part of the Apple MFi program. In order to release apps supporting accessories that are part of the MFi Program, you have to apply at Apple. Please contact us at [sdk@izettle.com](sdk@izettle.com) and we will help you with this process.
+The iZettle bluetooth card reader is part of the Apple MFi program. In order to release apps supporting accessories that are part of the MFi Program, you have to apply at Apple. Please contact us at [sdk@izettle.com](mailto:sdk@izettle.com) and we will help you with this process.
 
 ### 6. Setup CLLocationManager texts in info.plist
 
