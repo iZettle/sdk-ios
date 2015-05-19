@@ -90,6 +90,11 @@ iZettle SDK will handle presentation and dismissal of its views. Operations with
 
 If the user isn't yet authenticated with iZettle when an operation is presented, a login screen will automatically be displayed.
 
+Some settings are set on the shared instance and will affect all operations:
+
+- **enforcedUserAccount** _(optional)_: If set, operations will be restricted to only work for the specified iZettle username.
+
+
 ### Charge
 
 Perform a payment with an amount and a reference.
@@ -129,6 +134,12 @@ Present iZettle settings view. The user can switch account, access the iZettle F
 
 	- (void)presentSettingsFromViewController:(UIViewController *)viewController;
 	
+### Invalidate session
+
+Invalidates the current iZettle session. If a user logs out from your app, this method can be used to automatically logout the user from iZettle at the same time.
+
+	- (void)invalidateSession;
+	
 ### Abort operation
 
 Attempt aborting the ongoing operation. Only use this if absolutely necessary. The state of the payment will be unknown to the user after this call.
@@ -150,6 +161,7 @@ Object that contains information about a payment and the card used.
 - **TSI***
 - **TVR***
 - **applicationName***
+- **authorizationCode**
 - **numberOfInstallments**
 - **installmentAmount**
 
@@ -165,6 +177,7 @@ Object that contains information about a payment and the card used.
     TSI = 4000
     TVR = 8000000000
     applicationName = MasterCard
+    authorizationCode = 007602
     
 #### Example of a card reader swipe payment:
 
@@ -172,6 +185,7 @@ Object that contains information about a payment and the card used.
     obfuscatedPan = "**** **** **** 2481"
     panHash = 99426D012C6740D9AEC8E26580E8640A196E3C27
     cardBrand = MASTERCARD
+    authorizationCode = 004601
 
 #### Example of a manual entry payment:
 
@@ -179,6 +193,7 @@ Object that contains information about a payment and the card used.
     obfuscatedPan = "**** **** **** 1111"
     panHash = 3E00BFA91E68894D5B6911A93C0F8C185708877B
     cardBrand = VISA
+    authorizationCode = 031503
     
 ### Errors
 

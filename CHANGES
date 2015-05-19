@@ -1,5 +1,13 @@
 iZettle SDK Release Notes
 
+v1.1.0 - 2015-05-13
+- Added new optional property "enforcedUserAccount", that if set, will enforces that only an iZettle user with this account will be allowed to be logged in.
+- Added a new method "invalidateSession" to programmatically logout an iZettle user
+- The payment result will include Authorization Code
+- Improved support pages
+- Support for new card reader
+- Stability improvements
+
 v1.0.0 - 2015-04-15
 - Methods for login, logout and user info has been removed. Login will be presented when needed, and logout is now available from the new settings view.
 - You can now pass an optional currency parameter to the charge method that will be validated by iZettle (if provided) for the currently logged in user.

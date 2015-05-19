@@ -16,6 +16,9 @@ typedef void(^iZettleSDKOperationCompletion)(iZettleSDKPaymentInfo *paymentInfo,
 + (iZettleSDK *)shared;
 - (void)startWithAPIKey:(NSString *)apiKey;
 
+/*! if set only an iZettle user with this account will be allowed to be logged in. */
+@property (nonatomic, copy) NSString *enforcedUserAccount;
+
 @end
 
 @interface iZettleSDK (Operations)
@@ -40,6 +43,9 @@ presentFromViewController:(UIViewController *)viewController
 /*! Present iZettle settings view. The user can switch account, access the iZettle FAQ, view card reader settings etc. */
 - (void)presentSettingsFromViewController:(UIViewController *)viewController;
 
+/*! Invalidate the current iZettle session. Use this to programmatically logout the user from iZettle. */
+- (void)invalidateSession;
+
 /*! Attempt aborting the ongoing operation. Only use this if absolutely necessary. The state of the payment will be unknown to the user after this call. */
 - (void)abortOperation;
 
@@ -51,11 +57,12 @@ presentFromViewController:(UIViewController *)viewController
 
 @property (nonatomic, readonly) NSString *referenceNumber;  // iZettles reference to the payment
 @property (nonatomic, readonly) NSString *entryMode;        // EMV, MAGSTRIPE, MANUAL_ENTRY
+@property (nonatomic, readonly) NSString *authorizationCode;
 
-// Card information
 @property (nonatomic, readonly) NSString *obfuscatedPan;    // **** **** **** 1111
 @property (nonatomic, readonly) NSString *panHash;          // Hash sum of the plain pan
 @property (nonatomic, readonly) NSString *cardBrand;
+
 @property (nonatomic, readonly) NSString *AID;
 @property (nonatomic, readonly) NSString *TSI;
 @property (nonatomic, readonly) NSString *TVR;
