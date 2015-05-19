@@ -3,4 +3,5 @@ xcuserdata
 *.pbxuser
 *.perspectivev3
 *.mode1v3
+*.xccheckout
 .DS_Store
