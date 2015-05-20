@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'Commercial', :file => 'LICENSE' }
   s.author       = { 'iZettle AB' => 'hello@izettle.com' }
   s.platform     = :ios, '7.1'
-  s.source       = { :git => 'https://github.com/iZettle/sdk-ios.git', :tag => "v#{s.version}" }
+  s.source       = { :git => 'https://github.com/iZettle/sdk-ios.git', :tag => "#{s.version}" }
   s.preserve_paths = 'iZettleSDK/iZettleSDK.framework'
   s.public_header_files = 'iZettleSDK/iZettleSDK.framework/**/*.h'
   s.vendored_frameworks = 'iZettleSDK/iZettleSDK.framework'
