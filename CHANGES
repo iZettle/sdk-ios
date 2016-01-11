@@ -1,5 +1,14 @@
 iZettle SDK Release Notes
 
+v1.2.0 - 2016-01-11
+- Updates for iOS SDK 9.0 and Xcode 7.0
+- Added support for Bitcode
+- Added nullable type annotations
+- retrievePaymentInfoForReference now expects a viewController (as it might have to prompt a login screen)
+- Some parameter validation that earlier resulted in thrown exceptions will now instead return NSErrors
+- Using enforcedUserAccount to handle multiple account won't no longer logout accounts when switching account
+- Extended the description of enforcedUserAccount
+
 v1.1.1 - 2015-09-17
 - Fixes issue with unsupported keys in Info.plists.
 
