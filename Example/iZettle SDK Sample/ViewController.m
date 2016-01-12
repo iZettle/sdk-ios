@@ -71,7 +71,7 @@
 }
 
 - (IBAction)lastPaymentInfo:(id)sender {
-    [[iZettleSDK shared] retrievePaymentInfoForReference:_lastReference completion:^(iZettleSDKPaymentInfo *paymentInfo, NSError *error) {
+    [[iZettleSDK shared] retrievePaymentInfoForReference:_lastReference presentFromViewController:self completion:^(iZettleSDKPaymentInfo *paymentInfo, NSError *error) {
         _lastPaymentInfo = paymentInfo;
         _lastError = error;
         [self _showConsole];

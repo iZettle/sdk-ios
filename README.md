@@ -1,8 +1,10 @@
 # iZettle SDK Documentation
 
+## Installation guide
+
 ### CocoaPods Installation
 
-[CocoaPods](http://www.cocoapods.org/) is a easy way to install iZettleSDK.
+[CocoaPods](http://www.cocoapods.org/) is an easy way to install iZettleSDK.
 
 ### 1. Podfile
 
@@ -13,8 +15,8 @@ pod 'iZettleSDK'
 
 ### 2. Continue from step 5 in manual installation process.
 
-### Manual Installation
 
+### Manual Installation
 
 ### 1. Requirements
 * iOS 7.1 or later
@@ -43,6 +45,7 @@ Make sure that the bundles are included in the “Copy Bundle Resources” build
     QuartzCore.framework
     Accelerate.framework
     MessageUI.framework
+    CoreData.framework 
 
 ### 4. Modify your targets "Other Linker Flags" and add
 
@@ -103,10 +106,17 @@ iZettle SDK will handle presentation and dismissal of its views. Operations with
 
 If the user isn't yet authenticated with iZettle when an operation is presented, a login screen will automatically be displayed.
 
-Some settings are set on the shared instance and will affect all operations:
+### Enforced User Account
 
 - **enforcedUserAccount** _(optional)_: If set, operations will be restricted to only work for the specified iZettle username.
 
+By setting the shared instance property **enforcedUserAccount** to an iZettle username, subsequent operations will be restricted to only be performed on that account. If the set enforced user account was not previosuly logged in, an iZettle login prompt will be presented with a readonly email field prefilled with the enforced user account. If the enforced user account was already logged in (even though another account has been used in between), the account will be switched to use the enforced user account account instead. 
+
+If **enforcedUserAccount** is set to nil, any iZettle account can be used, and the email field will be editable.
+
+Enforced user account can be changed between operations to allow switching between different users for different operations. This is useful for integrators supporting multiple accounts. 
+
+Preferably integrating apps will provide a settings page where the user can enter their iZettle account (used to set the enforced user account).
 
 ### Charge
 
@@ -149,7 +159,7 @@ Present iZettle settings view. The user can switch account, access the iZettle F
 	
 ### Invalidate session
 
-Invalidates the current iZettle session. If a user logs out from your app, this method can be used to automatically logout the user from iZettle at the same time.
+Invalidates the current iZettle session. We don't recommend using this operation to make the experience for the end user better. Instead you are encouraged to use the **enforcedUserAccount** feature instead to ensure what iZettle account is used.
 
 	- (void)invalidateSession;
 	
