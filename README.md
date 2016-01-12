@@ -2,6 +2,21 @@
 
 ## Installation guide
 
+### CocoaPods Installation
+
+[CocoaPods](http://www.cocoapods.org/) is an easy way to install iZettleSDK.
+
+### 1. Podfile
+
+```ruby
+platform :ios, '7.1'
+pod 'iZettleSDK'
+```
+
+### 2. Continue from step 5 in manual installation process.
+
+
+### Manual Installation
 
 ### 1. Requirements
 * iOS 7.1 or later
