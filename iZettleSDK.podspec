@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'iZettleSDK/iZettleSDK.framework/**/*.h'
   s.vendored_frameworks = 'iZettleSDK/iZettleSDK.framework'
   s.resources = ['iZettleSDK/iZettleShared.bundle', 'iZettleSDK/iZettleStorePurchase.bundle']
-  s.frameworks = 'SystemConfiguration', 'CoreLocation', 'ExternalAccessory', 'AudioToolbox', 'AVFoundation', 'MediaPlayer', 'QuartzCore', 'Accelerate', 'MessageUI'
+  s.frameworks = 'SystemConfiguration', 'CoreLocation', 'ExternalAccessory', 'AudioToolbox', 'AVFoundation', 'MediaPlayer', 'QuartzCore', 'Accelerate', 'MessageUI', 'CoreData'
   s.library   = 'z', 'c++'
   s.xcconfig  =  { 'OTHER_LDFLAGS' => '-ObjC', 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/iZettleSDK"' }
 end
