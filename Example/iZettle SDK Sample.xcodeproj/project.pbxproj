@@ -30,6 +30,7 @@
 		B46C97A01AC44E8500D3F6A6 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C979F1AC44E8500D3F6A6 /* MediaPlayer.framework */; };
 		B46C97A21AC44E8B00D3F6A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C97A11AC44E8B00D3F6A6 /* QuartzCore.framework */; };
 		B46C97A41AC44E9100D3F6A6 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C97A31AC44E9100D3F6A6 /* Accelerate.framework */; };
+		B48997541C4653F30052AE82 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48997531C4653F30052AE82 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,9 +48,9 @@
 		3F0C93C21AC3203D00305D8F /* ConsoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleViewController.m; sourceTree = "<group>"; };
 		3F6219A21AC3712500E1698B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main~iphone.storyboard"; sourceTree = "<group>"; };
 		B43DECB21AC93F3B0091D0E0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		B43DECC11AC97A550091D0E0 /* iZettleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iZettleSDK.framework; path = "../iZettleSDK/iZettleSDK.framework"; sourceTree = "<group>"; };
-		B43DECC21AC97A550091D0E0 /* iZettleShared.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = iZettleShared.bundle; path = "../iZettleSDK/iZettleShared.bundle"; sourceTree = "<group>"; };
-		B43DECC31AC97A550091D0E0 /* iZettleStorePurchase.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = iZettleStorePurchase.bundle; path = "../iZettleSDK/iZettleStorePurchase.bundle"; sourceTree = "<group>"; };
+		B43DECC11AC97A550091D0E0 /* iZettleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iZettleSDK.framework; path = ../iZettleSDK/iZettleSDK.framework; sourceTree = "<group>"; };
+		B43DECC21AC97A550091D0E0 /* iZettleShared.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = iZettleShared.bundle; path = ../iZettleSDK/iZettleShared.bundle; sourceTree = "<group>"; };
+		B43DECC31AC97A550091D0E0 /* iZettleStorePurchase.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = iZettleStorePurchase.bundle; path = ../iZettleSDK/iZettleStorePurchase.bundle; sourceTree = "<group>"; };
 		B46C97871AC4014000D3F6A6 /* AmountWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmountWheel.h; sourceTree = "<group>"; };
 		B46C97881AC4014000D3F6A6 /* AmountWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmountWheel.m; sourceTree = "<group>"; };
 		B46C97911AC44E3C00D3F6A6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -62,6 +63,7 @@
 		B46C979F1AC44E8500D3F6A6 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		B46C97A11AC44E8B00D3F6A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B46C97A31AC44E9100D3F6A6 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		B48997531C4653F30052AE82 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B48997541C4653F30052AE82 /* CoreData.framework in Frameworks */,
 				B43DECB31AC93F3B0091D0E0 /* MessageUI.framework in Frameworks */,
 				B46C97A41AC44E9100D3F6A6 /* Accelerate.framework in Frameworks */,
 				B46C97A21AC44E8B00D3F6A6 /* QuartzCore.framework in Frameworks */,
@@ -136,6 +139,7 @@
 		B46C97901AC44E0300D3F6A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B48997531C4653F30052AE82 /* CoreData.framework */,
 				B43DECC11AC97A550091D0E0 /* iZettleSDK.framework */,
 				B43DECC21AC97A550091D0E0 /* iZettleShared.bundle */,
 				B43DECC31AC97A550091D0E0 /* iZettleStorePurchase.bundle */,

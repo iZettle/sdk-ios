@@ -1,5 +1,11 @@
 iZettle SDK Release Notes
 
+v1.2.1 - 2016-01-14
+- Fixed issue with unsupported keys in Info.plist
+- Fixed dSYM warnings when integrating SDK
+- Fixed issue with Bitcode
+- Updated sample app and podspec to include CoreData framework
+
 v1.2.0 - 2016-01-11
 - Updates for iOS SDK 9.0 and Xcode 7.0
 - Added support for Bitcode

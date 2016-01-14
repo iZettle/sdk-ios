@@ -2,6 +2,7 @@
 
 ## Installation guide
 
+
 ### CocoaPods Installation
 
 [CocoaPods](http://www.cocoapods.org/) is an easy way to install iZettleSDK.
