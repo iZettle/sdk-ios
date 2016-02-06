@@ -1,30 +1,43 @@
-# iZettle SDK Documentation
+# iZettle SDK for iOS
 
-## Installation guide
+The iZettle SDK makes it possible to accept card payments with an iZettle card reader from any iOS app. When triggered, it will display a screen over the host application where all interaction takes place. It is designed to be easy to implement and use. 
 
+####Main features
+- Take card payments with an iZettle card reader.
+- Refund card payments.
+- Receive information about a payment.
+- Login/logout of iZettle accounts and simple switching between multiple accounts.
+- Settings screen where the user can handle card readers and access help and support.
+
+####Limitations:
+- The SDK will only work on markets where iZettle is operating, please visit izettle.com for more information.
+- It does not currently support other payment methods than cards.
+
+
+## Installation
 
 ### CocoaPods Installation
 
 [CocoaPods](http://www.cocoapods.org/) is an easy way to install iZettleSDK.
 
-### 1. Podfile
+#### 1. Podfile
 
 ```ruby
 platform :ios, '7.1'
 pod 'iZettleSDK'
 ```
 
-### 2. Continue from step 5 in manual installation process.
+#### 2. Continue from step 5 in manual installation process.
 
 
 ### Manual Installation
 
-### 1. Requirements
+#### 1. Requirements
 * iOS 7.1 or later
 * XCode 6 (iOS 8 SDK)
 * An iZettle API Key (please visit [http://developer.izettle.com](http://developer.izettle.com/) in order to obtain one)
 
-### 2. Include the following framework and bundles in your project
+#### 2. Include the following framework and bundles in your project
 
     iZettleSDK.framework
     iZettleShared.bundle
@@ -32,7 +45,7 @@ pod 'iZettleSDK'
 
 Make sure that the bundles are included in the “Copy Bundle Resources” build phase.
 
-### 3. Make sure you link with the following frameworks and libraries
+#### 3. Make sure you link with the following frameworks and libraries
 
     libiZettleSDK.a
     libz.dylib
@@ -48,11 +61,11 @@ Make sure that the bundles are included in the “Copy Bundle Resources” build
     MessageUI.framework
     CoreData.framework 
 
-### 4. Modify your targets "Other Linker Flags" and add
+#### 4. Modify your targets "Other Linker Flags" and add
 
     -ObjC
 
-### 5. Setup external accessory protocols in info.plist
+#### 5. Setup external accessory protocols in info.plist
 
 Add/modify the property "Supported external accessory protocols" and add *com.miura.shuttle.izettle*
 
@@ -67,7 +80,7 @@ This is what it should look like in the "source code" view of your info.plist:
 
 The iZettle bluetooth card reader is part of the Apple MFi program. In order to release apps supporting accessories that are part of the MFi Program, you have to apply at Apple. Please contact us at [sdk@izettle.com](mailto:sdk@izettle.com) and we will help you with this process.
 
-### 6. Setup CLLocationManager texts in info.plist
+#### 6. Setup CLLocationManager texts in info.plist
 
 iZettle will prompt the user for permission during the first payment if the merchant haven't already granted your app this permission. On iOS8, iZettle will execute CLLocationManagers method `requestWhenInUseAuthorization`.
 
@@ -80,7 +93,7 @@ Suggested value for the above keys is `"You need to allow this to be able to acc
 
 iZettle won't accept payments without these texts implemented.
 
-### 7. Include the framework headers and start the SDK
+#### 7. Include the framework headers and start the SDK
 
 Make sure to include the iZettle SDK header:
 
