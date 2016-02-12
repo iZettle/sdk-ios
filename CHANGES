@@ -1,5 +1,12 @@
 iZettle SDK Release Notes
 
+v1.2.2 - 2016-02-12
+- Prefixed some audio C++ libraries to avoid linker collisions.
+- Added support to disable audio readers by adding IZEnableAudioReaders set to NO to the main bundle's info.plist.
+- Fixed crash when manual payment was declined.
+- The invalidateSession method has been deprecated and will be removed in a future version.
+- Various fixes to the refund dialog
+
 v1.2.1 - 2016-01-14
 - Fixed issue with unsupported keys in Info.plist
 - Fixed dSYM warnings when integrating SDK

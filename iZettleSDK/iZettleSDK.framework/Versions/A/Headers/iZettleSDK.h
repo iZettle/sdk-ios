@@ -47,7 +47,7 @@ presentFromViewController:(UIViewController *)viewController
 - (void)presentSettingsFromViewController:(UIViewController *)viewController;
 
 /*! Invalidate the current iZettle session. Use this to programmatically logout the user from iZettle. */
-- (void)invalidateSession;
+- (void)invalidateSession __deprecated_msg("use enforcedUserAccount instead.");
 
 /*! Attempt aborting the ongoing operation. Only use this if absolutely necessary. The state of the payment will be unknown to the user after this call. */
 - (void)abortOperation;
