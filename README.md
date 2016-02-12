@@ -1,6 +1,8 @@
 # iZettle SDK for iOS
 
-The iZettle SDK makes it possible to accept card payments with an iZettle card reader from any iOS app. When triggered, it will display a screen over the host application where all interaction takes place. It is designed to be easy to implement and use. 
+The iZettle SDK makes it possible to accept card payments with an iZettle card reader from any iOS app.
+When triggered, it will display a screen over the host application where all interaction takes place. It 
+is designed to be easy to implement and use. 
 
 ####Main features
 - Take card payments with an iZettle card reader.
@@ -16,28 +18,29 @@ The iZettle SDK makes it possible to accept card payments with an iZettle card r
 
 ## Installation
 
+
 ### CocoaPods Installation
 
 [CocoaPods](http://www.cocoapods.org/) is an easy way to install iZettleSDK.
 
-#### 1. Podfile
+### 1. Podfile
 
 ```ruby
 platform :ios, '7.1'
 pod 'iZettleSDK'
 ```
 
-#### 2. Continue from step 5 in manual installation process.
+### 2. Continue from step 5 in manual installation process.
 
 
 ### Manual Installation
 
-#### 1. Requirements
+### 1. Requirements
 * iOS 7.1 or later
 * XCode 6 (iOS 8 SDK)
 * An iZettle API Key (please visit [http://developer.izettle.com](http://developer.izettle.com/) in order to obtain one)
 
-#### 2. Include the following framework and bundles in your project
+### 2. Include the following framework and bundles in your project
 
     iZettleSDK.framework
     iZettleShared.bundle
@@ -45,7 +48,7 @@ pod 'iZettleSDK'
 
 Make sure that the bundles are included in the “Copy Bundle Resources” build phase.
 
-#### 3. Make sure you link with the following frameworks and libraries
+### 3. Make sure you link with the following frameworks and libraries
 
     libiZettleSDK.a
     libz.dylib
@@ -61,11 +64,11 @@ Make sure that the bundles are included in the “Copy Bundle Resources” build
     MessageUI.framework
     CoreData.framework 
 
-#### 4. Modify your targets "Other Linker Flags" and add
+### 4. Modify your targets "Other Linker Flags" and add
 
     -ObjC
 
-#### 5. Setup external accessory protocols in info.plist
+### 5. Setup external accessory protocols in info.plist
 
 Add/modify the property "Supported external accessory protocols" and add *com.miura.shuttle.izettle*
 
@@ -78,11 +81,15 @@ This is what it should look like in the "source code" view of your info.plist:
     
 **Important**
 
-The iZettle bluetooth card reader is part of the Apple MFi program. In order to release apps supporting accessories that are part of the MFi Program, you have to apply at Apple. Please contact us at [sdk@izettle.com](mailto:sdk@izettle.com) and we will help you with this process.
+The iZettle bluetooth card reader is part of the Apple MFi program. In order to release apps supporting
+accessories that are part of the MFi Program, you have to apply at Apple. Please contact us at 
+[sdk@izettle.com](mailto:sdk@izettle.com) and we will help you with this process.
 
-#### 6. Setup CLLocationManager texts in info.plist
+### 6. Setup CLLocationManager texts in info.plist
 
-iZettle will prompt the user for permission during the first payment if the merchant haven't already granted your app this permission. On iOS8, iZettle will execute CLLocationManagers method `requestWhenInUseAuthorization`.
+iZettle will prompt the user for permission during the first payment if the merchant haven't already 
+granted your app this permission. On iOS8, iZettle will execute CLLocationManagers method 
+`requestWhenInUseAuthorization`.
 
 Add the keys:
 
@@ -93,13 +100,14 @@ Suggested value for the above keys is `"You need to allow this to be able to acc
 
 iZettle won't accept payments without these texts implemented.
 
-#### 7. Include the framework headers and start the SDK
+### 7. Include the framework headers and start the SDK
 
 Make sure to include the iZettle SDK header:
 
     #import <iZettleSDK/iZettleSDK.h> 
 
-Before you execute any operations in iZettle SDK, you have to start the SDK with your API key. This is typically done in your AppDelegates method `application:didFinishLaunchingWithOptions:`.
+Before you execute any operations in iZettle SDK, you have to start the SDK with your API key. This is 
+typically done in your AppDelegates method `application:didFinishLaunchingWithOptions:`.
 
     - (void)startWithAPIKey:(NSString *)apiKey;
     
@@ -114,23 +122,32 @@ Example:
 
 **Important:** Only use the singleton instance returned from `[iZettleSDK shared]` when calling the methods below.
 
-Asynchronous operations have a completion block as an argument, the completion block is called when an operation is considered complete, cancelled or failed. See **iZettleOperationCompletion** for more information.
+Asynchronous operations have a completion block as an argument, the completion block is called when an 
+operation is considered complete, cancelled or failed. See **iZettleOperationCompletion** for more information.
 
-iZettle SDK will handle presentation and dismissal of its views. Operations with UI will accept a UIViewController  as an argument from which iZettle SDK will be presented.
+iZettle SDK will handle presentation and dismissal of its views. Operations with UI will accept a UIViewController 
+as an argument from which iZettle SDK will be presented.
 
-If the user isn't yet authenticated with iZettle when an operation is presented, a login screen will automatically be displayed.
+If the user isn't yet authenticated with iZettle when an operation is presented, a login screen will automatically
+be displayed.
 
 ### Enforced User Account
 
 - **enforcedUserAccount** _(optional)_: If set, operations will be restricted to only work for the specified iZettle username.
 
-By setting the shared instance property **enforcedUserAccount** to an iZettle username, subsequent operations will be restricted to only be performed on that account. If the set enforced user account was not previosuly logged in, an iZettle login prompt will be presented with a readonly email field prefilled with the enforced user account. If the enforced user account was already logged in (even though another account has been used in between), the account will be switched to use the enforced user account account instead. 
+By setting the shared instance property **enforcedUserAccount** to an iZettle username, subsequent operations will be 
+restricted to only be performed on that account. If the set enforced user account was not previosuly logged in, an 
+iZettle login prompt will be presented with a readonly email field prefilled with the enforced user account. If the 
+enforced user account was already logged in (even though another account has been used in between), the account will 
+be switched to use the enforced user account account instead. 
 
 If **enforcedUserAccount** is set to nil, any iZettle account can be used, and the email field will be editable.
 
-Enforced user account can be changed between operations to allow switching between different users for different operations. This is useful for integrators supporting multiple accounts. 
+Enforced user account can be changed between operations to allow switching between different users for different 
+operations. This is useful for integrators supporting multiple accounts. 
 
-Preferably integrating apps will provide a settings page where the user can enter their iZettle account (used to set the enforced user account).
+Preferably integrating apps will provide a settings page where the user can enter their iZettle account (used to 
+set the enforced user account).
 
 ### Charge
 
@@ -173,13 +190,16 @@ Present iZettle settings view. The user can switch account, access the iZettle F
 	
 ### Invalidate session
 
-Invalidates the current iZettle session. We don't recommend using this operation to make the experience for the end user better. Instead you are encouraged to use the **enforcedUserAccount** feature instead to ensure what iZettle account is used.
+Invalidates the current iZettle session. We don't recommend using this operation to make the experience for 
+the end user better. Instead you are encouraged to use the **enforcedUserAccount** feature instead to ensure
+what iZettle account is used.
 
 	- (void)invalidateSession;
 	
 ### Abort operation
 
-Attempt aborting the ongoing operation. Only use this if absolutely necessary. The state of the payment will be unknown to the user after this call.
+Attempt aborting the ongoing operation. Only use this if absolutely necessary. The state of the payment will 
+be unknown to the user after this call.
 
 	- (void)abortOperation;
 
@@ -234,5 +254,8 @@ Object that contains information about a payment and the card used.
     
 ### Errors
 
-iZettle will display any errors that occur during an operation to the user, the NSError-object returned in the operation completion block is only intended to be used by developers for debugging, diagnostics and logging to be able to better communicate errors to iZettle. You should never present the returned errors to the end user.
+iZettle will display any errors that occur during an operation to the user, the NSError-object returned in 
+the operation completion block is only intended to be used by developers for debugging, diagnostics and 
+logging to be able to better communicate errors to iZettle. You should never present the returned errors to
+the end user.
 
