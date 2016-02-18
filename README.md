@@ -210,7 +210,7 @@ be unknown to the user after this call.
 Object that contains information about a payment and the card used.
 
 - **referenceNumber** - iZettles reference to the payment (not to be confused with the reference provided by you during a charge or refund operation)
-- **entryMode** - EMV, MAGSTRIPE or MANUAL_ENTRY
+- **entryMode** - EMV, CONTACTLESS_EMV, MAGSTRIPE or MANUAL_ENTRY
 - **obfuscatedPan** - e.g. _"\*\*\*\* \*\*\*\* \*\*\*\* 1111"_
 - **panHash** - a hash of the pan
 - **cardBrand**
@@ -235,7 +235,19 @@ Object that contains information about a payment and the card used.
     TVR = 8000000000
     applicationName = MasterCard
     authorizationCode = 007602
-    
+
+#### Example of a card reader contactless payment:
+
+	entryMode = CONTACTLESS_EMV
+	obfuscatedPan = "**** **** **** 0640"
+	panHash = 0092C7D95900033B84CE08B43F7E973485FB7081
+	cardBrand = MASTERCARD
+    AID = A0000000041010
+    TSI = 4000
+    TVR = 8000000000
+    applicationName = MasterCard
+    authorizationCode = 007602
+        
 #### Example of a card reader swipe payment:
 
     entryMode = MAGSTRIPE

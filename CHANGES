@@ -1,5 +1,9 @@
 iZettle SDK Release Notes
 
+v1.2.3 - 2016-02-18
+- Added contactless to the iZettlePaymentInfo documentation.
+- Fixed a memory leak.
+
 v1.2.2 - 2016-02-12
 - Prefixed some audio C++ libraries to avoid linker collisions.
 - Added support to disable audio readers by adding IZEnableAudioReaders set to NO to the main bundle's info.plist.
