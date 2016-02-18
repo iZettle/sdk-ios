@@ -37,7 +37,7 @@ pod 'iZettleSDK'
 
 ### 1. Requirements
 * iOS 7.1 or later
-* XCode 6 (iOS 8 SDK)
+* Xcode 6 (iOS 8 SDK)
 * An iZettle API Key (please visit [http://developer.izettle.com](http://developer.izettle.com/) in order to obtain one)
 
 ### 2. Include the following framework and bundles in your project
