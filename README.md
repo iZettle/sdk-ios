@@ -210,19 +210,19 @@ be unknown to the user after this call.
 Object that contains information about a payment and the card used.
 
 - **referenceNumber** - iZettles reference to the payment (not to be confused with the reference provided by you during a charge or refund operation)
-- **entryMode** - EMV, CONTACTLESS_EMV, MAGSTRIPE or MANUAL_ENTRY
+- **entryMode** - EMV, CONTACTLESS_EMV, MAGSTRIPE_CONTACTLESS, MAGSTRIPE, MANUAL_ENTRY etc. More entry modes might be added independent of SDK version
 - **obfuscatedPan** - e.g. _"\*\*\*\* \*\*\*\* \*\*\*\* 1111"_
 - **panHash** - a hash of the pan
 - **cardBrand**
+- **authorizationCode**
 - **AID***
 - **TSI***
 - **TVR***
 - **applicationName***
-- **authorizationCode**
-- **numberOfInstallments**
-- **installmentAmount**
+- **numberOfInstallments***
+- **installmentAmount***
 
-\* These fields are only for EMV (non refund) payments
+\* These fields are only available for some entry modes. Don't rely on them being present.
 
 #### Example of a card reader chip payment:
 
@@ -230,11 +230,11 @@ Object that contains information about a payment and the card used.
 	obfuscatedPan = "**** **** **** 0640"
 	panHash = 0092C7D95900033B84CE08B43F7E973485FB7081
 	cardBrand = MASTERCARD
+    authorizationCode = 007602
     AID = A0000000041010
     TSI = 4000
     TVR = 8000000000
     applicationName = MasterCard
-    authorizationCode = 007602
 
 #### Example of a card reader contactless payment:
 
@@ -242,11 +242,10 @@ Object that contains information about a payment and the card used.
 	obfuscatedPan = "**** **** **** 0640"
 	panHash = 0092C7D95900033B84CE08B43F7E973485FB7081
 	cardBrand = MASTERCARD
+    authorizationCode = 007602
     AID = A0000000041010
-    TSI = 4000
     TVR = 8000000000
     applicationName = MasterCard
-    authorizationCode = 007602
         
 #### Example of a card reader swipe payment:
 

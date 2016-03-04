@@ -1,8 +1,9 @@
 iZettle SDK Release Notes
 
-v1.2.3 - 2016-02-18
+v1.2.3 - 2016-02-23
 - Added contactless to the iZettlePaymentInfo documentation.
 - Fixed a memory leak.
+- Improved error reporting for invalid api-key or bundle-id
 
 v1.2.2 - 2016-02-12
 - Prefixed some audio C++ libraries to avoid linker collisions.
