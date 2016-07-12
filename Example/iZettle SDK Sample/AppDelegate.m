@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+@import iZettleSDK;
 #import <iZettleSDK/iZettleSDK.h>
 
 @implementation AppDelegate

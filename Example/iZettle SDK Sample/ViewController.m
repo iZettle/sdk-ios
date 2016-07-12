@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-#import <iZettleSDK/iZettleSDK.h>
+@import iZettleSDK;
 #import "AmountWheel.h"
 #import "ConsoleViewController.h"
 

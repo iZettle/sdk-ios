@@ -1,5 +1,14 @@
 iZettle SDK Release Notes
 
+v1.3.0 2016-07-11
+- The iZettleSDK now requires iOS SDK 8.0
+- The SDK is now distributed as dynamic frameworks to be embedded in your app instead of as before a static library and resource bundles.
+- Added support for the new iZettle Reader
+- VISA work around a.k.a SMS payments has been removed.
+- Manual card entry has been removed.
+- The invalidateSession method has been removed (it was deprecated in v1.2.2). Use enforcedUserAccount instead.
+- Bug fixes.
+
 v1.2.5 - 2016-06-03
 - Fixed issues with enforcedUserAccount and fast user switching.
 
