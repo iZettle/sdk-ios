@@ -16,9 +16,15 @@
 		3F0C93C31AC3203D00305D8F /* ConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C93C21AC3203D00305D8F /* ConsoleViewController.m */; };
 		3F6219A31AC3712500E1698B /* Main~iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6219A11AC3712500E1698B /* Main~iphone.storyboard */; };
 		B43DECB31AC93F3B0091D0E0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43DECB21AC93F3B0091D0E0 /* MessageUI.framework */; };
-		B43DECC41AC97A550091D0E0 /* iZettleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43DECC11AC97A550091D0E0 /* iZettleSDK.framework */; };
-		B43DECC51AC97A550091D0E0 /* iZettleShared.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B43DECC21AC97A550091D0E0 /* iZettleShared.bundle */; };
-		B43DECC61AC97A550091D0E0 /* iZettleStorePurchase.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B43DECC31AC97A550091D0E0 /* iZettleStorePurchase.bundle */; };
+		B458A64D1C577D9F0044D100 /* iZettlePayments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B458A64A1C577D9F0044D100 /* iZettlePayments.framework */; };
+		B458A64E1C577D9F0044D100 /* iZettleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B458A64B1C577D9F0044D100 /* iZettleSDK.framework */; };
+		B458A64F1C577D9F0044D100 /* iZettleShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B458A64C1C577D9F0044D100 /* iZettleShared.framework */; };
+		B458A6591C577EE70044D100 /* iZettlePayments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B458A6561C577EE70044D100 /* iZettlePayments.framework */; };
+		B458A65A1C577EE70044D100 /* iZettlePayments.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B458A6561C577EE70044D100 /* iZettlePayments.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B458A65B1C577EE70044D100 /* iZettleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B458A6571C577EE70044D100 /* iZettleSDK.framework */; };
+		B458A65C1C577EE70044D100 /* iZettleSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B458A6571C577EE70044D100 /* iZettleSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B458A65D1C577EE70044D100 /* iZettleShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B458A6581C577EE70044D100 /* iZettleShared.framework */; };
+		B458A65E1C577EE70044D100 /* iZettleShared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B458A6581C577EE70044D100 /* iZettleShared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B46C97891AC4014000D3F6A6 /* AmountWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = B46C97881AC4014000D3F6A6 /* AmountWheel.m */; };
 		B46C97921AC44E3C00D3F6A6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C97911AC44E3C00D3F6A6 /* libz.dylib */; };
 		B46C97941AC44E5100D3F6A6 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C97931AC44E5100D3F6A6 /* libc++.dylib */; };
@@ -30,8 +36,24 @@
 		B46C97A01AC44E8500D3F6A6 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C979F1AC44E8500D3F6A6 /* MediaPlayer.framework */; };
 		B46C97A21AC44E8B00D3F6A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C97A11AC44E8B00D3F6A6 /* QuartzCore.framework */; };
 		B46C97A41AC44E9100D3F6A6 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C97A31AC44E9100D3F6A6 /* Accelerate.framework */; };
-		B48997541C4653F30052AE82 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48997531C4653F30052AE82 /* CoreData.framework */; };
+		F638BC1F1BCE46CD009CA19C /* iZettleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F638BC1E1BCE46CD009CA19C /* iZettleSDK.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F638BC291BCE4869009CA19C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B458A65A1C577EE70044D100 /* iZettlePayments.framework in Embed Frameworks */,
+				B458A65C1C577EE70044D100 /* iZettleSDK.framework in Embed Frameworks */,
+				B458A65E1C577EE70044D100 /* iZettleShared.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3F0C93981AC30F4600305D8F /* iZettle SDK Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iZettle SDK Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,9 +70,12 @@
 		3F0C93C21AC3203D00305D8F /* ConsoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleViewController.m; sourceTree = "<group>"; };
 		3F6219A21AC3712500E1698B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main~iphone.storyboard"; sourceTree = "<group>"; };
 		B43DECB21AC93F3B0091D0E0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		B43DECC11AC97A550091D0E0 /* iZettleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iZettleSDK.framework; path = ../iZettleSDK/iZettleSDK.framework; sourceTree = "<group>"; };
-		B43DECC21AC97A550091D0E0 /* iZettleShared.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = iZettleShared.bundle; path = ../iZettleSDK/iZettleShared.bundle; sourceTree = "<group>"; };
-		B43DECC31AC97A550091D0E0 /* iZettleStorePurchase.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = iZettleStorePurchase.bundle; path = ../iZettleSDK/iZettleStorePurchase.bundle; sourceTree = "<group>"; };
+		B458A64A1C577D9F0044D100 /* iZettlePayments.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iZettlePayments.framework; path = "/Users/jens/Documents/iZettle-SDK-output/sdk-ios/Example/iZettlePayments.framework"; sourceTree = "<absolute>"; };
+		B458A64B1C577D9F0044D100 /* iZettleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iZettleSDK.framework; path = "/Users/jens/Documents/iZettle-SDK-output/sdk-ios/Example/iZettleSDK.framework"; sourceTree = "<absolute>"; };
+		B458A64C1C577D9F0044D100 /* iZettleShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iZettleShared.framework; path = "/Users/jens/Documents/iZettle-SDK-output/sdk-ios/Example/iZettleShared.framework"; sourceTree = "<absolute>"; };
+		B458A6561C577EE70044D100 /* iZettlePayments.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iZettlePayments.framework; path = ../iZettleSDK/iZettlePayments.framework; sourceTree = "<group>"; };
+		B458A6571C577EE70044D100 /* iZettleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iZettleSDK.framework; path = ../iZettleSDK/iZettleSDK.framework; sourceTree = "<group>"; };
+		B458A6581C577EE70044D100 /* iZettleShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iZettleShared.framework; path = ../iZettleSDK/iZettleShared.framework; sourceTree = "<group>"; };
 		B46C97871AC4014000D3F6A6 /* AmountWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmountWheel.h; sourceTree = "<group>"; };
 		B46C97881AC4014000D3F6A6 /* AmountWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmountWheel.m; sourceTree = "<group>"; };
 		B46C97911AC44E3C00D3F6A6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -63,7 +88,7 @@
 		B46C979F1AC44E8500D3F6A6 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		B46C97A11AC44E8B00D3F6A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B46C97A31AC44E9100D3F6A6 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
-		B48997531C4653F30052AE82 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F638BC1E1BCE46CD009CA19C /* iZettleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iZettleSDK.framework; path = "/Users/mansbernhardt/dev/iZettle-iOS/SDK-Universal/iZettleSDK.framework"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,19 +96,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B48997541C4653F30052AE82 /* CoreData.framework in Frameworks */,
 				B43DECB31AC93F3B0091D0E0 /* MessageUI.framework in Frameworks */,
+				B458A64D1C577D9F0044D100 /* iZettlePayments.framework in Frameworks */,
 				B46C97A41AC44E9100D3F6A6 /* Accelerate.framework in Frameworks */,
 				B46C97A21AC44E8B00D3F6A6 /* QuartzCore.framework in Frameworks */,
-				B43DECC41AC97A550091D0E0 /* iZettleSDK.framework in Frameworks */,
+				F638BC1F1BCE46CD009CA19C /* iZettleSDK.framework in Frameworks */,
+				B458A64E1C577D9F0044D100 /* iZettleSDK.framework in Frameworks */,
 				B46C97A01AC44E8500D3F6A6 /* MediaPlayer.framework in Frameworks */,
+				B458A6591C577EE70044D100 /* iZettlePayments.framework in Frameworks */,
 				B46C979E1AC44E7D00D3F6A6 /* AVFoundation.framework in Frameworks */,
+				B458A64F1C577D9F0044D100 /* iZettleShared.framework in Frameworks */,
 				B46C979C1AC44E7500D3F6A6 /* AudioToolbox.framework in Frameworks */,
 				B46C979A1AC44E6D00D3F6A6 /* ExternalAccessory.framework in Frameworks */,
 				B46C97981AC44E6400D3F6A6 /* CoreLocation.framework in Frameworks */,
 				B46C97961AC44E5C00D3F6A6 /* SystemConfiguration.framework in Frameworks */,
 				B46C97941AC44E5100D3F6A6 /* libc++.dylib in Frameworks */,
+				B458A65B1C577EE70044D100 /* iZettleSDK.framework in Frameworks */,
 				B46C97921AC44E3C00D3F6A6 /* libz.dylib in Frameworks */,
+				B458A65D1C577EE70044D100 /* iZettleShared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +123,9 @@
 		3F0C938F1AC30F4600305D8F = {
 			isa = PBXGroup;
 			children = (
+				B458A6561C577EE70044D100 /* iZettlePayments.framework */,
+				B458A6571C577EE70044D100 /* iZettleSDK.framework */,
+				B458A6581C577EE70044D100 /* iZettleShared.framework */,
 				3F0C939A1AC30F4600305D8F /* iZettle SDK Sample */,
 				B46C97901AC44E0300D3F6A6 /* Frameworks */,
 				3F0C93991AC30F4600305D8F /* Products */,
@@ -139,10 +172,6 @@
 		B46C97901AC44E0300D3F6A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B48997531C4653F30052AE82 /* CoreData.framework */,
-				B43DECC11AC97A550091D0E0 /* iZettleSDK.framework */,
-				B43DECC21AC97A550091D0E0 /* iZettleShared.bundle */,
-				B43DECC31AC97A550091D0E0 /* iZettleStorePurchase.bundle */,
 				B43DECB21AC93F3B0091D0E0 /* MessageUI.framework */,
 				B46C97A31AC44E9100D3F6A6 /* Accelerate.framework */,
 				B46C97A11AC44E8B00D3F6A6 /* QuartzCore.framework */,
@@ -168,6 +197,8 @@
 				3F0C93941AC30F4600305D8F /* Sources */,
 				3F0C93951AC30F4600305D8F /* Frameworks */,
 				3F0C93961AC30F4600305D8F /* Resources */,
+				F638BC291BCE4869009CA19C /* Embed Frameworks */,
+				B458A68B1C58C29F0044D100 /* Strip non-valid architectures */,
 			);
 			buildRules = (
 			);
@@ -189,6 +220,7 @@
 				TargetAttributes = {
 					3F0C93971AC30F4600305D8F = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = G94FN7ACW4;
 					};
 				};
 			};
@@ -215,16 +247,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B43DECC61AC97A550091D0E0 /* iZettleStorePurchase.bundle in Resources */,
 				3F0C93A71AC30F4600305D8F /* Main~ipad.storyboard in Resources */,
 				3F0C93AC1AC30F4600305D8F /* LaunchScreen.xib in Resources */,
 				3F0C93A91AC30F4600305D8F /* Images.xcassets in Resources */,
 				3F6219A31AC3712500E1698B /* Main~iphone.storyboard in Resources */,
-				B43DECC51AC97A550091D0E0 /* iZettleShared.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B458A68B1C58C29F0044D100 /* Strip non-valid architectures */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Strip non-valid architectures";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/iZettleSDK.framework/strip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3F0C93941AC30F4600305D8F /* Sources */ = {
@@ -303,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -339,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -351,13 +399,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/../**",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "iZettle SDK Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -367,13 +417,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/../**",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "iZettle SDK Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

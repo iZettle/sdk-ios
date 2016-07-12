@@ -1,3 +1,5 @@
+[![CocoaPods](https://img.shields.io/cocoapods/v/iZettleSDK.svg)](https://cocoapods.org/pods/iZettleSDK) [![CocoaPods](https://img.shields.io/cocoapods/p/iZettleSDK.svg)](https://cocoapods.org/pods/iZettleSDK)
+
 # iZettle SDK for iOS
 
 The iZettle SDK makes it possible to accept card payments with an iZettle card reader from any iOS app.
@@ -30,43 +32,46 @@ platform :ios, '7.1'
 pod 'iZettleSDK'
 ```
 
-### 2. Continue from step 5 in manual installation process.
+### 2. Continue from step 4 in manual installation process.
 
 
 ### Manual Installation
 
 ### 1. Requirements
-* iOS 7.1 or later
-* Xcode 6 (iOS 8 SDK)
+* iOS 8 or later
+* Xcode 7 (iOS 9 SDK)
 * An iZettle API Key (please visit [http://developer.izettle.com](http://developer.izettle.com/) in order to obtain one)
 
-### 2. Include the following framework and bundles in your project
+### 2. Add the iZettle frameworks to Embedded Frameworks for your target
 
     iZettleSDK.framework
-    iZettleShared.bundle
-    iZettleStorePurchase.bundle
-
-Make sure that the bundles are included in the “Copy Bundle Resources” build phase.
-
+    iZettlePayments.framework
+    iZettleShared.framework
+ 
 ### 3. Make sure you link with the following frameworks and libraries
 
-    libiZettleSDK.a
-    libz.dylib
-    libc++.dylib
-    SystemConfiguration.framework
-    CoreLocation.framework
-    ExternalAccessory.framework
+    iZettleSDK.framework
+    iZettlePayments.framework
+    iZettleShared.framework
+    Accelerate.framework
     AudioToolbox.framework
     AVFoundation.framework
-    MediaPlayer.framework
-    QuartzCore.framework
-    Accelerate.framework
-    MessageUI.framework
     CoreData.framework 
+    CoreLocation.framework
+    ExternalAccessory.framework
+    libc++.tdb
+    libz.tdb
+    MediaPlayer.framework
+    MessageUI.framework
+    SystemConfiguration.framework
+    QuartzCore.framework
 
-### 4. Modify your targets "Other Linker Flags" and add
+### 4. Create a new “Run Script Phase” in your app’s target’s “Build Phases” and paste the following snippet in the script text field:
 
-    -ObjC
+    bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/iZettleSDK.framework/strip-frameworks.sh"
+ 
+This step is required to work around an [App Store submission](http://www.openradar.me/radar?id=6409498411401216) bug when archiving universal binaries.
+
 
 ### 5. Setup external accessory protocols in info.plist
 
@@ -76,12 +81,13 @@ This is what it should look like in the "source code" view of your info.plist:
 
     <key>UISupportedExternalAccessoryProtocols</key>
     <array>
+        <string>com.izettle.cardreader-one</string>
         <string>com.miura.shuttle.izettle</string>
     </array>
     
 **Important**
 
-The iZettle bluetooth card reader is part of the Apple MFi program. In order to release apps supporting
+The iZettle bluetooth card readers are part of the Apple MFi program. In order to release apps supporting
 accessories that are part of the MFi Program, you have to apply at Apple. Please contact us at 
 [sdk@izettle.com](mailto:sdk@izettle.com) and we will help you with this process.
 
@@ -102,9 +108,9 @@ iZettle won't accept payments without these texts implemented.
 
 ### 7. Include the framework headers and start the SDK
 
-Make sure to include the iZettle SDK header:
+Make sure to include the iZettle SDK framework:
 
-    #import <iZettleSDK/iZettleSDK.h> 
+    @import iZettleSDK; 
 
 Before you execute any operations in iZettle SDK, you have to start the SDK with your API key. This is 
 typically done in your AppDelegates method `application:didFinishLaunchingWithOptions:`.
@@ -187,14 +193,7 @@ Query iZettle for payment information of a payment with a given reference.
 Present iZettle settings view. The user can switch account, access the iZettle FAQ, view card reader settings etc.
 
 	- (void)presentSettingsFromViewController:(UIViewController *)viewController;
-	
-### Invalidate session
-
-Invalidates the current iZettle session. We don't recommend using this operation to make the experience for 
-the end user better. Instead you are encouraged to use the **enforcedUserAccount** feature instead to ensure
-what iZettle account is used.
-
-	- (void)invalidateSession;
+ 
 	
 ### Abort operation
 
@@ -210,7 +209,7 @@ be unknown to the user after this call.
 Object that contains information about a payment and the card used.
 
 - **referenceNumber** - iZettles reference to the payment (not to be confused with the reference provided by you during a charge or refund operation)
-- **entryMode** - EMV, CONTACTLESS_EMV, MAGSTRIPE_CONTACTLESS, MAGSTRIPE, MANUAL_ENTRY etc. More entry modes might be added independent of SDK version
+- **entryMode** - EMV, CONTACTLESS_EMV, MAGSTRIPE_CONTACTLESS, MAGSTRIPE etc. More entry modes might be added independent of SDK version
 - **obfuscatedPan** - e.g. _"\*\*\*\* \*\*\*\* \*\*\*\* 1111"_
 - **panHash** - a hash of the pan
 - **cardBrand**
@@ -254,15 +253,7 @@ Object that contains information about a payment and the card used.
     panHash = 99426D012C6740D9AEC8E26580E8640A196E3C27
     cardBrand = MASTERCARD
     authorizationCode = 004601
-
-#### Example of a manual entry payment:
-
-	entryMode = MANUAL_ENTRY
-    obfuscatedPan = "**** **** **** 1111"
-    panHash = 3E00BFA91E68894D5B6911A93C0F8C185708877B
-    cardBrand = VISA
-    authorizationCode = 031503
-    
+ 
 ### Errors
 
 iZettle will display any errors that occur during an operation to the user, the NSError-object returned in 
