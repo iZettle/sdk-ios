@@ -28,8 +28,10 @@ is designed to be easy to implement and use.
 ### 1. Podfile
 
 ```ruby
-platform :ios, '7.1'
-pod 'iZettleSDK'
+platform :ios, '8.0'
+target 'Your App' do
+    pod 'iZettleSDK'
+end
 ```
 
 ### 2. Continue from step 4 in manual installation process.
