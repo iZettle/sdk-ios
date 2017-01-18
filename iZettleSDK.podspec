@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'iZettleSDK'
-  s.version      = '1.3.0'
+  s.version      = '1.3.1'
   s.summary      = 'iZettle SDK for iOS'
   s.description  = <<-DESC
                     For detailed information, please see iZettleSDK documentation and Readme.
@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { 'iZettle AB' => 'hello@izettle.com' }
   s.platform     = :ios, '8.0'
   s.source       = { :git => 'https://github.com/iZettle/sdk-ios.git', :tag => "#{s.version}" }
+  s.source_files =  "#{s.name}/**/*.{h,swift}" 
   s.preserve_paths = 'iZettleSDK/iZettleSDK.framework'
   s.public_header_files = 'iZettleSDK/iZettleSDK.framework/**/*.h'
   s.vendored_frameworks = 'iZettleSDK/iZettleSDK.framework', 'iZettleSDK/iZettleShared.framework', 'iZettleSDK/iZettlePayments.framework'
