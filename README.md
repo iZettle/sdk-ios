@@ -172,14 +172,16 @@ Perform a payment with an amount and a reference.
 - **reference** _(optional)_: The payment reference. Used to identify an iZettle payment, used when retrieving payment information at a later time or performing a refund. Max length 128.
 
 ### Refund
-
-Refund a payment with a given reference.
-
-	- (void)refundPaymentWithReference:(NSString *)reference
-                   	   refundReference:(NSString *)refundReference
-         	 presentFromViewController:(UIViewController *)viewController
-                      	    completion:(iZettleOperationCompletion)completion;
+ 
+Refund an amount from a payment with a given reference.
+ 
+	- (void)refundAmount:(nullable NSDecimalNumber *)amount
+    ofPaymentWithReference:(NSString *)reference
+    refundReference:(nullable NSString *)refundReference
+    presentFromViewController:(UIViewController *)viewController
+    completion:(iZettleSDKOperationCompletion)completion;
 	
+- **amount** _(optional)_: The amount to be refunded from the payment (passing `nil` will refund full amount of original payment)
 - **reference**: The reference of the payment that is to be refunded.
 - **refundReference** _(optional)_: The reference of the refund. Max length 128.
 
