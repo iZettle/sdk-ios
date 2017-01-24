@@ -160,13 +160,13 @@ set the enforced user account).
 ### Charge
 
 Perform a payment with an amount and a reference.
-
+```
 	- (void)chargeAmount:(NSDecimalNumber *)amount
                 currency:(NSString *)currency
         	   reference:(NSString *)reference
 	presentFromViewController:(UIViewController *)viewController
           	  completion:(iZettleOperationCompletion)completion;
-
+```
 - **amount**: The amount to be charged in the logged in users currency.
 - **currency** _(optional)_: Only used for validation. If the value of this parameter doesn't match the users currency the user will be notified and then logged out. For a complete list of valid currency codes, see [ISO 4217](http://www.xe.com/iso4217.php)
 - **reference** _(optional)_: The payment reference. Used to identify an iZettle payment, used when retrieving payment information at a later time or performing a refund. Max length 128.
@@ -174,13 +174,13 @@ Perform a payment with an amount and a reference.
 ### Refund
  
 Refund an amount from a payment with a given reference.
- 
+```
 	- (void)refundAmount:(nullable NSDecimalNumber *)amount
-    ofPaymentWithReference:(NSString *)reference
-    refundReference:(nullable NSString *)refundReference
-    presentFromViewController:(UIViewController *)viewController
-    completion:(iZettleSDKOperationCompletion)completion;
-	
+  ofPaymentWithReference:(NSString *)reference
+         refundReference:(nullable NSString *)refundReference
+presentFromViewController:(UIViewController *)viewController
+             completion:(iZettleSDKOperationCompletion)completion;
+```
 - **amount** _(optional)_: The amount to be refunded from the payment (passing `nil` will refund full amount of original payment)
 - **reference**: The reference of the payment that is to be refunded.
 - **refundReference** _(optional)_: The reference of the refund. Max length 128.
