@@ -185,6 +185,8 @@ Refund an amount from a payment with a given reference.
 - **reference**: The reference of the payment that is to be refunded.
 - **refundReference** _(optional)_: The reference of the refund. Max length 128.
 
+**Note:** Demo accounts (accounts that automatically revert performed payments) cannot be used to perform refunds. To test refund functionality please use a standard production iZettle account.
+
 ### Retrieve payment info
 
 Query iZettle for payment information of a payment with a given reference.
