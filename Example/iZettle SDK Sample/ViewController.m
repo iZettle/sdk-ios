@@ -81,11 +81,31 @@
 - (IBAction)refundLastPayment:(id)sender {
     NSString *paymentReference = _lastReference;
     _lastReference = [self _uniqueReference];
-    [[iZettleSDK shared] refundPaymentWithReference:paymentReference refundReference:_lastReference presentFromViewController:self completion:^(iZettleSDKPaymentInfo *paymentInfo, NSError *error) {
+    
+    [[iZettleSDK shared] refundAmount:nil ofPaymentWithReference:paymentReference refundReference:_lastReference presentFromViewController:self completion:^(iZettleSDKPaymentInfo * _Nullable paymentInfo, NSError * _Nullable error) {
         _lastPaymentInfo = paymentInfo;
         _lastError = error;
         [self _showConsole];
     }];
+}
+
+- (IBAction)enforceAccount:(id)sender {
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Enforce user account" message:@"Enter email" preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *enforce = [UIAlertAction actionWithTitle:@"Enforce" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        NSString *email = alert.textFields[0].text;
+        [iZettleSDK shared].enforcedUserAccount = email.length > 0 ? email : nil;
+        [sender setTitle:email.length > 0 ? [NSString stringWithFormat:@"Enforced: %@", email] : @"Enforce account" forState:UIControlStateNormal];
+    }];
+    UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {}];
+    [alert addAction:cancel];
+    [alert addAction:enforce];
+    [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+        textField.text = [iZettleSDK shared].enforcedUserAccount;
+        textField.placeholder = @"Email";
+        textField.keyboardType = UIKeyboardTypeEmailAddress;
+    }];
+    [self presentViewController:alert animated:YES completion:nil];
 }
 
 #pragma mark - Segue handling
