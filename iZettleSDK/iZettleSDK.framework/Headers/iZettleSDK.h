@@ -21,6 +21,10 @@ typedef void(^iZettleSDKOperationCompletion)(iZettleSDKPaymentInfo * _Nullable p
 /// If set only an iZettle user with this account will be allowed to be logged in.
 @property (nonatomic, copy, nullable) NSString *enforcedUserAccount;
 
+/// Returns YES if there is an active logged-in account
+/// If enforcedUserAccount is set, it will return YES only if the enforcedUserAccount is active
+@property (nonatomic, readonly) BOOL hasActiveAccount;
+
 @end
 
 @interface iZettleSDK (Operations)
