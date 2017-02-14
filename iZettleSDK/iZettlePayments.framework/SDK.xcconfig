@@ -1,0 +1,11 @@
+//
+//  Frameworks.xcconfig
+//  iZettle
+//
+//  Created by Måns Bernhardt on 2016-01-22.
+//  Copyright © 2016 iZettle. All rights reserved.
+//
+
+#include "Framework.xcconfig"
+
+IPHONEOS_DEPLOYMENT_TARGET = 8.0
