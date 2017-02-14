@@ -1,4 +1,9 @@
+v1.4.2 - 2017-02-14
+- Updated deploy targets on frameworks to be 8.0 (instead of the incorrect 9.0)
+- Fixed a UI glitch when retrieving info about a payment
+
 v1.4.1 - 2017-02-09
+- Fixed a bug causing crash
 - A new property hasActiveAccount has been added.
 - The SDK will now reset UIView.areAnimationsEnabled after being presented.
 - Fixed a bug where the version of the framework and hence the iZettleSDK version property still reported "1.3"
