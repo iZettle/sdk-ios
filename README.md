@@ -6,14 +6,14 @@ The iZettle SDK makes it possible to accept card payments with an iZettle card r
 When triggered, it will display a screen over the host application where all interaction takes place. It 
 is designed to be easy to implement and use. 
 
-#### Main features
+####Main features
 - Take card payments with an iZettle card reader.
 - Refund card payments.
 - Receive information about a payment.
 - Login/logout of iZettle accounts and simple switching between multiple accounts.
 - Settings screen where the user can handle card readers and access help and support.
 
-#### Limitations:
+####Limitations:
 - The SDK will only work on markets where iZettle is operating, please visit izettle.com for more information.
 - It does not currently support other payment methods than cards.
 
@@ -77,7 +77,7 @@ This step is required to work around an [App Store submission](http://www.openra
 
 ### 5. Setup external accessory protocols in info.plist
 
-Add/modify the property "Supported external accessory protocols" and add *com.miura.shuttle.izettle*
+Add/modify the property "Supported external accessory protocols" and add *com.miura.shuttle.izettle* and *com.izettle.cardreader-one*
 
 This is what it should look like in the "source code" view of your info.plist:
 
@@ -160,13 +160,13 @@ set the enforced user account).
 ### Charge
 
 Perform a payment with an amount and a reference.
-
+```
 	- (void)chargeAmount:(NSDecimalNumber *)amount
                 currency:(NSString *)currency
         	   reference:(NSString *)reference
 	presentFromViewController:(UIViewController *)viewController
           	  completion:(iZettleOperationCompletion)completion;
-
+```
 - **amount**: The amount to be charged in the logged in users currency.
 - **currency** _(optional)_: Only used for validation. If the value of this parameter doesn't match the users currency the user will be notified and then logged out. For a complete list of valid currency codes, see [ISO 4217](http://www.xe.com/iso4217.php)
 - **reference** _(optional)_: The payment reference. Used to identify an iZettle payment, used when retrieving payment information at a later time or performing a refund. Max length 128.
@@ -174,16 +174,18 @@ Perform a payment with an amount and a reference.
 ### Refund
  
 Refund an amount from a payment with a given reference.
- 
+```
 	- (void)refundAmount:(nullable NSDecimalNumber *)amount
-    ofPaymentWithReference:(NSString *)reference
-    refundReference:(nullable NSString *)refundReference
-    presentFromViewController:(UIViewController *)viewController
-    completion:(iZettleSDKOperationCompletion)completion;
-	
+  ofPaymentWithReference:(NSString *)reference
+         refundReference:(nullable NSString *)refundReference
+presentFromViewController:(UIViewController *)viewController
+             completion:(iZettleSDKOperationCompletion)completion;
+```
 - **amount** _(optional)_: The amount to be refunded from the payment (passing `nil` will refund full amount of original payment)
 - **reference**: The reference of the payment that is to be refunded.
 - **refundReference** _(optional)_: The reference of the refund. Max length 128.
+
+**Note:** Demo accounts (accounts that automatically revert performed payments) cannot be used to perform refunds. To test refund functionality please use a standard production iZettle account.
 
 ### Retrieve payment info
 
