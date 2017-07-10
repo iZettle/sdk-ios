@@ -1,5 +1,6 @@
 1.5 - 2017-07-04
-- General improvements and bug fixes in payment flow
+- Stability improvments
+- Add support for PIN bypass on supported readers
 
 v1.4.2 - 2017-02-14
 - Updated deploy targets on frameworks to be 8.0 (instead of the incorrect 9.0)
