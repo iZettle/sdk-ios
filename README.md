@@ -6,14 +6,14 @@ The iZettle SDK makes it possible to accept card payments with an iZettle card r
 When triggered, it will display a screen over the host application where all interaction takes place. It 
 is designed to be easy to implement and use. 
 
-####Main features
+#### Main features
 - Take card payments with an iZettle card reader.
 - Refund card payments.
 - Receive information about a payment.
 - Login/logout of iZettle accounts and simple switching between multiple accounts.
 - Settings screen where the user can handle card readers and access help and support.
 
-####Limitations:
+#### Limitations:
 - The SDK will only work on markets where iZettle is operating, please visit izettle.com for more information.
 - It does not currently support other payment methods than cards.
 
