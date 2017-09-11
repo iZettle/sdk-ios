@@ -1,5 +1,9 @@
-1.5 - 2017-07-24
+1.6 - 2017-09-11
 - - Stability improvements
+- iOS 11 support and fixes
+
+v1.5 - 2017-07-24
+- Stability improvements
 - Add support for PIN bypass on supported readers
 
 v1.4.2 - 2017-02-14
