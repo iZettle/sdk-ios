@@ -1,9 +1,5 @@
-1.6.1 - 2017-09-22
-- Fix an issue with "unsupported url" message shown during payment flow
-
-1.6 - 2017-09-15
+1.6.2 - 2017-09-29
 - Stability improvements
-- iOS 11 support and fixes
 
 v1.5 - 2017-07-24
 - Stability improvements
