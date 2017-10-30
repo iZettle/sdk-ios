@@ -27,7 +27,7 @@ is designed to be easy to implement and use.
 ## Requirements
 * iOS 8 or later
 * Xcode 7 (iOS 9 SDK)
-* An iZettle SDK Key. Visit [iZettle Developer Page](https://www.izettle.com/se/developer) in order to obtain one.
+* An iZettle API Key. Visit [iZettle Developer Page](https://www.izettle.com/se/developer) in order to obtain one.
 
 ## Installation
 
