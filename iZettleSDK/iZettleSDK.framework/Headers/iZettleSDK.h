@@ -33,6 +33,7 @@ typedef void(^iZettleSDKOperationCompletion)(iZettleSDKPaymentInfo * _Nullable p
 /// @param completion:  Completion handler that will be called when the operation finishes.
 - (void)chargeAmount:(NSDecimalNumber *)amount
             currency:(nullable NSString *)currency
+       enableTipping:(BOOL)enableTipping
            reference:(nullable NSString *)reference
 presentFromViewController:(UIViewController *)viewController
           completion:(iZettleSDKOperationCompletion)completion;
