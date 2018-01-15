@@ -27,7 +27,7 @@ is designed to be easy to implement and use.
 ## Requirements
 * iOS 8 or later
 * Xcode 7 (iOS 9 SDK)
-* An iZettle SDK Key. Visit [iZettle Developer Page](https://www.izettle.com/se/developer) in order to obtain one.
+* An iZettle SDK Key. Visit [iZettle Developer Page](https://www.izettle.com/gb/developer) in order to obtain one. **Note: SDK keys only work for apps using the same bundle identifier as the one they key were issued for.**
 
 ## Installation
 
@@ -66,13 +66,13 @@ Since iZettle SDK is distributed as a binary, you need to use custom `binary` ru
 1. Add following to your `Cartfile`:
 
 ```
-binary "https://raw.githubusercontent.com/iZettle/sdk-ios/master/carthage.json" >= 1.5
+binary "https://raw.githubusercontent.com/iZettle/sdk-ios/master/Carthage/iZettleSDK.json" >= 1.6.1
 ```
 
 2. Fetch frameworks by running:
 
 ```bash
-$ carthage update
+$ carthage update iZettleSDK
 ```
 
 ### Manual Installation
