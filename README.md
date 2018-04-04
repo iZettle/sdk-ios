@@ -23,11 +23,11 @@ is designed to be easy to implement and use.
 * [Installation](#installation)
 * [SDK Operations](#sdk-operations)
 * [Errors](#errors)
-
+ 
 ## Requirements
 * iOS 8 or later
 * Xcode 7 (iOS 9 SDK)
-* An iZettle SDK Key. Visit [iZettle Developer Page](https://www.izettle.com/gb/developer) in order to obtain one. **Note: SDK keys work only for bundle identifiers they were issued for.**
+* An iZettle API Key. Visit [iZettle Developer Page](https://www.izettle.com/gb/developer) in order to obtain one. **Note: SDK API keys work only for bundle identifiers which they were issued for.**
 
 ## Installation
 
@@ -176,7 +176,7 @@ typically done in your AppDelegates method `application:didFinishLaunchingWithOp
 
 **Swift:**
 ```swift
-open func start(withAPIKey apiKey: String)
+open func start(with APIKey: String)
 ```
 
 For example:
@@ -192,7 +192,7 @@ For example:
 **Swift:**
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-    iZettleSDK.shared().start(withAPIKey: "API_KEY")
+    iZettleSDK.shared().start(with: "API_KEY")
     return true
 }
 ```
@@ -208,23 +208,11 @@ iZettle SDK will handle presentation and dismissal of its views. Operations with
 
 If the user isn't yet authenticated with iZettle when an operation is presented, a login screen will automatically be displayed.
 
-* [Enforced User Account](#enforced-user-account)
 * [Charging](#charging)
 * [Refunding](#refunding)
 * [Retrieving payment info](#retrieve-payment-info)
 * [Aborting operation](#aborting-operation)
-
-### Enforced User Account
-
-- `enforcedUserAccount` _(optional)_: If set, operations will be restricted to only work for the specified iZettle username.
-
-By setting the shared instance property `enforcedUserAccount` to an iZettle username, subsequent operations will be restricted to only be performed on that account. If the set enforced user account was not previosuly logged in, an iZettle login prompt will be presented with a readonly email field prefilled with the enforced user account. If the enforced user account was already logged in (even though another account has been used in between), the account will be switched to use the enforced user account account instead. 
-
-If `enforcedUserAccount` is set to nil, any iZettle account can be used, and the email field will be editable.
-
-Enforced user account can be changed between operations to allow switching between different users for different operations. This is useful for integrators supporting multiple accounts. 
-
-Preferably integrating apps will provide a settings page where the user can enter their iZettle account (used to set the enforced user account).
+* [Enforced User Account](#enforced-user-account)
 
 ### Charging
 
@@ -239,16 +227,27 @@ presentFromViewController:(UIViewController *)viewController
 ```
 
 ```swift
-open func chargeAmount(_ amount: NSDecimalNumber, 
-                       currency: String?, 
-                       reference: String?, 
-                       presentFrom viewController: UIViewController, 
-                       completion: @escaping iZettleSDK.iZettleSDKOperationCompletion)
+ open func charge(amount: NSDecimalNumber, 
+ 	currency: String?, 
+ 	enableTipping: Bool, 
+ 	reference: String?, 
+ 	presentFrom viewController: UIViewController, 
+ 	completion: @escaping iZettleSDK.iZettleSDKOperationCompletion)
 ```
 
 - `amount`: The amount to be charged in the logged in users currency.
+- `enableTipping`: Perform payment with tipping flow
 - `currency` _(optional)_: Only used for validation. If the value of this parameter doesn't match the users currency the user will be notified and then logged out. For a complete list of valid currency codes, see [ISO 4217](http://www.xe.com/iso4217.php)
 - `reference` _(optional)_: The payment reference. Used to identify an iZettle payment, used when retrieving payment information at a later time or performing a refund. Max length 128.
+
+
+#### Note on tipping
+
+Passing `enableTipping` to the `charge(amount:)` call does not guarantee that tipping flow will be displayed. This is because tipping is not supported by all accounts and all card readers. Currently, tipping is only supported in Sweden with iZettle Card Reader. If card reader software doesn't support tipping, users will be prompted to either skip tipping or update card reader software. 
+
+Total tip amount is presented in `iZettleSDKOperationCompletion` completion with `gratuityAmount` property.
+
+More documentation on the tipping flow can be found [here](https://github.com/iZettle/sdk-ios/tree/master/Documentation)
 
 ### Refunding
 
@@ -263,11 +262,11 @@ presentFromViewController:(UIViewController *)viewController
 ```
 
 ```swift
-open func refundAmount(_ amount: NSDecimalNumber?, 
-                       ofPaymentWithReference reference: String, 
-                       refundReference: String?, 
-                       presentFrom viewController: UIViewController, 
-                       completion: @escaping iZettleSDK.iZettleSDKOperationCompletion)
+open func refund(amount: NSDecimalNumber?, 
+	ofPayment reference: String, 
+	withRefundReference refundReference: String?, 
+	presentFrom viewController: UIViewController, 
+	completion: @escaping iZettleSDK.iZettleSDKOperationCompletion)
 ```
 
 - `amount` _(optional)_: The amount to be refunded from the payment (passing `nil` will refund full amount of original payment)
@@ -286,9 +285,9 @@ Query iZettle for payment information of a payment with a given reference.
 ```
 
 ```swift
-open func retrievePaymentInfo(forReference reference: String, 
-                              presentFrom viewController: UIViewController, 
-                              completion: @escaping iZettleSDK.iZettleSDKOperationCompletion)
+open func retrievePaymentInfo(for reference: String, 
+	presentFrom viewController: UIViewController, 
+	completion: @escaping iZettleSDK.iZettleSDKOperationCompletion)
 ```
 
 ### Presenting settings
@@ -316,12 +315,27 @@ be unknown to the user after this call.
 open func abortOperation()
 ```
 
+### Enforced User Account
+
+- `enforcedUserAccount` _(optional)_: If set, operations will be restricted to only work for the specified iZettle username.
+
+By setting the shared instance property `enforcedUserAccount` to an iZettle username, subsequent operations will be restricted to only be performed on that account. If the set enforced user account was not previously logged in, an iZettle login prompt will be presented with a readonly email field prefilled with the enforced user account. If the enforced user account was already logged in (even though another account has been used in between), the account will be switched to use the enforced user account instead. 
+
+If `enforcedUserAccount` is set to nil, any iZettle account can be used, and the email field will be editable.
+
+Enforced user account can be changed between operations to allow switching between different users for different operations. This is useful for integrators supporting multiple accounts. 
+
+Preferably integrating apps will provide a settings page where the user can enter their iZettle account (used to set the enforced user account).
+
+
 ## iZettleOperationCompletion
 
 ### iZettlePaymentInfo
 
 Object that contains information about a payment and the card used.
 
+- `amount` - Total transaction amount (also includes tip amount if applicable)
+- `gratuityAmount` - Contains total tip amount if tipping is performed
 - `referenceNumber` - iZettles reference to the payment (not to be confused with the reference provided by you during a charge or refund operation)
 - `entryMode` - EMV, CONTACTLESS_EMV, MAGSTRIPE_CONTACTLESS, MAGSTRIPE etc. More entry modes might be added independent of SDK version
 - `obfuscatedPan` - e.g. _"\*\*\*\* \*\*\*\* \*\*\*\* 1111"_
