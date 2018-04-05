@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *amountLabel;
 @property (weak, nonatomic) IBOutlet UIToolbar *lastPaymentInfoToolBar;
 @property (weak, nonatomic) IBOutlet UIView *dotView;
+@property (weak, nonatomic) IBOutlet UISwitch *tippingSwitch;
 @end
 
 @implementation ViewController {
@@ -56,7 +57,7 @@
     _lastReference = [self _uniqueReference];
     NSDecimalNumber *amount = _amountWheel.amount;
     
-    [[iZettleSDK shared] chargeAmount:amount currency:nil reference:_lastReference presentFromViewController:self completion:^(iZettleSDKPaymentInfo *paymentInfo, NSError *error) {
+    [[iZettleSDK shared] chargeAmount:amount currency:nil enableTipping:self.tippingSwitch.isOn reference:_lastReference presentFromViewController:self completion:^(iZettleSDKPaymentInfo *paymentInfo, NSError *error) {
         _lastPaymentInfo = paymentInfo;
         _lastError = error;
         _timestamp = [NSDate date];

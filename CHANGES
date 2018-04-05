@@ -1,3 +1,9 @@
+1.7.1 - 2018-04-04
+- Support for tipping with iZettle Reader
+- iOS 11 bug fixes
+- Better support for Swift programming language
+- Stability improvements
+
 1.6.2 - 2018-02-05
 - Added a prefix to NSDictionary `dateForKey:` extension
 
