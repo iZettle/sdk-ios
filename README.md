@@ -243,7 +243,7 @@ presentFromViewController:(UIViewController *)viewController
 
 #### Note on tipping
 
-Passing `enableTipping` to the `charge(amount:)` call does not guarantee that tipping flow will be displayed. This is because tipping is not supported by all accounts and all card readers. Currently, tipping is only supported in Sweden with iZettle Card Reader. If card reader software doesn't support tipping, users will be prompted to either skip tipping or update card reader software. 
+Passing `enableTipping` to the `charge(amount:)` call does not guarantee that tipping flow will be displayed. This is because tipping is not supported by all accounts and all card readers. Tipping is only supported with the iZettle Card Reader. The function is introduced market by market. If card reader software doesn’t support tipping, users will be prompted to either skip tipping or update card reader software.
 
 Total tip amount is presented in `iZettleSDKOperationCompletion` completion with `gratuityAmount` property.
 
