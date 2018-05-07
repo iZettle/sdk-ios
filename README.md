@@ -135,7 +135,20 @@ This is what it should look like in the "source code" view of your info.plist:
 
 The iZettle bluetooth card readers are part of the Apple MFi program. In order to release apps supporting accessories that are part of the MFi Program, you have to apply at Apple. Please contact us at  [sdk@izettle.com](mailto:sdk@izettle.com) and we will help you with this process.
 
-### 2. Setup CLLocationManager keys in your `Info.plist`
+### 2. Setup external accessory communication background mode
+
+Enable support for external accessory communication from the Background modes section of the Capabilities tab in your Xcode project.
+
+You can also enable this support by including the UIBackgroundModes key with the `external-accessory` value in your app’s Info.plist file:
+
+```plist
+<key>UIBackgroundModes</key>
+<array>
+    <string>external-accessory</string>
+</array>
+```
+
+### 3. Setup CLLocationManager keys in your `Info.plist`
 
 iZettle will prompt the user for permission during the first payment if the merchant haven't already 
 granted your app this permission. On iOS8, iZettle will execute CLLocationManagers method 
@@ -150,7 +163,7 @@ Suggested value for the keys above is `"You need to allow this to be able to acc
 
 iZettle won't accept payments without these texts implemented.
 
-### 3. Import SDK framework
+### 4. Import SDK framework
 
 Make sure to include the iZettle SDK framework:
 
@@ -164,7 +177,7 @@ Make sure to include the iZettle SDK framework:
 import iZettleSDK
 ```
 
-### 4. Setup your API key
+### 5. Setup your API key
 
 Before you execute any operations in iZettle SDK, you have to start the SDK with your API key. This is 
 typically done in your AppDelegates method `application:didFinishLaunchingWithOptions:`.
