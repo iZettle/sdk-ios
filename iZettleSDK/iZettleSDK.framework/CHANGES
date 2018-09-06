@@ -1,3 +1,6 @@
+1.7.2 - 2018-09-06
+- Fixed an issue with memory leaks when using `NSDateFormatter`
+
 1.6 - 2017-09-15
 - Stability improvements
 - iOS 11 support and fixes
