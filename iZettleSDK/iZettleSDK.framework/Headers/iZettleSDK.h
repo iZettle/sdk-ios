@@ -112,6 +112,10 @@ __attribute__((deprecated("Use chargeAmount:currency:enableTipping:reference:pre
 @property (nonatomic, readonly, nullable) NSNumber *numberOfInstallments;
 @property (nonatomic, readonly, nullable) NSDecimalNumber *installmentAmount;
 
+// Only used for Mexico
+@property (nonatomic, readonly, nullable) NSString *mxFIID;
+@property (nonatomic, readonly, nullable) NSString *mxCardType;
+
 @end
 
 NS_ASSUME_NONNULL_END

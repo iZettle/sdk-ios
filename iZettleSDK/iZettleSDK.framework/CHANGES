@@ -1,3 +1,23 @@
+2.0 - 2018-11-08
+- Added support for iZettle Reader 2
+- Added support for in-app pairing flow for iZettle Reader 2
+- Added support for wake-up/sleep behaviour with iZettle Reader 2
+- Fixed an issue where usage of `NSDateFormatter` produced a memory leak
+- Fixed a issue that could occur when disconnecting card readers on iOS 9 devices
+- Other stability improvements and bug fixes
+
+1.7.1 - 2018-04-04
+- Support for tipping with iZettle Reader
+- iOS 11 bug fixes
+- Better support for Swift programming language
+- Stability improvements
+
+1.6.2 - 2018-02-05
+- Added a prefix to NSDictionary `dateForKey:` extension
+
+1.6.1 - 2017-09-22
+- Fix an issue with "unsupported url" message shown during payment flow
+
 1.6 - 2017-09-15
 - Stability improvements
 - iOS 11 support and fixes
