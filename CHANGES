@@ -1,3 +1,11 @@
+2.0 - 2018-11-08
+- Added support for iZettle Reader 2
+- Added support for in-app pairing flow for iZettle Reader 2
+- Added support for wake-up/sleep behaviour with iZettle Reader 2
+- Fixed an issue where usage of `NSDateFormatter` produced a memory leak
+- Fixed a issue that could occur when disconnecting card readers on iOS 9 devices
+- Other stability improvements and bug fixes
+
 1.7.1 - 2018-04-04
 - Support for tipping with iZettle Reader
 - iOS 11 bug fixes

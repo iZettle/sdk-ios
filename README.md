@@ -83,6 +83,7 @@ $ carthage update iZettleSDK
 iZettleSDK.framework
 iZettlePayments.framework
 iZettleShared.framework
+iZettleTransport.framework
 ```
 
 2. Make sure you link with the following frameworks and libraries:
@@ -91,6 +92,7 @@ iZettleShared.framework
 iZettleSDK.framework
 iZettlePayments.framework
 iZettleShared.framework
+iZettleTransport.framework
 Accelerate.framework
 AudioToolbox.framework
 AVFoundation.framework
@@ -139,11 +141,12 @@ The iZettle bluetooth card readers are part of the Apple MFi program. In order t
 
 Enable support for external accessory communication from the Background modes section of the Capabilities tab in your Xcode project.
 
-You can also enable this support by including the UIBackgroundModes key with the `external-accessory` value in your app’s Info.plist file:
+You can also enable this support by including the `UIBackgroundModes` key with the `external-accessory` and `bluetooth-central` values in your app’s Info.plist file:
 
 ```plist
 <key>UIBackgroundModes</key>
 <array>
+    <string>bluetooth-central</string>
     <string>external-accessory</string>
 </array>
 ```
@@ -241,11 +244,11 @@ presentFromViewController:(UIViewController *)viewController
 
 ```swift
  open func charge(amount: NSDecimalNumber, 
- 	currency: String?, 
- 	enableTipping: Bool, 
- 	reference: String?, 
- 	presentFrom viewController: UIViewController, 
- 	completion: @escaping iZettleSDK.iZettleSDKOperationCompletion)
+  currency: String?, 
+  enableTipping: Bool, 
+  reference: String?, 
+  presentFrom viewController: UIViewController, 
+  completion: @escaping iZettleSDK.iZettleSDKOperationCompletion)
 ```
 
 - `amount`: The amount to be charged in the logged in users currency.
@@ -276,10 +279,10 @@ presentFromViewController:(UIViewController *)viewController
 
 ```swift
 open func refund(amount: NSDecimalNumber?, 
-	ofPayment reference: String, 
-	withRefundReference refundReference: String?, 
-	presentFrom viewController: UIViewController, 
-	completion: @escaping iZettleSDK.iZettleSDKOperationCompletion)
+  ofPayment reference: String, 
+  withRefundReference refundReference: String?, 
+  presentFrom viewController: UIViewController, 
+  completion: @escaping iZettleSDK.iZettleSDKOperationCompletion)
 ```
 
 - `amount` _(optional)_: The amount to be refunded from the payment (passing `nil` will refund full amount of original payment)
@@ -299,8 +302,8 @@ Query iZettle for payment information of a payment with a given reference.
 
 ```swift
 open func retrievePaymentInfo(for reference: String, 
-	presentFrom viewController: UIViewController, 
-	completion: @escaping iZettleSDK.iZettleSDKOperationCompletion)
+  presentFrom viewController: UIViewController, 
+  completion: @escaping iZettleSDK.iZettleSDKOperationCompletion)
 ```
 
 ### Presenting settings
@@ -404,4 +407,3 @@ authorizationCode = 004601
 ## Errors
 
 iZettle will display any errors that occur during an operation to the user, the NSError-object returned in the operation completion block is only intended to be used by developers for debugging, diagnostics and logging to be able to better communicate errors to iZettle. You should never present the returned errors to the end user.
-
