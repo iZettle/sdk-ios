@@ -1,3 +1,6 @@
+2.0.1 - 2018-11-09
+- Fixed an issue where iZettleTransport framework was not linked with Cocoapods
+
 2.0 - 2018-11-08
 - Added support for iZettle Reader 2
 - Added support for in-app pairing flow for iZettle Reader 2
