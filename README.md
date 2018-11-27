@@ -25,7 +25,7 @@ is designed to be easy to implement and use.
 * [Errors](#errors)
  
 ## Requirements
-* iOS 8 or later
+* iOS 8 or later for the SDK, and iOS 10 and later for iZettle Reader 2 support
 * Xcode 7 (iOS 9 SDK)
 * An iZettle API Key. Visit [iZettle Developer Page](https://www.izettle.com/gb/developer) in order to obtain one. **Note: SDK API keys work only for bundle identifiers which they were issued for.**
 
