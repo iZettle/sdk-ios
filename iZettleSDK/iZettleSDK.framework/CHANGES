@@ -1,3 +1,6 @@
+2.0.3 - 2018-11-30
+- Fixed an issue where card reader might not be displayed in SDK settings after pairing
+
 2.0.2 - 2018-11-27
 - Remove ability to pair iZettle Reader 2 when using iOS 9. This produced a crash in earlier versions of the SDK. Related issue: #228
 - Fixed an issue where setting `enforcedAccount` property would result in requesting logins for each SDK operation. Related issues: #207, #225
