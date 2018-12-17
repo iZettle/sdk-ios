@@ -1,3 +1,6 @@
+2.0.4 - 2018-12-13
+- Present iZettle Reader 2 pairing wizard from payment flow
+
 2.0.3 - 2018-11-30
 - Fixed an issue where card reader might not be displayed in SDK settings after pairing
 
