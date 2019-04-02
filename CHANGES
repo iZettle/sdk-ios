@@ -1,4 +1,4 @@
-2.0.4.1 - 2019-03-20
+2.0.5 - 2019-03-20
 - Crash in payment flow due to bluetooth connection lost after card was read #10100
 - Increase reader discovery interval up to 20 sec in UI flows
 
