@@ -27,11 +27,14 @@ NS_SWIFT_NAME(start(with:));
 @interface iZettleSDK (Operations)
 
 /**
+ Logout current account
+ */
+- (void)logout;
+
+/**
  Perform a payment with an amount and a reference.
 
  @param amount The amount to be charged in the logged in users currency
- @param currency Only used for validation. If the value of this parameter doesn't match the users currency
-    the user will be notified and then logged out. For a complete list of valid currency codes, see ISO 4217 (Optional)
  @param enableTipping Enable tipping flow
  @param reference The payment reference. Used to identify an iZettle payment, used when retrieving payment
     information at a later time or performing a refund. Max length 128. (Optional)
@@ -42,12 +45,11 @@ NS_SWIFT_NAME(start(with:));
  for logged in account and active reader supports tipping.
  */
 - (void)chargeAmount:(NSDecimalNumber *)amount
-            currency:(nullable NSString *)currency
        enableTipping:(BOOL)enableTipping
            reference:(nullable NSString *)reference
 presentFromViewController:(UIViewController *)viewController
           completion:(iZettleSDKOperationCompletion)completion
-NS_SWIFT_NAME(charge(amount:currency:enableTipping:reference:presentFrom:completion:));
+NS_SWIFT_NAME(charge(amount:enableTipping:reference:presentFrom:completion:));
 
 /// Refund an amount from a payment with a given reference.
 /// @param amount:          The amount to be refunded from the payment (Optional, `nil` will refund full amount of original payment)
@@ -78,13 +80,6 @@ NS_SWIFT_NAME(presentSettings(from:));
 
 /// Attempt aborting the ongoing operation. Only use this if absolutely necessary. The state of the payment will be unknown to the user after this call.
 - (void)abortOperation;
-
-- (void)chargeAmount:(NSDecimalNumber *)amount
-            currency:(nullable NSString *)currency
-           reference:(nullable NSString *)reference
-presentFromViewController:(UIViewController *)viewController
-          completion:(iZettleSDKOperationCompletion)completion
-__attribute__((deprecated("Use chargeAmount:currency:enableTipping:reference:presentFromViewController:completion: instead")));
 
 @end
 

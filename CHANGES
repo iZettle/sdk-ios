@@ -1,13 +1,3 @@
-2.0.5 - 2019-03-20
-- Crash in payment flow due to bluetooth connection lost after card was read #10100
-- Increase reader discovery interval up to 20 sec in UI flows
-
-2.0.4 - 2018-12-13
-- Present iZettle Reader 2 pairing wizard from payment flow
-
-2.0.3 - 2018-11-30
-- Fixed an issue where card reader might not be displayed in SDK settings after pairing
-
 2.0.2 - 2018-11-27
 - Remove ability to pair iZettle Reader 2 when using iOS 9. This produced a crash in earlier versions of the SDK. Related issue: #228
 - Fixed an issue where setting `enforcedAccount` property would result in requesting logins for each SDK operation. Related issues: #207, #225
