@@ -25,7 +25,7 @@ is designed to be easy to implement and use.
 * [Errors](#errors)
  
 ## Requirements
-* iOS 8 or later for the SDK, and iOS 10 and later for iZettle Reader 2 support
+* iOS 9 or later for the SDK, and iOS 10 and later for iZettle Reader 2 support
 * Xcode 7 (iOS 9 SDK)
 * An iZettle API Key. Visit [iZettle Developer Page](https://www.izettle.com/gb/developer) in order to obtain one. **Note: SDK API keys work only for bundle identifiers which they were issued for.**
 
@@ -236,7 +236,7 @@ Perform a payment with an amount and a reference:
 
 ```objective-c
 - (void)chargeAmount:(NSDecimalNumber *)amount
-            currency:(NSString *)currency
+       enableTipping:(BOOL)enableTipping
            reference:(NSString *)reference
 presentFromViewController:(UIViewController *)viewController
           completion:(iZettleOperationCompletion)completion;
@@ -244,7 +244,6 @@ presentFromViewController:(UIViewController *)viewController
 
 ```swift
  open func charge(amount: NSDecimalNumber, 
-  currency: String?, 
   enableTipping: Bool, 
   reference: String?, 
   presentFrom viewController: UIViewController, 
@@ -253,7 +252,6 @@ presentFromViewController:(UIViewController *)viewController
 
 - `amount`: The amount to be charged in the logged in users currency.
 - `enableTipping`: Perform payment with tipping flow
-- `currency` _(optional)_: Only used for validation. If the value of this parameter doesn't match the users currency the user will be notified and then logged out. For a complete list of valid currency codes, see [ISO 4217](http://www.xe.com/iso4217.php)
 - `reference` _(optional)_: The payment reference. Used to identify an iZettle payment, used when retrieving payment information at a later time or performing a refund. Max length 128.
 
 

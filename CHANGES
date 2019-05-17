@@ -1,3 +1,12 @@
+2.1 - 2019-05-15
+
+- Improved reader software update flow
+- Removed support for iOS 8
+- Deprecated `currency` parameter in the `charge(amount:_)` method
+- Added ability to logout currently logged in account programmatically
+- Streamlined signature flow UI
+- Bug fixes and performance improvements
+
 2.0.5 - 2019-03-20
 - Crash in payment flow due to bluetooth connection lost after card was read #10100
 - Increase reader discovery interval up to 20 sec in UI flows
