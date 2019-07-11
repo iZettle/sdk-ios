@@ -57,7 +57,7 @@
     _lastReference = [self _uniqueReference];
     NSDecimalNumber *amount = _amountWheel.amount;
     
-    [[iZettleSDK shared] chargeAmount:amount currency:nil enableTipping:self.tippingSwitch.isOn reference:_lastReference presentFromViewController:self completion:^(iZettleSDKPaymentInfo *paymentInfo, NSError *error) {
+    [[iZettleSDK shared] chargeAmount:amount enableTipping:self.tippingSwitch.isOn reference:_lastReference presentFromViewController:self completion:^(iZettleSDKPaymentInfo *paymentInfo, NSError *error) {
         _lastPaymentInfo = paymentInfo;
         _lastError = error;
         _timestamp = [NSDate date];
