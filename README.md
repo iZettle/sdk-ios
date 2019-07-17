@@ -25,7 +25,7 @@ is designed to be easy to implement and use.
 * [Errors](#errors)
  
 ## Requirements
-* iOS 8 or later for the SDK, and iOS 10 and later for iZettle Reader 2 support
+* iOS 9 or later for the SDK, and iOS 10 and later for iZettle Reader 2 support
 * Xcode 7 (iOS 9 SDK)
 * An iZettle API Key. Visit [iZettle Developer Page](https://www.izettle.com/gb/developer) in order to obtain one. **Note: SDK API keys work only for bundle identifiers which they were issued for.**
 
@@ -236,6 +236,7 @@ Perform a payment with an amount and a reference:
 
 ```objective-c
 - (void)chargeAmount:(NSDecimalNumber *)amount
+       enableTipping:(BOOL)enableTipping
            reference:(NSString *)reference
 presentFromViewController:(UIViewController *)viewController
           completion:(iZettleOperationCompletion)completion;
