@@ -39,8 +39,12 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    __weak __auto_type wself = self;
     _amountWheel.amountUpdatedBlock = ^(NSDecimalNumber *amount) {
-        _amountLabel.text = [_numberFormatter stringFromNumber:amount];
+        __auto_type sself = wself;
+        if (sself) {
+            sself.amountLabel.text = [sself->_numberFormatter stringFromNumber:amount];
+        }
     };
 }
 
@@ -58,9 +62,9 @@
     NSDecimalNumber *amount = _amountWheel.amount;
     
     [[iZettleSDK shared] chargeAmount:amount enableTipping:self.tippingSwitch.isOn reference:_lastReference presentFromViewController:self completion:^(iZettleSDKPaymentInfo *paymentInfo, NSError *error) {
-        _lastPaymentInfo = paymentInfo;
-        _lastError = error;
-        _timestamp = [NSDate date];
+        self->_lastPaymentInfo = paymentInfo;
+        self->_lastError = error;
+        self->_timestamp = [NSDate date];
         
         [self _updateLastPaymentToolbar];
         [self _showConsole];
@@ -73,8 +77,8 @@
 
 - (IBAction)lastPaymentInfo:(id)sender {
     [[iZettleSDK shared] retrievePaymentInfoForReference:_lastReference presentFromViewController:self completion:^(iZettleSDKPaymentInfo *paymentInfo, NSError *error) {
-        _lastPaymentInfo = paymentInfo;
-        _lastError = error;
+        self->_lastPaymentInfo = paymentInfo;
+        self->_lastError = error;
         [self _showConsole];
     }];
 }
@@ -84,8 +88,8 @@
     _lastReference = [self _uniqueReference];
     
     [[iZettleSDK shared] refundAmount:nil ofPaymentWithReference:paymentReference refundReference:_lastReference presentFromViewController:self completion:^(iZettleSDKPaymentInfo * _Nullable paymentInfo, NSError * _Nullable error) {
-        _lastPaymentInfo = paymentInfo;
-        _lastError = error;
+        self->_lastPaymentInfo = paymentInfo;
+        self->_lastError = error;
         [self _showConsole];
     }];
 }
