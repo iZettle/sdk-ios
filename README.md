@@ -243,7 +243,7 @@ presentFromViewController:(UIViewController *)viewController
 ```
 
 ```swift
- open func charge(amount: NSDecimalNumber, 
+ open func charge(amount: NSDecimalNumber,
   enableTipping: Bool, 
   reference: String?, 
   presentFrom viewController: UIViewController, 
