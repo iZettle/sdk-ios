@@ -144,7 +144,17 @@ The iZettle bluetooth card readers are part of the Apple MFi program. In order t
 
 ### 2. Setup external accessory communication background mode
 
-Edit your **Info.plist** file
+#### 2.1 Xcode 11
+To enable support for external accessory communication in Xcode 11 select the following background modes. These options can be found under `Signing & Capabilities` in your target.
+
+- `External accessory communication` 
+- `Uses Bluetooth LE accessory`
+
+#### 2.2 Earlier Xcode versions
+Enable support for external accessory communication from the Background modes section of the Capabilities tab in your Xcode project.
+
+#### 2.3 Edit plist
+Edit your **Info.plist** file to have the following
 
 ```plist
 <key>UIBackgroundModes</key>
@@ -153,17 +163,6 @@ Edit your **Info.plist** file
     <string>external-accessory</string>
 </array>
 ```
-
-#### 2.1 Xcode 11
-To enable support for external accessory communication in Xcode 11 select the following background modes. These options can be found under `Signing & Capabilities` in your target.
-
-- `External accessory communication` 
-- `Uses Bluetooth LE accessory`
-
-#### 2.2 Earlier Xcode versions
-
-Enable support for external accessory communication from the Background modes section of the Capabilities tab in your Xcode project.
-
 
 ### 3. Setup CLLocationManager in your `Info.plist`
 
