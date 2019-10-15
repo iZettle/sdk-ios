@@ -1,6 +1,3 @@
-2.3 - 2019-10-10
-- Bug fixes and performance improvements
-
 2.2 - 2019-07-11
 - Background update of `iZettle Reader` and iZettle Reader 2` software: 
     Updating card reader software is now done automatically in the background by the SDK

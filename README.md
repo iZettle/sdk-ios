@@ -25,9 +25,8 @@ is designed to be easy to implement and use.
 * [Errors](#errors)
  
 ## Requirements
-* Xcode 10+
-* iOS 9+
-* iZettle Reader 2 support require iOS 10+
+* iOS 9 or later for the SDK, and iOS 10 and later for iZettle Reader 2 support
+* Xcode 7 (iOS 9 SDK)
 * An iZettle API Key. Visit [iZettle Developer Page](https://www.izettle.com/gb/developer) in order to obtain one. **Note: SDK API keys work only for bundle identifiers which they were issued for.**
 
 ## Installation
@@ -45,7 +44,7 @@ You can install iZettle SDK in several ways:
 1. Add following pod to your `Podfile`:
 
 ```ruby
-platform :ios, '9.0'
+platform :ios, '8.0'
 
 target 'Your App' do
     pod 'iZettleSDK'
@@ -67,7 +66,7 @@ Since iZettle SDK is distributed as a binary, you need to use custom `binary` ru
 1. Add following to your `Cartfile`:
 
 ```
-binary "https://raw.githubusercontent.com/iZettle/sdk-ios/master/Carthage/iZettleSDK.json" >= 2.2
+binary "https://raw.githubusercontent.com/iZettle/sdk-ios/master/Carthage/iZettleSDK.json" >= 1.6.1
 ```
 
 2. Fetch frameworks by running:
@@ -118,11 +117,7 @@ This step is required to work around an [App Store submission](http://www.openra
 
 ## Usage
 
-To be able to use iZettle SDK you are **required** to setup several things first
-
-```
-⚠️ An exception will be thrown if these are not selected
-```
+To be able to use iZettle SDK you need to setup several things first
 
 ### 1. Setup external accessory protocols in your `Info.plist`
 
@@ -144,17 +139,9 @@ The iZettle bluetooth card readers are part of the Apple MFi program. In order t
 
 ### 2. Setup external accessory communication background mode
 
-#### 2.1 Xcode 11
-To enable support for external accessory communication in Xcode 11 select the following background modes. These options can be found under `Signing & Capabilities` in your target.
-
-- `External accessory communication` 
-- `Uses Bluetooth LE accessory`
-
-#### 2.2 Earlier Xcode versions
 Enable support for external accessory communication from the Background modes section of the Capabilities tab in your Xcode project.
 
-#### 2.3 Edit plist
-Edit your **Info.plist** file to have the following
+You can also enable this support by including the `UIBackgroundModes` key with the `external-accessory` and `bluetooth-central` values in your app’s Info.plist file:
 
 ```plist
 <key>UIBackgroundModes</key>
@@ -164,17 +151,18 @@ Edit your **Info.plist** file to have the following
 </array>
 ```
 
-### 3. Setup CLLocationManager in your `Info.plist`
+### 3. Setup CLLocationManager keys in your `Info.plist`
 
 iZettle will prompt the user for permission during the first payment if the merchant haven't already 
-granted your app this permission. iZettle will execute CLLocationManagers method
+granted your app this permission. On iOS8, iZettle will execute CLLocationManagers method 
 `requestWhenInUseAuthorization`.
 
-Add the key in your `Info.plist`:
-```plist
-<key>NSLocationWhenInUseUsageDescription</key>
-<string>You need to allow this to be able to accept card payments</string>
-```
+Add the keys:
+
+- `NSLocationUsageDescription` (iOS7)
+- `NSLocationWhenInUseUsageDescription` (iOS8)
+
+Suggested value for the keys above is `"You need to allow this to be able to accept card payments."`
 
 iZettle won't accept payments without these texts implemented.
 
@@ -194,7 +182,20 @@ import iZettleSDK
 
 ### 5. Setup your API key
 
-Before you execute any operations in iZettle SDK, you have to start the SDK with your API key. 
+Before you execute any operations in iZettle SDK, you have to start the SDK with your API key. This is 
+typically done in your AppDelegates method `application:didFinishLaunchingWithOptions:`.
+
+**Objective C:**
+```objective-c
+- (void)startWithAPIKey:(NSString *)apiKey;
+```
+
+**Swift:**
+```swift
+open func start(with APIKey: String)
+```
+
+For example:
 
 **Objective C:**
 ```objective-c
@@ -214,7 +215,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 ## SDK Operations
 
-⚠️ **Important:** Only use the singleton instance returned from `[iZettleSDK shared]` (in Objective C) or `iZettleSDK.shared()` (in Swift) when calling the methods below.
+**Important:** Only use the singleton instance returned from `[iZettleSDK shared]` (in Objective C) or `iZettleSDK.shared()` (in Swift) when calling the methods below.
 
 Asynchronous operations have a completion block as an argument, the completion block is called when an 
 operation is considered complete, cancelled or failed. See [iZettleOperationCompletion](#izettleoperationcompletion) for more information.
@@ -242,8 +243,7 @@ presentFromViewController:(UIViewController *)viewController
 ```
 
 ```swift
- open func charge(amount: NSDecimalNumber, 
-  currency: String?, 
+ open func charge(amount: NSDecimalNumber,
   enableTipping: Bool, 
   reference: String?, 
   presentFrom viewController: UIViewController, 
@@ -252,7 +252,6 @@ presentFromViewController:(UIViewController *)viewController
 
 - `amount`: The amount to be charged in the logged in users currency.
 - `enableTipping`: Perform payment with tipping flow
-- `currency` _(optional)_: Only used for validation. If the value of this parameter doesn't match the users currency the user will be notified and then logged out. For a complete list of valid currency codes, see [ISO 4217](http://www.xe.com/iso4217.php)
 - `reference` _(optional)_: The payment reference. Used to identify an iZettle payment, used when retrieving payment information at a later time or performing a refund. Max length 128.
 
 
@@ -342,18 +341,6 @@ Enforced user account can be changed between operations to allow switching betwe
 
 Preferably integrating apps will provide a settings page where the user can enter their iZettle account (used to set the enforced user account).
 
-
-### Programmatically logout
-
-Logout current account
-
-```objective-c
-- (void)logout;
-```
-
-```swift
-open func logout()
-```
 
 ## iZettleOperationCompletion
 
