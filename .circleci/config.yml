@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+    macos:
+      xcode: "10.3.0"
+
+    steps:
+      - checkout
+      - run:
+          name: Build and run tests
+          command: xcodebuild -project Example/iZettleSDKSample.xcodeproj clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO | xcpretty -c
