@@ -22,6 +22,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Our app uses bluetooth to find, connect and transfer data with iZettle card reader devices.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Our app uses bluetooth to find, connect and transfer data with iZettle card reader devices.</string>
 	<key>NSLocationUsageDescription</key>
 	<string>You need to allow this to be able to accept card payments.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
@@ -57,7 +61,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>Our app uses bluetooth to find, connect and transfer data with iZettle card reader devices.</string>
 </dict>
 </plist>

@@ -164,9 +164,11 @@ Edit your **Info.plist** file to have the following information set:
 </array>
 <key>NSBluetoothAlwaysUsageDescription</key>
 <string>Our app uses bluetooth to find, connect and transfer data with iZettle card reader devices.</string>
+<key>NSBluetoothPeripheralUsageDescription</key>
+<string>Our app uses bluetooth to find, connect and transfer data with iZettle card reader devices.</string>
 ```
 
-Note that the `NSLocationWhenInUseUsageDescription` text will be displayed when iOS asks the user for permissions to allow your app access to bluetooth capabilities. You may want to update the text to your requirements.
+Note that the texts for the `NSLocationWhenInUseUsageDescription` and `NSBluetoothPeripheralUsageDescription` keys will be displayed when iOS asks the user for permissions to allow your app access to bluetooth capabilities. You may want to update the texts to your requirements.
 
 ### 3. Setup CLLocationManager in your `Info.plist`
 
