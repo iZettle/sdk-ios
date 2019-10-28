@@ -154,7 +154,7 @@ To enable support for external accessory communication in Xcode 11 select the fo
 Enable support for external accessory communication from the Background modes section of the Capabilities tab in your Xcode project.
 
 #### 2.3 Edit plist
-Edit your **Info.plist** file to have the following
+Edit your **Info.plist** file to have the following information set:
 
 ```plist
 <key>UIBackgroundModes</key>
@@ -162,7 +162,13 @@ Edit your **Info.plist** file to have the following
     <string>bluetooth-central</string>
     <string>external-accessory</string>
 </array>
+<key>NSBluetoothAlwaysUsageDescription</key>
+<string>Our app uses bluetooth to find, connect and transfer data with iZettle card reader devices.</string>
+<key>NSBluetoothPeripheralUsageDescription</key>
+<string>Our app uses bluetooth to find, connect and transfer data with iZettle card reader devices.</string>
 ```
+
+Note that the texts for the `NSLocationWhenInUseUsageDescription` and `NSBluetoothPeripheralUsageDescription` keys will be displayed when iOS asks the user for permissions to allow your app access to bluetooth capabilities. You may want to update the texts to your requirements.
 
 ### 3. Setup CLLocationManager in your `Info.plist`
 
