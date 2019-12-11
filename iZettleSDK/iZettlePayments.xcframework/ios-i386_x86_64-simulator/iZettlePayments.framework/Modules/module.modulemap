@@ -1,0 +1,6 @@
+framework module iZettlePayments {
+  umbrella header "iZettlePayments.h"
+
+  export *
+  module * { export * }
+}
