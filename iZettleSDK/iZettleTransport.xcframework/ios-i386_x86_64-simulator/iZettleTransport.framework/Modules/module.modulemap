@@ -1,0 +1,6 @@
+framework module iZettleTransport {
+  umbrella header "iZettleTransport.h"
+
+  export *
+  module * { export * }
+}
