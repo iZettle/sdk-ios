@@ -1,6 +1,0 @@
-framework module iZettleSDK {
-  umbrella header "iZettleSDK.h"
-
-  export *
-  module * { export * }
-}
