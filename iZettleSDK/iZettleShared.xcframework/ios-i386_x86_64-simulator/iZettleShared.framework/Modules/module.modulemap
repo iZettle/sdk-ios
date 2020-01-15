@@ -1,6 +1,0 @@
-framework module iZettleShared {
-  umbrella header "iZettleShared.h"
-
-  export *
-  module * { export * }
-}
