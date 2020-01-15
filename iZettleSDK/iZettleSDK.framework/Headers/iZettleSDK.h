@@ -29,6 +29,13 @@ typedef void(^iZettleSDKOperationCompletion)(iZettleSDKPaymentInfo * _Nullable p
 @property (nonatomic, readonly) NSString *version;
 
 + (iZettleSDK *)shared;
+
+/**
+ Initializes SDK
+ @param APIKey An iZettle API Key
+ @discussion This method performs validation checks
+ @warning Raises an exception if any configuration step fails
+ */
 - (void)startWithAPIKey:(NSString *)APIKey
 NS_SWIFT_NAME(start(with:));
 
