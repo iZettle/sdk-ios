@@ -1,8 +1,11 @@
+2.5.2 - 2020-01-24
+- Fix an issue where "iZettle SDK" deletes all the WebKit cookies from integrator apps on login and logout
+
 2.5.1 - 2020-01-15
 - Fix "iZettle SDK overrides UIPageControl tint colors using appearance proxy" issue #279
 
 2.5 - 2019-12-11
-- SDK is now built using Xcode 11 and Swift 5.1. `ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES` flag is required if your project doesn't include Swift
+- SDK now uses XCFramework as a distribution format and it is build using Xcode 11 and Swift 5.1. `ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES` flag is required if your project doesn't include swift
 - Better support for background modes
 - Bugfixes and improvements 
 
