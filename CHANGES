@@ -1,3 +1,6 @@
+2.5.2 - 2020-01-24
+- Fixed an issue where "iZettle SDK" might delete WebKit cookies on login and logout
+
 2.5.1 - 2020-01-15
 - Fix "iZettle SDK overrides UIPageControl tint colors using appearance proxy" issue #279
 

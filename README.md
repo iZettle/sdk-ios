@@ -26,6 +26,7 @@ is designed to be easy to implement and use.
  
 ## Requirements
 * Xcode 11+
+* `ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES` flag is required if your project doesn't include swift
 * iOS 9+
 * iZettle Reader 2 support require iOS 10+
 * An iZettle API Key. Visit [iZettle Developer Page](https://www.izettle.com/gb/developer) in order to obtain one. **Note: SDK API keys work only for bundle identifiers which they were issued for.**
