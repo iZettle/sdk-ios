@@ -2,8 +2,6 @@
 
 # iZettle SDK for iOS
 
-# Note
-
 The iZettle SDK makes it possible to accept card payments with an iZettle card reader from any iOS app.
 When triggered, it will display a screen over the host application where all interaction takes place. It 
 is designed to be easy to implement and use. 
