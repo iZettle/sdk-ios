@@ -2,6 +2,9 @@
 
 # iZettle SDK for iOS
 
+# Note
+iZettle SDK 2.5 moved to XCFramework format and requires Xcode 11 to use it. Cocoapods has support for XCFramework but the version that contains it isn't released yet. If you want to use iZettle SDK 2.5 via Cocoapods you can [install local dev copy of Cocoapods](https://guides.cocoapods.org/using/unreleased-features).
+
 The iZettle SDK makes it possible to accept card payments with an iZettle card reader from any iOS app.
 When triggered, it will display a screen over the host application where all interaction takes place. It 
 is designed to be easy to implement and use. 
