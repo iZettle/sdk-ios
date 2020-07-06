@@ -8,4 +8,4 @@ jobs:
       - checkout
       - run:
           name: Build and run tests
-          command: xcodebuild -project Example/iZettleSDKSample.xcodeproj clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO | xcpretty -c
+          command: xcodebuild -project Example/Sample/iZettleSDKSample.xcodeproj clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO | xcpretty -c
