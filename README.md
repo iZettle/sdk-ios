@@ -1,4 +1,4 @@
- [![CocoaPods](https://img.shields.io/cocoapods/v/iZettleSDK.svg)](https://cocoapods.org/pods/iZettleSDK) [![CocoaPods](https://img.shields.io/cocoapods/p/iZettleSDK.svg)](https://cocoapods.org/pods/iZettleSDK) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+ [![CocoaPods](https://img.shields.io/cocoapods/v/iZettleSDK.svg)](https://cocoapods.org/pods/iZettleSDK) [![CocoaPods](https://img.shields.io/cocoapods/p/iZettleSDK.svg)](https://cocoapods.org/pods/iZettleSDK)
 
 # iZettle SDK for iOS
 
@@ -39,8 +39,7 @@ is designed to be easy to implement and use.
 You can install iZettle SDK in several ways:
 
 1. [CocoaPods](#cocoapods)
-2. [Carthage](#carthage)
-3. [Manual Installation](#manual-installation)
+2. [Manual Installation](#manual-installation)
 
 ### CocoaPods
 
@@ -54,22 +53,6 @@ platform :ios, '9.0'
 target 'Your App' do
     pod 'iZettleSDK'
 end
-```
-
-### Carthage
-
-Since iZettle SDK is distributed as a binary, you need to use custom `binary` rule in your `Cartfile`.
-
-1. Add following to your `Cartfile`:
-
-```
-binary "https://raw.githubusercontent.com/iZettle/sdk-ios/master/Carthage/iZettleSDK.json" >= 2.2
-```
-
-2. Fetch frameworks by running:
-
-```bash
-$ carthage update iZettleSDK
 ```
 
 ### Manual Installation

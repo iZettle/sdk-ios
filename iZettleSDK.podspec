@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.source       = { :git => 'https://github.com/iZettle/sdk-ios.git', :tag => "#{s.version}" }
   s.source_files =  "#{s.name}/**/*.{h,swift}" 
-  s.preserve_paths = 'iZettleSDK/iZettleSDK.framework'
-  s.public_header_files = 'iZettleSDK/iZettleSDK.framework/**/*.h'
+  s.preserve_paths = 'iZettleSDK/iZettleSDK.xcframework'
+  s.public_header_files = 'iZettleSDK/iZettleSDK.xcframework/**/*.h'
   s.vendored_frameworks = 'iZettleSDK/iZettleSDK.xcframework', 'iZettleSDK/iZettlePayments.xcframework'
   s.frameworks = 'SystemConfiguration', 'CoreLocation', 'ExternalAccessory', 'AudioToolbox', 'AVFoundation', 'MediaPlayer', 'QuartzCore', 'Accelerate', 'MessageUI', 'CoreData'
   s.library   = 'z', 'c++'
