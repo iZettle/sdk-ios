@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'iZettleSDK'
-  s.version      = '2.5.3'
+  s.version      = '3.0.0'
   s.summary      = 'iZettle SDK for iOS'
   s.description  = <<-DESC
                     For detailed information, please see iZettleSDK documentation and Readme.
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source_files =  "#{s.name}/**/*.{h,swift}" 
   s.preserve_paths = 'iZettleSDK/iZettleSDK.framework'
   s.public_header_files = 'iZettleSDK/iZettleSDK.framework/**/*.h'
-  s.vendored_frameworks = 'iZettleSDK/iZettleSDK.framework', 'iZettleSDK/iZettleShared.framework', 'iZettleSDK/iZettlePayments.framework', 'iZettleSDK/iZettleTransport.framework'
+  s.vendored_frameworks = 'iZettleSDK/iZettleSDK.xcframework', 'iZettleSDK/iZettlePayments.xcframework'
   s.frameworks = 'SystemConfiguration', 'CoreLocation', 'ExternalAccessory', 'AudioToolbox', 'AVFoundation', 'MediaPlayer', 'QuartzCore', 'Accelerate', 'MessageUI', 'CoreData'
   s.library   = 'z', 'c++'
   s.xcconfig  =  { 'OTHER_LDFLAGS' => '-ObjC', 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/iZettleSDK"' }

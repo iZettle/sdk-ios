@@ -3,33 +3,36 @@
 # iZettle SDK for iOS
 
 The iZettle SDK makes it possible to accept card payments with an iZettle card reader from any iOS app.
-When triggered, it will display a screen over the host application where all interaction takes place. It 
-is designed to be easy to implement and use. 
+When triggered, it will display a screen over the host application where all interaction takes place. It
+is designed to be easy to implement and use.
 
 ## Main features
+
 - Take card payments with an iZettle card reader.
 - Refund card payments.
 - Receive information about a payment.
 - Login/logout of iZettle accounts and simple switching between multiple accounts.
 - Settings screen where the user can handle card readers and access help and support.
 
-#### Limitations:
+## Limitations
+
 - The SDK will only work on markets where iZettle is operating, please visit [iZettle.com](https://www.izettle.com) for more information.
 - It does not currently support other payment methods than cards.
 
-## Contents:
+## Contents
 
-* [Requirements](#requirements)
-* [Installation](#installation)
-* [SDK Operations](#sdk-operations)
-* [Errors](#errors)
- 
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [SDK Operations](#sdk-operations)
+- [Errors](#errors)
+
 ## Requirements
-* Xcode 11+
-* `ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES` flag is required if your project doesn't include swift
-* iOS 9+
-* iZettle Reader 2 support require iOS 10+
-* An iZettle API Key. Visit [iZettle Developer Page](https://www.izettle.com/gb/developer) in order to obtain one. **Note: SDK API keys work only for bundle identifiers which they were issued for.**
+
+- Xcode 11+
+- `ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES` flag is required if your project doesn't include swift
+- iOS 9+
+- iZettle Reader 2 support requires iOS 10+
+- Client ID from the iZettle Developer Portal
 
 ## Installation
 
@@ -53,14 +56,6 @@ target 'Your App' do
 end
 ```
 
-2. Create a new “Run Script Phase” in your app’s target’s “Build Phases” and paste the following snippet in the script text field:
-
-```bash
-bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/iZettleSDK.framework/strip-frameworks.sh"
-```
-
-This step is required to work around an [App Store submission](http://www.openradar.me/radar?id=6409498411401216) bug when archiving universal binaries.
-
 ### Carthage
 
 Since iZettle SDK is distributed as a binary, you need to use custom `binary` rule in your `Cartfile`.
@@ -79,43 +74,12 @@ $ carthage update iZettleSDK
 
 ### Manual Installation
 
-1. Add the iZettle frameworks to Embedded Frameworks for your target:
+1. Drag the binary frameworks from the `iZettleSDK` folder into your Xcode project:
 
 ```
-iZettleSDK.framework
-iZettlePayments.framework
-iZettleShared.framework
-iZettleTransport.framework
+iZettleSDK.xcframework
+iZettlePayments.xcframework
 ```
-
-2. Make sure you link with the following frameworks and libraries:
-
-```
-iZettleSDK.framework
-iZettlePayments.framework
-iZettleShared.framework
-iZettleTransport.framework
-Accelerate.framework
-AudioToolbox.framework
-AVFoundation.framework
-CoreData.framework 
-CoreLocation.framework
-ExternalAccessory.framework
-libc++.tdb
-libz.tdb
-MediaPlayer.framework
-MessageUI.framework
-SystemConfiguration.framework
-QuartzCore.framework
-```
-
-3. Create a new “Run Script Phase” in your app’s target’s “Build Phases” and paste the following snippet in the script text field:
-
-```bash
-bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/iZettleSDK.framework/strip-frameworks.sh"
-```
-
-This step is required to work around an [App Store submission](http://www.openradar.me/radar?id=6409498411401216) bug when archiving universal binaries.
 
 ## Usage
 
@@ -127,36 +91,39 @@ To be able to use iZettle SDK you are **required** to setup several things first
 
 ### 1. Setup external accessory protocols in your `Info.plist`
 
-Add/modify the property "Supported external accessory protocols" and *com.izettle.cardreader-one*
+Add/modify the property `Supported external accessory protocols` and add `com.izettle.cardreader-one`.
 
-This is what it should look like in the "source code" view of your info.plist:
+This is what it should look like in the "source code" view of your `Info.plist` file:
 
-```plist
+```xml
 <key>UISupportedExternalAccessoryProtocols</key>
 <array>
     <string>com.izettle.cardreader-one</string>
 </array>
 ```
 
-**Important**
+#### Important
 
-The iZettle bluetooth card readers are part of the Apple MFi program. In order to release apps supporting accessories that are part of the MFi Program, you have to apply at Apple. Please contact us at  [sdk@izettle.com](mailto:sdk@izettle.com) and we will help you with this process.
+The iZettle bluetooth card readers are part of the Apple MFi program. In order to release apps supporting accessories that are part of the MFi Program, you have to apply at Apple. Please contact us at [sdk@izettle.com](mailto:sdk@izettle.com) and we will help you with this process.
 
 ### 2. Setup external accessory communication background mode
 
 #### 2.1 Xcode 11
+
 To enable support for external accessory communication in Xcode 11 select the following background modes. These options can be found under `Signing & Capabilities` in your target.
 
-- `External accessory communication` 
+- `External accessory communication`
 - `Uses Bluetooth LE accessory`
 
 #### 2.2 Earlier Xcode versions
+
 Enable support for external accessory communication from the Background modes section of the Capabilities tab in your Xcode project.
 
 #### 2.3 Edit plist
+
 Edit your **Info.plist** file to have the following information set:
 
-```plist
+```xml
 <key>UIBackgroundModes</key>
 <array>
     <string>bluetooth-central</string>
@@ -172,12 +139,12 @@ Note that the texts for the `NSLocationWhenInUseUsageDescription` and `NSBluetoo
 
 ### 3. Setup CLLocationManager in your `Info.plist`
 
-iZettle will prompt the user for permission during the first payment if the merchant haven't already 
-granted your app this permission. iZettle will execute CLLocationManagers method
+iZettle will prompt the user for permission during the first payment if the merchant haven't already granted your app this permission. iZettle will execute CLLocationManagers method
 `requestWhenInUseAuthorization`.
 
 Add the key in your `Info.plist`:
-```plist
+
+```xml
 <key>NSLocationWhenInUseUsageDescription</key>
 <string>You need to allow this to be able to accept card payments</string>
 ```
@@ -189,34 +156,45 @@ iZettle won't accept payments without these texts implemented.
 Make sure to include the iZettle SDK framework:
 
 **Objective C:**
-```objective-c
+
+```objectivec
 @import iZettleSDK; 
 ```
 
 **Swift:**
+
 ```swift
 import iZettleSDK
 ```
 
-### 5. Setup your API key
+### 5. Initialize the SDK
 
-Before you execute any operations in iZettle SDK, you have to start the SDK with your API key. 
+Before you execute any operation with the iZettle SDK, you have to initialize it with an object conforming to the `iZettleSDKAuthorizationProvider` protocol. This protocol defines set of methods that can authorize iZettle users inside your application. The iZettle SDK provides an `iZettleSDKAuthorization` object that implements this protocol out of the box.
 
-**Objective C:**
-```objective-c
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [[iZettleSDK shared] startWithAPIKey:@"API_KEY"];
-    return YES;
-}
-```
+User authorization in the SDK is perfomed through the implementation of OAuth 2.0. This means that the iZettle SDK requires Client ID and a callback url from your integrating application.
 
-**Swift:**
+To obtain Client ID, create an account in the [iZettle Developer Portal](https://developer.izettle.com/login?continue=%2F) and create an iOS SDK developer application. Once you complete that process, you'll be given a Client ID which can be used to initialize the SDK.
+
 ```swift
-func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-    iZettleSDK.shared().start(with: "API_KEY")
-    return true
+let authenticationProvider = try iZettleSDKAuthorization(
+    clientID: "xxx-xxx-xxx-xxx",
+    callbackURL: URL(string: "app-scheme://url"))
+
+iZettleSDK.shared().start(with: authenticationProvider)
+```
+
+If you support iOS 10 and iOS 11, you'll need to override AppDelegate `application:openURL:options:` method:
+
+```swift
+func application(
+  _ app: UIApplication,
+  open url: URL,
+  options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+    return iZettleSDK.shared().applicationDidOpen(with: url)
 }
 ```
+
+The `iZettleSDK.shared().applicationDidOpen(with: url)` call will check if the `url` is a valid callback URL, handle it and return `true`. If the `url` is not the callback URL or is invalid the method will return `false`.
 
 ## SDK Operations
 
@@ -338,16 +316,20 @@ open func abortOperation()
 
 ### Enforced User Account
 
-- `enforcedUserAccount` _(optional)_: If set, operations will be restricted to only work for the specified iZettle username.
+You can restrict the usage of the SDK to a certain iZettle account by defining it through the `iZettleSDKAuthorization` object during the SDK initialization.
 
-By setting the shared instance property `enforcedUserAccount` to an iZettle username, subsequent operations will be restricted to only be performed on that account. If the set enforced user account was not previously logged in, an iZettle login prompt will be presented with a readonly email field prefilled with the enforced user account. If the enforced user account was already logged in (even though another account has been used in between), the account will be switched to use the enforced user account instead. 
+```swift
+var enforcedAccount = { "name@izettle.com" }
 
-If `enforcedUserAccount` is set to nil, any iZettle account can be used, and the email field will be editable.
+let authenticationProvider = try iZettleSDKAuthorization(
+    clientID: "xxx-xxx-xxx-xxx",
+    callbackURL: URL(string: "app-scheme://url")!,
+    enforcedAccount: enforcedAccount)
 
-Enforced user account can be changed between operations to allow switching between different users for different operations. This is useful for integrators supporting multiple accounts. 
+iZettleSDK.shared().start(with: authenticationProvider)
+```
 
-Preferably integrating apps will provide a settings page where the user can enter their iZettle account (used to set the enforced user account).
-
+Enforced account will be evaluated for each authenticated operation performed in the SDK.
 
 ### Programmatically logout
 
