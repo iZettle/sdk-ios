@@ -127,7 +127,7 @@ To be able to use iZettle SDK you are **required** to setup several things first
 
 ### 1. Setup external accessory protocols in your `Info.plist`
 
-Add/modify the property "Supported external accessory protocols" and *com.izettle.cardreader-one*
+Add/modify the property "Supported external accessory protocols" and add *com.miura.shuttle.izettle* and *com.izettle.cardreader-one*
 
 This is what it should look like in the "source code" view of your info.plist:
 
@@ -135,6 +135,7 @@ This is what it should look like in the "source code" view of your info.plist:
 <key>UISupportedExternalAccessoryProtocols</key>
 <array>
     <string>com.izettle.cardreader-one</string>
+    <string>com.miura.shuttle.izettle</string>
 </array>
 ```
 
