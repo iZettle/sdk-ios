@@ -3,7 +3,6 @@
 // swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name iZettleSDK
 import Foundation
 import Swift
-import iZettlePayments
 @_exported import iZettleSDK
 public let iZettleSDKAuthorizationProviderErrorDomain: Foundation.NSErrorDomain
 public enum iZettleSDKAuthorizationProviderError : Swift.Int {
@@ -17,17 +16,8 @@ public enum iZettleSDKAuthorizationProviderError : Swift.Int {
     get
   }
 }
-@objc final public class iZettleSDKAuthorization : ObjectiveC.NSObject, iZettleSDK.iZettleSDKAuthorizationProvider {
+@objc final public class iZettleSDKAuthorization : ObjectiveC.NSObject, iZettleSDKAuthorizationProvider {
   @objc public init(clientID: Swift.String, callbackURL: Foundation.URL, enforcedUserAccount: @autoclosure @escaping () -> Swift.String? = nil) throws
-  @objc deinit
-  @objc override dynamic public init()
-}
-extension iZettleSDKAuthorization : iZettlePayments.OAuthDefaultImplementation {
-  @objc final public func authorizeAccount(completion: @escaping iZettleSDK.iZettleAuthorizationCompletion)
-  @objc final public func verifyAccount(uuid: Foundation.UUID, completion: @escaping iZettleSDK.iZettleAuthorizationCompletion)
-}
-@_inheritsConvenienceInitializers @objc(IZAuthorizationProviderBridge) final public class AuthorizationProviderBridge : ObjectiveC.NSObject {
-  @objc(bridgePublicProvider:requiredScopes:) final public class func bridge(publicProvider: iZettleSDK.iZettleSDKAuthorizationProvider, requiredScopes: [iZettlePayments.IZOAuthTokenScope]) -> iZettlePayments.AuthorizationProvider
   @objc deinit
   @objc override dynamic public init()
 }
@@ -48,10 +38,10 @@ public enum iZettleSDKOAuthTokenError : Swift.Int {
   @objc override dynamic public init()
   @objc deinit
 }
-public typealias iZettleAuthorizationCompletion = (iZettleSDK.iZettleSDKOAuthToken?, Swift.Error?) -> Swift.Void
+public typealias iZettleAuthorizationCompletion = (iZettleSDKOAuthToken?, Swift.Error?) -> Swift.Void
 @objc public protocol iZettleSDKAuthorizationProvider {
-  @objc func authorizeAccount(completion: @escaping iZettleSDK.iZettleAuthorizationCompletion)
-  @objc func verifyAccount(uuid: Foundation.UUID, completion: @escaping iZettleSDK.iZettleAuthorizationCompletion)
+  @objc func authorizeAccount(completion: @escaping iZettleAuthorizationCompletion)
+  @objc func verifyAccount(uuid: Foundation.UUID, completion: @escaping iZettleAuthorizationCompletion)
 }
 extension iZettleSDKOAuthTokenError : Foundation.LocalizedError {
   public var errorDescription: Swift.String? {
@@ -97,9 +87,9 @@ extension iZettleSDKAuthorizationProviderError : Foundation.CustomNSError {
     get
   }
 }
-extension iZettleSDK.iZettleSDKAuthorizationProviderError : Swift.Equatable {}
-extension iZettleSDK.iZettleSDKAuthorizationProviderError : Swift.Hashable {}
-extension iZettleSDK.iZettleSDKAuthorizationProviderError : Swift.RawRepresentable {}
-extension iZettleSDK.iZettleSDKOAuthTokenError : Swift.Equatable {}
-extension iZettleSDK.iZettleSDKOAuthTokenError : Swift.Hashable {}
-extension iZettleSDK.iZettleSDKOAuthTokenError : Swift.RawRepresentable {}
+extension iZettleSDKAuthorizationProviderError : Swift.Equatable {}
+extension iZettleSDKAuthorizationProviderError : Swift.Hashable {}
+extension iZettleSDKAuthorizationProviderError : Swift.RawRepresentable {}
+extension iZettleSDKOAuthTokenError : Swift.Equatable {}
+extension iZettleSDKOAuthTokenError : Swift.Hashable {}
+extension iZettleSDKOAuthTokenError : Swift.RawRepresentable {}
