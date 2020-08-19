@@ -3,7 +3,6 @@
 // swift-module-flags: -target i386-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name iZettleSDK
 import Foundation
 import Swift
-import iZettlePayments
 @_exported import iZettleSDK
 public let iZettleSDKAuthorizationProviderErrorDomain: Foundation.NSErrorDomain
 public enum iZettleSDKAuthorizationProviderError : Swift.Int {
