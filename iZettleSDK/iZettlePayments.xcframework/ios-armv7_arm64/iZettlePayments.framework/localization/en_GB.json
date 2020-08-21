@@ -2336,7 +2336,7 @@
 	"#AboutTitle": "About iZettle",
 	"#InvoiceCreditManuallyPayBackMessage": "Important: This invoice cannot be automatically refunded, remember to perform a manual refund for your customer",
 	"#ReceiptControlUnitId": "Control unit:",
-	"#TermsWebURL": "https://www.izettle.com/terms?in_app_modal=true",
+	"#TermsWebURL": "https://www.izettle.com/gb/terms",
 	"#ReportManualProductName": "Custom amount",
 	"#ReportTotalApproved": "Total sales",
 	"#InvoiceActivationTermsTitle": "Terms of Service",

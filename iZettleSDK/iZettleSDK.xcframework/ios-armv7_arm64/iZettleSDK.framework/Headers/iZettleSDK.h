@@ -21,6 +21,7 @@ typedef NS_ERROR_ENUM(IZSDKErrorDomain, IZSDKErrorCode) {
     IZSDKErrorCodePaymentNotFound            = -100,
     IZSDKErrorCodeReferenceTooLong           = -101,
     IZSDKErrorCodeOperationAlreadyInProgress = -300,
+    IZSDKErrorCodeInvalidAmount              = -400
 };
 
 typedef void(^iZettleSDKOperationCompletion)(iZettleSDKPaymentInfo * _Nullable paymentInfo, NSError * _Nullable error);
