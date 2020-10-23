@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		9B8B199E24754A0F00C74D78 /* CustomAuthorizationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B199D24754A0F00C74D78 /* CustomAuthorizationProvider.m */; };
 		9BC1DCBB24ACBA58004E74DC /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1DCBA24ACBA58004E74DC /* AccountManager.m */; };
-		D77864A524B70AE500B6607E /* SDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77864A424B70AE500B6607E /* SDK.swift */; };
-		D7C9022524B35DCA0004EDA0 /* iZettlePayments.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C9022124B35D6A0004EDA0 /* iZettlePayments.xcframework */; };
-		D7C9022624B35DCA0004EDA0 /* iZettlePayments.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7C9022124B35D6A0004EDA0 /* iZettlePayments.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		D7C9022724B35DCB0004EDA0 /* iZettleSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C9022224B35D6A0004EDA0 /* iZettleSDK.xcframework */; };
-		D7C9022824B35DCB0004EDA0 /* iZettleSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7C9022224B35D6A0004EDA0 /* iZettleSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D7E94CE024AE529B00B55A9A /* iZettlePayments.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E94CD824AE528A00B55A9A /* iZettlePayments.xcframework */; };
+		D7E94CE124AE529B00B55A9A /* iZettlePayments.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7E94CD824AE528A00B55A9A /* iZettlePayments.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D7E94CE224AE529D00B55A9A /* iZettleSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E94CDB24AE528B00B55A9A /* iZettleSDK.xcframework */; };
+		D7E94CE324AE529D00B55A9A /* iZettleSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7E94CDB24AE528B00B55A9A /* iZettleSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		E6F9FEEA1DDDFFC80051C21D /* AmountWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F9FEDA1DDDFFC80051C21D /* AmountWheel.m */; };
 		E6F9FEEB1DDDFFC80051C21D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F9FEDC1DDDFFC80051C21D /* AppDelegate.m */; };
 		E6F9FEEC1DDDFFC80051C21D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6F9FEDD1DDDFFC80051C21D /* LaunchScreen.xib */; };
@@ -32,8 +31,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D7C9022824B35DCB0004EDA0 /* iZettleSDK.xcframework in Embed Frameworks */,
-				D7C9022624B35DCA0004EDA0 /* iZettlePayments.xcframework in Embed Frameworks */,
+				D7E94CE324AE529D00B55A9A /* iZettleSDK.xcframework in Embed Frameworks */,
+				D7E94CE124AE529B00B55A9A /* iZettlePayments.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,10 +45,8 @@
 		9B8B199D24754A0F00C74D78 /* CustomAuthorizationProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAuthorizationProvider.m; sourceTree = "<group>"; };
 		9BC1DCB924ACBA58004E74DC /* AccountManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
 		9BC1DCBA24ACBA58004E74DC /* AccountManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
-		D77864A324B70AE500B6607E /* iZettle SDK Sample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iZettle SDK Sample-Bridging-Header.h"; sourceTree = "<group>"; };
-		D77864A424B70AE500B6607E /* SDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDK.swift; sourceTree = "<group>"; };
-		D7C9022124B35D6A0004EDA0 /* iZettlePayments.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = iZettlePayments.xcframework; path = ../../iZettleSDK/iZettlePayments.xcframework; sourceTree = "<group>"; };
-		D7C9022224B35D6A0004EDA0 /* iZettleSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = iZettleSDK.xcframework; path = ../../iZettleSDK/iZettleSDK.xcframework; sourceTree = "<group>"; };
+		D7E94CD824AE528A00B55A9A /* iZettlePayments.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = iZettlePayments.xcframework; path = ../../iZettleSDK/iZettlePayments.xcframework; sourceTree = "<group>"; };
+		D7E94CDB24AE528B00B55A9A /* iZettleSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = iZettleSDK.xcframework; path = ../../iZettleSDK/iZettleSDK.xcframework; sourceTree = "<group>"; };
 		E6F9FED91DDDFFC80051C21D /* AmountWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmountWheel.h; sourceTree = "<group>"; };
 		E6F9FEDA1DDDFFC80051C21D /* AmountWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmountWheel.m; sourceTree = "<group>"; };
 		E6F9FEDB1DDDFFC80051C21D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,8 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7C9022724B35DCB0004EDA0 /* iZettleSDK.xcframework in Frameworks */,
-				D7C9022524B35DCA0004EDA0 /* iZettlePayments.xcframework in Frameworks */,
+				D7E94CE224AE529D00B55A9A /* iZettleSDK.xcframework in Frameworks */,
+				D7E94CE024AE529B00B55A9A /* iZettlePayments.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,8 +96,8 @@
 		D7E94CD724AE527F00B55A9A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D7C9022124B35D6A0004EDA0 /* iZettlePayments.xcframework */,
-				D7C9022224B35D6A0004EDA0 /* iZettleSDK.xcframework */,
+				D7E94CD824AE528A00B55A9A /* iZettlePayments.xcframework */,
+				D7E94CDB24AE528B00B55A9A /* iZettleSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,8 +123,6 @@
 				9B8B199D24754A0F00C74D78 /* CustomAuthorizationProvider.m */,
 				9BC1DCB924ACBA58004E74DC /* AccountManager.h */,
 				9BC1DCBA24ACBA58004E74DC /* AccountManager.m */,
-				D77864A424B70AE500B6607E /* SDK.swift */,
-				D77864A324B70AE500B6607E /* iZettle SDK Sample-Bridging-Header.h */,
 			);
 			path = iZettleSDKSample;
 			sourceTree = "<group>";
@@ -164,7 +159,6 @@
 				TargetAttributes = {
 					3F0C93971AC30F4600305D8F = {
 						CreatedOnToolsVersion = 6.2;
-						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -211,7 +205,6 @@
 				9BC1DCBB24ACBA58004E74DC /* AccountManager.m in Sources */,
 				9B8B199E24754A0F00C74D78 /* CustomAuthorizationProvider.m in Sources */,
 				E6F9FEEF1DDDFFC80051C21D /* ConsoleViewController.m in Sources */,
-				D77864A524B70AE500B6607E /* SDK.swift in Sources */,
 				E6F9FEF31DDDFFC80051C21D /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,7 +348,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = G94FN7ACW4;
@@ -372,9 +364,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.izettle.iZorn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "iZettleSDKSample/iZettle SDK Sample-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -383,7 +372,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = G94FN7ACW4;
@@ -400,8 +388,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.izettle.iZorn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "iZettleSDKSample/iZettle SDK Sample-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
