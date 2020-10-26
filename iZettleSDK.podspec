@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://www.izettle.com/'
   s.license      = { :type => 'Commercial', :file => 'LICENSE' }
   s.author       = { 'iZettle AB' => 'hello@izettle.com' }
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '10.0'
   s.source       = { :git => 'https://github.com/iZettle/sdk-ios.git', :tag => "#{s.version}" }
   s.source_files =  "#{s.name}/**/*.{h,swift}" 
   s.preserve_paths = 'iZettleSDK/iZettleSDK.xcframework'

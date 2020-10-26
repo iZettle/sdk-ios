@@ -30,7 +30,7 @@ is designed to be easy to implement and use.
 
 - Xcode 11+
 - `ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES` flag is required if your project doesn't include swift
-- iOS 9+
+- iOS 10+
 - iZettle Reader 2 support requires iOS 10+
 - Client ID from the iZettle Developer Portal
 
