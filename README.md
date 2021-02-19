@@ -171,7 +171,7 @@ If you support iOS 10 and iOS 11, you'll need to override AppDelegate `applicati
 ```swift
 func application(
   _ app: UIApplication,
-  open url: URL,
+  openURL: URL,
   options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
     return iZettleSDK.shared().applicationDidOpen(with: url)
 }
