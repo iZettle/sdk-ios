@@ -87,7 +87,7 @@ This is what it should look like in the "source code" view of your `Info.plist` 
 
 #### Important
 
-The iZettle bluetooth card readers are part of the Apple MFi program. In order to release apps supporting accessories that are part of the MFi Program, you have to apply at Apple. Please contact us at [sdk@izettle.com](mailto:sdk@izettle.com) and we will help you with this process.
+The iZettle bluetooth card readers are part of the Apple MFi program. In order to release apps supporting accessories that are part of the MFi Program, you have to apply at Apple. Please contact our [Integrations team](mailto:sdk@zettle.com) that will help you with this process.
 
 ### 2. Setup external accessory communication background mode
 
@@ -389,3 +389,6 @@ authorizationCode = 004601
 ## Errors
 
 iZettle will display any errors that occur during an operation to the user, the NSError-object returned in the operation completion block is only intended to be used by developers for debugging, diagnostics and logging to be able to better communicate errors to iZettle. You should never present the returned errors to the end user.
+
+## Get help
+Contact our [Integrations team](mailto:sdk@zettle.com) for more information.
