@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9B8B199E24754A0F00C74D78 /* CustomAuthorizationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B199D24754A0F00C74D78 /* CustomAuthorizationProvider.m */; };
 		9BC1DCBB24ACBA58004E74DC /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1DCBA24ACBA58004E74DC /* AccountManager.m */; };
-		D70172AA2546D9C400FA6843 /* SDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70172A92546D9C300FA6843 /* SDK.swift */; };
 		D7E94CE024AE529B00B55A9A /* iZettlePayments.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E94CD824AE528A00B55A9A /* iZettlePayments.xcframework */; };
 		D7E94CE124AE529B00B55A9A /* iZettlePayments.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7E94CD824AE528A00B55A9A /* iZettlePayments.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D7E94CE224AE529D00B55A9A /* iZettleSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E94CDB24AE528B00B55A9A /* iZettleSDK.xcframework */; };
@@ -46,7 +45,6 @@
 		9B8B199D24754A0F00C74D78 /* CustomAuthorizationProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAuthorizationProvider.m; sourceTree = "<group>"; };
 		9BC1DCB924ACBA58004E74DC /* AccountManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
 		9BC1DCBA24ACBA58004E74DC /* AccountManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
-		D70172A92546D9C300FA6843 /* SDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDK.swift; sourceTree = "<group>"; };
 		D7E94CD824AE528A00B55A9A /* iZettlePayments.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = iZettlePayments.xcframework; path = ../../iZettleSDK/iZettlePayments.xcframework; sourceTree = "<group>"; };
 		D7E94CDB24AE528B00B55A9A /* iZettleSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = iZettleSDK.xcframework; path = ../../iZettleSDK/iZettleSDK.xcframework; sourceTree = "<group>"; };
 		E6F9FED91DDDFFC80051C21D /* AmountWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmountWheel.h; sourceTree = "<group>"; };
@@ -107,7 +105,6 @@
 		E6F9FED81DDDFFC80051C21D /* iZettleSDKSample */ = {
 			isa = PBXGroup;
 			children = (
-				D70172A92546D9C300FA6843 /* SDK.swift */,
 				E6F9FED91DDDFFC80051C21D /* AmountWheel.h */,
 				E6F9FEDA1DDDFFC80051C21D /* AmountWheel.m */,
 				E6F9FEDB1DDDFFC80051C21D /* AppDelegate.h */,
@@ -162,7 +159,6 @@
 				TargetAttributes = {
 					3F0C93971AC30F4600305D8F = {
 						CreatedOnToolsVersion = 6.2;
-						LastSwiftMigration = 1210;
 					};
 				};
 			};
@@ -209,7 +205,6 @@
 				9BC1DCBB24ACBA58004E74DC /* AccountManager.m in Sources */,
 				9B8B199E24754A0F00C74D78 /* CustomAuthorizationProvider.m in Sources */,
 				E6F9FEEF1DDDFFC80051C21D /* ConsoleViewController.m in Sources */,
-				D70172AA2546D9C400FA6843 /* SDK.swift in Sources */,
 				E6F9FEF31DDDFFC80051C21D /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,10 +348,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = G94FN7ACW4;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -370,9 +364,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.izettle.iZorn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -381,10 +372,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = G94FN7ACW4;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -398,8 +388,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.izettle.iZorn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
