@@ -1,5 +1,5 @@
-# iZettle SDK support for tipping
-The purpose of this document is to provide an overview of how to receive tips when taking card payments using the SDK from iZettle.
+# Zettle SDK support for tipping
+The purpose of this document is to provide an overview of how to receive tips when taking card payments using the SDK from Zettle.
 
 ### Description of tipping flow in the SDK
 The usage of tipping is optional. For each call the requestor can specify if tipping should be part of the payment or not. If tipping is enabled, the payment will return both the total amount and the tipping amount.
@@ -11,10 +11,10 @@ The process to enter tips in the card reader may vary between markets due to to 
 ### Prerequisites
 Please note that the following prerequisites are required to initiate tipping,
 
-- Tipping is only available on the iZettle reader
+- Tipping is only available on the Zettle reader
 - Usage of SDK version ​`1.7.1`
 - The card reader needs to contain the latest software versions.
-- Tipping needs to be enabled for the market connected to the iZettle account used by the merchant. Please refer to list of supported markets below.
+- Tipping needs to be enabled for the market connected to the Zettle account used by the merchant. Please refer to list of supported markets below.
 
 ### Supported markets
 Tipping will be made available on a market by market basis. The following markets are supported at the moment:
@@ -29,15 +29,15 @@ Tipping will be made available on a market by market basis. The following market
 
 ### Additional material
 
-- iZettle SDK FAQ Tipping
-- Instruction of how to update iZettle reader software
-- Description of user interaction on iZettle reader when receiving tips
+- Zettle SDK FAQ Tipping
+- Instruction of how to update Zettle reader software
+- Description of user interaction on Zettle reader when receiving tips
 
-## iZettle SDK FAQ tipping
+## Zettle SDK FAQ tipping
 
-### How does the tipping feature work in the iZettle SDK and iZettle Reader?
+### How does the tipping feature work in the Zettle SDK and Zettle Reader?
 
-iZettle's tipping function allows customers to add an extra amount to the total sum of their bill (market specific versions: entering total sum or adding an extra amount), and they can do so straight into your card reader. This function only works with an iZettle Reader.
+Zettle's tipping function allows customers to add an extra amount to the total sum of their bill (market specific versions: entering total sum or adding an extra amount), and they can do so straight into your card reader. This function only works with a Zettle Reader.
 
 ### How do I activate the tipping function within the SDK?
 Tipping is optional and is enabled per call to the charge-function.
@@ -79,7 +79,7 @@ In markets where the tipping style is `Total amount`, there card holder is requi
 ### Is there a need to update the card reader software to use tipping?
 Yes, tipping requires a minimum version of the card reader software. It’s highly recommended that merchants upgrade the card reader software prior to accepting payments with tips. The update will take a few minutes to be completed.
 
-The SDK will verify that the correct software is installed on the iZettle card reader when requesting tips. If the card reader software doesn’t support tipping, a message will be displayed asking the merchant to update the card reader software.
+The SDK will verify that the correct software is installed on the Zettle card reader when requesting tips. If the card reader software doesn’t support tipping, a message will be displayed asking the merchant to update the card reader software.
 
 ![alt text][update_software2]
 
@@ -89,14 +89,14 @@ The SDK will verify that the correct software is installed on the iZettle card r
 - Keep the smartphone or tablet close to the card reader during the update.
 ---
 
-### What happens if a tipping call is made using an iZettle account in a market that doesn’t support tipping?
+### What happens if a tipping call is made using a Zettle account in a market that doesn’t support tipping?
 ​The payment function will work as before, eg not initiating the tipping flow in the card reader.
 
-### What are the plans to launch tipping for other iZettle markets?
+### What are the plans to launch tipping for other Zettle markets?
 Tipping is planned be introduced in more markets. Information about the availability will be announced on Github and via email.
 
-## How to update iZettle card reader software
-This document describes the process to update the iZettle reader software.
+## How to update Zettle card reader software
+This document describes the process to update the Zettle reader software.
 
 ![alt text][reader0]
 

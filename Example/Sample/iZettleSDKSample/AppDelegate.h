@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  iZettle SDK Sample
 //
-//  Copyright (c) 2015 iZettle. All rights reserved.
+//  Copyright © 2015 PayPal Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
