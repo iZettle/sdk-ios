@@ -9,11 +9,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @class iZettleSDKPaymentInfo;
 @protocol iZettleSDKAuthorizationProvider;
-#ifdef APM_VISIBLE
-@class PaypalCheckout;
-@class IZKlarnaCheckout;
-@class KeyInCheckout;
-#endif
 
 /// SDK error domain
 extern NSErrorDomain const IZSDKErrorDomain;
@@ -79,55 +74,6 @@ typedef void(^iZettleSDKOperationCompletion)(iZettleSDKPaymentInfo * _Nullable p
 presentFromViewController:(UIViewController *)viewController
           completion:(iZettleSDKOperationCompletion)completion
 NS_SWIFT_NAME(charge(amount:enableTipping:reference:presentFrom:completion:));
-
-
-#ifdef APM_VISIBLE
-
-/**
- Perform a Klarna payment with a checkout.
- 
- @param checkout IZKlarnaCheckout object that contains information about all products in a busket and discounts applied
- @param viewController A controller from which iZettle will present its UI
- @param completion Completion handler that will be called when the operation finishes
- */
-- (void)chargeKlarnaWithCheckout:(IZKlarnaCheckout *)checkout
-     presentedFromViewController:(UIViewController *)viewController
-                      completion:(iZettleSDKOperationCompletion)completion
-NS_SWIFT_NAME(chargeKlarna(checkout:presentFrom:completion:));
-
-- (void)chargePaypalQRCWithCheckout:(PaypalCheckout *)checkout presentedFromViewController:(UIViewController *)viewController
-                         completion:(iZettleSDKOperationCompletion)completion API_AVAILABLE(ios(13));
-
-- (void)chargeVenmoQRCWithCheckout:(PaypalCheckout *)checkout presentedFromViewController:(UIViewController *)viewController
-                        completion:(iZettleSDKOperationCompletion)completion API_AVAILABLE(ios(13));
-
-/**
- Perform a Key-In payment with a checkout.
- 
- @param checkout KeyInCheckout object that contains information about all products in a busket and discounts applied
- @param viewController A controller from which iZettle will present its UI
- @param completion Completion handler that will be called when the operation finishes
- */
-- (void)chargeKeyInWithCheckout:(KeyInCheckout *)checkout
-    presentedFromViewController:(UIViewController *)viewController
-                     completion:(iZettleSDKOperationCompletion)completion
-NS_SWIFT_NAME(chargeKeyIn(checkout:presentFrom:completion:));
-
-- (void)presentKlarnaActivationFromViewController:(UIViewController *)viewController
-                                   onToggleChange:(void (^)(BOOL))onToggleChangeHandler
-NS_SWIFT_NAME(presentKlarnaActivation(from:onToggleChange:));
-
-- (void)presentKeyInActivationFromViewController:(UIViewController *)viewController
-                                  onToggleChange:(void (^)(BOOL))onToggleChangeHandler
-NS_SWIFT_NAME(presentKeyInActivation(from:onToggleChange:));
-
-- (void)presentPaypalQRCActivationFromViewController:(UIViewController *)viewController
-                                      onToggleChange:(void (^)(BOOL))onToggleChangeHandler API_AVAILABLE(ios(13));
-
-- (void)presentVenmoActivationFromViewController:(UIViewController *)viewController
-                                  onToggleChange:(void (^)(BOOL))onToggleChangeHandler API_AVAILABLE(ios(13));
-
-#endif
 
 /// Refund an amount from a payment with a given reference.
 /// @param amount:          The amount to be refunded from the payment (Optional, `nil` will refund full amount of original payment)
