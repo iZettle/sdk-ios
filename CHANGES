@@ -5,6 +5,9 @@
 - Support M1 mac simulators
 - Bugfixes and performance improvements
 - Better debit/credit card selection for Brazil
+- Once an update to 3.1 has been performed, end users will be required to re-login. This is due to changes done in the authentication process.
+- Currently iZettleSDK crashes on simulated devices running iOS 13.7 or earlier on a Mac with Apple silicon due to a bug in WebKit framework. The WebKit bug was fixed in Xcode 12.5 beta 3 and iZettleSDK crash will be fixed once Xcode 12.5 is out of beta and we support it.
+Workaround: On a Mac with Apple silicon use iOS 14+ simulators.
 
 3.0.2 - 2020-08-26
 - Implement an improved version of the pairing flow
