@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = 'iZettleSDK'
-  s.version      = '3.0.2'
+  s.version      = '3.1.0'
   s.summary      = 'iZettle SDK for iOS'
   s.description  = <<-DESC
                     For detailed information, please see iZettleSDK documentation and Readme.
                    DESC
   s.homepage     = 'https://www.izettle.com/'
   s.license      = { :type => 'Commercial', :file => 'LICENSE' }
-  s.author       = { 'iZettle AB' => 'hello@izettle.com' }
+  s.author       = { 'PayPal Inc' => 'hello@izettle.com' }
   s.platform     = :ios, '10.0'
   s.source       = { :git => 'https://github.com/iZettle/sdk-ios.git', :tag => "#{s.version}" }
   s.source_files =  "#{s.name}/**/*.{h,swift}" 

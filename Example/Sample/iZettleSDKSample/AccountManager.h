@@ -3,7 +3,7 @@
 //  iZettle SDK Sample
 //
 //  Created by Stanislav Goryachev on 2020-07-01.
-//  Copyright © 2020 iZettle. All rights reserved.
+//  Copyright © 2020 PayPal Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -10,7 +10,7 @@ This document aims to outline the new features in the new v3.0.0 SDK release, an
       - [Get started with new Developer Portal](#get-started-with-new-developer-portal)
       - [Deprecation of API keys](#deprecation-of-api-keys)
       - [Required API changes](#required-api-changes)
-        - [iOS 9 & iOS 10 support](#ios-9--ios-10-support)
+        - [iOS 10 support](#ios-10-support)
     - [Support for XCFrameworks](#support-for-xcframeworks)
       - [Reduced number of frameworks](#reduced-number-of-frameworks)
       - [Deprecating Carthage support](#deprecating-carthage-support)
@@ -22,16 +22,16 @@ This document aims to outline the new features in the new v3.0.0 SDK release, an
 
 ### Support for OAuth 2.0
 
-The main change implemented in the new iZettle SDK is the support for secure authorisation through OAuth 2.0. Previously, authorisation and authentication in the iZettle SDK behaved pretty much like a black box—SDK managed the process completely by itself and integrators had no way of controlling or influencing that process. While easy to use, this had a few downsides:
+The main change implemented in the new Zettle SDK is the support for secure authorisation through OAuth 2.0. Previously, authorisation and authentication in the Zettle SDK behaved pretty much like a black box — the SDK managed the process completely by itself and integrators had no way of controlling or influencing that process. While easy to use, this had a few downsides:
 
-- Poor seller experience — Sellers routinely had to maintain two logins—one for their POS app and one for the iZettle SDK. Switching accounts between them was not a great experience either since it often happen that sellers only change their POS app account and not their SDK account.
+- Poor seller experience — Sellers routinely had to maintain two logins—one for their POS app and one for the Zettle SDK. Switching accounts between them was not a great experience either since it often happen that sellers only change their POS app account and not their SDK account.
 - Poor partner experience — Partners had no way of controlling or knowing which users are logged in the SDK since all interaction with the SDK was always done by the sellers.
 
 New SDK aims to solve these problems by implementing support for OAuth 2.0 specification. Implementing support for this protocol means that partners now have opportunity to customise and tailor authorisation experience for their sellers which in many cases improves the seller experience—e.g. no need for two logins. In addition to this, SDK sellers will now also be able to authorise/login with their PayPal accounts .
 
 #### Get started with new Developer Portal
 
-To get started, create a developer account in the [iZettle Developer Portal](https://developer.izettle.com/) and create an iOS SDK developer application. As part of process, you'll need to provide a callback url (URL Scheme) that needs to be defined in your application's Xcode project. Follow Apple's [Defining a Custom URL Scheme for Your App](https://developer.apple.com/documentation/uikit/inter-process_communication/allowing_apps_and_websites_to_link_to_your_content/defining_a_custom_url_scheme_for_your_app) guide to create a callback URL for your application.
+To get started, create a developer account in the [Zettle Developer Portal](https://developer.izettle.com/) and create an iOS SDK developer application. As part of process, you'll need to provide a callback url (URL Scheme) that needs to be defined in your application's Xcode project. Follow Apple's [Defining a Custom URL Scheme for Your App](https://developer.apple.com/documentation/uikit/inter-process_communication/allowing_apps_and_websites_to_link_to_your_content/defining_a_custom_url_scheme_for_your_app) guide to create a callback URL for your application.
 
 After completing the process, you'll be issued a client ID that represents your developer application. Save the issued Client ID and the provided callback URL as they will be needed to initialize the SDK.
 
@@ -59,11 +59,11 @@ The new SDK implements breaking API changes as part of the OAuth support and dep
 + }
 ```
 
-`iZettleSDKAuthorizationProvider` is a new public protocol which can be implemented by partners if they want to improve the authorization experience by e.g. managing iZettle tokens themselves and providing them to the SDK directly. Read more in [New Public APIs](#new-public-apis)
+`iZettleSDKAuthorizationProvider` is a new public protocol which can be implemented by partners if they want to improve the authorization experience by e.g. managing Zettle tokens themselves and providing them to the SDK directly. Read more in [New Public APIs](#new-public-apis)
 
-##### iOS 9 & iOS 10 support
+##### iOS 10 support
 
-Partners also need to override AppDelegate `application:openURL:options:` if they need to support iOS 9 and iOS 10.
+Partners also need to override AppDelegate `application:openURL:options:` if they need to support iOS 10.
 
 ```swift
 func application(
@@ -89,7 +89,7 @@ Previously, the SDK was distributed as a package of 4 different binary framework
 
 #### Deprecating Carthage support
 
-Carthage doesn't implement support for binary XCFrameworks [Carthage/#2799](https://github.com/Carthage/Carthage/issues/2799) which means that Carthage integration won't work with the new iZettle SDK. We advise all partners to use Manual Integration or Cocoapods instead.
+Carthage doesn't implement support for binary XCFrameworks [Carthage/#2799](https://github.com/Carthage/Carthage/issues/2799) which means that Carthage integration won't work with the new Zettle SDK. We advise all partners to use Manual Integration or Cocoapods instead.
 
 ## New Public APIs
 

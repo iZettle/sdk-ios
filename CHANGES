@@ -1,3 +1,34 @@
+
+3.1.0 - 2021-03-26
+- Added support for US market where Zettle will launch during 2021. If you are interested to join our pilot program, contact us at sdk@zettle.com.
+- Require Xcode 12.4 from now on with latest swift version
+- Support M1 mac simulators
+- Bugfixes and performance improvements
+- Better debit/credit card selection for Brazil
+- Once an update to 3.1 has been performed, end users will be required to re-login. This is due to changes done in the authentication process.
+- Currently iZettleSDK crashes on simulated devices running iOS 13.7 or earlier on a Mac with Apple silicon due to a bug in WebKit framework. The WebKit bug was fixed in Xcode 12.5 beta 3 and iZettleSDK crash will be fixed once Xcode 12.5 is out of beta and we support it.
+Workaround: On a Mac with Apple silicon use iOS 14+ simulators.
+
+3.0.2 - 2020-08-26
+- Implement an improved version of the pairing flow
+- Fix an issue where SDK was unable to pair with v2 reader after reconnection failure
+- Remove “Connect another reader” from SDK settings
+- Removed support for iOS 9
+
+3.0.1 - 2020-08-21
+- Automatically restart card reader after an update is finished
+- Fix a crash on iOS 9
+- Removed extra alert when tapping Continue in the Signature View
+- Various crash fixes and performance improvements under the hood
+
+
+3.0.0 - 2020-07-06
+- Added support for OAuth 2.0
+- Deprecated API keys. SDK will no longer need to accept API key as part of the SDK initialization process.
+- Migrated SDK binaries to XCFrameworks
+- Implemented in-app pairing flows for all supported iZettle card readers
+- Implemented new version of the SDK settings
+
 2.5.3 - 2020-02-28
 - Fix an issue where crashes could occur when using iZettle Reader 2 (#285)[https://github.com/iZettle/sdk-ios/issues/285]
 
