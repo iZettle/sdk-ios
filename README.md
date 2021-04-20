@@ -47,7 +47,7 @@ You can install Zettle SDK in several ways:
 1. Add following pod to your `Podfile`:
 
 ```ruby
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'Your App' do
     pod 'iZettleSDK'
