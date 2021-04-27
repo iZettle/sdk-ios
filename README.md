@@ -6,6 +6,26 @@ The Zettle SDK makes it possible to accept card payments with a Zettle card read
 When triggered, it will display a screen over the host application where all interaction takes place. It
 is designed to be easy to implement and use.
 
+Card payments with Zettle are currently supported in the following markets:
+
+-   United States
+-   United Kingdom
+-   Sweden
+-   Brazil
+-   Norway
+-   Denmark
+-   Finland
+-   Germany
+-   Mexico
+-   Netherlands
+-   France
+-   Spain
+-   Italy
+
+You can integrate your Point of Sales (POS) with the Zettle SDK only for the supported markets, no matter where you are located. 
+
+> **Note:** To test your integration with the Zettle SDK, you need to be located in one of the supported markets to be able to order a card reader.
+
 ## Main features
 
 - Take card payments with a Zettle card reader.
