@@ -153,7 +153,7 @@ Edit your **Info.plist** file to have the following information set:
 
 Note that the texts for the `NSLocationWhenInUseUsageDescription` and `NSBluetoothPeripheralUsageDescription` keys will be displayed when iOS asks the user for permissions to allow your app access to bluetooth capabilities. You may want to update the texts to your requirements.
 
-* If you don't remember the scheme of your OAuth Redirect URI, you can double check it on the [Developer Portal](https://developer.izettle.com/)
+\* If you don't remember the scheme of your OAuth Redirect URI, you can double check it on the [Developer Portal](https://developer.izettle.com/)
 
 ### 3. Setup CLLocationManager in your `Info.plist`
 
