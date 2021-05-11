@@ -131,13 +131,29 @@ Edit your **Info.plist** file to have the following information set:
     <string>bluetooth-central</string>
     <string>external-accessory</string>
 </array>
+
 <key>NSBluetoothAlwaysUsageDescription</key>
 <string>Our app uses bluetooth to find, connect and transfer data with Zettle card reader devices.</string>
+
 <key>NSBluetoothPeripheralUsageDescription</key>
 <string>Our app uses bluetooth to find, connect and transfer data with Zettle card reader devices.</string>
+
+<key>CFBundleURLTypes</key>
+<array>
+    <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+            <string>"The scheme of your OAuth Redirect URI *"</string>
+        </array>
+    </dict>
+</array>
 ```
 
 Note that the texts for the `NSLocationWhenInUseUsageDescription` and `NSBluetoothPeripheralUsageDescription` keys will be displayed when iOS asks the user for permissions to allow your app access to bluetooth capabilities. You may want to update the texts to your requirements.
+
+\* If you don't remember the scheme of your OAuth Redirect URI, you can double check it on the [Developer Portal](https://developer.izettle.com/)
 
 ### 3. Setup CLLocationManager in your `Info.plist`
 
