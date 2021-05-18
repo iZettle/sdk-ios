@@ -1,3 +1,5 @@
+3.1.1 - 2021-05-18
+- Under the hood changes to authentication flow
 
 3.1.0 - 2021-03-26
 - Added support for US market where Zettle will launch during 2021. If you are interested to join our pilot program, contact us at sdk@zettle.com.
