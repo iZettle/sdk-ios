@@ -16,9 +16,10 @@ Please note that the following prerequisites are required to initiate tipping,
 - The card reader needs to contain the latest software versions.
 - Tipping needs to be enabled for the market connected to the Zettle account used by the merchant. Please refer to list of supported markets below.
 
-### Supported markets
+### Supported markets for tipping
 Tipping will be made available on a market by market basis. The following markets are supported at the moment:
 
+- United States
 - Sweden
 - Norway
 - Denmark
@@ -62,6 +63,7 @@ The tipping style is pre-defined per market and is not configurable.
 
 | Market | Tipping style |
 | ------ | ------ |
+| United States | Extra Amount |
 | Sweden | Total Amount |
 | Norway | Total Amount |
 | Denmark | Extra Amount |
@@ -71,7 +73,7 @@ The tipping style is pre-defined per market and is not configurable.
 | Germany | Total Amount |
 
 ### Is there a MAX level for tip?
-To prevent accidental or invalid amounts (for example if the customer enters their PIN code instead of a tip amount), the maximum tip level is set to 35%. If the customer enters more than 35%, the card reader will show a “too high amount” warning message.
+To prevent accidental or invalid amounts (for example if the customer enters their PIN code instead of a tip amount), the maximum tip level is set to 50%. If the customer enters more than 50%, the card reader will show a “too high amount” warning message.
 
 ### Is there a MIN level for tip?
 In markets where the tipping style is `Total amount`, there card holder is required to enter the amount to be charged including tips. If the user enters an amount that is less than the amount entered by the merchant, the card reader will show a “too low amount” warning message.

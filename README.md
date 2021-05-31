@@ -36,7 +36,6 @@ You can integrate your point of sale (POS) with the Zettle SDK only for the supp
 
 ## Limitations
 
-- The SDK will only work on markets where Zettle is operating, please visit [Zettle.com](https://www.zettle.com) for more information.
 - It does not currently support other payment methods than cards.
 
 ## Contents
