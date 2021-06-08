@@ -152,7 +152,7 @@ Edit your **Info.plist** file to have the following information set:
 
 Note that the texts for the `NSLocationWhenInUseUsageDescription` and `NSBluetoothPeripheralUsageDescription` keys will be displayed when iOS asks the user for permissions to allow your app access to bluetooth capabilities. You may want to update the texts to your requirements.
 
-\* If you don't remember the scheme of your OAuth Redirect URI, you can double check it on the [Developer Portal](https://developer.izettle.com/)
+If you don't remember the scheme of your OAuth Redirect URI, you can double check it on the [Developer Portal](https://developer.izettle.com/).
 
 ### 3. Setup CLLocationManager in your `Info.plist`
 
@@ -263,7 +263,7 @@ Passing `enableTipping` to the `charge(amount:)` call does not guarantee that ti
 
 Total tip amount is presented in `iZettleSDKOperationCompletion` completion with `gratuityAmount` property.
 
-More documentation on the tipping flow can be found [here](https://github.com/iZettle/sdk-ios/tree/master/Documentation)
+For more information on the tipping flow, see [SDK tippping support documentation](Documentation/SDK_Tipping_Support_Documentation.md).
 
 ### Refunding
 
@@ -423,3 +423,6 @@ authorizationCode = 004601
 ## Errors
 
 Zettle will display any errors that occur during an operation to the user, the NSError-object returned in the operation completion block is only intended to be used by developers for debugging, diagnostics and logging to be able to better communicate errors to Zettle. You should never present the returned errors to the end user.
+
+## Get help
+Contact our [Integrations team](mailto:sdk@zettle.com) for more information.
