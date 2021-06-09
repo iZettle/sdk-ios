@@ -17,7 +17,7 @@ Please note that the following prerequisites are required to initiate tipping:
 - Tipping is only available on the Zettle reader
 - Usage of SDK version `1.7.1`
 - The card reader needs to contain the latest software versions.
-- Tipping needs to be enabled for the market connected to the Zettle account used by the merchant. Please refer to list of supported markets below.
+- Tipping needs to be enabled for the market connected to the Zettle account used by the merchant. See the [list of supported markets for tipping](#supported-markets-for-tipping).
 
 ### Supported markets for tipping
 Tipping will be made available on a market by market basis. The following markets are supported at the moment:
@@ -34,7 +34,6 @@ Tipping will be made available on a market by market basis. The following market
 ### Additional material
 
 - Zettle SDK FAQ Tipping
-- Instruction of how to update Zettle reader software
 - Description of user interaction on Zettle reader when receiving tips
 
 ## Zettle SDK FAQ tipping
