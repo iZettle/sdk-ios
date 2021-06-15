@@ -105,7 +105,7 @@ This is what it should look like in the "source code" view of your `Info.plist` 
 
 #### Important
 
-The Zettle bluetooth card readers are part of the Apple MFi program. In order to release apps supporting accessories that are part of the MFi Program, you have to apply at Apple. Please contact us at [sdk@zettle.com](mailto:sdk@zettle.com) and we will help you with this process.
+The Zettle bluetooth card readers are part of the Apple MFi program. In order to release apps supporting accessories that are part of the MFi Program, you have to apply at Apple. Please contact our [Integrations team](mailto:sdk@zettle.com) and we will help you with this process.
 
 ### 2. Setup external accessory communication background mode
 
