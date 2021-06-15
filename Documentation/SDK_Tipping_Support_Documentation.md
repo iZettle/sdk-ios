@@ -46,10 +46,6 @@ Zettle's tipping function allows customers to add an extra amount to the total s
 Tipping is optional and is enabled per call to the charge-function.
 Passing enableTipping to the `charge(amount:)` call does not guarantee that tipping flow will be displayed. This is because tipping is not supported by all accounts and all card readers.
 
-
-### Why are the different flows in the card reader to collect tips?
-User research showed that the methods to give tips differ between countries. In the UK users want to be prompted with a question before entering the tip amount. As a contrast in Norway and Sweden, users prefer to enter the total amount including tip directly.
-
 ### Are there any prerequisites for using tipping?
 See section [prerequisites](#prerequisites).
 
