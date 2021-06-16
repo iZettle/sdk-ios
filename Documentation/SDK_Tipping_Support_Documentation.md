@@ -33,10 +33,10 @@ Tipping will be made available on a market by market basis. The following market
 
 ### Additional material
 
-- Zettle SDK FAQ Tipping
-- Description of user interaction on Zettle reader when receiving tips
+- [Zettle SDK tipping FAQ](#zettle-sdk-tipping-faq)
+- [Tipping flow on the Zettle card reader](Tipping_flow_on_the_Zettle_card_reader)
 
-## Zettle SDK FAQ tipping
+## Zettle SDK tipping FAQ
 
 ### How does the tipping feature work in the Zettle SDK and Zettle Reader?
 
