@@ -61,7 +61,7 @@ You can install Zettle SDK in several ways:
 
 ### CocoaPods
 
-[CocoaPods](http://www.cocoapods.org/) is an easy way to install ZettleSDK.
+[CocoaPods](http://www.cocoapods.org/) is an easy way to install Zettle SDK.
 
 1. Add following pod to your `Podfile`:
 
@@ -105,7 +105,7 @@ This is what it should look like in the "source code" view of your `Info.plist` 
 
 #### Important
 
-The Zettle bluetooth card readers are part of the Apple MFi program. In order to release apps supporting accessories that are part of the MFi Program, you have to apply at Apple. Please contact us at [sdk@izettle.com](mailto:sdk@izettle.com) and we will help you with this process.
+The Zettle bluetooth card readers are part of the Apple MFi program. In order to release apps supporting accessories that are part of the MFi Program, you have to apply at Apple. Please contact our [Integrations team](mailto:sdk@zettle.com) and we will help you with this process.
 
 ### 2. Setup external accessory communication background mode
 
@@ -152,7 +152,7 @@ Edit your **Info.plist** file to have the following information set:
 
 Note that the texts for the `NSLocationWhenInUseUsageDescription` and `NSBluetoothPeripheralUsageDescription` keys will be displayed when iOS asks the user for permissions to allow your app access to bluetooth capabilities. You may want to update the texts to your requirements.
 
-If you don't remember the scheme of your OAuth Redirect URI, you can double check it on the [Developer Portal](https://developer.izettle.com/).
+If you don't remember the scheme of your OAuth Redirect URI, you can double check it on the [Developer Portal](https://developer.zettle.com/).
 
 ### 3. Setup CLLocationManager in your `Info.plist`
 
@@ -190,7 +190,7 @@ Before you execute any operation with the Zettle SDK, you have to initialize it 
 
 User authorization in the SDK is perfomed through the implementation of OAuth 2.0. This means that the Zettle SDK requires Client ID and a callback url from your integrating application.
 
-To obtain Client ID, create an account in the [Zettle Developer Portal](https://developer.izettle.com/login?continue=%2F) and create an iOS SDK developer application. Once you complete that process, you'll be given a Client ID which can be used to initialize the SDK.
+To obtain Client ID, create an account in the [Zettle Developer Portal](https://developer.zettle.com/login?continue=%2F) and create an iOS SDK developer application. Once you complete that process, you'll be given a Client ID which can be used to initialize the SDK.
 
 ```swift
 let authenticationProvider = try iZettleSDKAuthorization(

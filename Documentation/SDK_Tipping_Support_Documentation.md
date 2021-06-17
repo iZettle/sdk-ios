@@ -15,7 +15,7 @@ The process to enter tips in the card reader may vary between markets due to to 
 Please note that the following prerequisites are required to initiate tipping:
 
 - Tipping is only available on the Zettle reader
-- Usage of SDK version `1.7.1`
+- Usage of SDK version `1.7.1` or later
 - The card reader needs to contain the latest software versions.
 - Tipping needs to be enabled for the market connected to the Zettle account used by the merchant. See the [list of supported markets for tipping](#supported-markets-for-tipping).
 
@@ -33,10 +33,11 @@ Tipping will be made available on a market by market basis. The following market
 
 ### Additional material
 
-- Zettle SDK FAQ Tipping
-- Description of user interaction on Zettle reader when receiving tips
+- [Zettle SDK tipping FAQ](#zettle-sdk-tipping-faq)
+- [Tipping flow on the Zettle card reader](Tipping_flow_on_the_Zettle_card_reader)
 
-## Zettle SDK FAQ tipping
+
+## Zettle SDK tipping FAQ
 
 ### How does the tipping feature work in the Zettle SDK and Zettle Reader?
 
@@ -45,10 +46,6 @@ Zettle's tipping function allows customers to add an extra amount to the total s
 ### How do I activate the tipping function within the SDK?
 Tipping is optional and is enabled per call to the charge-function.
 Passing enableTipping to the `charge(amount:)` call does not guarantee that tipping flow will be displayed. This is because tipping is not supported by all accounts and all card readers.
-
-
-### Why are the different flows in the card reader to collect tips?
-User research showed that the methods to give tips differ between countries. In the UK users want to be prompted with a question before entering the tip amount. As a contrast in Norway and Sweden, users prefer to enter the total amount including tip directly.
 
 ### Are there any prerequisites for using tipping?
 See section [prerequisites](#prerequisites).
