@@ -190,7 +190,7 @@ Before you execute any operation with the Zettle SDK, you have to initialize it 
 
 User authorization in the SDK is perfomed through the implementation of OAuth 2.0. This means that the Zettle SDK requires Client ID and a callback url from your integrating application.
 
-To obtain Client ID, create an account in the [Zettle Developer Portal](https://developer.zettle.com/login?continue=%2F) and create an iOS SDK developer application. Once you complete that process, you'll be given a Client ID which can be used to initialize the SDK.
+To obtain Client ID, create an account in the [Zettle Developer Portal](https://developer.izettle.com/login?continue=%2F) and create an iOS SDK developer application. Once you complete that process, you'll be given a Client ID which can be used to initialize the SDK.
 
 ```swift
 let authenticationProvider = try iZettleSDKAuthorization(
