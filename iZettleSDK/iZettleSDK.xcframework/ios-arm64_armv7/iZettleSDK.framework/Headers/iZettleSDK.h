@@ -23,7 +23,8 @@ typedef NS_ERROR_ENUM(IZSDKErrorDomain, IZSDKErrorCode) {
     IZSDKErrorCodeReferenceIsNil             = -102,
     IZSDKErrorCodeOperationAlreadyInProgress = -300,
     IZSDKErrorCodeInvalidAmount              = -400,
-    IZSDKErrorCodeAmountTooLow               = -401
+    IZSDKErrorCodeAmountTooLow               = -401,
+    IZSDKErrorCodeAmountTooHigh              = -402
 };
 
 typedef void(^iZettleSDKOperationCompletion)(iZettleSDKPaymentInfo * _Nullable paymentInfo, NSError * _Nullable error);

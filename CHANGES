@@ -1,3 +1,12 @@
+3.2.0 - 2021-07-26
+- Updated the UI for improved SDK experience
+- Improved localization
+- Hardened file access security policy
+- Bugfixes and performance improvements. For example:
+    - Fixed double payments during transactions when card readers are disconnected
+    - Fixed the missing currency symbol
+- Improved error handling
+
 3.1.1 - 2021-05-18
 - Under the hood changes to authentication flow
 

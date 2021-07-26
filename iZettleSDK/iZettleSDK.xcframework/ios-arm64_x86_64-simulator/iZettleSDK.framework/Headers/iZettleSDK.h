@@ -23,7 +23,8 @@ typedef NS_ERROR_ENUM(IZSDKErrorDomain, IZSDKErrorCode) {
     IZSDKErrorCodeReferenceIsNil             = -102,
     IZSDKErrorCodeOperationAlreadyInProgress = -300,
     IZSDKErrorCodeInvalidAmount              = -400,
-    IZSDKErrorCodeAmountTooLow               = -401
+    IZSDKErrorCodeAmountTooLow               = -401,
+    IZSDKErrorCodeAmountTooHigh              = -402
 };
 
 typedef void(^iZettleSDKOperationCompletion)(iZettleSDKPaymentInfo * _Nullable paymentInfo, NSError * _Nullable error);
@@ -74,6 +75,7 @@ typedef void(^iZettleSDKOperationCompletion)(iZettleSDKPaymentInfo * _Nullable p
 presentFromViewController:(UIViewController *)viewController
           completion:(iZettleSDKOperationCompletion)completion
 NS_SWIFT_NAME(charge(amount:enableTipping:reference:presentFrom:completion:));
+
 
 /// Refund an amount from a payment with a given reference.
 /// @param amount:          The amount to be refunded from the payment (Optional, `nil` will refund full amount of original payment)
