@@ -297,13 +297,14 @@ Query Zettle for payment information of a payment with a given reference.
 
 ```objective-c
 - (void)retrievePaymentInfoForReference:(NSString *)reference
-                             completion:(iZettleOperationCompletion)completion;
+              presentFromViewController:(UIViewController *)viewController
+                             completion:(iZettleSDKOperationCompletion)completion
 ```
 
 ```swift
-open func retrievePaymentInfo(for reference: String, 
-  presentFrom viewController: UIViewController, 
-  completion: @escaping iZettleSDK.iZettleSDKOperationCompletion)
+open func retrievePaymentInfo(for reference: String,
+                                  presentFrom viewController: UIViewController,
+                                  completion: @escaping iZettleSDK.iZettleSDKOperationCompletion)
 ```
 
 ### Presenting settings
