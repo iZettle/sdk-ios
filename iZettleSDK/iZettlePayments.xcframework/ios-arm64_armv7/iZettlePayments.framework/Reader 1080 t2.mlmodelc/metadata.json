@@ -100,9 +100,9 @@
     "userDefinedMetadata" : {
       "com.apple.createml.app.tag" : "53.1",
       "com.apple.createml.version" : "11.0.1",
+      "com.apple.createml.app.version" : "2.0",
       "com.apple.coreml.model.preview.type" : "objectDetector",
-      "iterations" : "6000",
-      "com.apple.createml.app.version" : "2.0"
+      "iterations" : "6000"
     },
     "neuralNetworkLayerTypeHistogram" : {
       "Slice" : 3,

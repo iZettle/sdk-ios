@@ -98,7 +98,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		/KHvCAY8nyi+EKE+kek9c2Hrc7A=
+		Skt8CUbRIK+QPNVCK96X30l4R14=
 		</data>
 		<key>Dingbatz-Light.otf</key>
 		<data>
@@ -258,7 +258,7 @@
 		</data>
 		<key>Headers/IZCardReader.h</key>
 		<data>
-		mkJGsW2RDCGI4TSylOB2ysbjEKA=
+		G0OUH/FqkntdNkdEYFZGtu78z0s=
 		</data>
 		<key>Headers/IZCardReaderDefines.h</key>
 		<data>
@@ -598,7 +598,7 @@
 		</data>
 		<key>Headers/iZettlePayments-Swift.h</key>
 		<data>
-		JF6CjtrmVWM17BDDUTHrWMt9i9w=
+		UmRPI+rLq8yux1PCGSRtseEx/fU=
 		</data>
 		<key>Headers/iZettlePayments.h</key>
 		<data>
@@ -606,7 +606,7 @@
 		</data>
 		<key>IZAccountListController.storyboardc/B0i-qj-2h3-view-fCt-r3-PgZ.nib</key>
 		<data>
-		aWK+lAtkz6M2R01x60dba2xribE=
+		ZZHlsABZpOISDMxOlmknl26+uJc=
 		</data>
 		<key>IZAccountListController.storyboardc/Info.plist</key>
 		<data>
@@ -614,7 +614,7 @@
 		</data>
 		<key>IZAccountListController.storyboardc/UIViewController-B0i-qj-2h3.nib</key>
 		<data>
-		xKpa3g0O7oInUuKW3I6iUFf/ZQA=
+		ZknW669XX7NqctuUz3XSAIz1ttc=
 		</data>
 		<key>IZCaseMailComposerController.storyboardc/Info.plist</key>
 		<data>
@@ -622,15 +622,15 @@
 		</data>
 		<key>IZCaseMailComposerController.storyboardc/Jaw-h2-QAp-view-TPg-LM-5hM.nib</key>
 		<data>
-		xjwZEZlHp88Msm0efHx0Yg5JaTc=
+		ur3SBJ3eBRHBDwKr7lZhp9VljRE=
 		</data>
 		<key>IZCaseMailComposerController.storyboardc/UIViewController-Jaw-h2-QAp.nib</key>
 		<data>
-		9QoqfBQtaZAQ3EAzrj8aPhIxkRY=
+		4xvqR1lwyScIYpPqGVm12LXbfuw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BDGqzas4Id8EePpe8I6ynlFS+KA=
+		5Mj4qDPqNR0U6c7cL9/g/dbppgo=
 		</data>
 		<key>Issuers.plist</key>
 		<data>
@@ -642,11 +642,11 @@
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		1s2s/OlAEeV7HV6coAf6qVfDtSI=
+		i6kdpB/fpf0TgVdOoRmI0Z1Wqj4=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		V/xikq9/y5OktJtYVLkYguXnswY=
+		J6JkwnawOnL9kVBmBmZ58LyAzlE=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -654,11 +654,11 @@
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		1s2s/OlAEeV7HV6coAf6qVfDtSI=
+		i6kdpB/fpf0TgVdOoRmI0Z1Wqj4=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		V/xikq9/y5OktJtYVLkYguXnswY=
+		J6JkwnawOnL9kVBmBmZ58LyAzlE=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -666,11 +666,11 @@
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bF/DAJ/ggFJRi/+jhuJpTa7FJQ8=
+		XjrIBPDuSJMX1DE6sLsf6lCVzOY=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9G7wjh78oR2c+Rr6ZDZ4lpp75Ew=
+		fwm4VwPefNbowgomjmGm7UwT1QU=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -678,11 +678,11 @@
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		bF/DAJ/ggFJRi/+jhuJpTa7FJQ8=
+		XjrIBPDuSJMX1DE6sLsf6lCVzOY=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		9G7wjh78oR2c+Rr6ZDZ4lpp75Ew=
+		fwm4VwPefNbowgomjmGm7UwT1QU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -698,7 +698,7 @@
 		</data>
 		<key>PrivateHeaders/IZKeychain.h</key>
 		<data>
-		KhD0kcpxh6GVJnytY59p2Yz6rZM=
+		jTPOOVsz+XuL9FrsSu6JTNW10YQ=
 		</data>
 		<key>PrivateHeaders/IZReachability.h</key>
 		<data>
@@ -714,11 +714,11 @@
 		</data>
 		<key>Reader 1080 t2.mlmodelc/coremldata.bin</key>
 		<data>
-		PYxhtcGrFv0ie+9wYojpUvAAEdk=
+		eSZDscrQzqcvSu9mDtV6NAG53qA=
 		</data>
 		<key>Reader 1080 t2.mlmodelc/metadata.json</key>
 		<data>
-		QYjNDwEWc7oK5qHP/SthejUH6c8=
+		0bucACulFtJzdRyBzqL7jEZQ508=
 		</data>
 		<key>Reader 1080 t2.mlmodelc/model0/coremldata.bin</key>
 		<data>
@@ -1156,11 +1156,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/KHvCAY8nyi+EKE+kek9c2Hrc7A=
+			Skt8CUbRIK+QPNVCK96X30l4R14=
 			</data>
 			<key>hash2</key>
 			<data>
-			QxyEP5PHIaMKVSmvx/AVeKWkVyrBx02N7l14CBF1Hao=
+			mkIMl72ZcHgN9bC4EnYMXeboUC50Z148L3m5GXdWjl8=
 			</data>
 		</dict>
 		<key>Dingbatz-Light.otf</key>
@@ -1596,11 +1596,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mkJGsW2RDCGI4TSylOB2ysbjEKA=
+			G0OUH/FqkntdNkdEYFZGtu78z0s=
 			</data>
 			<key>hash2</key>
 			<data>
-			QlTaJLKrgDyBs8TX+LQVgomwaUTpDSWPhVOBK4thTtg=
+			6os0TT7DPkASAFhag8MFVyeavQToFcFwl2Wyvz/HcYI=
 			</data>
 		</dict>
 		<key>Headers/IZCardReaderDefines.h</key>
@@ -2531,11 +2531,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JF6CjtrmVWM17BDDUTHrWMt9i9w=
+			UmRPI+rLq8yux1PCGSRtseEx/fU=
 			</data>
 			<key>hash2</key>
 			<data>
-			BuTlRv8+Wa90j8i4+1tq+MI7mcaWy7P37ymvPNCjsMQ=
+			JENQd2JK2dUXJPPqZ72mXs8yxMFCfpQHdlpsLmuNIvo=
 			</data>
 		</dict>
 		<key>Headers/iZettlePayments.h</key>
@@ -2553,11 +2553,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aWK+lAtkz6M2R01x60dba2xribE=
+			ZZHlsABZpOISDMxOlmknl26+uJc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q0U06UZQ1DoPVkJVGNFvFtAj6sQVqo/wlfZzYuhItiM=
+			4YTC3i+fnp6E2rKutEuVr5SRS7woY5jgdVx+LY0PPzk=
 			</data>
 		</dict>
 		<key>IZAccountListController.storyboardc/Info.plist</key>
@@ -2575,11 +2575,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xKpa3g0O7oInUuKW3I6iUFf/ZQA=
+			ZknW669XX7NqctuUz3XSAIz1ttc=
 			</data>
 			<key>hash2</key>
 			<data>
-			T84WxtHzF5V06KrbJQu0NIts4dkHTl5Rp1fOdC9aTa8=
+			RJjDO6W+1zrDjYJ1RYdbwReVfsIhXqLZ/pv4WIdVHQ8=
 			</data>
 		</dict>
 		<key>IZCaseMailComposerController.storyboardc/Info.plist</key>
@@ -2597,22 +2597,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xjwZEZlHp88Msm0efHx0Yg5JaTc=
+			ur3SBJ3eBRHBDwKr7lZhp9VljRE=
 			</data>
 			<key>hash2</key>
 			<data>
-			0k6yzZZoRJxlbCpMZyfyLl9K6+ZH1ZY4lLM5SEFvKKA=
+			8UPYl8ZNDmS5E2HJBOFagQJpt30CIMYM3bHDaHLpej4=
 			</data>
 		</dict>
 		<key>IZCaseMailComposerController.storyboardc/UIViewController-Jaw-h2-QAp.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9QoqfBQtaZAQ3EAzrj8aPhIxkRY=
+			4xvqR1lwyScIYpPqGVm12LXbfuw=
 			</data>
 			<key>hash2</key>
 			<data>
-			S9IPWex3qxKNP2IgrhScj+iQly3Is0/Wi34xW7H6aZk=
+			3E9j5KA70UmsO5l+AVcR/IeSVzi0YskP6qQQ6gcI8Z4=
 			</data>
 		</dict>
 		<key>Issuers.plist</key>
@@ -2641,22 +2641,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1s2s/OlAEeV7HV6coAf6qVfDtSI=
+			i6kdpB/fpf0TgVdOoRmI0Z1Wqj4=
 			</data>
 			<key>hash2</key>
 			<data>
-			hpLIpj9FmxAKQ2Up29A3tbE13Me3GqGDqZ/u4fGQQ1A=
+			DMbQOZGNt63vz0Ja1mNEhYL+mzryjErU20s92tdORO4=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V/xikq9/y5OktJtYVLkYguXnswY=
+			J6JkwnawOnL9kVBmBmZ58LyAzlE=
 			</data>
 			<key>hash2</key>
 			<data>
-			+7scFu3HYu7GqpGz+YRMlcGPqRqfoAR40DpJAW433OI=
+			9u6fTcCVAYyR3YQn1WTKIEcHyNJYUxf+Wj7DQokgdn4=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/arm64.swiftdoc</key>
@@ -2674,22 +2674,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1s2s/OlAEeV7HV6coAf6qVfDtSI=
+			i6kdpB/fpf0TgVdOoRmI0Z1Wqj4=
 			</data>
 			<key>hash2</key>
 			<data>
-			hpLIpj9FmxAKQ2Up29A3tbE13Me3GqGDqZ/u4fGQQ1A=
+			DMbQOZGNt63vz0Ja1mNEhYL+mzryjErU20s92tdORO4=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V/xikq9/y5OktJtYVLkYguXnswY=
+			J6JkwnawOnL9kVBmBmZ58LyAzlE=
 			</data>
 			<key>hash2</key>
 			<data>
-			+7scFu3HYu7GqpGz+YRMlcGPqRqfoAR40DpJAW433OI=
+			9u6fTcCVAYyR3YQn1WTKIEcHyNJYUxf+Wj7DQokgdn4=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -2707,22 +2707,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bF/DAJ/ggFJRi/+jhuJpTa7FJQ8=
+			XjrIBPDuSJMX1DE6sLsf6lCVzOY=
 			</data>
 			<key>hash2</key>
 			<data>
-			in5bzqFft/B5D3lX8qm9X+w1ZgWO50TWY8maPoqdlf0=
+			oodYulxLcEmEjyaNfmM8O4EZ7lw0ZaZoFXxqpXPucL4=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9G7wjh78oR2c+Rr6ZDZ4lpp75Ew=
+			fwm4VwPefNbowgomjmGm7UwT1QU=
 			</data>
 			<key>hash2</key>
 			<data>
-			B7f9BvoQoSSHDo3yjRWAm52/vSG83v4e0bJdMr97KP8=
+			3Bzrq4BeZpuPhP+RtwTdQehh3bYiBr689CSCVUTJAik=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64.swiftdoc</key>
@@ -2740,22 +2740,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bF/DAJ/ggFJRi/+jhuJpTa7FJQ8=
+			XjrIBPDuSJMX1DE6sLsf6lCVzOY=
 			</data>
 			<key>hash2</key>
 			<data>
-			in5bzqFft/B5D3lX8qm9X+w1ZgWO50TWY8maPoqdlf0=
+			oodYulxLcEmEjyaNfmM8O4EZ7lw0ZaZoFXxqpXPucL4=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9G7wjh78oR2c+Rr6ZDZ4lpp75Ew=
+			fwm4VwPefNbowgomjmGm7UwT1QU=
 			</data>
 			<key>hash2</key>
 			<data>
-			B7f9BvoQoSSHDo3yjRWAm52/vSG83v4e0bJdMr97KP8=
+			3Bzrq4BeZpuPhP+RtwTdQehh3bYiBr689CSCVUTJAik=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2795,11 +2795,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KhD0kcpxh6GVJnytY59p2Yz6rZM=
+			jTPOOVsz+XuL9FrsSu6JTNW10YQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			zxk0N1AcNDAJcR4DPSckf2lGZ67vsC9/PeWvu2k2J6Q=
+			+IVthPozYah5m0JQVYdBs22A6QnCje4xTeEviC8m9Qg=
 			</data>
 		</dict>
 		<key>PrivateHeaders/IZReachability.h</key>
@@ -2839,22 +2839,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PYxhtcGrFv0ie+9wYojpUvAAEdk=
+			eSZDscrQzqcvSu9mDtV6NAG53qA=
 			</data>
 			<key>hash2</key>
 			<data>
-			1RGfJHgAtRD1cDKL48lN3CDvkIJUU0kNJ/VvOyXx21E=
+			CpbyvSkkTxShkVN/UZkhGFUp6t2FapJMRMFG34zwqB4=
 			</data>
 		</dict>
 		<key>Reader 1080 t2.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QYjNDwEWc7oK5qHP/SthejUH6c8=
+			0bucACulFtJzdRyBzqL7jEZQ508=
 			</data>
 			<key>hash2</key>
 			<data>
-			1OfGYdQoya+zBGQZtosCLhCwJ6z+5o+WYpDjWR9s454=
+			sfzPWFXdHtlZ2iN2aSit954cBqllyC7/qTZCqAfxC2Q=
 			</data>
 		</dict>
 		<key>Reader 1080 t2.mlmodelc/model0/coremldata.bin</key>
