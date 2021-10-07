@@ -1,0 +1,90 @@
+# frozen_string_literal: true
+
+default_platform(:ios)
+skip_docs # Skip README.md generation
+
+
+def get_changelog_latest_release()
+    sh("awk '/^$/{exit} {print}' ../CHANGES > release_changelog.txt",
+        step_name: "Prepare Changelog for Release")
+end
+
+def update_podspec(release_version)
+    sh("mv ../iZettleSDK.podspec ../iZettleSDK-old.podspec", step_name: "Copy podfile")
+    sh("sed -e \"3s/'.*.'/'#{release_version}'/\" ../iZettleSDK-old.podspec > ../iZettleSDK.podspec",
+        step_name: "Update s.version key with GitHub Tag")
+    sh("cat ../iZettleSDK.podspec", step_name: "iZettleSDK.podspec podspec content")
+end
+
+def check_release_available(release_version)
+    release = get_github_release(url: ENV['REPO_NAME'],
+                                version: release_version,
+                                api_bearer: ENV['GITHUB_TOKEN'])
+    return release.nil?
+end
+
+def get_version_number()
+    sh("plutil -convert xml1 #{ENV['GITHUB_WORKSPACE']}/iZettleSDK/iZettleSDK.xcframework/ios-arm64_armv7/iZettleSDK.framework/Info.plist")
+    release_version = get_info_plist_value(path: "#{ENV['GITHUB_WORKSPACE']}/iZettleSDK/iZettleSDK.xcframework/ios-arm64_armv7/iZettleSDK.framework/Info.plist", key: "CFBundleShortVersionString")
+    return release_version
+end
+
+platform :ios do
+    desc 'Build Sample App'
+    lane :build_sample_app do
+        build_app(
+            project: "./Example/Sample/iZettleSDKSample.xcodeproj",
+            destination: "generic/platform=ios",
+            clean: true,
+            skip_archive: true,
+            xcargs: "CODE_SIGN_IDENTITY='' CODE_SIGNING_REQUIRED='' CODE_SIGNING_ALLOWED='NO'"
+        )
+    end 
+
+    desc 'Check Changelog'
+    lane :check_changelog do
+        release_version = get_version_number()
+        begin
+            is_new_version_present = sh("grep -q #{release_version} ../CHANGES",
+                step_name: "Check if version exists in the changelog")
+          rescue => ex
+            UI.user_error!("Changelog is missing changes for the latest version #{release_version}")
+          end
+    end
+
+    desc 'Github Release'
+    lane :github_release do
+        # Prepare Release
+        # Get Changelog
+        get_changelog_latest_release()
+        # Get Release Tag
+        release_version = get_version_number()
+        unless check_release_available(release_version)
+            UI.user_error!("Release for #{release_version} already exists. Please check tags and branch name")
+        else
+            UI.message("Release for #{release_version} is not created yet, proceeding with release...")
+        end
+
+        assets_to_upload = "#{ENV['GITHUB_WORKSPACE']}/iZettleSDK"
+
+        set_github_release(
+            repository_name: ENV['REPO_NAME'],
+            api_bearer: ENV['GITHUB_TOKEN'],
+            name: "Zettle SDK #{release_version}",
+            tag_name: release_version,
+            commitish: ENV['GIT_SHA'],
+            description: (begin
+                            File.read('release_changelog.txt')
+                        rescue StandardError
+                            'Automated SDK Release'
+                        end),
+            upload_assets: assets_to_upload
+        )
+
+        unless check_release_available(release_version)
+            UI.message("Release succesfully created for #{release_version}")
+        else
+            UI.user_error!("Release for #{release_version} was not created. Please check the logs for more info")
+        end
+    end
+end
