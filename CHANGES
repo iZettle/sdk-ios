@@ -1,3 +1,6 @@
+3.2.4 - 2021-07-29
+- Release automation
+
 3.2.1 - 2021-07-29
 - Fix the bug preventing sending analytics events for new installs
 
