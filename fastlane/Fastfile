@@ -87,4 +87,12 @@ platform :ios do
             UI.user_error!("Release for #{release_version} was not created. Please check the logs for more info")
         end
     end
+
+    desc 'Cocapods Release'
+    lane :cocapods_release do
+        # update podfile with the latest version
+        release_version = get_release_tag()
+        update_podspec(release_version)
+        sh("pod trunk push #{ENV['GITHUB_WORKSPACE']}/iZettleSDK.podspec")
+    end
 end
