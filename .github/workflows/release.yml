@@ -1,0 +1,19 @@
+name: Publish Release
+
+on: workflow_dispatch
+
+jobs:
+  create_github_release:
+    runs-on: macos-11
+    environment: "Github Release"
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f
+      - name: Install gem dependencies
+        run:  gem install bundler && bundle install
+      - name: Create GitHub Release
+        env: 
+          GITHUB_TOKEN: ${{ github.token }}
+          REPO_NAME: ${{ github.repository }}
+          GIT_SHA: ${{ github.sha }}
+        run: bundle exec fastlane ios github_release
