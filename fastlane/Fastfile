@@ -52,6 +52,17 @@ platform :ios do
           end
     end
 
+    desc 'Check Podspec'
+    lane :check_podspec do
+        version_tag = get_release_tag()
+        begin
+            is_new_version_present = sh("grep -q #{version_tag} ../iZettleSDK.podspec",
+                step_name: "Check if version exists in the Podspec")
+          rescue => ex
+            UI.user_error!("Podspec is missing changes for the latest version #{version_tag}")
+          end
+    end
+
     desc 'Github Release'
     lane :github_release do
         # Prepare Release
@@ -86,5 +97,11 @@ platform :ios do
         else
             UI.user_error!("Release for #{release_version} was not created. Please check the logs for more info")
         end
+    end
+
+    desc 'Cocapods Release'
+    lane :cocapods_release do
+        # Release via pod trunk
+        sh("pod trunk push #{ENV['GITHUB_WORKSPACE']}/iZettleSDK.podspec")
     end
 end
