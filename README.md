@@ -30,7 +30,7 @@ You can only integrate your point of sales (POS) with the Zettle SDK in supporte
 - Refund card payments.
 - Receive information about a payment.
 - Login/logout of Zettle accounts and simple switching between multiple accounts.
-- Settings screen. From this a user can handle card readers and activate payment methods. The user can also access help and support.
+- Settings screen. From this a user can handle card readers and access help and support.
 
 ## Limitations
 
@@ -154,10 +154,7 @@ If you don't remember the scheme of your OAuth Redirect URI, you can verify it o
 
 ### 3. Set up CLLocationManager in your `Info.plist`
 
-The merchant must grant your app this permission. If not done, Zettle will prompt the user for permission during the first payment. 
-
-Zettle will execute the CLLocationManagers method
-`requestWhenInUseAuthorization`.
+The merchant must grant your app this permission. If not done, Zettle will prompt the user for permission during the first payment and execute the CLLocationManagers method `requestWhenInUseAuthorization`.
 
 Add the key in your `Info.plist`:
 
