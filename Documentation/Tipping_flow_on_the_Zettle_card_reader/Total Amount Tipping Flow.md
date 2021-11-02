@@ -20,7 +20,7 @@ The “total amount tipping flow” lets customers enter the total amount includ
 8. The “Approved” message displays on the card reader, followed by “Thank you”.<br>
 <br>![Total amount tipping flow steps 5-8](/Documentation/images/Total_Amount_3.png)<br>
 ## Tipping amount is too high
-There is a maximum level validation to prevent accidental or invalid entering of amounts. This can happen for example if customers enter their PIN code instead of a tip amount. The maxium tip level is 35 %. If this is exceeded, the card reader will display a “Too high amount” warning message. The message will time out after three seconds.<br>
+There is a maximum level validation to prevent accidental or invalid entering of amounts. This can happen for example if customers enter their PIN code instead of a tip amount. If the maximum level is exceeded, the card reader will display a “Too high amount” warning message. The message will time out after three seconds.<br>
 <br>![Total amount tipping flow steps 5-8](/Documentation/images/Total_Amount_4.png)<br>
 ## Tipping amount is too low
 There is a minimum level validation to prevent accidental or invalid entering of amounts. If the tipping amount is less than the original payable amount, a “Too low amount” warning message displays. After a time out the customer can enter the total amount again.<br>
