@@ -71,7 +71,7 @@ target 'Your App' do
 end
 ```
 
-### Manual Installation
+### Manual installation
 
 1. Drag the binary frameworks from the `iZettleSDK` folder into your Xcode project:
 
@@ -82,13 +82,11 @@ iZettlePayments.xcframework
 
 ## Usage
 
-To be able to use Zettle SDK you are **required** to setup several things first
+To be able to use Zettle SDK you are **required** to set up the following first.
 
-```
-⚠️ An exception will be thrown if these are not selected
-```
+>**Note:** An exception will be thrown if these are not set up.
 
-### 1. Setup external accessory protocols in your `Info.plist`
+### 1. Set up external accessory protocols in your `Info.plist`
 
 Add/modify the property `Supported external accessory protocols` and add `com.izettle.cardreader-one`.
 
@@ -105,7 +103,7 @@ This is what it should look like in the "source code" view of your `Info.plist` 
 
 The Zettle bluetooth card readers are part of the Apple MFi program. In order to release apps supporting accessories that are part of the MFi Program, you have to apply at Apple. Please contact our [Integrations team](mailto:sdk@zettle.com) and we will help you with this process.
 
-### 2. Setup external accessory communication background mode
+### 2. Set up external accessory communication background mode
 
 #### 2.1 Xcode 11
 
@@ -148,7 +146,7 @@ Edit your **Info.plist** file to have the following information set:
 </array>
 ```
 
-**Note:** Zettle will ask the user for permission to allow your app access to Blutooth capabilities. Doing so, the texts for `NSLocationWhenInUseUsageDescription` and `NSBluetoothPeripheralUsageDescription` keys are displayed. You may want to update these texts to your requirements.
+>**Note:** Zettle will ask the user for permission to allow your app access to Blutooth capabilities. Doing so, the texts for `NSLocationWhenInUseUsageDescription` and `NSBluetoothPeripheralUsageDescription` keys are displayed. You may want to update these texts to your requirements.
 
 If you don't remember the scheme of your OAuth Redirect URI, you can verify it on the [Developer Portal](https://developer.zettle.com/).
 
@@ -212,7 +210,7 @@ The `ZettleSDK.shared().applicationDidOpen(with: url)` call will check `url`. If
 
 ## SDK Operations
 
-⚠️ **Important when calling the methods in the following:** In Objective C, only use the singleton instance returned from `[iZettleSDK shared]`. In Swift, only use the singleton instance returned from `iZettleSDK.shared()`.
+>**Important when calling the methods in the following:** In Objective C, only use the singleton instance returned from `[iZettleSDK shared]`. In Swift, only use the singleton instance returned from `iZettleSDK.shared()`.
 
 The Zettle SDK will handle presentation and dismissal of its views. Operations with UI will accept a UIViewController as an argument. From this the Zettle SDK will be presented. A login screen is displayed if the user has not yet been authenticated with Zettle.
 
@@ -247,8 +245,8 @@ presentFromViewController:(UIViewController *)viewController
 
 - `amount`: The amount to be charged in the logged in users currency.
 - `enableTipping`: Perform payment with tipping flow.
-- `currency` _(optional)_: Only used for validation. If the value of this parameter doesn't match the user´s currency, the user is notified and then logged out. For a complete list of valid currency codes, see [ISO 4217](http://www.xe.com/iso4217.php).
-- `reference` _(optional)_: The reference for identifying a Zettle payment. Used when retrieving payment information at a later time, or when performing a refund. Max length 128.
+- `currency` (optional): Only used for validation. If the value of this parameter doesn't match the user´s currency, the user is notified and then logged out. For a complete list of valid currency codes, see [ISO 4217](http://www.xe.com/iso4217.php).
+- `reference` (optional): The reference for identifying a Zettle payment. Used when retrieving payment information at a later time, or when performing a refund. Max length 128.
 
 
 #### Note on tipping
@@ -279,11 +277,11 @@ open func refund(amount: NSDecimalNumber?,
   completion: @escaping iZettleSDK.iZettleSDKOperationCompletion)
 ```
 
-- `amount` _(optional)_: The amount to be refunded from the payment. Passing `nil` will refund the full amount of the original payment.
+- `amount` (optional): The amount to be refunded from the payment. Passing `nil` will refund the full amount of the original payment.
 - `reference`: The reference of the payment that is to be refunded.
-- `refundReference` _(optional)_: The reference of the refund. Max length 128.
+- `refundReference` (optional): The reference of the refund. Max length 128.
 
-**Note:** Demo accounts are accounts that automatically revert performed payments. You cannot use these accounts to perform refunds. Instead, please use a standard production Zettle account to test refund functionality.
+>**Note:** Demo accounts are accounts that automatically revert performed payments. You cannot use these accounts to perform refunds. Instead, please use a standard production Zettle account to test refund functionality.
 
 ### Retrieving payment info
 
@@ -364,7 +362,7 @@ Object that contains information about a payment and the card used.
 - `gratuityAmount` - Contains total tip amount if tipping is performed
 - `referenceNumber` - Zettles reference to the payment (not to be confused with the reference provided by you during a charge or refund operation)
 - `entryMode` - EMV, CONTACTLESS_EMV, MAGSTRIPE_CONTACTLESS, MAGSTRIPE etc. More entry modes might be added independent of SDK version
-- `obfuscatedPan` - e.g. _"\*\*\*\* \*\*\*\* \*\*\*\* 1111"_
+- `obfuscatedPan` - for example "\*\*\*\* \*\*\*\* \*\*\*\* 1111"
 - `panHash` - a hash of the pan
 - `cardBrand`
 - `authorizationCode`
