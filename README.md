@@ -2,7 +2,9 @@
 
 # Zettle SDK for iOS
 
-The Zettle SDK for iOS lets you accept card payments from any iOS app, using a Zettle card reader. It is designed for easy implementation and usage. The SDK places a screen over the host application when triggered. This screen is used for all interaction.
+The Zettle SDK makes it possible to accept card payments with a Zettle card reader from any iOS app.
+When triggered, it will display a screen over the host application where all interaction takes place. It
+is designed to be easy to implement and use.
 
 Card payments with Zettle are currently supported in the following markets:
 
@@ -20,9 +22,9 @@ Card payments with Zettle are currently supported in the following markets:
 -   Spain
 -   Italy
 
-You can only integrate your point of sales (POS) with the Zettle SDK in supported markets. This applies regardless of where you are located. 
+You can integrate your point of sale (POS) with the Zettle SDK only for the supported markets, no matter where you are located. 
 
-> **Note:** To test your integration with the Zettle SDK, you need to order a card reader. This can only be done if you are located in a supported market.
+> **Note:** To test your integration with the Zettle SDK, you need to be located in one of the supported markets to be able to order a card reader.
 
 ## Main features
 
@@ -30,11 +32,11 @@ You can only integrate your point of sales (POS) with the Zettle SDK in supporte
 - Refund card payments.
 - Receive information about a payment.
 - Login/logout of Zettle accounts and simple switching between multiple accounts.
-- Settings screen. From this a user can handle card readers and access help and support.
+- Settings screen where the user can handle card readers and access help and support.
 
 ## Limitations
 
-- The Zettle iOS SDK does currently not support other payment methods than cards.
+- It does not currently support other payment methods than cards.
 
 ## Contents
 
@@ -71,7 +73,7 @@ target 'Your App' do
 end
 ```
 
-### Manual installation
+### Manual Installation
 
 1. Drag the binary frameworks from the `iZettleSDK` folder into your Xcode project:
 
@@ -82,11 +84,13 @@ iZettlePayments.xcframework
 
 ## Usage
 
-To be able to use Zettle SDK you are **required** to set up the following first.
+To be able to use Zettle SDK you are **required** to setup several things first
 
->**Note:** An exception will be thrown if these are not set up.
+```
+⚠️ An exception will be thrown if these are not selected
+```
 
-### 1. Set up external accessory protocols in your `Info.plist`
+### 1. Setup external accessory protocols in your `Info.plist`
 
 Add/modify the property `Supported external accessory protocols` and add `com.izettle.cardreader-one`.
 
@@ -103,18 +107,18 @@ This is what it should look like in the "source code" view of your `Info.plist` 
 
 The Zettle bluetooth card readers are part of the Apple MFi program. In order to release apps supporting accessories that are part of the MFi Program, you have to apply at Apple. Please contact our [Integrations team](mailto:sdk@zettle.com) and we will help you with this process.
 
-### 2. Set up external accessory communication background mode
+### 2. Setup external accessory communication background mode
 
 #### 2.1 Xcode 11
 
-Select the following background modes to enable support for external accessory communication. You can find them under `Signing & Capabilities` in your target.
+To enable support for external accessory communication in Xcode 11 select the following background modes. These options can be found under `Signing & Capabilities` in your target.
 
 - `External accessory communication`
 - `Uses Bluetooth LE accessory`
 
 #### 2.2 Earlier Xcode versions
 
-In your Xcode project, select the **Capabilities** tab. Go to the **Background modes** section to enable external accessory communication support.
+Enable support for external accessory communication from the Background modes section of the Capabilities tab in your Xcode project.
 
 #### 2.3 Edit plist
 
@@ -146,13 +150,14 @@ Edit your **Info.plist** file to have the following information set:
 </array>
 ```
 
->**Note:** Zettle will ask the user for permission to allow your app access to Blutooth capabilities. Doing so, the texts for `NSLocationWhenInUseUsageDescription` and `NSBluetoothPeripheralUsageDescription` keys are displayed. You may want to update these texts to your requirements.
+Note that the texts for the `NSLocationWhenInUseUsageDescription` and `NSBluetoothPeripheralUsageDescription` keys will be displayed when iOS asks the user for permissions to allow your app access to bluetooth capabilities. You may want to update the texts to your requirements.
 
-If you don't remember the scheme of your OAuth Redirect URI, you can verify it on the [Developer Portal](https://developer.zettle.com/).
+If you don't remember the scheme of your OAuth Redirect URI, you can double check it on the [Developer Portal](https://developer.zettle.com/).
 
-### 3. Set up CLLocationManager in your `Info.plist`
+### 3. Setup CLLocationManager in your `Info.plist`
 
-The merchant must grant your app this permission. If not done, Zettle will prompt the user for permission during the first payment and execute the CLLocationManagers method `requestWhenInUseAuthorization`.
+Zettle will prompt the user for permission during the first payment if the merchant haven't already granted your app this permission. Zettle will execute CLLocationManagers method
+`requestWhenInUseAuthorization`.
 
 Add the key in your `Info.plist`:
 
@@ -181,11 +186,11 @@ import iZettleSDK
 
 ### 5. Initialize the SDK
 
-Before you execute an operation with the Zettle SDK, it must be initialized. This is done using an object that conforms to the `iZettleSDKAuthorizationProvider` protocol. This protocol defines a set of methods for authorizing Zettle users inside your application. The Zettle SDK implements this protocol out-of-the-box through an `iZettleSDKAuthorization` object.
+Before you execute any operation with the Zettle SDK, you have to initialize it with an object conforming to the `iZettleSDKAuthorizationProvider` protocol. This protocol defines set of methods that can authorize Zettle users inside your application. The Zettle SDK provides an `iZettleSDKAuthorization` object that implements this protocol out of the box.
 
-User authorization in the SDK is performed through the implementation of OAuth 2.0. A Client ID and a callback URL from your integrating application is required for this. 
+User authorization in the SDK is perfomed through the implementation of OAuth 2.0. This means that the Zettle SDK requires Client ID and a callback url from your integrating application.
 
-To get a Client ID, go to the [Zettle Developer Portal](https://developer.zettle.com/login?continue=%2F) and create an account. Then create an iOS SDK developer application. Once you complete that process, you'll be given a Client ID which can be used to initialize the SDK.
+To obtain Client ID, create an account in the [Zettle Developer Portal](https://developer.izettle.com/login?continue=%2F) and create an iOS SDK developer application. Once you complete that process, you'll be given a Client ID which can be used to initialize the SDK.
 
 ```swift
 let authenticationProvider = try iZettleSDKAuthorization(
@@ -195,7 +200,7 @@ let authenticationProvider = try iZettleSDKAuthorization(
 iZettleSDK.shared().start(with: authenticationProvider)
 ```
 
-If your application supports iOS 10 and iOS 11, then override the AppDelegate `application:openURL:options:` method:
+If you support iOS 10 and iOS 11, you'll need to override AppDelegate `application:openURL:options:` method:
 
 ```swift
 func application(
@@ -206,20 +211,23 @@ func application(
 }
 ```
 
-The `ZettleSDK.shared().applicationDidOpen(with: url)` call will check `url`. If `url` is a valid callback URL, it will return `true`. If the `url` is not the callback URL or is invalid, the method will return `false`.
+The `ZettleSDK.shared().applicationDidOpen(with: url)` call will check if the `url` is a valid callback URL, handle it and return `true`. If the `url` is not the callback URL or is invalid the method will return `false`.
 
 ## SDK Operations
 
->**Important when calling the methods in the following:** In Objective C, only use the singleton instance returned from `[iZettleSDK shared]`. In Swift, only use the singleton instance returned from `iZettleSDK.shared()`.
+⚠️ **Important:** Only use the singleton instance returned from `[iZettleSDK shared]` (in Objective C) or `iZettleSDK.shared()` (in Swift) when calling the methods below.
 
-The Zettle SDK will handle presentation and dismissal of its views. Operations with UI will accept a UIViewController as an argument. From this the Zettle SDK will be presented. A login screen is displayed if the user has not yet been authenticated with Zettle.
+Asynchronous operations have a completion block as an argument, the completion block is called when an 
+operation is considered complete, cancelled or failed. See [iZettleOperationCompletion](#izettleoperationcompletion) for more information.
 
-Asynchronous operations have a completion block as an argument. This completion block is called when an operation is considered complete, cancelled or failed. See [iZettleOperationCompletion](#izettleoperationcompletion) for more information.
+Zettle SDK will handle presentation and dismissal of its views. Operations with UI will accept a UIViewController as an argument from which Zettle SDK will be presented.
+
+If the user isn't yet authenticated with Zettle when an operation is presented, a login screen will automatically be displayed.
 
 * [Charging](#charging)
 * [Refunding](#refunding)
-* [Retrieving payment info](#retrieving-payment-info)
-* [Aborting operations](#aborting-operations)
+* [Retrieving payment info](#retrieve-payment-info)
+* [Aborting operation](#aborting-operation)
 * [Enforced User Account](#enforced-user-account)
 
 ### Charging
@@ -244,18 +252,18 @@ presentFromViewController:(UIViewController *)viewController
 ```
 
 - `amount`: The amount to be charged in the logged in users currency.
-- `enableTipping`: Perform payment with tipping flow.
-- `currency` (optional): Only used for validation. If the value of this parameter doesn't match the user´s currency, the user is notified and then logged out. For a complete list of valid currency codes, see [ISO 4217](http://www.xe.com/iso4217.php).
-- `reference` (optional): The reference for identifying a Zettle payment. Used when retrieving payment information at a later time, or when performing a refund. Max length 128.
+- `enableTipping`: Perform payment with tipping flow
+- `currency` _(optional)_: Only used for validation. If the value of this parameter doesn't match the users currency the user will be notified and then logged out. For a complete list of valid currency codes, see [ISO 4217](http://www.xe.com/iso4217.php)
+- `reference` _(optional)_: The payment reference. Used to identify a Zettle payment, used when retrieving payment information at a later time or performing a refund. Max length 128.
 
 
 #### Note on tipping
 
-It is not enough to pass `enableTipping` to the `charge(amount:)` call for the tipping flow to be displayed. This is because tipping is not supported by all accounts and all card readers. Tipping is only supported with the Zettle Card Reader. The function is introduced market by market. If the card reader software doesn’t support tipping, users are prompted to skip tipping. Alternatively, users are prompted to update the card reader software.
+Passing `enableTipping` to the `charge(amount:)` call does not guarantee that tipping flow will be displayed. This is because tipping is not supported by all accounts and all card readers. Tipping is only supported with the Zettle Card Reader. The function is introduced market by market. If card reader software doesn’t support tipping, users will be prompted to either skip tipping or update card reader software.
 
 Total tip amount is presented in `iZettleSDKOperationCompletion` completion with `gratuityAmount` property.
 
-For more information on the tipping flow, see [SDK tipping support documentation](Documentation/SDK_Tipping_Support_Documentation.md).
+For more information on the tipping flow, see [SDK tippping support documentation](Documentation/SDK_Tipping_Support_Documentation.md).
 
 ### Refunding
 
@@ -277,11 +285,11 @@ open func refund(amount: NSDecimalNumber?,
   completion: @escaping iZettleSDK.iZettleSDKOperationCompletion)
 ```
 
-- `amount` (optional): The amount to be refunded from the payment. Passing `nil` will refund the full amount of the original payment.
+- `amount` _(optional)_: The amount to be refunded from the payment (passing `nil` will refund full amount of original payment)
 - `reference`: The reference of the payment that is to be refunded.
-- `refundReference` (optional): The reference of the refund. Max length 128.
+- `refundReference` _(optional)_: The reference of the refund. Max length 128.
 
->**Note:** Demo accounts are accounts that automatically revert performed payments. You cannot use these accounts to perform refunds. Instead, please use a standard production Zettle account to test refund functionality.
+**Note:** Demo accounts (accounts that automatically revert performed payments) cannot be used to perform refunds. To test refund functionality please use a standard production Zettle account.
 
 ### Retrieving payment info
 
@@ -289,19 +297,18 @@ Query Zettle for payment information of a payment with a given reference.
 
 ```objective-c
 - (void)retrievePaymentInfoForReference:(NSString *)reference
-              presentFromViewController:(UIViewController *)viewController
-                             completion:(iZettleSDKOperationCompletion)completion
+                             completion:(iZettleOperationCompletion)completion;
 ```
 
 ```swift
-open func retrievePaymentInfo(for reference: String,
-                                  presentFrom viewController: UIViewController,
-                                  completion: @escaping iZettleSDK.iZettleSDKOperationCompletion)
+open func retrievePaymentInfo(for reference: String, 
+  presentFrom viewController: UIViewController, 
+  completion: @escaping iZettleSDK.iZettleSDKOperationCompletion)
 ```
 
 ### Presenting settings
 
-This is how you present the Zettle settings view. From this, users can switch account, access the FAQ, and see card reader settings.
+Present Zettle settings view. The user can switch account, access the Zettle FAQ, view card reader settings etc.
 
 ```objective-c
 - (void)presentSettingsFromViewController:(UIViewController *)viewController;
@@ -311,9 +318,10 @@ This is how you present the Zettle settings view. From this, users can switch ac
 open func presentSettings(from viewController: UIViewController)
 ```
 
-### Aborting operations
+### Abort operation
 
-Aborting an ongoing operation should only be attempted if absolutely necessary. This is because the state of the payment will be unknown to the user after this call.
+Attempt aborting the ongoing operation. Only use this if absolutely necessary. The state of the payment will 
+be unknown to the user after this call.
 
 ```objective-c
 - (void)abortOperation;
@@ -325,7 +333,7 @@ open func abortOperation()
 
 ### Enforced User Account
 
-You can restrict the usage of the SDK to a specific Zettle account. Use the `iZettleSDKAuthorization` object during the SDK initialization, to define the usage.
+You can restrict the usage of the SDK to a certain Zettle account by defining it through the `iZettleSDKAuthorization` object during the SDK initialization.
 
 ```swift
 var enforcedAccount = { "name@zettle.com" }
@@ -340,9 +348,9 @@ iZettleSDK.shared().start(with: authenticationProvider)
 
 Enforced account will be evaluated for each authenticated operation performed in the SDK.
 
-### Logging out programmatically
+### Programmatically logout
 
-Log out current account.
+Logout current account
 
 ```objective-c
 - (void)logout;
@@ -362,7 +370,7 @@ Object that contains information about a payment and the card used.
 - `gratuityAmount` - Contains total tip amount if tipping is performed
 - `referenceNumber` - Zettles reference to the payment (not to be confused with the reference provided by you during a charge or refund operation)
 - `entryMode` - EMV, CONTACTLESS_EMV, MAGSTRIPE_CONTACTLESS, MAGSTRIPE etc. More entry modes might be added independent of SDK version
-- `obfuscatedPan` - for example "\*\*\*\* \*\*\*\* \*\*\*\* 1111"
+- `obfuscatedPan` - e.g. _"\*\*\*\* \*\*\*\* \*\*\*\* 1111"_
 - `panHash` - a hash of the pan
 - `cardBrand`
 - `authorizationCode`
@@ -414,7 +422,7 @@ authorizationCode = 004601
 
 ## Errors
 
-Zettle will display any errors that occur during an operation to the end user. The NSError-object returned in the operation completion block is only intended for developers. The object provides more detailed information useful for debugging, diagnostics and logging. You should never present errors returned in this format to the end user.
+Zettle will display any errors that occur during an operation to the user, the NSError-object returned in the operation completion block is only intended to be used by developers for debugging, diagnostics and logging to be able to better communicate errors to Zettle. You should never present the returned errors to the end user.
 
 ## Get help
 Contact our [Integrations team](mailto:sdk@zettle.com) for more information.

@@ -1,11 +1,11 @@
-# SDK 3.0 migration guide
+# SDK 3.0 Migration Guide
 
-This document outlines the new features in the v3.0.0 SDK release, and the changes that are required to implement them.
+This document aims to outline the new features in the new v3.0.0 SDK release, and the changes that are required to implement them.
 
-**Table of contents:**
+**Table of Contents:**
 
-- [SDK 3.0 migration guide](#sdk-30-migration-guide)
-  - [What's new in the SDK 3.0](#whats-new-in-the-sdk-30)
+- [SDK 3.0 Migration Guide](#sdk-30-migration-guide)
+  - [What's New in the SDK 3.0](#whats-new-in-the-sdk-30)
     - [Support for OAuth 2.0](#support-for-oauth-20)
       - [Get started with new Developer Portal](#get-started-with-new-developer-portal)
       - [Deprecation of API keys](#deprecation-of-api-keys)
@@ -14,11 +14,11 @@ This document outlines the new features in the v3.0.0 SDK release, and the chang
     - [Support for XCFrameworks](#support-for-xcframeworks)
       - [Reduced number of frameworks](#reduced-number-of-frameworks)
       - [Deprecating Carthage support](#deprecating-carthage-support)
-  - [New public APIs](#new-public-apis)
+  - [New Public APIs](#new-public-apis)
     - [`iZettleSDKAuthorizationProvider` protocol](#izettlesdkauthorizationprovider-protocol)
     - [`iZettleSDKAuthorizationProviderError`](#izettlesdkauthorizationprovidererror)
 
-## What's new in the SDK 3.0
+## What's New in the SDK 3.0
 
 ### Support for OAuth 2.0
 
@@ -89,9 +89,9 @@ Previously, the SDK was distributed as a package of 4 different binary framework
 
 #### Deprecating Carthage support
 
-Carthage doesn't implement support for binary XCFrameworks [Carthage/#2799](https://github.com/Carthage/Carthage/issues/2799) which means that Carthage integration won't work with the new Zettle SDK. We advise all partners to use manual integration or Cocoapods instead.
+Carthage doesn't implement support for binary XCFrameworks [Carthage/#2799](https://github.com/Carthage/Carthage/issues/2799) which means that Carthage integration won't work with the new Zettle SDK. We advise all partners to use Manual Integration or Cocoapods instead.
 
-## New public APIs
+## New Public APIs
 
 ### `iZettleSDKAuthorizationProvider` protocol
 
@@ -130,9 +130,8 @@ Integrators can either chose to implement this protocol and specify how authoris
 
 ### `iZettleSDKAuthorizationProviderError`
 
-`iZettleSDKAuthorizationProviderError` implements the following error codes.
+The new 
 
-```swift
 public let iZettleSDKAuthorizationProviderErrorDomain = NSErrorDomain(string: "com.izettle.sdk.authprovider.error")
 public enum iZettleSDKAuthorizationProviderError: Int {
     case callbackURLInvalid = -202
@@ -140,4 +139,3 @@ public enum iZettleSDKAuthorizationProviderError: Int {
     case clientIdInvalid = -300
     case presentationNotPossible = -501
 }
-```
