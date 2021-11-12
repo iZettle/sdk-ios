@@ -54,12 +54,12 @@ platform :ios do
 
     desc 'Check Podspec'
     lane :check_podspec do
-        version_tag = get_release_tag()
+        release_version = get_version_number()
         begin
-            is_new_version_present = sh("grep -q #{version_tag} ../iZettleSDK.podspec",
+            is_new_version_present = sh("grep -q #{release_version} ../iZettleSDK.podspec",
                 step_name: "Check if version exists in the Podspec")
           rescue => ex
-            UI.user_error!("Podspec is missing changes for the latest version #{version_tag}")
+            UI.user_error!("Podspec is missing changes for the latest version #{release_version}")
           end
     end
 
