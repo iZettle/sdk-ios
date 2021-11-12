@@ -72,7 +72,7 @@ The tipping style is pre-defined per market and is not configurable.
 | Germany | Total Amount |
 
 ### Is there a MAX level for tip?
-To prevent accidental or invalid amounts (for example if the customer enters their PIN code instead of a tip amount), the maximum tip level is set to 50%. If the customer enters more than 50%, the card reader will show a “too high amount” warning message.
+There is a maximum level validation to prevent accidental or invalid entering of amounts. This can happen for example if customers enter their PIN code instead of a tip amount. The maximum limit for Europe is 50%, and 100% for the US. If this level is exceeded, the card reader will display a “Too high amount” warning message.
 
 ### Is there a MIN level for tip?
 In markets where the tipping style is `Total amount`, there card holder is required to enter the amount to be charged including tips. If the user enters an amount that is less than the amount entered by the merchant, the card reader will show a “too low amount” warning message.
