@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9B8B199E24754A0F00C74D78 /* CustomAuthorizationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B199D24754A0F00C74D78 /* CustomAuthorizationProvider.m */; };
 		9BC1DCBB24ACBA58004E74DC /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1DCBA24ACBA58004E74DC /* AccountManager.m */; };
+		B8F6005F275FA24800DF163D /* AccessTokenFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F6005D275FA24800DF163D /* AccessTokenFetcher.m */; };
 		D7E94CE024AE529B00B55A9A /* iZettlePayments.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E94CD824AE528A00B55A9A /* iZettlePayments.xcframework */; };
 		D7E94CE124AE529B00B55A9A /* iZettlePayments.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7E94CD824AE528A00B55A9A /* iZettlePayments.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D7E94CE224AE529D00B55A9A /* iZettleSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E94CDB24AE528B00B55A9A /* iZettleSDK.xcframework */; };
@@ -45,6 +46,8 @@
 		9B8B199D24754A0F00C74D78 /* CustomAuthorizationProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAuthorizationProvider.m; sourceTree = "<group>"; };
 		9BC1DCB924ACBA58004E74DC /* AccountManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
 		9BC1DCBA24ACBA58004E74DC /* AccountManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
+		B8F6005D275FA24800DF163D /* AccessTokenFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessTokenFetcher.m; sourceTree = "<group>"; };
+		B8F6005E275FA24800DF163D /* AccessTokenFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessTokenFetcher.h; sourceTree = "<group>"; };
 		D7E94CD824AE528A00B55A9A /* iZettlePayments.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = iZettlePayments.xcframework; path = ../../iZettleSDK/iZettlePayments.xcframework; sourceTree = "<group>"; };
 		D7E94CDB24AE528B00B55A9A /* iZettleSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = iZettleSDK.xcframework; path = ../../iZettleSDK/iZettleSDK.xcframework; sourceTree = "<group>"; };
 		E6F9FED91DDDFFC80051C21D /* AmountWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmountWheel.h; sourceTree = "<group>"; };
@@ -93,6 +96,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B8F6005C275FA24800DF163D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B8F6005E275FA24800DF163D /* AccessTokenFetcher.h */,
+				B8F6005D275FA24800DF163D /* AccessTokenFetcher.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		D7E94CD724AE527F00B55A9A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +117,7 @@
 		E6F9FED81DDDFFC80051C21D /* iZettleSDKSample */ = {
 			isa = PBXGroup;
 			children = (
+				B8F6005C275FA24800DF163D /* Helpers */,
 				E6F9FED91DDDFFC80051C21D /* AmountWheel.h */,
 				E6F9FEDA1DDDFFC80051C21D /* AmountWheel.m */,
 				E6F9FEDB1DDDFFC80051C21D /* AppDelegate.h */,
@@ -202,6 +215,7 @@
 				E6F9FEEB1DDDFFC80051C21D /* AppDelegate.m in Sources */,
 				E6F9FEEA1DDDFFC80051C21D /* AmountWheel.m in Sources */,
 				E6F9FEF21DDDFFC80051C21D /* main.m in Sources */,
+				B8F6005F275FA24800DF163D /* AccessTokenFetcher.m in Sources */,
 				9BC1DCBB24ACBA58004E74DC /* AccountManager.m in Sources */,
 				9B8B199E24754A0F00C74D78 /* CustomAuthorizationProvider.m in Sources */,
 				E6F9FEEF1DDDFFC80051C21D /* ConsoleViewController.m in Sources */,
