@@ -5,7 +5,7 @@
 - Adjustment for new tipping limit in the US
 
 3.2.2 - 2021-09-07
-- Support tipping in the French market
+- Added support for tipping in the French market
 
 3.2.1 - 2021-07-29
 - Fix the bug preventing sending analytics events for new installs
