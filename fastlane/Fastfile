@@ -76,7 +76,9 @@ platform :ios do
             UI.message("Release for #{release_version} is not created yet, proceeding with release...")
         end
 
-        assets_to_upload = "#{ENV['GITHUB_WORKSPACE']}/iZettleSDK"
+        izettle_sdk_folder = "#{ENV['GITHUB_WORKSPACE']}/iZettleSDK"
+        payments_framework = "#{ENV['GITHUB_WORKSPACE']}/iZettleSDK/iZettlePayments.xcframework"
+        izettle_sdk_framework = "#{ENV['GITHUB_WORKSPACE']}/iZettleSDK/iZettleSDK.xcframework" 
 
         set_github_release(
             repository_name: ENV['REPO_NAME'],
@@ -89,7 +91,7 @@ platform :ios do
                         rescue StandardError
                             'Automated SDK Release'
                         end),
-            upload_assets: assets_to_upload
+            upload_assets: [izettle_sdk_folder, payments_framework, izettle_sdk_framework]
         )
 
         unless check_release_available(release_version)
