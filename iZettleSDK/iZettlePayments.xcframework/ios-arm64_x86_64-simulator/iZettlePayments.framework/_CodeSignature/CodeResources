@@ -98,7 +98,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		Ql5V9DREtPzoA7S+CaI98qUIFrU=
+		frtKSnWM9BqV1LwnzizOnvHfCHs=
 		</data>
 		<key>Dingbatz-Light.otf</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Headers/CardReaderManager.h</key>
 		<data>
-		yU5bkN1yc9GRnD6gVUIeGPa58uI=
+		s9dqSUdpJ/E6gNiLb9HMl7hVqBg=
 		</data>
 		<key>Headers/DatecsBLE.h</key>
 		<data>
@@ -194,7 +194,7 @@
 		</data>
 		<key>Headers/IZAccount+Properties.h</key>
 		<data>
-		dAo9Dj3oNVIdqNjrSljnF1cZjc8=
+		hN3kmxmdM8+2GYWt1mvOE5IwyTw=
 		</data>
 		<key>Headers/IZAccount+TippingType.h</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>Headers/IZAccount.h</key>
 		<data>
-		dQhT5hnxUF3nizGJJYyOmWbG4vU=
+		9TDICEElgm6jCHqWhd+8OuxI8jI=
 		</data>
 		<key>Headers/IZAccountListManager.h</key>
 		<data>
@@ -226,7 +226,7 @@
 		</data>
 		<key>Headers/IZBackgroundUpdateState.h</key>
 		<data>
-		KVa13MnrvlVVIP15nd1L44MAYmw=
+		azkmBwImlReVmH7so+NXDDZyZaQ=
 		</data>
 		<key>Headers/IZBaseReaderUpdateViewController.h</key>
 		<data>
@@ -238,7 +238,7 @@
 		</data>
 		<key>Headers/IZButton.h</key>
 		<data>
-		QBgtWwcDNV/5+6+UZtQPIyLq4eg=
+		LBq8D57oVDrrzfS+eSsCppiAslA=
 		</data>
 		<key>Headers/IZCallbacker.h</key>
 		<data>
@@ -250,7 +250,7 @@
 		</data>
 		<key>Headers/IZCardPaymentManager.h</key>
 		<data>
-		p+GqyBRM892mQuONnMNvTMXQz6w=
+		k7VGcfCcTpFjzV10gNKnVD6VhE8=
 		</data>
 		<key>Headers/IZCardPaymentViewController.h</key>
 		<data>
@@ -258,11 +258,11 @@
 		</data>
 		<key>Headers/IZCardReader.h</key>
 		<data>
-		G0OUH/FqkntdNkdEYFZGtu78z0s=
+		eYFR0VLlf7p/NqTKLdcPxnNRqkQ=
 		</data>
 		<key>Headers/IZCardReaderDefines.h</key>
 		<data>
-		W0ezijPcra3K5llhZdgQ0YPth3M=
+		Nm0npJglxl0u6tgErQnMXIdPn1o=
 		</data>
 		<key>Headers/IZCaseMailComposerController.h</key>
 		<data>
@@ -358,7 +358,7 @@
 		</data>
 		<key>Headers/IZOAuthTokenScope.h</key>
 		<data>
-		0YL/MLwDaoBFB4zLUaVIUgS1U30=
+		g4WoWRucR2I1VtKv6nGH4tsA2LI=
 		</data>
 		<key>Headers/IZPair.h</key>
 		<data>
@@ -418,7 +418,7 @@
 		</data>
 		<key>Headers/IZettleNetworkContext.h</key>
 		<data>
-		hMx3etndoJ+hZ6f640m+wIjvXUM=
+		S+NBCOE9ENjPXuz6yxYGBUe8pnI=
 		</data>
 		<key>Headers/IZettleOAuthToken.h</key>
 		<data>
@@ -518,11 +518,15 @@
 		</data>
 		<key>Headers/PaintingView.h</key>
 		<data>
-		PfbZrpOIZcStJvIDzpuPf8H9S2A=
+		hQwhG5lhqNbqa8tRjF8323uX7jc=
 		</data>
 		<key>Headers/Payment.h</key>
 		<data>
-		C8feXVIcgQeMG6Zwa6r9/xdiVsU=
+		ukUcWUfjgugMx381oVK4QJ8OCWg=
+		</data>
+		<key>Headers/PresentCardViewController.h</key>
+		<data>
+		UCEqMprtg/vNJw3ME9ZqoiE1WkQ=
 		</data>
 		<key>Headers/SessionManager+Additions.h</key>
 		<data>
@@ -536,25 +540,25 @@
 		<data>
 		ie7weyKslGrEeZZ+W7ehQbwsTUg=
 		</data>
-		<key>Headers/UIBarButtonItem+Utilities.h</key>
-		<data>
-		WNmJCXYzGRpn5eZXCaoYwO+J6x4=
-		</data>
 		<key>Headers/UIColor+Presets.h</key>
 		<data>
-		7lVpOFPi1ni3PtelcOyyjHrw+y0=
+		EWz1tBK2urrejOlL613K9dl5TaA=
+		</data>
+		<key>Headers/UIColor+Utilities.h</key>
+		<data>
+		8n9H1aTgCfVbdDX9pV9TpN3wZBM=
 		</data>
 		<key>Headers/UIDevice+Utilities.h</key>
 		<data>
-		YBsePz7kA/+lMQSxwag8RrGozdo=
+		1iUjq2N3jXNuzuEPjGvHgIzqU4M=
 		</data>
 		<key>Headers/UIFont+CustomFonts.h</key>
 		<data>
-		i49UZ/wIMPgxJNBzV6iYF/rybFs=
+		TES3jV/Z7b3CAXZRgewR0xgVVS0=
 		</data>
 		<key>Headers/UIFont+TextStyle.h</key>
 		<data>
-		aPiQalm6pyBaazrGMi9JmHlAVDU=
+		Q1ffAwclait1aWYqY7QAIWPiZ1E=
 		</data>
 		<key>Headers/UIImage+Backend.h</key>
 		<data>
@@ -582,7 +586,7 @@
 		</data>
 		<key>Headers/UIView+IZAutoLayout.h</key>
 		<data>
-		TN24E7pNkbiBO1dHOnc+xg+njsQ=
+		UJkZk7RRO1ND7bROOeCFVgUOfbc=
 		</data>
 		<key>Headers/UIView+Utilities.h</key>
 		<data>
@@ -598,15 +602,15 @@
 		</data>
 		<key>Headers/iZettlePayments-Swift.h</key>
 		<data>
-		UmRPI+rLq8yux1PCGSRtseEx/fU=
+		qdD1eIxg2btDoFbIoYi/dMajgTg=
 		</data>
 		<key>Headers/iZettlePayments.h</key>
 		<data>
-		ibAMV4sFnUVLMfeq9PvCMwZgGgw=
+		ZAzKMP3iHcte1BOyn3v5g/svxxI=
 		</data>
 		<key>IZAccountListController.storyboardc/B0i-qj-2h3-view-fCt-r3-PgZ.nib</key>
 		<data>
-		tyZ4tuFdDbg9pKdS0QOGyM4HEKw=
+		/cNN9QknFdyvPZe9pvlilR3So1o=
 		</data>
 		<key>IZAccountListController.storyboardc/Info.plist</key>
 		<data>
@@ -614,7 +618,7 @@
 		</data>
 		<key>IZAccountListController.storyboardc/UIViewController-B0i-qj-2h3.nib</key>
 		<data>
-		g3A8jv+cZVtYAGKGMeEbUg81fxQ=
+		94g8nFsaZP2rAIu1ah4w78Ys/ho=
 		</data>
 		<key>IZCaseMailComposerController.storyboardc/Info.plist</key>
 		<data>
@@ -622,15 +626,15 @@
 		</data>
 		<key>IZCaseMailComposerController.storyboardc/Jaw-h2-QAp-view-TPg-LM-5hM.nib</key>
 		<data>
-		jM90dNfaupSgFBoUT0aIyeqjA4M=
+		Z6FFSl4TLW7yVuuivvdwCJAI+x4=
 		</data>
 		<key>IZCaseMailComposerController.storyboardc/UIViewController-Jaw-h2-QAp.nib</key>
 		<data>
-		5tXiCIj4ZZBilKNXr+X3VcxayPs=
+		dUqBJ78ikUPmRHOTrZ6XuJAM4O8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IqYFLxG7M6DktE7iavvWlAHiWug=
+		i0VbPrB2Yfcg6EYvPu7wiz8NZ3I=
 		</data>
 		<key>Issuers.plist</key>
 		<data>
@@ -638,51 +642,51 @@
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		iUx0mlcq899hYNWHWbG4iu/CgrY=
+		yTHYLeiXJ+WDSqLer0idqRk83tw=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		i6kdpB/fpf0TgVdOoRmI0Z1Wqj4=
+		ibKkEF/7xlr2Cgg+uDsIvixt1m8=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		J6JkwnawOnL9kVBmBmZ58LyAzlE=
+		ba5IXunLnr+UbcL56gUqOBNS248=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		iUx0mlcq899hYNWHWbG4iu/CgrY=
+		yTHYLeiXJ+WDSqLer0idqRk83tw=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		i6kdpB/fpf0TgVdOoRmI0Z1Wqj4=
+		ibKkEF/7xlr2Cgg+uDsIvixt1m8=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		J6JkwnawOnL9kVBmBmZ58LyAzlE=
+		ba5IXunLnr+UbcL56gUqOBNS248=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		t0/emESvH6aGl6zj4uPubuwdSWw=
+		UX6YyArcLNF8HTowc09dg2ZUy1c=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XjrIBPDuSJMX1DE6sLsf6lCVzOY=
+		wh3Dy3uzH6Etn1YSkg8FfoFzfWY=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ix2KK+i++B6vus9r369ka8K8bpY=
+		i2LUOPnqDlf0No53+so2jmr+Xdc=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		t0/emESvH6aGl6zj4uPubuwdSWw=
+		UX6YyArcLNF8HTowc09dg2ZUy1c=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		XjrIBPDuSJMX1DE6sLsf6lCVzOY=
+		wh3Dy3uzH6Etn1YSkg8FfoFzfWY=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		Ix2KK+i++B6vus9r369ka8K8bpY=
+		i2LUOPnqDlf0No53+so2jmr+Xdc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -714,11 +718,11 @@
 		</data>
 		<key>Reader 1080 t2.mlmodelc/coremldata.bin</key>
 		<data>
-		eSZDscrQzqcvSu9mDtV6NAG53qA=
+		O/YyS5U/jCGi9TsZLrveoNvqSsk=
 		</data>
 		<key>Reader 1080 t2.mlmodelc/metadata.json</key>
 		<data>
-		YbtuDerhDUX+RfnZ//2MlNSsFNA=
+		MzSFh+POiKV0lfRS87YPnwjCoBA=
 		</data>
 		<key>Reader 1080 t2.mlmodelc/model0/coremldata.bin</key>
 		<data>
@@ -726,7 +730,7 @@
 		</data>
 		<key>Reader 1080 t2.mlmodelc/model1/analytics/coremldata.bin</key>
 		<data>
-		ZIx3VWRGfK5S0MWtlO083vagu34=
+		AZvy2/LJhln8gU75VMFV66BahLo=
 		</data>
 		<key>Reader 1080 t2.mlmodelc/model1/coremldata.bin</key>
 		<data>
@@ -734,7 +738,7 @@
 		</data>
 		<key>Reader 1080 t2.mlmodelc/model1/model.espresso.net</key>
 		<data>
-		K3W2SOQfn7fFfY17JOLgz9X11eU=
+		m2UhNGJjuh+XM6tTskDQc3IWtiU=
 		</data>
 		<key>Reader 1080 t2.mlmodelc/model1/model.espresso.shape</key>
 		<data>
@@ -743,10 +747,6 @@
 		<key>Reader 1080 t2.mlmodelc/model1/model.espresso.weights</key>
 		<data>
 		I3KdS0dlp/v65SnYreY0+OgOqsg=
-		</data>
-		<key>Reader 1080 t2.mlmodelc/model1/model.rank.info.json</key>
-		<data>
-		g6YIG8FwGU0/L125s6SqZV3+BWc=
 		</data>
 		<key>Reader 1080 t2.mlmodelc/model1/model/coremldata.bin</key>
 		<data>
@@ -822,43 +822,43 @@
 		</data>
 		<key>localization/da_DK.json</key>
 		<data>
-		3Jdq+P13702KcHuBAU5ISBclg7E=
+		zx5ylfZF6uhKegHny/WS7mGJsEE=
 		</data>
 		<key>localization/de_DE.json</key>
 		<data>
-		8V5Eb4VjoobJhitr69cRQj2ALgs=
+		hoQQE6T2Cbm/wfboWEpg8EVsRxs=
 		</data>
 		<key>localization/en_GB.json</key>
 		<data>
-		oKUGGw+9Gi6wTjSSXmzxtqYH41k=
+		rvKeHslenhyJp7Hu6/crHXTKb9M=
 		</data>
 		<key>localization/en_US.json</key>
 		<data>
-		gObywToDnqiZ7UmFMMEj+0ktwSI=
+		bgo7TUrFqyzI3w9misIKYAxuKeo=
 		</data>
 		<key>localization/es_ES.json</key>
 		<data>
-		EhQeN3PhmaqDasuCfrQ8bS0nvsQ=
+		8TXHKPUcCCCkjcIya4iGpa2YRaw=
 		</data>
 		<key>localization/es_MX.json</key>
 		<data>
-		FYvwaP7CM5rNzhOYYWegCy6On4E=
+		2t0Er5ZjDDqmGCl9T++UsbSqQUo=
 		</data>
 		<key>localization/es_US.json</key>
 		<data>
-		zMZEq582mycCnN9UxNf01dC0hC8=
+		SCp7UDNlCmarcU2aVU4AZ/yxlzY=
 		</data>
 		<key>localization/fi_FI.json</key>
 		<data>
-		aYwWRsVV2JWij5Pn24itSMaGR4Y=
+		QSgJJvh9zPxAGkhxjEKe30XPXeE=
 		</data>
 		<key>localization/fr_FR.json</key>
 		<data>
-		IY8z5FB/JUgHOi7wq2mBus/Y4Wo=
+		1Z4IkAMlEZjJB/iD+iDO1fK1oJM=
 		</data>
 		<key>localization/it_IT.json</key>
 		<data>
-		pcSbwcVtpdxeQRpR03QiMCnYcUw=
+		TcOfnsTRsh74SB0hohw22Qs8wrI=
 		</data>
 		<key>localization/locales.plist</key>
 		<data>
@@ -866,23 +866,23 @@
 		</data>
 		<key>localization/nb_NO.json</key>
 		<data>
-		sdMq2BP7dcOMca86V9DSPK5jmd4=
+		/B4FT1ZdaoWZFbtj4yuZMnLrqtY=
 		</data>
 		<key>localization/nl_NL.json</key>
 		<data>
-		m4/eVUOsYS74XYW5Cp4AQr4B5iI=
+		wAmy3Lpa798R97T8JWs3ROVUbJg=
 		</data>
 		<key>localization/pt_BR.json</key>
 		<data>
-		GkEiOkKw0IfHIak4iy1ZMZcnMXk=
+		JAhZQp3DyPRJhV9t7BFzwLubT0Y=
 		</data>
 		<key>localization/sv_FI.json</key>
 		<data>
-		S83SXMHsuCcebzfIPhTfMti0bow=
+		DqxO79UZHn4V1e8HLVtsZJ8dciE=
 		</data>
 		<key>localization/sv_SE.json</key>
 		<data>
-		J+2wi85ax4l4ozOFpAAiEk/wj/Y=
+		hhO3/AMg9snOKk5lWl+hsKaa+ag=
 		</data>
 		<key>lock_close.aif</key>
 		<data>
@@ -901,10 +901,6 @@
 	<dict>
 		<key>Account.momd/Account (history).mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5eBSpRQLgqIH4l+YM6lFw2rccDM=
-			</data>
 			<key>hash2</key>
 			<data>
 			QcijePCA6x50v7ZklCi//eHOmp+8R8OW9xMV69eimMw=
@@ -912,10 +908,6 @@
 		</dict>
 		<key>Account.momd/Account (new config).mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GgKTtlZxaGHdnB6zZSukyh0ldyE=
-			</data>
 			<key>hash2</key>
 			<data>
 			CFdTabAbMRKDKLmAgG0/6y1W2kCDTe0AuM8AEciI18A=
@@ -923,10 +915,6 @@
 		</dict>
 		<key>Account.momd/Account (new product library).mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			l7j+hDgPVhAqruI4a+sFj4xWjmM=
-			</data>
 			<key>hash2</key>
 			<data>
 			sKn6e70wCfS7RVrw0tgoLNgdT9WPd4z31C6DQbn3tp4=
@@ -934,10 +922,6 @@
 		</dict>
 		<key>Account.momd/Account 4.10 (cash register).mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2Z5/TJ0vO+pJpJj8D7yGJArffDo=
-			</data>
 			<key>hash2</key>
 			<data>
 			9BGe1JnT3FfYJFGH8Ju4ImwOXA7RpkosD78W9urXx6I=
@@ -945,10 +929,6 @@
 		</dict>
 		<key>Account.momd/Account 4.11 (inventory).mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			A1SZNqQg3dG3ofNXr6HvyqPPyZ4=
-			</data>
 			<key>hash2</key>
 			<data>
 			Sr88eFu6gDfc2anz5s6Chu5ChmJzZg5bNFIjzVjVjnE=
@@ -956,10 +936,6 @@
 		</dict>
 		<key>Account.momd/Account 5.16.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GL/dLhtvroYPu5w6LkB3g4k/8ZU=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZuSO6Au/TYLyvvcB6rRyw6NX4u0QrgMBGySZ1RoP4KQ=
@@ -967,10 +943,6 @@
 		</dict>
 		<key>Account.momd/Account 5.19.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2kU6b0YHwiNF1Kf2z3iqQMaMXKI=
-			</data>
 			<key>hash2</key>
 			<data>
 			j/rt8pZ6WCT/aR83drGED0dyDN0bVjjNfKZbHKKtTyw=
@@ -978,10 +950,6 @@
 		</dict>
 		<key>Account.momd/Account 5.2.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0KoRp63Fiq1xt30K6hbTSF/D1ps=
-			</data>
 			<key>hash2</key>
 			<data>
 			CVgI2Pzye136JZvkwAPyWT7r04m/R0/ohQJh/3WM7dc=
@@ -989,10 +957,6 @@
 		</dict>
 		<key>Account.momd/Account 5.20.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			r0L21wXOePDX9W0BzF8/JuG38Ro=
-			</data>
 			<key>hash2</key>
 			<data>
 			STL//XiHst0V9IU7LkGhgdhnIjdUu5TG/4kPggxX0SQ=
@@ -1000,10 +964,6 @@
 		</dict>
 		<key>Account.momd/Account 5.21.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MUD3c/WbTMMHURO1RMHYOsrlqr0=
-			</data>
 			<key>hash2</key>
 			<data>
 			2ZKNZl9MfF8DH9vvSZu9Qs0mcl+dm9kFyde/ZDt4o1U=
@@ -1011,10 +971,6 @@
 		</dict>
 		<key>Account.momd/Account 5.3 (Report).mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			l1KTd/7kc1TyOE4NlsqeMlME9AM=
-			</data>
 			<key>hash2</key>
 			<data>
 			A2mShG07WkqwCsWvskgByirXrBTGnTtyWHUriWwKWXY=
@@ -1022,10 +978,6 @@
 		</dict>
 		<key>Account.momd/Account 5.3.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XWouDEYG019qObDZeeDyn1aAbt8=
-			</data>
 			<key>hash2</key>
 			<data>
 			4WVrW+B/TPpppPufF1jVzEk5mrzk5k+p05qEHzsEUJ8=
@@ -1033,10 +985,6 @@
 		</dict>
 		<key>Account.momd/Account 5.32.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5B8yMZk4REpH7e0LGFuqCsoys90=
-			</data>
 			<key>hash2</key>
 			<data>
 			+tWEwXB901jTChoLLCbKLSQgRWtvJrN708lLUecD8q4=
@@ -1044,10 +992,6 @@
 		</dict>
 		<key>Account.momd/Account 5.4.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			78YusIKyAdqYkdJdaRSptoSKl7U=
-			</data>
 			<key>hash2</key>
 			<data>
 			WqXO+2lcPGS+MxT0A+lQ3znVH5WpmDzXs1Kxm8eSgqI=
@@ -1055,10 +999,6 @@
 		</dict>
 		<key>Account.momd/Account 5.41.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hgMOHgBluMVCKdkJWkPlS0OThco=
-			</data>
 			<key>hash2</key>
 			<data>
 			IJ2HPRRXSr3ymz1B9Wfk7tRU/30sR1dRYf+pt7Ds/lQ=
@@ -1066,10 +1006,6 @@
 		</dict>
 		<key>Account.momd/Account 5.42.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SraaKvXCeCGox44c9pix6EihvUc=
-			</data>
 			<key>hash2</key>
 			<data>
 			6+rAQYq3IPp0tBDK0uUcfvWNizZgA+P11Ahvg4B+izk=
@@ -1077,10 +1013,6 @@
 		</dict>
 		<key>Account.momd/Account 5.7.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			R6OYv5Y1oPLpORSJQIL6sP6zaks=
-			</data>
 			<key>hash2</key>
 			<data>
 			uR7V4zdyOevJojCIyMVZm9ZqKzpiLlzej550ONZLx5E=
@@ -1088,10 +1020,6 @@
 		</dict>
 		<key>Account.momd/Account 5.8.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			04nismjf196SUxmpnS4AckHnZ4s=
-			</data>
 			<key>hash2</key>
 			<data>
 			5XBGUCTDGH9OEYYAVQxSxP7uCg89E+mVFWt3XvrjOn8=
@@ -1099,10 +1027,6 @@
 		</dict>
 		<key>Account.momd/Account.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zRB9HPkHE1VlE0sKDEQxz3kNwyQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			pFMc9brArrC35Q6JNV7t/6relm09lZLEkcEQhr8UHE8=
@@ -1110,10 +1034,6 @@
 		</dict>
 		<key>Account.momd/SDK Account 3.0.3.1.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KgA4qT9PoPfvq6G8msuIr8rm+Ds=
-			</data>
 			<key>hash2</key>
 			<data>
 			L9mCrrh5T5vS1mtpqUtzMCCpldee2QIW0IIR1OS4lG4=
@@ -1121,10 +1041,6 @@
 		</dict>
 		<key>Account.momd/SDK Account 3.0.3.1.omo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sqvRJ9/KiOkuC9pEYGQzLSpHDJI=
-			</data>
 			<key>hash2</key>
 			<data>
 			SX3Sjk/8C0teDFAxomgjRFG9OLKKyQcmmrlXXNYbklo=
@@ -1132,10 +1048,6 @@
 		</dict>
 		<key>Account.momd/SDK Account 3.0.3.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/1sKl+kz6fnrSPKteGcdgb/wulg=
-			</data>
 			<key>hash2</key>
 			<data>
 			YUZR+rq0iRK3yVTq3flvaJ261o9I+LMbliZlRjwwDFo=
@@ -1143,10 +1055,6 @@
 		</dict>
 		<key>Account.momd/VersionInfo.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2fb7Bb6zklYUL/nMwX4wA157KlE=
-			</data>
 			<key>hash2</key>
 			<data>
 			RXV6W+QjCN4s+OAwrTUm4qjaofm/+XLeqLus3L8LtTY=
@@ -1154,21 +1062,13 @@
 		</dict>
 		<key>Assets.car</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Ql5V9DREtPzoA7S+CaI98qUIFrU=
-			</data>
 			<key>hash2</key>
 			<data>
-			auNXCvJurHjoQn+7ZRIobpgm3hyktMGPnzVrjVfQeSg=
+			KNVxj46ECOjLyQBdHeHuObuSv7Trob7YQGdIczwpS3I=
 			</data>
 		</dict>
 		<key>Dingbatz-Light.otf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kmL5/w9XVxD28/EsVBVpTlBH+bk=
-			</data>
 			<key>hash2</key>
 			<data>
 			QyVEnmat7eD7tlSltmgS0PfO5OHp30hmjMhnijQPCbE=
@@ -1176,10 +1076,6 @@
 		</dict>
 		<key>Dingbatz-Regular.otf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nGJoJFT98fb6GZH/58RoeId1UIQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			BJFbHqojXttiHgFCz1HH0t4kwGAk0loldI2cSlAhDOI=
@@ -1187,10 +1083,6 @@
 		</dict>
 		<key>Headers/Attempt.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lj9GP4rikhjevKi3Xtd2gs02h/g=
-			</data>
 			<key>hash2</key>
 			<data>
 			Pdsi1tI8c8SpdGX9qCY5QCP4jJFWYaoCWfIvhN4UggA=
@@ -1198,10 +1090,6 @@
 		</dict>
 		<key>Headers/CachedDateFormatter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			f5ayg53H0FjCn81XYiuYb6zgzlQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			t3xqQC2a/7WDQ7a6quqCR6SmlXju25Un0CmfBXpas+A=
@@ -1209,10 +1097,6 @@
 		</dict>
 		<key>Headers/CardIssuer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xuYUxTBnU1Kuz7h1wDLIzK7wayw=
-			</data>
 			<key>hash2</key>
 			<data>
 			TblX2t32oItfEKbD+HcgLeVd8K2wRdNUaj0draQbfHs=
@@ -1220,21 +1104,13 @@
 		</dict>
 		<key>Headers/CardReaderManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yU5bkN1yc9GRnD6gVUIeGPa58uI=
-			</data>
 			<key>hash2</key>
 			<data>
-			cNT2deyQ9SS+hgC2OhMEbldZMJBqyNlrixr2COzFoyo=
+			+KdwkalfXh1OmF/ZYbqsKmEZkFuYluAsytmGykxP/mY=
 			</data>
 		</dict>
 		<key>Headers/DatecsBLE.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3t7dk7XktdNjBsC3HOharQTA8wI=
-			</data>
 			<key>hash2</key>
 			<data>
 			FGp9hbMMu3FwgYusPEcGoyEU0KNP3gEl8t9IAjVK3hQ=
@@ -1242,10 +1118,6 @@
 		</dict>
 		<key>Headers/DatecsReader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RHRmEK2MVC1IioB+HKegsgwXaxY=
-			</data>
 			<key>hash2</key>
 			<data>
 			K60TmL3RJUhx6Z17dXA3YLuFJAgK5VnqS6S8B7TiWws=
@@ -1253,10 +1125,6 @@
 		</dict>
 		<key>Headers/DatecsReaderQueue+KeyExchange.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kfFQUN/XFpxDhBaW//zmlcvKOjY=
-			</data>
 			<key>hash2</key>
 			<data>
 			B9Uj6IMmSTDorza/GYHqXK28yy7+wuAtQwGGhFSW5wA=
@@ -1264,10 +1132,6 @@
 		</dict>
 		<key>Headers/DatecsReaderV2.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wcxwi8S0pcJeBQxk6NPZVt8u1Oc=
-			</data>
 			<key>hash2</key>
 			<data>
 			FXM45+i9e1n5S+BaInwGOnzyxbqr2ACkNiTGKB2Mfck=
@@ -1275,10 +1139,6 @@
 		</dict>
 		<key>Headers/Dingbatz.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YkyHDLAxV2G5Bo695RgJXDjMiyU=
-			</data>
 			<key>hash2</key>
 			<data>
 			X+akTuR7BySp5s0LoXdQDyIsDxqVXaYCMBkkKaYxubQ=
@@ -1286,10 +1146,6 @@
 		</dict>
 		<key>Headers/Form.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HVgHLP94DHGABDXBBixvWvKa+m0=
-			</data>
 			<key>hash2</key>
 			<data>
 			tszn6GChSMrRVfi7ZhS/N48bRL99hxlo0KRi/a/c75g=
@@ -1297,10 +1153,6 @@
 		</dict>
 		<key>Headers/FormController.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			S/b3BbVK4ynF4iC/0t/ve+EXGeU=
-			</data>
 			<key>hash2</key>
 			<data>
 			QRGsn0cYSVdNoMs8ZvXbRLBT7Qyz7nCsFdquVkx9HAY=
@@ -1308,10 +1160,6 @@
 		</dict>
 		<key>Headers/FormGroup.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			o9Q8wEGA4s++UdnwwTzF4yuxkHQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			BC3bcGYyvtov3wrqjUc+I5xyuqJ7LcEOGWqNj5JfNdo=
@@ -1319,10 +1167,6 @@
 		</dict>
 		<key>Headers/FormItem.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tRqWwPraDZtu7gSLHqkgbh7ZSsE=
-			</data>
 			<key>hash2</key>
 			<data>
 			V7era/pTmLQupQeGFZgMK8Tre67hxkY+6s+KEEu8RTc=
@@ -1330,10 +1174,6 @@
 		</dict>
 		<key>Headers/FormRow.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rpJ5OwrnQRaDIXnaq3tWWCuQwC8=
-			</data>
 			<key>hash2</key>
 			<data>
 			06a6qGBDSyp36CDku1RxV/mJ6PSaN162CM3NdjoddvQ=
@@ -1341,10 +1181,6 @@
 		</dict>
 		<key>Headers/FormTableView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Ly/Epx8dO4KsM9w0g43U17FHMN8=
-			</data>
 			<key>hash2</key>
 			<data>
 			iI0IEDxxVxMyAiRHeKdvBVqszFS+ugFwOJoePy0OU+Q=
@@ -1352,10 +1188,6 @@
 		</dict>
 		<key>Headers/FormTableViewDataSource.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			b5X256o53+6TGmJ8NyCpghoNSZs=
-			</data>
 			<key>hash2</key>
 			<data>
 			5tVV5+HtkOnjwo8US9aqoG1g8yWyfQwKJZuTyRHb6is=
@@ -1363,10 +1195,6 @@
 		</dict>
 		<key>Headers/GlobalNotificationManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SF9e4Jzltn4dDCRMyZnFKjMx/Z8=
-			</data>
 			<key>hash2</key>
 			<data>
 			JY/8fjNbIsj+6AZWJX1TDy1YCF4s18cCJrj+PZqkH1o=
@@ -1374,10 +1202,6 @@
 		</dict>
 		<key>Headers/Herd.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dxTb09TbJUeTTxHMS5Nvm8+doC8=
-			</data>
 			<key>hash2</key>
 			<data>
 			I24u1wazr+7/YgjjIPH9kENQh6Bli9AHu6ohF6074zU=
@@ -1385,10 +1209,6 @@
 		</dict>
 		<key>Headers/IZAccessoryListener.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rn99t8N9PBVDbh9Guihz6o9Zn+c=
-			</data>
 			<key>hash2</key>
 			<data>
 			u3olm4jKZMSD4YTC1zWVix9o5iFqMME21iUyoiyi3Ds=
@@ -1396,10 +1216,6 @@
 		</dict>
 		<key>Headers/IZAccessoryService.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zzMF6rkK75IbHho0vfPQ+AERhaY=
-			</data>
 			<key>hash2</key>
 			<data>
 			i8js1p2557LP748uN8N60r0cosDdK3tRkCWIMvCUnys=
@@ -1407,10 +1223,6 @@
 		</dict>
 		<key>Headers/IZAccessoryServiceError.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2f5nYycA7f+3VQYwz/0bLuirljc=
-			</data>
 			<key>hash2</key>
 			<data>
 			At4rioYTszCy+2Do9Nw9LKNd0q7wKlJJXEAxNEgkoPc=
@@ -1418,21 +1230,13 @@
 		</dict>
 		<key>Headers/IZAccount+Properties.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dAo9Dj3oNVIdqNjrSljnF1cZjc8=
-			</data>
 			<key>hash2</key>
 			<data>
-			ip4FEnEvEW6PTOQsx2oM+IrLHXEMgmdVDYp62vseoaE=
+			h/+hE6713b/x4vr7z+VkpgpqCdv8ImJ6Ju/h/4x+ElU=
 			</data>
 		</dict>
 		<key>Headers/IZAccount+TippingType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LVI0Yez9y7Aeef91ByDpc10Ssc4=
-			</data>
 			<key>hash2</key>
 			<data>
 			vKzTFgeB5n3OtRv0l8WKl5z4+kmTOMYX09Hz2TMlw9M=
@@ -1440,21 +1244,13 @@
 		</dict>
 		<key>Headers/IZAccount.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dQhT5hnxUF3nizGJJYyOmWbG4vU=
-			</data>
 			<key>hash2</key>
 			<data>
-			3B8YBVRq3vjGFABrYPvl9Al5l6Jcv/UKQrgo3sJQngo=
+			wCuivRAwYOejsezbmLoOL9rFsV/Qea10RmWpcrMe08w=
 			</data>
 		</dict>
 		<key>Headers/IZAccountListManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JsUyK9Iewh+yx7o0cmff/KMeqYk=
-			</data>
 			<key>hash2</key>
 			<data>
 			ohChIbWWt4vVEKjU0fTxfzWJY0rBGIBHsTJGXjsr1Z8=
@@ -1462,10 +1258,6 @@
 		</dict>
 		<key>Headers/IZAccountManagementService.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YauCdEKaI8WePm1FlrO5QfTxj2s=
-			</data>
 			<key>hash2</key>
 			<data>
 			JclL9j8acb+ZzjBS0VeDHCyF1TNt61tlXcctbWCa5ZU=
@@ -1473,10 +1265,6 @@
 		</dict>
 		<key>Headers/IZAccountProtocol.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/DHTvTr+kbiSB42lKz28sTbCkB8=
-			</data>
 			<key>hash2</key>
 			<data>
 			Cf+2cN50XHD0j9DJ/xOe8gIjT37MNzkoX0+WL8sd888=
@@ -1484,10 +1272,6 @@
 		</dict>
 		<key>Headers/IZAnalytics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BOZOz419CdIUIpymFYa6O2dFzrs=
-			</data>
 			<key>hash2</key>
 			<data>
 			siI99lLZeDbaH74r+yUSXduZLqnHFQkgpPlgBaM/IJk=
@@ -1495,10 +1279,6 @@
 		</dict>
 		<key>Headers/IZAppLifeCycleEvent.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XSzUr4sVvCwOKAnINKvnqS3XzUg=
-			</data>
 			<key>hash2</key>
 			<data>
 			xzh+WIsR8shLdlgYrSxkrTfSlshCxezN5i9vcn0Z4+c=
@@ -1506,21 +1286,13 @@
 		</dict>
 		<key>Headers/IZBackgroundUpdateState.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KVa13MnrvlVVIP15nd1L44MAYmw=
-			</data>
 			<key>hash2</key>
 			<data>
-			Z9oQ9AcvvdnPcqKJjVM/xu5qEDZ1dqINbsZSukyM4j8=
+			Yc31hW1/IPvwBBfxMwn5iPBFiWgb3wNjWbwj8IYJAMI=
 			</data>
 		</dict>
 		<key>Headers/IZBaseReaderUpdateViewController.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BSBUDCGHZQ/VnY1aQxSM6hbcpIM=
-			</data>
 			<key>hash2</key>
 			<data>
 			0YdvgsISHKftIXYoe1elKfdZ3ZvAkWscim48IkUp7jU=
@@ -1528,10 +1300,6 @@
 		</dict>
 		<key>Headers/IZBatteryInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			g9pZjgvmXI7Myuomq/a9Sh4HHKk=
-			</data>
 			<key>hash2</key>
 			<data>
 			3l2YxF2/aukqb1VtAPPnmJFhk1mNMGxMsMIBuPjzfsE=
@@ -1539,21 +1307,13 @@
 		</dict>
 		<key>Headers/IZButton.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QBgtWwcDNV/5+6+UZtQPIyLq4eg=
-			</data>
 			<key>hash2</key>
 			<data>
-			MZtFe3Ihw26QhVR+/NgtST86Mhx437tqLAKlGalHqo8=
+			1QETK5T91OtpUb0aB8/Sqwg8Wo28TI6b4NDA1MKkhMc=
 			</data>
 		</dict>
 		<key>Headers/IZCallbacker.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kG0puRanIgku7h+8LhmJ/Jb9e7I=
-			</data>
 			<key>hash2</key>
 			<data>
 			cgFk4HQVuX4rgl0sqz4cWEv8SP4QHNWuggyrRJ8FWsc=
@@ -1561,10 +1321,6 @@
 		</dict>
 		<key>Headers/IZCardPaymentConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			st6mNB0GIxQS6ob6BFfSnI4NNo8=
-			</data>
 			<key>hash2</key>
 			<data>
 			09M/0w2UOw3TQr+Jsag9prXxYk+beKwIBXS1GMw5lms=
@@ -1572,21 +1328,13 @@
 		</dict>
 		<key>Headers/IZCardPaymentManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			p+GqyBRM892mQuONnMNvTMXQz6w=
-			</data>
 			<key>hash2</key>
 			<data>
-			TzpZXOKnuN3ZAE3wzxDWMlvHcIrgwfuD9M4u0WGTf/E=
+			BR7d22SC3FiC1zwUvz6ZdAAUzY0lhvP+7jaEuBIAp+A=
 			</data>
 		</dict>
 		<key>Headers/IZCardPaymentViewController.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			krCNtZ/M3vuTVqCWt8TFrIhb4wU=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ox4WjqsMMVk289WAbhgeWWatJGefRrWnqqlACsAZGdE=
@@ -1594,32 +1342,20 @@
 		</dict>
 		<key>Headers/IZCardReader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			G0OUH/FqkntdNkdEYFZGtu78z0s=
-			</data>
 			<key>hash2</key>
 			<data>
-			6os0TT7DPkASAFhag8MFVyeavQToFcFwl2Wyvz/HcYI=
+			cUUKCbB5zi0Q9kElZQG3+1U1/AUN8UW7Zt1IxOnK1tg=
 			</data>
 		</dict>
 		<key>Headers/IZCardReaderDefines.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			W0ezijPcra3K5llhZdgQ0YPth3M=
-			</data>
 			<key>hash2</key>
 			<data>
-			l5uibQU41dxT//lSOahJDL/9YhQPTkbUr8l4qyPISTc=
+			BC5+1pgDbe50GbEuWAMOb2qlMvnGAXBvYINrjQyOp8c=
 			</data>
 		</dict>
 		<key>Headers/IZCaseMailComposerController.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7MTACcOs+Lw3H+FKIo1axPA7S1w=
-			</data>
 			<key>hash2</key>
 			<data>
 			rLttQ1/vxh5VnQE8+SjAygphaHyY8Z7UfGd3AwyjRtY=
@@ -1627,10 +1363,6 @@
 		</dict>
 		<key>Headers/IZCircularFileBuffer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GpLHZdrrWzYaK+rXuEnm2XpQJvo=
-			</data>
 			<key>hash2</key>
 			<data>
 			Lz6HqjFMdTW/JlWk5nrdIaG3HtiXHJ1nQAybt0Bckms=
@@ -1638,10 +1370,6 @@
 		</dict>
 		<key>Headers/IZCoreBluetoothListener.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EPmKjR6AOcxsvOKgCi5NhWChfkE=
-			</data>
 			<key>hash2</key>
 			<data>
 			c/g9aEflxugYoSS8quouRTVvnfFaHIrsUTJRlFEUSto=
@@ -1649,10 +1377,6 @@
 		</dict>
 		<key>Headers/IZCurrency.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			X2DT7L9uqOWGnHv9Y2OUoNv5tdc=
-			</data>
 			<key>hash2</key>
 			<data>
 			QjYEo5CVANCMBIirBpi2poWdgw6d4wkyp0e8izJUq3E=
@@ -1660,10 +1384,6 @@
 		</dict>
 		<key>Headers/IZDatecsReader2Pairer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8o114ru98Sk2J1X2YxKtxuM4Ayk=
-			</data>
 			<key>hash2</key>
 			<data>
 			rCLwMKPoo9k76AngmwAlQja9czh1m0/mErqsKBRw7FE=
@@ -1671,10 +1391,6 @@
 		</dict>
 		<key>Headers/IZDebugNetworkProtocol.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bGMW2VJQyLpxcK0HlGGZzgIwfWI=
-			</data>
 			<key>hash2</key>
 			<data>
 			fTOjVsldpCaolHoUOWfYzTIYItKrr9nOxnWjXfHIPDI=
@@ -1682,10 +1398,6 @@
 		</dict>
 		<key>Headers/IZDebugNetworkResponseBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			z32Fl7WAAmsMtfeluczJJPmmVys=
-			</data>
 			<key>hash2</key>
 			<data>
 			gZWuNeMEfEW+Jt8E5FhXpZWjJsi8cQkK8npozjzdGRI=
@@ -1693,10 +1405,6 @@
 		</dict>
 		<key>Headers/IZDebugNetworkResponseProvider.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1kWKsn4kqyqB5ZrsH2wpEf+sOI4=
-			</data>
 			<key>hash2</key>
 			<data>
 			chSL45JPpXcT9GAN8aIpoFeNKdYK9k8gGAQnzFVIKhE=
@@ -1704,10 +1412,6 @@
 		</dict>
 		<key>Headers/IZDiscoveredDevice.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Xk/G+93xxlPqDEJXDgUFOVgqh7A=
-			</data>
 			<key>hash2</key>
 			<data>
 			gHICBARpZ9En522wx0DD1z9VeV3fmVz/JYw6LiuGoUk=
@@ -1715,10 +1419,6 @@
 		</dict>
 		<key>Headers/IZDisposable.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GJJp2BWOMjdMuvOU8SamRh+0oGs=
-			</data>
 			<key>hash2</key>
 			<data>
 			1mZbRZQYLCgmppDsbz0UYEpjLl8BjK+DN8XqMpAF370=
@@ -1726,10 +1426,6 @@
 		</dict>
 		<key>Headers/IZDisposeBag.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8WeE9AaaID7TFzHMXF5OB3hNcAQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			zTnbn0fuTAPNJ8+KvkRf45BFwNE3jcYIVMezYl4bREU=
@@ -1737,10 +1433,6 @@
 		</dict>
 		<key>Headers/IZDisposer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6udZbwzivYZ03ZtlnWBSjbJQel8=
-			</data>
 			<key>hash2</key>
 			<data>
 			v+RsaQeYSfE+cAc6/VCfRCMyxvvgT4QXLKRgrYW3ViA=
@@ -1748,10 +1440,6 @@
 		</dict>
 		<key>Headers/IZFuture+Utilities.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1b/6iPIz8kWTc4boH1+zSxii5fI=
-			</data>
 			<key>hash2</key>
 			<data>
 			EQQBMe5Hfs/XnyQAcHl5LeBLOvROlejYXYKqm82nPoc=
@@ -1759,10 +1447,6 @@
 		</dict>
 		<key>Headers/IZFuture.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/qH3QstUFM738rIpOWO8ik2R9Fw=
-			</data>
 			<key>hash2</key>
 			<data>
 			vi3Qabm3QsnsB3G9fPuefFyQAIJl86nCKCAHvMHr2r4=
@@ -1770,10 +1454,6 @@
 		</dict>
 		<key>Headers/IZFutureQueue.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xM3Gdvj2n1A0EXbXWq0egQeOEoY=
-			</data>
 			<key>hash2</key>
 			<data>
 			dn1QpVNDwFY4lMtOZJ64ON/3FW5YETBAQG/B9Ruz6CY=
@@ -1781,10 +1461,6 @@
 		</dict>
 		<key>Headers/IZIntegrationConfigurationController.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TaL8hDfyjV55kxNa5x5zjH/Hx2U=
-			</data>
 			<key>hash2</key>
 			<data>
 			wQ+EVZkjqT27Mbmbg7NPCpepwFYmWW7ddrviXXXwYaM=
@@ -1792,10 +1468,6 @@
 		</dict>
 		<key>Headers/IZLabel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DEuJEzoak8bPbrrzTitISVvwIIk=
-			</data>
 			<key>hash2</key>
 			<data>
 			i88RQymLVmJS59hKN8xMcTfmzDE9G7JQWGApdG6ZoUQ=
@@ -1803,10 +1475,6 @@
 		</dict>
 		<key>Headers/IZLocalizationExtensions.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Bz57KGx3OW2tLkroaah7wwfo64g=
-			</data>
 			<key>hash2</key>
 			<data>
 			zYOTLShxCJtoFKLYLjA/xYqJPNW63cejI+cMTU825Ec=
@@ -1814,10 +1482,6 @@
 		</dict>
 		<key>Headers/IZLocalizationManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ludpb15YJ3d8cTs6chRMfTKruX8=
-			</data>
 			<key>hash2</key>
 			<data>
 			8gF0sudJRJLj4VtBpwGOjIiUBC9EuxjTGOd38BA5FsI=
@@ -1825,10 +1489,6 @@
 		</dict>
 		<key>Headers/IZLocationManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JoaBH3qsQAWOo+VFT6Wqs4kCUjY=
-			</data>
 			<key>hash2</key>
 			<data>
 			Nf8yGTaMnxd926wDeDFYhAXeKGmdNiBDxtUkma/wLUM=
@@ -1836,10 +1496,6 @@
 		</dict>
 		<key>Headers/IZLogoutService.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vlBLp0wX2ySneyZ4oY8hbmxxvzA=
-			</data>
 			<key>hash2</key>
 			<data>
 			PapihDRI7qGbw+DaCqgu+CRquNa7JPs7YR3IXBavYRU=
@@ -1847,10 +1503,6 @@
 		</dict>
 		<key>Headers/IZNecessaryReaderUpdateProtocol.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			alq3eoxUwUnIYF6UYer997Fynvo=
-			</data>
 			<key>hash2</key>
 			<data>
 			0Tago+R42N/ICAXLwhSqnubMERDdqMujVaCELMg4Gdc=
@@ -1858,10 +1510,6 @@
 		</dict>
 		<key>Headers/IZNetworkContext.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ONOmbnlhHPwbmt+/evLO46SslV4=
-			</data>
 			<key>hash2</key>
 			<data>
 			91qEkRhXJWMEYZ5WMxZY3gAvy7CvSsrgVzK7Sm+W0pI=
@@ -1869,21 +1517,13 @@
 		</dict>
 		<key>Headers/IZOAuthTokenScope.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0YL/MLwDaoBFB4zLUaVIUgS1U30=
-			</data>
 			<key>hash2</key>
 			<data>
-			PE4qCI3KUQJf5aEcCaaPUtaMedBlfTBtK8JxgQ7R3lQ=
+			ukztreUMo3JtGWdCJnwASU1k/tiK9hY8w8Fg8Gq4fOo=
 			</data>
 		</dict>
 		<key>Headers/IZPair.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			coSbmOgqzDs9ei39UfGFBLCkcfU=
-			</data>
 			<key>hash2</key>
 			<data>
 			cUBEFMqnHZEGK7m0LSGK/BscGDR49xQ7xtn6IgNzoFA=
@@ -1891,10 +1531,6 @@
 		</dict>
 		<key>Headers/IZPairedDevice.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BMiifsshEbVKAuwn9/IfUG9e4DI=
-			</data>
 			<key>hash2</key>
 			<data>
 			dlcy//s7l45MvE0Xw4l5LPkXakbJPotVB0ethARf2u0=
@@ -1902,10 +1538,6 @@
 		</dict>
 		<key>Headers/IZPairingChallenge.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QIR4stkB0haUVLui51ZnSjSUHoM=
-			</data>
 			<key>hash2</key>
 			<data>
 			ksGGvjqYHkW0MDa9a1yN/SDKiqnxnXbDV7l9mlWIZBY=
@@ -1913,10 +1545,6 @@
 		</dict>
 		<key>Headers/IZPaymentInfoService.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			eV7KvmaKBRDZkKQ0+5irPBJDHoE=
-			</data>
 			<key>hash2</key>
 			<data>
 			pagwnqMxTEtZCSCrxspg/Nz+yYLF+7Nc4IgxbU95Gho=
@@ -1924,10 +1552,6 @@
 		</dict>
 		<key>Headers/IZPeripheralLink.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xSuHmXjevLZGkjlzEk1h3W1nLH4=
-			</data>
 			<key>hash2</key>
 			<data>
 			H4Gmnjw8tv8FwIjTaqRYQPG+YIlrN/9ulknKI0lPW30=
@@ -1935,10 +1559,6 @@
 		</dict>
 		<key>Headers/IZReaderUpdateManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5aj/SQzBHORm8hiP+aCFNuf6jOU=
-			</data>
 			<key>hash2</key>
 			<data>
 			FeK51HgMyIfkWxya0U0psXL12gONXXJebrxiAeBhQ8E=
@@ -1946,10 +1566,6 @@
 		</dict>
 		<key>Headers/IZReaderUpdateViewController.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tQI3d2ncYzSegRp0KTt1yJtCyXE=
-			</data>
 			<key>hash2</key>
 			<data>
 			rOQRhV/L17LGp3oqddtGP+2ML7oHnKcFYThgXXtf+zM=
@@ -1957,10 +1573,6 @@
 		</dict>
 		<key>Headers/IZRefundManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			H7KXBUyECcjTR2tC/PgjhKwj4yg=
-			</data>
 			<key>hash2</key>
 			<data>
 			v/COTJKDcGy7kYuHLzWcY1KSgLqmX+Hg7GNG/8mKpmQ=
@@ -1968,10 +1580,6 @@
 		</dict>
 		<key>Headers/IZSignal.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Cart2hMlzqOOusTZE7mcz9WOtTU=
-			</data>
 			<key>hash2</key>
 			<data>
 			baezmjqkoJ66bkXgBUI35sJTXJJEof9RDi9T8oWyLPw=
@@ -1979,10 +1587,6 @@
 		</dict>
 		<key>Headers/IZTheme.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Q85bTDaQph9Ve4MC/ReGC/A2EPU=
-			</data>
 			<key>hash2</key>
 			<data>
 			CNyotbzjMZAwczL4NX15IgguMFZurfMpda4RQKkaGjI=
@@ -1990,10 +1594,6 @@
 		</dict>
 		<key>Headers/IZTippingType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jWpc6zxsWTZMbtFUQMomz4e3sso=
-			</data>
 			<key>hash2</key>
 			<data>
 			N5KHWDLHnLlJ4V2vdYZJ7kvhcpTlQR4LTNmghO1AS5s=
@@ -2001,10 +1601,6 @@
 		</dict>
 		<key>Headers/IZTokenManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			I5/mKckdvzePJoKWa0+IFtTiseI=
-			</data>
 			<key>hash2</key>
 			<data>
 			QfgYJr6wyPHlpQWD7o66VPAXDxc5c6mR22U6CDJTFWw=
@@ -2012,10 +1608,6 @@
 		</dict>
 		<key>Headers/IZWebViewController.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t2xur1Ai6yJjpEaxcyEuX2QFkMY=
-			</data>
 			<key>hash2</key>
 			<data>
 			pMQhl4sfJtMEVXNE+76cKg+alVGqeM3C+w8uul1zZnA=
@@ -2023,10 +1615,6 @@
 		</dict>
 		<key>Headers/IZettleHerd.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			igKjtfc9ufOU0YqDwmcXgg8mlyg=
-			</data>
 			<key>hash2</key>
 			<data>
 			vkx0JR6+E37ZtxNTxFLkizhtFTtQ4u4mva5Jr+UrLN4=
@@ -2034,21 +1622,13 @@
 		</dict>
 		<key>Headers/IZettleNetworkContext.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hMx3etndoJ+hZ6f640m+wIjvXUM=
-			</data>
 			<key>hash2</key>
 			<data>
-			JqzIKm6t+qMHXtm1V7HQRD2SqeYQRzuhCfRJcu9qj2s=
+			hBFD4k5TT8buWRTl208KdFJXNrBMkBo3f7pb4CGQtCE=
 			</data>
 		</dict>
 		<key>Headers/IZettleOAuthToken.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Vdo+0lRWEOrlqHlZezgKrTJCIMo=
-			</data>
 			<key>hash2</key>
 			<data>
 			K9YAzHtn1IkZP9apneNngppxQCKb6eA4POQbSGC677I=
@@ -2056,10 +1636,6 @@
 		</dict>
 		<key>Headers/IZettleTranslationsDataSource.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pNEke/pUKaIZcQRFbT+S0QZgW5o=
-			</data>
 			<key>hash2</key>
 			<data>
 			I6BmfBsq9z2uCPU8T0x3SsWuK71WL5QdMUMx0W1BuHE=
@@ -2067,10 +1643,6 @@
 		</dict>
 		<key>Headers/LocalizedViewController.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KTskqplRBOXmS4xvM9MUAO2UQL8=
-			</data>
 			<key>hash2</key>
 			<data>
 			g027o9XsTvrpRwTbcF/498byI/NH48/irPbXxSquoNY=
@@ -2078,10 +1650,6 @@
 		</dict>
 		<key>Headers/Log.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			393aKKST+Oidp2KdzMX1aFZaa/4=
-			</data>
 			<key>hash2</key>
 			<data>
 			tNG6458x2EfjNQuOtC/U4uRubGpF8rRqG6W8V7mv1U8=
@@ -2089,10 +1657,6 @@
 		</dict>
 		<key>Headers/NSBundle+iZettlePayments.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PNinfWFYp/dpcmIgxreFjDXdq20=
-			</data>
 			<key>hash2</key>
 			<data>
 			Rd0tWE4rWt3w+ePqGbsOH6tRtgmLDJCzAbRcGXRHD2Y=
@@ -2100,10 +1664,6 @@
 		</dict>
 		<key>Headers/NSData+Base64.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/uxrcVINF3cz6jGcL88GdmSnMYU=
-			</data>
 			<key>hash2</key>
 			<data>
 			LG8FaqRd1PXBqhV+SicPyfXIrU0pjgbtpB+qMUElFBc=
@@ -2111,10 +1671,6 @@
 		</dict>
 		<key>Headers/NSData+Encryption.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			a/TFs5tnECJ+XdTlGwqy1MmqnYU=
-			</data>
 			<key>hash2</key>
 			<data>
 			VFA+93MYxy+A2XiLjF9y6dEOR8BIqVR4f/eX5JrZKPE=
@@ -2122,10 +1678,6 @@
 		</dict>
 		<key>Headers/NSDateFormatter+Utilities.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LLLiKPZH+QWhjEEYFoky59DaFb0=
-			</data>
 			<key>hash2</key>
 			<data>
 			jDEMRL1BEW0FNWf5kEUw4M1G4J3wwgj3ljvEiExa0ko=
@@ -2133,10 +1685,6 @@
 		</dict>
 		<key>Headers/NSDecimalNumber+Amount.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			X7m34vG21nGJ+PEfDreglAeS2QE=
-			</data>
 			<key>hash2</key>
 			<data>
 			tYXOsLjpfpHVFZUDuTULaVF/hYfXxvzcY2L31gI9ZcA=
@@ -2144,10 +1692,6 @@
 		</dict>
 		<key>Headers/NSDecimalNumber+Utilities.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bzKzIT7uHSwhaHiu6UNW3IzJrbY=
-			</data>
 			<key>hash2</key>
 			<data>
 			DS2GLDtEG+ahE9raIX+SL4RdRyJLqPGFjxiuCBVMbWc=
@@ -2155,10 +1699,6 @@
 		</dict>
 		<key>Headers/NSDictionary+Utilities.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rmDWoI0XqBv52kAbf2bBEfhJjp0=
-			</data>
 			<key>hash2</key>
 			<data>
 			zzeeatLDKYHEhlCCgoRgegU2s9HkZ43qq07Nri31KtU=
@@ -2166,10 +1706,6 @@
 		</dict>
 		<key>Headers/NSError+Account.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			b/U6DGltN8od+MpUTaKyaVg8DLo=
-			</data>
 			<key>hash2</key>
 			<data>
 			m+JwoLIyCIiTjHYtJRTRzl5vXE+vyLAasVR76KIjbg0=
@@ -2177,10 +1713,6 @@
 		</dict>
 		<key>Headers/NSError+PaymentsSDK.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			aYbmi1K2Y1NG9tY7igtqw91gtGA=
-			</data>
 			<key>hash2</key>
 			<data>
 			ya4x0/B0kZfHyxpGXxAjo/HV+wrhx3cMKTzo8UbJM1k=
@@ -2188,10 +1720,6 @@
 		</dict>
 		<key>Headers/NSError+Utilities.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			80nDhCCVKCiY/4qOr7PuPlIoDjw=
-			</data>
 			<key>hash2</key>
 			<data>
 			vJiLG3GZS7Jg49TcC5cwe8TitbgKsykDHUQ1bxPjjd8=
@@ -2199,10 +1727,6 @@
 		</dict>
 		<key>Headers/NSError+iZettleRequests.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8lkHLDwEiV7aoquifxkXt7w5XAs=
-			</data>
 			<key>hash2</key>
 			<data>
 			3WcETxL/qeFqcxUJxhIY1CW4rt1n4oOgC2b5kq6RL08=
@@ -2210,10 +1734,6 @@
 		</dict>
 		<key>Headers/NSMutableAttributedString+Htmlify.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BNnK7aTjubetTOLmsdBhRnycGiM=
-			</data>
 			<key>hash2</key>
 			<data>
 			hZitAPbjcWeHDUo0hwObyuWCcGHyZpy6LQ9DRw/8gNY=
@@ -2221,10 +1741,6 @@
 		</dict>
 		<key>Headers/NSNotificationCenter+IZSignal.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ilUvee4cK1uzPdO3zB/IcYiMSUU=
-			</data>
 			<key>hash2</key>
 			<data>
 			7lHOF8qGMzhxqNvfn/B0gyLjedOChZYg28NzWVbtjkE=
@@ -2232,10 +1748,6 @@
 		</dict>
 		<key>Headers/NSObject+KVOHelper.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7vhhhf9DSEbJvrQWGQq3khoWWG0=
-			</data>
 			<key>hash2</key>
 			<data>
 			zQc/3yOwkftuwNYT6G0VASZiNTt9YJDEXLuRB6BgRyw=
@@ -2243,10 +1755,6 @@
 		</dict>
 		<key>Headers/NSString+IZUtilities.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RvgTp0vTfCJv2Wv3E4OwHsim95I=
-			</data>
 			<key>hash2</key>
 			<data>
 			QGUGuvqTOkKAat94UKBSDQwc07L55BLrd4IjCdrgWJk=
@@ -2254,10 +1762,6 @@
 		</dict>
 		<key>Headers/NSString+URLEncoding.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0PWoEao6lhVepRUR7uHRZK6sFHE=
-			</data>
 			<key>hash2</key>
 			<data>
 			z63zv4+Ccv3gmiK4BSU8KuK868n7LeLsNdGzfHLnu2c=
@@ -2265,10 +1769,6 @@
 		</dict>
 		<key>Headers/NSURL+ProductionURL.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HUnLjPFmTFtsNMwPe8xEC2xZDzc=
-			</data>
 			<key>hash2</key>
 			<data>
 			s22synnV5la2sOtvTnA+TK/cpl+u3c23+cjfYIIfK6Y=
@@ -2276,10 +1776,6 @@
 		</dict>
 		<key>Headers/NumericKeyboard.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			R5UBX1p9rIPZCBBP6S3QsH7KduI=
-			</data>
 			<key>hash2</key>
 			<data>
 			ccrZG7Ws71AXMTITuA5sCAJHQg3TWQBclAroVqffZfc=
@@ -2287,10 +1783,6 @@
 		</dict>
 		<key>Headers/NumericKeypad.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gwYxmkNYsOQLisGy+19qlbmbbGg=
-			</data>
 			<key>hash2</key>
 			<data>
 			3s8NJtEveFmiWp3WOnNurFbL0CY/QrRyHODHa12e2+w=
@@ -2298,10 +1790,6 @@
 		</dict>
 		<key>Headers/OverlayNotificationView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2IvgfgNX9NY1hBiiYEDcuKyMBis=
-			</data>
 			<key>hash2</key>
 			<data>
 			N4K0liAPd1UNqqiLPtlFuIaQJa77GU4sbGCqN+TuMeo=
@@ -2309,32 +1797,27 @@
 		</dict>
 		<key>Headers/PaintingView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PfbZrpOIZcStJvIDzpuPf8H9S2A=
-			</data>
 			<key>hash2</key>
 			<data>
-			urudr2OlndE/j+weBmw8ZXOQImF7Edek3T2hJW0fEVk=
+			uq9APxkuANZmI9M72CHaS/e9c2eMr/A9+CL2w4jW7YM=
 			</data>
 		</dict>
 		<key>Headers/Payment.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			C8feXVIcgQeMG6Zwa6r9/xdiVsU=
-			</data>
 			<key>hash2</key>
 			<data>
-			Dn9u5QtXvk02z+RA1kAco3hQAZQU4cEWZ5Rj6i4R6Dg=
+			N6m8YU302MeZ4R3ps6KJPP2m8vUvKVMjxWDTNyAA/SM=
+			</data>
+		</dict>
+		<key>Headers/PresentCardViewController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v0NG2UPweKFzHJu76np9WJcZM9Nb6SAb0OpxS+4KiIM=
 			</data>
 		</dict>
 		<key>Headers/SessionManager+Additions.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FKG8I0Nchcwcj8c1OeS0xNOcynE=
-			</data>
 			<key>hash2</key>
 			<data>
 			a7Y3GuRskgaO87TzH2v1oNzKkADNK+stqrK9UnG2j4A=
@@ -2342,10 +1825,6 @@
 		</dict>
 		<key>Headers/UIAlertView+QuickAlert.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UklqhFegmQYdHqwHY25ZWziIaPM=
-			</data>
 			<key>hash2</key>
 			<data>
 			0z5s1/9E0sO169YsW9Hmiuie7GZvaYbeBv2QMapRM0M=
@@ -2353,76 +1832,48 @@
 		</dict>
 		<key>Headers/UIApplication+Utilitites.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ie7weyKslGrEeZZ+W7ehQbwsTUg=
-			</data>
 			<key>hash2</key>
 			<data>
 			ej45g6S0FTEo2rNlVv6XZO6NgZJGSKT1ZrxA4ltLCPI=
 			</data>
 		</dict>
-		<key>Headers/UIBarButtonItem+Utilities.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WNmJCXYzGRpn5eZXCaoYwO+J6x4=
-			</data>
-			<key>hash2</key>
-			<data>
-			V+b1wZajR4qgmA9Y3lFB5mwtTCHFEj1LxKKJQYjocLc=
-			</data>
-		</dict>
 		<key>Headers/UIColor+Presets.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7lVpOFPi1ni3PtelcOyyjHrw+y0=
-			</data>
 			<key>hash2</key>
 			<data>
-			Sf/2fP4PgJ7p2ODdpnDTgsXuNRSFPmTEVsn5KeelhoI=
+			Va7o5Viw39FCd235KFCTJr5bONlU6IvPYUHb2C2utEU=
+			</data>
+		</dict>
+		<key>Headers/UIColor+Utilities.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nhjnDXsxO2ii+gNLj9pAoTMQ89IYhg6nnuUIrPUBZHQ=
 			</data>
 		</dict>
 		<key>Headers/UIDevice+Utilities.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YBsePz7kA/+lMQSxwag8RrGozdo=
-			</data>
 			<key>hash2</key>
 			<data>
-			XHYvmJBM8tnDPH9ks5m02PoiCmM8RA4+7lEFutZMnQ8=
+			hLnuqk04PvZB82xwg3BNl+8B3d/cDPfnD/Jf5gSWAks=
 			</data>
 		</dict>
 		<key>Headers/UIFont+CustomFonts.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			i49UZ/wIMPgxJNBzV6iYF/rybFs=
-			</data>
 			<key>hash2</key>
 			<data>
-			mMEDTFjIyWVVC9SYxkb89kME56QKvOwKjW5YRU+8jxo=
+			9uwGiafKPMP1xtbD9HTRAi0jTFlg3KGKugPriky+TOs=
 			</data>
 		</dict>
 		<key>Headers/UIFont+TextStyle.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			aPiQalm6pyBaazrGMi9JmHlAVDU=
-			</data>
 			<key>hash2</key>
 			<data>
-			dV3eT9MiXZhGQI2NIv66lsAhwFrWDZ+RhpYAAvko1l8=
+			GEAKq+dbv5dHsjz68FLwE9XLnUUuxj1+Y0/TXmpYfgM=
 			</data>
 		</dict>
 		<key>Headers/UIImage+Backend.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EltUSQSkLLVsttzvAe4DJd5pdc0=
-			</data>
 			<key>hash2</key>
 			<data>
 			Lxlcw81qFcR1FNu/B1FmjFVtFcAA0cML5vWLVzvXeWg=
@@ -2430,10 +1881,6 @@
 		</dict>
 		<key>Headers/UIImage+Cache.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YU1RGTu6hzsMbf/VW2cITIFfrm0=
-			</data>
 			<key>hash2</key>
 			<data>
 			Hr4doXlQD/1nzB/nlWv3xQqOpRxTYuuZdsUbCr3OK0A=
@@ -2441,10 +1888,6 @@
 		</dict>
 		<key>Headers/UIImage+Generate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6IvIYSxKhXpibFEJOvIjYDA4szk=
-			</data>
 			<key>hash2</key>
 			<data>
 			rYBaJFwWxpxDE3XKHDN+ILr9FxJIdgPwqVnsxmYbf0g=
@@ -2452,10 +1895,6 @@
 		</dict>
 		<key>Headers/UIImage+Resize.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			n24XjiM6ZraysbvnggnCYD1W7pI=
-			</data>
 			<key>hash2</key>
 			<data>
 			fkWdwd47nD6d1dKDwcHCVXF4vGcbMEZvuvWYxJ9ABng=
@@ -2463,10 +1902,6 @@
 		</dict>
 		<key>Headers/UILabel+Formatting.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fKuHgJfQMbhj9gZnKjyNdOBEW5Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			yTrg6hY6uq2PVBCtoUyzuoe9l7zCk2CC7rGL8n+gXk0=
@@ -2474,10 +1909,6 @@
 		</dict>
 		<key>Headers/UILayoutGuide+IZAutoLayout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HeBMVTrvbX2tJg+s5CLVnUm+ed4=
-			</data>
 			<key>hash2</key>
 			<data>
 			ltBmHt/jXnrlH0e5NUvQyWM/+U5Aas7J7OZX6iNvTf8=
@@ -2485,21 +1916,13 @@
 		</dict>
 		<key>Headers/UIView+IZAutoLayout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TN24E7pNkbiBO1dHOnc+xg+njsQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			pT7JcH7ErBnh7gNVLoXe1LJyvAd9sq4TOwmIlL/8Syk=
+			r8h81P3Z3ZsUZM62ScX/qZhRv7Ona0bb/qtNMPv5tLo=
 			</data>
 		</dict>
 		<key>Headers/UIView+Utilities.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			toVNIaswU38AtdNInJ9x+7yGnJE=
-			</data>
 			<key>hash2</key>
 			<data>
 			5Xaxkk5fB6gDcxJWjYUfk8CLYH1gzFqFG4qXlm5aV/8=
@@ -2507,10 +1930,6 @@
 		</dict>
 		<key>Headers/UIView+Viewport.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			goZngmzIIueEv5lC5w/+eWXZ5X8=
-			</data>
 			<key>hash2</key>
 			<data>
 			cLMbTAHAVmV0Z2IKsr6KtERyLvdI6QPFy1BzeI57PU0=
@@ -2518,10 +1937,6 @@
 		</dict>
 		<key>Headers/UIViewController+ModalSdkFlow.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			17zZXLv7Wbvb8ycq1ZrSgTWni+o=
-			</data>
 			<key>hash2</key>
 			<data>
 			bzX1G0UV3mOse0SJzQVVoPEee7nm2k0qeCGZ0j3NQpw=
@@ -2529,43 +1944,27 @@
 		</dict>
 		<key>Headers/iZettlePayments-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UmRPI+rLq8yux1PCGSRtseEx/fU=
-			</data>
 			<key>hash2</key>
 			<data>
-			JENQd2JK2dUXJPPqZ72mXs8yxMFCfpQHdlpsLmuNIvo=
+			BJplU6HGf5eg8cKtQRzbow2VhuJxxmYJEQowl0WucDg=
 			</data>
 		</dict>
 		<key>Headers/iZettlePayments.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ibAMV4sFnUVLMfeq9PvCMwZgGgw=
-			</data>
 			<key>hash2</key>
 			<data>
-			asz8275n0dzvR5BlguDCyek0of6qUAbteZfUHyEXlUw=
+			b1uSB4KKjIq2lQx3x4ib3wBuXlEMfSt/Pj1zftHQCYw=
 			</data>
 		</dict>
 		<key>IZAccountListController.storyboardc/B0i-qj-2h3-view-fCt-r3-PgZ.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tyZ4tuFdDbg9pKdS0QOGyM4HEKw=
-			</data>
 			<key>hash2</key>
 			<data>
-			Br79s2lKpBAfyN+I1G9SwyWH2CpBP4wJS4ECQvXc1UM=
+			ox0qOWty9ROyyBWSbQRp9kvQakk99X7iXJ+wYaT6/nI=
 			</data>
 		</dict>
 		<key>IZAccountListController.storyboardc/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dqbxRo4gmgyD6VfRJLrHrXb7IYo=
-			</data>
 			<key>hash2</key>
 			<data>
 			ADJ8P/NFNTp/7FEWmyCaLYGHkfFBoQ1rfk3eFtWtxQQ=
@@ -2573,21 +1972,13 @@
 		</dict>
 		<key>IZAccountListController.storyboardc/UIViewController-B0i-qj-2h3.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			g3A8jv+cZVtYAGKGMeEbUg81fxQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			dGULqqjQFnCmTh+fuLPh/gtkrHlm1zcSSIWpHI8AWqw=
+			v/VL+VCO2QjAQtLRup5+tGTTZc5DIfxo+kDQVw8tpyM=
 			</data>
 		</dict>
 		<key>IZCaseMailComposerController.storyboardc/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			c7Y36Mhd1DgCchKfziwxDBwKWeA=
-			</data>
 			<key>hash2</key>
 			<data>
 			et3MbUIV7yufZArDBBoHnEy5+xCxohB16c902hoFndU=
@@ -2595,32 +1986,20 @@
 		</dict>
 		<key>IZCaseMailComposerController.storyboardc/Jaw-h2-QAp-view-TPg-LM-5hM.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jM90dNfaupSgFBoUT0aIyeqjA4M=
-			</data>
 			<key>hash2</key>
 			<data>
-			Pm5r7QordAvIZEpwlzamx2g/PIJdloQ0cvZoHUsTYco=
+			UL/0ddhQkKjT9rzj1lAGXIR5umaUbEZbjcNQGsOuWig=
 			</data>
 		</dict>
 		<key>IZCaseMailComposerController.storyboardc/UIViewController-Jaw-h2-QAp.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5tXiCIj4ZZBilKNXr+X3VcxayPs=
-			</data>
 			<key>hash2</key>
 			<data>
-			/5E/jPjZR9zPqtyskbyyWAtidm+mcJh0V9ruuGHjdUQ=
+			OOBs4+xTTjEng12C7k3TMECPNT9ovfDR/QjyolFhdqU=
 			</data>
 		</dict>
 		<key>Issuers.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iutCZbisHC89XBQnkt8SiJic4FY=
-			</data>
 			<key>hash2</key>
 			<data>
 			X5EZ122AZZCMBnyBQlInKP/E/0kkgUVUhlvHbHWRnLQ=
@@ -2628,142 +2007,90 @@
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iUx0mlcq899hYNWHWbG4iu/CgrY=
-			</data>
 			<key>hash2</key>
 			<data>
-			hWGdviotPb1ZKjOKwwZkTcPwAna6RhzDBsjze/KuLnw=
+			IijN3NbMMApL2swfZYZiBDmg1Wn2PChjvWgqPSVb+NA=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			i6kdpB/fpf0TgVdOoRmI0Z1Wqj4=
-			</data>
 			<key>hash2</key>
 			<data>
-			DMbQOZGNt63vz0Ja1mNEhYL+mzryjErU20s92tdORO4=
+			5s95rrM7Oz8KqE9s1lPvaI08jCEKvopdKqSZ/f6TNPs=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			J6JkwnawOnL9kVBmBmZ58LyAzlE=
-			</data>
 			<key>hash2</key>
 			<data>
-			9u6fTcCVAYyR3YQn1WTKIEcHyNJYUxf+Wj7DQokgdn4=
+			d+UCaPbjPBuTnVkPMj7geiFDi/QiJDG3/EGoMbYTwiY=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/arm64.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iUx0mlcq899hYNWHWbG4iu/CgrY=
-			</data>
 			<key>hash2</key>
 			<data>
-			hWGdviotPb1ZKjOKwwZkTcPwAna6RhzDBsjze/KuLnw=
+			IijN3NbMMApL2swfZYZiBDmg1Wn2PChjvWgqPSVb+NA=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/arm64.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			i6kdpB/fpf0TgVdOoRmI0Z1Wqj4=
-			</data>
 			<key>hash2</key>
 			<data>
-			DMbQOZGNt63vz0Ja1mNEhYL+mzryjErU20s92tdORO4=
+			5s95rrM7Oz8KqE9s1lPvaI08jCEKvopdKqSZ/f6TNPs=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/arm64.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			J6JkwnawOnL9kVBmBmZ58LyAzlE=
-			</data>
 			<key>hash2</key>
 			<data>
-			9u6fTcCVAYyR3YQn1WTKIEcHyNJYUxf+Wj7DQokgdn4=
+			d+UCaPbjPBuTnVkPMj7geiFDi/QiJDG3/EGoMbYTwiY=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t0/emESvH6aGl6zj4uPubuwdSWw=
-			</data>
 			<key>hash2</key>
 			<data>
-			4Y6Cwisvu2YpT6OIX+78xZrtwhwPWFxiLIVsm3NCvdM=
+			cOSnXgEIk8pjbgjMqQmCrGMFwxiTvJe7VLEczu6AKH0=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XjrIBPDuSJMX1DE6sLsf6lCVzOY=
-			</data>
 			<key>hash2</key>
 			<data>
-			oodYulxLcEmEjyaNfmM8O4EZ7lw0ZaZoFXxqpXPucL4=
+			l7fImz9bMbn9lghl+cn6SX9k+hBCRnS9l4PR9m9kfC4=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Ix2KK+i++B6vus9r369ka8K8bpY=
-			</data>
 			<key>hash2</key>
 			<data>
-			g4/APRPDvp8AXJySEh1vKT+6dMrm75z/FPFuLgPsjAc=
+			gT/8eYV6Vprh4eD2qO5cnYaHQwGhZLN2kM6y6DEWL7U=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t0/emESvH6aGl6zj4uPubuwdSWw=
-			</data>
 			<key>hash2</key>
 			<data>
-			4Y6Cwisvu2YpT6OIX+78xZrtwhwPWFxiLIVsm3NCvdM=
+			cOSnXgEIk8pjbgjMqQmCrGMFwxiTvJe7VLEczu6AKH0=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XjrIBPDuSJMX1DE6sLsf6lCVzOY=
-			</data>
 			<key>hash2</key>
 			<data>
-			oodYulxLcEmEjyaNfmM8O4EZ7lw0ZaZoFXxqpXPucL4=
+			l7fImz9bMbn9lghl+cn6SX9k+hBCRnS9l4PR9m9kfC4=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Ix2KK+i++B6vus9r369ka8K8bpY=
-			</data>
 			<key>hash2</key>
 			<data>
-			g4/APRPDvp8AXJySEh1vKT+6dMrm75z/FPFuLgPsjAc=
+			gT/8eYV6Vprh4eD2qO5cnYaHQwGhZLN2kM6y6DEWL7U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uP400W/1Sg2bEzQEjQDEAsbW4v4=
-			</data>
 			<key>hash2</key>
 			<data>
 			LUgzZtI7aZ0wvXzbdMN+gM0ZDxuOuv2octWfYaPqHZQ=
@@ -2771,10 +2098,6 @@
 		</dict>
 		<key>OCRA.otf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hV1w1iN/hd6uysNXssz77YVYYBY=
-			</data>
 			<key>hash2</key>
 			<data>
 			WFvW9bYv+H7o6rilQXRdCpVfuHPON0a4qQdxKRt1ybw=
@@ -2782,10 +2105,6 @@
 		</dict>
 		<key>PrivateHeaders/CircleProgressView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			w5FMhcBmQiiZ48e+hQBLehXdujk=
-			</data>
 			<key>hash2</key>
 			<data>
 			vzFLBKMJnAYWyeid2+PcbXORRnBSn02faTYfq4n9JEY=
@@ -2793,10 +2112,6 @@
 		</dict>
 		<key>PrivateHeaders/IZKeychain.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jTPOOVsz+XuL9FrsSu6JTNW10YQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			+IVthPozYah5m0JQVYdBs22A6QnCje4xTeEviC8m9Qg=
@@ -2804,10 +2119,6 @@
 		</dict>
 		<key>PrivateHeaders/IZReachability.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			spb03BDocfN4yCq1OTF5Zsxg7c8=
-			</data>
 			<key>hash2</key>
 			<data>
 			4/0n/5L1mLoLqxgktxtmme3ZG6iCHo7DpniYRAg1iN8=
@@ -2815,10 +2126,6 @@
 		</dict>
 		<key>PrivateHeaders/IZSupportArticleWebViewController.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QuAGmT0Z5yF1xMA/5Z3+2+KLdl0=
-			</data>
 			<key>hash2</key>
 			<data>
 			gvNFXw8K0lIZHsrm193bM1fTJcYrZLvZS0EPu+b304A=
@@ -2826,10 +2133,6 @@
 		</dict>
 		<key>Reader 1080 t2.mlmodelc/analytics/coremldata.bin</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			a1DWj3/iUxT+8WsjxKMZ+Hwzfto=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZgB8fCv3DtHPnjZRZEFXkQ1pvnfHuZdCmN28/XyIU0g=
@@ -2837,32 +2140,20 @@
 		</dict>
 		<key>Reader 1080 t2.mlmodelc/coremldata.bin</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			eSZDscrQzqcvSu9mDtV6NAG53qA=
-			</data>
 			<key>hash2</key>
 			<data>
-			CpbyvSkkTxShkVN/UZkhGFUp6t2FapJMRMFG34zwqB4=
+			g6K8i5HjqCmr3DoXJSSv7355MbybcvehbpM8vvw0vUs=
 			</data>
 		</dict>
 		<key>Reader 1080 t2.mlmodelc/metadata.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YbtuDerhDUX+RfnZ//2MlNSsFNA=
-			</data>
 			<key>hash2</key>
 			<data>
-			oDJU0cftJPqm2hwCGpP9Rw3k5D6LN/wn9l6dcZo7Pt8=
+			BT/Ik95yMqc2rmyk5RkVZHmjoV08v8y1wG+UJB2Zycs=
 			</data>
 		</dict>
 		<key>Reader 1080 t2.mlmodelc/model0/coremldata.bin</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QlG0hwj1J/O8uBafUrsiLWCriQk=
-			</data>
 			<key>hash2</key>
 			<data>
 			bW6y9MEMuo7psEuvTVQJHB09LXrFH7Q/bKJ8FSiM1HU=
@@ -2870,21 +2161,13 @@
 		</dict>
 		<key>Reader 1080 t2.mlmodelc/model1/analytics/coremldata.bin</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZIx3VWRGfK5S0MWtlO083vagu34=
-			</data>
 			<key>hash2</key>
 			<data>
-			yMsuPXVz/wGEj5M8bpo5CayMHV+uSDX4mbssDAYZWu8=
+			otUdx45kj+I6LerbHr3+beleO+2xcsr80LEDDCZAt/M=
 			</data>
 		</dict>
 		<key>Reader 1080 t2.mlmodelc/model1/coremldata.bin</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			35pgSp5JXVqrUQIf7YRNBHXY6pw=
-			</data>
 			<key>hash2</key>
 			<data>
 			iOIRfMWKpB5mhSZDgJMkFFWG1YBBdaC4LSjypy/vYRE=
@@ -2892,21 +2175,13 @@
 		</dict>
 		<key>Reader 1080 t2.mlmodelc/model1/model.espresso.net</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			K3W2SOQfn7fFfY17JOLgz9X11eU=
-			</data>
 			<key>hash2</key>
 			<data>
-			BTVI2FpmX3xXuRs0iHrJwZS4TnZ9/oKRqo7q9gYD678=
+			EU4moOym80RCnWW7mtshij1dNQtg6jFIKk8dx8fvjNw=
 			</data>
 		</dict>
 		<key>Reader 1080 t2.mlmodelc/model1/model.espresso.shape</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8Hm4GNweQz+M0icN4hekA17XX3M=
-			</data>
 			<key>hash2</key>
 			<data>
 			RpYX6xPUCUn7PzSkVkBg3PeC2lAiowycvGk4iZ0EhgQ=
@@ -2914,32 +2189,13 @@
 		</dict>
 		<key>Reader 1080 t2.mlmodelc/model1/model.espresso.weights</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			I3KdS0dlp/v65SnYreY0+OgOqsg=
-			</data>
 			<key>hash2</key>
 			<data>
 			mV0vW8eK38b/F8tEMkGW22G0r4TIVQ4WSAft+zZX5iY=
 			</data>
 		</dict>
-		<key>Reader 1080 t2.mlmodelc/model1/model.rank.info.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			g6YIG8FwGU0/L125s6SqZV3+BWc=
-			</data>
-			<key>hash2</key>
-			<data>
-			uabB6Y7PmDCYWmerWoxhNDWMhXJtDuhBRRo47UfYn6E=
-			</data>
-		</dict>
 		<key>Reader 1080 t2.mlmodelc/model1/model/coremldata.bin</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yNfQ7w7t+oLS6hqlkoRbmm1LArc=
-			</data>
 			<key>hash2</key>
 			<data>
 			9aX9QtFqIDAnmO9u0wmXm0MAPSMg2fDo6pgxqSdZ+0s=
@@ -2947,10 +2203,6 @@
 		</dict>
 		<key>Reader 1080 t2.mlmodelc/model1/neural_network_optionals/coremldata.bin</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tkgF5pxT7RlO+9uypQti9obolyA=
-			</data>
 			<key>hash2</key>
 			<data>
 			WTG9U2xFUClKISxvyNPBvuddqBeYC6C2cchgPa+zYjg=
@@ -2958,10 +2210,6 @@
 		</dict>
 		<key>Reader 1080 t2.mlmodelc/model2/coremldata.bin</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			aHgvtAIKJiFQVRuORfHIT/Cv6M8=
-			</data>
 			<key>hash2</key>
 			<data>
 			G5vcjx88kFsjFCpYtuGICv2cb1rOA6UH2l5OgWIT/b4=
@@ -2969,10 +2217,6 @@
 		</dict>
 		<key>Zen-Bold.otf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QTL4CtMuOh4XAe4ilrOOdel8dxQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			YeKrEt36HXLznHqKJCvsCWNSCZeHG1DHK6CYDb15BSg=
@@ -2980,10 +2224,6 @@
 		</dict>
 		<key>Zen-BoldItalic.otf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Qr5OzuJ2wm4EXWSpqnPTSvLpiww=
-			</data>
 			<key>hash2</key>
 			<data>
 			mgyhIBqbPD1c1EoOKdKSaoMGE2aZq0WVRotrcg7nFXM=
@@ -2991,10 +2231,6 @@
 		</dict>
 		<key>Zen-Italic.otf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Px2sYxMv9etH3aZlAmqEWvpELeQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			h5RieN8dJdRSBFjuwdBmB2AMNbLvhMyscBgPTNM55x0=
@@ -3002,10 +2238,6 @@
 		</dict>
 		<key>Zen-Light.otf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Jch/IedFT8AQRq98Zh7z9+cKe8c=
-			</data>
 			<key>hash2</key>
 			<data>
 			kId4/nMVwqZVL8BiP8DiO1ZSmfSsPHpbfm/7siAKAAQ=
@@ -3013,10 +2245,6 @@
 		</dict>
 		<key>Zen-LightItalic.otf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QiMvUKn3QQuqjJSbp/9NZ4zfsX4=
-			</data>
 			<key>hash2</key>
 			<data>
 			Oq9aaTwY1M4Sm0GGLPlOUxzoY9LRFZ3lCmx6vQKIWws=
@@ -3024,10 +2252,6 @@
 		</dict>
 		<key>Zen-Medium.otf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lJMpOL/h6bMR8ltxQr+I/x80mXs=
-			</data>
 			<key>hash2</key>
 			<data>
 			FbF5nbppatjD/PH0Vd5bN731Bj8byxSf86u+9ldNCng=
@@ -3035,10 +2259,6 @@
 		</dict>
 		<key>Zen-Regular.otf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RVxx1qBJL6Vgxi+xM2+uxBc4A/8=
-			</data>
 			<key>hash2</key>
 			<data>
 			voYiyXI0bsGEWL2Sz4jQlr1U79nuavu5+QH9sVU0M6g=
@@ -3046,10 +2266,6 @@
 		</dict>
 		<key>Zen-Screen.otf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iJo/In51O9ZuRti8R3gSU2OnT2c=
-			</data>
 			<key>hash2</key>
 			<data>
 			MlvS+fSD3505E9l++yyTiNQd/Mx3U9cXPeEcFDV/0UI=
@@ -3057,10 +2273,6 @@
 		</dict>
 		<key>Zen-ScreenItalic.otf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SHW5TnfSoKV+P5uQkxVdi3zWM/M=
-			</data>
 			<key>hash2</key>
 			<data>
 			5O6QZAKkbArFiG9rLexAM7KTqbbRaU3V1/Jabp26EtQ=
@@ -3068,10 +2280,6 @@
 		</dict>
 		<key>Zen-SemiBold.otf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			h1hjwqgh+QquokoynbMFg6lr3mQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			0hwcuuC0rO1g7WTFKP1FvLoNwTHfhgcBXgwAxqa4q84=
@@ -3079,10 +2287,6 @@
 		</dict>
 		<key>acknowledgements.html</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uROdYkkmeAT7+6q2BlSp3khQWvk=
-			</data>
 			<key>hash2</key>
 			<data>
 			p0QdzgGWs4julbrjQU27gXGbjqiYE5RzhbcceZ8mnEg=
@@ -3090,10 +2294,6 @@
 		</dict>
 		<key>beep-alert.aif</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hAREfZK2DYidIHYJNLV+Gxy2vuk=
-			</data>
 			<key>hash2</key>
 			<data>
 			VG3brgJLmLrS35Ywp8sAgmwRh++UPMi9sPhWixUBIxk=
@@ -3101,10 +2301,6 @@
 		</dict>
 		<key>beep-contactless.aif</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ugJGl7IV3Lcs2NakbtoY2EI7vpY=
-			</data>
 			<key>hash2</key>
 			<data>
 			sItlBlvLlMCOdqNrEMOFQ1GMo1bfXRoPBibWfQ4s/HY=
@@ -3112,10 +2308,6 @@
 		</dict>
 		<key>beep.aif</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xZ5wTdkiKj4zK3/dawBovVA3QSo=
-			</data>
 			<key>hash2</key>
 			<data>
 			YUnZR8lewiKaSfJ0RD2TPkhVQk87Am/Lx5rjPyqJg/c=
@@ -3123,10 +2315,6 @@
 		</dict>
 		<key>fail.aif</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TMUEZL7LZb26ZLl5NIu5tQOjiJM=
-			</data>
 			<key>hash2</key>
 			<data>
 			lL7UlRPvL7Z3vtBH44z81EfLUIUEkTsOIwUEeh0SQMA=
@@ -3134,120 +2322,76 @@
 		</dict>
 		<key>localization/da_DK.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3Jdq+P13702KcHuBAU5ISBclg7E=
-			</data>
 			<key>hash2</key>
 			<data>
-			nzEuT/cB4Bt3v08O2d2/hsq93XBeA4zo6j5uWTuuYxA=
+			476Doe6eRFu+AZV2/pcst5zL6o3htciV5W6D+/YzGo8=
 			</data>
 		</dict>
 		<key>localization/de_DE.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8V5Eb4VjoobJhitr69cRQj2ALgs=
-			</data>
 			<key>hash2</key>
 			<data>
-			NJ0l1JmYHuwnpiTGWSNhqorvdNxJjES2PBM0v7sfISw=
+			TizmnpmvIvk5GoELXe7oxnFnsoUK+X4E5ANujPtBAYU=
 			</data>
 		</dict>
 		<key>localization/en_GB.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oKUGGw+9Gi6wTjSSXmzxtqYH41k=
-			</data>
 			<key>hash2</key>
 			<data>
-			TmagDYJ/nwYYHHz/+I3aiblQi7HG40j4gdJmkrHCBbc=
+			ppWgV3YqK4c6904t1y2IbpyFw9Vq9ksLXdS9YWCimyE=
 			</data>
 		</dict>
 		<key>localization/en_US.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gObywToDnqiZ7UmFMMEj+0ktwSI=
-			</data>
 			<key>hash2</key>
 			<data>
-			uFYfrDIQown3snp5Sb/9ND0BOjUUXIFtEfvVCpPHwnk=
+			GE84z94Z4Lj98YnUVl5FFRy65NWpENT65WsnOSProHI=
 			</data>
 		</dict>
 		<key>localization/es_ES.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EhQeN3PhmaqDasuCfrQ8bS0nvsQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			ufI/PLWVVAv+815i/5hAzj0WRDe99HYljgE6SFMBgs4=
+			SMZjPk3zjtnx6SGpAqTog+8cqK2476hbPoO1b4TjlKM=
 			</data>
 		</dict>
 		<key>localization/es_MX.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FYvwaP7CM5rNzhOYYWegCy6On4E=
-			</data>
 			<key>hash2</key>
 			<data>
-			BzsYcnd9AQ/GPodiPDuKcmfjUgVBBTGyn67n2vI5ESU=
+			fkHlYSf7e9CrpbEU4DBVK0Q7Q4Fp5jO4KKrW1o+SxNw=
 			</data>
 		</dict>
 		<key>localization/es_US.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zMZEq582mycCnN9UxNf01dC0hC8=
-			</data>
 			<key>hash2</key>
 			<data>
-			i+OyAqEV5tJvV3xj6ckC1++hTt1hOdVS7VVwBJYZLlU=
+			TT7ILW9rliIM6Z3jCwf0lqew+B5qPGjqOIJWvrhrmeg=
 			</data>
 		</dict>
 		<key>localization/fi_FI.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			aYwWRsVV2JWij5Pn24itSMaGR4Y=
-			</data>
 			<key>hash2</key>
 			<data>
-			eMOrpLW/Ej84g7Vjj6d1py7iEsNiMwGHCsI27n1r8Ro=
+			XxredK42ojQggvI/MgCvbGYVYmpOBYbtvRMzIo1xwN4=
 			</data>
 		</dict>
 		<key>localization/fr_FR.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IY8z5FB/JUgHOi7wq2mBus/Y4Wo=
-			</data>
 			<key>hash2</key>
 			<data>
-			dXc7nkxIc75Mzx9r6lKwlWq6mFdRSaCo0BOT+SKCgbI=
+			dSHzePkyWySZAheU2yQ7SFWqkZmh3e2nfBsSSoNNclU=
 			</data>
 		</dict>
 		<key>localization/it_IT.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pcSbwcVtpdxeQRpR03QiMCnYcUw=
-			</data>
 			<key>hash2</key>
 			<data>
-			6lxr+ktRo31998FtAg1d5pAtmqd93h/xJ9f6kN7PZK0=
+			MHx9vTJgwRNTkJUdDn72LoUBOF0yn6ZkjUB6VZJzWrk=
 			</data>
 		</dict>
 		<key>localization/locales.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			H9vWkx80ZUxwiW3NxW0HZtDduV0=
-			</data>
 			<key>hash2</key>
 			<data>
 			9QVzCO/2kENC7pKVXSKAmJDvS9lvgbRzDV10nnwSAv0=
@@ -3255,65 +2399,41 @@
 		</dict>
 		<key>localization/nb_NO.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sdMq2BP7dcOMca86V9DSPK5jmd4=
-			</data>
 			<key>hash2</key>
 			<data>
-			PjvKS/JER6aXvoQG35sbEV+U49RfMHDq+VyBsOhZqb4=
+			TE7wKLCIksAYgsepXb3gZjTfxfolTvZg8vAYyXin/ng=
 			</data>
 		</dict>
 		<key>localization/nl_NL.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			m4/eVUOsYS74XYW5Cp4AQr4B5iI=
-			</data>
 			<key>hash2</key>
 			<data>
-			v2E5GLkgJK7FdlwU4LWTz+HjZ8yjSiAJKfeuhlH0JWE=
+			Jl4rhqMF5CQ+XJSOJQgIiEpEtd2KW3POSk8UmaEaLF8=
 			</data>
 		</dict>
 		<key>localization/pt_BR.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GkEiOkKw0IfHIak4iy1ZMZcnMXk=
-			</data>
 			<key>hash2</key>
 			<data>
-			yFw1s7QXFJmcBWvjT0a4Af/etdCVQtTc2ZXFdf/omSQ=
+			bM2rIdKQXQm7jLUeRCm1XS+mbnLT53c53LUfiwLlCKo=
 			</data>
 		</dict>
 		<key>localization/sv_FI.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			S83SXMHsuCcebzfIPhTfMti0bow=
-			</data>
 			<key>hash2</key>
 			<data>
-			NFxqf5cegfvYwvYNGB+JylkCZwmRWSFaWi4yFwK5wBc=
+			1Bay/pVJjGGyhjiDPEWXzH1xdGWmMC4DjoceSww8bb4=
 			</data>
 		</dict>
 		<key>localization/sv_SE.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			J+2wi85ax4l4ozOFpAAiEk/wj/Y=
-			</data>
 			<key>hash2</key>
 			<data>
-			ACed02lC4k8iRfW4IOK7YjJtbMHAUn6+lLtfyiH+l4o=
+			um+djBs2iOtWq+gVEiN7YFJJwKgGN+foNRvtSmgmkv4=
 			</data>
 		</dict>
 		<key>lock_close.aif</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XC4OXI+5xzSWrbfAyHLY2DR9t44=
-			</data>
 			<key>hash2</key>
 			<data>
 			I+czvbyK/suVmpi2vUXk5SLT4j3yjvJi4UbWGm4skDg=
@@ -3321,10 +2441,6 @@
 		</dict>
 		<key>lock_open.aif</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PRrzHVabr0qbV3NX+x8a1exW95I=
-			</data>
 			<key>hash2</key>
 			<data>
 			Zz5zHJgU+3yzKGRdpUWHA9rtke+B9RtHL7XjbttqrWY=
@@ -3332,10 +2448,6 @@
 		</dict>
 		<key>success.aif</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			J0XtifyjYh0nlg0VfUAm8qzuCgg=
-			</data>
 			<key>hash2</key>
 			<data>
 			RJpj1VgBfbXzFTjmK4NklfD1jpdmukoY5Od037gcLmo=

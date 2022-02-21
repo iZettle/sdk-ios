@@ -1,5 +1,7 @@
-3.3.1 - 2021-11-29
-- Fixed an issue where Zettle SDK send the wrong version number when using Xcode 13
+3.4.0 - 2022-02-25
+- Added support for taking PayPal QRC and Venmo QRC payments in the US, UK, and German markets
+- Increased target iOS version to 12.0 (dropping support for iOS10 and iOS11)
+- Bug fixes for iOS 15 UI
 
 3.3.0 - 2021-11-12
 - Adjustment for new tipping limit in the US

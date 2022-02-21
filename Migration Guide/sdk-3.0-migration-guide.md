@@ -10,7 +10,6 @@ This document outlines the new features in the v3.0.0 SDK release, and the chang
       - [Get started with new Developer Portal](#get-started-with-new-developer-portal)
       - [Deprecation of API keys](#deprecation-of-api-keys)
       - [Required API changes](#required-api-changes)
-        - [iOS 10 support](#ios-10-support)
     - [Support for XCFrameworks](#support-for-xcframeworks)
       - [Reduced number of frameworks](#reduced-number-of-frameworks)
       - [Deprecating Carthage support](#deprecating-carthage-support)
@@ -60,21 +59,6 @@ The new SDK implements breaking API changes as part of the OAuth support and dep
 ```
 
 `iZettleSDKAuthorizationProvider` is a new public protocol which can be implemented by partners if they want to improve the authorization experience by e.g. managing Zettle tokens themselves and providing them to the SDK directly. Read more in [New Public APIs](#new-public-apis)
-
-##### iOS 10 support
-
-Partners also need to override AppDelegate `application:openURL:options:` if they need to support iOS 10.
-
-```swift
-func application(
-  _ app: UIApplication,
-  open url: URL,
-  options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-    return iZettleSDK.shared().applicationDidOpen(with: url)
-}
-```
-
-The `iZettleSDK.shared().applicationDidOpen(with: url)` call will check if the `url` is a valid callback URL, handle it and return `true`. If the `url` is not the callback URL or is invalid the method will return `false`.
 
 ### Support for XCFrameworks
 

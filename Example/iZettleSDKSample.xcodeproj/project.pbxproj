@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B8B199E24754A0F00C74D78 /* CustomAuthorizationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B199D24754A0F00C74D78 /* CustomAuthorizationProvider.m */; };
+		9BC1DCBB24ACBA58004E74DC /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1DCBA24ACBA58004E74DC /* AccountManager.m */; };
+		B803A22627AAA17D00C5C4C7 /* QRCPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B803A22527AAA17D00C5C4C7 /* QRCPaymentViewController.swift */; };
+		B803A22F27AC0A3000C5C4C7 /* SelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B803A22E27AC0A3000C5C4C7 /* SelectionTableViewController.swift */; };
+		B803A23427B118DE00C5C4C7 /* iZettleSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B803A23227B118DE00C5C4C7 /* iZettleSDK.xcframework */; };
+		B803A23527B118DE00C5C4C7 /* iZettlePayments.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B803A23327B118DE00C5C4C7 /* iZettlePayments.xcframework */; };
+		B8C1266127C38FDF00AA6F45 /* AccessTokenFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C1265F27C38FDF00AA6F45 /* AccessTokenFetcher.m */; };
+		E6F9FEEB1DDDFFC80051C21D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F9FEDC1DDDFFC80051C21D /* AppDelegate.m */; };
+		E6F9FEEC1DDDFFC80051C21D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6F9FEDD1DDDFFC80051C21D /* LaunchScreen.xib */; };
+		E6F9FEEE1DDDFFC80051C21D /* Main~iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F9FEE11DDDFFC80051C21D /* Main~iphone.storyboard */; };
+		E6F9FEEF1DDDFFC80051C21D /* ConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F9FEE41DDDFFC80051C21D /* ConsoleViewController.m */; };
+		E6F9FEF01DDDFFC80051C21D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F9FEE51DDDFFC80051C21D /* Images.xcassets */; };
+		E6F9FEF21DDDFFC80051C21D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F9FEE71DDDFFC80051C21D /* main.m */; };
+		E6F9FEF31DDDFFC80051C21D /* CardPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F9FEE91DDDFFC80051C21D /* CardPaymentViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F638BC291BCE4869009CA19C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F0C93981AC30F4600305D8F /* iZettle SDK Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iZettle SDK Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8B199C24754A0F00C74D78 /* CustomAuthorizationProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomAuthorizationProvider.h; sourceTree = "<group>"; };
+		9B8B199D24754A0F00C74D78 /* CustomAuthorizationProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAuthorizationProvider.m; sourceTree = "<group>"; };
+		9BC1DCB924ACBA58004E74DC /* AccountManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		9BC1DCBA24ACBA58004E74DC /* AccountManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
+		B803A22427AAA17C00C5C4C7 /* iZettle SDK Sample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iZettle SDK Sample-Bridging-Header.h"; sourceTree = "<group>"; };
+		B803A22527AAA17D00C5C4C7 /* QRCPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCPaymentViewController.swift; sourceTree = "<group>"; };
+		B803A22E27AC0A3000C5C4C7 /* SelectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionTableViewController.swift; sourceTree = "<group>"; };
+		B803A23227B118DE00C5C4C7 /* iZettleSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = iZettleSDK.xcframework; path = ../iZettleSDK/iZettleSDK.xcframework; sourceTree = "<group>"; };
+		B803A23327B118DE00C5C4C7 /* iZettlePayments.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = iZettlePayments.xcframework; path = ../iZettleSDK/iZettlePayments.xcframework; sourceTree = "<group>"; };
+		B8C1265F27C38FDF00AA6F45 /* AccessTokenFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessTokenFetcher.m; sourceTree = "<group>"; };
+		B8C1266027C38FDF00AA6F45 /* AccessTokenFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessTokenFetcher.h; sourceTree = "<group>"; };
+		E6F9FEDB1DDDFFC80051C21D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6F9FEDC1DDDFFC80051C21D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6F9FEDE1DDDFFC80051C21D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E6F9FEE21DDDFFC80051C21D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main~iphone.storyboard"; sourceTree = "<group>"; };
+		E6F9FEE31DDDFFC80051C21D /* ConsoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleViewController.h; sourceTree = "<group>"; };
+		E6F9FEE41DDDFFC80051C21D /* ConsoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleViewController.m; sourceTree = "<group>"; };
+		E6F9FEE51DDDFFC80051C21D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E6F9FEE61DDDFFC80051C21D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6F9FEE71DDDFFC80051C21D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6F9FEE81DDDFFC80051C21D /* CardPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardPaymentViewController.h; sourceTree = "<group>"; };
+		E6F9FEE91DDDFFC80051C21D /* CardPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardPaymentViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F0C93951AC30F4600305D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B803A23527B118DE00C5C4C7 /* iZettlePayments.xcframework in Frameworks */,
+				B803A23427B118DE00C5C4C7 /* iZettleSDK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0C938F1AC30F4600305D8F = {
+			isa = PBXGroup;
+			children = (
+				D7E94CD724AE527F00B55A9A /* Frameworks */,
+				E6F9FED81DDDFFC80051C21D /* iZettleSDKSample */,
+				3F0C93991AC30F4600305D8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F0C93991AC30F4600305D8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F0C93981AC30F4600305D8F /* iZettle SDK Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B803A23027AC1FE800C5C4C7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B803A22E27AC0A3000C5C4C7 /* SelectionTableViewController.swift */,
+				B803A22527AAA17D00C5C4C7 /* QRCPaymentViewController.swift */,
+				E6F9FEE81DDDFFC80051C21D /* CardPaymentViewController.h */,
+				E6F9FEE91DDDFFC80051C21D /* CardPaymentViewController.m */,
+				E6F9FEE31DDDFFC80051C21D /* ConsoleViewController.h */,
+				E6F9FEE41DDDFFC80051C21D /* ConsoleViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B8C1265E27C38FDF00AA6F45 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B8C1266027C38FDF00AA6F45 /* AccessTokenFetcher.h */,
+				B8C1265F27C38FDF00AA6F45 /* AccessTokenFetcher.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D7E94CD724AE527F00B55A9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B803A23327B118DE00C5C4C7 /* iZettlePayments.xcframework */,
+				B803A23227B118DE00C5C4C7 /* iZettleSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6F9FED81DDDFFC80051C21D /* iZettleSDKSample */ = {
+			isa = PBXGroup;
+			children = (
+				B8C1265E27C38FDF00AA6F45 /* Helpers */,
+				E6F9FEDB1DDDFFC80051C21D /* AppDelegate.h */,
+				E6F9FEDC1DDDFFC80051C21D /* AppDelegate.m */,
+				9B8B199C24754A0F00C74D78 /* CustomAuthorizationProvider.h */,
+				9B8B199D24754A0F00C74D78 /* CustomAuthorizationProvider.m */,
+				9BC1DCB924ACBA58004E74DC /* AccountManager.h */,
+				9BC1DCBA24ACBA58004E74DC /* AccountManager.m */,
+				B803A23027AC1FE800C5C4C7 /* ViewController */,
+				E6F9FEDD1DDDFFC80051C21D /* LaunchScreen.xib */,
+				E6F9FEE11DDDFFC80051C21D /* Main~iphone.storyboard */,
+				E6F9FEE51DDDFFC80051C21D /* Images.xcassets */,
+				E6F9FEE61DDDFFC80051C21D /* Info.plist */,
+				E6F9FEE71DDDFFC80051C21D /* main.m */,
+				B803A22427AAA17C00C5C4C7 /* iZettle SDK Sample-Bridging-Header.h */,
+			);
+			path = iZettleSDKSample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F0C93971AC30F4600305D8F /* iZettle SDK Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0C93BB1AC30F4600305D8F /* Build configuration list for PBXNativeTarget "iZettle SDK Sample" */;
+			buildPhases = (
+				3F0C93941AC30F4600305D8F /* Sources */,
+				3F0C93951AC30F4600305D8F /* Frameworks */,
+				3F0C93961AC30F4600305D8F /* Resources */,
+				F638BC291BCE4869009CA19C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iZettle SDK Sample";
+			productName = "iZettle SDK Sample";
+			productReference = 3F0C93981AC30F4600305D8F /* iZettle SDK Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F0C93901AC30F4600305D8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = iZettle;
+				TargetAttributes = {
+					3F0C93971AC30F4600305D8F = {
+						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 1320;
+					};
+				};
+			};
+			buildConfigurationList = 3F0C93931AC30F4600305D8F /* Build configuration list for PBXProject "iZettleSDKSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F0C938F1AC30F4600305D8F;
+			productRefGroup = 3F0C93991AC30F4600305D8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F0C93971AC30F4600305D8F /* iZettle SDK Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F0C93961AC30F4600305D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F9FEF01DDDFFC80051C21D /* Images.xcassets in Resources */,
+				E6F9FEEE1DDDFFC80051C21D /* Main~iphone.storyboard in Resources */,
+				E6F9FEEC1DDDFFC80051C21D /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0C93941AC30F4600305D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F9FEEB1DDDFFC80051C21D /* AppDelegate.m in Sources */,
+				B803A22F27AC0A3000C5C4C7 /* SelectionTableViewController.swift in Sources */,
+				E6F9FEF21DDDFFC80051C21D /* main.m in Sources */,
+				B8C1266127C38FDF00AA6F45 /* AccessTokenFetcher.m in Sources */,
+				9BC1DCBB24ACBA58004E74DC /* AccountManager.m in Sources */,
+				B803A22627AAA17D00C5C4C7 /* QRCPaymentViewController.swift in Sources */,
+				9B8B199E24754A0F00C74D78 /* CustomAuthorizationProvider.m in Sources */,
+				E6F9FEEF1DDDFFC80051C21D /* ConsoleViewController.m in Sources */,
+				E6F9FEF31DDDFFC80051C21D /* CardPaymentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6F9FEDD1DDDFFC80051C21D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6F9FEDE1DDDFFC80051C21D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		E6F9FEE11DDDFFC80051C21D /* Main~iphone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6F9FEE21DDDFFC80051C21D /* Base */,
+			);
+			name = "Main~iphone.storyboard";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F0C93B91AC30F4600305D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F0C93BA1AC30F4600305D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F0C93BC1AC30F4600305D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../**",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/iZettleSDKSample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.izettle.iZorn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iZettleSDKSample/iZettle SDK Sample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3F0C93BD1AC30F4600305D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../**",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/iZettleSDKSample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.izettle.iZorn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iZettleSDKSample/iZettle SDK Sample-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F0C93931AC30F4600305D8F /* Build configuration list for PBXProject "iZettleSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0C93B91AC30F4600305D8F /* Debug */,
+				3F0C93BA1AC30F4600305D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0C93BB1AC30F4600305D8F /* Build configuration list for PBXNativeTarget "iZettle SDK Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0C93BC1AC30F4600305D8F /* Debug */,
+				3F0C93BD1AC30F4600305D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F0C93901AC30F4600305D8F /* Project object */;
+}
