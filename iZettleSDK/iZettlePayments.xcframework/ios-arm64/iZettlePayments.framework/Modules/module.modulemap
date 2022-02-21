@@ -1,0 +1,7 @@
+framework module iZettlePayments {
+}
+
+module iZettlePayments.Swift {
+    header "iZettlePayments-Swift.h"
+    requires objc
+}

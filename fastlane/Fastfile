@@ -33,7 +33,7 @@ platform :ios do
     desc 'Build Sample App'
     lane :build_sample_app do
         build_app(
-            project: "./Example/Sample/iZettleSDKSample.xcodeproj",
+            project: "./Example/iZettleSDKSample.xcodeproj",
             destination: "generic/platform=ios",
             clean: true,
             skip_archive: true,

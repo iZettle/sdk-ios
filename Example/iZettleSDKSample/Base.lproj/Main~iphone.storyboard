@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="KVb-U6-kun">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Card Payment-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="cardPaymentViewController" id="BYZ-38-t0r" userLabel="Card Payment" customClass="CardPaymentViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8IM-Z7-6c7" userLabel="Tipping section">
+                                <rect key="frame" x="200" y="54" width="155" height="31"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enable tipping" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wVs-08-pAX">
+                                        <rect key="frame" x="0.0" y="0.0" width="98" height="31"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hoh-Nx-Uvc">
+                                        <rect key="frame" x="106" y="0.0" width="51" height="31"/>
+                                        <color key="onTintColor" name="dark"/>
+                                    </switch>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="n5z-CN-EC0"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="iZM-EU-drV" userLabel="AmountContainer">
+                                <rect key="frame" x="137" y="145" width="101.5" height="160"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rZ-rh-PoO">
+                                        <rect key="frame" x="8" y="0.0" width="85.5" height="30"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tYO-6N-XdP">
+                                        <rect key="frame" x="0.0" y="49" width="101.5" height="60"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minimumValue="1" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Ali-2G-Luq">
+                                        <rect key="frame" x="3.5" y="128" width="94" height="32"/>
+                                        <connections>
+                                            <action selector="stepperValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="WOa-di-TGz"/>
+                                        </connections>
+                                    </stepper>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EkW-pF-2Ud">
+                                <rect key="frame" x="46" y="370" width="283" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="1ZU-RI-aez"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Charge">
+                                    <color key="baseBackgroundColor" name="dark"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="charge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Bn-fT-z3z"/>
+                                </connections>
+                            </button>
+                            <toolbar hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="534-5V-1p8">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem title="Last payment, 12:45" style="plain" id="MiM-Pw-M5B">
+                                        <color key="tintColor" red="0.77353745699999998" green="0.79202383759999995" blue="0.80300974849999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="36r-OV-ef9"/>
+                                    <barButtonItem title="Info" id="JBs-zz-NHl">
+                                        <connections>
+                                            <action selector="lastPaymentInfo:" destination="BYZ-38-t0r" id="ha1-vI-Of2"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Refund" id="e4h-F4-9xz">
+                                        <connections>
+                                            <action selector="refundLastPayment:" destination="BYZ-38-t0r" id="06r-Vz-lup"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="iZM-EU-drV" firstAttribute="top" secondItem="8IM-Z7-6c7" secondAttribute="bottom" constant="60" id="7Wv-XZ-BkT"/>
+                            <constraint firstAttribute="trailing" secondItem="534-5V-1p8" secondAttribute="trailing" id="C3g-bE-YFF"/>
+                            <constraint firstItem="EkW-pF-2Ud" firstAttribute="top" secondItem="iZM-EU-drV" secondAttribute="bottom" constant="65" id="Jvb-kI-NlG"/>
+                            <constraint firstItem="EkW-pF-2Ud" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="M1f-Bt-XJh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="534-5V-1p8" secondAttribute="bottom" id="MW7-zh-w9W"/>
+                            <constraint firstItem="iZM-EU-drV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Oab-qX-wzD"/>
+                            <constraint firstItem="8IM-Z7-6c7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="PHL-8k-j0i"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8IM-Z7-6c7" secondAttribute="trailing" constant="4" id="ZCs-dC-CFy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EkW-pF-2Ud" secondAttribute="trailing" constant="30" id="ZJ7-qa-mMn"/>
+                            <constraint firstItem="534-5V-1p8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hZF-G0-68x"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Card Payment" id="zj9-m8-iu5">
+                        <barButtonItem key="rightBarButtonItem" title="Console" id="jDC-TC-Ix2">
+                            <connections>
+                                <segue destination="Era-OK-pj0" kind="modal" identifier="showConsole" modalPresentationStyle="pageSheet" id="UEq-N7-4j6"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="amountLabel" destination="tYO-6N-XdP" id="Gx5-5Z-YsE"/>
+                        <outlet property="lastPaymentInfoToolBar" destination="534-5V-1p8" id="aHB-l6-KiI"/>
+                        <outlet property="stepper" destination="Ali-2G-Luq" id="luv-cg-s44"/>
+                        <outlet property="tippingSwitch" destination="Hoh-Nx-Uvc" id="wfe-4q-eNt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-326" y="361"/>
+        </scene>
+        <!--Console View Controller-->
+        <scene sceneID="8JS-cp-pEX">
+            <objects>
+                <viewController modalPresentationStyle="formSheet" id="Era-OK-pj0" customClass="ConsoleViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fjS-bE-xHw"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Es-XP-nuS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8Hp-2C-Ps5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5BM-UL-Jhq">
+                                <rect key="frame" x="0.0" y="76" width="375" height="571"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0D-sn-40C">
+                                <rect key="frame" x="0.0" y="20" width="375" height="56"/>
+                                <items>
+                                    <navigationItem title="Console" id="mfQ-aH-srS">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="fLV-Kp-YbS">
+                                            <connections>
+                                                <action selector="done:" destination="Era-OK-pj0" id="t25-eJ-gdB"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="V0D-sn-40C" firstAttribute="top" secondItem="8Hp-2C-Ps5" secondAttribute="topMargin" constant="20" id="G6a-Nf-Rh6"/>
+                            <constraint firstItem="5BM-UL-Jhq" firstAttribute="leading" secondItem="8Hp-2C-Ps5" secondAttribute="leading" id="IWe-Ka-xd2"/>
+                            <constraint firstAttribute="trailing" secondItem="5BM-UL-Jhq" secondAttribute="trailing" id="OYT-5k-ICV"/>
+                            <constraint firstItem="4Es-XP-nuS" firstAttribute="top" secondItem="5BM-UL-Jhq" secondAttribute="bottom" id="Rj2-VB-wrn"/>
+                            <constraint firstAttribute="trailing" secondItem="V0D-sn-40C" secondAttribute="trailing" id="TzA-62-99Q"/>
+                            <constraint firstItem="5BM-UL-Jhq" firstAttribute="top" secondItem="V0D-sn-40C" secondAttribute="bottom" id="a4M-a3-qgV"/>
+                            <constraint firstItem="V0D-sn-40C" firstAttribute="width" secondItem="8Hp-2C-Ps5" secondAttribute="width" id="ekR-0u-Fsn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="logTextView" destination="5BM-UL-Jhq" id="0LA-H0-CXI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q3y-Mq-CEj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1270" y="381"/>
+        </scene>
+        <!--PayPal QRC Payment-->
+        <scene sceneID="m5g-7C-Hei">
+            <objects>
+                <viewController storyboardIdentifier="qrcViewController" id="wRf-fL-k09" customClass="QRCPaymentViewController" customModule="iZettle_SDK_Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PSG-NW-oT3"/>
+                        <viewControllerLayoutGuide type="bottom" id="pMk-Ec-e4m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zvT-xW-vPm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="TID-Vy-tjt" userLabel="AmountContainer">
+                                <rect key="frame" x="137" y="94" width="101.5" height="160"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ea9-Jy-P0Z">
+                                        <rect key="frame" x="8" y="0.0" width="85.5" height="30"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uxO-UU-tFk">
+                                        <rect key="frame" x="0.0" y="49" width="101.5" height="60"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minimumValue="1" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="vkQ-qV-Oqo">
+                                        <rect key="frame" x="3.5" y="128" width="94" height="32"/>
+                                        <connections>
+                                            <action selector="amountValueChanged:" destination="wRf-fL-k09" eventType="valueChanged" id="H0h-qB-zTg"/>
+                                        </connections>
+                                    </stepper>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="YAE-9v-zRl" userLabel="ButtonContainer">
+                                <rect key="frame" x="46" y="319" width="283" height="120"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2OK-8Z-fru">
+                                        <rect key="frame" x="0.0" y="0.0" width="283" height="55"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Charge">
+                                            <color key="baseBackgroundColor" name="dark"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="chargeQRC:" destination="wRf-fL-k09" eventType="touchUpInside" id="uFb-if-Zhm"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a5D-WY-7ak">
+                                        <rect key="frame" x="0.0" y="65" width="283" height="55"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Refund last payment">
+                                            <color key="baseBackgroundColor" name="dark"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="refundLastPayment" destination="wRf-fL-k09" eventType="touchUpInside" id="Xua-RG-wO6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="SnB-JO-wXu"/>
+                                    <constraint firstAttribute="height" constant="120" id="Uro-hq-pPQ"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="YAE-9v-zRl" secondAttribute="trailing" constant="30" id="MZk-rH-ymC"/>
+                            <constraint firstItem="YAE-9v-zRl" firstAttribute="top" secondItem="TID-Vy-tjt" secondAttribute="bottom" constant="65" id="cGT-Vi-dCS"/>
+                            <constraint firstItem="TID-Vy-tjt" firstAttribute="top" secondItem="PSG-NW-oT3" secondAttribute="bottom" constant="50" id="gIE-a6-zEB"/>
+                            <constraint firstItem="YAE-9v-zRl" firstAttribute="leading" secondItem="zvT-xW-vPm" secondAttribute="leadingMargin" constant="30" id="yeg-wd-SXe"/>
+                            <constraint firstItem="TID-Vy-tjt" firstAttribute="centerX" secondItem="zvT-xW-vPm" secondAttribute="centerX" id="yzu-EL-R1R"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="PayPal QRC Payment" id="IbZ-P3-raS">
+                        <barButtonItem key="rightBarButtonItem" title="Console" id="MwB-Zg-khQ">
+                            <connections>
+                                <segue destination="Era-OK-pj0" kind="modal" identifier="showConsole" modalPresentationStyle="pageSheet" id="k3P-FZ-gov"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="amountLabel" destination="uxO-UU-tFk" id="uW5-n6-OHv"/>
+                        <outlet property="stepper" destination="vkQ-qV-Oqo" id="dMK-gX-KZa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UkK-kS-8wD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-530" y="1397"/>
+        </scene>
+        <!--iZettle SDK Example App-->
+        <scene sceneID="A09-Ga-Xdm">
+            <objects>
+                <tableViewController id="Yp9-pf-woQ" customClass="SelectionTableViewController" customModule="iZettle_SDK_Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="SXj-TV-tT8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="listCell" textLabel="7vT-4V-zXi" detailTextLabel="Ctn-sc-ROY" style="IBUITableViewCellStyleSubtitle" id="3X2-S3-B69">
+                                <rect key="frame" x="0.0" y="44.5" width="375" height="56.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3X2-S3-B69" id="OjC-yQ-nqy">
+                                    <rect key="frame" x="0.0" y="0.0" width="350.5" height="56.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Card Payment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" id="7vT-4V-zXi">
+                                            <rect key="frame" x="16" y="10" width="107.5" height="20.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ctn-sc-ROY">
+                                            <rect key="frame" x="16" y="32.5" width="40.5" height="13.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Yp9-pf-woQ" id="gbr-Mj-j4K"/>
+                            <outlet property="delegate" destination="Yp9-pf-woQ" id="Gqx-8Q-TEO"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="iZettle SDK Example App" id="QVg-9X-SSA"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BFE-pO-Pb5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="listCell" textLabel="Yxt-SD-uUN" style="IBUITableViewCellStyleDefault" id="9Pb-rY-aGS">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9Pb-rY-aGS" id="dgY-5p-T1p">
+                        <rect key="frame" x="0.0" y="0.0" width="350.5" height="43.5"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Card Payment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yxt-SD-uUN">
+                                <rect key="frame" x="16" y="0.0" width="326.5" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </tableViewCellContentView>
+                </tableViewCell>
+            </objects>
+            <point key="canvasLocation" x="-1767" y="710"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fr1-P6-3Vz">
+            <objects>
+                <navigationController id="KVb-U6-kun" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mhJ-B1-EDn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Yp9-pf-woQ" kind="relationship" relationship="rootViewController" id="9EJ-z6-tPA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yMS-8k-aIr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2863" y="1020"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="UEq-N7-4j6"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <namedColor name="dark">
+            <color red="0.098039215690000001" green="0.1450980392" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
