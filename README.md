@@ -228,7 +228,7 @@ class YourCustomAuthClass: iZettleSDKAuthorizationProvider {
 }
 ```
 
-See also this custom authorization provider [sample](https://github.com/iZettle/sdk-ios/blob/master/Example/Sample/iZettleSDKSample/CustomAuthorizationProvider.m).
+See also this custom authorization provider [example](https://github.com/iZettle/sdk-ios/blob/master/Example/iZettleSDKSample/CustomAuthorizationProvider.m).
 
 ## SDK Operations
 
