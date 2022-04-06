@@ -413,7 +413,7 @@ Refund an amount from a PayPal QRC payment with a given reference.
 ```
 
 - `amount` _(optional)_: The amount to be refunded from the payment (passing `nil` will refund the full amount of the original payment).
-- `reference`: The reference of the payment that is to be refunded.
+- `paymentReference`: The reference of the payment that is to be refunded.
 - `refundReference`: The reference of the refund. Max length 128.
 
 
