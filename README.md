@@ -1,5 +1,11 @@
  [![CocoaPods](https://img.shields.io/cocoapods/v/iZettleSDK.svg)](https://cocoapods.org/pods/iZettleSDK) [![CocoaPods](https://img.shields.io/cocoapods/p/iZettleSDK.svg)](https://cocoapods.org/pods/iZettleSDK)
 
+:warning: **Starting May 9, 2022, all the documentation for iOS SDK is available on [Zettle Developer Portal](https://developer.zettle.com).** 
+
+ **The documentation in this repository is no longer maintained.** 
+
+---
+
 # Zettle SDK for iOS
 
 The Zettle SDK for iOS lets you accept card payments from any iOS app, using a Zettle card reader. It is designed for easy implementation and usage. The SDK places a screen over the host application when triggered. This screen is used for all interaction.
