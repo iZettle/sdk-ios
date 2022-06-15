@@ -98,7 +98,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		frtKSnWM9BqV1LwnzizOnvHfCHs=
+		cEXf5rr7nhbgW6j19nvoAZBJa8Q=
 		</data>
 		<key>Dingbatz-Light.otf</key>
 		<data>
@@ -634,7 +634,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		i0VbPrB2Yfcg6EYvPu7wiz8NZ3I=
+		Nhvdxfl5DRoFSwuOtzWylQuQfu4=
 		</data>
 		<key>Issuers.plist</key>
 		<data>
@@ -650,7 +650,7 @@
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ba5IXunLnr+UbcL56gUqOBNS248=
+		9gmsfKCiT5FH3z74pukWTTAccJM=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -662,7 +662,7 @@
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		ba5IXunLnr+UbcL56gUqOBNS248=
+		9gmsfKCiT5FH3z74pukWTTAccJM=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -1064,7 +1064,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KNVxj46ECOjLyQBdHeHuObuSv7Trob7YQGdIczwpS3I=
+			pah59Ai2ReIbVIQbVoG3P4+jvW40L6B/Ts5zMQei8iU=
 			</data>
 		</dict>
 		<key>Dingbatz-Light.otf</key>
@@ -2023,7 +2023,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d+UCaPbjPBuTnVkPMj7geiFDi/QiJDG3/EGoMbYTwiY=
+			4IVmNUoPFTiCfz0870XtIsic0R27MYRRAilmwdNv0kY=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/arm64.swiftdoc</key>
@@ -2044,7 +2044,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d+UCaPbjPBuTnVkPMj7geiFDi/QiJDG3/EGoMbYTwiY=
+			4IVmNUoPFTiCfz0870XtIsic0R27MYRRAilmwdNv0kY=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>

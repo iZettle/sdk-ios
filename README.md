@@ -1,11 +1,5 @@
  [![CocoaPods](https://img.shields.io/cocoapods/v/iZettleSDK.svg)](https://cocoapods.org/pods/iZettleSDK) [![CocoaPods](https://img.shields.io/cocoapods/p/iZettleSDK.svg)](https://cocoapods.org/pods/iZettleSDK)
 
-:warning: **Starting May 9, 2022, all the documentation for iOS SDK is available on [Zettle Developer Portal](https://developer.zettle.com).** 
-
- **The documentation in this repository is no longer maintained.** 
-
----
-
 # Zettle SDK for iOS
 
 The Zettle SDK for iOS lets you accept card payments from any iOS app, using a Zettle card reader. It is designed for easy implementation and usage. The SDK places a screen over the host application when triggered. This screen is used for all interaction.
@@ -234,7 +228,7 @@ class YourCustomAuthClass: iZettleSDKAuthorizationProvider {
 }
 ```
 
-See also this custom authorization provider [example](https://github.com/iZettle/sdk-ios/blob/master/Example/iZettleSDKSample/CustomAuthorizationProvider.m).
+See also this custom authorization provider [sample](https://github.com/iZettle/sdk-ios/blob/master/Example/Sample/iZettleSDKSample/CustomAuthorizationProvider.m).
 
 ## SDK Operations
 
@@ -419,7 +413,7 @@ Refund an amount from a PayPal QRC payment with a given reference.
 ```
 
 - `amount` _(optional)_: The amount to be refunded from the payment (passing `nil` will refund the full amount of the original payment).
-- `paymentReference`: The reference of the payment that is to be refunded.
+- `reference`: The reference of the payment that is to be refunded.
 - `refundReference`: The reference of the refund. Max length 128.
 
 
