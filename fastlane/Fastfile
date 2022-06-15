@@ -24,8 +24,8 @@ def check_release_available(release_version)
 end
 
 def get_version_number()
-    sh("plutil -convert xml1 #{ENV['GITHUB_WORKSPACE']}/iZettleSDK/iZettleSDK.xcframework/ios-arm64_armv7/iZettleSDK.framework/Info.plist")
-    release_version = get_info_plist_value(path: "#{ENV['GITHUB_WORKSPACE']}/iZettleSDK/iZettleSDK.xcframework/ios-arm64_armv7/iZettleSDK.framework/Info.plist", key: "CFBundleShortVersionString")
+    sh("plutil -convert xml1 #{ENV['GITHUB_WORKSPACE']}/iZettleSDK/iZettleSDK.xcframework/ios-arm64/iZettleSDK.framework/Info.plist")
+    release_version = get_info_plist_value(path: "#{ENV['GITHUB_WORKSPACE']}/iZettleSDK/iZettleSDK.xcframework/ios-arm64/iZettleSDK.framework/Info.plist", key: "CFBundleShortVersionString")
     return release_version
 end
 
