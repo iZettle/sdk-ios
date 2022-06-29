@@ -111,7 +111,7 @@ This is what it should look like in the "source code" view of your `Info.plist` 
 
 #### Important
 
-The Zettle Bluetooth card readers are part of the Apple MFi program. In order to release apps supporting accessories that are part of the MFi Program, you have to apply at Apple. Please contact our [Integrations team](mailto:sdk@zettle.com) to get help with this process.
+The Zettle Bluetooth card readers are part of the Apple MFi program. In order to release apps supporting accessories that are part of the MFi Program, you have to apply at Apple. Please contact our developer support at [Zettle Developer Portal](https://developer.zettle.com).
 
 ### 2. Set up external accessory communication background mode
 
@@ -493,4 +493,4 @@ See the following for more information on completion handlers.
 Zettle will display any errors that occur during an operation to the end user. The NSError-object returned in the operation completion block is only intended for developers. The object provides more detailed information useful for debugging, diagnostics and logging. You should never present errors returned in this format to the end user.
 
 ## Get help
-Contact our [Integrations team](mailto:sdk@zettle.com) for more information.
+Contact our developer support at [Zettle Developer Portal](https://developer.zettle.com).
