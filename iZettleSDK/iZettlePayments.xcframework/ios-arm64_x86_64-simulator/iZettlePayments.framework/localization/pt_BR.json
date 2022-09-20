@@ -260,5 +260,6 @@
 	"#Hardware": "Hardware",
 	"#Others": "Outros",
 	"#Date": "Data",
-    "#PaymentFailedInvalidDateOrTime": "Certifique–se de que a data e o fuso–horário estão corretos no seu telefone ou tablet."
+	"#RefundLoadingIndicatorSpeakerText": "Carregando",
+	"#RetrievePaymentInfoLoadingTitle": "Carregando dados de pagamento"
 }

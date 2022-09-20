@@ -1,3 +1,8 @@
+3.5.0 - 2022-09-14
+- Fix not responding on Approved screen for card payments
+- Bugfixes and performance improvements
+- Under the hood changes for cleanup and refactoring
+
 3.4.1 - 2022-06-15
 - Fixed recurring reader disconnection
 

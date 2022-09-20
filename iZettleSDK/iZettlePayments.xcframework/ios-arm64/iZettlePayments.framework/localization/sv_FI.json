@@ -256,5 +256,6 @@
 	"#Others": "Övrigt",
 	"#PaymentSettings": "Betalningsinställningar",
 	"#Date": "Dato",
-    "#PaymentFailedInvalidDateOrTime": "Kontrollera att din smartphone eller tablet är inställd på rätt datum och tidszon."
+	"#RefundLoadingIndicatorSpeakerText": "Laddar",
+	"#RetrievePaymentInfoLoadingTitle": "Läser in betalningsuppgifter"
 }
