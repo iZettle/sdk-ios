@@ -266,5 +266,6 @@
 	"#PaymentSettings": "Ajustes de pagos",
 	"#Others": "Otros",
 	"#Date": "Fecha",
-    "#PaymentFailedInvalidDateOrTime": "Por favor asegúrate de que tu teléfono o tablet tenga la fecha y zona horaria correcta."
+	"#RefundLoadingIndicatorSpeakerText": "Cargando",
+	"#RetrievePaymentInfoLoadingTitle": "Cargando detalles del pago"
 }

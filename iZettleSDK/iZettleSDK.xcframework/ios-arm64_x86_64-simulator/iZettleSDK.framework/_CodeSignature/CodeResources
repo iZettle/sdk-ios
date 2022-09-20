@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tj/rqrUnjF6+UtFaZqMUEPIgIy0=
+		0+HTWG1YjxseuZEncNQslCfcc2E=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+8kRaSAcLNBu4QMWpaViHyFNSYo=
+		WcZ2sn49+kFoSaSrUgc9PNkZC+o=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		+8kRaSAcLNBu4QMWpaViHyFNSYo=
+		WcZ2sn49+kFoSaSrUgc9PNkZC+o=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8gSopMl5bUFTBYjvDQOZ9DS8WtY=
+		rQ9i4SvaC3/yBWi4aKlpBCMVRVs=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		8gSopMl5bUFTBYjvDQOZ9DS8WtY=
+		rQ9i4SvaC3/yBWi4aKlpBCMVRVs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>PrivateHeaders/iZettleSDK+WorkInProgress.h</key>
 		<data>
-		2MMJ0jMdZ8+qdNnEx56WvtYM4nw=
+		CdFvUDSAUtXXCLkq1DwaFr/Fvsk=
 		</data>
 		<key>strip-frameworks.sh</key>
 		<data>
@@ -115,7 +115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BbfjQPNLEJcBnDEgwNv/BGolCf+6BTA44QYlSA1VLFU=
+			kflpSxeWoxx8GIQqxraeauP4dNu3BIRXehEkc+ZBZSA=
 			</data>
 		</dict>
 		<key>Modules/iZettleSDK.swiftmodule/arm64.swiftdoc</key>
@@ -136,7 +136,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BbfjQPNLEJcBnDEgwNv/BGolCf+6BTA44QYlSA1VLFU=
+			kflpSxeWoxx8GIQqxraeauP4dNu3BIRXehEkc+ZBZSA=
 			</data>
 		</dict>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -157,7 +157,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3dGNsnaguGwOCoSUVGAH2IrR1vpWlN8X/k4eW5n4/gU=
+			uN8iJIkC2p7V1KQtjLrokv5MhsItrMTR3WS4BgxnW/o=
 			</data>
 		</dict>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -178,7 +178,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3dGNsnaguGwOCoSUVGAH2IrR1vpWlN8X/k4eW5n4/gU=
+			uN8iJIkC2p7V1KQtjLrokv5MhsItrMTR3WS4BgxnW/o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -199,7 +199,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wizBVTV/Jz9YKQcT9OGcS80t5RbyB6ld2IMCYx1h57I=
+			vnWTv4rUz0VelZitGNoCuyDjqjq/kvxBi3ssK8puHpw=
 			</data>
 		</dict>
 		<key>strip-frameworks.sh</key>

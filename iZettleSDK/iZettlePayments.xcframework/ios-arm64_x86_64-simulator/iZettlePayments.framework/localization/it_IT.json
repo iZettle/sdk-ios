@@ -58,7 +58,7 @@
 	"#PaypalQRCActivationCarouselText1US": "Consenti ai tuoi clienti di pagare a credito con PayPal.",
 	"#PaypalQRCActivationCarouselText4US": "Comunque decidano di pagare i tuoi clienti, non dovrai aspettare per ricevere il denaro.",
 	"#FirmwareVersion": "Versione firmware",
-	"#PaypalQRCActivatingSubTitle2": "Non serve che tu rimanga su questa pagina. Ci penseremo noi a completare l'attivazione.",
+	"#PaypalQRCActivatingSubTitle2": "Non serve che tu rimanga su questa pagina. Ci pensiamo noi a completare l'attivazione.",
 	"#CardReaderUpdateOutdateCardPaymentText": "Il software del tuo lettore di carte è obsoleto. È necessario aggiornarlo per garantire la migliore esperienza possibile. L'aggiornamento potrebbe durare fino a 5 minuti.",
 	"#Continue": "Continuare",
 	"#CardReaderUpdateOutdateCardPaymentUpdateLaterText": "Fino a che non aggiorni il lettore, potrai solo usare altri metodi di pagamento.",
@@ -95,8 +95,8 @@
 	"#PaypalQRCOnboardingNotCompletedTitle": "L'attivazione non è ancora completata",
 	"#PaypalQRCPaymentTimeOutTitle": "Sessione di pagamento scaduta",
 	"#PaypalQRCPaymentApprovedSubTitle": "Approvato",
-	"#PaypalQRCActivationDetailBodyUS": "Consenti ai tuoi clienti di pagare con il loro metodo di pagamento PayPal preferito, come PayPal Credit, senza dover mai toccare il tuo lettore di carte. La commissione sarà diversa da quella normalmente applicata ai pagamenti con carta.<br><br>Per maggiori informazioni sul metodo di pagamento e i relativi costi, clicca <a href=\"#ReadMoreLink\">qui</a>.",
-	"#PaypalQRCActivationDetailBody": "Da oggi i tuoi clienti possono pagare scegliendo il metodo di pagamento PayPal che preferiscono, senza dover mai toccare il tuo lettore di carte. <br><br>Per maggiori informazioni sul metodo di pagamento e i relativi costi, clicca <a href=\"#ReadMoreLink\">qui</a>.<br><br> Scopri come trattiamo i tuoi dati personali nella nostra <a href=\"#PrivacyPolicyLink\">Informativa sulla privacy</a>. Consulta i nostri <a href=\"#GeneralTermsLink\">Termini e condizioni generali</a> e <a href=\"#PaymentTermsLink\">Termini e condizioni di pagamento</a>.",
+	"#PaypalQRCActivationDetailBodyUS": "Consenti ai tuoi clienti di pagare con il loro metodo di pagamento PayPal preferito, come PayPal Credit, senza dover mai toccare il tuo lettore di carte. La commissione sarà diversa da quella normalmente applicata ai pagamenti con carta.<br><br><a href=\"#ReadMoreLink\">Per maggiori informazioni sul metodo di pagamento e i relativi costi, clicca qui</a>.",
+	"#PaypalQRCActivationDetailBody": "I tuoi clienti possono pagare scegliendo il metodo di pagamento PayPal che preferiscono, senza dover mai toccare il tuo lettore di carte.<br><br>Per maggiori informazioni sul metodo di pagamento e sui prezzi, clicca qui.<br><br><a href=\"#ReadMoreLink\">Prezzi e metodo di pagamento</a><br><br><a href=\"#GeneralTermsLink\">Termini e condizioni generali</a><br><br><a href=\"#PaymentTermsLink\">Termini e condizioni di pagamento</a><br><br><a href=\"#PrivacyPolicyLink\">Informativa sulla privacy</a>",
 	"#PaypalQRCPaymentScannedSubTitle": "In attesa di conferma dal cliente",
 	"#PaypalQRCActivationConfirm": "Attiva",
 	"#PaypalQRCPaymentLearnMoreTitle": "Come accettare pagamenti con i codici QR di PayPal.",
@@ -130,7 +130,7 @@
 	"#PaypalQRCActivationReadMoreBelow": "Scopri di più qui sotto",
 	"#PaypalQRCPaymentCanceledTitle": "Pagamento annullato",
 	"#InvalidSessionAlertTitle": "Abbiamo effettuato il logout automatico dal tuo account",
-	"#PaypalQRCActivationDefaultSubTitle": "Attivando il servizio, accetti i termini e le condizioni e le spese di transazione applicabili.",
+	"#PaypalQRCActivationDefaultSubTitle": "Attivando il servizio, accetti l'applicazione dei termini e delle commissioni sulle transazioni.",
 	"#PaypalQRCActivationOffTitle": "Off",
 	"#PaypalQRCPaymentLearnMoreStep2": "Mostragli il codice QR e faglielo scansionare.",
 	"#PaypalQRCActivationOffSubTitle": "Non apparirà tra le opzioni di pagamento",
@@ -316,5 +316,7 @@
 	"#PaypalQRCPaymentTotalAmountSpeakerText": "Importo totale #TotalAmount. Chiedi al cliente di scansionare il codice QR",
 	"#PaypalQRCPaymentLearnMoreButtonSpeakerText": "Informazioni su PayPal",
 	"#PaypalQRCPaymentLoadingSpeakerText": "Caricamento codice QR",
-    "#PaymentFailedInvalidDateOrTime": "Verifica che sul tuo smartphone o tablet siano impostati correttamente la data e il fuso orario."
+	"#RefundLoadingIndicatorSpeakerText": "Caricamento in corso",
+	"#PaypalQRCAccessibilityAnnouncementActivated": "PayPal, Attivato, Apparirà tra le opzioni di pagamento.",
+	"#RetrievePaymentInfoLoadingTitle": "Caricamento dati del pagamento..."
 }

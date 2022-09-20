@@ -265,5 +265,6 @@
 	"#Hardware": "Hardware",
 	"#Others": "Overig",
 	"#Date": "Datum",
-    "#PaymentFailedInvalidDateOrTime": "Zorg ervoor dat je telefoon of tablet de juiste datum en tijdzone heeft."
+	"#RefundLoadingIndicatorSpeakerText": "Aan het laden",
+	"#RetrievePaymentInfoLoadingTitle": "Betaalgegevens worden geladen"
 }
