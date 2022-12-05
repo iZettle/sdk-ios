@@ -1,3 +1,10 @@
+3.6.0 - 2022-12-05
+- Support for Xcode 14.1
+- Added support for Percentage Tipping (US only)
+- TransactionId is now added to the card- and QRC payments return object.
+- Fix translations for Cancel / Abort text keys for certain locales
+- Regular maintenance cleanup
+
 3.5.0 - 2022-09-14
 - Fix not responding on Approved screen for card payments
 - Bugfixes and performance improvements
