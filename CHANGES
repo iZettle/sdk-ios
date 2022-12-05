@@ -1,4 +1,4 @@
-3.5.0 - 2022-09-20
+3.5.0 - 2022-09-14
 - Fix not responding on Approved screen for card payments
 - Bugfixes and performance improvements
 - Under the hood changes for cleanup and refactoring

@@ -1,0 +1,96 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name iZettleSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+@_exported import iZettleSDK
+public let iZettleSDKAuthorizationProviderErrorDomain: Foundation.NSErrorDomain
+public enum iZettleSDKAuthorizationProviderError : Swift.Int {
+  case callbackURLInvalid
+  case callbackURLMissing
+  case clientIdInvalid
+  case presentationNotPossible
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc final public class iZettleSDKAuthorization : ObjectiveC.NSObject, iZettleSDKAuthorizationProvider {
+  @objc public init(clientID: Swift.String, callbackURL: Foundation.URL, enforcedUserAccount: @autoclosure @escaping () -> Swift.String? = nil) throws
+  @objc deinit
+}
+public let iZettleSDKOAuthTokenErrorDomain: Foundation.NSErrorDomain
+public enum iZettleSDKOAuthTokenError : Swift.Int {
+  case dataMissing
+  case scopeMissing
+  case expired
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class iZettleSDKOAuthToken : ObjectiveC.NSObject {
+  @objc convenience public init(data: Foundation.Data) throws
+  @objc public init(accessToken: Swift.String, expiresIn: Swift.Int, refreshToken: Swift.String?) throws
+  @objc deinit
+}
+public typealias iZettleAuthorizationCompletion = (_ tokenData: iZettleSDKOAuthToken?, _ error: Swift.Error?) -> Swift.Void
+@objc public protocol iZettleSDKAuthorizationProvider {
+  @objc func authorizeAccount(completion: @escaping iZettleAuthorizationCompletion)
+  @objc func verifyAccount(uuid: Foundation.UUID, completion: @escaping iZettleAuthorizationCompletion)
+}
+extension iZettleSDKOAuthTokenError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public var failureReason: Swift.String? {
+    get
+  }
+  public var recoverySuggestion: Swift.String? {
+    get
+  }
+}
+extension iZettleSDKOAuthTokenError : Foundation.CustomNSError {
+  public var errorCode: Swift.Int {
+    get
+  }
+  public static var errorDomain: Swift.String {
+    get
+  }
+  public var errorUserInfo: [Swift.String : Any] {
+    get
+  }
+}
+extension iZettleSDKAuthorizationProviderError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public var failureReason: Swift.String? {
+    get
+  }
+  public var recoverySuggestion: Swift.String? {
+    get
+  }
+}
+extension iZettleSDKAuthorizationProviderError : Foundation.CustomNSError {
+  public var errorCode: Swift.Int {
+    get
+  }
+  public static var errorDomain: Swift.String {
+    get
+  }
+  public var errorUserInfo: [Swift.String : Any] {
+    get
+  }
+}
+extension iZettleSDKAuthorizationProviderError : Swift.Equatable {}
+extension iZettleSDKAuthorizationProviderError : Swift.Hashable {}
+extension iZettleSDKAuthorizationProviderError : Swift.RawRepresentable {}
+extension iZettleSDKOAuthTokenError : Swift.Equatable {}
+extension iZettleSDKOAuthTokenError : Swift.Hashable {}
+extension iZettleSDKOAuthTokenError : Swift.RawRepresentable {}

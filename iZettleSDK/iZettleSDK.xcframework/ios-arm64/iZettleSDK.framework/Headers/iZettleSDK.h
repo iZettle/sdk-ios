@@ -82,6 +82,27 @@ typedef NS_ENUM(NSInteger, IZSDKAlternativePaymentMethod) {
     IZSDKAlternativePaymentMethodPayPalQRC = 0
 };
 
+/**
+ Defining which tipping style to be used when initiating a payment with tipping
+ 
+ @discussion Read more at https://developer.zettle.com/docs/ios-sdk/concepts/tipping-support to understand which type(s) your market supports and what the difference between tipping styles are.
+ 
+ @warning If your market does not support the selected style then the market default will be used
+ */
+typedef NS_ENUM(NSUInteger, IZSDKTippingStyle) {
+    /// Disable tipping option.
+    IZSDKTippingStyleNone = 0,
+    
+    /// The market default option.
+    IZSDKTippingStyleMarketDefault,
+    
+    /// An amount based option.
+    IZSDKTippingStyleAmount,
+    
+    ///A percentage based option.
+    IZSDKTippingStylePercentage
+};
+
 @interface iZettleSDK : NSObject
 
 @property (nonatomic, readonly) NSString *version;
@@ -119,7 +140,7 @@ typedef NS_ENUM(NSInteger, IZSDKAlternativePaymentMethod) {
  Perform a payment with an amount and a reference.
 
  @param amount The amount to be charged in the logged in users currency
- @param enableTipping Enable tipping flow
+ @param enableTipping Enable tipping flow with IZSDKTippingStyleMarketDefault tipping style
  @param reference The payment reference. Used to identify an iZettle payment, used when retrieving payment
     information at a later time or performing a refund. Max length 128. (Optional)
  @param viewController A controller from which iZettle will present its UI
@@ -133,7 +154,28 @@ typedef NS_ENUM(NSInteger, IZSDKAlternativePaymentMethod) {
            reference:(nullable NSString *)reference
 presentFromViewController:(UIViewController *)viewController
           completion:(iZettleSDKOperationCompletion)completion
-NS_SWIFT_NAME(charge(amount:enableTipping:reference:presentFrom:completion:));
+NS_SWIFT_NAME(charge(amount:enableTipping:reference:presentFrom:completion:))
+__deprecated_msg("Use chargeAmount:tippingStyle:reference:presentFromViewController:completion: instead.");
+
+/**
+ Perform a payment with an amount, tipping style and a reference.
+
+ @param amount The amount to be charged in the logged in users currency
+ @param tippingStyle Selecting a tipping style or `None` to disable tipping for this payment
+ @param reference The payment reference. Used to identify an iZettle payment, used when retrieving payment
+    information at a later time or performing a refund. Max length 128. (Optional)
+ @param viewController A controller from which iZettle will present its UI
+ @param completion Completion handler that will be called when the operation finishes
+ 
+ @remark Setting a tipping style does not guarantee that tipping flow will be displayed. Tipping flow will only be displayed
+ for logged in account supporting specificed style and  active reader supporting tipping.
+ */
+- (void)chargeAmount:(NSDecimalNumber *)amount
+        tippingStyle:(IZSDKTippingStyle)tippingStyle
+           reference:(nullable NSString *)reference
+presentFromViewController:(UIViewController *)viewController
+          completion:(iZettleSDKOperationCompletion)completion
+NS_SWIFT_NAME(charge(amount:tippingStyle:reference:presentFrom:completion:));
 
 /// Refund an amount from a payment with a given reference.
 /// @param amount:          The amount to be refunded from the payment (Optional, `nil` will refund full amount of original payment)
@@ -267,6 +309,7 @@ NS_SWIFT_NAME(applicationDidOpen(with:));
 @property (nonatomic, readonly) NSDictionary<NSString *, id> *dictionary;   // Dictionary representation of the payment information
 
 @property (nonatomic, readonly) NSDecimalNumber *amount;    // Paid amount (including gratuityAmount)
+@property (nonatomic, readonly) NSString *transactionId;
 @property (nonatomic, readonly, nullable) NSDecimalNumber *gratuityAmount; // The amount of gratuity paid
 
 @property (nonatomic, readonly) NSString *referenceNumber;  // iZettles reference to the payment
@@ -315,14 +358,19 @@ typedef NS_ENUM(NSInteger, IZSDKPayPalQRCType) {
 @property (nonatomic, readonly) NSString *referenceNumber;
 
 /**
- Transaction Identifier that should be displayed on receipts
+ Transaction Identifier that should be displayed on receipts and comes from the PayPal service.
  */
 @property (nonatomic, readonly) NSString *paypalTransactionId;
 
 /**
- Which QRC type was used to perform the payment PayPal or Venmo (USA Only)
+ Which QRC type was used to perform the payment PayPal or Venmo (USA Only).
  */
 @property (nonatomic, readonly) IZSDKPayPalQRCType type;
+
+/**
+The Zettle transaction identifier for the transaction itself.
+ */
+@property (nonatomic, readonly) NSString *transactionId;
 
 @end
 

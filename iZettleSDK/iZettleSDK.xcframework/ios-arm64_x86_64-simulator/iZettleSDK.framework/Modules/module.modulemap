@@ -6,6 +6,6 @@ framework module iZettleSDK {
 }
 
 module iZettleSDK.Swift {
-    header "iZettleSDK-Swift.h"
-    requires objc
+  header "iZettleSDK-Swift.h"
+  requires objc
 }
