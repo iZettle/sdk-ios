@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07B1AF2928F55EB30066D1D8 /* iZettlePayments.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B803A23327B118DE00C5C4C7 /* iZettlePayments.xcframework */; };
+		07B1AF2A28F55EB30066D1D8 /* iZettlePayments.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B803A23327B118DE00C5C4C7 /* iZettlePayments.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07B1AF2B28F55EB60066D1D8 /* iZettleSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B803A23227B118DE00C5C4C7 /* iZettleSDK.xcframework */; };
+		07B1AF2C28F55EB60066D1D8 /* iZettleSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B803A23227B118DE00C5C4C7 /* iZettleSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9B8B199E24754A0F00C74D78 /* CustomAuthorizationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B199D24754A0F00C74D78 /* CustomAuthorizationProvider.m */; };
 		9BC1DCBB24ACBA58004E74DC /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1DCBA24ACBA58004E74DC /* AccountManager.m */; };
 		B803A22627AAA17D00C5C4C7 /* QRCPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B803A22527AAA17D00C5C4C7 /* QRCPaymentViewController.swift */; };
 		B803A22F27AC0A3000C5C4C7 /* SelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B803A22E27AC0A3000C5C4C7 /* SelectionTableViewController.swift */; };
-		B803A23427B118DE00C5C4C7 /* iZettleSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B803A23227B118DE00C5C4C7 /* iZettleSDK.xcframework */; };
-		B803A23527B118DE00C5C4C7 /* iZettlePayments.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B803A23327B118DE00C5C4C7 /* iZettlePayments.xcframework */; };
 		B8C1266127C38FDF00AA6F45 /* AccessTokenFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C1265F27C38FDF00AA6F45 /* AccessTokenFetcher.m */; };
 		E6F9FEEB1DDDFFC80051C21D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F9FEDC1DDDFFC80051C21D /* AppDelegate.m */; };
 		E6F9FEEC1DDDFFC80051C21D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6F9FEDD1DDDFFC80051C21D /* LaunchScreen.xib */; };
@@ -30,6 +32,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				07B1AF2C28F55EB60066D1D8 /* iZettleSDK.xcframework in Embed Frameworks */,
+				07B1AF2A28F55EB30066D1D8 /* iZettlePayments.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,8 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B803A23527B118DE00C5C4C7 /* iZettlePayments.xcframework in Frameworks */,
-				B803A23427B118DE00C5C4C7 /* iZettleSDK.xcframework in Frameworks */,
+				07B1AF2B28F55EB60066D1D8 /* iZettleSDK.xcframework in Frameworks */,
+				07B1AF2928F55EB30066D1D8 /* iZettlePayments.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -5,7 +5,7 @@
 		<key>CFBundleDevelopmentRegion</key>
 		<string>English</string>
 		<key>CFBundleIdentifier</key>
-		<string>com.apple.xcode.dsym.com.izettle.SDK</string>
+		<string>com.apple.xcode.dsym.com.zettle.SDK</string>
 		<key>CFBundleInfoDictionaryVersion</key>
 		<string>6.0</string>
 		<key>CFBundlePackageType</key>
@@ -13,7 +13,7 @@
 		<key>CFBundleSignature</key>
 		<string>????</string>
 		<key>CFBundleShortVersionString</key>
-		<string>3.5.0</string>
+		<string>3.6.0</string>
 		<key>CFBundleVersion</key>
 		<string>1</string>
 	</dict>

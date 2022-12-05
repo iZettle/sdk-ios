@@ -1,0 +1,2396 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iZettlePayments",
+        "printedName": "iZettlePayments",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK"
+      },
+      {
+        "kind": "Var",
+        "name": "iZettleSDKAuthorizationProviderErrorDomain",
+        "printedName": "iZettleSDKAuthorizationProviderErrorDomain",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "NSString",
+            "printedName": "Foundation.NSString",
+            "usr": "c:objc(cs)NSString"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:10iZettleSDK01iA35SDKAuthorizationProviderErrorDomainSo8NSStringCvp",
+        "mangledName": "$s10iZettleSDK01iA35SDKAuthorizationProviderErrorDomainSo8NSStringCvp",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSString",
+                "printedName": "Foundation.NSString",
+                "usr": "c:objc(cs)NSString"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:10iZettleSDK01iA35SDKAuthorizationProviderErrorDomainSo8NSStringCvg",
+            "mangledName": "$s10iZettleSDK01iA35SDKAuthorizationProviderErrorDomainSo8NSStringCvg",
+            "moduleName": "iZettleSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "iZettleSDKAuthorizationProviderError",
+        "printedName": "iZettleSDKAuthorizationProviderError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "callbackURLInvalid",
+            "printedName": "callbackURLInvalid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.iZettleSDKAuthorizationProviderError.Type) -> iZettleSDK.iZettleSDKAuthorizationProviderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "iZettleSDKAuthorizationProviderError",
+                    "printedName": "iZettleSDK.iZettleSDKAuthorizationProviderError",
+                    "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.iZettleSDKAuthorizationProviderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "iZettleSDKAuthorizationProviderError",
+                        "printedName": "iZettleSDK.iZettleSDKAuthorizationProviderError",
+                        "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO18callbackURLInvalidyA2CmF",
+            "mangledName": "$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO18callbackURLInvalidyA2CmF",
+            "moduleName": "iZettleSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "callbackURLMissing",
+            "printedName": "callbackURLMissing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.iZettleSDKAuthorizationProviderError.Type) -> iZettleSDK.iZettleSDKAuthorizationProviderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "iZettleSDKAuthorizationProviderError",
+                    "printedName": "iZettleSDK.iZettleSDKAuthorizationProviderError",
+                    "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.iZettleSDKAuthorizationProviderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "iZettleSDKAuthorizationProviderError",
+                        "printedName": "iZettleSDK.iZettleSDKAuthorizationProviderError",
+                        "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO18callbackURLMissingyA2CmF",
+            "mangledName": "$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO18callbackURLMissingyA2CmF",
+            "moduleName": "iZettleSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "clientIdInvalid",
+            "printedName": "clientIdInvalid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.iZettleSDKAuthorizationProviderError.Type) -> iZettleSDK.iZettleSDKAuthorizationProviderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "iZettleSDKAuthorizationProviderError",
+                    "printedName": "iZettleSDK.iZettleSDKAuthorizationProviderError",
+                    "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.iZettleSDKAuthorizationProviderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "iZettleSDKAuthorizationProviderError",
+                        "printedName": "iZettleSDK.iZettleSDKAuthorizationProviderError",
+                        "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO15clientIdInvalidyA2CmF",
+            "mangledName": "$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO15clientIdInvalidyA2CmF",
+            "moduleName": "iZettleSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "presentationNotPossible",
+            "printedName": "presentationNotPossible",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.iZettleSDKAuthorizationProviderError.Type) -> iZettleSDK.iZettleSDKAuthorizationProviderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "iZettleSDKAuthorizationProviderError",
+                    "printedName": "iZettleSDK.iZettleSDKAuthorizationProviderError",
+                    "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.iZettleSDKAuthorizationProviderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "iZettleSDKAuthorizationProviderError",
+                        "printedName": "iZettleSDK.iZettleSDKAuthorizationProviderError",
+                        "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO23presentationNotPossibleyA2CmF",
+            "mangledName": "$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO23presentationNotPossibleyA2CmF",
+            "moduleName": "iZettleSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iZettleSDK.iZettleSDKAuthorizationProviderError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "iZettleSDKAuthorizationProviderError",
+                    "printedName": "iZettleSDK.iZettleSDKAuthorizationProviderError",
+                    "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO8rawValueACSgSi_tcfc",
+            "mangledName": "$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO8rawValueACSgSi_tcfc",
+            "moduleName": "iZettleSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO8rawValueSivp",
+            "mangledName": "$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO8rawValueSivp",
+            "moduleName": "iZettleSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO8rawValueSivg",
+                "mangledName": "$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO8rawValueSivg",
+                "moduleName": "iZettleSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO16errorDescriptionSSSgvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO16errorDescriptionSSSgvg",
+                "moduleName": "iZettleSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failureReason",
+            "printedName": "failureReason",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO13failureReasonSSSgvp",
+            "mangledName": "$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO13failureReasonSSSgvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO13failureReasonSSSgvg",
+                "mangledName": "$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO13failureReasonSSSgvg",
+                "moduleName": "iZettleSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "recoverySuggestion",
+            "printedName": "recoverySuggestion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO18recoverySuggestionSSSgvp",
+            "mangledName": "$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO18recoverySuggestionSSSgvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO18recoverySuggestionSSSgvg",
+                "mangledName": "$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO18recoverySuggestionSSSgvg",
+                "moduleName": "iZettleSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO9errorCodeSivp",
+            "mangledName": "$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO9errorCodeSivp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO9errorCodeSivg",
+                "mangledName": "$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO9errorCodeSivg",
+                "moduleName": "iZettleSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDomain",
+            "printedName": "errorDomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO11errorDomainSSvpZ",
+            "mangledName": "$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO11errorDomainSSvpZ",
+            "moduleName": "iZettleSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO11errorDomainSSvgZ",
+                "mangledName": "$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO11errorDomainSSvgZ",
+                "moduleName": "iZettleSDK",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorUserInfo",
+            "printedName": "errorUserInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO13errorUserInfoSDySSypGvp",
+            "mangledName": "$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO13errorUserInfoSDySSypGvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO13errorUserInfoSDySSypGvg",
+                "mangledName": "$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO13errorUserInfoSDySSypGvg",
+                "moduleName": "iZettleSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10iZettleSDK01iA29SDKAuthorizationProviderErrorO",
+        "mangledName": "$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomNSError",
+            "printedName": "CustomNSError",
+            "usr": "s:10Foundation13CustomNSErrorP",
+            "mangledName": "$s10Foundation13CustomNSErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "iZettleSDKAuthorization",
+        "printedName": "iZettleSDKAuthorization",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(clientID:callbackURL:enforcedUserAccount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "iZettleSDKAuthorization",
+                "printedName": "iZettleSDK.iZettleSDKAuthorization",
+                "usr": "c:@M@iZettleSDK@objc(cs)iZettleSDKAuthorization"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iZettleSDK@objc(cs)iZettleSDKAuthorization(im)initWithClientID:callbackURL:error:enforcedUserAccount:",
+            "mangledName": "$s10iZettleSDK01iA16SDKAuthorizationC8clientID11callbackURL19enforcedUserAccountACSS_10Foundation0G0VSSSgyXAtKcfc",
+            "moduleName": "iZettleSDK",
+            "objc_name": "initWithClientID:callbackURL:error:enforcedUserAccount:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "iZettleSDKAuthorization",
+                "printedName": "iZettleSDK.iZettleSDKAuthorization",
+                "usr": "c:@M@iZettleSDK@objc(cs)iZettleSDKAuthorization"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iZettleSDK@objc(cs)iZettleSDKAuthorization(im)init",
+            "mangledName": "$s10iZettleSDK01iA16SDKAuthorizationCACycfc",
+            "moduleName": "iZettleSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "authorizeAccount",
+            "printedName": "authorizeAccount(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "iZettleSDK.iZettleSDKOAuthToken?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "iZettleSDKOAuthToken",
+                            "printedName": "iZettleSDK.iZettleSDKOAuthToken",
+                            "usr": "c:@M@iZettleSDK@objc(cs)iZettleSDKOAuthToken"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@iZettleSDK@objc(cs)iZettleSDKAuthorization(im)authorizeAccountWithCompletion:",
+            "mangledName": "$s10iZettleSDK01iA16SDKAuthorizationC16authorizeAccount10completionyyAA01iA13SDKOAuthTokenCSg_s5Error_pSgtc_tF",
+            "moduleName": "iZettleSDK",
+            "objc_name": "authorizeAccountWithCompletion:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "verifyAccount",
+            "printedName": "verifyAccount(uuid:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "iZettleSDK.iZettleSDKOAuthToken?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "iZettleSDKOAuthToken",
+                            "printedName": "iZettleSDK.iZettleSDKOAuthToken",
+                            "usr": "c:@M@iZettleSDK@objc(cs)iZettleSDKOAuthToken"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@iZettleSDK@objc(cs)iZettleSDKAuthorization(im)verifyAccountWithUuid:completion:",
+            "mangledName": "$s10iZettleSDK01iA16SDKAuthorizationC13verifyAccount4uuid10completiony10Foundation4UUIDV_yAA01iA13SDKOAuthTokenCSg_s5Error_pSgtctF",
+            "moduleName": "iZettleSDK",
+            "objc_name": "verifyAccountWithUuid:completion:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iZettleSDK@objc(cs)iZettleSDKAuthorization",
+        "mangledName": "$s10iZettleSDK01iA16SDKAuthorizationC",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "iZettleSDKAuthorizationProvider",
+            "printedName": "iZettleSDKAuthorizationProvider",
+            "usr": "c:@M@iZettleSDK@objc(pl)iZettleSDKAuthorizationProvider",
+            "mangledName": "$s10iZettleSDK01iA24SDKAuthorizationProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "OAuthDefaultImplementation",
+            "printedName": "OAuthDefaultImplementation",
+            "usr": "s:15iZettlePayments26OAuthDefaultImplementationP",
+            "mangledName": "$s15iZettlePayments26OAuthDefaultImplementationP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iZettlePayments",
+        "printedName": "iZettlePayments",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AuthorizationProviderBridge",
+        "printedName": "AuthorizationProviderBridge",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "bridge",
+            "printedName": "bridge(publicProvider:requiredScopes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthorizationProvider",
+                "printedName": "iZettlePayments.AuthorizationProvider",
+                "usr": "c:@M@iZettlePayments@objc(cs)IZAuthorizationProvider"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "iZettleSDKAuthorizationProvider",
+                "printedName": "iZettleSDK.iZettleSDKAuthorizationProvider",
+                "usr": "c:@M@iZettleSDK@objc(pl)iZettleSDKAuthorizationProvider"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[iZettlePayments.IZOAuthTokenScope]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IZOAuthTokenScope",
+                    "printedName": "iZettlePayments.IZOAuthTokenScope",
+                    "usr": "c:objc(cs)IZOAuthTokenScope"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iZettleSDK@objc(cs)IZAuthorizationProviderBridge(cm)bridgePublicProvider:requiredScopes:",
+            "mangledName": "$s10iZettleSDK27AuthorizationProviderBridgeC6bridge06publicD014requiredScopes01iA8Payments0cD0CAA01ia16SDKAuthorizationD0_p_SaySo17IZOAuthTokenScopeCGtFZ",
+            "moduleName": "iZettleSDK",
+            "static": true,
+            "objc_name": "bridgePublicProvider:requiredScopes:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthorizationProviderBridge",
+                "printedName": "iZettleSDK.AuthorizationProviderBridge",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZAuthorizationProviderBridge"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iZettleSDK@objc(cs)IZAuthorizationProviderBridge(im)init",
+            "mangledName": "$s10iZettleSDK27AuthorizationProviderBridgeCACycfc",
+            "moduleName": "iZettleSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iZettleSDK@objc(cs)IZAuthorizationProviderBridge",
+        "mangledName": "$s10iZettleSDK27AuthorizationProviderBridgeC",
+        "moduleName": "iZettleSDK",
+        "objc_name": "IZAuthorizationProviderBridge",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iZettlePayments",
+        "printedName": "iZettlePayments",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK"
+      },
+      {
+        "kind": "Var",
+        "name": "iZettleSDKOAuthTokenErrorDomain",
+        "printedName": "iZettleSDKOAuthTokenErrorDomain",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "NSString",
+            "printedName": "Foundation.NSString",
+            "usr": "c:objc(cs)NSString"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:10iZettleSDK01iA24SDKOAuthTokenErrorDomainSo8NSStringCvp",
+        "mangledName": "$s10iZettleSDK01iA24SDKOAuthTokenErrorDomainSo8NSStringCvp",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSString",
+                "printedName": "Foundation.NSString",
+                "usr": "c:objc(cs)NSString"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:10iZettleSDK01iA24SDKOAuthTokenErrorDomainSo8NSStringCvg",
+            "mangledName": "$s10iZettleSDK01iA24SDKOAuthTokenErrorDomainSo8NSStringCvg",
+            "moduleName": "iZettleSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "iZettleSDKOAuthTokenError",
+        "printedName": "iZettleSDKOAuthTokenError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dataMissing",
+            "printedName": "dataMissing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.iZettleSDKOAuthTokenError.Type) -> iZettleSDK.iZettleSDKOAuthTokenError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "iZettleSDKOAuthTokenError",
+                    "printedName": "iZettleSDK.iZettleSDKOAuthTokenError",
+                    "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.iZettleSDKOAuthTokenError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "iZettleSDKOAuthTokenError",
+                        "printedName": "iZettleSDK.iZettleSDKOAuthTokenError",
+                        "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO11dataMissingyA2CmF",
+            "mangledName": "$s10iZettleSDK01iA18SDKOAuthTokenErrorO11dataMissingyA2CmF",
+            "moduleName": "iZettleSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "scopeMissing",
+            "printedName": "scopeMissing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.iZettleSDKOAuthTokenError.Type) -> iZettleSDK.iZettleSDKOAuthTokenError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "iZettleSDKOAuthTokenError",
+                    "printedName": "iZettleSDK.iZettleSDKOAuthTokenError",
+                    "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.iZettleSDKOAuthTokenError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "iZettleSDKOAuthTokenError",
+                        "printedName": "iZettleSDK.iZettleSDKOAuthTokenError",
+                        "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO12scopeMissingyA2CmF",
+            "mangledName": "$s10iZettleSDK01iA18SDKOAuthTokenErrorO12scopeMissingyA2CmF",
+            "moduleName": "iZettleSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "expired",
+            "printedName": "expired",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.iZettleSDKOAuthTokenError.Type) -> iZettleSDK.iZettleSDKOAuthTokenError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "iZettleSDKOAuthTokenError",
+                    "printedName": "iZettleSDK.iZettleSDKOAuthTokenError",
+                    "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.iZettleSDKOAuthTokenError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "iZettleSDKOAuthTokenError",
+                        "printedName": "iZettleSDK.iZettleSDKOAuthTokenError",
+                        "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO7expiredyA2CmF",
+            "mangledName": "$s10iZettleSDK01iA18SDKOAuthTokenErrorO7expiredyA2CmF",
+            "moduleName": "iZettleSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iZettleSDK.iZettleSDKOAuthTokenError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "iZettleSDKOAuthTokenError",
+                    "printedName": "iZettleSDK.iZettleSDKOAuthTokenError",
+                    "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO8rawValueACSgSi_tcfc",
+            "mangledName": "$s10iZettleSDK01iA18SDKOAuthTokenErrorO8rawValueACSgSi_tcfc",
+            "moduleName": "iZettleSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO8rawValueSivp",
+            "mangledName": "$s10iZettleSDK01iA18SDKOAuthTokenErrorO8rawValueSivp",
+            "moduleName": "iZettleSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO8rawValueSivg",
+                "mangledName": "$s10iZettleSDK01iA18SDKOAuthTokenErrorO8rawValueSivg",
+                "moduleName": "iZettleSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s10iZettleSDK01iA18SDKOAuthTokenErrorO16errorDescriptionSSSgvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s10iZettleSDK01iA18SDKOAuthTokenErrorO16errorDescriptionSSSgvg",
+                "moduleName": "iZettleSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failureReason",
+            "printedName": "failureReason",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO13failureReasonSSSgvp",
+            "mangledName": "$s10iZettleSDK01iA18SDKOAuthTokenErrorO13failureReasonSSSgvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO13failureReasonSSSgvg",
+                "mangledName": "$s10iZettleSDK01iA18SDKOAuthTokenErrorO13failureReasonSSSgvg",
+                "moduleName": "iZettleSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "recoverySuggestion",
+            "printedName": "recoverySuggestion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO18recoverySuggestionSSSgvp",
+            "mangledName": "$s10iZettleSDK01iA18SDKOAuthTokenErrorO18recoverySuggestionSSSgvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO18recoverySuggestionSSSgvg",
+                "mangledName": "$s10iZettleSDK01iA18SDKOAuthTokenErrorO18recoverySuggestionSSSgvg",
+                "moduleName": "iZettleSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO9errorCodeSivp",
+            "mangledName": "$s10iZettleSDK01iA18SDKOAuthTokenErrorO9errorCodeSivp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO9errorCodeSivg",
+                "mangledName": "$s10iZettleSDK01iA18SDKOAuthTokenErrorO9errorCodeSivg",
+                "moduleName": "iZettleSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDomain",
+            "printedName": "errorDomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO11errorDomainSSvpZ",
+            "mangledName": "$s10iZettleSDK01iA18SDKOAuthTokenErrorO11errorDomainSSvpZ",
+            "moduleName": "iZettleSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO11errorDomainSSvgZ",
+                "mangledName": "$s10iZettleSDK01iA18SDKOAuthTokenErrorO11errorDomainSSvgZ",
+                "moduleName": "iZettleSDK",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorUserInfo",
+            "printedName": "errorUserInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO13errorUserInfoSDySSypGvp",
+            "mangledName": "$s10iZettleSDK01iA18SDKOAuthTokenErrorO13errorUserInfoSDySSypGvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO13errorUserInfoSDySSypGvg",
+                "mangledName": "$s10iZettleSDK01iA18SDKOAuthTokenErrorO13errorUserInfoSDySSypGvg",
+                "moduleName": "iZettleSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10iZettleSDK01iA18SDKOAuthTokenErrorO",
+        "mangledName": "$s10iZettleSDK01iA18SDKOAuthTokenErrorO",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomNSError",
+            "printedName": "CustomNSError",
+            "usr": "s:10Foundation13CustomNSErrorP",
+            "mangledName": "$s10Foundation13CustomNSErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "iZettleSDKOAuthToken",
+        "printedName": "iZettleSDKOAuthToken",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "iZettleSDKOAuthToken",
+                "printedName": "iZettleSDK.iZettleSDKOAuthToken",
+                "usr": "c:@M@iZettleSDK@objc(cs)iZettleSDKOAuthToken"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iZettleSDK@objc(cs)iZettleSDKOAuthToken(im)initWithData:error:",
+            "mangledName": "$s10iZettleSDK01iA13SDKOAuthTokenC4dataAC10Foundation4DataV_tKcfc",
+            "moduleName": "iZettleSDK",
+            "objc_name": "initWithData:error:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(accessToken:expiresIn:refreshToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "iZettleSDKOAuthToken",
+                "printedName": "iZettleSDK.iZettleSDKOAuthToken",
+                "usr": "c:@M@iZettleSDK@objc(cs)iZettleSDKOAuthToken"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iZettleSDK@objc(cs)iZettleSDKOAuthToken(im)initWithAccessToken:expiresIn:refreshToken:error:",
+            "mangledName": "$s10iZettleSDK01iA13SDKOAuthTokenC06accessD09expiresIn07refreshD0ACSS_SiSSSgtKcfc",
+            "moduleName": "iZettleSDK",
+            "objc_name": "initWithAccessToken:expiresIn:refreshToken:error:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "iZettleSDKOAuthToken",
+                "printedName": "iZettleSDK.iZettleSDKOAuthToken",
+                "usr": "c:@M@iZettleSDK@objc(cs)iZettleSDKOAuthToken"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iZettleSDK@objc(cs)iZettleSDKOAuthToken(im)init",
+            "mangledName": "$s10iZettleSDK01iA13SDKOAuthTokenCACycfc",
+            "moduleName": "iZettleSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iZettleSDK@objc(cs)iZettleSDKOAuthToken",
+        "mangledName": "$s10iZettleSDK01iA13SDKOAuthTokenC",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "iZettleSDKAuthorizationProvider",
+        "printedName": "iZettleSDKAuthorizationProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "authorizeAccount",
+            "printedName": "authorizeAccount(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "iZettleSDK.iZettleSDKOAuthToken?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "iZettleSDKOAuthToken",
+                            "printedName": "iZettleSDK.iZettleSDKOAuthToken",
+                            "usr": "c:@M@iZettleSDK@objc(cs)iZettleSDKOAuthToken"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iZettleSDK@objc(pl)iZettleSDKAuthorizationProvider(im)authorizeAccountWithCompletion:",
+            "mangledName": "$s10iZettleSDK01iA24SDKAuthorizationProviderP16authorizeAccount10completionyyAA01iA13SDKOAuthTokenCSg_s5Error_pSgtc_tF",
+            "moduleName": "iZettleSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : iZettleSDK.iZettleSDKAuthorizationProvider>",
+            "sugared_genericSig": "<Self where Self : iZettleSDK.iZettleSDKAuthorizationProvider>",
+            "protocolReq": true,
+            "objc_name": "authorizeAccountWithCompletion:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "verifyAccount",
+            "printedName": "verifyAccount(uuid:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "iZettleSDK.iZettleSDKOAuthToken?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "iZettleSDKOAuthToken",
+                            "printedName": "iZettleSDK.iZettleSDKOAuthToken",
+                            "usr": "c:@M@iZettleSDK@objc(cs)iZettleSDKOAuthToken"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iZettleSDK@objc(pl)iZettleSDKAuthorizationProvider(im)verifyAccountWithUuid:completion:",
+            "mangledName": "$s10iZettleSDK01iA24SDKAuthorizationProviderP13verifyAccount4uuid10completiony10Foundation4UUIDV_yAA01iA13SDKOAuthTokenCSg_s5Error_pSgtctF",
+            "moduleName": "iZettleSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : iZettleSDK.iZettleSDKAuthorizationProvider>",
+            "sugared_genericSig": "<Self where Self : iZettleSDK.iZettleSDKAuthorizationProvider>",
+            "protocolReq": true,
+            "objc_name": "verifyAccountWithUuid:completion:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@iZettleSDK@objc(pl)iZettleSDKAuthorizationProvider",
+        "mangledName": "$s10iZettleSDK01iA24SDKAuthorizationProviderP",
+        "moduleName": "iZettleSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iZettlePayments",
+        "printedName": "iZettlePayments",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "kind": "StringLiteral",
+      "offset": 220,
+      "length": 36,
+      "value": "\"com.izettle.sdk.authprovider.error\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 344,
+      "length": 4,
+      "value": "202"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 4,
+      "value": "203"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 411,
+      "length": 4,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 451,
+      "length": 4,
+      "value": "501"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 344,
+      "length": 1,
+      "value": "202"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 1,
+      "value": "203"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 411,
+      "length": 1,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 451,
+      "length": 1,
+      "value": "501"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 344,
+      "length": 1,
+      "value": "202"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 1,
+      "value": "203"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 411,
+      "length": 1,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 451,
+      "length": 1,
+      "value": "501"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "kind": "StringLiteral",
+      "offset": 548,
+      "length": 23,
+      "value": "\"iZettleSDK.iZettleSDKAuthorization\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "kind": "StringLiteral",
+      "offset": 206,
+      "length": 29,
+      "value": "\"com.izettle.sdk.token.error\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "kind": "IntegerLiteral",
+      "offset": 305,
+      "length": 4,
+      "value": "600"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 4,
+      "value": "603"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "kind": "IntegerLiteral",
+      "offset": 358,
+      "length": 4,
+      "value": "604"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "kind": "IntegerLiteral",
+      "offset": 305,
+      "length": 1,
+      "value": "600"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 1,
+      "value": "603"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "kind": "IntegerLiteral",
+      "offset": 358,
+      "length": 1,
+      "value": "604"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "kind": "IntegerLiteral",
+      "offset": 305,
+      "length": 1,
+      "value": "600"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 1,
+      "value": "603"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "kind": "IntegerLiteral",
+      "offset": 358,
+      "length": 1,
+      "value": "604"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 20,
+      "value": "\"iZettleSDK.iZettleSDKOAuthToken\""
+    }
+  ]
+}

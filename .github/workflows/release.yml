@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   create_github_release:
-    runs-on: macos-11
+    runs-on: macos-12
     environment: "Github Release"
     steps:
       - name: Checkout Repository
@@ -19,7 +19,7 @@ jobs:
         run: bundle exec fastlane ios github_release
 
   cocoapods_release:
-    runs-on: macos-11
+    runs-on: macos-12
     environment: "Cocoapods Release"
     needs: [create_github_release]
     steps:
