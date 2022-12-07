@@ -58,7 +58,6 @@
 	</array>
 	<key>UISupportedExternalAccessoryProtocols</key>
 	<array>
-		<string>com.miura.shuttle.izettle</string>
 		<string>com.izettle.cardreader-one</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
