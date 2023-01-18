@@ -23,7 +23,15 @@ static NSString * const callbackURL = @"izettle-iZorn://login.callback";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     id<iZettleSDKAuthorizationProvider> authorizationProvider = [self makeAuthorizationProvider];
+
+    ///
+    /// To enable developer mode pass `true` to the `enableDeveloperMode` parameter of this function
+    ///
+    /// [[iZettleSDK shared] startWithAuthorizationProvider:authorizationProvider
+    ///                                 enableDeveloperMode:true];
+    ///
     [[iZettleSDK shared] startWithAuthorizationProvider:authorizationProvider];
+
     [[iZettleSDK shared] setEnabledAlternativePaymentMethods:@[@(IZSDKAlternativePaymentMethodPayPalQRC)]];
     return YES;
 }

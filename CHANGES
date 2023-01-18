@@ -1,3 +1,7 @@
+3.7.0 - 2023-01-18
+- Implemented Developer mode
+- Fixed inline documentation format for public API
+
 3.6.0 - 2022-12-05
 - Support for Xcode 14.1
 - Added support for Percentage Tipping (US only)
