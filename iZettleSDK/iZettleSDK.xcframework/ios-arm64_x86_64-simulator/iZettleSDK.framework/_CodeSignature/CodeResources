@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/iZettleSDK.h</key>
 		<data>
-		EEAX0N1Jcah+C9HWLB60ELHz8Qw=
+		sQZWS4ZoIvLlZAvzJwNbCl4mdsk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nQE1F6oz+wqgSlCE96VIdQqBeVI=
+		moz/nzGLW5EDsqKycWRflWNdkX4=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9cVK5O+QcaG+OWAMtDOMZyH5oTk=
+		zwT0/q5LEIJYMitH75aQWZn7MoA=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hE1aqwlyjtyjfsy7zPzRPFBokSc=
+		twZXhnVRUZAvn4wAhoPbQW3x38U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>PrivateHeaders/iZettleSDK+WorkInProgress.h</key>
 		<data>
-		funRoVxuXpT6obdxSSr+dCuvxNE=
+		azNVUcbA4p58+G4/odD85LBbMho=
 		</data>
 		<key>strip-frameworks.sh</key>
 		<data>
@@ -86,7 +86,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xOCiQJxLakhuMrTOFgLlwoaUYn4Cz5J4plZQI9OQ+v0=
+			B4OKcRM4wXQKUOkH4R48W6GwQ/vhVPXr+w7Ut7UhzEc=
 			</data>
 		</dict>
 		<key>Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Br7sJIBqZyGmv2xDXSWRczGRXNTmkuFxS4IWBoOa5Bs=
+			opv7f59ZSL2nMNMZaV2BT7c9MiDvHeYUMiaOcnyOnHs=
 			</data>
 		</dict>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -156,7 +156,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RNlERLy70zD5+SU1KLMZsA6w0jUsibmqBCpBxrlWego=
+			/zNL4MNOTzvEryk4c6y36Styr7VV7Zd6+LndF0+SD8E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -177,7 +177,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OZUUBefoCHVC/pT8iYURzmXR1cwnkAMTzoA8JU3CL7U=
+			HFjviIYiHlBX0pICiIuO6w8xUj7H2ERvypNI84CmlXw=
 			</data>
 		</dict>
 		<key>strip-frameworks.sh</key>

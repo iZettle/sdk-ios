@@ -490,7 +490,7 @@
 	"#PaypalInvoiceActionPurchaseDetails": "Purchase details",
 	"#PaypalInvoiceHistoryPaid": "Paid",
 	"#PaypalInvoiceEventInvoicePartiallyRefunded": "%1$@ invoice partially refunded",
-	"#PaypalInvoiceTaxesWithPricing": "Taxes - included in product pricing",
+	"#PaypalInvoiceTaxesWithPricing": "included in product pricing",
 	"#PaypalInvoiceInvoiceNo": "Invoice no",
 	"#PaypalInvoiceActionMarkAsPaid": "Record payment",
 	"#PaypalInvoiceEventInvoiceReminderSent": "Reminder sent to %1$@",
@@ -567,5 +567,6 @@
 	"#PaypalInvoiceConfirmEmailMsg": "Your invoice was saved. To send it, please confirm your email address first",
 	"#PayPalInvoiceHistoryDetailAdjustment": "Adjustment",
 	"#PaypalInvoiceHipaaDisclosure": "You can use Invoicing for most types of payments.  But invoices shouldn't include protected health information and aren't intended for use by HIPAA-covered entities.",
-	"#PaypalInvoiceHipaaTitle": "HIPAA Disclosure"
+	"#PaypalInvoiceHipaaTitle": "HIPAA Disclosure",
+	"#PaypalInvoiceLocalizedTaxTitle": "Tax"
 }
