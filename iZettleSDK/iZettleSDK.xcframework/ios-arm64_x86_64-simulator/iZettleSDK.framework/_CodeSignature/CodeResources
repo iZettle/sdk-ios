@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		moz/nzGLW5EDsqKycWRflWNdkX4=
+		P+eFV7ySae2fJMw+w5ZtrO35vss=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zwT0/q5LEIJYMitH75aQWZn7MoA=
+		DDDfbzTjYChC1S2e7/atm0If15E=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		twZXhnVRUZAvn4wAhoPbQW3x38U=
+		DcAoi5cPNhuLNNRbP+pTTcaMROE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			opv7f59ZSL2nMNMZaV2BT7c9MiDvHeYUMiaOcnyOnHs=
+			dFc2Hqw8HndePFPek4XgdxtcVIH9ASAJmdUt/FNRXJo=
 			</data>
 		</dict>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -156,7 +156,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/zNL4MNOTzvEryk4c6y36Styr7VV7Zd6+LndF0+SD8E=
+			75uy074NY6ZKiRo/Rqie6zgVwGPOOq9R0M5QQRi+Pzw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
