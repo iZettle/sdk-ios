@@ -1,3 +1,6 @@
+3.7.1 - 2023-03-23
+- Fix for crash on iOS 12 when initialising payment.
+
 3.7.0 - 2023-01-16
 - Implemented Developer mode
 - Fixed inline documentation format for public API
