@@ -106,4 +106,10 @@ platform :ios do
         # Release via pod trunk
         sh("pod trunk push #{ENV['GITHUB_WORKSPACE']}/iZettleSDK.podspec")
     end
+
+    desc 'Remove version'
+    lane :cocoapods_add_user do
+        # Release via pod trunk
+        sh("pod trunk add-owner iZettleSDK ppeelen@paypal.com")
+    end
 end
