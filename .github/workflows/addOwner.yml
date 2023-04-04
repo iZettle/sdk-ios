@@ -1,6 +1,6 @@
 name: Add owner
 
-on: workflow_dispatch
+on: push
 
 jobs:
   cocoapods_add_owner:
