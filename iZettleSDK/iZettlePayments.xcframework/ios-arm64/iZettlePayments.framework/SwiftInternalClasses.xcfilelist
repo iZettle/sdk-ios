@@ -1,0 +1,59 @@
+#  SwiftInternalClasses.xcfilelist
+#  iZettlePayments
+#
+#  Created by Mikhail Belogorodtsev on 2023-04-06.
+#  Copyright © 2023 PayPal Inc. All rights reserved.
+
+
+# Classes that needs to be exposed to GoApp.
+# All other Swift classes are gonna be cleaned up during internal release creation (to be done)
+# Note: It's not maintained. The classes 
+
+enum APMErrorCode + extensions
+class APMCheckout
+class APMDiscount
+class APMProduct
+class APMProduct.Discount
+class APMProduct.TaxRate
+struct APMAmount
+struct APMPercentage
+class KeyInCheckout
+class KeyInCreditCardInfo
+struct VisibleCardData
+class KeyInPaymentInfo
+class ManualCardEntryPaymentScreenResult
+protocol ManualCardEntryPaymentScreenResultObserver
+class ManualCardEntryPaymentScreenResultObserverWrapper
+struct ManualCreditCard
+struct ManualCreditCardFormatter
+class ManualCreditCardValidator
+enum CreditCardExpiryValidation
+enum KeyInError
+class KeyInProvider
+class KlarnaProvider
+typealias KlarnaProvider.KlarnaPaymentCompletion
+# 👇 PaypalQRCProvider exposes bunch of other stuff that is not used by GoApp but by iZettleSDK
+class PaypalQRCProvider
+typealias PaypalQRCProvider.PaypalQRCPaymentCompletion
+typealias PaypalQRCProvider.PaypalQRCPaymentFailure
+class CustomerListViewController
+class PaypalInvoiceProvider
+class PaypalInvoiceProvider.PaypalInvoiceCreditInfo
+class PaypalInvoiceProvider.PaypalInvoiceCreditResult
+typealias PaypalInvoiceProvider.PaypalInvoiceCreditResultsClosure
+typealias PaypalInvoiceProvider.PaypalInvoiceCreditClosure
+typealias PaypalInvoiceProvider.PaypalInvoiceRefundClosure
+typealias PaypalInvoiceProvider.PaypalInvoiceCancelClosure
+class VenmoQRCProvider
+typealias VenmoQRCProvider.VenmoQRCPaymentCompletion
+typealias VenmoQRCProvider.VenmoQRCPaymentFailure
+protocol TrackingConfigurationProvider
+class SDKConfigurator
+class ReaderSettingsViewController
+class TrackingEndpoint
+class TrackingService
+protocol TrackingServiceInterface
+class TrackingEvent
+extension UIDevice.ztl_modelCode
+extension UIDevice.ztl_isCurrentlyCompactSized
+class ZettleSDKDarkMode

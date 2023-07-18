@@ -1,3 +1,11 @@
+3.10.0 - 2023-06-22
+- Added compliance information to the Reader information page.
+- Added payment verification check for unlikely cases where a payment issue occurs mid-transaction which shows to the customer as failed, but still went through.
+
+3.8.0 - 2023-05-02
+- Decrease SDK binary size.
+- Fix issue when no error is returned on Zettle flow start while another VC is being dismissed/shown (support issue https://github.com/iZettle/sdk-ios/issues/424).
+
 3.7.2 - 2023-04-04
 - Fix for crash when calling charge while not being logged in.
 
