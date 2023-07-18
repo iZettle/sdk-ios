@@ -1,0 +1,4722 @@
+{
+  "project": {
+    "name": "payments-sdk-ios",
+    "placeholder_style": "APP",
+    "locales": [
+      "sv-SE",
+      "sv-FI",
+      "da-DK",
+      "fi-FI",
+      "nb-NO",
+      "de-DE",
+      "es-ES",
+      "es-MX",
+      "pt-BR",
+      "nl-NL",
+      "fr-FR",
+      "it-IT",
+      "en-US",
+      "es-US"
+    ]
+  },
+  "textKeys": {
+    "#Abort": {
+      "text": "Cancel",
+      "desc": ""
+    },
+    "#AccountListAddNewUserTitle": {
+      "text": "Add account",
+      "desc": "This means the Zettle account"
+    },
+    "#AccountListForgetAccount": {
+      "text": "Forget account",
+      "desc": "This means the Zettle account"
+    },
+    "#AccountListTitle": {
+      "text": "Choose account",
+      "desc": "This means the Zettle account"
+    },
+    "#AccountSupportMail": {
+      "text": "help.uk@zettle.com",
+      "desc": "The support mail address for this language."
+    },
+    "#AccountTypeSelectionCredit": {
+      "text": "Credit",
+      "desc": "Credit payment with card"
+    },
+    "#AccountTypeSelectionDebit": {
+      "text": "Debit",
+      "desc": "Debit payment for card"
+    },
+    "#Acknowledgements": {
+      "text": "Acknowledgements",
+      "desc": ""
+    },
+    "#AcknowledgementsTitle": {
+      "text": "Acknowledgements",
+      "desc": ""
+    },
+    "#AlertAbortReaderUpdateAbortButton": {
+      "text": "Cancel update",
+      "desc": "",
+      ".locales": [
+        "sv-SE",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-ES",
+        "es-MX",
+        "pt-BR",
+        "nl-NL",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#AlertAbortReaderUpdateCancelButton": {
+      "text": "Continue update",
+      "desc": "",
+      ".locales": [
+        "sv-SE",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-ES",
+        "es-MX",
+        "pt-BR",
+        "nl-NL",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#AlertAbortReaderUpdateMessage": {
+      "text": "Are you sure you want to cancel the update?",
+      "desc": "",
+      ".locales": [
+        "sv-SE",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-ES",
+        "es-MX",
+        "pt-BR",
+        "nl-NL",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#AlertAbortReaderUpdateTitle": {
+      "text": "Cancel software update",
+      "desc": "",
+      ".locales": [
+        "sv-SE",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-ES",
+        "es-MX",
+        "pt-BR",
+        "nl-NL",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#AlertCancel": {
+      "text": "Cancel",
+      "desc": ""
+    },
+    "#AlertErrorTitle": {
+      "text": "An error has occurred",
+      "desc": ""
+    },
+    "#AlertOK": {
+      "text": "OK",
+      "desc": ""
+    },
+    "#AlertTryAgain": {
+      "text": "Try again",
+      "desc": ""
+    },
+    "#AmountToHigh": {
+      "text": "Amount too high",
+      "desc": ""
+    },
+    "#AmountToLow": {
+      "text": "Amount too low",
+      "desc": ""
+    },
+    "#Approved": {
+      "text": "Approved",
+      "desc": ""
+    },
+    "#BLversion": {
+      "text": "Bluetooth version",
+      "desc": "In app: Version of BL software"
+    },
+    "#BTAppPairingDatecsPairIOS": {
+      "text": "Press and hold the <b>\\uF041</b> button for\n<b>3 seconds</b> to go into Bluetooth\npairing mode.",
+      "desc": ""
+    },
+    "#BTAppPairingDoneTextIOS": {
+      "text": "Your card reader is paired and ready to use.",
+      "desc": ""
+    },
+    "#BTAppPairingPairingDoneTitle": {
+      "text": "You’re all set!",
+      "desc": "Used in tutorial when connecting a card reader. This tells the user the pairing succeeded. "
+    },
+    "#BTAppPairingPairingModeTitleDatecs": {
+      "text": "Activate pairing mode.",
+      "desc": ""
+    },
+    "#BTAppPairingPowerOnTitle": {
+      "text": "Power on your card reader",
+      "desc": "Used in tutorial when connecting a card reader. This tells the user to power on the card reader. "
+    },
+    "#BTAppPairingStartButton": {
+      "text": "Connect card reader",
+      "desc": "Button used in different places of the app to start the wizard to get help connecting a card reader. "
+    },
+    "#Back": {
+      "text": "Back",
+      "desc": ""
+    },
+    "#BluetoothPoweredOffPaymentSubtitile": {
+      "text": "Turn on Bluetooth to continue with your payment",
+      "desc": "SUBTITLE When taking a payment and the bluetooth is off we pop up this message"
+    },
+    "#BluetoothPoweredOffTitle": {
+      "text": "Bluetooth is off",
+      "desc": "Title: A payment is initiated but Bluetooth is turned off. Display message and a button to open settings. "
+    },
+    "#BluetoothUnauthorizedButtonTitle": {
+      "text": "Open settings",
+      "desc": "\"Open settings\" button"
+    },
+    "#BluetoothUnauthorizedSubtitle": {
+      "text": "To connect to a Reader and take payments, we need your permission to use Bluetooth. Go to System Settings to allow access.",
+      "desc": "In iOS 13, If the user don't allow us to use Bluetooth, we need prompt the user to go to Settings and allow under the Go app when taking payments and in pairing. BODY"
+    },
+    "#BluetoothUnauthorizedTitle": {
+      "text": "We need your permission to use Bluetooth",
+      "desc": "In iOS 13, If the user don't allow us to use Bluetooth, we need prompt the user to go to Settings and allow under the Go app when taking payments and in pairing. TITLE"
+    },
+    "#BuyCardReader": {
+      "text": "Buy card reader",
+      "desc": ""
+    },
+    "#BuyCardReaderUrl": {
+      "text": "https://www.zettle.com/gb/card-readers",
+      "desc": "URL to a page where the user can buy a card reader"
+    },
+    "#Cancel": {
+      "text": "Cancel",
+      "desc": ""
+    },
+    "#CancelPurchaseText": {
+      "text": "Are you sure you want to cancel the payment?",
+      "desc": ""
+    },
+    "#CancelingCardPaymentDescription": {
+      "text": "Cancelling the card payment…",
+      "desc": "Canceling the card payment…"
+    },
+    "#CancelingCardPaymentTitle": {
+      "text": "Cancelling payment",
+      "desc": ""
+    },
+    "#Card": {
+      "text": "Card",
+      "desc": "General-purpose card label"
+    },
+    "#CardAmountTooLowMessage": {
+      "text": "Minimum amount is %@",
+      "desc": "Used in card payment when the total amount is too low, the %@ will be replace by the amount",
+      ".locales": [
+        "sv-SE",
+        "sv-FI",
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-ES",
+        "es-MX",
+        "pt-BR",
+        "nl-NL",
+        "fr-FR",
+        "it-IT"
+      ]
+    },
+    "#CardAmountTooLowTitle": {
+      "text": "Card amount too low",
+      "desc": "Used in card payment when the total amount is too low",
+      ".locales": [
+        "sv-SE",
+        "sv-FI",
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-ES",
+        "es-MX",
+        "pt-BR",
+        "nl-NL",
+        "fr-FR",
+        "it-IT"
+      ]
+    },
+    "#CardHasChip": {
+      "text": "Card has chip",
+      "desc": ""
+    },
+    "#CardNotReadText": {
+      "text": "Card not read",
+      "desc": ""
+    },
+    "#CardPaymentTitle": {
+      "text": "Card Payment",
+      "desc": ""
+    },
+    "#CardReaderDatecs": {
+      "text": "Zettle Reader",
+      "desc": "Datecs reader name "
+    },
+    "#CardReaderDatecsV2": {
+      "text": "Zettle Reader 2",
+      "desc": "General reader name. We use `#CardReaderDatecs` for v1 readers"
+    },
+    "#CardReaderIsDownloadingFirmwareFromServer": {
+      "text": "Downloading card reader software",
+      "desc": ""
+    },
+    "#CardReaderIsRestartingToInstall": {
+      "text": "The card reader will now restart to complete the installation (can take up to 1 minute)",
+      "desc": ""
+    },
+    "#CardReaderIsUpdating": {
+      "text": "Updating card reader...",
+      "desc": ""
+    },
+    "#CardReaderIsUploadingFirmwareToReader": {
+      "text": "Installing card reader software",
+      "desc": ""
+    },
+    "#CardReaderMiura": {
+      "text": "Card Reader Pro",
+      "desc": "Reader Info name of Miura Bluetooth Reader"
+    },
+    "#CardReaderMiuraContactless": {
+      "text": "Card Reader Pro Contactless",
+      "desc": "",
+      ".locales": [
+        "sv-SE",
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-ES",
+        "es-MX",
+        "pt-BR",
+        "nl-NL",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#CardReaderStatusConnected": {
+      "text": "Active",
+      "desc": "Connected v2 reader - Explaining the status of the reader - active "
+    },
+    "#CardReaderStatusDisconected": {
+      "text": "Can't connect",
+      "desc": "Connected v2 reader - Explaining the status of the reader - cannot connect to the reader for some reason (too far away etc.)"
+    },
+    "#CardReaderStatusSleeping": {
+      "text": "Sleeping",
+      "desc": "Connected v2 reader - Explaining the status of the reader- sleeping (make sure to use the same type of wording as we do in the manual for this state)"
+    },
+    "#CardReaderUpdateCompleteSubTitle": {
+      "text": "The card reader software has been updated",
+      "desc": "BODY  in \"DONE\" view when the reader update is complete"
+    },
+    "#CardReaderUpdateCompleteTitle": {
+      "text": "Update complete",
+      "desc": "TITLE in \"DONE\"  view when the reader update is complete"
+    },
+    "#CardReaderUpdateOutdateCardPaymentText": {
+      "text": "Your card reader software is outdated, to ensure the best experience you need to update. The update may take up to 5 minutes.",
+      "desc": "Body in \"necessary update\" view. "
+    },
+    "#CardReaderUpdateOutdateCardPaymentTitle": {
+      "text": "Update card reader in order to take card payments",
+      "desc": "Title in \"necessary update\" view. "
+    },
+    "#CardReaderUpdateOutdateCardPaymentUpdateLaterText": {
+      "text": "Until you update the reader you can use other payment methods.",
+      "desc": "Info under \"later\" button in  \"necessary update\" view. "
+    },
+    "#CardReaderUpdateTitle": {
+      "text": "Update",
+      "desc": ""
+    },
+    "#CardReaderUpdatingFirmwareDone": {
+      "text": "The card reader has been updated. ",
+      "desc": ""
+    },
+    "#CardReaderWizardBTReader": {
+      "text": "Bluetooth",
+      "desc": "",
+      ".locales": [
+        "sv-SE"
+      ]
+    },
+    "#CashRegisterPurchaseNotAllowedWithAPIAlertMessage": {
+      "text": "This account is connected to a cash register. If you want to use the account with this service you need to unsubscribe to the cash register.\n",
+      "desc": "",
+      ".locales": [
+        "sv-SE",
+        "de-DE",
+        "nl-NL",
+        "fr-FR",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#CashRegisterPurchaseNotAllowedWithAPIAlertTitle": {
+      "text": "Zettle Cash Register is not compatible with this service",
+      "desc": "",
+      ".locales": [
+        "sv-SE",
+        "de-DE",
+        "nl-NL",
+        "fr-FR",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#Clear": {
+      "text": "Clear",
+      "desc": ""
+    },
+    "#Close": {
+      "text": "Close",
+      "desc": ""
+    },
+    "#Compliance": {
+        "text": "Compliance",
+        "desc": "Text key used as a title for a row that shows if the reader is P2PE or DSS compliant"
+    },
+    "#ConnectReaderInfo": {
+      "text": "Connect an Zettle card reader to accept easy card payments.",
+      "desc": "The text should appear when you press the charge button in the main view without a reader. It's sort of a subtext to #ConnectCardReader\n\nBasically to make it more understandable to the user that you have to connect a reader to take card payments."
+    },
+    "#ConnectedCardReaders": {
+      "text": "Connected card readers",
+      "desc": "Title of the section which contains list of connected card readers"
+    },
+    "#Continue": {
+      "text": "Continue",
+      "desc": ""
+    },
+    "#Date": {
+      "text": "Date",
+      "desc": "General caption for date presentation"
+    },
+    "#Dismiss": {
+      "text": "Dismiss",
+      "desc": ""
+    },
+    "#Done": {
+      "text": "Done",
+      "desc": ""
+    },
+    "#FailedTransactionsText": {
+      "text": "Failed to connect",
+      "desc": "TITLE Used in apps when we fail to connect to card readers"
+    },
+    "#FirmwareVersion": {
+      "text": "Firmware version",
+      "desc": "In app, tile for firmware version"
+    },
+    "#ForgetCardReaderButton": {
+      "text": "Forget card reader",
+      "desc": "Connected v2 reader - This button will open a dialoge asking if the user want to forget the reader i.e. not pairing automatically"
+    },
+    "#ForgetCardReaderMessage": {
+      "text": "This device will disconnect from %@",
+      "desc": "A dialog message for forgetting reader - when translating do not take away the \"%@\" signs (the card reader name will be displayed there)"
+    },
+    "#ForgetCardReaderTitle": {
+      "text": "Forget this reader?",
+      "desc": "A dialog title for forget reader"
+    },
+    "#KeyIn": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "General name of Key In",
+      "text": "Manual card entry"
+    },
+    "#KeyInActivatingSubTitle1": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Subtitle - Activating status text (after 20 sec)",
+      "text": "Not long now!"
+    },
+    "#KeyInActivatingSubTitle2": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Subtitle - Activating status text (after 40 sec)",
+      "text": "You can leave this page and we'll keep working in the background"
+    },
+    "#KeyInActivatingTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title when activating",
+      "text": "Activating…"
+    },
+    "#KeyInActivationCarouselText1": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Carousel text 1 for key in activation page",
+      "text": "Enter the card info to make a sale."
+    },
+    "#KeyInActivationReadMoreBelow": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "To let users know there are more details under activation component",
+      "text": "Read more about terms and fees"
+    },
+    "#KeyInActivationConfirm": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "`Activate` button title",
+      "text": "Activate"
+    },
+    "#KeyInActivationDefaultSubTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Default subtitle when Key In isn't activated",
+      "text": "By activating, you acknowledge that terms and transaction fees apply."
+    },
+    "#KeyInActivationFeesBody": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Description of the Key-In in the activation details panel related to fees",
+      "text": "Fees for transactions in which card details are manually entered are higher than automatic card transactions because manually entering card details increases security risks.<br><br><a href=\"#FeesLink\">View transaction fees</a>"
+    },
+    "#KeyInActivationTermsLink": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Text of the link in the activation details panel for Key-In to read about all terms and conditions that apply",
+      "text": "<a href=\"#GeneralTermsLink\">Terms and conditions</a>"
+    },
+    "#KeyInActivationTermsSectionLinks": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Text of the terms section in the activation details panel for Key-In (when we need to display multiple links)",
+      "text": "<a href=\"#GeneralTermsLink\">General terms and conditions</a><br><a href=\"#PaymentTermsLink\">Payment terms and conditions</a><br><a href=\"#PrivacyPolicyLink\">Privacy policy</a>"
+    },
+    "#KeyInActivationDetailHeader": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Bold pre-description on the activation card",
+      "text": "This payment option is ideal if you wish to take payments over the phone."
+    },
+    "#KeyInAccessibilityAnnouncementActivated": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Text pronouncing by VoiceOver once the KeyIn activation is completed",
+      "text": "KeyIn, Activated, Will appear as a payment option."
+    },
+    "#KeyInActivationOffSubTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Subtitle when toggle is Off",
+      "text": "Will not appear as a payment option"
+    },
+    "#KeyInActivationOffTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title when the toggle is Off",
+      "text": "Off"
+    },
+    "#KeyInActivationOnSubTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Subtitle when toggle is On",
+      "text": "Will appear as a payment option"
+    },
+    "#KeyInActivationOnTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title when toggle is On",
+      "text": "On"
+    },
+    "#KeyInActivationFailed": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Default error presented in case of activation failure",
+      "text": "An unknown error occurred. Please try again later."
+    },
+    "#KeyInEnterCardDetails": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title for Key In screen",
+      "text": "Enter Card Details"
+    },
+    "#KeyInCardNumberPlaceholder": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Placeholder for card number text field on Key In screen",
+      "text": "Card number"
+    },
+    "#KeyInExpiryDatePlaceholder": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Placeholder for expiry date text field on Key In screen",
+      "text": "Expires (mm/yy)"
+    },
+    "#KeyInCVCPlaceholder": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Placeholder for CVC text field on Key In screen",
+      "text": "CVC"
+    },
+    "#KeyInPostalCodePlaceholder": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Placeholder for postcode text field on Key In screen: UK='Postcode'  US='Zip code'",
+      "text": "Postcode"
+    },
+    "#KeyInPayButton": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title for pay button on Key In screen",
+      "text": "Pay"
+    },
+    "#KeyInPayButtonActivated": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title for pay button enabled message on voice over for Key In screen",
+      "text": "Pay button activated"
+    },
+    "#KeyInInvalidCreditCard": {
+      "text": "Invalid card number",
+      "desc": "Invalid credit card entered into field",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#KeyInInvalidCVC": {
+      "text": "Invalid CVC",
+      "desc": "Invalid CVC number entered into field",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#KeyInInvalidPostalCode": {
+      "text": "Invalid postcode",
+      "desc": "UK use: Invalid postal  US use: Invalid zip code",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#KeyInInvalidDate": {
+      "text": "Invalid date",
+      "desc": "Invalid date entered into field",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#KeyInPaymentFailed": {
+      "text": "The payment couldn’t be processed, please try again.",
+      "desc": "Message shown for the user after payment is cancelled by the system."
+    },
+    "#KeyInPaymentDeclined": {
+      "text": "The payment couldn’t be processed, please try again.",
+      "desc": "Message shown for the user after Keyed card is declined by the backend."
+    },
+    "#KeyInProcessPayment": {
+      "text": "Processing payment",
+      "desc": "Processing manually entered credit card"
+    },
+    "#KeyInExpiryDateVoiceOver": {
+      "text": "Enter expiry date, two-digit month, two-digit year.",
+      "desc": "Card expiry date format description",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#Klarna": {
+      "text": "Klarna",
+      "desc": "General name of Klarna (for no specific usecase)",
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ]
+    },
+    "#KlarnaActivatingSubTitle1": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Subtitle - Activating status text (after 20 sec)",
+      "text": "Not long now!"
+    },
+    "#KlarnaActivatingSubTitle2": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Subtitle - Activating status text (after 40 sec)",
+      "text": "You can leave this page and we'll keep working in the background"
+    },
+    "#KlarnaActivatingTitle": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Title when activating",
+      "text": "Activating…"
+    },
+    "#KlarnaActivationCarouselText1": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Carousel text 1",
+      "text": "Let your customers split their amount or pay later with Klarna."
+    },
+    "#KlarnaActivationCarouselText2": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Carousel text 2",
+      "text": "Select Klarna when you check out, present the QR code and ask your customer to scan it with their phone."
+    },
+    "#KlarnaActivationCarouselText3": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Carousel text 3",
+      "text": "Once your customer confirms the payment, you'll get a confirmation in your app."
+    },
+    "#KlarnaActivationCarouselText4": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Carousel text 4",
+      "text": "However your customers pay, you'll get the full amount in 2 business days."
+    },
+    "#KlarnaActivationConfirm": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "`Activate` button title",
+      "text": "Activate"
+    },
+    "#KlarnaActivationDefaultSubTitle": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Default subtitle when Klarna isn't activated",
+      "text": "By activating, you acknowledge that terms and transaction fees apply."
+    },
+    "#KlarnaActivationReadMoreBelow": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Additional line to the default subtitle",
+      "text": "Read more about terms and fees"
+    },
+    "#KlarnaActivationDetailBody": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Regular description on the activation card",
+      "text": "Whether your customer splits their amount or pays later, you'll receive your Klarna payments in your normal payout.<br><br>Learn more about the payment method and pricing here: <br><br><a href=\"#ReadMoreLink\">Payment method and pricing</a><br><br><a href=\"#GeneralTermsLink\">General terms and conditions</a><br><br><a href=\"#PaymentTermsLink\">Payment terms and conditions</a><br><br><a href=\"#PrivacyPolicyLink\">Privacy policy</a>"
+    },
+    "#KlarnaActivationDetailHeader": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Bold pre-description on the activation card",
+      "text": "Offer your customers more flexibility with Klarna."
+    },
+    "#KlarnaActivationFailed": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Default error presented in case of activation failure",
+      "text": "An unknown error occurred. Please try again later."
+    },
+    "#KlarnaActivationOffSubTitle": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Subtitle when toggle is Off",
+      "text": "Will not appear as a payment option"
+    },
+    "#KlarnaActivationOffTitle": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Title when the toggle is Off",
+      "text": "Off"
+    },
+    "#KlarnaActivationOnSubTitle": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Subtitle when toggle is On",
+      "text": "Will appear as a payment option"
+    },
+    "#KlarnaActivationOnTitle": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Title when toggle is On",
+      "text": "On"
+    },
+    "#KlarnaMissingProductNameBody": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Description of the error presented when a merchant initiates the payment without specifying the product name",
+      "text": "All products must have a description in order to create a valid Klarna payment"
+    },
+    "#KlarnaMissingProductNameTitle": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Title of the error presented when a merchant initiates the payment without specifying the product name",
+      "text": "Product missing description"
+    },
+    "#KlarnaOnboardingNotCompletedTitle": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Title of the error presented when a merchant initiates the payment while onboarding is still in progress",
+      "text": "Activation is still in progress"
+    },
+    "#KlarnaOnboardingNotCompletedBody": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Description of the error presented when a merchant initiates the payment while onboarding is still in progress",
+      "text": "Please try again later.\nIf the issue remains, please reach out to our support for further assistance"
+    },
+    "#KlarnaPaymentCanceled": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Payment canceled by merchant.",
+      "text": "Payment cancelled"
+    },
+    "#KlarnaPaymentAckSpinnerSpeakerText": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Text pronouncing by VoiceOver once the loading indicator during payment acknowledgement is in focus",
+      "text": "Closing"
+    },
+    "#KlarnaPaymentLoadingSpeakerText": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Text pronouncing by VoiceOver once the QR-code loading indicator is in focus",
+      "text": "Loading QR code"
+    },
+    "#KlarnaAccessibilityAnnouncementActivated": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Text pronouncing by VoiceOver once the Klarna activation is completed",
+      "text": "Klarna, Activated, Will appear as a payment option."
+    },
+    "#NoPaymentOptionsProvided": {
+      ".locales": [
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "sv-SE"
+      ],
+      "desc": "Title of the error presented when the Klarna payment initialization fails with `204` error",
+      "text": "Due to a technical issue, we're unable to offer Klarna as a payment method at the moment. Please try again later"
+    },
+    "#P2PEComplianceTitle": {
+        "desc": "Title of the P2PE compliancy. (do not require translations)",
+        "text": "P2PE"
+    },
+    "#DSSComplianceTitle": {
+        "desc": "Title of the DSS compliancy. (do not require translations)",
+        "text": "DSS"
+    },
+    "#PayPalQRCMissingProductNameBody": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Description of the error presented when a merchant initiates the payment without specifying the product name",
+      "text": "All products must have a description in order to create a valid PayPal payment"
+    },
+    "#PayPalQRCMissingProductNameTitle": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title of the error presented when a merchant initiates the payment without specifying the product name",
+      "text": "Product missing description"
+    },
+    "#PaypalQRC": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "General name of PayPal QRC (for no specific usecase)",
+      "text": "PayPal"
+    },
+    "#PaypalQRCActivatingSubTitle1": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT"
+      ],
+      "desc": "Subtitle - Activating status text (after 20 sec)",
+      "text": "Not long now!"
+    },
+    "#PaypalQRCActivatingSubTitle2": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT"
+      ],
+      "desc": "Subtitle - Activating status text (after 40 sec)",
+      "text": "You can leave this page and we'll keep working in the background"
+    },
+    "#PaypalQRCActivatingTitle": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT"
+      ],
+      "desc": "Title when activating",
+      "text": "Activating…"
+    },
+    "#PaypalQRCActivationCarouselText1": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT"
+      ],
+      "desc": "Carousel text 1",
+      "text": "Offer more flexibility to your customer by using PayPal."
+    },
+    "#PaypalQRCActivationCarouselText1US": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Carousel text 1 for US market",
+      "text": "Allow your customers to pay on credit with PayPal."
+    },
+    "#PaypalQRCActivationCarouselText2": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Carousel text 2",
+      "text": "Select PayPal when you check out, present the QR code and ask your customer to scan it with their phone."
+    },
+    "#PaypalQRCActivationCarouselText3": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Carousel text 3",
+      "text": "Once your customer confirms the payment, you'll get a confirmation in your app."
+    },
+    "#PaypalQRCActivationCarouselText4": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT"
+      ],
+      "desc": "Carousel text 4",
+      "text": "However your customer chooses to pay, you'll get the full amount within 1-3 business days."
+    },
+    "#PaypalQRCActivationCarouselText4US": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Carousel text 4 for US market",
+      "text": "However your customer chooses to pay, you'll get the full amount right away."
+    },
+    "#PaypalQRCActivationConfirm": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT"
+      ],
+      "desc": "`Activate` button title",
+      "text": "Activate"
+    },
+    "#PaypalQRCActivationDefaultSubTitle": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT"
+      ],
+      "desc": "Default subtitle when PayPal QRC isn't activated",
+      "text": "By activating, you acknowledge that terms and transaction fees apply."
+    },
+    "#PaypalQRCActivationReadMoreBelow": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT"
+      ],
+      "desc": "Additional line to the default subtitle",
+      "text": "Read more about terms and fees"
+    },
+    "#PaypalQRCActivationDetailBody": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT"
+      ],
+      "desc": "Description of the PayPal QRC in the activation details panel",
+      "text": "Let your customers pay using whichever PayPal payment method they like and remove their need to physically touch your card reader.<br><br>Learn more about the payment method and pricing here.<br><br><a href=\"#ReadMoreLink\">Payment method and pricing</a><br><br><a href=\"#GeneralTermsLink\">General terms and conditions</a><br><br><a href=\"#PaymentTermsLink\">Payment terms and conditions</a><br><br><a href=\"#PrivacyPolicyLink\">Privacy policy</a>"
+    },
+    "#PaypalQRCActivationDetailBodyUS": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Description of the PayPal QRC in the activation details panel",
+      "text": "Let your customers pay using whichever PayPal payment method they like, including PayPal Credit, and remove their need to physically touch your card reader. The fee will differ from your regular card rates.<br><br><a href=\"#ReadMoreLink\">Learn more about the payment method and pricing here</a>."
+    },
+    "#PaypalQRCActivationDetailHeader": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Bold pre-description on the activation card",
+      "text": "Offer your customers more choice by accepting PayPal payments in-store."
+    },
+    "#PaypalQRCActivationFailed": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT"
+      ],
+      "desc": "Default error presented in case of activation failure",
+      "text": "An unknown error occurred. Please try again later."
+    },
+    "#PaypalQRCActivationOffSubTitle": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Subtitle when toggle is Off",
+      "text": "Will not appear as a payment option"
+    },
+    "#PaypalQRCActivationOffTitle": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title when the toggle is Off",
+      "text": "Off"
+    },
+    "#PaypalQRCActivationOnSubTitle": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Subtitle when toggle is On",
+      "text": "Will appear as a payment option"
+    },
+    "#PaypalQRCActivationOnSubTitleSDK": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Subtitle when PayPal QRC is activated by SDK merchants",
+      "text": "Available as a payment option"
+    },
+    "#PaypalQRCActivationOnTitle": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title when toggle is On",
+      "text": "On"
+    },
+    "#PaypalQRCActivationOnTitleSDK": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title when PayPal QRC is activated by SDK merchants",
+      "text": "Payment method activated"
+    },
+    "#PaypalQRCPaymentApprovedSubTitle": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Message presented to merchant when payment is approved",
+      "text": "Approved"
+    },
+    "#PaypalQRCPaymentCanceledBody": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Description of the error presented when payment canceled by customer.",
+      "text": "Cancelled by customer"
+    },
+    "#PaypalQRCPaymentCanceledTitle": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title of the error presented when payment canceled",
+      "text": "Payment cancelled"
+    },
+    "#PaypalQRCPaymentErrorBody": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Description of the error presented when payment has failed unexpectedly",
+      "text": "Please try again"
+    },
+    "#PaypalQRCPaymentErrorTitle": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Description of the error presented when payment has failed unexpectedly",
+      "text": "Payment couldn’t be processed."
+    },
+    "#PaypalQRCOnboardingNotCompletedTitle": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title of the error presented when a merchant initiates the payment while onboarding is still in progress",
+      "text": "Activation is still in progress"
+    },
+    "#PaypalQRCOnboardingNotCompletedBody": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Description of the error presented when a merchant initiates the payment while onboarding is still in progress",
+      "text": "Please try again later.\nIf the issue remains, please reach out to our support for further assistance"
+    },
+    "#PaypalQRCPaymentLoadingSpeakerText": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Text pronouncing by VoiceOver once the QR-code loading indicator is in focus",
+      "text": "Loading QR code"
+    },
+    "#PaypalQRCPaymentQRCSpeakerText": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Text pronouncing by VoiceOver once the QR-code is in focus",
+      "text": "This is a QR code"
+    },
+    "#PaypalQRCPaymentTotalAmountSpeakerText": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Text pronouncing by VoiceOver once the total amount information is in focus",
+      "text": "Total amount #TotalAmount. Ask customer to scan the QR code"
+    },
+    "#PaypalQRCPaymentLearnMore": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title of the `Learn more` screen",
+      "text": "Learn more"
+    },
+    "#PaypalQRCPaymentLearnMoreButtonSpeakerText": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Text pronouncing by VoiceOver once the `Learn more` navigation bar is in focus",
+      "text": "About PayPal"
+    },
+    "#PaypalQRCPaymentLearnMoreBody": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT"
+      ],
+      "desc": "Body of the `Learn more` screen",
+      "text": "Allow your customers to make fast, secure purchases using their PayPal app and remove their need to physically touch your card reader."
+    },
+    "#PaypalQRCPaymentLearnMoreBody2": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT"
+      ],
+      "desc": "Additional info in the `Learn more` screen",
+      "text": "Learn more about the terms, payment method and pricing here:<br><br><a href=\"#ReadMoreLink\">Payment method and pricing</a><br><br><a href=\"#GeneralTermsLink\">General terms and conditions</a><br><br><a href=\"#PaymentTermsLink\">Payment terms and conditions</a><br><br><a href=\"#PrivacyPolicyLink\">Privacy policy</a>"
+    },
+    "#PaypalQRCPaymentLearnMoreBodyUS": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Body of the `Learn more` screen",
+      "text": "Allow your customers to make fast, secure purchases using their PayPal app and remove their need to physically touch your card reader.\n\nWith PayPal, your customer can split their payment but you'll still get paid straight away. The fee will differ from your regular card rates."
+    },
+    "#PaypalQRCPaymentLearnMoreBody2US": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Additional info in the `Learn more` screen for the US market's users",
+      "text": "<a href=\"#ReadMoreLink\">Learn more about the payment method and pricing here.</a>"
+    },
+    "#PaypalQRCPaymentLearnMoreStep1": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Learn more - Step 1",
+      "text": "Ask your customers to open their camera or PayPal app."
+    },
+    "#PaypalQRCPaymentLearnMoreStep2": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Learn more - Step 2",
+      "text": "Present your QR code for them to scan."
+    },
+    "#PaypalQRCPaymentLearnMoreStep3": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Learn more - Step 3",
+      "text": "Ask them to tap ‘confirm’ and the payment will be complete."
+    },
+    "#PaypalQRCPaymentLearnMoreTitle": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Header of the `Learn more` screen",
+      "text": "How to take payments with PayPal QR codes."
+    },
+    "#PaypalQRCPaymentProcessingBody": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Body of the message presented to merchant when payment is processing",
+      "text": "Please wait…"
+    },
+    "#PaypalQRCPaymentProcessingSubTitle": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title of the message presented to merchant when payment is processing",
+      "text": "Payment in progress"
+    },
+    "#PaypalQRCPaymentQRCodeSubTitle": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Message presented to merchant when custom is being waited to scan the QR code",
+      "text": "Ask customer to scan the QR code"
+    },
+    "#PaypalQRCPaymentScannedSubTitle": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title of the message presented to merchant when payment is waiting for customer to confirm",
+      "text": "Waiting for customer to confirm"
+    },
+    "#PaypalQRCPaymentTimeOutBody": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Body of the error presented to merchant when payment is timed out",
+      "text": "Please try again"
+    },
+    "#PaypalQRCPaymentTimeOutTitle": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title of the error presented to merchant when payment is timed out",
+      "text": "Payment timed out"
+    },
+    "#PaypalQRCUnableToFetchLocation": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title of the error presented to merchant when it's impossible to fetch location",
+      "text": "Location not found. Please turn on location services in your phone settings."
+    },
+    "#PaypalQRCPaymentInfoNotAuthorizedTitle": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title of the error presented to merchant when they have no permission to access requested payment info",
+      "text": "Access denied"
+    },
+    "#PaypalQRCPaymentInfoNotAuthorizedMessage": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Body of the error presented to merchant when they have no permission to access requested payment info",
+      "text": "No permission to access this payment info."
+    },
+    "#PaypalQRCPaymentInfoNotFoundTitle": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title of the error presented to merchant when there is no payment info found for the reference provided",
+      "text": "Payment not found"
+    },
+    "#PaypalQRCPaymentInfoNotFoundMessage": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Body of the error presented to merchant when there is no payment info found for the reference provided",
+      "text": "The payment information could not be found."
+    },
+    "#PaypalQRCPaymentInfoTechnicalErrorTitle": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title of the error presented to merchant when unexpected technical error happens during retrieving payment information",
+      "text": "An unknown error occured"
+    },
+    "#PaypalQRCPaymentInfoTechnicalErrorMessage": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Body of the error presented to merchant when unexpected technical error happens during retrieving payment information",
+      "text": "The payment information could not be retrieved. Please try again later."
+    },
+    "#PaypalQRCAccessibilityAnnouncementActivated": {
+      ".locales": [
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Text pronouncing by VoiceOver once the PaypalQRC activation is completed",
+      "text": "PayPal, Activated, Will appear as a payment option."
+    },
+    "#VenmoQRCPaymentCanceledTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title of the error presented when payment canceled",
+      "text": "Payment cancelled"
+    },
+    "#VenmoQRCPaymentCanceledBody": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Description of the error presented when payment canceled by customer.",
+      "text": "Cancelled by customer"
+    },
+    "#VenmoQRCActivationImageText": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Info text below the image in the Activation screen",
+      "text": "Accept Venmo payments with your Zettle app to get paid instantly."
+    },
+    "#VenmoQRCActivationDetailHeader": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Bold pre-description on the activation card",
+      "text": "Take Venmo payments"
+    },
+    "#VenmoQRCActivationDetailBody": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Regular description on the activation card",
+      "text": "Accept Venmo payments for your business and remove the need for customers to touch your phone or card reader.<br><br> Ask your customer to open their camera or Venmo app, then present your QR code and scan. Once your customer taps 'confirm', the payment is complete! By using Venmo, you'll get your money instantly. The fee will differ from your regular card rates. <br><br><a href=\"#ReadMoreLink\">Learn more about the payment method and pricing here.</a>"
+    },
+    "#VenmoQRCActivationOnTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title when the toggle is On",
+      "text": "On"
+    },
+    "#VenmoQRCActivationOnSubTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Subtitle when toggle is On",
+      "text": "Will appear as a payment option"
+    },
+    "#VenmoQRCActivationOffTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title when the toggle is Off",
+      "text": "Off"
+    },
+    "#VenmoQRCActivationOffSubTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Subtitle when toggle is Off",
+      "text": "Will not appear as a payment option"
+    },
+    "#VenmoQRC": {
+      "text": "Venmo",
+      "desc": "General name of Venmo QRC (for no specific usecase)",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#VenmoQRCUnableToFetchLocation": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title of the error presented to merchant when it's impossible to fetch location",
+      "text": "Location not found. Please turn on location services in your phone settings."
+    },
+    "#VenmoQRCPaymentLoadingSpeakerText": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Text pronouncing by VoiceOver once the QR-code loading indicator is in focus",
+      "text": "Loading QR code"
+    },
+    "#VenmoQRCPaymentQRCSpeakerText": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Text pronouncing by VoiceOver once the QR-code is in focus",
+      "text": "This is a QR code"
+    },
+    "#VenmoQRCPaymentTotalAmountSpeakerText": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Text pronouncing by VoiceOver once the total amount information is in focus",
+      "text": "Total amount #TotalAmount. Ask customer to scan the QR code"
+    },
+    "#VenmoQRCPaymentLearnMore": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title of the `Learn more` screen",
+      "text": "Learn more"
+    },
+    "#VenmoQRCPaymentLearnMoreButtonSpeakerText": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Text pronouncing by VoiceOver once the `Learn more` navigation bar is in focus",
+      "text": "About Venmo"
+    },
+    "#VenmoQRCPaymentLearnMoreTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Header of the `Learn more` screen",
+      "text": "How to take payments with Venmo."
+    },
+    "#VenmoQRCPaymentLearnMoreStep1": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Learn more - Step 1",
+      "text": "Ask your customers to open their camera or Venmo app."
+    },
+    "#VenmoQRCPaymentLearnMoreStep2": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Learn more - Step 2",
+      "text": "Present your QR code for them to scan."
+    },
+    "#VenmoQRCPaymentLearnMoreStep3": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Learn more - Step 3",
+      "text": "Ask them to tap ‘confirm’ and the payment will be complete."
+    },
+    "#VenmoQRCPaymentLearnMoreBody": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Body of the `Learn more` screen",
+      "text": "Allow your customers to make fast, secure purchases using their Venmo app and remove their need to physically touch your card reader. By using Venmo, you'll get your money instantly. The fee will differ from your regular card rates."
+    },
+    "#VenmoQRCPaymentLearnMoreBody2": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Additional info in the `Learn more` screen",
+      "text": "<a href=\"#ReadMoreLink\">Learn more about the payment method and pricing here.</a>"
+    },
+    "#VenmoQRCPaymentQRCodeSubTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Message presented to merchant when custom is being waited to scan the QR code",
+      "text": "Ask customer to scan the QR code"
+    },
+    "#VenmoQRCPaymentScannedSubTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title of the message presented to merchant when payment is waiting for customer to confirm",
+      "text": "Waiting for customer to confirm"
+    },
+    "#VenmoQRCPaymentProcessingSubTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title of the message presented to merchant when payment is processing",
+      "text": "Payment in progress"
+    },
+    "#VenmoQRCPaymentProcessingBody": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Body of the message presented to merchant when payment is processing",
+      "text": "Please wait…"
+    },
+    "#VenmoQRCPaymentApprovedSubTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Message presented to merchant when payment is approved",
+      "text": "Approved"
+    },
+    "#VenmoQRCPaymentTimeOutTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title of the error presented to merchant when payment is timed out",
+      "text": "Payment timed out"
+    },
+    "#VenmoQRCPaymentTimeOutBody": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Body of the error presented to merchant when payment is timed out",
+      "text": "Please try again"
+    },
+    "#VenmoQRCPaymentErrorTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Description of the error presented when payment has failed unexpectedly",
+      "text": "Payment couldn’t be processed"
+    },
+    "#VenmoQRCPaymentErrorBody": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Description of the error presented when payment has failed unexpectedly",
+      "text": "Please try again"
+    },
+    "#VenmoQRCOnboardingNotCompletedTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title of the error presented when a merchant initiates the payment while onboarding is still in progress",
+      "text": "Activation is still in progress"
+    },
+    "#VenmoQRCOnboardingNotCompletedBody": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Description of the error presented when a merchant initiates the payment while onboarding is still in progress",
+      "text": "Please try again later.\nIf the issue remains, please reach out to our support for further assistance"
+    },
+    "#VenmoQRCMissingProductNameTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title of the error presented when a merchant initiates the payment without specifying the product name",
+      "text": "Product missing description"
+    },
+    "#VenmoQRCMissingProductNameBody": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Description of the error presented when a merchant initiates the payment without specifying the product name",
+      "text": "All products must have a description in order to create a valid Venmo payment"
+    },
+    "#VenmoQRCActivationOnTitleSDK": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title when Venmo QRC is activated by SDK merchants",
+      "text": "Payment method activated"
+    },
+    "#VenmoQRCActivationOnSubTitleSDK": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Subtitle when Venmo QRC is activated by SDK merchants",
+      "text": "Available as a payment option"
+    },
+    "#VenmoQRCAccessibilityAnnouncementActivated": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Text pronouncing by VoiceOver once the Venmo activation is completed",
+      "text": "Venmo, Activated, Will appear as a payment option."
+    },
+    "#GratuityActivationTitle": {
+      "text": "Enter amount + tip",
+      "desc": "A separate information view describing the tip function and reader requirements links to FAQ page. Title for the text.",
+      ".locales": [
+        "sv-SE",
+        "sv-FI",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "nl-NL",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#GratuityOverLimitBody": {
+      "text": "Ask customer to enter amount + tip.",
+      "desc": "In app tippingflow: This is shown in the app when the cardholder has entered too high amount in the card reader. The cardholder will be asked to start over.",
+      ".locales": [
+        "sv-SE",
+        "sv-FI",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "nl-NL",
+        "en-US",
+        "es-US",
+        "fr-FR"
+      ]
+    },
+    "#GratuityOverLimitTitle": {
+      "text": "Amount is too high",
+      "desc": "In tippingflow (in app and reader): This is shown in the app and on the reader when the cardholder has entered too high amount in the card reader. The cardholder will be asked to start over.",
+      ".locales": [
+        "sv-SE",
+        "sv-FI",
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-MX",
+        "nl-NL",
+        "en-US",
+        "es-US",
+        "fr-FR"
+      ]
+    },
+    "#GratuityUnderLimitBody": {
+      "text": "Ask customer to enter amount + tip.",
+      "desc": "In app tippingflow: This is shown in the app when the cardholder has entered too low amount in the card reader. The cardholder will be asked to start over.",
+      ".locales": [
+        "sv-SE",
+        "sv-FI",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-MX",
+        "nl-NL",
+        "en-US",
+        "es-US",
+        "fr-FR"
+      ]
+    },
+    "#GratuityUnderLimitTitle": {
+      "text": "Amount is too low",
+      "desc": "In tippingflow (both in app and in reader): This is shown in the app and on reader when the cardholder has entered too low amount in the card reader. The cardholder will be asked to start over.",
+      ".locales": [
+        "sv-SE",
+        "sv-FI",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-MX",
+        "nl-NL",
+        "en-US",
+        "es-US",
+        "fr-FR"
+      ]
+    },
+    "#GratuityNotSupportedTitle": {
+      "text": "Tipping is on the way",
+      "desc": ""
+    },
+    "#GratuityNotSupportedSubtitle": {
+      "text": "Your card reader is being updated in order for you to start receiving tips.",
+      "desc": ""
+    },
+    "#GratuityNotSupportedExtra": {
+      "text": "The update might take a few minutes.",
+      "desc": ""
+    },
+    "#GratuityNotSupportedContinue": {
+      "text": "Continue without tipping",
+      "desc": ""
+    },
+    "#IncorrectPinLastAttemptText": {
+      "text": "Enter PIN (last try)",
+      "desc": "",
+      ".locales": [
+        "sv-SE",
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-ES",
+        "es-MX",
+        "pt-BR",
+        "nl-NL",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#IncorrectPinMoreAttemptsTitle": {
+      "text": "Incorrect PIN",
+      "desc": "",
+      ".locales": [
+        "sv-SE",
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-ES",
+        "es-MX",
+        "pt-BR",
+        "nl-NL",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#InsertCardHint": {
+      "text": "Tap/Insert card",
+      "desc": "In card payment view in APP - present card: Explaining what the card holder should do "
+    },
+    "#InsertCardToActivateCardReader": {
+      "text": "Insert card to activate",
+      "desc": "... to activate the card reader in this context"
+    },
+    "#RetrievePaymentInfoLoadingTitle": {
+      "text": "Loading payment details",
+      "desc": "Used in `Retrieve payment info` screen for PayPal/Venmo QRC in the SDK flow"
+    },
+    "#SpeechSupportedPaymentMethods": {
+      "text": "Supports contactless, apple pay, google pay and samsung pay",
+      "desc": "Supported payment methods used by Voice Over"
+    },
+    "#InstallmentsTitle": {
+      "text": "Instalments",
+      "desc": "Will be used for title where user is presented with an installment scenario. ",
+      ".locales": [
+        "es-MX",
+        "pt-BR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#InstallmentsViewTotalAmount": {
+      "text": "Total amount",
+      "desc": "",
+      ".locales": [
+        "sv-SE",
+        "es-MX",
+        "pt-BR",
+        "nl-NL",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#InvalidAPIKeyMessage": {
+      "text": "Incorrect integration. Contact your app provider.",
+      "desc": ""
+    },
+    "#InvalidAPIKeyTitle": {
+      "text": "Payment error",
+      "desc": ""
+    },
+    "#InvalidSessionAlertMessage": {
+      "text": "Please sign in again.",
+      "desc": ""
+    },
+    "#InvalidSessionAlertTitle": {
+      "text": "You have been signed out",
+      "desc": ""
+    },
+    "#InvalidSessionError": {
+      "text": "Your session was invalid. Please sign in again.",
+      "desc": ""
+    },
+    "#InvoiceRefundConfirmButton": {
+      "text": "Confirm refund",
+      "desc": "Action button for cancelling & refunding an invoice",
+      ".locales": [
+        "sv-SE",
+        "nb-NO",
+        "de-DE",
+        "fr-FR",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PayPalInvoiceHistoryDetailAdjustment": {
+      "text": "Adjustment",
+      "desc": "Adjustment amount text",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PayPalInvoiceHistoryDetailShipping": {
+      "text": "Shipping",
+      "desc": "Shipping amount text",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PayPalInvoiceEmptyUnpaidHistoryText": {
+      "text": "No unpaid invoices",
+      "desc": "Message shown for no unpaid invoices",
+      ".locales": [
+        "sv-SE",
+        "nb-NO",
+        "de-DE",
+        "fr-FR",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PayPalInvoiceEmptyPaidHistoryText": {
+      "text": "No paid invoices",
+      "desc": "Message shown for no Paid invoices",
+      ".locales": [
+        "sv-SE",
+        "nb-NO",
+        "de-DE",
+        "fr-FR",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PayPalInvoiceEmptyCreditedHistoryText": {
+      "text": "No other invoices",
+      "desc": "Message shown for no Credited invoices",
+      ".locales": [
+        "sv-SE",
+        "nb-NO",
+        "de-DE",
+        "fr-FR",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PayPalInvoiceNoDueDateText": {
+      "text": "No due date",
+      "desc": "Text to show when an invoice has no due date",
+      ".locales": [
+        "sv-SE",
+        "nb-NO",
+        "de-DE",
+        "fr-FR",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#KeyboardAddKey": {
+      "text": "Add",
+      "desc": ""
+    },
+    "#KeyboardDoneKey": {
+      "text": "Done",
+      "desc": ""
+    },
+    "#KeyboardGoKey": {
+      "text": "Go",
+      "desc": ""
+    },
+    "#KeyboardNextKey": {
+      "text": "Next",
+      "desc": ""
+    },
+    "#KeyboardReturnKey": {
+      "text": "Return",
+      "desc": ""
+    },
+    "#KeyboardSearchKey": {
+      "text": "Search",
+      "desc": ""
+    },
+    "#KeyboardSendKey": {
+      "text": "Send",
+      "desc": ""
+    },
+    "#Later": {
+      "text": "Later",
+      "desc": ""
+    },
+    "#LocationNeededDescriptionSettings": {
+      "text": "To protect both you and the buyer, Zettle needs to register the location of payments. Turn on Location Services in your phone settings.",
+      "desc": ""
+    },
+    "#LocationNeededTitle": {
+      "text": "Zettle needs your location",
+      "desc": ""
+    },
+    "#LoginFailedAlertMessage": {
+      "text": "Incorrect email or password.",
+      "desc": ""
+    },
+    "#LoginFailedAlertTitle": {
+      "text": "Sign-in failed",
+      "desc": ""
+    },
+    "#LoginFailedTooManyFailedAttemptsAlertMessage": {
+      "text": "Too many failed attempts. Please reset your password.",
+      "desc": ""
+    },
+    "#Logout": {
+      "text": "Sign Out",
+      "desc": ""
+    },
+    "#LogoutConfirmCancel": {
+      "text": "Cancel",
+      "desc": ""
+    },
+    "#LogoutConfirmOK": {
+      "text": "Sign Out",
+      "desc": ""
+    },
+    "#LogoutConfirmTitle": {
+      "text": "Are you sure you want to sign out?",
+      "desc": ""
+    },
+    "#MaximumAmountIs": {
+      "text": "The amount exceeds your daily card payment limit.",
+      "desc": ""
+    },
+    "#Model": {
+      "text": "Model",
+      "desc": "For example, \"The model of this android phone is Samsung GT-I9100, or card reader Zettle Reader 2\""
+    },
+    "#NetworkErrorTitle": {
+      "text": "Network error",
+      "desc": "Title for errors that are network related such as no internet connection",
+      ".locales": [
+        "sv-SE",
+        "sv-FI",
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-ES",
+        "es-MX",
+        "pt-BR",
+        "nl-NL",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#NewPaymentText": {
+      "text": "New payment",
+      "desc": ""
+    },
+    "#Next": {
+      "text": "Next",
+      "desc": ""
+    },
+    "#No": {
+      "text": "No",
+      "desc": ""
+    },
+    "#NoCardReaderConnected": {
+      "text": "No card reader connected",
+      "desc": ""
+    },
+    "#NoInternetConnectionError": {
+      "text": "You are not connected to the internet. Please check your network settings.",
+      "desc": ""
+    },
+    "#NoInternetConnectionPaymentSubtitle": {
+      "text": "Please make sure you have internet settings enabled",
+      "desc": "SUBTITLE When taking a payment and there is no internet connection, due to no wifi, airplain mode, or no mobile network. "
+    },
+    "#NoInternetConnectionTitle": {
+      "text": "No internet connection ",
+      "desc": "TITLE When taking a payment and there is no internet connection, due to no wifi, airplain mode, or no mobile network. "
+    },
+    "#NoPinNeeded": {
+      "text": "<b>NO PIN:</b> Press \\uF041 on reader",
+      "desc": "If the card reader supports Pin Bypass, we show this message i.e. the user dont have the PIN code and will instead sign (with signature) the purchase in the paymentflow. \nNote that this text need to inlcude the <b> and \\\\uF041 for it to be displayed properly. \nThe html tags indicates the text being bold and the string includes a digbatz in the form of \"\\\\uF041\"\n\nTranslate only NO PIN: Press on reader"
+    },
+    "#NumericKeyboardDelete": {
+      "text": "Delete",
+      "desc": "Used as accessibility label on our custom numeric keyboard",
+      ".locales": [
+        "sv-SE"
+      ]
+    },
+    "#NumericKeyboardDismiss": {
+      "text": "Hide keyboard",
+      "desc": "Used as accessibility label on our custom numeric keyboard",
+      ".locales": [
+        "sv-SE"
+      ]
+    },
+    "#OK": {
+      "text": "OK",
+      "desc": ""
+    },
+    "#OneInstallment": {
+      "text": "Single payment",
+      "desc": "When customer pays full amount with credit, and not splitting into several instalments",
+      ".locales": [
+        "es-MX",
+        "pt-BR",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#OnlineHelp": {
+      "text": "Support pages",
+      "desc": ""
+    },
+    "#OpenExternalUrlInSafari": {
+      "text": "Open in Safari",
+      "desc": ""
+    },
+    "#OpenExternalUrlInSafariQuestion": {
+      "text": "Do you want to open this link in Safari?",
+      "desc": ""
+    },
+    "#OpenSettings": {
+      "text": "Open Location Services",
+      "desc": "This is used in the location alert view to open the location  privacy settings for the app"
+    },
+    "#OperationFailedNetworkProblem": {
+      "text": "Couldn't perform operation. Please check your network connection and try again.",
+      "desc": "",
+      ".locales": [
+        "sv-SE",
+        "sv-FI",
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-ES",
+        "es-MX",
+        "pt-BR",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#Pair": {
+      "text": "Pair",
+      "desc": "Used by the button in the in-app pairing wizard on iOS."
+    },
+    "#PairingCodeError": {
+      "text": "There was a problem with the connection. Please try again. ",
+      "desc": "\"Umbrella text used for all other errors than can occur during pairing flow. \n\n* Encryption problem\n* Reader was disconnected during the pairing\n* Error reported from reader software\""
+    },
+    "#PairingCodeRejectedFromApp": {
+      "text": "Connection cancelled",
+      "desc": "Paring with the reader cancelled by merchant from app "
+    },
+    "#PairingCodeTimeout": {
+      "text": "Your session has timed out",
+      "desc": "There was a timeout"
+    },
+    "#PairingConfirmationButton": {
+      "text": "Confirm",
+      "desc": "Title of the button the user taps on when they want to confirm the code in the app"
+    },
+    "#PairingConnectingToReader": {
+      "text": "Connecting to card reader...",
+      "desc": "[Connecting To Reader] Text presented after user taps on the reader in the list and app starts the bonding process"
+    },
+    "#PairingConnectingToReaderNoDots": {
+      "text": "Connecting to card reader",
+      "desc": "Spoken instruction; Text presented after user taps on the reader in the list and app starts the bonding process"
+    },
+    "#PairingDetectedCardReaders": {
+      "text": "Detected card readers",
+      "desc": "Header of the section that contains a list of found v2 readers"
+    },
+    "#PairingHelpTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Navigationbar title of the help view",
+      "text": "Help"
+    },
+    "#PairingHelpHeader": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Header below navigationbar",
+      "text": "To pair your reader, make sure:"
+    },
+    "#PairingHelpStep1": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "First bullet point",
+      "text": "It's charged and turned on"
+    },
+    "#PairingHelpStep2": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Second bullet point",
+      "text": "No other devices are connected"
+    },
+    "#PairingHelpStep3": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Third bullet point",
+      "text": "You're using the latest Zettle Reader"
+    },
+    "#PairingHelpBody": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Text below bullet point",
+      "text": "Still have problems?"
+    },
+    "#PairingHelpContact": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Contact support team link",
+      "text": "Please contact our Support team"
+    },
+    "#PairingReaderDetected": {
+      "text": "reader detected",
+      "desc": "A notification that one reader is detected - Singular (note that this text comes after \"1\")"
+    },
+    "#PairingReadersDetected": {
+      "text": "readers detected",
+      "desc": "A notification that more than one reader is detected - Plural (note that this text comes after >\"1\")"
+    },
+    "#PairingSelectCardReader": {
+      "text": "Select your card reader",
+      "desc": "Title of the section which contains list of reader types"
+    },
+    "#PairingStartYourReaderBody": {
+      "text": "If you don’t see its <b>number</b>, tap on the power button",
+      "desc": "BODY in card reader selection view. Instructing the user how to behave if the numbers of their card reader is not visible "
+    },
+    "#PairingStartYourReaderTitle": {
+      "text": "Start and select your reader",
+      "desc": "TITLE in card reader selection view. Here the user will see detected card readers. The user is asked start and select their reader shown in the list"
+    },
+    "#PaymentDeclinedSCASubtitle": {
+      "text": "Insert or try another card",
+      "desc": "Shown in app, when a contactless card authorisation has received a Strong Customer Authentication (SCA) challenge from the issuing back, related to PSD2. \n\nThis should indicate to the merchant that the card needs to be inserted, or another card needs to be tapped. "
+    },
+    "#PaymentDeclinedText": {
+      "text": "Payment declined, please use a different card.",
+      "desc": ""
+    },
+    "#PaymentDeclinedTitle": {
+      "text": "Declined",
+      "desc": ""
+    },
+    "#PaymentEnterAmountGratuity": {
+      "text": "Enter amount + tip",
+      "desc": "In app tippingflow: First view in payment flow, waiting for cardholder to enter total amount. Title",
+      ".locales": [
+        "sv-SE",
+        "sv-FI",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "nl-NL",
+        "en-US",
+        "es-US",
+        "fr-FR"
+      ]
+    },
+    "#PaymentEnterAmountGratuityDescription": {
+      "text": "Ask customer to enter the amount + tip before using their card.",
+      "desc": "In app tippingflow: First view in payment flow, waiting for cardholder to enter total amount. Body, descripting text",
+      ".locales": [
+        "sv-SE",
+        "sv-FI",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "nl-NL",
+        "en-US",
+        "es-US",
+        "fr-FR"
+      ]
+    },
+    "#PaymentFailedCurrencyMismatchMessage": {
+      "text": "Wrong currency",
+      "desc": "",
+      ".locales": [
+        "sv-SE",
+        "sv-FI",
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-ES",
+        "es-MX",
+        "pt-BR",
+        "nl-NL",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PaymentFailedCurrencyMismatchTitle": {
+      "text": "Payment failed",
+      "desc": "",
+      ".locales": [
+        "sv-SE",
+        "sv-FI",
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-ES",
+        "es-MX",
+        "pt-BR",
+        "nl-NL",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PaymentGratuityExtraAmountDescription": {
+      "text": "Ask customer if they want to add a tip.",
+      "desc": "In app tippingflow: First view in payment flow, waiting for cardholder to say yes or no to tip and to enter total amount.  Body, describing text",
+      ".locales": [
+        "da-DK",
+        "es-MX",
+        "en-US",
+        "es-US",
+        "fr-FR"
+      ]
+    },
+    "#PaymentGratuityExtraAmountEnter": {
+      "text": "Add tip?",
+      "desc": "In app tippingflow: First view in payment flow, waiting for cardholder to say yes or no to tip and to enter total amount. Title",
+      ".locales": [
+        "da-DK",
+        "es-MX",
+        "en-US",
+        "es-US",
+        "fr-FR"
+      ]
+    },
+    "#PaymentGratuityPercentageTitle": {
+      "text": "Add tip?",
+      "desc": "In app tippingflow: First view in payment flow, waiting for cardholder to say yes or no to tip (for example 5% tip). Title",
+      ".locales": [
+        "da-DK",
+        "es-MX",
+        "en-US",
+        "es-US",
+        "fr-FR"
+      ]
+    },
+    "#PaymentGratuityPercentageSubtitle": {
+      "text": "Ask customer if they want to add a tip.",
+      "desc": "In app tippingflow: First view in payment flow, waiting for cardholder to say yes or no to tip (for example 5% tip). Subtitle",
+      ".locales": [
+        "da-DK",
+        "es-MX",
+        "en-US",
+        "es-US",
+        "fr-FR"
+      ]
+    },
+    "#PaymentGratuityExtraAmountOverLimitBody": {
+      "text": "Ask customer to enter tip amount.",
+      "desc": "In app tippingflow: This is shown in the app when the cardholder has entered too high amount in the card reader. The cardholder will be asked to start over.",
+      ".locales": [
+        "da-DK",
+        "es-MX",
+        "en-US",
+        "es-US",
+        "fr-FR"
+      ]
+    },
+    "#PaymentGratuityPercentageOverLimitBody": {
+      "text": "Ask customer to enter tip in percent.",
+      "desc": "In app tippingflow: This is shown in the app when the cardholder has entered too high percentage in the card reader. The cardholder will be asked to start over."
+    },
+    "#PaymentInProgress": {
+      "text": "Payment in progress",
+      "desc": ""
+    },
+    "#PaymentNotFoundTitle": {
+      "text": "Payment not found",
+      "desc": "",
+      ".locales": [
+        "sv-SE",
+        "sv-FI",
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-ES",
+        "es-MX",
+        "pt-BR",
+        "nl-NL",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PaymentsCardErrorCanceledByCustomerMessage": {
+      "text": "Cancelled by customer",
+      "desc": "Card payment is aborted by pressing X on a card reader"
+    },
+    "#PaymentsCardErrorCanceledByCustomerTitle": {
+      "text": "Payment cancelled",
+      "desc": "Card payment is aborted by pressing X on a card reader"
+    },
+    "#PaymentsCardErrorTimeoutMessage": {
+      "text": "This payment may not have gone through, please check your receipts and try again.",
+      "desc": "Card payment might got aborted on timeout by a card reader"
+    },
+    "#PaymentsCardErrorTimeoutTitle": {
+      "text": "Payment timed out",
+      "desc": "Card payment is aborted on timeout by a card reader"
+    },
+    "#PleaseWait": {
+      "text": "Please wait...",
+      "desc": ""
+    },
+    "#PleaseWaitNoDots": {
+      "text": "Please wait",
+      "desc": ""
+    },
+    "#PurchaseCanceled": {
+      "text": "Payment cancelled",
+      "desc": ""
+    },
+    "#PurchaseCanceledDescription": {
+      "text": "This payment was cancelled and did not go through. You can check this on your receipts page.",
+      "desc": ""
+    },
+    "#ReaderBatteryLowText": {
+      "text": "The reader is running low on battery.\nPlease connect its charger.",
+      "desc": "Displayed in app when a connected reader is low on battery."
+    },
+    "#ReaderBatteryLowTitle": {
+      "text": "Charge your card reader",
+      "desc": "Displayed in app when a connected reader is low on battery."
+    },
+    "#ReaderBatteryStatus": {
+      "text": "Battery level",
+      "desc": "card reader battery status"
+    },
+    "#ReaderDisplayAuthorizing": {
+      "text": "Please wait...",
+      "desc": ""
+    },
+    "#ReaderDisplayCardHasChip": {
+      "text": "Card has chip\nInsert card",
+      "desc": ""
+    },
+    "#ReaderDisplayCardNotRead": {
+      "text": "Card not read",
+      "desc": ""
+    },
+    "#ReaderDisplayCardOK": {
+      "text": "Waiting for amount...",
+      "desc": ""
+    },
+    "#ReaderDisplayIdentification": {
+      "text": "Approved\nPlease show ID",
+      "desc": ""
+    },
+    "#ReaderDisplayIdleMode": {
+      "text": "Hello!",
+      "desc": "Prompt shown on the reader (initiated by the apps), when the reader is in its \"idle mode\" (e.g. not yet in transaction, capture gratuity etc.)"
+    },
+    "#ReaderDisplayInsertCard": {
+      "text": "Insert card",
+      "desc": "Zettle Reader(s) prompt used when reader is in idle mode (not yet ready for tapping the card). max 21 characters incl. space"
+    },
+    "#ReaderDisplayInsertCardNoSwipe": {
+      "text": "Insert card",
+      "desc": ""
+    },
+    "#ReaderDisplayPurchaseAborted": {
+      "text": "Payment cancelled",
+      "desc": ""
+    },
+    "#ReaderDisplayPurchaseAbortedRemoveCard": {
+      "text": "Payment cancelled\nRemove card",
+      "desc": ""
+    },
+    "#ReaderDisplayPurchaseApproved": {
+      "text": "Approved\nRemove card",
+      "desc": ""
+    },
+    "#ReaderDisplayPurchaseApprovedNoCard": {
+      "text": "Approved",
+      "desc": ""
+    },
+    "#ReaderDisplayReadingCard": {
+      "text": "Please wait...",
+      "desc": ""
+    },
+    "#ReaderDisplayReceipt": {
+      "text": "Thank you!",
+      "desc": ""
+    },
+    "#ReaderDisplaySignature": {
+      "text": "Please sign",
+      "desc": ""
+    },
+    "#ReaderDisplayUpdating": {
+      "text": "Updating...",
+      "desc": ""
+    },
+    "#ReaderInfo": {
+      "text": "Card readers",
+      "desc": "Account setting for card readers"
+    },
+    "#ReaderInfoTitle": {
+      "text": "Card readers",
+      "desc": "Title of card info view"
+    },
+    "#ReaderNecessaryUpdateFailedTitle": {
+      "text": "Update failed",
+      "desc": "STATUS of PROGRESS in \"necessary update view\". This view is informing the user that their reader software is outdated and needs to be updated. The update failed TITLE"
+    },
+    "#ReaderNecessaryUpdateInPairingContinueInBackground": {
+      "text": "Explore app",
+      "desc": "BUTTON in \"necessary update view\" from pairing. This view is informing the user that their reader software is outdated and needs to be updated. This button allow the user to continue exploring the app or use another payment method while updateing the reader.  "
+    },
+    "#ReaderNecessaryUpdateInPairingDescription": {
+      "text": "Your card reader software is outdated. We have started an update to ensure you get the best experience.",
+      "desc": "DESCRIPTION in \"necessary update view\". This view is informing the user that their reader software is outdated and needs to be updated. Here we will show progress % of the update "
+    },
+    "#ReaderNecessaryUpdateInPairingHint": {
+      "text": "Until the card reader update is ready you can use other payment methods or continue exploring the app.",
+      "desc": "TEXT HINT in \"necessary update view\" from pairing. This view is informing the user that their reader software is outdated and needs to be updated. This text is shown close to the button that allows the user to use another payment method while updateing the reader. "
+    },
+    "#ReaderNecessaryUpdateInPairingTitle": {
+      "text": "Just one more thing",
+      "desc": "TITLE for the necessary update view in the pairing flow. This view is informing the user that there is an update for the reader."
+    },
+    "#ReaderNecessaryUpdateInPaymentDescription": {
+      "text": "Your card reader software is outdated. We have started an update to ensure you get the best experience.",
+      "desc": "DESCRIPTION in \"necessary update view\". This view is informing the user that their reader software is outdated and needs to be updated. Here we will show progress % of the update "
+    },
+    "#ReaderNecessaryUpdateInPaymentHint": {
+      "text": "While you update your reader, you can use alternative payment methods",
+      "desc": "TEXT HINT in \"necessary update view\". This view is informing the user that their reader software is outdated and needs to be updated. This text is shown close to the button that allows the user to use another payment method while updating the reader. "
+    },
+    "#ReaderNecessaryUpdateInPaymentTitle": {
+      "text": "Update in progress",
+      "desc": "TITLE in \"necessary update view\". This view is informing the user that their reader software is outdated and needs to be updated. Here we will show progress % of the update along with a description.  "
+    },
+    "#ReaderNecessaryUpdateInPaymentUseOtherPaymentMethod": {
+      "text": "Use alternative",
+      "desc": "BUTTON in \"necessary update view\". This view is informing the user that their reader software is outdated and needs to be updated. This button allow the user to use another payment method while updating the reader.  "
+    },
+    "#ReaderSettingMoreInfoReaderUpToDateText": {
+      "text": "Card reader software is up to date",
+      "desc": "Status text shown when there is no software update available for the reader and the reader is up to date. "
+    },
+    "#ReaderUpdateDoneConfirmButton": {
+      "text": "Done",
+      "desc": "",
+      ".locales": [
+        "sv-SE",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-ES",
+        "es-MX",
+        "pt-BR",
+        "nl-NL",
+        "fr-FR",
+        "it-IT",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#ReaderUpdateReaderRestarting": {
+      "text": "Restarting reader",
+      "desc": "DESCRIPTION in all \"update views\" when we show progress. Restarting the reader when the downloading is complete and the new software is installing. "
+    },
+    "#ReaderUpdateSettingInfoUpdateInProgressDescription": {
+      "text": "We have started to download the latest software to your card reader. The update will improve the performance and your experience of the reader.",
+      "desc": "Used in the connected reader view in Card reader settings \"more info\". DESCRIPTION of the the update and why we are doing it."
+    },
+    "#ReaderUpdateSettingInfoUpdateInProgressTitle": {
+      "text": "Downloading software %@",
+      "desc": "Used in the connected reader view in Card reader settings \"more info\". TITLE of the function followed by a progress %  NOTE: do not take away the \"%@\" from the translation. It is needed from a coding perspective."
+    },
+    "#RefundAmountFromTotalAmount": {
+      "text": "%1$@ of total amount %2$@ will be refunded",
+      "desc": "Subtitle explaining that amount %1$@ with be refunded from a payment of amount %2$@ \ne.g. €25.00 of total amount €53.00 will be refunded"
+    },
+    "#RefundCancelled": {
+      "text": "Refund cancelled",
+      "desc": ""
+    },
+    "#RefundFailed": {
+      "text": "Refund failed",
+      "desc": ""
+    },
+    "#RefundTransactionTitle": {
+      "text": "Refund payment",
+      "desc": ""
+    },
+    "#RefundLoadingIndicatorSpeakerText": {
+      "text": "Loading",
+      "desc": "Text pronouncing by VoiceOver once the loading indicator is in focus"
+    },
+    "#RemoveCardText": {
+      "text": "Remove card",
+      "desc": ""
+    },
+    "#Save": {
+      "text": "Save",
+      "desc": "Title for save button"
+    },
+    "#Send": {
+      "text": "Send",
+      "desc": ""
+    },
+    "#SerialNumber": {
+      "text": "Serial number",
+      "desc": ""
+    },
+    "#ServerCommunicationError": {
+      "text": "An unknown error occurred. Please try again later.",
+      "desc": ""
+    },
+    "#ServiceUnavailableErrorSubtitle": {
+      "text": "This payment may not have gone through, please check your receipts and try again.",
+      "desc": "There is some sort of hiccup on the back end system and we do not know why. SUBTITLE"
+    },
+    "#ServiceUnavailableErrorTitle": {
+      "text": "Service temporarily unavailable",
+      "desc": "There is some sort of hiccup on the back end system and we do not know why. TITLE"
+    },
+    "#Settings": {
+      "text": "Settings",
+      "desc": ""
+    },
+    "#Hardware": {
+      "text": "Hardware",
+      "desc": "Title for section in the Settings"
+    },
+    "#PaymentSettings": {
+      "text": "Payment settings",
+      "desc": "Title for section in the Settings"
+    },
+    "#Others": {
+      "text": "Others",
+      "desc": "Title for section in the Settings"
+    },
+    "#SetupReaderConfiguringReader": {
+      "text": "Setting up Reader",
+      "desc": "Configuring reader - progress\nDuring connection we might need to reconfigure. "
+    },
+    "#SetupReaderFailedToConnectActionInfo": {
+      "text": "Trying to reconnect",
+      "desc": "Failed to connect\nPROCESS TEXT...We failed to connect with the reader, sometimes it helps to turn the reader on manually. Animation to show tap on power button. "
+    },
+    "#SetupReaderFailedToConnectSubtitle": {
+      "text": "Something went wrong, please press the power button",
+      "desc": "INSTRUCTION We failed to connect with the reader, sometimes it helps to turn the reader on manually. Animation to show tap on power button. "
+    },
+    "#SetupReaderFailedToConnectTitle": {
+      "text": "Press power button",
+      "desc": "TITLE We failed to connect with the reader, sometimes it helps to turn the reader on manually. Animation to show tap on power button. "
+    },
+    "#SetupReaderReconnectingSubtitle": {
+      "text": "Please wait",
+      "desc": "Reconnecting to reader SUBTITLE  - When we know that a reader has been used before we will first try to reconnect to it. "
+    },
+    "#SetupReaderReconnectingTitle": {
+      "text": "Reconnecting to reader",
+      "desc": "Reconnecting to reader TITLE - When we know that a reader has been used before we will first try to re connect to it. "
+    },
+    "#SetupReaderWakingUpSubtitle": {
+      "text": "Please hold on",
+      "desc": "Reconnecting to reader SUBTITLE - When we know that a reader has been used before we will start waking the reader up, inform user that we are still working on it. "
+    },
+    "#SetupReaderWakingUpTitle": {
+      "text": "Reconnecting to reader",
+      "desc": "Reconnecting to reader TITLE - When we know that a reader has been used before we will start waking the reader up, inform user that we are still working on it. "
+    },
+    "#SignatureSignHere": {
+      "text": "Sign here",
+      "desc": ""
+    },
+    "#SpeechDatecsPowerOn": {
+      "text": "Power on your card reader by tapping the button on the top",
+      "desc": "Spoken instruction; Power on your reader to initiate pairing procedure"
+    },
+    "#SpeechSignatureSignHeader": {
+      "text": "Signature needed",
+      "desc": "Spoken instruction; Sign here label"
+    },
+    "#SpeechSignatureSignArea": {
+      "text": "Signature area",
+      "desc": "Spoken instruction; Inform that its possible to draw at the focused view"
+    },
+    "#SpeechSignatureSignEraseDescription": {
+      "text": "Delete the signature",
+      "desc": "Spoken instruction; More context to what the clear/erase button is performing for action"
+    },
+    "#SpeechReaderConfirmButtonName": {
+      "text": "OK button",
+      "desc": "Spoken instruction; The name of the confirm button on the reader"
+    },
+    "#SoftwareVersion": {
+      "text": "Software version",
+      "desc": "In app, tile for software version (Payment application)"
+    },
+    "#SupportArticleTitle": {
+      "text": "Support article",
+      "desc": ""
+    },
+    "#SupportPhoneNumber": {
+      "text": "020-39848464",
+      "desc": ""
+    },
+    "#SupportSendEmailConfirmCancel": {
+      "text": "Are you sure you want to delete your message?",
+      "desc": ""
+    },
+    "#SupportSendEmailConfirmCancelContinue": {
+      "text": "Delete",
+      "desc": ""
+    },
+    "#SupportSendEmailSentMessage": {
+      "text": "Thanks for getting in touch! We'll get back to you within 24 hours.",
+      "desc": ""
+    },
+    "#SupportSendEmailSentTitle": {
+      "text": "Email sent",
+      "desc": ""
+    },
+    "#SupportSendEmailTitle": {
+      "text": "Email",
+      "desc": ""
+    },
+    "#SupportSendEmailFrom": {
+        "text": "From:",
+        "desc": "Label stating who the email is send from."
+    },
+    "#SupportSendEmailSubject": {
+        "text": "Subject:",
+        "desc": "Label stating the subject of the correspondence."
+    },
+    "#TechnicalErrorAbortDescription": {
+      "text": "This payment may not have gone through, please check your receipts and try again.",
+      "desc": "There has been a technical error and the payment might not have gone through."
+    },
+    "#TechnicalErrorAbortTitle": {
+      "text": "Technical error",
+      "desc": ""
+    },
+    "#TechnicalErrorText": {
+      "text": "Technical error",
+      "desc": ""
+    },
+    "#TermsAndConditions": {
+      "text": "General terms and conditions",
+      "desc": ""
+    },
+    "#TermsAndConditionsTitle": {
+      "text": "Terms & Conditions",
+      "desc": ""
+    },
+    "#TermsWebURL": {
+      "text": "https://www.zettle.com/gb/terms?in_app_modal=true",
+      "desc": "This is a URL that will link to the general Terms & Conditions, the format should go like https://www.zettle.com/LOCALE/terms?in_app_modal=true, please make sure that the link you are adding exists."
+    },
+    "#TransactionFailedReaderConnectionLostSubtitle": {
+      "text": "Please connect your card reader and check your receipts, this payment may not have gone through.",
+      "desc": "Detailed text shown to the users in cases where app loses the connection to the card reader, and transaction might have failed because of it"
+    },
+    "#TransactionFailedReaderConnectionLostTitle": {
+      "text": "Transaction failed",
+      "desc": "Text shown to the users in cases where app loses the connection to the card reader, and transaction fails because of it"
+    },
+    "#TryAgain": {
+      "text": "Try again",
+      "desc": ""
+    },
+    "#UnknownCardIssuer": {
+      "text": "Card",
+      "desc": "Unknown card issuer"
+    },
+    "#UnsupportedReaderInfoUrl": {
+      "text": "https://www.zettle.com/help/articles/2980873",
+      "desc": "URL for FAQ article for unsupported readers. ",
+      ".locales": [
+        "sv-SE"
+      ]
+    },
+    "#UnsupportedReaderMessage": {
+      "text": "Your card reader is being discontinued and will stop working on 31 May 2021",
+      "desc": "Messaged shown in app, payment, when a reader soon will be unsupported. Will be followed by a \"reader more\" button that will open a FAQ article with more info. "
+    },
+    "#UpdateReaderFirmwareButtonTitle": {
+      "text": "Update card reader",
+      "desc": ""
+    },
+    "#VerifyYourAccountMessage": {
+      "text": "Please contact help.uk@zettle.com.",
+      "desc": ""
+    },
+    "#VerifyYourAccountTitle": {
+      "text": "Contact support",
+      "desc": ""
+    },
+    "#WaitingForPIN": {
+      "text": "Waiting for PIN",
+      "desc": ""
+    },
+    "#Yes": {
+      "text": "Yes",
+      "desc": ""
+    },
+    "#ACCOUNT_TYPE_SELECTION_CREDIT": {
+      "text": "Credit",
+      "desc": ""
+    },
+    "#ProcessingLoginText": {
+      "text": "Signing in ...",
+      "desc": ""
+    },
+    "#Datecs2PairingCompareAndConfirmSubtitle": {
+      "text": "Confirm that this code matches the one on your card reader by pressing the green button",
+      "desc": ""
+    },
+    "#PairingNotMyReaderButtonTitle": {
+      "text": "I can't see my reader",
+      "desc": ""
+    },
+    "#Datecs2PairingCompareAndConfirmTitle": {
+      "text": "Compare and confirm",
+      "desc": ""
+    },
+    "#ForgetClassicBluetoothCardReaderTitle": {
+      "text": "Forget Reader",
+      "desc": ""
+    },
+    "#RestartReaderDescription": {
+      "text": "There's been a hiccup! Press the power button to turn your Reader off and on again.",
+      "desc": ""
+    },
+    "#RestartReaderTitle": {
+      "text": "Restart your Reader",
+      "desc": ""
+    },
+    "#SignatureAcceptText": {
+      "text": "I agree to pay the amount above according to my card issuer agreement.",
+      "desc": ""
+    },
+    "#CardReaderTitle": {
+      "text": "Card Reader",
+      "desc": ""
+    },
+    "#ForgetClassicBluetoothCardReaderMessage": {
+      "text": "Visit Bluetooth settings on your phone or iPad to forget this Reader",
+      "desc": ""
+    },
+    "#Datecs2PairingNextButtonTitle": {
+      "text": "Finish",
+      "desc": ""
+    },
+    "#MissBankInfoErrorTitle": {
+      "text": "Missing information",
+      "desc": "Title of an error message to the user about missing bank information."
+    },
+    "#MissBankInfoErrorMessage": {
+      "text": "We can’t process your payment as your account is missing information. Please edit your account details or contact support.",
+      "desc": "Message explaining why a payment is not possible."
+    },
+    "#CardPaymentTryAgainTitle": {
+      "text": "Try again",
+      "desc": ""
+    },
+    "#InstalmentsNotEligibile": {
+      "text": "This card does not support installments.",
+      "desc": ""
+    },
+    "#CardInvalidText": {
+      "text": "Card not accepted here",
+      "desc": ""
+    },
+    "#ErroneousSwipeDataTitle": {
+      "text": "Swipe error",
+      "desc": ""
+    },
+    "#ErroneousSwipeDataText": {
+      "text": "Please swipe the card again.",
+      "desc": ""
+    },
+    "#PaymentOutsideCountryTitle": {
+      "text": "Declined",
+      "desc": ""
+    },
+    "#PaymentOutsideCountryText": {
+      "text": "Card payments not accepted outside your own country.",
+      "desc": ""
+    },
+    "#CardUnknownErrorText": {
+      "text": "Unknown error",
+      "desc": ""
+    },
+    "#CancelledByUserErrorMessage": {
+      "text": "Cancelled by user",
+      "desc": "Cancelled by user error message"
+    },
+    "#PINCancelledInAppErrorMessage": {
+      "text": "PIN entry cancelled by user",
+      "desc": "Error reason returned to integrator"
+    },
+    "#PaymentsCardErrorRemovedCardTitle": {
+      "text": "Card removed too soon",
+      "desc": "Card was removed from the card reader before payment completed"
+    },
+    "#PaymentsCardErrorRemovedCardMessage": {
+      "text": "The payment did not go through",
+      "desc": "Card was removed from the card reader before payment completed"
+    },
+    "#PaypalInvoiceActivatingTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Localize string",
+      "text": "Activating..."
+    },
+    "#PaypalInvoiceActivationOnTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title for invoice activation",
+      "text": "Invoices"
+    },
+    "#PaypalInvoiceActivationOnSubTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Subtitle when toggle is On",
+      "text": "Show invoicing as a payment option"
+    },
+    "#PaypalInvoiceActivationDueDateTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Menu item to select days until due date",
+      "text": "Days until due date"
+    },
+    "#PaypalInvoiceActivationCustomTermsTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Menu item to enter invoice custom terms",
+      "text": "Custom Terms"
+    },
+    "#PaypalInvoiceActivationSelectDueDateTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title to select days until due date",
+      "text": "Select days until due date"
+    },
+    "#PaypalInvoiceOnboardingTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Default title when PayPal Invoice is opened for the first time",
+      "text": "Create invoices on the Zettle app and get paid on the go"
+    },
+    "#PaypalInvoiceOnboardingText1": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Paypal Invoice Onboarding information text 1",
+      "text": "Email invoices directly to your customers right from the Zettle app"
+    },
+    "#PaypalInvoiceOnboardingText2": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Paypal Invoice Onboarding information text 2",
+      "text": "Receive money in your PayPal account usually within 1 business day after payment"
+    },
+    "#PaypalInvoiceOnboardingText3": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Paypal Invoice Onboarding information text 3",
+      "text": "Edit, track, and manage all your invoices in one place"
+    },
+    "#PaypalInvoiceOnboardingReadmore": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Paypal Invoice Onboarding information read more",
+      "text": "Read more about our pricing/fees:"
+    },
+    "#PaypalInvoiceOnboardingFeesPolicy": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Paypal Invoice Onboarding information fees policy link text",
+      "text": "Fees policy"
+    },
+    "#PaypalInvoiceOnboardingNextButtonTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Paypal Invoice Onboarding continue button",
+      "text": "Got it"
+    },
+    "#PaypalInvoiceSelectCustomer": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Screen title",
+      "text": "Select customer"
+    },
+    "#PaypalInvoiceFindCustomer": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "search textfield placeholder",
+      "text": "Find a customer"
+    },
+    "#PaypalInvoiceUsePrevCustomer": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Message when no customers are found",
+      "text": "Once you have sent an invoice, you can reuse previous customer details"
+    },
+    "#PaypalInvoiceNewCustomer": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Screen title",
+      "text": "New customer"
+    },
+    "#PaypalInvoiceCustomerDetails": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Customer details screen title",
+      "text": "Customer details"
+    },
+    "#PaypalInvoiceCustomerTypeBusiness": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Customer is a business",
+      "text": "Business"
+    },
+    "#PaypalInvoiceCustomerTypeIndividual": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Customer is an individual",
+      "text": "Individual"
+    },
+    "#PaypalInvoiceCustomerDetailsNextButtonTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Customer Details move to next",
+      "text": "Next"
+    },
+    "#PaypalInvoiceCustomerDetailEmail": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Text field label used for edit/add customer",
+      "text": "Email address (Required)"
+    },
+    "#PaypalInvoiceEmailAddress": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Email address",
+      "desc": "Email address label to display the customer email"
+    },
+    "#PaypalInvoiceCustomerDetailAddress": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Text field label",
+      "text": "Address"
+    },
+    "#PaypalInvoiceCustomerDetailPhoneNumber": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Text field label",
+      "text": "Phone number"
+    },
+    "#PaypalInvoiceCustomerDetailAdditionalInfo": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Text field label",
+      "text": "Additional information"
+    },
+    "#PaypalInvoiceConfirmCustomerDetails": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Screen title",
+      "text": "Confirm"
+    },
+    "#PaypalInvoiceCustomerEditDetailsTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Edit customer details screen",
+      "text": "Customer details"
+    },
+    "#PaypalInvoiceContactNameBusinessTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Customer type segnet label",
+      "text": "Business"
+    },
+    "#PaypalInvoiceContactNameIndividualTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Customer type segment label",
+      "text": "Individual"
+    },
+    "#PaypalInvoiceEditContactBusinessHeader": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Edit Company Header",
+      "text": "Company Information"
+    },
+    "#PaypalInvoiceEditBusinessPlaceholder": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Placeholder text",
+      "text": "Company name (Required)"
+    },
+    "#PaypalInvoiceEditContactReferencePlaceholder": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "placeholder text",
+      "text": "Contact name"
+    },
+    "#PaypalInvoiceEditSendTo": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Send invoice to header",
+      "text": "Send invoice to"
+    },
+    "#PaypalInvoiceEditEmailplaceholder": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Email placeholder",
+      "text": "Email"
+    },
+    "#PaypalInvoiceAddressHeader": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Edit address header",
+      "text": "Billing address"
+    },
+    "#PaypalInvoiceStreetPlaceholder": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Street placeholder",
+      "text": "Street address"
+    },
+    "#PaypalInvoiceEditAddress2Placeholder": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Translation note: en-US = 'Apt/Suite', en-GB = 'Address line 2'",
+      "text": "Apt/Suite"
+    },
+    "#PaypalInvoiceEditCityPlaceholder": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "City placeholder",
+      "text": "City"
+    },
+    "#PaypalInvoiceEditStatePlaceholder": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Translation note: en-US = 'State', en-GB = 'County' ",
+      "text": "State"
+    },
+    "#PaypalInvoiceEditCountryPlaceholder": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Country placeholder",
+      "text": "Country"
+    },
+    "#PaypalInvoiceEditZipPlaceholder": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Translation note: en-US = 'Zip', en-GB = 'Postcode' ",
+      "text": "Zip"
+    },
+    "#PaypalInvoiceEditContactIndividualHeader": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Individual",
+      "text": "About individual"
+    },
+    "#PaypalInvoiceEditFirstNamePlaceholder": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "First Name",
+      "text": "First name (Required)"
+    },
+    "#PaypalInvoiceEditLastNamePlaceholder": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Last name",
+      "text": "Last name (Required)"
+    },
+    "#PaypalInvoiceEditAdditionalInfoHeader": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Edit additional info header",
+      "text": "Additional information"
+    },
+    "#PaypalInvoiceEditPhonePlaceholder": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Customer type segment label",
+      "text": "Phone number"
+    },
+    "#PaypalInvoiceEditAdditionalInfoPlaceholder": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Customer type segment label",
+      "text": "Additional information"
+    },
+    "#PaypalInvoiceEditContact": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Edit Customer details",
+      "text": "Edit"
+    },
+    "#PaypalInvoiceSaveContact": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Save customer details",
+      "text": "Save"
+    },
+    "#PaypalInvoiceCustomerDeleted": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Customer deleted overlay message",
+      "text": "Deleted"
+    },
+    "#PaypalInvoiceRemoveCustomerAlertTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Remove customer Alert title ",
+      "text": "Remove customer"
+    },
+    "#PaypalInvoiceDeleteCustomerAlertButton": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Delete customer button text",
+      "text": "Delete"
+    },
+    "#PaypalInvoiceRemoveCustomerAlertMsg": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Remove customer Alert message",
+      "text": "Are you sure you want to remove this customer?"
+    },
+    "#PaypalInvoiceDeliveryDate": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Delivery date for invoice",
+      "text": "Delivery date"
+    },
+    "#PaypalInvoiceDueDate": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Due date for invoice",
+      "text": "Due date"
+    },
+    "#PaypalInvoiceDateSelectNextButtonTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Send Invoice button",
+      "text": "Send Invoice"
+    },
+    "#PaypalInvoiceEventInvoiceCreated": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "%1$@ Invoice created",
+      "desc": "X Amount Invoice created"
+    },
+    "#PaypalInvoiceEventInvoiceUpdated": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Invoice updated",
+      "desc": "Invoice updated"
+    },
+    "#PaypalInvoiceEventInvoiceSent": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "%1$@ invoice sent to %2$@",
+      "desc": "Invoice sent to customer"
+    },
+    "#PaypalInvoiceEventInvoiceCancelledByMerchant": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Invoice cancelled",
+      "desc": "Invoice cancelled by merchant"
+    },
+    "#PaypalInvoiceEventInvoiceCancelledByInvoicee": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Invoice cancelled",
+      "desc": "Invoice cancelled by Invoicee"
+    },
+    "#PaypalInvoiceEventInvoicePaid": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "%1$@ payment received",
+      "desc": "X amount payment received."
+    },
+    "#PaypalInvoiceEventInvoiceMarkAsPaid": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "%1$@ payment recorded",
+      "desc": "X amount payment recorded."
+    },
+    "#PaypalInvoiceEventInvoiceFullyRefunded": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "%1$@ invoice refunded",
+      "desc": "X Amount invoice refunded and sent to email"
+    },
+    "#PaypalInvoiceEventInvoicePartiallyRefunded": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "%1$@ invoice partially refunded",
+      "desc": "Invoice partially refunded and sent to email"
+    },
+    "#PaypalInvoiceEventInvoiceExternallyRefunded": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "%1$@ refund recorded",
+      "desc": "X Amount Refund recorded"
+    },
+    "#PaypalInvoiceCustomTermsChars": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "%1$@ characters out of %2$@ used",
+      "desc": "character count for the custom terms edit field"
+    },
+    "#PaypalInvoiceEventInvoiceReminderSent": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Reminder sent to %1$@",
+      "desc": "Invoice reminder sent to email."
+    },
+    "#PaypalInvoiceEventInvoiceScheduled": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "%1$@ invoice scheduled %2$@",
+      "desc": "X amount invoice scheduled for due date."
+    },
+    "#PaypalInvoiceEventInvoiceShared": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "%1$@ invoice shared",
+      "desc": "X amount Invoice shared."
+    },
+    "#PaypalInvoiceEventInvoiceViewed": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Invoice viewed",
+      "desc": "Invoice viewed."
+    },
+    "#PaypalInvoiceStatusDraft": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Draft",
+      "desc": "invoice status: Draft"
+    },
+    "#PaypalInvoiceStatusOverdue": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Overdue",
+      "desc": "invoice status: Overdue"
+    },
+    "#PaypalInvoiceStatusSent": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Sent",
+      "desc": "invoice status: Sent"
+    },
+    "#PaypalInvoiceStatusScheduled": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Scheduled",
+      "desc": "invoice status: Scheduled"
+    },
+    "#PaypalInvoiceStatusMarkedAsPaid": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Marked as paid",
+      "desc": "invoice status: Marked as paid"
+    },
+    "#PaypalInvoiceStatusCanceled": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Canceled",
+      "desc": "invoice status: Canceled"
+    },
+    "#PaypalInvoiceStatusRefunded": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Refunded",
+      "desc": "invoice status: Refunded"
+    },
+    "#PaypalInvoiceStatusPartiallyPaid": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Partially paid",
+      "desc": "invoice status: Partially paid"
+    },
+    "#PaypalInvoiceStatusPartiallyRefunded": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Partially refunded",
+      "desc": "invoice status: Partially refunded"
+    },
+    "#PaypalInvoiceStatusMarkedAsRefunded": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Marked as refunded",
+      "desc": "invoice status: Marked as refunded"
+    },
+    "#PaypalInvoiceStatusPaymentPending": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Payment pending",
+      "desc": "invoice status: Payment pending"
+    },
+    "#PaypalInvoiceStatusUnpaid": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Shared",
+      "desc": "invoice status: Unpaid"
+    },
+    "#PaypalInvoiceStatusPaid": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Paid",
+      "desc": "invoice status: Paid"
+    },
+    "#PaypalInvoiceStatusCredited": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Credited",
+      "desc": "invoice status: Credited"
+    },
+    "#PaypalInvoiceTextFieldA11yHintEditting": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Text field",
+      "desc": "Text field accessibility hint when editting"
+    },
+    "#PaypalInvoiceTextFieldA11yHintNotEditting": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Text field, Double tap to edit",
+      "desc": "Text field accessibility hint when not editting"
+    },
+    "#PaypalInvoiceHeaderA11yHint": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "heading",
+      "desc": "Form header accessibility hint"
+    },
+    "#PaypalInvoiceMarkedasPaid": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Manually marked as paid",
+      "desc": "Paypal invoice marking paid amount."
+    },
+    "#PaypalInvoiceCreditedWithAmount": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Credited with amount",
+      "desc": "Paypal invoice marking credited amout."
+    },
+    "#PaypalInvoiceHistoryDue": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Due",
+      "desc": "Paypal invoice history list Due."
+    },
+    "#PaypalInvoiceHistoryUnPaid": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Unpaid",
+      "desc": "Paypal invoice is unpaid"
+    },
+    "#PaypalInvoiceHistoryPaid": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Paid",
+      "desc": "Paypal invoice history list Paid."
+    },
+    "#PaypalInvoiceHistoryOther": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Other",
+      "desc": "Paypal invoice history list Credited, Refunded..."
+    },
+    "#PaypalInvoiceHistoryToday": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Today",
+      "desc": "Paypal invoice history list date grouping Today"
+    },
+    "#PaypalInvoiceHistoryCanceled": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Canceled",
+      "desc": "Paypal invoice Canceled"
+    },
+    "#PaypalInvoiceHistoryRefunded": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Refunded",
+      "desc": "Paypal invoice Refunded."
+    },
+    "#PaypalInvoiceTotal": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Total",
+      "desc": "Paypal invoice Total."
+    },
+    "#PaypalInvoiceTip": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Tip amount",
+      "desc": "Paypal invoice Tip amount."
+    },
+    "#PaypalInvoiceTotalWithTips": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Total(incl. tips)",
+      "desc": "Paypal invoice Total with tips."
+    },
+    "#PaypalInvoiceInvoiceDate": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Invoice date",
+      "desc": "Paypal invoice date."
+    },
+    "#PaypalInvoiceInvoiceNo": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Invoice no",
+      "desc": "Paypal invoice number."
+    },
+    "#PaypalInvoiceActionRefund": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Refund",
+      "desc": "Paypal invoice Refund Button."
+    },
+    "#PaypalInvoiceActionMarkAsPaid": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Record payment",
+      "desc": "Paypal invoice Record payment button text."
+    },
+    "#PaypalInvoiceMarkAsPaid": {
+      "text": "Mark as paid",
+      "desc": "",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PaypalInvoiceMarkAsPaidConfirmationMessage": {
+      "text": "Marked as paid",
+      "desc": "Confirmation message after marking an invoice as paid on the invoice details view",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PaypalInvoiceMarkAsPaidMessage": {
+      "text": "Mark the invoice as paid if you've received a payment outside of Zettle. Otherwise the invoice will be marked as paid automatically.",
+      "desc": "",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PaypalInvoiceMarkAsPaidTitle": {
+      "text": "Manually mark as paid",
+      "desc": "",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PaypalInvoiceActionRecordRefund": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Record refund",
+      "desc": "Paypal invoice Record refund button."
+    },
+    "#PaypalInvoiceActionCancelInvoice": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Cancel invoice",
+      "desc": "Paypal invoice Cancel invoice action button."
+    },
+    "#PaypalInvoiceOpenInBrowser": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Open in browser",
+      "desc": "Paypal invoice opne in browser button."
+    },
+    "#PaypalInvoiceViewPDFReceipt": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "View PDF Receipt",
+      "desc": "Open on app PDF Receipt."
+    },
+    "#PaypalInvoiceActionPurchaseDetails": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Purchase details",
+      "desc": "Paypal invoice Purchase details title."
+    },
+    "#PaypalInvoiceEventHistory": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Event history",
+      "desc": "Paypal invoice event history title."
+    },
+    "#PaypalInvoiceContactPerson": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Contact person",
+      "desc": "Paypal invoice Contact person title."
+    },
+    "#PaypalInvoiceActionTaxes": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Taxes",
+      "desc": "Tranlation Note: en_US = 'Taxes' en_GB = 'VAT' "
+    },
+    "#PaypalInvoiceCustomTermsPlaceholder": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Place holder for custom terms textview",
+      "text": "Your own custom terms printed on the invoice."
+    },
+    "#PaypalInvoiceCustomTermsTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Custom terms and view title",
+      "text": "Custom Terms"
+    },
+    "#PaypalInvoiceDiscount": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Discount display",
+      "text": "Discount"
+    },
+    "#PaypalInvoiceTaxesWithPricing": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "included in product pricing",
+      "desc": "Tax/VAT cart description"
+    },
+    "#PaypalInvoiceLocalizedTaxTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Translation Note: en_US='Tax', en_GB = 'VAT' ",
+      "text": "Tax"
+    },
+    "#PaypalInvoiceSomethingWentWrong": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Something went wrong",
+      "desc": "Error alert message"
+    },
+    "#PaypalInvoiceTryAgain": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "text": "Please try again",
+      "desc": "Error alert message text"
+    },
+    "#PaypalInvoiceDue": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Due for Invoice",
+      "text": "Due"
+    },
+    "#PaypalInvoiceToday": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Today label for invoice",
+      "text": "Today"
+    },
+    "#PaypalInvoiceDateSelectionCollapsed": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "VoiceOver info for invoice selection",
+      "text": "Double tap to edit due date"
+    },
+    "#PaypalInvoiceDateSelectionExpanded": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "VoiceOver info for invoice selection ecollapse state ",
+      "text": "Swipe right to change the date, double tap to close selector"
+    },
+    "#PayPalInvoiceDetailsResendInvoiceText": {
+      "text": "A link to the invoice will be sent to the email address provided.",
+      "desc": "Description of re-send modal",
+      ".locales": [
+        "sv-SE",
+        "nb-NO",
+        "de-DE",
+        "fr-FR",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PayPalInvoiceDetailsResendInvoiceTitle": {
+      "text": "Send reminder",
+      "desc": "Title of re-send modal",
+      ".locales": [
+        "sv-SE",
+        "nb-NO",
+        "de-DE",
+        "fr-FR",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PayPalInvoiceDetailsInvoiceEmailSent": {
+      "text": "Sent",
+      "desc": "Resend success alert text",
+      ".locales": [
+        "sv-SE",
+        "nb-NO",
+        "de-DE",
+        "fr-FR",
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PaypalInvoiceCustomersEnterEmailAnnouncement": {
+      "text": "Please enter a valid email.",
+      "desc": "Voiceover announcement",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PaypalInvoiceCustomersEnterCompanyNameAnnouncement": {
+      "text": "Please enter a company name.",
+      "desc": "Voiceover announcement",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PaypalInvoiceCustomersEnterNameAnnouncement": {
+      "text": "Please enter a name.",
+      "desc": "Voiceover announcement",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PaypalInvoiceInfoButtonAnnouncement": {
+      "text": "More Info",
+      "desc": "Voiceover announcement",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PaypalInvoiceFeesLinkA11yHint": {
+      "text": "Double tap to read more about fees and policies.",
+      "desc": "Voiceover announcement",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PaypalInvoiceEditFieldClearTextA11yLabel": {
+      "text": "Clear text",
+      "desc": "Voiceover announcement for the clear text button",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PaypalInvoiceEditFieldRightAccessoryA11yLabelError": {
+      "text": "Invalid field",
+      "desc": "Voiceover announcement for the right accessory button",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#PaypalInvoiceActivationToggleOnTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title when toggle is On",
+      "text": "On"
+    },
+    "#PaypalInvoiceActivationToggleOffTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title when toggle is Off",
+      "text": "Off"
+    },
+    "#PaypalInvoiceConfirmInvoiceTotal": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Accessibility label",
+      "text": "Total Invoice"
+    },
+    "#PaypalInvoiceUnconfirmedEmail": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Error message for an unconfirmed merchant emaill",
+      "text": "Unconfirmed merchant email"
+    },
+    "#PaypalInvoiceConfirmEmailMsg": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Unconfirmed merchant email error message",
+      "text": "Your invoice was saved. To send it, please confirm your email address first"
+    },
+    "#PaypalInvoiceHipaaTitle": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "HIPAA disclosure title",
+      "text": "HIPAA Disclosure"
+    },
+    "#PaypalInvoiceHipaaDisclosure": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "HIPAA disclosure ",
+      "text": "You can use Invoicing for most types of payments.  But invoices shouldn't include protected health information and aren't intended for use by HIPAA-covered entities."
+    },
+    "#PaypalInvoiceSavedCustomerConfirmation": {
+      "text": "Saved",
+      "desc": "A confirmation text, confirming the customer was actually saved.",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#TapToPayPreparingPayment": {
+      "text": "Preparing payment",
+      "desc": "Tap to pay being prepared screen title",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#TapToPayPaymentInProgress": {
+      "text": "Payment in progress",
+      "desc": "Tap to pay payment in progress screen title",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#TapToPayNoInternetConnection": {
+      "text": "No internet connection",
+      "desc": "Tap to pay no internet screen title",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#TapToPayPaymentApproved": {
+      "text": "Approved",
+      "desc": "Tap to pay payment approved title",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#TapToPayPleaseWait": {
+      "text": "Please wait...",
+      "desc": "Tap to pay processing screen sub title",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#TapToPayPhoneCallConflictErrorSubtitle": {
+      "text": "Phone call conflict. \nStart a new payment & try again.",
+      "desc": "Tap to pay phone call conflict error sub title",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#TapToPayPasscodeDisabledErrorSubtitle": {
+      "text": "Because your passcode is disabled. \nPlease activate your phone’s passcode and \ntry again.",
+      "desc": "Tap to pay passcode is disabled error sub title",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#TapToPayNoInternetErrorSubtitle": {
+      "text": "Please check your internet settings.",
+      "desc": "Tap to pay no internet connection error sub title",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#TapToPayGenericErrorSubtitle": {
+      "text": "The payment can't be processed.",
+      "desc": "Tap to pay generic error sub title",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#TapToPayZettlebyPaypal": {
+      "text": "Zettle by PayPal",
+      "desc": "Tap to pay PayPal Zettle text in the bottom of the payment processing screen",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#TapToPayPaypalZettle": {
+      "text": "PayPal Zettle",
+      "desc": "Tap to pay PayPal Zettle text in the bottom of the payment processing screen",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#TapToPayTitle": {
+      "text": "Tap to Pay on iPhone",
+      "desc": "Tap to pay view title",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#TapToPayProvisioningProgressTitle": {
+      "text": "Activating Tap to Pay",
+      "desc": "Tap to pay provisionoing progress title",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#TapToPayProvisioningProgressSubTitle": {
+      "text": "Tap to Pay on iPhone is activating, \nThis might take 1 minute, but you only \nhave to do it once.",
+      "desc": "Tap to pay provisionoing progress subtitle",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#TapToPayProvisioningCompletedTitle": {
+      "text": "Tap to Pay is activated",
+      "desc": "Tap to pay provisionoing completed title",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#TapToPayProvisioningCompletedSubTitle": {
+      "text": "Tap to Pay on iPhone is activated \nand ready to be used.",
+      "desc": "Tap to pay provisionoing completed subtitle",
+      ".locales": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    "#SpeechReaderNumber": {
+      "text": "Zettle reader %@",
+      "desc": "Spoken instruction; Zettle reader 005"
+    },
+    "#SpeechBatteryStatusCharging": {
+      "text": "Charging",
+      "desc": "Spoken instruction; Charging"
+    },
+    "#SpeechBatteryStatusNotCharging": {
+      "text": "Not charging",
+      "desc": "Spoken instruction; Not charging"
+    },
+    "#SpeechBatteryStatusPercentage": {
+      "text": "%@ percentage battery",
+      "desc": "Spoken instruction; Battery level percentage"
+    },
+    "#SpeechConfirmCodeHint": {
+      "text": "Confirm that the code %@ matches the one on your card reader by pressing the check button",
+      "desc": "Spoken instruction; Explain what needs to be done to confirm code on the reader to complete pairing process"
+    },
+    "#SpeechDetectedReaderAnnouncement": {
+      "text": "Detected reader %@",
+      "desc": "Spoken instruction; Announcement that reader with %@ number is detected"
+    },
+    "#PaymentNotAcceptedTitle": {
+      "text": "Declined",
+      "desc": ""
+    },
+    "#PaymentProcessingErrorTitle": {
+      "text": "Declined",
+      "desc": ""
+    },
+    "#PaymentLimitReachedTitle": {
+      "text": "Declined",
+      "desc": ""
+    },
+    "#PaymentNotAcceptedText": {
+      "text": "Card not accepted here",
+      "desc": ""
+    },
+    "#PaymentProcessingErrorText": {
+      "text": "Payment not approved. \nTechnical error.",
+      "desc": ""
+    },
+    "#PaymentLimitReachedText": {
+      "text": "The amount exceeds your \ndaily card payment limit.",
+      "desc": ""
+    },
+    "#PaymentSenderLimitReachedText": {
+      "text": "The amount exceeds the daily limit for this card.",
+      "desc": ""
+    },
+    "#SwipeDeniedUseChip": {
+      "text": "Card has chip",
+      "desc": ""
+    },
+    "#CardBlockedText": {
+      "text": "Card is blocked",
+      "desc": ""
+    },
+    "#PaymentFailedInvalidDateOrTime": {
+      "text": "Please verify that your phone or tablet has the correct date and timezone.",
+      "desc": "Shown when a payment is declined because the date & time from the app does not match backend's view of what the current time is."
+    },
+    "#PaymentUnsupportedReaderSoftware": {
+      "text": "Your card reader software is out of date, please update it before taking payments.",
+      "desc": "Body in \"unsupported reader software\" view - error state and message that is returned from the backend when trying to perform a transaction with un-supported reader software. Declined by backend"
+    },
+    "#CardPaymentTryAgainText": {
+      "text": "Try again",
+      "desc": ""
+    },
+    "#SpeechReaderUpdateProgress": {
+      "text": "%@ %% updated",
+      "desc": "Announces reader update progress in percent"
+    },
+    "#SpeechReaderInstallmentOption": {
+      "text": "%@ times %@",
+      "desc": "Announces number of payments and the amount of each payment in Installments screen"
+    },
+    "#SpeechReaderInstallmentHint": {
+      "text": "Instalment options available",
+      "desc": "Used in Installments screen. Example: 10.0 Brazilian real, instalment options available"
+    },
+    "#KeyInActivationOnTitleSDK": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Title when Manual card entry payment method is activated by SDK merchants",
+      "text": "Payment method activated"
+    },
+    "#KeyInActivationOnSubTitleSDK": {
+      ".locales": [
+        "en-US",
+        "es-US"
+      ],
+      "desc": "Subtitle when Manual card entry payment method is activated by SDK merchants",
+      "text": "Available as a payment option"
+    },
+    "#TapToPayErrorLowAmountTitle": {
+      "text": "Amount too low",
+      "desc": "error message title for low mount"
+    },
+    "#TapToPayErrorLowAmountSubtitle": {
+      "text": "Minimum amount is %@.",
+      "desc": "error message subtitle for low mount"
+    },
+    "#TapToPayErrorHighAmountTitle": {
+      "text": "Amount too high",
+      "desc": "error message title for too high mount"
+    },
+    "#TapToPayErrorHighAmountSubtitle": {
+      "text": "This charge puts you over the amount you're allowed to charge in a day.",
+      "desc": "error message subtitle for too high mount"
+    },
+    "#TapToPayErrorPaymentCanceledTitle": {
+      "text": "Payment cancelled",
+      "desc": "error message title for payment cancelled"
+    },
+    "#TapToPayErrorPaymentCanceledSubtitle": {
+      "text": "Card won't be charged.",
+      "desc": "error message subtitle for payment cancelled"
+    },
+    "#TapToPayErrorNetworkConnectivityTitle": {
+      "text": "Can't connect",
+      "desc": "error message title for connection error"
+    },
+    "#TapToPayErrorNetworkConnectivitySubtitle": {
+      "text": "Make sure you have internet connection or mobile data enabled.",
+      "desc": "error message subtitle for connection error"
+    },
+    "#TapToPayErrorPaymentDeclinedTitle": {
+      "text": "Payment declined",
+      "desc": "error message title for payment declined"
+    },
+    "#TapToPayErrorPaymentDeclinedSubtitle": {
+      "text": "Try another card or payment method.",
+      "desc": "error message subtitle for payment declined"
+    },
+    "#TapToPayErrorPaymentFailedTitle": {
+      "text": "Payment failed",
+      "desc": "error message title for general payment failed"
+    },
+    "#TapToPayErrorPaymentFailedSubtitle": {
+      "text": "Something went wrong. Sorry we can't be more specific.",
+      "desc": "error message subtitle for general payment failed"
+    },
+    "#TapToPayErrorPaymentFailedPhoneCallInterruptedSubtitle": {
+      "text": "You can’t take payments while a phone call is in progress.",
+      "desc": "error message subtitle for payment failed because of phone call interruption"
+    },
+    "#TapToPayErrorPaymentFailedPasscodeSubtitle": {
+      "text": "To ensure payments are secure, your phone’s passcode must be turned on.",
+      "desc": "error message subtitle for general failed because of absence of a passcode"
+    },
+    "#TapToPayErrorTermsAndConditionsCancelledTitle": {
+      "text": "Not connected to iCloud",
+      "desc": "error message title for iCloud precondition fail"
+    },
+    "#TapToPayErrorTermsAndConditionsCancelledSubtitle": {
+      "text": "To accept Apple’s Terms and Conditions, you must be signed in to your iCloud account with a valid Apple ID.",
+      "desc": "error message subtitle for iCloud precondition fail"
+    },
+    "#TapToPayErroriCloudCannotConnectTitle": {
+      "text": "Can't connect to iCloud",
+      "desc": "error message subtitle for iCloud connection fail"
+    },
+    "#TapToPayErroriCloudCannotConnectSubtitle": {
+      "text": "You must be signed in to your iCloud account with a valid Apple ID to use Tap to Pay.",
+      "desc": "error message subtitle for iCloud connection fail"
+    },
+    "#DatecsGratuityPercentageQuestion": {
+      "text": "Add tip?",
+      "desc": "Question on wether to add a tip or not"
+    },
+    "#DatecsTipPercentageAndAmount": {
+      "text": "Tip",
+      "desc": ""
+    },
+    "#DatecsGratuityPercentagePrompt": {
+      "text": "(tip",
+      "desc": ""
+    }
+  }
+}

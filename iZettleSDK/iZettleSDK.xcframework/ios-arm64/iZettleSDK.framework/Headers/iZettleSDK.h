@@ -26,7 +26,12 @@ typedef NS_ERROR_ENUM(IZSDKErrorDomain, IZSDKErrorCode) {
     IZSDKErrorCodeOperationAlreadyInProgress = -300,
     IZSDKErrorCodeInvalidAmount              = -400,
     IZSDKErrorCodeAmountTooLow               = -401,
-    IZSDKErrorCodeAmountTooHigh              = -402
+    IZSDKErrorCodeAmountTooHigh              = -402,
+    IZSDKErrorCodeDeviceNotSupported         = -403,
+    IZSDKErrorCodeNotEligible                = -404,
+    IZSDKErrorCodeAccountNotLinked           = -405,
+    IZSDKErrorCodeNoNetwork                  = -406,
+    IZSDKErrorCodeUnableToPresentView        = -407
 };
 
 /// Defines PayPal QRC SDK errors.
@@ -347,6 +352,7 @@ NS_SWIFT_NAME(applicationDidOpen(with:));
 /// Hash sum of the plain pan.
 @property (nonatomic, readonly) NSString *panHash;
 @property (nonatomic, readonly) NSString *cardBrand;
+@property (nonatomic, readonly, nullable) NSString *cardIssuingBank;
 
 @property (nonatomic, readonly, nullable) NSString *AID;
 @property (nonatomic, readonly, nullable) NSString *TSI;
