@@ -77,11 +77,7 @@ typedef NS_ENUM(NSInteger, IZSDKPayPalQRCAppearance) {
 
 typedef NS_ENUM(NSInteger, IZSDKAlternativePaymentMethod) {
     /// This payment method represents both `PayPal` and `Venmo` since we are considering `Venmo` as a subtype of `PayPal`.
-    IZSDKAlternativePaymentMethodPayPalQRC = 0,
-#if DEBUG
-    /// This payment method allows manually entering the customer's card details. Read more about it at [developer portal](https://developer.zettle.com/docs/ios-sdk/)
-    IZSDKAlternativePaymentMethodManualCardEntry = 1
-#endif
+    IZSDKAlternativePaymentMethodPayPalQRC = 0
 };
 
 /// Defining which tipping style to be used when initiating a payment with tipping.
