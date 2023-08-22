@@ -47,7 +47,7 @@ In the example app Xcode project, fill in  `iZettleSDKSample/AppDelegate.m` with
  }];
  ...
 ```
-> **Note:** The SDK provides default login and custom login. To use custom login for the example app with `iZettleSDKSample/CustomAuthorizationProvider.m`, you need to set up authorisation code grant with PKCE. For more information about custom login, see [Initialise SDK for custom login](https://developer.zettletest.com/docs/ios-sdk/initialization#initialise-sdk-for-custom-login).
+> **Note:** The SDK provides default login and custom login. To use custom login for the example app with `iZettleSDKSample/CustomAuthorizationProvider.m`, you need to set up authorisation code grant with PKCE. For more information about custom login, see [Initialise SDK for custom login](https://developer.zettle.com/docs/ios-sdk/initialization#initialise-sdk-for-custom-login).
 
 ## Step 2: Initialise the example app
 
