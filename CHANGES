@@ -1,63 +1,73 @@
-3.10.0 - 2023-06-22
+3.13.2
+- Added support for Manual Card Entry payments.
+- Fixed issue with wrong formatting of some Card payment related translations.
+- Fixed issue with reader appearing more then once without name.
+- Fixed issue with V2 Reader pairing flow not starting by default for V2-Reader only markets.
+- Fixed issue where gratuity was not canceled on Reader if merchant cancelled at a certain point.
+
+3.10.0
 - Added compliance information to the Reader information page.
 - Added payment verification check for unlikely cases where a payment issue occurs mid-transaction which shows to the customer as failed, but still went through.
 
-3.8.0 - 2023-05-02
-- Decrease SDK binary size.
-- Fix issue when no error is returned on Zettle flow start while another VC is being dismissed/shown (support issue https://github.com/iZettle/sdk-ios/issues/424).
+3.9.0
+- Fixed issue with reader appearing more then once for some integrators.
 
-3.7.2 - 2023-04-04
+3.8.0
+- Decrease SDK binary size.
+- Fix issue when no error is returned on Zettle flow start while another VC is being dismissed/shown (support issue https://github.com/iZettle/sdk-ios/issues/424)
+
+3.7.2
 - Fix for crash when calling charge while not being logged in.
 
-3.7.1 - 2023-03-23
+3.7.1
 - Fix for crash on iOS 12 when initialising payment.
 
-3.7.0 - 2023-01-16
+3.7.0
 - Implemented Developer mode
 - Fixed inline documentation format for public API
 
-3.6.0 - 2022-12-05
+3.6.0
 - Support for Xcode 14.1
-- Added support for Percentage Tipping (US only)
 - TransactionId is now added to the card- and QRC payments return object.
 - Fix translations for Cancel / Abort text keys for certain locales
+- Added support for Percentage Tipping (US only)
 - Regular maintenance cleanup
 
-3.5.0 - 2022-09-14
+3.5.0
 - Fix not responding on Approved screen for card payments
-- Bugfixes and performance improvements
 - Under the hood changes for cleanup and refactoring
+- Bugfixes and performance improvements
 
-3.4.1 - 2022-06-15
+3.4.1
 - Fixed recurring reader disconnection
 
-3.4.0 - 2022-02-25
+3.4.0
 - Added support for taking PayPal QRC and Venmo QRC payments in the US, UK, and German markets
 - Increased target iOS version to 12.0 (dropping support for iOS10 and iOS11)
 - Bug fixes for iOS 15 UI
 
-3.3.0 - 2021-11-12
+3.3.0
 - Adjustment for new tipping limit in the US
 
-3.2.2 - 2021-09-07
+3.2.2
 - Added support for tipping in the French market
 
-3.2.1 - 2021-07-29
+3.2.1
 - Fix the bug preventing sending analytics events for new installs
 
-3.2.0 - 2021-07-26
-- Updated the UI for improved SDK experience
-- Improved localization
-- Hardened file access security policy
+3.2.0
 - Bugfixes and performance improvements. For example:
     - Fixed double payments during transactions when card readers are disconnected
     - Fixed the missing currency symbol
+- Updated the UI for improved SDK experience
+- Improved localization
+- Hardened file access security policy
 - Improved error handling
 
-3.1.1 - 2021-05-18
+3.1.1
 - Under the hood changes to authentication flow
 
-3.1.0 - 2021-03-26
+3.1.0
 - Added support for US market where Zettle will launch during 2021. If you are interested to join our pilot program, contact us at sdk@zettle.com.
 - Require Xcode 12.4 from now on with latest swift version
 - Support M1 mac simulators
@@ -67,51 +77,50 @@
 - Currently iZettleSDK crashes on simulated devices running iOS 13.7 or earlier on a Mac with Apple silicon due to a bug in WebKit framework. The WebKit bug was fixed in Xcode 12.5 beta 3 and iZettleSDK crash will be fixed once Xcode 12.5 is out of beta and we support it.
 Workaround: On a Mac with Apple silicon use iOS 14+ simulators.
 
-3.0.2 - 2020-08-26
+3.0.2
 - Implement an improved version of the pairing flow
 - Fix an issue where SDK was unable to pair with v2 reader after reconnection failure
 - Remove “Connect another reader” from SDK settings
 - Removed support for iOS 9
 
-3.0.1 - 2020-08-21
+3.0.1
 - Automatically restart card reader after an update is finished
 - Fix a crash on iOS 9
 - Removed extra alert when tapping Continue in the Signature View
 - Various crash fixes and performance improvements under the hood
 
-
-3.0.0 - 2020-07-06
+3.0.0
 - Added support for OAuth 2.0
 - Deprecated API keys. SDK will no longer need to accept API key as part of the SDK initialization process.
 - Migrated SDK binaries to XCFrameworks
 - Implemented in-app pairing flows for all supported iZettle card readers
 - Implemented new version of the SDK settings
 
-2.5.3 - 2020-02-28
+2.5.3
 - Fix an issue where crashes could occur when using iZettle Reader 2 (#285)[https://github.com/iZettle/sdk-ios/issues/285]
 
-2.5.2 - 2020-01-24
+2.5.2
 - Fixed an issue where "iZettle SDK" might delete WebKit cookies on login and logout
 
-2.5.1 - 2020-01-15
+2.5.1
 - Fix "iZettle SDK overrides UIPageControl tint colors using appearance proxy" issue #279
 
-2.5 - 2019-12-11
+2.5
 - SDK is now built using Xcode 11 and Swift 5.1. `ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES` flag is required if your project doesn't include Swift
 - Better support for background modes
 - Bugfixes and improvements 
 
-2.3 - 2019-10-10
+2.3
 - Bug fixes and performance improvements
 
-2.2 - 2019-07-11
+2.2
 - Background update of `iZettle Reader` and iZettle Reader 2` software: 
     Updating card reader software is now done automatically in the background by the SDK
     when time permits
 - Improved handling when re-connection to a card reader
 - Bug fixes and performance improvements
 
-2.1 - 2019-05-15
+2.1
 - Improved reader software update flow
 - Removed support for iOS 8
 - Deprecated `currency` parameter in the `charge(amount:_)` method
@@ -119,24 +128,24 @@ Workaround: On a Mac with Apple silicon use iOS 14+ simulators.
 - Streamlined signature flow UI
 - Bug fixes and performance improvements
 
-2.0.5 - 2019-03-20
+2.0.5
 - Crash in payment flow due to bluetooth connection lost after card was read #10100
 - Increase reader discovery interval up to 20 sec in UI flows
 
-2.0.4 - 2018-12-13
+2.0.4
 - Present iZettle Reader 2 pairing wizard from payment flow
 
-2.0.3 - 2018-11-30
+2.0.3
 - Fixed an issue where card reader might not be displayed in SDK settings after pairing
 
-2.0.2 - 2018-11-27
+2.0.2
 - Remove ability to pair iZettle Reader 2 when using iOS 9. This produced a crash in earlier versions of the SDK. Related issue: #228
 - Fixed an issue where setting `enforcedAccount` property would result in requesting logins for each SDK operation. Related issues: #207, #225
 
-2.0.1 - 2018-11-09
+2.0.1
 - Fixed an issue where iZettleTransport framework was not linked with Cocoapods
 
-2.0 - 2018-11-08
+2.0
 - Added support for iZettle Reader 2
 - Added support for in-app pairing flow for iZettle Reader 2
 - Added support for wake-up/sleep behaviour with iZettle Reader 2
@@ -144,42 +153,42 @@ Workaround: On a Mac with Apple silicon use iOS 14+ simulators.
 - Fixed a issue that could occur when disconnecting card readers on iOS 9 devices
 - Other stability improvements and bug fixes
 
-1.7.1 - 2018-04-04
+1.7.1
 - Support for tipping with iZettle Reader
 - iOS 11 bug fixes
 - Better support for Swift programming language
 - Stability improvements
 
-1.6.2 - 2018-02-05
+1.6.2
 - Added a prefix to NSDictionary `dateForKey:` extension
 
-1.6.1 - 2017-09-22
+1.6.1
 - Fix an issue with "unsupported url" message shown during payment flow
 
-1.6 - 2017-09-15
+1.6
 - Stability improvements
 - iOS 11 support and fixes
 
-v1.5 - 2017-07-24
+1.5
 - Stability improvements
 - Add support for PIN bypass on supported readers
 
-v1.4.2 - 2017-02-14
+1.4.2
 - Updated deploy targets on frameworks to be 8.0 (instead of the incorrect 9.0)
 - Fixed a UI glitch when retrieving info about a payment
 
-v1.4.1 - 2017-02-09
+1.4.1
 - Fixed a bug causing crash
 - A new property hasActiveAccount has been added.
 - The SDK will now reset UIView.areAnimationsEnabled after being presented.
 - Fixed a bug where the version of the framework and hence the iZettleSDK version property still reported "1.3"
 - Added iz prefix to dateForKey: NSDictionary extension.
 
-v1.4.0 - 2017-01-23
+1.4.0
 - Partial refunds
 - Stability and improvments
 
-v1.3.0 2016-07-11
+1.3.0
 - The iZettleSDK now requires iOS SDK 8.0
 - The SDK is now distributed as dynamic frameworks to be embedded in your app instead of as before a static library and resource bundles.
 - Added support for the new iZettle Reader
@@ -188,31 +197,31 @@ v1.3.0 2016-07-11
 - The invalidateSession method has been removed (it was deprecated in v1.2.2). Use enforcedUserAccount instead.
 - Bug fixes.
 
-v1.2.5 - 2016-06-03
+1.2.5
 - Fixed issues with enforcedUserAccount and fast user switching.
 
-v1.2.4 - 2016-05-25
+1.2.4
 - Fixed issues with enforcedUserAccount, especially on iPhones.
 
-v1.2.3 - 2016-03-04
+1.2.3
 - Added contactless to the iZettlePaymentInfo documentation.
 - Fixed a memory leak.
 - Improved error reporting for invalid api-key or bundle-id
 
-v1.2.2 - 2016-02-12
+1.2.2
 - Prefixed some audio C++ libraries to avoid linker collisions.
 - Added support to disable audio readers by adding IZEnableAudioReaders set to NO to the main bundle's info.plist.
 - Fixed crash when manual payment was declined.
 - The invalidateSession method has been deprecated and will be removed in a future version.
 - Various fixes to the refund dialog
 
-v1.2.1 - 2016-01-14
+1.2.1
 - Fixed issue with unsupported keys in Info.plist
 - Fixed dSYM warnings when integrating SDK
 - Fixed issue with Bitcode
 - Updated sample app and podspec to include CoreData framework
 
-v1.2.0 - 2016-01-11
+1.2.0
 - Updates for iOS SDK 9.0 and Xcode 7.0
 - Added support for Bitcode
 - Added nullable type annotations
@@ -221,10 +230,10 @@ v1.2.0 - 2016-01-11
 - Using enforcedUserAccount to handle multiple account won't no longer logout accounts when switching account
 - Extended the description of enforcedUserAccount
 
-v1.1.1 - 2015-09-17
+1.1.1
 - Fixes issue with unsupported keys in Info.plists.
 
-v1.1.0 - 2015-05-13
+1.1.0
 - Added new optional property "enforcedUserAccount", that if set, will enforces that only an iZettle user with this account will be allowed to be logged in.
 - Added a new method "invalidateSession" to programmatically logout an iZettle user
 - The payment result will include Authorization Code
@@ -232,7 +241,7 @@ v1.1.0 - 2015-05-13
 - Support for new card reader
 - Stability improvements
 
-v1.0.0 - 2015-04-15
+1.0.0
 - Methods for login, logout and user info has been removed. Login will be presented when needed, and logout is now available from the new settings view.
 - You can now pass an optional currency parameter to the charge method that will be validated by iZettle (if provided) for the currently logged in user.
 - A new method to retrieve information about a payment has been added.
@@ -243,32 +252,32 @@ v1.0.0 - 2015-04-15
 - The key "type" in the payment info has been removed as it was redundant. Use entryMode instead.
 - MessageUI.framework is now a required framework.
 
-v0.8.3 - 2015-02-04
+0.8.3
 - iZettleSDK will no longer accept method invocation from a background thread
 - Fixed a problem where payments would fail if the device failed to get a location
 - Added more prefixes to categories and class names.
 - The old card reader with Apple dock connector (com.izettle.reader.iOS.a.a.a) is no longer supported.
 
-v0.8.2 - 2014-12-12
+0.8.2
 - Updated the iZettle UI
 - Stability improvements and bug fixes
 
-v0.8.1 - 2014-11-04
+0.8.1
 - Support for XCode 6 and compilation with iOS 8
 - iZettle SDK no longer supports iOS 6
 - UI Tweaks
 - The SDK now requires the integrating app to provide values in the info.plist for the keys "NSLocationWhenInUseUsageDescription" (iOS 8 only) and "NSLocationUsageDescription" (iOS 7 and below)
 
-v0.8.0 - 2014-09-03
+0.8.0
 - Fixes iOS8-related bugs, NOTE: XCode5 is still required when using iZettle SDK.
 - More detailed NSErrors where the underlying errors are propagated.
 - Fixes a bug where the UI could get stuck in the signature view.
 - Chip & Pin reader is no longer kept awake when the app is inactive.
 
-v0.7.1 - 2014-06-18
+0.7.1
 - Removed blocking network calls before presenting and after finisihing login or charge flows.
 
-v0.7.0 - 2014-06-05
+0.7.0
 - Removed IZChargeOptions from chargeAmount: method (only card reader payments are now allowed).
 - Move API documentation out from this file and the header file into "iZettle API.md"
 - Removed payment and user info result constants.
@@ -280,10 +289,10 @@ v0.7.0 - 2014-06-05
 - The paymentInfo dictionary returned has been flattened and some keys have changed names or been removed, see "iZettle API.md"
 - Fixed a problem where amounts could loose their decimals if calling charge when not logged in.
 
-v0.6.1 - 2014-05-13
-* Fixed crash that could occur in a class load method.
+0.6.1
+- Fixed crash that could occur in a class load method.
 
-v0.6.0 - 2014-04-29
+0.6.0
 - Removed references to purchase and removed purchase related keys.
 - Removed description and image from charge method.
 - Added references dictionary to charge method to allow user data to be associated with a payment.
@@ -291,30 +300,30 @@ v0.6.0 - 2014-04-29
 - Added support for Chip & Pin card reader key injection and firmware updating.
 - Only enable location services during payments.
 
-v0.5.3 - 2014-01-09
+0.5.3
 - Fixes a problem with "loginFromViewController:" where the SDK would crash upon cancelling and return NO upon a successful login.
 
-v0.5.2 - 2013-12-19
+0.5.2
 - iZettle views will only be presented in Portrait orientation for iPhone
 - Fixes a problem where IZPaymentTypeKey could return the wrong payment type
 - iZettle SDK will suppress update-dialogs asking the user to update iZettle
 
-v0.5.1 - 2013-12-18
+0.5.1
 - Added abortOngoingPurchase method
 
-v0.5 - 2013-12-12
+0.5
 - Prefixed SBJson and Reachability with IZ to avoid symbol collisions
 - Resetting NSDecimalNumber number behaviors after a purchase
 - Various bug fixes and stability improvements
 
-v0.4.3 - 2013-11-07
+0.4.3
 - Improved handling of bad/no network conditions
 
-v0.4.2 - 2013-11-06
+0.4.2
 - Fixes issues with detection of the Gemalto reader
 - Various bug fixes and stability improvements
 
-v0.4.1 - 2013-10-31
+0.4.1
 - Fixes a problem where iZettle asked for microphone access
 - Fixes problems with music playback during the use of iZettle
 - Various bug fixes

@@ -16,8 +16,8 @@
 /// for an example of how to do that - see `CustomAuthorizationProvider.h`,
 /// and to try it out set `useCustomAuthorizationProvider` to `YES`
 static BOOL const useCustomAuthorizationProvider = NO;
-static NSString * const clientId = @"<client id from developer portal>";
-static NSString * const callbackURL = @"izettle-iZorn://login.callback";
+static NSString * const clientId = @"1a1f43cf-73eb-4fa2-a57d-db29b7cf9c88";
+static NSString * const callbackURL = @"integration-tester://login.callback";
 
 @implementation AppDelegate
 
@@ -32,7 +32,7 @@ static NSString * const callbackURL = @"izettle-iZorn://login.callback";
     ///
     [[iZettleSDK shared] startWithAuthorizationProvider:authorizationProvider];
 
-    [[iZettleSDK shared] setEnabledAlternativePaymentMethods:@[@(IZSDKAlternativePaymentMethodPayPalQRC)]];
+    [[iZettleSDK shared] setEnabledAlternativePaymentMethods:@[@(IZSDKAlternativePaymentMethodPayPalQRC), @(IZSDKAlternativePaymentMethodManualCardEntry)]];
     return YES;
 }
 

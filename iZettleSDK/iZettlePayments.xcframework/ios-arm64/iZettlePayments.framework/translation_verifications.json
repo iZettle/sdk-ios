@@ -1,0 +1,1356 @@
+{
+  "duplicate_escapes": {
+    "CVC": [
+      "#KeyInCVCPlaceholder"
+    ],
+    "Payment failed": [
+      "#PaymentFailedCurrencyMismatchTitle",
+      "#TapToPayErrorPaymentFailedTitle"
+    ],
+    "Please try again later.\nIf the issue remains, please reach out to our support for further assistance": [
+      "#KlarnaOnboardingNotCompletedBody",
+      "#PaypalQRCOnboardingNotCompletedBody",
+      "#VenmoQRCOnboardingNotCompletedBody"
+    ],
+    "Cancel": [
+      "#Abort",
+      "#AlertCancel",
+      "#Cancel",
+      "#LogoutConfirmCancel"
+    ],
+    "Credit": [
+      "#AccountTypeSelectionCredit",
+      "#ACCOUNT_TYPE_SELECTION_CREDIT"
+    ],
+    "Acknowledgements": [
+      "#Acknowledgements",
+      "#AcknowledgementsTitle"
+    ],
+    "OK": [
+      "#AlertOK",
+      "#OK"
+    ],
+    "Try again": [
+      "#AlertTryAgain",
+      "#TryAgain",
+      "#CardPaymentTryAgainTitle",
+      "#CardPaymentTryAgainText"
+    ],
+    "Approved": [
+      "#Approved",
+      "#PaypalQRCPaymentApprovedSubTitle",
+      "#VenmoQRCPaymentApprovedSubTitle",
+      "#ReaderDisplayPurchaseApprovedNoCard",
+      "#TapToPayPaymentApproved"
+    ],
+    "Card": [
+      "#Card",
+      "#UnknownCardIssuer"
+    ],
+    "Card has chip": [
+      "#CardHasChip",
+      "#SwipeDeniedUseChip"
+    ],
+    "Card not read": [
+      "#CardNotReadText",
+      "#ReaderDisplayCardNotRead"
+    ],
+    "Done": [
+      "#Done",
+      "#KeyboardDoneKey",
+      "#ReaderUpdateDoneConfirmButton"
+    ],
+    "Not long now!": [
+      "#KeyInActivatingSubTitle1",
+      "#KlarnaActivatingSubTitle1",
+      "#PaypalQRCActivatingSubTitle1"
+    ],
+    "You can leave this page and we'll keep working in the background": [
+      "#KeyInActivatingSubTitle2",
+      "#KlarnaActivatingSubTitle2",
+      "#PaypalQRCActivatingSubTitle2"
+    ],
+    "Activating…": [
+      "#KeyInActivatingTitle",
+      "#KlarnaActivatingTitle",
+      "#PaypalQRCActivatingTitle"
+    ],
+    "Read more about terms and fees": [
+      "#KeyInActivationReadMoreBelow",
+      "#KlarnaActivationReadMoreBelow",
+      "#PaypalQRCActivationReadMoreBelow"
+    ],
+    "Activate": [
+      "#KeyInActivationConfirm",
+      "#KlarnaActivationConfirm",
+      "#PaypalQRCActivationConfirm"
+    ],
+    "Will not appear as a payment option": [
+      "#KeyInActivationOffSubTitle",
+      "#KlarnaActivationOffSubTitle",
+      "#PaypalQRCActivationOffSubTitle",
+      "#VenmoQRCActivationOffSubTitle",
+      "#PaypalInvoiceActivationOffSubTitle"
+    ],
+    "Off": [
+      "#KeyInActivationOffTitle",
+      "#KlarnaActivationOffTitle",
+      "#PaypalQRCActivationOffTitle",
+      "#VenmoQRCActivationOffTitle",
+      "#PaypalInvoiceActivationOffTitle",
+      "#PaypalInvoiceActivationToggleOffTitle"
+    ],
+    "Will appear as a payment option": [
+      "#KeyInActivationOnSubTitle",
+      "#KlarnaActivationOnSubTitle",
+      "#PaypalQRCActivationOnSubTitle",
+      "#VenmoQRCActivationOnSubTitle"
+    ],
+    "On": [
+      "#KeyInActivationOnTitle",
+      "#KlarnaActivationOnTitle",
+      "#PaypalQRCActivationOnTitle",
+      "#VenmoQRCActivationOnTitle",
+      "#PaypalInvoiceActivationToggleOnTitle"
+    ],
+    "An unknown error occurred. Please try again later.": [
+      "#KeyInActivationFailed",
+      "#KlarnaActivationFailed",
+      "#PaypalQRCActivationFailed",
+      "#ServerCommunicationError",
+      "#PaypalInvoiceActivationFailed"
+    ],
+    "Once your customer confirms the payment, you'll get a confirmation in your app.": [
+      "#KlarnaActivationCarouselText3",
+      "#PaypalQRCActivationCarouselText3"
+    ],
+    "By activating, you acknowledge that terms and transaction fees apply.": [
+      "#KlarnaActivationDefaultSubTitle",
+      "#PaypalQRCActivationDefaultSubTitle",
+      "#PaypalInvoiceActivationDefaultSubTitle",
+      "#KeyInActivationDefaultSubTitle"
+    ],
+    "Product missing description": [
+      "#KlarnaMissingProductNameTitle",
+      "#PayPalQRCMissingProductNameTitle",
+      "#VenmoQRCMissingProductNameTitle"
+    ],
+    "Activation is still in progress": [
+      "#KlarnaOnboardingNotCompletedTitle",
+      "#PaypalQRCOnboardingNotCompletedTitle",
+      "#VenmoQRCOnboardingNotCompletedTitle"
+    ],
+    "Please try again later.\\nIf the issue remains, please reach out to our support for further assistance": [
+      "#KlarnaOnboardingNotCompletedBody",
+      "#PaypalQRCOnboardingNotCompletedBody",
+      "#VenmoQRCOnboardingNotCompletedBody"
+    ],
+    "Payment cancelled": [
+      "#KlarnaPaymentCanceled",
+      "#PaypalQRCPaymentCanceledTitle",
+      "#VenmoQRCPaymentCanceledTitle",
+      "#PaymentsCardErrorCanceledByCustomerTitle",
+      "#PurchaseCanceled",
+      "#ReaderDisplayPurchaseAborted",
+      "#TapToPayErrorPaymentCanceledTitle"
+    ],
+    "Loading QR code": [
+      "#KlarnaPaymentLoadingSpeakerText",
+      "#PaypalQRCPaymentLoadingSpeakerText",
+      "#VenmoQRCPaymentLoadingSpeakerText"
+    ],
+    "Available as a payment option": [
+      "#PaypalQRCActivationOnSubTitleSDK",
+      "#VenmoQRCActivationOnSubTitleSDK",
+      "#KeyInActivationOnSubTitleSDK"
+    ],
+    "Payment method activated": [
+      "#PaypalQRCActivationOnTitleSDK",
+      "#VenmoQRCActivationOnTitleSDK",
+      "#KeyInActivationOnTitleSDK"
+    ],
+    "Cancelled by customer": [
+      "#PaypalQRCPaymentCanceledBody",
+      "#VenmoQRCPaymentCanceledBody",
+      "#PaymentsCardErrorCanceledByCustomerMessage"
+    ],
+    "Please try again": [
+      "#PaypalQRCPaymentErrorBody",
+      "#PaypalQRCPaymentTimeOutBody",
+      "#VenmoQRCPaymentTimeOutBody",
+      "#VenmoQRCPaymentErrorBody",
+      "#PaypalInvoiceTryAgain"
+    ],
+    "This is a QR code": [
+      "#PaypalQRCPaymentQRCSpeakerText",
+      "#VenmoQRCPaymentQRCSpeakerText"
+    ],
+    "Total amount #TotalAmount. Ask customer to scan the QR code": [
+      "#PaypalQRCPaymentTotalAmountSpeakerText",
+      "#VenmoQRCPaymentTotalAmountSpeakerText"
+    ],
+    "Learn more": [
+      "#PaypalQRCPaymentLearnMore",
+      "#VenmoQRCPaymentLearnMore"
+    ],
+    "<a href=\"#ReadMoreLink\">Learn more about the payment method and pricing here.</a>": [
+      "#PaypalQRCPaymentLearnMoreBody2US",
+      "#VenmoQRCPaymentLearnMoreBody2"
+    ],
+    "Present your QR code for them to scan.": [
+      "#PaypalQRCPaymentLearnMoreStep2",
+      "#VenmoQRCPaymentLearnMoreStep2"
+    ],
+    "Ask them to tap ‘confirm’ and the payment will be complete.": [
+      "#PaypalQRCPaymentLearnMoreStep3",
+      "#VenmoQRCPaymentLearnMoreStep3"
+    ],
+    "Please wait…": [
+      "#PaypalQRCPaymentProcessingBody",
+      "#VenmoQRCPaymentProcessingBody"
+    ],
+    "Payment in progress": [
+      "#PaypalQRCPaymentProcessingSubTitle",
+      "#VenmoQRCPaymentProcessingSubTitle",
+      "#PaymentInProgress",
+      "#TapToPayPaymentInProgress"
+    ],
+    "Ask customer to scan the QR code": [
+      "#PaypalQRCPaymentQRCodeSubTitle",
+      "#VenmoQRCPaymentQRCodeSubTitle"
+    ],
+    "Waiting for customer to confirm": [
+      "#PaypalQRCPaymentScannedSubTitle",
+      "#VenmoQRCPaymentScannedSubTitle"
+    ],
+    "Payment timed out": [
+      "#PaypalQRCPaymentTimeOutTitle",
+      "#VenmoQRCPaymentTimeOutTitle",
+      "#PaymentsCardErrorTimeoutTitle"
+    ],
+    "Location not found. Please turn on location services in your phone settings.": [
+      "#PaypalQRCUnableToFetchLocation",
+      "#VenmoQRCUnableToFetchLocation"
+    ],
+    "Payment not found": [
+      "#PaypalQRCPaymentInfoNotFoundTitle",
+      "#PaymentNotFoundTitle"
+    ],
+    "Enter amount + tip": [
+      "#GratuityActivationTitle",
+      "#PaymentEnterAmountGratuity"
+    ],
+    "Ask customer to enter amount + tip.": [
+      "#GratuityOverLimitBody",
+      "#GratuityUnderLimitBody"
+    ],
+    "Next": [
+      "#KeyboardNextKey",
+      "#Next",
+      "#PaypalInvoiceCustomerDetailsNextButtonTitle"
+    ],
+    "Send": [
+      "#KeyboardSendKey",
+      "#Send"
+    ],
+    "Sign Out": [
+      "#Logout",
+      "#LogoutConfirmOK"
+    ],
+    "The payment couldn’t be processed, please try again.": [
+      "#KeyInPaymentFailed",
+      "#KeyInPaymentDeclined"
+    ],
+    "Delete": [
+      "#NumericKeyboardDelete",
+      "#SupportSendEmailConfirmCancelContinue",
+      "#PaypalInvoiceDeleteCustomerAlertButton"
+    ],
+    "Confirm": [
+      "#PairingConfirmationButton",
+      "#PaypalInvoiceConfirmCustomerDetails"
+    ],
+    "Declined": [
+      "#PaymentDeclinedTitle",
+      "#PaymentOutsideCountryTitle",
+      "#PaymentNotAcceptedTitle",
+      "#PaymentProcessingErrorTitle",
+      "#PaymentLimitReachedTitle"
+    ],
+    "Ask customer if they want to add a tip.": [
+      "#PaymentGratuityExtraAmountDescription",
+      "#PaymentGratuityPercentageSubtitle"
+    ],
+    "Add tip?": [
+      "#PaymentGratuityExtraAmountEnter",
+      "#PaymentGratuityPercentageTitle",
+      "#DatecsGratuityPercentageQuestion"
+    ],
+    "This payment may not have gone through, please check your receipts and try again.": [
+      "#PaymentsCardErrorTimeoutMessage",
+      "#ServiceUnavailableErrorSubtitle",
+      "#TechnicalErrorAbortDescription"
+    ],
+    "Please wait...": [
+      "#PleaseWait",
+      "#ReaderDisplayAuthorizing",
+      "#ReaderDisplayReadingCard",
+      "#TapToPayPleaseWait"
+    ],
+    "Please wait": [
+      "#PleaseWaitNoDots",
+      "#SetupReaderReconnectingSubtitle"
+    ],
+    "Insert card": [
+      "#ReaderDisplayInsertCard",
+      "#ReaderDisplayInsertCardNoSwipe"
+    ],
+    "Card readers": [
+      "#ReaderInfo",
+      "#ReaderInfoTitle"
+    ],
+    "Your card reader software is outdated. We have started an update to ensure you get the best experience.": [
+      "#ReaderNecessaryUpdateInPairingDescription",
+      "#ReaderNecessaryUpdateInPaymentDescription"
+    ],
+    "Save": [
+      "#Save",
+      "#PaypalInvoiceSaveContact"
+    ],
+    "Reconnecting to reader": [
+      "#SetupReaderReconnectingTitle",
+      "#SetupReaderWakingUpTitle"
+    ],
+    "Email": [
+      "#SupportSendEmailTitle",
+      "#PaypalInvoiceEditEmailplaceholder"
+    ],
+    "Technical error": [
+      "#TechnicalErrorAbortTitle",
+      "#TechnicalErrorText"
+    ],
+    "Card not accepted here": [
+      "#CardInvalidText",
+      "#PaymentNotAcceptedText"
+    ],
+    "Custom Terms": [
+      "#PaypalInvoiceActivationCustomTermsTitle",
+      "#PaypalInvoiceCustomTermsTitle"
+    ],
+    "Customer details": [
+      "#PaypalInvoiceCustomerDetails",
+      "#PaypalInvoiceCustomerEditDetailsTitle"
+    ],
+    "Business": [
+      "#PaypalInvoiceCustomerTypeBusiness",
+      "#PaypalInvoiceContactNameBusinessTitle"
+    ],
+    "Individual": [
+      "#PaypalInvoiceCustomerTypeIndividual",
+      "#PaypalInvoiceContactNameIndividualTitle"
+    ],
+    "Phone number": [
+      "#PaypalInvoiceCustomerDetailPhoneNumber",
+      "#PaypalInvoiceEditPhonePlaceholder"
+    ],
+    "Additional information": [
+      "#PaypalInvoiceCustomerDetailAdditionalInfo",
+      "#PaypalInvoiceEditAdditionalInfoHeader",
+      "#PaypalInvoiceEditAdditionalInfoPlaceholder"
+    ],
+    "Invoice cancelled": [
+      "#PaypalInvoiceEventInvoiceCancelledByMerchant",
+      "#PaypalInvoiceEventInvoiceCancelledByInvoicee"
+    ],
+    "Sent": [
+      "#PaypalInvoiceStatusSent",
+      "#PayPalInvoiceDetailsInvoiceEmailSent"
+    ],
+    "Marked as paid": [
+      "#PaypalInvoiceStatusMarkedAsPaid",
+      "#PaypalInvoiceMarkAsPaidConfirmationMessage"
+    ],
+    "Canceled": [
+      "#PaypalInvoiceStatusCanceled",
+      "#PaypalInvoiceHistoryCanceled"
+    ],
+    "Refunded": [
+      "#PaypalInvoiceStatusRefunded",
+      "#PaypalInvoiceHistoryRefunded"
+    ],
+    "Paid": [
+      "#PaypalInvoiceStatusPaid",
+      "#PaypalInvoiceHistoryPaid"
+    ],
+    "Due": [
+      "#PaypalInvoiceHistoryDue",
+      "#PaypalInvoiceDue"
+    ],
+    "Today": [
+      "#PaypalInvoiceHistoryToday",
+      "#PaypalInvoiceToday"
+    ],
+    "Amount too high": [
+      "#AmountToHigh",
+      "#TapToPayErrorHighAmountTitle"
+    ],
+    "Amount too low": [
+      "#AmountToLow",
+      "#TapToPayErrorLowAmountTitle"
+    ],
+    "Can't connect": [
+      "#CardReaderStatusDisconected",
+      "#TapToPayErrorNetworkConnectivityTitle"
+    ]
+  },
+  "long_words": {
+    "sv-SE": {
+      "#KlarnaActivationDefaultSubTitle": [
+        "transaktionsavgifterna"
+      ],
+      "#NoPaymentOptionsProvided": [
+        "betalningsalternativ"
+      ],
+      "#KlarnaActivationOnSubTitle": [
+        "betalningsalternativ"
+      ],
+      "#KlarnaActivationOffSubTitle": [
+        "betalningsalternativ"
+      ],
+      "#SpeechReaderInstallmentHint": [
+        "avbetalningsalternativ"
+      ]
+    },
+    "sv-FI": {
+      "#SpeechReaderInstallmentHint": [
+        "avbetalningsalternativ"
+      ]
+    },
+    "da-DK": {
+      "#LocationNeededDescriptionSettings": [
+        "telefonindstillinger"
+      ],
+      "#NoInternetConnectionPaymentSubtitle": [
+        "internetindstillinger"
+      ],
+      "#PaymentSettings": [
+        "Betalingsindstillinger"
+      ],
+      "#RetrievePaymentInfoLoadingTitle": [
+        "betalingsoplysninger"
+      ],
+      "#GratuityNotSupportedTitle": [
+        "Drikkepengefunktionen"
+      ]
+    },
+    "fi-FI": {
+      "#FirmwareVersion": [
+        "Laiteohjelmistoversio"
+      ],
+      "#KlarnaActivationOffSubTitle": [
+        "maksutapavaihtoehtona"
+      ],
+      "#KlarnaActivationOnSubTitle": [
+        "maksutapavaihtoehtona"
+      ],
+      "#KlarnaAccessibilityAnnouncementActivated": [
+        "maksutapavaihtoehtona"
+      ],
+      "#Compliance": [
+        "Vaatimustenmukaisuus"
+      ]
+    },
+    "nb-NO": {
+      "#AlertAbortReaderUpdateTitle": [
+        "programvareoppdateringen"
+      ],
+      "#NoInternetConnectionError": [
+        "nettverkstilkoblingen"
+      ],
+      "#OperationFailedNetworkProblem": [
+        "internettforbindelsen"
+      ],
+      "#PaymentSettings": [
+        "Betalingsinnstillinger"
+      ],
+      "#TapToPayErrorNetworkConnectivitySubtitle": [
+        "internettforbindelse"
+      ]
+    },
+    "de-DE": {
+      "#CashRegisterPurchaseNotAllowedWithAPIAlertMessage": [
+        "Kassensystemfunktion",
+        "Kassensystemfunktion"
+      ],
+      "#PayPalQRCMissingProductNameBody": [
+        "Produktbezeichnungen"
+      ],
+      "#CashRegisterPurchaseNotAllowedWithAPIAlertTitle": [
+        "Kassensystemfunktion"
+      ],
+      "#NoInternetConnectionError": [
+        "Netzwerkeinstellungen"
+      ],
+      "#NoInternetConnectionPaymentSubtitle": [
+        "Interneteinstellungen"
+      ],
+      "#SignatureAcceptText": [
+        "Kreditkartengesellschaft"
+      ],
+      "#PaymentSettings": [
+        "Zahlungseinstellungen"
+      ],
+      "#PaypalQRCPaymentInfoNotAuthorizedMessage": [
+        "Zahlungsinformationen"
+      ],
+      "#PaypalQRCPaymentInfoNotFoundMessage": [
+        "Zahlungsinformationen"
+      ],
+      "#PaypalQRCPaymentInfoTechnicalErrorMessage": [
+        "Zahlungsinformationen"
+      ],
+      "#SpeechSignatureSignArea": [
+        "Unterschriftsbereich"
+      ]
+    },
+    "nl-NL": {
+      "#NoInternetConnectionPaymentSubtitle": [
+        "internetinstellingen"
+      ],
+      "#SignatureAcceptText": [
+        "creditcardovereenkomst"
+      ],
+      "#PaymentSettings": [
+        "Betalingsinstellingen"
+      ]
+    }
+  },
+  "long_sentences": {
+    "sv-SE": {
+      "#KlarnaActivatingSubTitle1": 1.0,
+      "#KeyboardAddKey": 2.0,
+      "#InvoiceRefundConfirmButton": 0.5714285714285714,
+      "#LoginFailedAlertTitle": 0.7857142857142858,
+      "#PaymentFailedCurrencyMismatchTitle": 0.5714285714285714,
+      "#ReaderNecessaryUpdateFailedTitle": 1.0,
+      "#PaymentsCardErrorTimeoutTitle": 1.0,
+      "#PayPalInvoiceNoDueDateText": 0.7272727272727273,
+      "#TapToPayErrorPaymentFailedTitle": 0.7143,
+      "#TapToPayErroriCloudCannotConnectTitle": 0.5652,
+      "#Compliance": 0.61
+    },
+    "sv-FI": {
+      "#KeyboardAddKey": 2.0,
+      "#LoginFailedAlertTitle": 0.7857142857142858,
+      "#ReaderNecessaryUpdateFailedTitle": 1.0,
+      "#PaymentsCardErrorTimeoutTitle": 1.0,
+      "#PaymentFailedCurrencyMismatchTitle": 0.7142857142857142,
+      "#SpeechBatteryStatusCharging": 1.0,
+      "#TapToPayErrorPaymentFailedTitle": 0.7143,
+      "#TapToPayErroriCloudCannotConnectTitle": 0.5652,
+      "#Compliance": 0.61
+    },
+    "da-DK": {
+      "#CardAmountTooLowMessage": 0.6000000000000001,
+      "#CardAmountTooLowTitle": 0.631578947368421,
+      "#CardNotReadText": 0.7692307692307692,
+      "#CardReaderStatusDisconected": 1.1538461538461537,
+      "#LocationNeededTitle": 0.6153846153846154,
+      "#IncorrectPinLastAttemptText": 0.6000000000000001,
+      "#LoginFailedAlertTitle": 0.5714285714285714,
+      "#PaymentNotFoundTitle": 0.5294117647058822,
+      "#Pair": 1.75,
+      "#PaymentGratuityExtraAmountEnter": 1.375,
+      "#RefundFailed": 0.7692307692307692,
+      "#ReaderNecessaryUpdateFailedTitle": 0.7692307692307692,
+      "#ReaderDisplayUpdating": 1.0,
+      "#ReaderNecessaryUpdateInPaymentUseOtherPaymentMethod": 0.7333333333333334,
+      "#ReaderDisplaySignature": 0.7272727272727273,
+      "#RefundCancelled": 0.6875,
+      "#RefundTransactionTitle": 0.6428571428571428,
+      "#ReaderNecessaryUpdateInPairingContinueInBackground": 1.0909090909090908,
+      "#ReaderDisplayCardNotRead": 0.7692307692307692,
+      "#SignatureSignHere": 0.6666666666666667,
+      "#SetupReaderWakingUpTitle": 0.6818181818181819,
+      "#SetupReaderFailedToConnectActionInfo": 0.7894736842105263,
+      "#SetupReaderReconnectingTitle": 0.6818181818181819,
+      "#PINCancelledInAppErrorMessage": 0.6296296296296295,
+      "#SpeechBatteryStatusCharging": 1.125,
+      "#SpeechDetectedReaderAnnouncement": 0.5555555555555556,
+      "#PaymentGratuityPercentageTitle": 1.375,
+      "#GratuityNotSupportedTitle": 0.6190476190476191,
+      "#TapToPayErroriCloudCannotConnectTitle": 0.6957,
+      "#Compliance": 1.2
+    },
+    "fi-FI": {
+      "#CardAmountTooLowTitle": 0.631578947368421,
+      "#BTAppPairingDoneTextIOS": 0.6136363636363635,
+      "#AlertTryAgain": 0.6666666666666667,
+      "#CardAmountTooLowMessage": 0.6000000000000001,
+      "#BluetoothUnauthorizedSubtitle": 0.5491803278688525,
+      "#ForgetCardReaderTitle": 0.631578947368421,
+      "#CardReaderStatusDisconected": 0.9230769230769231,
+      "#CardReaderStatusSleeping": 0.75,
+      "#ForgetCardReaderMessage": 0.6000000000000001,
+      "#KlarnaActivatingTitle": 0.7272727272727273,
+      "#KlarnaActivationOffTitle": 4.0,
+      "#InvalidSessionAlertTitle": 0.5833333333333333,
+      "#InsertCardToActivateCardReader": 0.9565217391304348,
+      "#KlarnaActivationOnTitle": 3.0,
+      "#LoginFailedAlertTitle": 1.2142857142857144,
+      "#InvalidSessionError": 0.6595744680851063,
+      "#Pair": 4.0,
+      "#PleaseWaitNoDots": 0.5454545454545454,
+      "#ReaderNecessaryUpdateInPairingContinueInBackground": 1.272727272727273,
+      "#ReaderUpdateReaderRestarting": 0.588235294117647,
+      "#ReaderNecessaryUpdateFailedTitle": 0.5384615384615385,
+      "#ReaderNecessaryUpdateInPaymentUseOtherPaymentMethod": 0.5333333333333334,
+      "#SetupReaderReconnectingTitle": 0.6363636363636365,
+      "#SupportSendEmailSentTitle": 1.9,
+      "#SetupReaderWakingUpTitle": 0.6363636363636365,
+      "#TryAgain": 0.6666666666666667,
+      "#RefundFailed": 0.5384615384615385,
+      "#ProcessingLoginText": 0.5714285714285714,
+      "#CardPaymentTryAgainTitle": 0.6666666666666667,
+      "#CancelledByUserErrorMessage": 0.588235294117647,
+      "#PaymentsCardErrorRemovedCardTitle": 0.5714285714285714,
+      "#Date": 1.5,
+      "#SpeechBatteryStatusPercentage": 0.6190476190476191,
+      "#SpeechReaderConfirmButtonName": 0.7777777777777777,
+      "#CardPaymentTryAgainText": 0.6666666666666667,
+      "#PairingConnectingToReaderNoDots": 0.76,
+      "#SpeechDetectedReaderAnnouncement": 0.6666666666666667,
+      "#TapToPayErrorLowAmountSubtitle": 0.5714,
+      "#TapToPayErroriCloudCannotConnectTitle": 0.5217,
+      "#TapToPayErrorNetworkConnectivityTitle": 0.9231,
+      "#Compliance": 1.0
+    },
+    "nb-NO": {
+      "#AlertAbortReaderUpdateAbortButton": 0.5384615384615385,
+      "#CardAmountTooLowTitle": 0.894736842105263,
+      "#InvoiceRefundConfirmButton": 0.6428571428571428,
+      "#LoginFailedAlertTitle": 0.5714285714285714,
+      "#Pair": 1.5,
+      "#PaymentsCardErrorTimeoutTitle": 0.5294117647058822,
+      "#ReaderUpdateReaderRestarting": 0.5294117647058822,
+      "#ReaderDisplayUpdating": 1.3636363636363638,
+      "#ReaderNecessaryUpdateInPaymentUseOtherPaymentMethod": 0.7333333333333334,
+      "#ReaderNecessaryUpdateFailedTitle": 0.6153846153846154,
+      "#RefundCancelled": 0.75,
+      "#RefundFailed": 0.9230769230769231,
+      "#SpeechBatteryStatusCharging": 0.875,
+      "#SpeechDetectedReaderAnnouncement": 0.6111111111111112,
+      "#PayPalInvoiceNoDueDateText": 0.6363636363636365
+    },
+    "de-DE": {
+      "#BTAppPairingPowerOnTitle": 1.0,
+      "#AlertTryAgain": 2.7777777777777777,
+      "#BluetoothPoweredOffTitle": 0.6875,
+      "#BluetoothUnauthorizedButtonTitle": 0.5384615384615385,
+      "#Card": 2.75,
+      "#CardReaderUpdateCompleteTitle": 0.8666666666666667,
+      "#CardReaderUpdateCompleteSubTitle": 0.5121951219512195,
+      "#ForgetCardReaderMessage": 0.7142857142857142,
+      "#ForgetCardReaderTitle": 0.5263157894736843,
+      "#CardReaderStatusDisconected": 0.9230769230769231,
+      "#PaypalQRCUnableToFetchLocation": 0.5526315789473684,
+      "#InsertCardHint": 0.6000000000000001,
+      "#PaypalQRCActivationFailed": 0.54,
+      "#PaypalQRCPaymentTimeOutTitle": 0.7647058823529411,
+      "#PaypalQRCPaymentLearnMore": 1.1,
+      "#LoginFailedAlertTitle": 0.7142857142857142,
+      "#LoginFailedAlertMessage": 0.6428571428571428,
+      "#KeyboardAddKey": 2.3333333333333335,
+      "#InvoiceRefundConfirmButton": 0.7857142857142858,
+      "#PaymentsCardErrorTimeoutTitle": 0.7647058823529411,
+      "#PaymentInProgress": 0.631578947368421,
+      "#PairingStartYourReaderTitle": 0.7857142857142858,
+      "#PaymentFailedCurrencyMismatchTitle": 0.5714285714285714,
+      "#PaymentNotFoundTitle": 0.6470588235294117,
+      "#RefundFailed": 1.2307692307692308,
+      "#ServerCommunicationError": 0.54,
+      "#SignatureSignHere": 1.1111111111111112,
+      "#SetupReaderReconnectingTitle": 1.227272727272727,
+      "#SetupReaderConfiguringReader": 0.9411764705882353,
+      "#Send": 1.75,
+      "#RefundTransactionTitle": 0.7857142857142858,
+      "#SetupReaderWakingUpTitle": 1.227272727272727,
+      "#RefundCancelled": 0.625,
+      "#ReaderUpdateReaderRestarting": 0.7647058823529411,
+      "#ReaderNecessaryUpdateFailedTitle": 0.6153846153846154,
+      "#ReaderNecessaryUpdateInPaymentUseOtherPaymentMethod": 0.9333333333333333,
+      "#TryAgain": 2.7777777777777777,
+      "#Datecs2PairingNextButtonTitle": 1.1666666666666665,
+      "#PairingNotMyReaderButtonTitle": 0.7619047619047619,
+      "#UnknownCardIssuer": 2.75,
+      "#TermsAndConditionsTitle": 0.7222222222222223,
+      "#VerifyYourAccountTitle": 0.6666666666666667,
+      "#SupportSendEmailTitle": 1.6,
+      "#SupportSendEmailSentTitle": 0.8,
+      "#ForgetClassicBluetoothCardReaderTitle": 0.6153846153846154,
+      "#CardPaymentTryAgainTitle": 1.4444444444444446,
+      "#PaypalQRCPaymentInfoNotAuthorizedMessage": 0.8333333333333333,
+      "#PayPalInvoiceEmptyPaidHistoryText": 0.625,
+      "#PayPalInvoiceEmptyUnpaidHistoryText": 0.5555555555555556,
+      "#SpeechSignatureSignHeader": 0.5625,
+      "#SpeechReaderConfirmButtonName": 1.5555555555555554,
+      "#PaypalQRCPaymentLearnMoreButtonSpeakerText": 0.9166666666666667,
+      "#CardPaymentTryAgainText": 0.7777777777777777,
+      "#SpeechDetectedReaderAnnouncement": 0.5555555555555556,
+      "#PayPalInvoiceNoDueDateText": 0.9090909090909092,
+      "#PaymentGratuityPercentageOverLimitBody": 0.5405405405405406,
+      "#TapToPayErrorNetworkConnectivitySubtitle": 0.7258,
+      "#TapToPayErrorPaymentFailedTitle": 0.5714,
+      "#TapToPayErroriCloudCannotConnectTitle": 0.5217,
+      "#TapToPayErrorNetworkConnectivityTitle": 0.9231
+    },
+    "es-ES": {
+      "#AlertAbortReaderUpdateTitle": 0.5454545454545454,
+      "#AlertAbortReaderUpdateCancelButton": 0.5333333333333334,
+      "#CardHasChip": 0.8461538461538463,
+      "#AccountListAddNewUserTitle": 1.4545454545454546,
+      "#BTAppPairingPowerOnTitle": 0.6000000000000001,
+      "#AlertAbortReaderUpdateAbortButton": 0.6923076923076923,
+      "#AlertTryAgain": 0.7777777777777777,
+      "#CardReaderStatusDisconected": 0.9230769230769231,
+      "#CardReaderUpdateTitle": 1.1666666666666665,
+      "#CardReaderUpdateCompleteTitle": 0.5333333333333334,
+      "#PaypalQRCPaymentProcessingBody": 0.6666666666666667,
+      "#IncorrectPinLastAttemptText": 0.55,
+      "#PaypalQRCPaymentTimeOutTitle": 0.7058823529411764,
+      "#InvalidSessionAlertMessage": 0.6190476190476191,
+      "#PaypalQRCActivationReadMoreBelow": 0.5333333333333334,
+      "#InvalidAPIKeyMessage": 0.5510204081632653,
+      "#LoginFailedAlertTitle": 1.0,
+      "#ReaderInfoTitle": 0.6666666666666667,
+      "#ReaderNecessaryUpdateInPairingContinueInBackground": 1.0,
+      "#PaymentsCardErrorTimeoutTitle": 0.7647058823529411,
+      "#ReaderNecessaryUpdateFailedTitle": 0.6923076923076923,
+      "#ReaderDisplayCardHasChip": 0.6399999999999999,
+      "#ReaderDisplayInsertCardNoSwipe": 0.7272727272727273,
+      "#SetupReaderReconnectingSubtitle": 0.8182,
+      "#SupportSendEmailSentTitle": 1.6,
+      "#SupportSendEmailTitle": 2.6,
+      "#RemoveCardText": 0.5454545454545454,
+      "#TryAgain": 1.0,
+      "#CardPaymentTryAgainTitle": 1.0,
+      "#ErroneousSwipeDataTitle": 1.272727272727273,
+      "#PINCancelledInAppErrorMessage": 0.6666666666666667,
+      "#PaymentsCardErrorRemovedCardTitle": 1.0,
+      "#SpeechBatteryStatusCharging": 1.25,
+      "#SwipeDeniedUseChip": 0.6153846153846154,
+      "#CardPaymentTryAgainText": 1.0,
+      "#SpeechReaderUpdateProgress": 0.6153846153846154,
+      "#SpeechReaderInstallmentOption": 0.7272727272727273,
+      "#SpeechDetectedReaderAnnouncement": 0.7777777777777777,
+      "#PaymentGratuityPercentageOverLimitBody": 0.7297297297297298,
+      "#PaypalQRCActivationReadMoreBelow": 0.7,
+      "#TapToPayErrorLowAmountTitle": 0.5714,
+      "#TapToPayErrorPaymentCanceledSubtitle": 0.9545,
+      "#TapToPayErrorNetworkConnectivityTitle": 0.8462,
+      "#Compliance": 1.2
+    },
+    "es-MX": {
+      "#AlertTryAgain": 0.8888888888888888,
+      "#BTAppPairingPowerOnTitle": 1.2000000000000002,
+      "#CardAmountTooLowTitle": 0.6842105263157894,
+      "#BTAppPairingStartButton": 0.5263157894736843,
+      "#AlertAbortReaderUpdateTitle": 0.7272727272727273,
+      "#CardHasChip": 0.8461538461538463,
+      "#BluetoothPoweredOffTitle": 0.5625,
+      "#AlertAbortReaderUpdateCancelButton": 0.5333333333333334,
+      "#AlertAbortReaderUpdateAbortButton": 0.6923076923076923,
+      "#Card": 3.25,
+      "#CardReaderUpdateTitle": 1.1666666666666665,
+      "#GratuityUnderLimitBody": 0.7428571428571429,
+      "#CardReaderStatusDisconected": 0.5384615384615385,
+      "#CardReaderIsUpdating": 0.6087,
+      "#IncorrectPinLastAttemptText": 0.55,
+      "#ForgetCardReaderTitle": 0.5263157894736843,
+      "#InvalidSessionAlertMessage": 0.6190476190476191,
+      "#LoginFailedAlertTitle": 1.0,
+      "#LoginFailedAlertMessage": 0.9285714285714286,
+      "#PaymentsCardErrorTimeoutTitle": 1.0,
+      "#ReaderDisplayInsertCardNoSwipe": 0.7272727272727273,
+      "#PaymentGratuityExtraAmountEnter": 1.125,
+      "#PaymentGratuityExtraAmountOverLimitBody": 0.5454545454545454,
+      "#ReaderDisplayInsertCard": 0.7272727272727273,
+      "#ReaderDisplayCardHasChip": 0.6399999999999999,
+      "#RemoveCardText": 0.6363636363636365,
+      "#SetupReaderFailedToConnectTitle": 0.6666666666666667,
+      "#ReaderSettingMoreInfoReaderUpToDateText": 0.588235294117647,
+      "#ReaderInfoTitle": 0.6666666666666667,
+      "#ReaderNecessaryUpdateInPaymentUseOtherPaymentMethod": 1.0666666666666669,
+      "#ReaderNecessaryUpdateFailedTitle": 0.6923076923076923,
+      "#RefundFailed": 0.6153846153846154,
+      "#ReaderNecessaryUpdateInPairingContinueInBackground": 0.7272727272727273,
+      "#CardReaderTitle": 0.6363636363636365,
+      "#SupportSendEmailSentTitle": 1.6,
+      "#TryAgain": 0.8888888888888888,
+      "#CardPaymentTryAgainTitle": 0.8888888888888888,
+      "#ErroneousSwipeDataTitle": 1.272727272727273,
+      "#PINCancelledInAppErrorMessage": 0.6666666666666667,
+      "#PaymentsCardErrorRemovedCardTitle": 1.0,
+      "#SpeechBatteryStatusNotCharging": 0.5833333333333333,
+      "#SpeechBatteryStatusCharging": 1.0,
+      "#SpeechReaderConfirmButtonName": 1.2222222222222223,
+      "#SwipeDeniedUseChip": 0.8461538461538463,
+      "#PaymentProcessingErrorTitle": 1.0,
+      "#CardPaymentTryAgainText": 0.8888888888888888,
+      "#PaymentGratuityPercentageTitle": 1.125,
+      "#PaymentGratuityPercentageOverLimitBody": 0.5945945945945945,
+      "#TapToPayErrorPaymentFailedTitle": 0.7857,
+      "#TapToPayErrorPaymentCanceledSubtitle": 0.5909
+
+    },
+    "pt-BR": {
+      "#CardPaymentTitle": 0.6666666666666667,
+      "#BTAppPairingPowerOnTitle": 1.12,
+      "#BluetoothPoweredOffTitle": 0.625,
+      "#BTAppPairingStartButton": 0.5263157894736843,
+      "#AlertAbortReaderUpdateCancelButton": 0.5333333333333334,
+      "#BluetoothUnauthorizedButtonTitle": 1.2307692307692308,
+      "#AlertTryAgain": 0.7777777777777777,
+      "#AlertAbortReaderUpdateAbortButton": 0.6923076923076923,
+      "#CardAmountTooLowTitle": 0.736842105263158,
+      "#CardReaderStatusDisconected": 0.7692307692307692,
+      "#InvalidAPIKeyTitle": 1.1538461538461537,
+      "#InvalidSessionAlertTitle": 0.5416666666666667,
+      "#ForgetCardReaderTitle": 2.210526315789474,
+      "#InvalidAPIKeyMessage": 0.510204081632653,
+      "#IncorrectPinLastAttemptText": 0.6499999999999999,
+      "#KeyboardAddKey": 4.666666666666667,
+      "#LoginFailedAlertTitle": 0.7142857142857142,
+      "#PairingReaderDetected": 0.8,
+      "#PairingReadersDetected": 0.8125,
+      "#PaymentsCardErrorTimeoutTitle": 0.6470588235294117,
+      "#PaymentNotFoundTitle": 0.9411764705882353,
+      "#ReaderNecessaryUpdateFailedTitle": 1.4615384615384617,
+      "#SetupReaderWakingUpTitle": 0.6818181818181819,
+      "#SetupReaderWakingUpSubtitle": 0.9286,
+      "#ServiceUnavailableErrorTitle": 0.5161290322580645,
+      "#ReaderUpdateReaderRestarting": 0.8235294117647058,
+      "#SetupReaderConfiguringReader": 1.1176470588235294,
+      "#SupportSendEmailTitle": 2.2,
+      "#SetupReaderReconnectingTitle": 0.6818181818181819,
+      "#RefundCancelled": 0.625,
+      "#ForgetClassicBluetoothCardReaderMessage": 0.5735294117647058,
+      "#UpdateReaderFirmwareButtonTitle": 0.5555555555555556,
+      "#PairingNotMyReaderButtonTitle": 1.0952380952380953,
+      "#TryAgain": 0.6666666666666667,
+      "#CardReaderTitle": 0.5454545454545454,
+      "#ForgetClassicBluetoothCardReaderTitle": 1.923076923076923,
+      "#CardPaymentTryAgainTitle": 0.7777777777777777,
+      "#ErroneousSwipeDataTitle": 2.272727272727273,
+      "#PaymentsCardErrorRemovedCardTitle": 1.2380952380952381,
+      "#PaymentSettings": 0.625,
+      "#SpeechReaderNumber": 0.8125,
+      "#SpeechBatteryStatusNotCharging": 0.5833333333333333,
+      "#SpeechBatteryStatusCharging": 1.25,
+      "#PaymentUnsupportedReaderSoftware": 0.5609756097560976,
+      "#SwipeDeniedUseChip": 0.5384615384615385,
+      "#CardPaymentTryAgainText": 0.7777777777777777,
+      "#SpeechReaderInstallmentHint": 0.5357142857142858,
+      "#TapToPayErrorNetworkConnectivityTitle": 0.7692,
+      "#TapToPayErroriCloudCannotConnectTitle": 0.5652
+    },
+    "nl-NL": {
+      "#AlertTryAgain": 0.7777777777777777,
+      "#AccountListAddNewUserTitle": 0.6363636363636365,
+      "#BTAppPairingPowerOnTitle": 0.6399999999999999,
+      "#BluetoothPoweredOffTitle": 0.625,
+      "#IncorrectPinLastAttemptText": 0.6000000000000001,
+      "#KeyboardAddKey": 2.0,
+      "#PairingReaderDetected": 0.5333333333333334,
+      "#ReaderDisplayUpdating": 0.7272727272727273,
+      "#PaymentDeclinedSCASubtitle": 0.6538461538461537,
+      "#PairingReadersDetected": 0.5625,
+      "#ReaderDisplayCardHasChip": 0.56,
+      "#RefundFailed": 0.6153846153846154,
+      "#SetupReaderFailedToConnectActionInfo": 0.5263157894736843,
+      "#RefundCancelled": 0.5625,
+      "#ReaderUpdateReaderRestarting": 0.7058823529411764,
+      "#SignatureSignHere": 0.8888888888888888,
+      "#SupportSendEmailSentTitle": 0.6000000000000001,
+      "#VerifyYourAccountTitle": 0.8,
+      "#SupportSendEmailTitle": 2.4,
+      "#ForgetClassicBluetoothCardReaderTitle": 0.5384615384615385,
+      "#TryAgain": 0.7777777777777777,
+      "#RestartReaderTitle": 0.6842105263157894,
+      "#UnknownCardIssuer": 1.75,
+      "#CardPaymentTryAgainTitle": 0.7777777777777777,
+      "#CancelledByUserErrorMessage": 0.5294117647058822,
+      "#SpeechBatteryStatusNotCharging": 0.6666666666666667,
+      "#SpeechBatteryStatusCharging": 1.75,
+      "#SpeechSignatureSignArea": 0.5714285714285714,
+      "#CardPaymentTryAgainText": 0.7777777777777777,
+      "#RefundLoadingIndicatorSpeakerText": 0.8571428571428572,
+      "#SpeechDetectedReaderAnnouncement": 0.6111111111111112,
+      "#GratuityNotSupportedTitle": 0.5714285714285714,
+      "#TapToPayErroriCloudCannotConnectTitle": 0.5652,
+      "#TapToPayErrorPaymentCanceledSubtitle": 1.1364
+    },
+    "fr-FR": {
+      "#BTAppPairingPairingDoneTitle": 0.8,
+      "#BTAppPairingStartButton": 0.5263157894736843,
+      "#Abort": 5.333333333333333,
+      "#AlertAbortReaderUpdateAbortButton": 0.6923076923076923,
+      "#AlertTryAgain": 1.0,
+      "#Card": 3.75,
+      "#AmountToLow": 0.8571428571428572,
+      "#AlertAbortReaderUpdateCancelButton": 0.6666666666666667,
+      "#AccountListAddNewUserTitle": 0.5454545454545454,
+      "#AlertCancel": 5.333333333333333,
+      "#CardHasChip": 0.9230769230769231,
+      "#PaypalQRCActivatingSubTitle1": 0.7692307692307692,
+      "#CardReaderStatusDisconected": 0.5384615384615385,
+      "#CardReaderUpdateOutdateCardPaymentTitle": 0.5510204081632653,
+      "#CardReaderUpdateOutdateCardPaymentUpdateLaterText": 0.532258064516129,
+      "#InvoiceRefundConfirmButton": 0.7142857142857142,
+      "#PaypalQRCActivationOffTitle": 2.0,
+      "#PaypalQRCPaymentProcessingBody": 0.75,
+      "#PaypalQRCPaymentTimeOutTitle": 0.7647058823529411,
+      "#PaypalQRCActivationReadMoreBelow": 0.6666666666666667,
+      "#LocationNeededTitle": 0.8846153846153846,
+      "#PairingSelectCardReader": 0.5217391304347827,
+      "#NoPinNeeded": 0.5675675675675675,
+      "#LogoutConfirmCancel": 5.333333333333333,
+      "#PleaseWaitNoDots": 0.6363636363636365,
+      "#ReaderDisplayCardHasChip": 0.76,
+      "#ReaderDisplayPurchaseApproved": 0.6499999999999999,
+      "#ReaderNecessaryUpdateInPairingContinueInBackground": 1.0,
+      "#ReaderNecessaryUpdateFailedTitle": 0.7692307692307692,
+      "#ReaderDisplayUpdating": 1.0909090909090908,
+      "#ReaderNecessaryUpdateInPaymentUseOtherPaymentMethod": 1.2666666666666666,
+      "#ReaderDisplayIdentification": 0.5217391304347827,
+      "#SetupReaderReconnectingSubtitle": 0.6363636363636365,
+      "#ReaderUpdateSettingInfoUpdateInProgressTitle": 0.7391304347826086,
+      "#SetupReaderConfiguringReader": 0.5294117647058822,
+      "#SetupReaderFailedToConnectSubtitle": 0.6666666666666667,
+      "#RefundFailed": 0.6923076923076923,
+      "#SetupReaderFailedToConnectTitle": 1.3333333333333335,
+      "#SignatureAcceptText": 0.5142857142857142,
+      "#VerifyYourAccountTitle": 0.6666666666666667,
+      "#TryAgain": 1.0,
+      "#MissBankInfoErrorMessage": 0.5901639344262295,
+      "#CardPaymentTryAgainTitle": 1.0,
+      "#PaymentOutsideCountryText": 0.5192307692307692,
+      "#ErroneousSwipeDataTitle": 0.5454545454545454,
+      "#PINCancelledInAppErrorMessage": 0.6296296296296295,
+      "#GratuityOverLimitBody": 0.5428571428571429,
+      "#GratuityUnderLimitBody": 0.5428571428571429,
+      "#PaymentGratuityExtraAmountOverLimitBody": 0.5454545454545454,
+      "#PaymentGratuityExtraAmountEnter": 1.75,
+      "#PaymentEnterAmountGratuity": 0.8333333333333333,
+      "#PaypalQRCPaymentInfoNotAuthorizedMessage": 1.0476190476190474,
+      "#SpeechBatteryStatusCharging": 1.75,
+      "#SpeechReaderConfirmButtonName": 1.2222222222222223,
+      "#CardPaymentTryAgainText": 1.0,
+      "#SwipeDeniedUseChip": 0.9230769230769231,
+      "#RefundLoadingIndicatorSpeakerText": 1.7142857142857144,
+      "#RetrievePaymentInfoLoadingTitle": 0.6956521739130435,
+      "#Save": 1.75,
+      "#PayPalInvoiceNoDueDateText": 1.0,
+      "#GratuityNotSupportedSubtitle": 0.5066666666666666,
+      "#PaymentGratuityPercentageTitle": 1.75,
+      "#GratuityNotSupportedTitle": 0.5714285714285714,
+      "#KeyInProcessPayment": 0.75,
+      "#PaypalQRCActivationReadMoreBelow": 0.8,
+      "#TapToPayErrorPaymentDeclinedSubtitle": 0.5143,
+      "#TapToPayErrorNetworkConnectivityTitle": 0.5385,
+      "#TapToPayErroriCloudCannotConnectTitle": 0.5217
+    },
+    "it-IT": {
+      "#CardPaymentTitle": 0.5833333333333333,
+      "#BuyCardReader": 0.7333333333333334,
+      "#AccountListAddNewUserTitle": 1.0,
+      "#CardHasChip": 0.9230769230769231,
+      "#AlertAbortReaderUpdateCancelButton": 0.7333333333333334,
+      "#AccountListForgetAccount": 0.7857142857142858,
+      "#AlertAbortReaderUpdateAbortButton": 0.6153846153846154,
+      "#BTAppPairingPowerOnTitle": 1.2799999999999998,
+      "#CardReaderStatusDisconected": 0.6923076923076923,
+      "#CardReaderIsUploadingFirmwareToReader": 0.8064516129032258,
+      "#CardReaderIsDownloadingFirmwareFromServer": 0.59375,
+      "#CardReaderUpdateCompleteTitle": 0.6000000000000001,
+      "#PaypalQRCActivatingTitle": 1.0909090909090908,
+      "#CardReaderStatusSleeping": 1.75,
+      "#CardReaderMiura": 1.1333333333333333,
+      "#CardReaderIsUpdating": 0.6956521739130435,
+      "#CardReaderUpdateTitle": 1.1666666666666665,
+      "#PaypalQRCPaymentTimeOutTitle": 0.7058823529411764,
+      "#IncorrectPinLastAttemptText": 0.55,
+      "#PaypalQRCActivationReadMoreBelow": 0.5333333333333334,
+      "#InvalidSessionAlertTitle": 1.2916666666666665,
+      "#OnlineHelp": 0.5384615384615385,
+      "#OpenSettings": 0.5454545454545454,
+      "#LocationNeededTitle": 0.8076923076923077,
+      "#NoCardReaderConnected": 0.5833333333333333,
+      "#PaymentNotFoundTitle": 0.7647058823529411,
+      "#ReaderDisplayIdentification": 0.6956521739130435,
+      "#ReaderDisplayReadingCard": 1.0,
+      "#PaymentFailedCurrencyMismatchMessage": 0.7142857142857142,
+      "#PleaseWaitNoDots": 0.5454545454545454,
+      "#PaymentFailedCurrencyMismatchTitle": 0.5714285714285714,
+      "#PaymentsCardErrorTimeoutTitle": 0.7058823529411764,
+      "#ReaderNecessaryUpdateFailedTitle": 1.0,
+      "#ReaderDisplayInsertCard": 0.6363636363636365,
+      "#ReaderNecessaryUpdateInPaymentUseOtherPaymentMethod": 0.9333333333333333,
+      "#RefundFailed": 0.6153846153846154,
+      "#SetupReaderFailedToConnectActionInfo": 0.8421052631578947,
+      "#SetupReaderFailedToConnectTitle": 0.5555555555555556,
+      "#Datecs2PairingCompareAndConfirmTitle": 0.5263157894736843,
+      "#ForgetClassicBluetoothCardReaderMessage": 0.7205882352941178,
+      "#VerifyYourAccountTitle": 0.5333333333333334,
+      "#VerifyYourAccountMessage": 0.5588235294117647,
+      "#UpdateReaderFirmwareButtonTitle": 0.6666666666666667,
+      "#ErroneousSwipeDataTitle": 1.0909090909090908,
+      "#PaypalQRCPaymentInfoTechnicalErrorTitle": 0.5416666666666667,
+      "#PaypalQRCPaymentInfoNotAuthorizedMessage": 0.6904761904761905,
+      "#PaypalQRCPaymentLearnMoreButtonSpeakerText": 0.8333333333333333,
+      "#SwipeDeniedUseChip": 0.9230769230769231,
+      "#SpeechReaderUpdateProgress": 0.5384615384615385,
+      "#SpeechReaderInstallmentOption": 0.5454545454545454,
+      "#RefundLoadingIndicatorSpeakerText": 1.8571428571428572,
+      "#PairingConnectingToReaderNoDots": 0.6000000000000001,
+      "#PaymentGratuityPercentageOverLimitBody": 0.5675675675675675,
+      "#TapToPayErrorPaymentDeclinedSubtitle": 0.7143,
+      "#TapToPayErrorPaymentFailedTitle": 0.5714,
+      "#TapToPayErrorNetworkConnectivityTitle": 0.6923,
+      "#TapToPayErrorPaymentCanceledSubtitle": 1.1364
+    },
+    "es-US": {
+      "#CardNotReadText": 1.0,
+      "#AlertAbortReaderUpdateAbortButton": 0.6923076923076923,
+      "#CardHasChip": 0.6153846153846154,
+      "#BTAppPairingStartButton": 0.5263157894736843,
+      "#AlertAbortReaderUpdateCancelButton": 0.5333333333333334,
+      "#BluetoothPoweredOffTitle": 0.8125,
+      "#AlertAbortReaderUpdateTitle": 0.7272727272727273,
+      "#AlertTryAgain": 0.7777777777777777,
+      "#CardReaderIsUpdating": 0.6086956521739131,
+      "#KeyInActivationOffTitle": 2.6666666666666665,
+      "#CardReaderUpdateTitle": 1.1666666666666665,
+      "#PaypalQRCPaymentTimeOutTitle": 0.588235294117647,
+      "#PaypalQRCPaymentTimeOutBody": 0.8125,
+      "#VenmoQRCActivationOnTitle": 3.0,
+      "#PaypalQRCActivationOnTitle": 3.0,
+      "#KeyInActivationOnTitle": 3.0,
+      "#VenmoQRCActivationOffTitle": 2.6666666666666665,
+      "#PaypalQRCActivationOffTitle": 2.6666666666666665,
+      "#PaypalQRCPaymentErrorBody": 0.8125,
+      "#PaypalQRCPaymentProcessingBody": 0.5833333333333333,
+      "#VenmoQRCPaymentProcessingBody": 0.5833333333333333,
+      "#VenmoQRCPaymentTimeOutTitle": 0.588235294117647,
+      "#LoginFailedAlertTitle": 0.6428571428571428,
+      "#InsertCardHint": 0.7333333333333334,
+      "#VenmoQRCPaymentTimeOutBody": 0.8125,
+      "#InsertCardToActivateCardReader": 0.5217391304347827,
+      "#PairingDetectedCardReaders": 0.5238095238095237,
+      "#NoCardReaderConnected": 0.5833333333333333,
+      "#ReaderNecessaryUpdateFailedTitle": 0.9230769230769231,
+      "#PaymentGratuityExtraAmountEnter": 1.125,
+      "#ReaderInfoTitle": 0.6666666666666667,
+      "#ReaderDisplayInsertCard": 0.6363636363636365,
+      "#PaymentGratuityExtraAmountOverLimitBody": 0.5454545454545454,
+      "#ReaderDisplayInsertCardNoSwipe": 0.6363636363636365,
+      "#PaymentsCardErrorTimeoutTitle": 0.588235294117647,
+      "#ReaderDisplayCardNotRead": 1.0,
+      "#ReaderDisplayCardHasChip": 0.6799999999999999,
+      "#SupportSendEmailTitle": 2.6,
+      "#SetupReaderFailedToConnectTitle": 0.5555555555555556,
+      "#SupportSendEmailSentTitle": 1.6,
+      "#UpdateReaderFirmwareButtonTitle": 0.7777777777777777,
+      "#TryAgain": 0.7777777777777777,
+      "#CardReaderTitle": 0.6363636363636365,
+      "#CardPaymentTryAgainTitle": 0.7777777777777777,
+      "#PaymentOutsideCountryTitle": 1.0,
+      "#ErroneousSwipeDataTitle": 1.272727272727273,
+      "#PINCancelledInAppErrorMessage": 0.6666666666666667,
+      "#PaymentsCardErrorRemovedCardTitle": 0.7619047619047619,
+      "#PaypalInvoiceActivationOffTitle": 2.6666666666666665,
+      "#PaypalQRCPaymentInfoTechnicalErrorTitle": 0.5416666666666667,
+      "#PaypalInvoiceEditEmailplaceholder": 2.6,
+      "#PaypalInvoiceAddressHeader": 0.7333333333333334,
+      "#PaypalInvoiceEditAddress2Placeholder": 1.0,
+      "#PayPalInvoiceEmptyCreditedHistoryText": 0.588235294117647,
+      "#SpeechBatteryStatusNotCharging": 0.5833333333333333,
+      "#SpeechReaderConfirmButtonName": 0.7777777777777777,
+      "#PaymentProcessingErrorTitle": 1.0,
+      "#SwipeDeniedUseChip": 0.8461538461538463,
+      "#CardPaymentTryAgainText": 0.7777777777777777,
+      "#PaypalInvoiceEditContactReferencePlaceholder": 0.5833333333333333,
+      "#PaypalInvoiceEditZipPlaceholder": 3.333333333333333,
+      "#PaypalInvoiceTextFieldA11yHintNotEditting": 0.5333333333333334,
+      "#PaypalInvoiceTextFieldA11yHintEditting": 0.6000000000000001,
+      "#PaypalInvoiceEventHistory": 0.5384615384615385,
+      "#PaypalInvoiceInvoiceDate": 0.5833333333333333,
+      "#PaypalInvoiceEventInvoiceFullyRefunded": 0.6666666666666667,
+      "#PaypalInvoiceEventInvoicePartiallyRefunded": 0.5483870967741935,
+      "#PaypalInvoiceMarkAsPaidTitle": 0.5238095238095237,
+      "#PaypalInvoiceActivationDueDateTitle": 0.736842105263158,
+      "#PaypalInvoiceActivationCustomTermsTitle": 0.9166666666666667,
+      "#PaypalInvoiceActivationSelectDueDateTitle": 1.2692307692307692,
+      "#PaypalInvoiceHistoryDue": 2.0,
+      "#PaypalInvoiceCustomTermsTitle": 0.9166666666666667,
+      "#PaypalInvoiceOnboardingFeesPolicy": 1.0,
+      "#PaypalInvoiceDue": 2.0,
+      "#PaypalInvoiceOnboardingReadmore": 0.5151515151515151,
+      "#PayPalInvoiceNoDueDateText": 1.1818181818181817,
+      "#PaypalInvoiceActivationToggleOffTitle": 2.6666666666666665,
+      "#PaypalInvoiceDateSelectionCollapsed": 0.962962962962963,
+      "#PaypalInvoiceInfoButtonAnnouncement": 0.6666666666666667,
+      "#PaypalInvoiceActivationToggleOnTitle": 3.0,
+      "#PaypalInvoiceFeesLinkA11yHint": 0.625,
+      "#PaymentGratuityPercentageTitle": 1.125,
+      "#PaymentGratuityPercentageOverLimitBody": 0.5135135135135136,
+      "#PaypalInvoiceHipaaDisclosure": 0.812121212121212,
+      "#PaypalInvoiceTaxesWithPricing": 0.5926,
+      "#KeyInCardNumberPlaceholder": 0.55,
+      "#KeyInExpiryDateVoiceOver": 0.56,
+      "#KeyInActivationCarouselText1": 1.8,
+      "#KeyInActivationReadMoreBelow": 0.54,
+      "#TapToPayErrorPaymentFailedTitle": 0.7857
+    },
+    "en-US": {
+      "#KeyInActivationCarouselText1": 1.09
+    }
+  },
+  "prohibited_content": {
+    "*": [
+      "izettle"
+    ]
+  },
+  "untranslated_key_escapes": {
+    "#UnsupportedReaderInfoUrl": [
+      "sv-SE"
+    ],
+    "#Hardware": [
+      "da-DK",
+      "es-MX",
+      "pt-BR",
+      "nl-NL",
+      "it-IT",
+      "es-US"
+    ],
+    "#SupportSendEmailTitle": [
+      "fi-FI",
+      "es-MX"
+    ],
+    "#KeyboardGoKey": [
+      "nb-NO",
+      "nl-NL"
+    ],
+    "#CardReaderUpdateTitle": [
+      "de-DE"
+    ],
+    "#AccountTypeSelectionCredit": [
+      "nl-NL"
+    ],
+    "#CardReaderMiuraContactless": [
+      "nl-NL"
+    ],
+    "#CardReaderMiura": [
+      "nl-NL"
+    ],
+    "#ACCOUNT_TYPE_SELECTION_CREDIT": [
+      "nl-NL"
+    ],
+    "#PaymentOutsideCountryTitle": [
+      "nl-NL"
+    ],
+    "#CashRegisterPurchaseNotAllowedWithAPIAlertTitle": [
+      "fr-FR"
+    ],
+    "#KeyboardSendKey": [
+      "fr-FR",
+      "da-DK"
+    ],
+    "#Date": [
+      "fr-FR"
+    ],
+    "#PaypalQRCActivationOnTitle": [
+      "it-IT"
+    ],
+    "#PaypalQRCActivationOffTitle": [
+      "it-IT"
+    ],
+    "#BuyCardReaderUrl": [
+      "es-US"
+    ],
+    "#SupportPhoneNumber": [
+      "es-US"
+    ],
+    "#TermsWebURL": [
+      "es-US"
+    ],
+    "#PaypalInvoiceTotal": [
+      "es-US"
+    ],
+    "#AlertOK": [
+      "sv-SE",
+      "da-DK",
+      "fi-FI",
+      "fi-FI",
+      "nb-NO",
+      "de-DE",
+      "pt-BR",
+      "nl-NL",
+      "fr-FR",
+      "it-IT",
+      "es-US"
+    ],
+    "#CardReaderDatecs": [
+      "sv-SE",
+      "sv-FI",
+      "da-DK",
+      "fi-FI",
+      "fi-FI",
+      "nb-NO",
+      "de-DE",
+      "es-ES",
+      "es-MX",
+      "pt-BR",
+      "nl-NL",
+      "fr-FR",
+      "it-IT",
+      "es-US"
+    ],
+    "#CardReaderDatecsV2": [
+      "sv-SE",
+      "sv-FI",
+      "da-DK",
+      "fi-FI",
+      "fi-FI",
+      "nb-NO",
+      "de-DE",
+      "es-ES",
+      "es-MX",
+      "pt-BR",
+      "nl-NL",
+      "fr-FR",
+      "it-IT",
+      "es-US"
+    ],
+    "#CardReaderWizardBTReader": [
+      "sv-SE"
+    ],
+    "#Klarna": [
+      "da-DK",
+      "fi-FI",
+      "nb-NO",
+      "sv-SE"
+    ],
+    "#PaypalQRC": [
+      "de-DE",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "en-US",
+      "es-US"
+    ],
+    "#VenmoQRC": [
+      "en-US",
+      "es-US"
+    ],
+    "#Later": [
+      "nl-NL"
+    ],
+    "#Model": [
+      "nl-NL",
+      "da-DK"
+    ],
+    "#No": [
+      "es-ES",
+      "es-MX",
+      "it-IT",
+      "es-US"
+    ],
+    "#OK": [
+      "sv-SE",
+      "da-DK",
+      "fi-FI",
+      "fi-FI",
+      "nb-NO",
+      "de-DE",
+      "es-ES",
+      "pt-BR",
+      "nl-NL",
+      "fr-FR",
+      "it-IT",
+      "es-US"
+    ],
+    "#Send": [
+      "da-DK"
+    ],
+    "#KeyInCVCPlaceholder": [
+      "es-US"
+    ],
+    "#KeyInTransactionFee": [
+      "en-US",
+      "es-US"
+    ],
+    "#KeyInActivationDetailBody": [
+      "en-US",
+      "es-US"
+    ],
+    "#TapToPayTitle": [
+        "sv-SE",
+        "da-DK",
+        "fi-FI",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-ES",
+        "pt-BR",
+        "nl-NL",
+        "fr-FR",
+        "it-IT",
+        "es-US"
+    ],
+    "#TapToPayZettlebyPaypal": [
+        "sv-SE",
+        "da-DK",
+        "fi-FI",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-ES",
+        "pt-BR",
+        "nl-NL",
+        "fr-FR",
+        "it-IT",
+        "es-US"
+    ],
+    "#P2PEComplianceTitle": [
+        "sv-SE",
+        "sv-FI",
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-ES",
+        "es-MX",
+        "pt-BR",
+        "nl-NL",
+        "fr-FR",
+        "it-IT",
+        "es-US"
+    ],
+    "#DSSComplianceTitle": [
+        "sv-SE",
+        "sv-FI",
+        "da-DK",
+        "fi-FI",
+        "nb-NO",
+        "de-DE",
+        "es-ES",
+        "es-MX",
+        "pt-BR",
+        "nl-NL",
+        "fr-FR",
+        "it-IT",
+        "es-US"
+    ]
+  }
+}
