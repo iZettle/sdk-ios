@@ -113,4 +113,9 @@ private extension ManualCardEntryViewController {
     func showConsole() {
         performSegue(withIdentifier: "showConsole", sender: self)
     }
+    
+    @IBAction func amountValueChanged(_ sender: Any) {
+        let stepper = sender as! UIStepper
+        currentAmount = Double(stepper.value)
+    }
 }

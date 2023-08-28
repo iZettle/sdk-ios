@@ -351,6 +351,9 @@
                                     </label>
                                     <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minimumValue="1" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="wUw-QT-INt">
                                         <rect key="frame" x="94.5" y="131.5" width="94" height="32"/>
+                                        <connections>
+                                            <action selector="amountValueChanged:" destination="fnb-MU-YIC" eventType="valueChanged" id="7Va-cl-KjW"/>
+                                        </connections>
                                     </stepper>
                                 </subviews>
                             </stackView>
