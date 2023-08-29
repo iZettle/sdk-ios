@@ -9,6 +9,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @class iZettleSDKPaymentInfo;
 @class IZSDKPayPalQRCPaymentInfo;
+@class IZSDKManualCardEntryPaymentInfo;
 @protocol iZettleSDKAuthorizationProvider;
 
 /// SDK error domain.
@@ -16,6 +17,9 @@ extern NSErrorDomain const IZSDKErrorDomain;
 
 /// PayPal QRC error domain.
 extern NSErrorDomain const IZSDKPayPalQRCErrorDomain;
+
+/// Manual Card Entry error domain.
+extern NSErrorDomain const IZSDKManualCardEntryErrorDomain;
 
 /// Defines SDK errors.
 typedef NS_ERROR_ENUM(IZSDKErrorDomain, IZSDKErrorCode) {
@@ -65,6 +69,34 @@ typedef NS_ERROR_ENUM(IZSDKPayPalQRCErrorDomain, IZSDKPayPalQRCErrorCode) {
     IZSDKPayPalQRCRefundCancelled            = -2304,
 };
 
+/// Defines Manual Card Entry SDK errors.
+typedef NS_ERROR_ENUM(IZSDKManualCardEntryErrorDomain, IZSDKManualCardEntryErrorCode) {
+    
+    // Common errors
+    IZSDKManualCardEntryNetworkError               = -3000,
+    IZSDKManualCardEntryTechnicalError             = -3001,
+    
+    // Payment errors
+    IZSDKManualCardEntryLocationFailed             = -3101,
+    IZSDKManualCardEntryFeatureNotEnabled          = -3102,
+    IZSDKManualCardEntrySellerDataError            = -3104,
+    IZSDKManualCardEntryPaymentCancelledByMerchant = -3105,
+    IZSDKManualCardEntryInvalidAmount              = -3108,
+    IZSDKManualCardEntryAmountBelowMinimum         = -3109,
+    IZSDKManualCardEntryAmountAboveMaximum         = -3110,
+    
+    // PaymentInfoErrors
+    IZSDKManualCardEntryNotFound                   = -3201,
+    IZSDKManualCardEntryNotAuthorized              = -3202,
+    IZSDKManualCardEntryRetrievalCancelled         = -3203,
+    
+    // Refund errors
+    IZSDKManualCardEntryRefundAmountTooHigh        = -3301,
+    IZSDKManualCardEntryRefundInsufficientFunds    = -3302,
+    IZSDKManualCardEntryRefundFailed               = -3303,
+    IZSDKManualCardEntryRefundCancelled            = -3304
+};
+
 typedef void(^iZettleSDKOperationCompletion)(iZettleSDKPaymentInfo * _Nullable paymentInfo, NSError * _Nullable error);
 
 typedef void(^IZSDKPayPalQRCCompletion)(IZSDKPayPalQRCPaymentInfo * _Nullable paymentInfo, NSError * _Nullable error);
@@ -77,7 +109,9 @@ typedef NS_ENUM(NSInteger, IZSDKPayPalQRCAppearance) {
 
 typedef NS_ENUM(NSInteger, IZSDKAlternativePaymentMethod) {
     /// This payment method represents both `PayPal` and `Venmo` since we are considering `Venmo` as a subtype of `PayPal`.
-    IZSDKAlternativePaymentMethodPayPalQRC = 0
+    IZSDKAlternativePaymentMethodPayPalQRC = 0,
+    /// This payment method allows manually entering the customer's card details. Read more about it at [developer portal](https://developer.zettle.com/docs/ios-sdk/)
+    IZSDKAlternativePaymentMethodManualCardEntry = 1
 };
 
 /// Defining which tipping style to be used when initiating a payment with tipping.
@@ -325,6 +359,65 @@ NS_SWIFT_NAME(presentSettings(from:));
 - (BOOL)applicationDidOpenWithURL:(NSURL *)url NS_DEPRECATED_IOS(9_0, 11_0, "Not needed on newer iOS versions.")
 NS_SWIFT_NAME(applicationDidOpen(with:));
 
+// MARK: - Manual Card Entry
+typedef void(^IZSDKManualCardEntryCompletion)(IZSDKManualCardEntryPaymentInfo * _Nullable paymentInfo, NSError * _Nullable error);
+
+/// Perform a Manual card entry payment with an amount and a reference.
+///
+/// > Note: If developer mode is enabled, making refunds will not trigger real transactions.
+///
+/// - Parameters:
+///     - amount: The amount to be charged in the logged-in user's currency.
+///     - reference: Non-nullable payment reference. Used to identify a Zettle payment when retrieving payment information at a later time, or performing a refund.
+///     - viewController: A controller from which iZettle will present its UI.
+///     - completion: Completion handler that will be called when the operation finishes.
+- (void)chargeManualCardEntryWithAmount:(NSDecimalNumber *)amount
+                              reference:(NSUUID *)reference
+              presentFromViewController:(UIViewController *)viewController
+                             completion:(IZSDKManualCardEntryCompletion)completion
+NS_SWIFT_NAME(chargeManualCardEntry(amount:reference:presentFrom:completion:));
+
+/// Query Zettle for payment information of a Manual card entry payment and refund with a given reference.
+///
+/// > Note: If developer mode is enabled, making refunds will not trigger real transactions.
+///
+/// - Parameters:
+///     - reference: The payment/refund reference to query. Use the same reference as was used on the payment/refund initialization.
+///     - viewController: A controller from which Zettle will present its UI.
+///     - completion: Completion handler that will be called when the operation finishes.
+- (void)retrieveManualCardEntryInfoForReference:(NSUUID *)reference
+                      presentFromViewController:(UIViewController *)viewController
+                                     completion:(IZSDKManualCardEntryCompletion)completion
+NS_SWIFT_NAME(retrieveManualCardEntryInfo(for:presentFrom:completion:));
+
+/// Query Zettle for payment information of a Manual card entry payment and refund with a given reference.
+///
+/// > Note: If developer mode is enabled, making refunds will not trigger real transactions.
+///
+/// - Parameters:
+///     - reference: The payment/refund reference to query. Use the same reference as was used on the payment/refund initialization.
+///     - completion: Completion handler that will be called when the operation finishes.
+- (void)retrieveManualCardEntryInfoForReference:(NSUUID *)reference
+                                     completion:(IZSDKManualCardEntryCompletion)completion
+NS_SWIFT_NAME(retrieveManualCardEntryInfo(for:completion:));
+
+/// Refund an amount from a Manual Card Entry payment with a given reference.
+///
+/// > Note: If developer mode is enabled, making refunds will not trigger real transactions.
+///
+/// - Parameters:
+///     - amount: The nullable amount to be refunded from the payment (passing `nil` will refund the full amount of the original payment).
+///     - reference: The reference of the payment that is to be refunded.
+///     - refundReference: Non-nullable refund reference. Used to identify a Zettle refund when retrieving refund information at a later time. Max length 128.
+///     - viewController:  A controller from which Zettle will present its UI.
+///     - completion: Completion handler that will be called when the operation finishes.
+- (void)refundManualCardEntryAmount:(nullable NSDecimalNumber *)amount
+             ofPaymentWithReference:(NSUUID *)paymentReference
+                    refundReference:(NSUUID *)refundReference
+          presentFromViewController:(UIViewController *)viewController
+                         completion:(IZSDKManualCardEntryCompletion)completion
+NS_SWIFT_NAME(refundManualCardEntry(amount:ofPayment:withRefundReference:presentFrom:completion:));
+
 /// Attempt aborting the ongoing operation. Only use this if absolutely necessary. The state of the payment will be unknown to the user after this call.
 - (void)abortOperation;
 
@@ -396,4 +489,16 @@ typedef NS_ENUM(NSInteger, IZSDKPayPalQRCType) {
 
 @end
 
+@interface IZSDKManualCardEntryPaymentInfo: NSObject
+
+/// Total transaction amount.
+@property (nonatomic, readonly) NSDecimalNumber *amount;
+
+/// Zettle's reference to the payment that should be displayed on receipts (not to be confused with the reference provided by you during a charge or refund operation).
+@property (nonatomic, readonly) NSString *referenceNumber;
+
+/// The Zettle transaction identifier for the transaction itself.
+@property (nonatomic, readonly) NSString *transactionId;
+
+@end
 NS_ASSUME_NONNULL_END

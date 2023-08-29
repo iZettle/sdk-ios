@@ -11,6 +11,7 @@
 		07B1AF2A28F55EB30066D1D8 /* iZettlePayments.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B803A23327B118DE00C5C4C7 /* iZettlePayments.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		07B1AF2B28F55EB60066D1D8 /* iZettleSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B803A23227B118DE00C5C4C7 /* iZettleSDK.xcframework */; };
 		07B1AF2C28F55EB60066D1D8 /* iZettleSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B803A23227B118DE00C5C4C7 /* iZettleSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		739E173D2A4490E000839E00 /* ManualCardEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739E173C2A4490E000839E00 /* ManualCardEntryViewController.swift */; };
 		9B8B199E24754A0F00C74D78 /* CustomAuthorizationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B199D24754A0F00C74D78 /* CustomAuthorizationProvider.m */; };
 		9BC1DCBB24ACBA58004E74DC /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1DCBA24ACBA58004E74DC /* AccountManager.m */; };
 		B803A22627AAA17D00C5C4C7 /* QRCPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B803A22527AAA17D00C5C4C7 /* QRCPaymentViewController.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		3F0C93981AC30F4600305D8F /* iZettle SDK Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iZettle SDK Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		739E173C2A4490E000839E00 /* ManualCardEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualCardEntryViewController.swift; sourceTree = "<group>"; };
 		9B8B199C24754A0F00C74D78 /* CustomAuthorizationProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomAuthorizationProvider.h; sourceTree = "<group>"; };
 		9B8B199D24754A0F00C74D78 /* CustomAuthorizationProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAuthorizationProvider.m; sourceTree = "<group>"; };
 		9BC1DCB924ACBA58004E74DC /* AccountManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				E6F9FEE91DDDFFC80051C21D /* CardPaymentViewController.m */,
 				E6F9FEE31DDDFFC80051C21D /* ConsoleViewController.h */,
 				E6F9FEE41DDDFFC80051C21D /* ConsoleViewController.m */,
+				739E173C2A4490E000839E00 /* ManualCardEntryViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				9B8B199E24754A0F00C74D78 /* CustomAuthorizationProvider.m in Sources */,
 				E6F9FEEF1DDDFFC80051C21D /* ConsoleViewController.m in Sources */,
 				E6F9FEF31DDDFFC80051C21D /* CardPaymentViewController.m in Sources */,
+				739E173D2A4490E000839E00 /* ManualCardEntryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +371,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/../**",
@@ -380,9 +385,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.izettle.iZorn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "iZettleSDKSample/iZettle SDK Sample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -398,6 +400,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/../**",
@@ -411,9 +414,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.izettle.iZorn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "iZettleSDKSample/iZettle SDK Sample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

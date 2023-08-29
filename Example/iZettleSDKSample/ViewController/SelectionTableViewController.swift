@@ -17,7 +17,7 @@ class SelectionTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return 6
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -31,9 +31,11 @@ class SelectionTableViewController: UITableViewController {
         case 2:
             cell.textLabel?.text = "Venmo QRC Payment (US only)"
         case 3:
+            cell.textLabel?.text = "Manual Card Entry Payment"
+        case 4:
             cell.textLabel?.text = "Enforce account"
             cell.detailTextLabel?.text = AccountManager.shared().enforcedUserAccount
-        case 4:
+        case 5:
             cell.textLabel?.text = "Settings"
         default: break
         }
@@ -57,8 +59,11 @@ class SelectionTableViewController: UITableViewController {
                 navigationController?.pushViewController(vc, animated: true)
             }
         case 3:
-            enforceAccount()
+            let vc = storyboard!.instantiateViewController(withIdentifier: "manualCardEntryViewController") as! ManualCardEntryViewController
+            navigationController?.pushViewController(vc, animated: true)
         case 4:
+            enforceAccount()
+        case 5:
             iZettleSDK.shared().presentSettings(from: self)
         default: break
         }
