@@ -1,3 +1,8 @@
+3.15.1
+- Fixed an issue with failing payment when a service endpoint is not available.
+- Enhancements in Manual Card Entry user interaction.
+- Under the hood changes for card payments tipping
+
 3.13.2
 - Added support for Manual Card Entry payments.
 - Fixed issue with wrong formatting of some Card payment related translations.
@@ -8,11 +13,7 @@
 3.10.0
 - Added compliance information to the Reader information page.
 - Added payment verification check for unlikely cases where a payment issue occurs mid-transaction which shows to the customer as failed, but still went through.
-
-3.9.0
 - Fixed issue with reader appearing more then once for some integrators.
-
-3.8.0
 - Decrease SDK binary size.
 - Fix issue when no error is returned on Zettle flow start while another VC is being dismissed/shown (support issue https://github.com/iZettle/sdk-ios/issues/424)
 
@@ -90,9 +91,9 @@ Workaround: On a Mac with Apple silicon use iOS 14+ simulators.
 - Various crash fixes and performance improvements under the hood
 
 3.0.0
+- Migrated SDK binaries to XCFrameworks
 - Added support for OAuth 2.0
 - Deprecated API keys. SDK will no longer need to accept API key as part of the SDK initialization process.
-- Migrated SDK binaries to XCFrameworks
 - Implemented in-app pairing flows for all supported iZettle card readers
 - Implemented new version of the SDK settings
 
@@ -105,22 +106,22 @@ Workaround: On a Mac with Apple silicon use iOS 14+ simulators.
 2.5.1
 - Fix "iZettle SDK overrides UIPageControl tint colors using appearance proxy" issue #279
 
-2.5
-- SDK is now built using Xcode 11 and Swift 5.1. `ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES` flag is required if your project doesn't include Swift
+2.5.0
 - Better support for background modes
 - Bugfixes and improvements 
+- SDK is now built using Xcode 11 and Swift 5.1. `ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES` flag is required if your project doesn't include Swift
 
 2.3
 - Bug fixes and performance improvements
 
-2.2
+2.2.0
 - Background update of `iZettle Reader` and iZettle Reader 2` software: 
     Updating card reader software is now done automatically in the background by the SDK
     when time permits
 - Improved handling when re-connection to a card reader
 - Bug fixes and performance improvements
 
-2.1
+2.1.0
 - Improved reader software update flow
 - Removed support for iOS 8
 - Deprecated `currency` parameter in the `charge(amount:_)` method
@@ -145,7 +146,7 @@ Workaround: On a Mac with Apple silicon use iOS 14+ simulators.
 2.0.1
 - Fixed an issue where iZettleTransport framework was not linked with Cocoapods
 
-2.0
+2.0.0
 - Added support for iZettle Reader 2
 - Added support for in-app pairing flow for iZettle Reader 2
 - Added support for wake-up/sleep behaviour with iZettle Reader 2
@@ -165,11 +166,11 @@ Workaround: On a Mac with Apple silicon use iOS 14+ simulators.
 1.6.1
 - Fix an issue with "unsupported url" message shown during payment flow
 
-1.6
+1.6.0
 - Stability improvements
 - iOS 11 support and fixes
 
-1.5
+1.5.0
 - Stability improvements
 - Add support for PIN bypass on supported readers
 
@@ -311,7 +312,7 @@ Workaround: On a Mac with Apple silicon use iOS 14+ simulators.
 0.5.1
 - Added abortOngoingPurchase method
 
-0.5
+0.5.0
 - Prefixed SBJson and Reachability with IZ to avoid symbol collisions
 - Resetting NSDecimalNumber number behaviors after a purchase
 - Various bug fixes and stability improvements

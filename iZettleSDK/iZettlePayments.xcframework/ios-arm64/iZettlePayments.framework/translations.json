@@ -36,10 +36,6 @@
       "text": "Choose account",
       "desc": "This means the Zettle account"
     },
-    "#AccountSupportMail": {
-      "text": "help.uk@zettle.com",
-      "desc": "The support mail address for this language."
-    },
     "#AccountTypeSelectionCredit": {
       "text": "Credit",
       "desc": "Credit payment with card"
@@ -193,10 +189,6 @@
     },
     "#BuyCardReader": {
       "text": "Buy card reader"
-    },
-    "#BuyCardReaderUrl": {
-      "text": "https://www.zettle.com/gb/card-readers",
-      "desc": "URL to a page where the user can buy a card reader"
     },
     "#Cancel": {
       "text": "Cancel"
@@ -444,7 +436,7 @@
       ]
     },
     "#KeyInActivatingTitle": {
-      "text": "Activating…",
+      "text": "Activating...",
       "desc": "Title when activating",
       "locales": [
         "en-US",
@@ -702,7 +694,7 @@
       ]
     },
     "#KlarnaActivatingTitle": {
-      "text": "Activating…",
+      "text": "Activating...",
       "desc": "Title when activating",
       "locales": [
         "da-DK",
@@ -1006,7 +998,7 @@
       ]
     },
     "#PaypalQRCActivatingTitle": {
-      "text": "Activating…",
+      "text": "Activating...",
       "desc": "Title when activating",
       "locales": [
         "de-DE",
@@ -1466,7 +1458,7 @@
       ]
     },
     "#PaypalQRCPaymentProcessingBody": {
-      "text": "Please wait…",
+      "text": "Please wait...",
       "desc": "Body of the message presented to merchant when payment is processing",
       "locales": [
         "de-DE",
@@ -1834,7 +1826,7 @@
       ]
     },
     "#VenmoQRCPaymentProcessingBody": {
-      "text": "Please wait…",
+      "text": "Please wait...",
       "desc": "Body of the message presented to merchant when payment is processing",
       "locales": [
         "en-US",
@@ -2905,9 +2897,6 @@
     "#SupportArticleTitle": {
       "text": "Support article"
     },
-    "#SupportPhoneNumber": {
-      "text": "020-39848464"
-    },
     "#SupportSendEmailConfirmCancel": {
       "text": "Are you sure you want to delete your message?"
     },
@@ -2947,10 +2936,6 @@
     "#TermsAndConditionsTitle": {
       "text": "Terms & Conditions"
     },
-    "#TermsWebURL": {
-      "text": "https://www.zettle.com/gb/terms?in_app_modal=true",
-      "desc": "This is a URL that will link to the general Terms & Conditions, the format should go like https://www.zettle.com/LOCALE/terms?in_app_modal=true, please make sure that the link you are adding exists."
-    },
     "#TransactionFailedReaderConnectionLostSubtitle": {
       "text": "Please connect your card reader and check your receipts, this payment may not have gone through.",
       "desc": "Detailed text shown to the users in cases where app loses the connection to the card reader, and transaction might have failed because of it"
@@ -2966,22 +2951,12 @@
       "text": "Card",
       "desc": "Unknown card issuer"
     },
-    "#UnsupportedReaderInfoUrl": {
-      "text": "https://www.zettle.com/help/articles/2980873",
-      "desc": "URL for FAQ article for unsupported readers. ",
-      "locales": [
-        "sv-SE"
-      ]
-    },
     "#UnsupportedReaderMessage": {
       "text": "Your card reader is being discontinued and will stop working on 31 May 2021",
       "desc": "Messaged shown in app, payment, when a reader soon will be unsupported. Will be followed by a \"reader more\" button that will open a FAQ article with more info. "
     },
     "#UpdateReaderFirmwareButtonTitle": {
       "text": "Update card reader"
-    },
-    "#VerifyYourAccountMessage": {
-      "text": "Please contact help.uk@zettle.com."
     },
     "#VerifyYourAccountTitle": {
       "text": "Contact support"
@@ -2996,7 +2971,7 @@
       "text": "Credit"
     },
     "#ProcessingLoginText": {
-      "text": "Signing in ..."
+      "text": "Signing in..."
     },
     "#Datecs2PairingCompareAndConfirmSubtitle": {
       "text": "Confirm that this code matches the one on your card reader by pressing the green button"

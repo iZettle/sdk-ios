@@ -70,7 +70,7 @@
       "#KlarnaActivatingSubTitle2",
       "#PaypalQRCActivatingSubTitle2"
     ],
-    "Activating…": [
+    "Activating...": [
       "#KeyInActivatingTitle",
       "#KlarnaActivatingTitle",
       "#PaypalQRCActivatingTitle"
@@ -205,7 +205,7 @@
       "#PaypalQRCPaymentLearnMoreStep3",
       "#VenmoQRCPaymentLearnMoreStep3"
     ],
-    "Please wait…": [
+    "Please wait...": [
       "#PaypalQRCPaymentProcessingBody",
       "#VenmoQRCPaymentProcessingBody"
     ],
@@ -1002,7 +1002,6 @@
       "#Datecs2PairingCompareAndConfirmTitle": 0.5263157894736843,
       "#ForgetClassicBluetoothCardReaderMessage": 0.7205882352941178,
       "#VerifyYourAccountTitle": 0.5333333333333334,
-      "#VerifyYourAccountMessage": 0.5588235294117647,
       "#UpdateReaderFirmwareButtonTitle": 0.6666666666666667,
       "#ErroneousSwipeDataTitle": 1.0909090909090908,
       "#PaypalQRCPaymentInfoTechnicalErrorTitle": 0.5416666666666667,
@@ -1122,9 +1121,6 @@
     ]
   },
   "untranslated_key_escapes": {
-    "#UnsupportedReaderInfoUrl": [
-      "sv-SE"
-    ],
     "#Hardware": [
       "da-DK",
       "es-MX",
@@ -1174,15 +1170,6 @@
     ],
     "#PaypalQRCActivationOffTitle": [
       "it-IT"
-    ],
-    "#BuyCardReaderUrl": [
-      "es-US"
-    ],
-    "#SupportPhoneNumber": [
-      "es-US"
-    ],
-    "#TermsWebURL": [
-      "es-US"
     ],
     "#PaypalInvoiceTotal": [
       "es-US"
