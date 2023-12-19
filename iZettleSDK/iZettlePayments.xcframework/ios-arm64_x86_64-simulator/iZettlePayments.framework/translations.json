@@ -2652,20 +2652,8 @@
       "text": "Battery level",
       "desc": "card reader battery status"
     },
-    "#ReaderDisplayAuthorizing": {
-      "text": "Please wait..."
-    },
-    "#ReaderDisplayCardHasChip": {
-      "text": "Card has chip\nInsert card"
-    },
-    "#ReaderDisplayCardNotRead": {
-      "text": "Card not read"
-    },
     "#ReaderDisplayCardOK": {
       "text": "Waiting for amount..."
-    },
-    "#ReaderDisplayIdentification": {
-      "text": "Approved\nPlease show ID"
     },
     "#ReaderDisplayIdleMode": {
       "text": "Hello!",
@@ -2674,9 +2662,6 @@
     "#ReaderDisplayInsertCard": {
       "text": "Insert card",
       "desc": "Zettle Reader(s) prompt used when reader is in idle mode (not yet ready for tapping the card). max 21 characters incl. space"
-    },
-    "#ReaderDisplayInsertCardNoSwipe": {
-      "text": "Insert card"
     },
     "#ReaderDisplayPurchaseAborted": {
       "text": "Payment cancelled"
@@ -2698,9 +2683,6 @@
     },
     "#ReaderDisplaySignature": {
       "text": "Please sign"
-    },
-    "#ReaderDisplayUpdating": {
-      "text": "Updating..."
     },
     "#ReaderInfo": {
       "text": "Card readers",
@@ -4463,6 +4445,50 @@
     },
     "#DatecsGratuityPercentagePrompt": {
       "text": "(tip"
+    },
+    "#TapToPayTippingTotalWithTaxTitle": {
+        "text": "Total with tax",
+        "desc": "Title for amount customer is about to pay"
+    },
+    "#TapToPayTippingCustomTipButtonTitle": {
+        "text": "Custom Tip",
+        "desc": "Tips preset button which opens custom tip screen"
+    },
+    "#TapToPayTippingSkipTipButtonTitle": {
+        "text": "Skip tip",
+        "desc": "Button title to skip tip and proceed to payment"
+    },
+    "#TapToPayTippingAddTipsNavigationTitle": {
+        "text": "Add Tips",
+        "desc": "Navigation title visible on the tipping screen"
+    },
+    "#TapToPayTippingCustomPercentageTapBarTitle": {
+        "text": "Percentage",
+        "desc": "One of two options of custom tip. Used in tab bar button"
+    },
+    "#TapToPayTippingCustomAmountTapBarTitle": {
+        "text": "Amount",
+        "desc": "One of two options of custom tip. Used in tab bar button"
+    },
+    "#TapToPayTippingCustomInputPercentageSubtitle": {
+        "text": "Enter percentage",
+        "desc": "Subtitle on the input view of the custom tip screen"
+    },
+    "#TapToPayTippingCustomInputAmountSubtitle": {
+        "text": "Enter tip amount",
+        "desc": "Subtitle on the input view of the custom tip screen"
+    },
+    "#TapToPayTippingCustomPercentageInputOverLimitError": {
+        "text": "Tip limit is %@%%. Enter lower percentage",
+        "desc": "Error shown if gratuity amount is over the account limit. F.ex.: 'Tip limit is 55%. Enter lower percentage'"
+    },
+    "#TapToPayTippingCustomAmountInputOverLimitError": {
+        "text": "Tip limit is %@%%. Enter lower amount",
+        "desc": "Error shown if gratuity amount is over the account limit. F.ex.: 'Tip limit is 55%. Enter lower amount'"
+    },
+    "#TapToPayTippingCustomPayButtonTitle": {
+        "text": "Pay %@",
+        "desc": "Payment button title, used in tipping screens. F.ex.: 'Pay $4.99'"
     }
   }
 }
