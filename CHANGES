@@ -1,3 +1,8 @@
+3.18.0
+- Enhancements in Manual Card Entry user interaction.
+- Minor under-the-hood changes and improvements.
+- Fixed issue where SDK might crash when forgetting a reader while the reader is updating.
+
 3.15.1
 - Fixed an issue with failing payment when a service endpoint is not available.
 - Enhancements in Manual Card Entry user interaction.

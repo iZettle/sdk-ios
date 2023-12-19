@@ -2332,56 +2332,56 @@
     {
       "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "StringLiteral",
-      "offset": 4662,
+      "offset": 4640,
       "length": 12,
       "value": "\"Verify_web\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "IntegerLiteral",
-      "offset": 4706,
+      "offset": 4684,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "IntegerLiteral",
-      "offset": 5858,
+      "offset": 5836,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "BooleanLiteral",
-      "offset": 6111,
+      "offset": 6089,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "StringLiteral",
-      "offset": 6342,
+      "offset": 6320,
       "length": 18,
       "value": "\"CFBundleURLTypes\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "BooleanLiteral",
-      "offset": 6414,
+      "offset": 6392,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "StringLiteral",
-      "offset": 6479,
+      "offset": 6457,
       "length": 20,
       "value": "\"CFBundleURLSchemes\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "BooleanLiteral",
-      "offset": 6575,
+      "offset": 6553,
       "length": 5,
       "value": "false"
     },
