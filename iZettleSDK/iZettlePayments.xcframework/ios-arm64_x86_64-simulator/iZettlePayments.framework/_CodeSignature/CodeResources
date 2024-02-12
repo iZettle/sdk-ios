@@ -98,7 +98,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		lpxKHSBOhYgVPK0bVvzRRiWRkpY=
+		ezeI0HpYK4vQVRp4KUnnwgvTxjw=
 		</data>
 		<key>Headers/Attempt.h</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Headers/CardReaderManager.h</key>
 		<data>
-		k1XKKH5FC9OaY0MxUYwbJbP63xQ=
+		TRROwUHFnbaWm78zMSG7sWCzdEY=
 		</data>
 		<key>Headers/CircleProgressView.h</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Headers/DatecsReader.h</key>
 		<data>
-		ZZ/BMuRRFq/NCF16rtYehcxXZJA=
+		v5nh1o2LKoD3tlCsrl0I8jAw3sM=
 		</data>
 		<key>Headers/DatecsReaderQueue+KeyExchange.h</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>Headers/IZAccountManagementService.h</key>
 		<data>
-		eXkxQEfUjJWMyzkvY8nLdprZn/s=
+		ZM0ktfJ9EdWYPqLgkd1QB29KvKA=
 		</data>
 		<key>Headers/IZAccountProtocol.h</key>
 		<data>
@@ -198,11 +198,11 @@
 		</data>
 		<key>Headers/IZCardPaymentConfiguration.h</key>
 		<data>
-		Peji8RzAoSLB/pXhECLjng/l5lE=
+		WmF0DqUFVQGKVwngn+BONTxM/WQ=
 		</data>
 		<key>Headers/IZCardPaymentManager.h</key>
 		<data>
-		jnwVgGzp7tI1FVHHaJsvvhP60BE=
+		vda32kZH0y8vS/ZicfMLU280xzM=
 		</data>
 		<key>Headers/IZCardPaymentViewController.h</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>Headers/IZCardReader.h</key>
 		<data>
-		J6/XCTeRTO+Tup7QBq/97qwsecM=
+		VsGbfJ35CjkzdTMDRe/tg8SK2uk=
 		</data>
 		<key>Headers/IZCardReaderDefines.h</key>
 		<data>
@@ -378,7 +378,7 @@
 		</data>
 		<key>Headers/IZettleOAuthToken.h</key>
 		<data>
-		Vdo+0lRWEOrlqHlZezgKrTJCIMo=
+		l9t6OUfDXQPQOnEIfEfIY0xCfMU=
 		</data>
 		<key>Headers/IZettleTranslationsDataSource.h</key>
 		<data>
@@ -395,6 +395,14 @@
 		<key>Headers/NSBundle+iZettlePayments.h</key>
 		<data>
 		gbiGKsaUdvFR/fcE1XNkL+jagBQ=
+		</data>
+		<key>Headers/NSData+Datecs.h</key>
+		<data>
+		2F8QLZpW3EoUnT/gNDNoqjwVvac=
+		</data>
+		<key>Headers/NSData+DatecsCommands.h</key>
+		<data>
+		ToULvqpsYyy2F2nIlY+plqdwFTg=
 		</data>
 		<key>Headers/NSData+Encryption.h</key>
 		<data>
@@ -414,7 +422,7 @@
 		</data>
 		<key>Headers/NSDictionary+Utilities.h</key>
 		<data>
-		jjgj6hKo4vsnrfE6PfJJWEH2wCA=
+		3M3omtR882ze/8lCSj+NgOnSONM=
 		</data>
 		<key>Headers/NSError+IZErrorSwiftAccessible.h</key>
 		<data>
@@ -466,7 +474,7 @@
 		</data>
 		<key>Headers/Payment.h</key>
 		<data>
-		Prs9g3U9bPYjGz/pc3qW8ZkZkEQ=
+		Y9GWjOUHWwxb8I5/9KlMAVSMeCQ=
 		</data>
 		<key>Headers/PresentCardViewController.h</key>
 		<data>
@@ -522,7 +530,7 @@
 		</data>
 		<key>Headers/iZettlePayments-Swift.h</key>
 		<data>
-		8bmBjRNHs3ajPyohJ+G5xINTLKU=
+		/fFa0MesIwyZxmrdTWAv0Qv2+qQ=
 		</data>
 		<key>Headers/iZettlePayments.h</key>
 		<data>
@@ -530,7 +538,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		04STuE2VJQM/Aq+hJZNytkpW9+A=
+		03yZXlUm4q+qWPhbVDJgzmN5S2Q=
 		</data>
 		<key>Issuers.plist</key>
 		<data>
@@ -546,47 +554,47 @@
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		GeVmGLyRyP/vT3m0q7asBPkoEXI=
+		sJvUNt3Eo5l30KP3hcZJM+G6h1A=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		6MTJWgRfQ72kZDWUcqXKW0DQ2xI=
+		sWSfcRtTleSMzDlnbA3Mgl2FlHY=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		BcdkkyuWV91nMTO8TdQKw4qER0s=
+		irlt7DisGDGKsvfVS9IV12O18KY=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6MTJWgRfQ72kZDWUcqXKW0DQ2xI=
+		sWSfcRtTleSMzDlnbA3Mgl2FlHY=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		op/DJX/UCyNVOjcgM/yN1mDWJHM=
+		yCX3gh7NG1DY3bU5Yo+Mb7vq0EU=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		GeVmGLyRyP/vT3m0q7asBPkoEXI=
+		sJvUNt3Eo5l30KP3hcZJM+G6h1A=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		UfSEtcj5QtHGgRC7LncU36nUzZk=
+		HooIRYMUXwNgQMSYCbF9dYD8yqs=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		BcQqyFILnBTaHG98jKdxaYmtQiM=
+		9hD8LJ+nrpXttdGKCQjEkBwNtVI=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UfSEtcj5QtHGgRC7LncU36nUzZk=
+		HooIRYMUXwNgQMSYCbF9dYD8yqs=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ExK6El4oL5PCV07dEbJGj216rgs=
+		bXMxUiyah4x8xVrerw4H9BsxRD8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		R4u3RNqqOCPVeCvZWsBjcdNvkkw=
+		WGQmxrWAM0hdD+677ebyHp9pM5k=
 		</data>
 		<key>PayPalOpen-Bold.otf</key>
 		<data>
@@ -680,6 +688,10 @@
 		<data>
 		JEkgOsJwABtca8raw0OUyuv6hmY=
 		</data>
+		<key>invoicing_send.svg</key>
+		<data>
+		Cdg1yJJvlGFHMyOcT/h4kJBxPBg=
+		</data>
 		<key>key_in_payment.svg</key>
 		<data>
 		htq6vaOacXvk/V4ClJE1/9JcWNI=
@@ -698,63 +710,63 @@
 		</data>
 		<key>localized/i18n.da-DK.json</key>
 		<data>
-		SlTnVLn7nVyGaEE+6ilgl4O6jSg=
+		pITA4V5qdtMnArBDvhPJAOXMRdk=
 		</data>
 		<key>localized/i18n.de-DE.json</key>
 		<data>
-		9mxOf3I/Spy6uvAkjiD7EOqhC9w=
+		EZ4UXpwnTpqygH295b8bvYiuBMw=
 		</data>
 		<key>localized/i18n.en-GB.json</key>
 		<data>
-		zSF2XaDr9SxmZEXfTBlUKTbcteQ=
+		QXlBSX13PBsCCVS4zjW8LH+GU6A=
 		</data>
 		<key>localized/i18n.en-US.json</key>
 		<data>
-		wGu+iJP/537FLEqK9fBOwvMJdWg=
+		75CFvTJujgrkuSubAqlgGzhntHk=
 		</data>
 		<key>localized/i18n.es-ES.json</key>
 		<data>
-		pb98XwPEpDUDCzga3aVVjZA+d3k=
+		TAMb5T5QOccQD5nllXjkPCfj9ds=
 		</data>
 		<key>localized/i18n.es-MX.json</key>
 		<data>
-		D5/6U7UM5ibhv1o2lprDdz+THOo=
+		IMDfW/Zt23aTowXnyOzUyuzRMyY=
 		</data>
 		<key>localized/i18n.es-US.json</key>
 		<data>
-		bTaub1/BT3OzptE1VVPn/CcKPJI=
+		tXB+36V0qPjd4cIyYLLkf66hI14=
 		</data>
 		<key>localized/i18n.fi-FI.json</key>
 		<data>
-		bS4oCY31CyNdIS1U9wcBRwjoqw8=
+		rGvkOLycZKdYI39GAqOmzVSV4rg=
 		</data>
 		<key>localized/i18n.fr-FR.json</key>
 		<data>
-		qnPk69L6X9yX+yugbBjgP3BpoGs=
+		nqCpU1QczHGfluCdRzfR1tKaZTE=
 		</data>
 		<key>localized/i18n.it-IT.json</key>
 		<data>
-		DbOTyUR4FPIB/K54bNwGdjxrRUc=
+		ZKZOAScBIwsSKhArT+NEV5yC2+8=
 		</data>
 		<key>localized/i18n.nb-NO.json</key>
 		<data>
-		TawnjQeRbyI4DcqlIIpXhUG8YVQ=
+		Yb/sUHUjKodIxW38HsWxuex8ZKg=
 		</data>
 		<key>localized/i18n.nl-NL.json</key>
 		<data>
-		pcMeEyomHf3sBvUsGiZDWZi7ViU=
+		c/3/RyX7gbd1EMdGaETqPxM9RB4=
 		</data>
 		<key>localized/i18n.pt-BR.json</key>
 		<data>
-		h2Ld1Y6TToZ59FdGW1zMPUaQzfk=
+		eBpTa2jiClWweSSQSxoJAHlqwec=
 		</data>
 		<key>localized/i18n.sv-FI.json</key>
 		<data>
-		ZTrTlYd6B2RQ5cUAF/4msFNYhbg=
+		4hlK84ojZnCLmKHMkrhxJ3dRx7A=
 		</data>
 		<key>localized/i18n.sv-SE.json</key>
 		<data>
-		mzOL/cw+QoX8E88nNyCRTKXHJhA=
+		qi7g35nB0GLGubJA2QpnApTDgxk=
 		</data>
 		<key>localized/locales.plist</key>
 		<data>
@@ -770,7 +782,7 @@
 		</data>
 		<key>translations.json</key>
 		<data>
-		JQ3TWbaUxzxN/JGSp9q9jW9O8M4=
+		dLdbwRt1KsKd7L/ZOWvf4n3FDXU=
 		</data>
 		<key>ttp_payment_done.aif</key>
 		<data>
@@ -948,7 +960,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SOjmxL9mHUgKUqmUq68oJSJyYHodh6GVPGRBS72WHl0=
+			QS/SibgYzYu2utoKUweK1V6dO7vDD0EE+Rgsrb6/cIQ=
 			</data>
 		</dict>
 		<key>Headers/Attempt.h</key>
@@ -983,7 +995,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V/2o2UAww7rv+dnQLPuFQLz2D5Vz2zZZmRk5UXNqpew=
+			5NwEkUrvcqBWfovi9ANRzsyiXkSCAd1OR96ZE0hDp8s=
 			</data>
 		</dict>
 		<key>Headers/CircleProgressView.h</key>
@@ -1004,7 +1016,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2jHJ37Yp7KotoBKTxprAmtp2zugoWLRQf+EJv6q3jhQ=
+			vg+4Gcwyn5S4doUIuc41lYY3Ewv701mGPVi4O4AaeA4=
 			</data>
 		</dict>
 		<key>Headers/DatecsReaderQueue+KeyExchange.h</key>
@@ -1074,7 +1086,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sevNXDRTwDSPoALjQeo7nNZDmy0ogLtlT6YlzKA3hls=
+			BlscF7dbN/FHcHhzsekVV/M8/ndK33iaJS/dAdokjus=
 			</data>
 		</dict>
 		<key>Headers/IZAccountProtocol.h</key>
@@ -1123,14 +1135,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vMysoaE6DzjCuYm0UBwHq3+Y344UhhTTSPCLZE+61Jw=
+			zTGKegqPZnEpAkB+cbAkmf5IogCdLRsTcA+b+EeKyws=
 			</data>
 		</dict>
 		<key>Headers/IZCardPaymentManager.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yczKNG7WDJGqK1Yzm2N9NWkLZS+VECw0n6p5fWiCdsI=
+			M7zTEPWG7IElaOH/UGnNH7KWnG7l5+rG9G2WMUurdG4=
 			</data>
 		</dict>
 		<key>Headers/IZCardPaymentViewController.h</key>
@@ -1144,7 +1156,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fUy3SF8s4exZjHPrc++gr58c39AsTqZfDUcwxqq72vU=
+			zu1hoeYSFjlArypK2COepWF6CVixK1hudVHH/MgwPa8=
 			</data>
 		</dict>
 		<key>Headers/IZCardReaderDefines.h</key>
@@ -1438,7 +1450,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K9YAzHtn1IkZP9apneNngppxQCKb6eA4POQbSGC677I=
+			Tx12zQ7VLEZlV7lZqIB/ocjEm/WXVxuYWrkHHWJ9iDM=
 			</data>
 		</dict>
 		<key>Headers/IZettleTranslationsDataSource.h</key>
@@ -1467,6 +1479,20 @@
 			<key>hash2</key>
 			<data>
 			7IUi2zOQFN9NH6OVUwVI19XfRzDBmqUKWmhjIqIlN24=
+			</data>
+		</dict>
+		<key>Headers/NSData+Datecs.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uqZ6JI6xBAyDKG60irv+C6kRkd5tcUnGtcgFJWxpqfY=
+			</data>
+		</dict>
+		<key>Headers/NSData+DatecsCommands.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8HoEwbwVH61MJnh2EUIad+HaP5rdIat7l89HQE91NCE=
 			</data>
 		</dict>
 		<key>Headers/NSData+Encryption.h</key>
@@ -1501,7 +1527,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jwbpS/WqkbTzyg3vSIRgr1OKcUjulM1sD1DvkmT0wkk=
+			3ERQoTI3fAAamy4h0jIcTuM4kPO8uuFgx+gHD2stXs4=
 			</data>
 		</dict>
 		<key>Headers/NSError+IZErrorSwiftAccessible.h</key>
@@ -1592,7 +1618,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qcfs9rfQlckJJPwfB+/Pl24b5z3ffQMmaDcY7KhWyF8=
+			mCL798wD/FLOGOr/iw5JmEPi1nHVGPsp7fZq00PGY0c=
 			</data>
 		</dict>
 		<key>Headers/PresentCardViewController.h</key>
@@ -1690,7 +1716,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ElT27SzlxPFQ26FjLKctC5+Wa457i9abGiJEUGyUqNI=
+			hNTNCqN+d48tWI3m7pC/zDcfCMb8yDCS5G/+HmW5rWw=
 			</data>
 		</dict>
 		<key>Headers/iZettlePayments.h</key>
@@ -1725,77 +1751,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MDxa3GMb3dDn4YHXHYimqFBsW8KnIfxFalzbPMhnues=
+			BXGGf64EYnIJEohJlIWgq82pANP2+SOwKpirIvIAVio=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ApmpTatLt2Z6q5GG0zHxiajBlPdFXQgAfA/kLRfMzf4=
+			3nZ5juWBCksfwoIyhGQfCyZxEn0Fhj4zFPc7A8UqoCw=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d6R0XPSCi82a//1OR0dWF0dRxEfYfV40+ItCijQlgzE=
+			dcvBIxAcLYAKq3q+QbqqiLbvvLQ+CW+hVPHn7KVUI54=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ApmpTatLt2Z6q5GG0zHxiajBlPdFXQgAfA/kLRfMzf4=
+			3nZ5juWBCksfwoIyhGQfCyZxEn0Fhj4zFPc7A8UqoCw=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7azResYVHIjgyZ7h+IIhL4vSzOHXTt9zhy8ayvtzJok=
+			FBQfT4L9y2rM7bzTM16xaMM5qDPfv8gWT7NU3kw2CrQ=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MDxa3GMb3dDn4YHXHYimqFBsW8KnIfxFalzbPMhnues=
+			BXGGf64EYnIJEohJlIWgq82pANP2+SOwKpirIvIAVio=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CW+zHz1Uu3yoNeA8GN1PdWY6JOfgd+hSofagKNURclM=
+			PVPYhaZ62SJI/KUVDuvo6eH5IKr276LXAm5zF7FVEXs=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uQnNL02ZZX8jxwONjjgpiCKH9kBnkIxVqtihnSS4g+0=
+			aixxbOYbjMw74Y6JOVGnSC7e+8Uwyut5Kg5UHycd8cg=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CW+zHz1Uu3yoNeA8GN1PdWY6JOfgd+hSofagKNURclM=
+			PVPYhaZ62SJI/KUVDuvo6eH5IKr276LXAm5zF7FVEXs=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wl6VEi9wNUtPcmVHD/TDFSBRolBFllSTXsg6KTHO/mo=
+			UTXD4H7bEvdKGnjSjFNyC2W457/QcN4KawFToJilcyg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jl+8iLzIerM8obQNVkKLtFp4XcJQSbyDx9cLJRgCsAc=
+			ctCrePC0kgWHFc62FAbGQV5E4hK/snycfIh3tQpMa0c=
 			</data>
 		</dict>
 		<key>PayPalOpen-Bold.otf</key>
@@ -1959,6 +1985,13 @@
 			HCJD0VKUDg3DmHZDgJNbS/CdzbqOLeBtCsEaeZijt0k=
 			</data>
 		</dict>
+		<key>invoicing_send.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4vfzNNE7dcjWR0Ye/io5m+k4MQW2pByJmJ6zKWw41Sk=
+			</data>
+		</dict>
 		<key>key_in_payment.svg</key>
 		<dict>
 			<key>hash2</key>
@@ -1991,105 +2024,105 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tnHYxdofq4eQnF7HkmCV4fXdkX32H8O5THXzsqZK36M=
+			q9GcFT6zDHx49LrOJSj9L+Pbk/sokeSqp4mIPhvApOw=
 			</data>
 		</dict>
 		<key>localized/i18n.de-DE.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m8y0Io7q4gUyd5WrSfahSUZWmrJCVtWtUZp0qY/3HpQ=
+			dUx1Eh4NuI/nJd1A+E4k7JIXMOktF4jwtDcrV4vFXLk=
 			</data>
 		</dict>
 		<key>localized/i18n.en-GB.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yi0UcSR2ot827tFv8CD65bKUL22xCE9NQBTiH4zqWv0=
+			p1/nPczRh1T/ZSrjPjP38AkRHbQg1zUrPACJlRRFfrc=
 			</data>
 		</dict>
 		<key>localized/i18n.en-US.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sqwLTly8omJaHv4LOjNNfuwCspjwnLNpI6wzs4IAv6U=
+			L5ONsWT+QNMOKfBimqu3VNX5tPIAaWl+vthqXc+9UxU=
 			</data>
 		</dict>
 		<key>localized/i18n.es-ES.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0QQf47CwEke5C2XX1yoa4OOcz/3Y4owLewNuNc17x54=
+			IGwYvcP7E/Q+fX+7sGu8MQ9bmjwePncVYiBu7qA8nWQ=
 			</data>
 		</dict>
 		<key>localized/i18n.es-MX.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2T6f4IY/dycCSDIZuUzx6U3k/uupBKeOgxoseOpj7ZQ=
+			SOEqwNltlYaOxO5F4SWSWzt13ggcv3kXEzmM4qtaLGE=
 			</data>
 		</dict>
 		<key>localized/i18n.es-US.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5BJtYH2MZzgLa73TL6f+Jia9Gb3NgT7KEGoLv+hzNOw=
+			iwbM9nWjm+x8gIleF1yBn7R6atflZPXT6JxdL1KEIlo=
 			</data>
 		</dict>
 		<key>localized/i18n.fi-FI.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bzqn428ZlBAvsXaV2JIbQMAOni41a3jFxVRZFgV0TmQ=
+			C9BOcJsYRFp6Hz2QLSwJkg/8BkR7Ryl5iPfPyF0sMqs=
 			</data>
 		</dict>
 		<key>localized/i18n.fr-FR.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HK3A4Fwwy9rR6Rz54fLfUg6c/cQ6AmbCIJh7nrqL3I8=
+			mF8+75f/epmWl6+QCK1GWtWgjUZFUAyNUTKmQxjEpWU=
 			</data>
 		</dict>
 		<key>localized/i18n.it-IT.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Eympqw/neGLfvStFffOfVxy/YaLeHd+CSuaFyWFQPfA=
+			lr8p54RL1C2bMmWiOxRsX33Yj3vlpVGMtZR9XV0+8fQ=
 			</data>
 		</dict>
 		<key>localized/i18n.nb-NO.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BH1uO3S3hufLHNlQm97Og1Kq7Qm9RYX1q3dKJ2VWse8=
+			BH9mfaFwHOu1INReEAfU0Uh/zHfz9nu0zvZnfTFXZYQ=
 			</data>
 		</dict>
 		<key>localized/i18n.nl-NL.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HZ5Epi480LTF7HFAfuNWZAbcETSc34351NCTL0mNmIw=
+			zUv2TQA8EnlxVk7/QExDYYoJB7ANcYtZa/ap5zN8/Qs=
 			</data>
 		</dict>
 		<key>localized/i18n.pt-BR.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7x23epoaNV4teZ619PzfGAcACjjGBxm4iQzebPhvjw4=
+			1jr9DKCATO96ax0AeBG3E6gppSJPTNexBzfjkBIg9mY=
 			</data>
 		</dict>
 		<key>localized/i18n.sv-FI.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TkXHx7yopPtZb5JEsXeB+WWwOxnRr6hfosb24mtVSJg=
+			+aybEqgzbikcv6XdHC5f5VJoUOgSg7MBHGN/d+G5gOg=
 			</data>
 		</dict>
 		<key>localized/i18n.sv-SE.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			63jZD9zCunJH6Gwpt5D5RHeeGsZudpu23bsXlxrjmZI=
+			CypFneALDuJNzS8iiJualWNv5fmK2g3wzyZdslLWMpc=
 			</data>
 		</dict>
 		<key>localized/locales.plist</key>
@@ -2117,7 +2150,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yxW6I1ZkTsPnanY5ZarACXVkUvqMi+NQD3s9OFp0qt0=
+			x3SqzDOV7N3WULTVgnilKrDIwOeaNu8zkVAZToGJlaU=
 			</data>
 		</dict>
 		<key>ttp_payment_done.aif</key>
