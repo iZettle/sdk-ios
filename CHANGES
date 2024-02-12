@@ -1,3 +1,7 @@
+3.22.0
+- Same great features, with a fresh style inspired by PayPal.
+- Support for setting `PayPal partner attribution ID` for card payments.
+
 3.18.0
 - Enhancements in Manual Card Entry user interaction.
 - Minor under-the-hood changes and improvements.
@@ -113,14 +117,14 @@ Workaround: On a Mac with Apple silicon use iOS 14+ simulators.
 
 2.5.0
 - Better support for background modes
-- Bugfixes and improvements 
+- Bugfixes and improvements
 - SDK is now built using Xcode 11 and Swift 5.1. `ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES` flag is required if your project doesn't include Swift
 
 2.3
 - Bug fixes and performance improvements
 
 2.2.0
-- Background update of `iZettle Reader` and iZettle Reader 2` software: 
+- Background update of `iZettle Reader` and iZettle Reader 2` software:
     Updating card reader software is now done automatically in the background by the SDK
     when time permits
 - Improved handling when re-connection to a card reader

@@ -172,6 +172,21 @@ typedef NS_ENUM(NSUInteger, IZSDKTippingStyle) {
 ///     - enabledAPMs: An array where all values should be cases of the `IZSDKAlternativePaymentMethod` enum.
 - (void)setEnabledAlternativePaymentMethods:(NSArray<NSNumber *> *)enabledAPMs;
 
+/// Set PayPal partner attribution ID.
+///
+/// > Important: Used only for card payments.
+///
+///  - Parameters:
+///     - partnerAttributionId: BN (Build Notation) code is a code that is created by Partner managers, SGMs or sales in order to track activity of sellers on a partner platform.  The code provided is sent within the Card payments API calls.
+- (void)setCardPaymentPayPalPartnerAttributionId:(nullable NSString *)partnerAttributionId;
+
+/// Returns current PayPal partner attribution ID which was set using the `setCardPaymentPayPalPartnerAttributionId:` method above
+///
+/// > Important: Used only for card payments.
+///
+/// - Returns: PayPal partner attribution ID if present, `nil` otherwise.
+- (nullable NSString *)cardPaymentPayPalPartnerAttributionId;
+
 @end
 
 @interface iZettleSDK (Operations)

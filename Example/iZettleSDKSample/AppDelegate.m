@@ -33,6 +33,13 @@ static NSString * const callbackURL = @"izettle-iZorn://login.callback";
     [[iZettleSDK shared] startWithAuthorizationProvider:authorizationProvider];
 
     [[iZettleSDK shared] setEnabledAlternativePaymentMethods:@[@(IZSDKAlternativePaymentMethodPayPalQRC), @(IZSDKAlternativePaymentMethodManualCardEntry)]];
+
+    ///
+    /// To set `PayPal partner attribution ID` for card payments
+    /// pass your BN Code into the SDK using the `setCardPaymentPayPalPartnerAttributionId` function
+    ///
+    /// [[iZettleSDK shared] setCardPaymentPayPalPartnerAttributionId:@"BN_CODE_VALUE"];
+
     return YES;
 }
 

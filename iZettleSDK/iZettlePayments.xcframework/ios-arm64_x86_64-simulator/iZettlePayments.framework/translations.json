@@ -4489,6 +4489,58 @@
     "#TapToPayTippingCustomPayButtonTitle": {
         "text": "Pay %@",
         "desc": "Payment button title, used in tipping screens. F.ex.: 'Pay $4.99'"
+    },
+    "#TapToPayTippingCustomAmountViewTapBarAccessibilityLabel": {
+        "text": "Tipping input method",
+        "desc": "Read by Voice Over on user tap on one of the tap bar items (Amount / Percentage)."
+    },
+    "#TapToPayTippingCustomAmountViewTapBarAccessibilityHint": {
+        "text": "Switch input method",
+        "desc": "Read by Voice Over on user tap on one of the tap bar items (Amount / Percentage)."
+    },
+    "#TapToPayTippingCustomAmountViewNumberPadLabel": {
+        "text": "Number pad. Enter tip amount",
+        "desc": "Read by Voice Over on user tap on number pad area"
+    },
+    "#TapToPayTippingCustomPayButtonAccessibilityHint": {
+        "text": "Total, including tip",
+        "desc": "Read by Voice Over on user tap on pay button"
+    },
+    "#TapToPayTippingCustomNavigationTitleAccessibilityLabel": {
+        "text": "Total without tip: %@",
+        "desc": "Read by Voice Over on user tap on navigation title"
+    },
+    "#TapToPayTippingCustomNavigationBackButtonAccessibilityLabel": {
+        "text": "Back",
+        "desc": "Read by Voice Over on user tap navigation title's back button"
+    },
+    "#TapToPayTippingCustomTipViewAccessibilityLabel": {
+        "text": "Tip: %@",
+        "desc": "Read by Voice Over on user tap on tip view or when tip amount is update"
+    },
+    "#TapToPayTippingCustomAmountViewNumberPadDoubleZeroesButtonAccessibilityLabel": {
+        "text": "Double zero",
+        "desc": "Read by Voice Over on user tap on number pad double zeroes button"
+    },
+    "#TapToPayTippingCustomAmountViewNumberPadDeleteDigitButtonAccessibilityLabel": {
+        "text": "Delete one digit",
+        "desc": "Read by Voice Over on user tap on number pad delete button"
+    },
+    "#TapToPayTippingViewTipsPresetsAccessibilityLabel": {
+        "text": "Tips Presets",
+        "desc": "Read by Voice Over on user tap on presets view"
+    },
+    "#TapToPayTippingViewTipsPresetsCustomTipButtonAccessibilityLabel": {
+        "text": "Open custom tip input view",
+        "desc": "Read by Voice Over on user tap on custom tip presets button"
+    },
+    "#TapToPayTippingViewTipsPresetsTipPresetButtonAccessibilityLabel": {
+        "text": "New total: %@",
+        "desc": "Read by Voice Over on user tap on tip preset percentage button"
+    },
+    "#TapToPayTippingViewTipsPresetsTipPresetButtonAccessibilityHint": {
+        "text": "Add %@%% tip",
+        "desc": "Read by Voice Over on user tap on tip preset percentage button"
     }
   }
 }
