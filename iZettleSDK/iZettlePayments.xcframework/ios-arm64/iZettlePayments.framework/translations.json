@@ -180,7 +180,7 @@
       "desc": "\"Open settings\" button"
     },
     "#BluetoothUnauthorizedSubtitle": {
-      "text": "To connect to a Reader and take payments, we need your permission to use Bluetooth. Go to System Settings to allow access.",
+      "text": "To connect to a reader and take payments, we need your permission to use Bluetooth. Go to System Settings to allow access.",
       "desc": "In iOS 13, If the user don't allow us to use Bluetooth, we need prompt the user to go to Settings and allow under the Go app when taking payments and in pairing. BODY"
     },
     "#BluetoothUnauthorizedTitle": {
@@ -371,7 +371,7 @@
       "desc": "Text key used as a title for a row that shows if the reader is P2PE or DSS compliant"
     },
     "#ConnectReaderInfo": {
-      "text": "Connect an Zettle card reader to accept easy card payments.",
+      "text": "Connect a card reader to accept easy card payments.",
       "desc": "The text should appear when you press the charge button in the main view without a reader. It's sort of a subtext to #ConnectCardReader\n\nBasically to make it more understandable to the user that you have to connect a reader to take card payments."
     },
     "#ConnectedCardReaders": {
@@ -2413,7 +2413,7 @@
       ]
     },
     "#PairingHelpStep3": {
-      "text": "You're using the latest Zettle Reader",
+      "text": "You're using the latest reader",
       "desc": "Third bullet point",
       "locales": [
         "en-US",
@@ -2455,6 +2455,30 @@
     "#PairingStartYourReaderTitle": {
       "text": "Start and select your reader",
       "desc": "TITLE in card reader selection view. Here the user will see detected card readers. The user is asked start and select their reader shown in the list"
+    },
+    "#PairingReaderAlreadyConnectedTitle": {
+        "text": "A card reader is already connected",
+        "desc": "Title for the message shown when trying to pair a reader via link with code when there is already a reader connected to the SDK."
+    },
+    "#PairingReaderAlreadyConnectedMessage": {
+        "text": "Only one card reader can be connected to this device. To connect your new reader we need to forget your current reader.\n\nWhat would you like to do?",
+        "desc": "The message shown when trying to pair a reader via link with code when there is already a reader connected to the SDK."
+    },
+    "#PairingReaderAlreadyConnectedConfirmButton": {
+        "text": "Connect reader %@",
+        "desc": "Button for confirming the users choice to go ahead and pair with the reader"
+    },
+    "#PairingReaderDeviceCodeLookingForReader": {
+        "text": "Please wait\nLooking for %@...",
+        "desc": "The text inside the loading dialog informing the user that we're looking for the requested reader."
+    },
+    "#PairingReaderDeviceCodeNotFoundTitle": {
+        "text": "Not found",
+        "desc": "Title for alert stating the requested reader could not be found."
+    },
+    "#PairingReaderDeviceCodeNotFoundMessage": {
+        "text": "Could not find the reader to pair with",
+        "desc": "Message for alert stating the requested reader could not be found."
     },
     "#PaymentDeclinedSCASubtitle": {
       "text": "Insert or try another card",
@@ -2818,7 +2842,7 @@
       "desc": "Title for section in the Settings"
     },
     "#SetupReaderConfiguringReader": {
-      "text": "Setting up Reader",
+      "text": "Setting up reader",
       "desc": "Configuring reader - progress\nDuring connection we might need to reconfigure. "
     },
     "#SetupReaderFailedToConnectActionInfo": {
@@ -2958,6 +2982,9 @@
     "#Datecs2PairingCompareAndConfirmSubtitle": {
       "text": "Confirm that this code matches the one on your card reader by pressing the green button"
     },
+    "#Datecs3PairingCompareAndConfirmSubtitle": {
+      "text": "Confirm that this code matches the one on your card reader by pressing the blue button"
+    },
     "#PairingNotMyReaderButtonTitle": {
       "text": "I can't see my reader"
     },
@@ -2965,13 +2992,13 @@
       "text": "Compare and confirm"
     },
     "#ForgetClassicBluetoothCardReaderTitle": {
-      "text": "Forget Reader"
+      "text": "Forget reader"
     },
     "#RestartReaderDescription": {
-      "text": "There's been a hiccup! Press the power button to turn your Reader off and on again."
+      "text": "There's been a hiccup! Press the power button to turn your reader off and on again."
     },
     "#RestartReaderTitle": {
-      "text": "Restart your Reader"
+      "text": "Restart your reader"
     },
     "#SignatureAcceptText": {
       "text": "I agree to pay the amount above according to my card issuer agreement."
@@ -2980,7 +3007,7 @@
       "text": "Card Reader"
     },
     "#ForgetClassicBluetoothCardReaderMessage": {
-      "text": "Visit Bluetooth settings on your phone or iPad to forget this Reader"
+      "text": "Visit Bluetooth settings on your phone or iPad to forget this reader"
     },
     "#Datecs2PairingNextButtonTitle": {
       "text": "Finish"
@@ -4278,6 +4305,10 @@
       "text": "Zettle reader %@",
       "desc": "Spoken instruction; Zettle reader 005"
     },
+    "#SpeechPayPalReaderNumber": {
+        "text": "PayPal Reader %@",
+        "desc": "Spoken instruction; PayPal Reader 005"
+    },
     "#SpeechBatteryStatusCharging": {
       "text": "Charging",
       "desc": "Spoken instruction; Charging"
@@ -4541,6 +4572,126 @@
     "#TapToPayTippingViewTipsPresetsTipPresetButtonAccessibilityHint": {
         "text": "Add %@%% tip",
         "desc": "Read by Voice Over on user tap on tip preset percentage button"
+    },
+    "#SpeechSettingsV3TippingSwitchButtonOn": {
+        "text": "On",
+        "desc": "`On` value of the switch control element read by VoiceOver on the Tipping settings"
+    },
+    "#SpeechSettingsV3TippingSwitchButtonOff": {
+        "text": "Off",
+        "desc": "`Off` value of the switch control element read by VoiceOver on the Tipping settings"
+    },
+    "#SettingsV3TippingMoreAboutTipsLinkTitle": {
+        "text": "More about tips",
+        "desc": "The title of the `More about tips` link on the Tipping settings page"
+    },
+    "#SettingsV3TippingTaxInfoMessage": {
+        "text": "Make sure you’re up to date with tax authority regulations and rules for declaring your tips.",
+        "desc": "The message displayed to user on the Tipping settings page with tax related information"
+    },
+    "#SettingsV3TippingCustomTipStyleTitle": {
+        "text": "Custom tip",
+        "desc": "Title of the `Custom tip` style displayed on the Tipping Settings page."
+    },
+    "#SettingsV3TippingPredefinedTipStyleTitle": {
+        "text": "Predefined tip options",
+        "desc": "Title of the `Predefined tip options` style displayed on the Tipping Settings page."
+    },
+    "#SettingsV3TippingCustomTipStyleSubtitle": {
+        "text": "Let customers enter a custom tip",
+        "desc": "Subtitle of the `Custom tip` style displayed on the Tipping Settings page."
+    },
+    "#SettingsV3TippingPredefinedTipStyleSubtitle": {
+        "text": "Set 3 predefined percentages",
+        "desc": "Subtitle of the `Predefined tip` style displayed on the Tipping Settings page."
+    },
+    "#SpeechSettingsV3TippingTippingDetailButtonHint": {
+        "text": "Open the details",
+        "desc": "Hint read by VoiceOver on Tipping detail button once the tap on the button will lead to the detail page presentation."
+    },
+    "#SettingsV3TippingScreenTitle": {
+        "text": "Tipping on PayPal Reader",
+        "desc": "Screen title for the main Tipping settings page"
+    },
+    "#SettingsV3TippingAcceptTipsSwitchTitle": {
+        "text": "Accept tips with PayPal Reader",
+        "desc": "Title of the switch for enabling of tips acceptance on Tipping settings"
+    },
+    "#SettingsV3TippingAcceptTipsSwitchSubtitle": {
+        "text": "For all card payments with PayPal Reader",
+        "desc": "Subtitle of the switch for enabling of tips acceptance on Tipping settings"
+    },
+    "#SpeechSettingsV3TippingAcceptTipsRowTitle": {
+        "text": "Accept tips",
+        "desc": "Title of the `Accept tips` switch read by VoiceOver."
+    },
+    "#SettingsV3TippingBaseAdditionalInformation": {
+        "text": "Customers can enter a custom tip or choose from predefined percentage-based tips when they pay using a card on a PayPal Reader.",
+        "desc": "Additional tipping information displayed on the main tipping settings page"
+    },
+    "#SettingsV3CustomTipScreenTitle": {
+        "text": "Custom tip",
+        "desc": "Title of the `Custom tip` screen."
+    },
+    "#SettingsV3CustomExtraTipAdditionalInformation": {
+        "text": "Let your customers tip, either as a %@ amount or as a percentage. They can also choose not to tip.",
+        "desc": "Additional information about Extra tipping style displayed on the Custom tip screen. Currency symbol will be used instead of the %@. E.g. `Let your customers tip, either as a $ amount or as a percentage."
+    },
+    "#SettingsV3CustomTotalTipAdditionalInformation": {
+        "text": "Let your customers add a tip by entering the total amount they want to pay. They can also choose not to tip.",
+        "desc": "Additional information about Total tipping style displayed on the Custom tip screen."
+    },
+    "#SettingsV3PredefinedTipScreenTitle": {
+        "text": "Predefined tip options",
+        "desc": "Title of the `Predefined tip` screen"
+    },
+    "#SettingsV3PredefinedTipAdditionalInformation": {
+        "text": "Let your customers choose from 3 predefined percentage-based tip options. They can also enter a custom tip or no tip. Edit the tip options for your needs.",
+        "desc": "Additional information about Predefined tips style displayed on the Predefined tip screen."
+    },
+    "#SettingsV3PredefinedTipOptionsButtonTitle": {
+        "text": "Tip options",
+        "desc": "Title of the `Tip options` button on the Predefined tip screen"
+    },
+    "#SettingsV3PredefinedTipOptionValue": {
+        "text": "%1$@. %2$@%%",
+        "desc": "The value of the predefined tip option presented on the `Predefined tip screen`. %1$@ will be replaced with option number (e.g. 1) and %2$@ will be replaced with the predefined option value (e.g. 15).`%%` is the percentage sign. Then this string will look like `1. 15%`."
+    },
+    "#SpeechSettingsV3PredefinedTipOptionValue": {
+        "text": "Option %1$@. %2$@%%",
+        "desc": "The value of the predefined tip option read by VoiceOver on the `Predefined tip screen`. %1$@ will be replaced with option number (e.g. 1) and %2$@ will be replaced with the predefined option value (e.g. 15).`%%` is the percentage sign. Then this string will be read like `Option 1. 15%`."
+    },
+    "#SpeechSettingsV3PredefinedTipOptionsButtonTitle": {
+        "text": "Edit tip options",
+        "desc": "Value read by VoiceOver on the `Tip options` button on the `Predefined tip` options screen"
+    },
+    "#SettingsV3EditTipOptionsScreenTitle": {
+        "text": "Edit tip options",
+        "desc": "Title of the `Edit tip options` screen."
+    },
+    "#SettingsV3EditTipOptionsTextFieldTitle": {
+        "text": "Option %@",
+        "desc": "Title that is shown on the input field for the predefined tip option. %@ will be replaced with option number. Example of the string: `Option 1`"
+    },
+    "#SettingsV3EditTipOptionsInvalidAmountError": {
+        "text": "Invalid amount",
+        "desc": "Error presented to user when user enters invalid amount in the predefined tip input field"
+    },
+    "#SettingsV3EditTipOptionsBelowMinError": {
+        "text": "Minimum tip is %@%%. Enter a higher percentage.",
+        "desc": "Error presented to user when user enters amount that is less than allowed minimum value in the predefined tip input field. `%@` will be replaced with allowed minimum value. `%%` is the percentage sign. Example of the string: `Minimum tip is 1%. Enter a higher percentage.`"
+    },
+    "#SettingsV3EditTipOptionsAboveMaxError": {
+        "text": "Tip limit is %@%%. Enter a lower percentage.",
+        "desc": "Error presented to user when user enters amount that is higher than allowed maximum value in the predefined tip input field. `%@` will be replaced with allowed maximum value. `%%` is the percentage sign. Example of the string: `Tip limit is 50%. Enter a lower percentage.`"
+    },
+    "#SettingsV3TippingRowTitle": {
+        "text": "Tipping on PayPal Reader",
+        "desc": "Title of the TippingSettings row in the SDK settings."
+    },
+    "#CardReaderPayPalReader": {
+        "text": "PayPal Reader",
+        "desc": "Title of the PayPal Reader"
     }
   }
 }

@@ -1,3 +1,9 @@
+4.0.0
+- Contains privacy manifests and signatures required for app store submissions.
+- Requires a new dependency, `PPRiskMagnes`, that you need to ensure is included in your application's target in Xcode (see [Migration Guide](https://developer.zettle.com/docs/ios-sdk/upgrading/sdk-4.0-migration-guide) for upgrade instructions).
+- Support for setting `PayPal partner attribution ID` for Manual Card Entry payments.
+- Under the hood changes for card payments.
+
 3.22.0
 - Same great features, with a fresh style inspired by PayPal.
 - Support for setting `PayPal partner attribution ID` for card payments.

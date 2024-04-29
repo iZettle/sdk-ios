@@ -3,4 +3,4 @@
 
 ## Get help
 
-Contact our developer support at [Zettle Developer Portal](https://developer.zettle.com).
+Contact our developer support at [Zettle Developer Portal](https://ext-izettle.atlassian.net/servicedesk/customer/portal/3).

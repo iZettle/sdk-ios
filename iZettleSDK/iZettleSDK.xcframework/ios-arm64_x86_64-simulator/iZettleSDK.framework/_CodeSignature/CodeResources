@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Y38ghPuTFMk0GCYnlN5iLxm4FTQ=
+		pDRpieDNDW7Ft5lDtG/2tQya7kA=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pC+k9u/UqW/MiNvnlZjHFzUAyFI=
+		bjoSkuZK9Or7k95HPbURvqjOcZ4=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ky7208Df69ZzNQkOtBNxwYUG/EU=
+		+AL2MxyvP3sWiuRHrbe+IxpSRCs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -64,9 +64,13 @@
 		<data>
 		VoH70FMR58eEFCrlUJZG3uEqKmM=
 		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		9aZf0UM06Ctn/6bQC4RXUcpVvlg=
+		</data>
 		<key>PrivateHeaders/iZettleSDK+WorkInProgress.h</key>
 		<data>
-		KGnTCdDs2ndgQIxadaHS/4ZS1LY=
+		DN5luooJazePY3D0TOS4n4mkMYM=
 		</data>
 		<key>strip-frameworks.sh</key>
 		<data>
@@ -121,7 +125,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mEHsdmJAvKbl1Tk5udiZ+dy84+i/p69T3FqlzpkCNsE=
+			lCp08JBURx5ydZ316yah6eocIP0NH24vuAiMx2I3kNo=
 			</data>
 		</dict>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -156,7 +160,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fFbKZo6Mgyv7s6tTc9A8ea1uEYc/D9wWCwkBhRl4qDU=
+			S76qjoowyvEzfEzy9jBJW2DkM/agIS/hbAqQ10Et1HI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -173,11 +177,18 @@
 			9m5UjF342abydfwhCqdNv7e1hx5P3btwxM5Q71MJ4kE=
 			</data>
 		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V8fzCycAtEfk3wutYZsSxGCZFdeJf96DNEEhevi/K8g=
+			</data>
+		</dict>
 		<key>PrivateHeaders/iZettleSDK+WorkInProgress.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bgpJzBZ9NVHHBZqW3/JPmi5/O1fvPCCeRfzRPkflOZE=
+			/6+B5YQ9QzQZdylTa7U855fLjF5GIcQ6qWnV1MzsDwI=
 			</data>
 		</dict>
 		<key>strip-frameworks.sh</key>
