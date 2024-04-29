@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "sdk-ios",
-            targets: ["iZettleSDK", "iZettlePayments"]),
+            targets: ["iZettleSDK", "iZettlePayments", "PPRiskMagnes"]),
     ],
     dependencies: [],
     targets: [
@@ -18,6 +18,9 @@ let package = Package(
             path: "./iZettleSDK/iZettleSDK.xcframework"),
         .binaryTarget(
             name: "iZettlePayments", 
-            path: "./iZettleSDK/iZettlePayments.xcframework")
+            path: "./iZettleSDK/iZettlePayments.xcframework"),
+        .binaryTarget(
+            name: "PPRiskMagnes",
+            path: "./iZettleSDK/PPRiskMagnes.xcframework")
     ]
 )
