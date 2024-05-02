@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'iZettleSDK'
-  s.version      = '4.0.0'
+  s.version      = '4.0.1'
   s.summary      = 'iZettle SDK for iOS'
   s.description  = <<-DESC
                     For detailed information, please see iZettleSDK documentation and Readme.

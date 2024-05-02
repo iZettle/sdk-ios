@@ -1,3 +1,6 @@
+4.0.1
+- Privacy manifest fixes.
+
 4.0.0
 - Contains privacy manifests and signatures required for app store submissions.
 - Requires a new dependency, `PPRiskMagnes`, that you need to ensure is included in your application's target in Xcode (see [Migration Guide](https://developer.zettle.com/docs/ios-sdk/upgrading/sdk-4.0-migration-guide) for upgrade instructions).
