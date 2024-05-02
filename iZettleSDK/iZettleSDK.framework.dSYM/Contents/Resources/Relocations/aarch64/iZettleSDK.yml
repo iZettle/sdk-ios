@@ -76,8 +76,8 @@ relocations:
   - { offsetInCU: 0x5C4, offset: 0xD92A9, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_errorDescriptionFor:minAmountString:maxAmountString:]', symObjAddr: 0x530, symBinAddr: 0xA3CC, symSize: 0x1A0 }
   - { offsetInCU: 0x27, offset: 0xD9373, size: 0x8, addend: 0x0, symName: '-[IZAccount(iZettleSDK) fetchPaymentConfigIfNeeded]', symObjAddr: 0x0, symBinAddr: 0xA56C, symSize: 0x60 }
   - { offsetInCU: 0x3A, offset: 0xD9386, size: 0x8, addend: 0x0, symName: '+[iZettleSDK shared]', symObjAddr: 0x60, symBinAddr: 0xA5CC, symSize: 0x40 }
-  - { offsetInCU: 0x64, offset: 0xD93B0, size: 0x8, addend: 0x0, symName: _shared.once, symObjAddr: 0x24738, symBinAddr: 0x29880, symSize: 0x0 }
-  - { offsetInCU: 0x7A, offset: 0xD93C6, size: 0x8, addend: 0x0, symName: _shared.shared, symObjAddr: 0x24740, symBinAddr: 0x29888, symSize: 0x0 }
+  - { offsetInCU: 0x64, offset: 0xD93B0, size: 0x8, addend: 0x0, symName: _shared.once, symObjAddr: 0x24730, symBinAddr: 0x29880, symSize: 0x0 }
+  - { offsetInCU: 0x7A, offset: 0xD93C6, size: 0x8, addend: 0x0, symName: _shared.shared, symObjAddr: 0x24738, symBinAddr: 0x29888, symSize: 0x0 }
   - { offsetInCU: 0x4D3, offset: 0xD981F, size: 0x8, addend: 0x0, symName: '-[IZAccount(iZettleSDK) fetchPaymentConfigIfNeeded]', symObjAddr: 0x0, symBinAddr: 0xA56C, symSize: 0x60 }
   - { offsetInCU: 0x54A, offset: 0xD9896, size: 0x8, addend: 0x0, symName: '___20+[iZettleSDK shared]_block_invoke', symObjAddr: 0xA0, symBinAddr: 0xA60C, symSize: 0x30 }
   - { offsetInCU: 0x571, offset: 0xD98BD, size: 0x8, addend: 0x0, symName: '-[iZettleSDK startWithAuthorizationProvider:enableDeveloperMode:]', symObjAddr: 0xD0, symBinAddr: 0xA63C, symSize: 0x64 }
