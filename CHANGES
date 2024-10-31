@@ -1,65 +1,42 @@
 4.16.1
 - Introducing support for the new PayPal Reader 
 - Introducing the Tipping configuration for public use.
-
-4.1.0
 - Privacy manifest iteration.
+
+4.0.1
+- Privacy manifest fixes.
 
 4.0.0
 - Contains privacy manifests and signatures required for app store submissions.
 - Requires a new dependency, `PPRiskMagnes`, that you need to ensure is included in your application's target in Xcode (see [Migration Guide](https://developer.zettle.com/docs/ios-sdk/upgrading/sdk-4.0-migration-guide) for upgrade instructions).
-
-3.29.0
 - Support for setting `PayPal partner attribution ID` for Manual Card Entry payments.
-
-3.26.0
-- Under the hood changes for card payments.
-
-3.24.0
 - Under the hood changes for card payments.
 
 3.22.0
 - Same great features, with a fresh style inspired by PayPal.
-
-3.21.0
 - Support for setting `PayPal partner attribution ID` for card payments.
 
-3.17.0
-- Under the hood changes for card payments.
-
-3.16.0
+3.18.0
 - Enhancements in Manual Card Entry user interaction.
 - Minor under-the-hood changes and improvements.
 - Fixed issue where SDK might crash when forgetting a reader while the reader is updating.
 
 3.15.1
 - Fixed an issue with failing payment when a service endpoint is not available.
-
-3.15.0
 - Enhancements in Manual Card Entry user interaction.
-
-3.14.0
 - Under the hood changes for card payments tipping
 
 3.13.2
+- Added support for Manual Card Entry payments.
 - Fixed issue with wrong formatting of some Card payment related translations.
-
-3.13.0
 - Fixed issue with reader appearing more then once without name.
 - Fixed issue with V2 Reader pairing flow not starting by default for V2-Reader only markets.
 - Fixed issue where gratuity was not canceled on Reader if merchant cancelled at a certain point.
 
-3.11.0
-- Added support for Manual Card Entry payments.
-
 3.10.0
 - Added compliance information to the Reader information page.
 - Added payment verification check for unlikely cases where a payment issue occurs mid-transaction which shows to the customer as failed, but still went through.
-
-3.9.0
 - Fixed issue with reader appearing more then once for some integrators.
-
-3.8.0
 - Decrease SDK binary size.
 - Fix issue when no error is returned on Zettle flow start while another VC is being dismissed/shown (support issue https://github.com/iZettle/sdk-ios/issues/424)
 
@@ -157,7 +134,7 @@ Workaround: On a Mac with Apple silicon use iOS 14+ simulators.
 - Bugfixes and improvements
 - SDK is now built using Xcode 11 and Swift 5.1. `ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES` flag is required if your project doesn't include Swift
 
-2.3.0
+2.3
 - Bug fixes and performance improvements
 
 2.2.0
