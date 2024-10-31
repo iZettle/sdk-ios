@@ -1,3 +1,8 @@
+4.16.1
+- Introducing support for the new PayPal Reader 
+- Introducing the Tipping configuration for public use.
+- Privacy manifest iteration.
+
 4.0.1
 - Privacy manifest fixes.
 

@@ -2664,6 +2664,14 @@
     "#PurchaseCanceledDescription": {
       "text": "This payment was cancelled and did not go through. You can check this on your receipts page."
     },
+    "#QrPairingKeepCurrentReaderButton": {
+        "text": "Keep current reader",
+        "desc": "Button for canceling the direct-pair option to connect a new reader, keeping the current one."
+    },
+    "#QrPairingKeepNumberReaderButton": {
+        "text": "Keep reader %@",
+        "desc": "Button for canceling the direct-pair option to connect a new reader, keeping the current one."
+    },
     "#ReaderBatteryLowText": {
       "text": "The reader is running low on battery.\nPlease connect its charger.",
       "desc": "Displayed in app when a connected reader is low on battery."
@@ -4594,8 +4602,8 @@
         "desc": "Title of the `Custom tip` style displayed on the Tipping Settings page."
     },
     "#SettingsV3TippingPredefinedTipStyleTitle": {
-        "text": "Predefined tip options",
-        "desc": "Title of the `Predefined tip options` style displayed on the Tipping Settings page."
+        "text": "Predefined tip",
+        "desc": "Title of the `Predefined tip` style displayed on the Tipping Settings page."
     },
     "#SettingsV3TippingCustomTipStyleSubtitle": {
         "text": "Let customers enter a custom tip",
@@ -4634,15 +4642,15 @@
         "desc": "Title of the `Custom tip` screen."
     },
     "#SettingsV3CustomExtraTipAdditionalInformation": {
-        "text": "Let your customers tip, either as a %@ amount or as a percentage. They can also choose not to tip.",
-        "desc": "Additional information about Extra tipping style displayed on the Custom tip screen. Currency symbol will be used instead of the %@. E.g. `Let your customers tip, either as a $ amount or as a percentage."
+        "text": "Let your customers tip, either as an amount or as a percentage. They can also choose not to tip.",
+        "desc": "Additional information about Extra tipping style displayed on the Custom tip screen."
     },
     "#SettingsV3CustomTotalTipAdditionalInformation": {
         "text": "Let your customers add a tip by entering the total amount they want to pay. They can also choose not to tip.",
         "desc": "Additional information about Total tipping style displayed on the Custom tip screen."
     },
     "#SettingsV3PredefinedTipScreenTitle": {
-        "text": "Predefined tip options",
+        "text": "Predefined tip",
         "desc": "Title of the `Predefined tip` screen"
     },
     "#SettingsV3PredefinedTipAdditionalInformation": {
@@ -4692,6 +4700,10 @@
     "#CardReaderPayPalReader": {
         "text": "PayPal Reader",
         "desc": "Title of the PayPal Reader"
+    },
+    "#QrPairingKeepCurrentReaderButton": {
+        "text": "Keep current reader",
+        "desc": "Button for canceling the direct-pair option to connect a new reader, keeping the current one."
     }
   }
 }
