@@ -546,7 +546,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jwIjp0C3sJxd2K5KKL87mduUbZc=
+		F+mbp/jr1fsXVs0Mlo1cb9BJM1U=
 		</data>
 		<key>Issuers.plist</key>
 		<data>
@@ -562,7 +562,7 @@
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		+734Y8g8MXTZMVM0XVRPKl+8CxY=
+		GvPjeckWOeOoZ2N5XJ+D2Zq7Ic8=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -578,11 +578,11 @@
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Hy7seeWkPbf5kkaRSYHcJNgNM5Y=
+		MRZA2AgfwUTvZoMm9nppgmW0nYU=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		+734Y8g8MXTZMVM0XVRPKl+8CxY=
+		GvPjeckWOeOoZ2N5XJ+D2Zq7Ic8=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -598,7 +598,7 @@
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		f8letZ+IuE5ZYG0UmJFjWZCHkD8=
+		NIt4RJNRbUZJXxBIhsEVoYA8BfM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1789,7 +1789,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IVYws/fz3MJiEDdvTDmyIzcEMB1g6tu7Y5HI+QuvyAs=
+			lfEn1YNiQX/yqN2EFc/7WbHMW4+KaPYWvO3WShI8+uY=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1817,14 +1817,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iNHL2b/Wy58NbdrjPvD+bXakWxTN7eKIqm+XGSRErss=
+			f9iA+Cm/nhHF5cNxCkeoueyNas0v68Oy9aYsjoamxmk=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IVYws/fz3MJiEDdvTDmyIzcEMB1g6tu7Y5HI+QuvyAs=
+			lfEn1YNiQX/yqN2EFc/7WbHMW4+KaPYWvO3WShI8+uY=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1852,7 +1852,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CfkYFjN1QRPxLKiXil1B1mMzaX5sHTOiEn5MKNebUho=
+			CFMHYKHnq1CurEUAYnDQWAEm03MBa4LwsjmoMWqkq3w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

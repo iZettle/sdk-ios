@@ -2,7 +2,8 @@
 //  CardPaymentViewController.swift
 //  iZettle SDK Sample
 //
-//  Copyright © 2024 PayPal Inc. All rights reserved.
+//  Created by Mohanna Zakizadeh on 2024-10-14.
+//  Copyright © 2024 iZettle. All rights reserved.
 //
 
 import UIKit

@@ -18,7 +18,7 @@
 		</data>
 		<key>ios-arm64/iZettleSDK.framework/Headers/iZettleSDK.h</key>
 		<data>
-		qaXuWa3iwgW9JmakjkwRfTizw4U=
+		nUHGsWgNUdZG2ooT7bMGajRzu3Y=
 		</data>
 		<key>ios-arm64/iZettleSDK.framework/Headers/iZettleSDKPaymentInfo.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>ios-arm64/iZettleSDK.framework/Info.plist</key>
 		<data>
-		qw4PYd1yVt/IRqH9CkMRb5U67Wg=
+		p9VSJAxrLn8nF9eOwza1IWrphoM=
 		</data>
 		<key>ios-arm64/iZettleSDK.framework/Modules/iZettleSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>ios-arm64/iZettleSDK.framework/iZettleSDK</key>
 		<data>
-		7hZOwWTBF3gBgG3+pXRH7c36/tw=
+		GOD3oLc18571OwzlDIbeQpknYco=
 		</data>
 		<key>ios-arm64/iZettleSDK.framework/strip-frameworks.sh</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/iZettleSDK.framework/Headers/iZettleSDK.h</key>
 		<data>
-		qaXuWa3iwgW9JmakjkwRfTizw4U=
+		nUHGsWgNUdZG2ooT7bMGajRzu3Y=
 		</data>
 		<key>ios-arm64_x86_64-simulator/iZettleSDK.framework/Headers/iZettleSDKPaymentInfo.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/iZettleSDK.framework/Info.plist</key>
 		<data>
-		Yg0XtCvveNJKNZoq52omDMM7xG0=
+		jXr8WHg+Ycu3wDlOIkc4AH30P3Q=
 		</data>
 		<key>ios-arm64_x86_64-simulator/iZettleSDK.framework/Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -126,11 +126,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/iZettleSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		DCRxvyUYEZKEffJ1b3Z1H/HtZpM=
+		IucvmMVmHhZYel6N7vL8+FU3S60=
 		</data>
 		<key>ios-arm64_x86_64-simulator/iZettleSDK.framework/iZettleSDK</key>
 		<data>
-		LtZZv35SC3/vePV5OB5GdAsu+Pk=
+		eZw7/iLlQSUF7YrWeDLgUHKVaQQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/iZettleSDK.framework/strip-frameworks.sh</key>
 		<data>
@@ -176,11 +176,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qaXuWa3iwgW9JmakjkwRfTizw4U=
+			nUHGsWgNUdZG2ooT7bMGajRzu3Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			urItGHiXANEaL9OdJwZyIbflx0Z472ljEETQttrOQeg=
+			QozUXUm7dAAepX/SfQnAQMHgV5OYV3+BsSmQXmV3Ib8=
 			</data>
 		</dict>
 		<key>ios-arm64/iZettleSDK.framework/Headers/iZettleSDKPaymentInfo.h</key>
@@ -198,11 +198,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qw4PYd1yVt/IRqH9CkMRb5U67Wg=
+			p9VSJAxrLn8nF9eOwza1IWrphoM=
 			</data>
 			<key>hash2</key>
 			<data>
-			8PRDSuJ4F+vY5v65xGr9yxSRuqGFx3Rt8/zaWielRls=
+			1lKpvg9/OyWmxDMTDFzxykFX5NUMxCenicu4UDvXnsE=
 			</data>
 		</dict>
 		<key>ios-arm64/iZettleSDK.framework/Modules/iZettleSDK.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -275,11 +275,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7hZOwWTBF3gBgG3+pXRH7c36/tw=
+			GOD3oLc18571OwzlDIbeQpknYco=
 			</data>
 			<key>hash2</key>
 			<data>
-			70oCkMxsN3CTeU0f3j1KWuFY0FJGyfK5xjF6vuiw2gw=
+			oqaASVJspvw3SpEHQoPvRGH955Vdlp9rVwMSMJeVNyY=
 			</data>
 		</dict>
 		<key>ios-arm64/iZettleSDK.framework/strip-frameworks.sh</key>
@@ -330,11 +330,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qaXuWa3iwgW9JmakjkwRfTizw4U=
+			nUHGsWgNUdZG2ooT7bMGajRzu3Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			urItGHiXANEaL9OdJwZyIbflx0Z472ljEETQttrOQeg=
+			QozUXUm7dAAepX/SfQnAQMHgV5OYV3+BsSmQXmV3Ib8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/iZettleSDK.framework/Headers/iZettleSDKPaymentInfo.h</key>
@@ -352,11 +352,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Yg0XtCvveNJKNZoq52omDMM7xG0=
+			jXr8WHg+Ycu3wDlOIkc4AH30P3Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gk2IFhrUuPDjns76YDUmhAKZL/GgvR3jFWQuktW+X1w=
+			SShqxuOV2xLbkmMnIK+Izq6YzaJedoXBghKnsL8NWp0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/iZettleSDK.framework/Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -473,22 +473,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DCRxvyUYEZKEffJ1b3Z1H/HtZpM=
+			IucvmMVmHhZYel6N7vL8+FU3S60=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q2OstoQ9BzIZ2w+NgRwLNymJqTOMai6SAH0tDEMXcIQ=
+			ASlQMU8I9K2lmY6cE3Qzalr3TWlGuwoUMfzPjy599+k=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/iZettleSDK.framework/iZettleSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LtZZv35SC3/vePV5OB5GdAsu+Pk=
+			eZw7/iLlQSUF7YrWeDLgUHKVaQQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			BgufuWXUjLm6mlSncMWGgJged+3VFceUyx3CmjH/HbI=
+			V3qN85lVEFYc8UXdvf/wNYeUE8ZxQeXWhPlvAOnnQuQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/iZettleSDK.framework/strip-frameworks.sh</key>
