@@ -217,20 +217,6 @@ NS_SWIFT_NAME(init(zettleReaderTippingStyle:paypalReaderTippingStyle:paypalReade
 
 @end
 
-@interface iZettleSDK(V3TippingSettings)
-
-/// Present Zettle settings view with an option to display PayPal reader tipping settings.
-/// The user can switch account, access the Zettle FAQ, view card reader settings etc.
-///
-/// - Parameters:
-///     - viewController:  A controller from which Zettle will present its UI.
-///     - configuration: Defines the presentation of additional features on the SDK settings page (e.g. PayPal Reader tipping Settings).
-- (void)presentSettingsFromViewController:(UIViewController *)viewController
-                            configuration:(IZSDKSettingsConfiguration *)configuration
-NS_SWIFT_NAME(presentSettings(from:configuration:));
-
-@end
-
 @interface iZettleSDK (Refund)
 
 /// Query Zettle for payment information of a payment with a given reference.
@@ -272,15 +258,17 @@ NS_SWIFT_NAME(refund(amount:ofPayment:withRefundReference:presentFrom:completion
 
 @end
 
-#if  __has_include(<iZettlePayments/iZettlePayments-Swift.h>)
 @interface iZettleSDK (Operations)
 
 /// Present Zettle settings view. The user can switch account, access the Zettle FAQ, view card reader settings etc.
+/// Does not enable PayPal Reader tipping settings by default - use `presentSettingsFromViewController:configuration:`
+/// to explicitly configure settings instead.
 ///
 /// - Parameters:
 ///     - viewController:  A controller from which Zettle will present its UI.
 - (void)presentSettingsFromViewController:(UIViewController *)viewController
-NS_SWIFT_NAME(presentSettings(from:));
+NS_SWIFT_NAME(presentSettings(from:))
+__deprecated_msg("Use presentSettingsFromViewController:configuration: instead.");
 
 /// Present Zettle settings view with an option to display PayPal reader tipping settings.
 /// The user can switch account, access the Zettle FAQ, view card reader settings etc.
@@ -292,6 +280,7 @@ NS_SWIFT_NAME(presentSettings(from:));
                             configuration:(IZSDKSettingsConfiguration *)configuration
 NS_SWIFT_NAME(presentSettings(from:configuration:));
 
+#if  __has_include(<iZettlePayments/iZettlePayments-Swift.h>)
 /// Call from application:openURL:options: in the UIApplicationDelegate as part of the authorization flow.
 ///
 /// > Important: Only used for targets supporting iOS 9 and 10, applications targeting newer iOS versions can omit this step.
@@ -315,8 +304,10 @@ NS_SWIFT_NAME(applicationDidOpen(with:));
 /// - Throws: Raises an exception if any configuration step fails.
 - (void)startWithAuthorizationProvider:(id<iZettleSDKAuthorizationProvider>)provider
                    enableDeveloperMode:(BOOL)enableDeveloperMode;
+#endif
 @end
 
+#if  __has_include(<iZettlePayments/iZettlePayments-Swift.h>)
 @interface iZettleSDK(QRC)
 
 typedef void(^IZSDKPayPalQRCCompletion)(IZSDKPayPalQRCPaymentInfo * _Nullable paymentInfo, NSError * _Nullable error);

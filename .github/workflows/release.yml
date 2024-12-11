@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   create_github_release:
-    runs-on: macos-12
+    runs-on: macos-latest
     environment: "Github Release"
     steps:
       - name: Checkout Repository
