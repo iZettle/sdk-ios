@@ -2,8 +2,7 @@
 //  TippingSettingsStorage.swift
 //  iZettle SDK Sample
 //
-//  Created by Mohanna Zakizadeh on 2024-10-31.
-//  Copyright © 2024 iZettle. All rights reserved.
+//  Copyright © 2024 PayPal Inc. All rights reserved.
 //
 
 
