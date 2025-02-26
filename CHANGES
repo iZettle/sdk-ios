@@ -6,7 +6,7 @@
 - Deprecated `presentSettingsFromViewController:` API - use `presentSettingsFromViewController:configuration:` instead.
 
 4.16.1
-- Introducing support for the new PayPal Reader
+- Introducing support for the new PayPal Reader 
 - Introducing the Tipping configuration for public use.
 - Privacy manifest iteration.
 
