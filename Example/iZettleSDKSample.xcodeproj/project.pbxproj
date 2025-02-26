@@ -11,6 +11,10 @@
 		07B1AF2A28F55EB30066D1D8 /* iZettlePayments.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B803A23327B118DE00C5C4C7 /* iZettlePayments.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		07B1AF2B28F55EB60066D1D8 /* iZettleSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B803A23227B118DE00C5C4C7 /* iZettleSDK.xcframework */; };
 		07B1AF2C28F55EB60066D1D8 /* iZettleSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B803A23227B118DE00C5C4C7 /* iZettleSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		64AACDEF2CBD20A100DB1AE5 /* CardPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AACDEE2CBD20A100DB1AE5 /* CardPaymentViewController.swift */; };
+		64EE62C12CD39D4300B3C2FA /* TippingSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EE62C02CD39D4300B3C2FA /* TippingSettingsViewController.swift */; };
+		64EE62C52CD3A1D500B3C2FA /* TippingSettingsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EE62C42CD3A1D500B3C2FA /* TippingSettingsStorage.swift */; };
+		64EE62C72CD3A1F000B3C2FA /* UserDefaults+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EE62C62CD3A1F000B3C2FA /* UserDefaults+extension.swift */; };
 		739E173D2A4490E000839E00 /* ManualCardEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739E173C2A4490E000839E00 /* ManualCardEntryViewController.swift */; };
 		876B84F42BCD2805006AE847 /* PPRiskMagnes.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876B84F22BCD27FD006AE847 /* PPRiskMagnes.xcframework */; };
 		876B84F52BCD2805006AE847 /* PPRiskMagnes.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 876B84F22BCD27FD006AE847 /* PPRiskMagnes.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -25,7 +29,6 @@
 		E6F9FEEF1DDDFFC80051C21D /* ConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F9FEE41DDDFFC80051C21D /* ConsoleViewController.m */; };
 		E6F9FEF01DDDFFC80051C21D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F9FEE51DDDFFC80051C21D /* Images.xcassets */; };
 		E6F9FEF21DDDFFC80051C21D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F9FEE71DDDFFC80051C21D /* main.m */; };
-		E6F9FEF31DDDFFC80051C21D /* CardPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F9FEE91DDDFFC80051C21D /* CardPaymentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +49,10 @@
 
 /* Begin PBXFileReference section */
 		3F0C93981AC30F4600305D8F /* iZettle SDK Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iZettle SDK Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64AACDEE2CBD20A100DB1AE5 /* CardPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPaymentViewController.swift; sourceTree = "<group>"; };
+		64EE62C02CD39D4300B3C2FA /* TippingSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippingSettingsViewController.swift; sourceTree = "<group>"; };
+		64EE62C42CD3A1D500B3C2FA /* TippingSettingsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippingSettingsStorage.swift; sourceTree = "<group>"; };
+		64EE62C62CD3A1F000B3C2FA /* UserDefaults+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+extension.swift"; sourceTree = "<group>"; };
 		739E173C2A4490E000839E00 /* ManualCardEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualCardEntryViewController.swift; sourceTree = "<group>"; };
 		876B84F22BCD27FD006AE847 /* PPRiskMagnes.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:XEZPTDFLAS:changching chi"; lastKnownFileType = wrapper.xcframework; name = PPRiskMagnes.xcframework; path = ../iZettleSDK/PPRiskMagnes.xcframework; sourceTree = "<group>"; };
 		9B8B199C24754A0F00C74D78 /* CustomAuthorizationProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomAuthorizationProvider.h; sourceTree = "<group>"; };
@@ -68,8 +75,6 @@
 		E6F9FEE51DDDFFC80051C21D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E6F9FEE61DDDFFC80051C21D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6F9FEE71DDDFFC80051C21D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E6F9FEE81DDDFFC80051C21D /* CardPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardPaymentViewController.h; sourceTree = "<group>"; };
-		E6F9FEE91DDDFFC80051C21D /* CardPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardPaymentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,11 +113,11 @@
 			children = (
 				B803A22E27AC0A3000C5C4C7 /* SelectionTableViewController.swift */,
 				B803A22527AAA17D00C5C4C7 /* QRCPaymentViewController.swift */,
-				E6F9FEE81DDDFFC80051C21D /* CardPaymentViewController.h */,
-				E6F9FEE91DDDFFC80051C21D /* CardPaymentViewController.m */,
 				E6F9FEE31DDDFFC80051C21D /* ConsoleViewController.h */,
 				E6F9FEE41DDDFFC80051C21D /* ConsoleViewController.m */,
 				739E173C2A4490E000839E00 /* ManualCardEntryViewController.swift */,
+				64AACDEE2CBD20A100DB1AE5 /* CardPaymentViewController.swift */,
+				64EE62C02CD39D4300B3C2FA /* TippingSettingsViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 		B8C1265E27C38FDF00AA6F45 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				64EE62C62CD3A1F000B3C2FA /* UserDefaults+extension.swift */,
 				B8C1266027C38FDF00AA6F45 /* AccessTokenFetcher.h */,
 				B8C1265F27C38FDF00AA6F45 /* AccessTokenFetcher.m */,
 			);
@@ -146,6 +152,7 @@
 				9B8B199D24754A0F00C74D78 /* CustomAuthorizationProvider.m */,
 				9BC1DCB924ACBA58004E74DC /* AccountManager.h */,
 				9BC1DCBA24ACBA58004E74DC /* AccountManager.m */,
+				64EE62C42CD3A1D500B3C2FA /* TippingSettingsStorage.swift */,
 				B803A23027AC1FE800C5C4C7 /* ViewController */,
 				E6F9FEDD1DDDFFC80051C21D /* LaunchScreen.xib */,
 				E6F9FEE11DDDFFC80051C21D /* Main~iphone.storyboard */,
@@ -229,15 +236,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64EE62C12CD39D4300B3C2FA /* TippingSettingsViewController.swift in Sources */,
 				E6F9FEEB1DDDFFC80051C21D /* AppDelegate.m in Sources */,
 				B803A22F27AC0A3000C5C4C7 /* SelectionTableViewController.swift in Sources */,
 				E6F9FEF21DDDFFC80051C21D /* main.m in Sources */,
 				B8C1266127C38FDF00AA6F45 /* AccessTokenFetcher.m in Sources */,
 				9BC1DCBB24ACBA58004E74DC /* AccountManager.m in Sources */,
+				64AACDEF2CBD20A100DB1AE5 /* CardPaymentViewController.swift in Sources */,
 				B803A22627AAA17D00C5C4C7 /* QRCPaymentViewController.swift in Sources */,
+				64EE62C52CD3A1D500B3C2FA /* TippingSettingsStorage.swift in Sources */,
 				9B8B199E24754A0F00C74D78 /* CustomAuthorizationProvider.m in Sources */,
+				64EE62C72CD3A1F000B3C2FA /* UserDefaults+extension.swift in Sources */,
 				E6F9FEEF1DDDFFC80051C21D /* ConsoleViewController.m in Sources */,
-				E6F9FEF31DDDFFC80051C21D /* CardPaymentViewController.m in Sources */,
 				739E173D2A4490E000839E00 /* ManualCardEntryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,9 +384,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42YXYHRXV7;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -391,6 +401,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.izettle.iZorn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iZettleSDKSample/iZettle SDK Sample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -403,9 +414,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42YXYHRXV7;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -420,6 +431,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.izettle.iZorn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iZettleSDKSample/iZettle SDK Sample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
