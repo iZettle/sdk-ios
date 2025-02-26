@@ -2506,7 +2506,7 @@
       ]
     },
     "#PaymentEnterAmountGratuityDescription": {
-      "text": "Ask customer to enter the amount + tip before using their card.",
+      "text": "Ask customer to enter the amount + tip.",
       "desc": "In app tippingflow: First view in payment flow, waiting for cardholder to enter total amount. Body, descripting text",
       "locales": [
         "sv-SE",
@@ -4704,6 +4704,10 @@
     "#QrPairingKeepCurrentReaderButton": {
         "text": "Keep current reader",
         "desc": "Button for canceling the direct-pair option to connect a new reader, keeping the current one."
+    },
+    "#PairReaderWithUSBButton": {
+        "text": "Connect with USB",
+        "desc": "Button for USB connection help center page"
     }
   }
 }

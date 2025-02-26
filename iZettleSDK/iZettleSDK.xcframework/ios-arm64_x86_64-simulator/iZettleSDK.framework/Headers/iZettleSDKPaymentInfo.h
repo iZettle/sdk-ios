@@ -9,19 +9,19 @@ extern NSErrorDomain const IZSDKErrorDomain;
 
 /// Defines SDK errors.
 typedef NS_ERROR_ENUM(IZSDKErrorDomain, IZSDKErrorCode) {
-    IZSDKErrorCodeUserNotLoggedIn            = -1,
-    IZSDKErrorCodePaymentNotFound            = -100,
-    IZSDKErrorCodeReferenceTooLong           = -101,
-    IZSDKErrorCodeReferenceIsNil             = -102,
-    IZSDKErrorCodeOperationAlreadyInProgress = -300,
-    IZSDKErrorCodeInvalidAmount              = -400,
-    IZSDKErrorCodeAmountTooLow               = -401,
-    IZSDKErrorCodeAmountTooHigh              = -402,
-    IZSDKErrorCodeDeviceNotSupported         = -403,
-    IZSDKErrorCodeNotEligible                = -404,
-    IZSDKErrorCodeAccountNotLinked           = -405,
-    IZSDKErrorCodeNoNetwork                  = -406,
-    IZSDKErrorCodeUnableToPresentView        = -407
+    IZSDKErrorCodeUserNotLoggedIn             = -1,
+    IZSDKErrorCodePaymentNotFound             = -100,
+    IZSDKErrorCodeReferenceTooLong            = -101,
+    IZSDKErrorCodeReferenceIsNil              = -102,
+    IZSDKErrorCodeOperationAlreadyInProgress  = -300,
+    IZSDKErrorCodeInvalidAmount               = -400,
+    IZSDKErrorCodeAmountTooLow                = -401,
+    IZSDKErrorCodeAmountTooHigh               = -402,
+    IZSDKErrorCodeDeviceNotSupported          = -403,
+    IZSDKErrorCodeNotEligible                 = -404,
+    IZSDKErrorCodeAccountNotLinked            = -405,
+    IZSDKErrorCodeNoNetwork                   = -406,
+    IZSDKErrorCodeUnableToPresentView         = -407
 };
 
 @interface iZettleSDKPaymentInfo : NSObject

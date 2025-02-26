@@ -1,3 +1,6 @@
+4.25.1
+- Fix an issue where deprecated charge APIs did not enable tipping on the new PayPal Reader.
+
 4.16.2
 - Fixed an authorization issue that required users to re-enter their password after updating from versions ≤ 3.15.1 to versions ≤ 4.16.1.
 - Deprecated `presentSettingsFromViewController:` API - use `presentSettingsFromViewController:configuration:` instead.

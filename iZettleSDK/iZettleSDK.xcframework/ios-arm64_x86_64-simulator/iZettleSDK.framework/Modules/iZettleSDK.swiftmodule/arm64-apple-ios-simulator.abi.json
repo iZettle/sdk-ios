@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "iZettleSDK",
+    "printedName": "iZettleSDK",
     "children": [
       {
         "kind": "Import",
@@ -631,6 +631,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -803,7 +817,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, Swift.Error?) -> ()",
+                "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -813,7 +827,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, Swift.Error?)",
+                    "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -832,12 +846,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -880,7 +894,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, Swift.Error?) -> ()",
+                "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -890,7 +904,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, Swift.Error?)",
+                    "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -909,12 +923,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -960,6 +974,20 @@
             "printedName": "iZettleSDKAuthorizationProvider",
             "usr": "c:@M@iZettleSDK@objc(pl)iZettleSDKAuthorizationProvider",
             "mangledName": "$s10iZettleSDK01iA24SDKAuthorizationProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1055,7 +1083,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "iZettleSDKAuthorizationProvider",
-                "printedName": "iZettleSDK.iZettleSDKAuthorizationProvider",
+                "printedName": "any iZettleSDK.iZettleSDKAuthorizationProvider",
                 "usr": "c:@M@iZettleSDK@objc(pl)iZettleSDKAuthorizationProvider"
               },
               {
@@ -1131,6 +1159,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1772,6 +1814,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1967,6 +2023,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2044,7 +2114,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, Swift.Error?) -> ()",
+                "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2054,7 +2124,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, Swift.Error?)",
+                    "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2073,12 +2143,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -2123,7 +2193,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, Swift.Error?) -> ()",
+                "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2133,7 +2203,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, Swift.Error?)",
+                    "printedName": "(iZettleSDK.iZettleSDKOAuthToken?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2152,12 +2222,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -2194,6 +2264,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2253,139 +2339,6 @@
       "value": "-501"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
-      "kind": "IntegerLiteral",
-      "offset": 409,
-      "length": 1,
-      "value": "-202"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
-      "kind": "IntegerLiteral",
-      "offset": 444,
-      "length": 1,
-      "value": "-203"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
-      "kind": "IntegerLiteral",
-      "offset": 476,
-      "length": 1,
-      "value": "-300"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
-      "kind": "IntegerLiteral",
-      "offset": 516,
-      "length": 1,
-      "value": "-501"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
-      "kind": "IntegerLiteral",
-      "offset": 409,
-      "length": 1,
-      "value": "-202"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
-      "kind": "IntegerLiteral",
-      "offset": 444,
-      "length": 1,
-      "value": "-203"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
-      "kind": "IntegerLiteral",
-      "offset": 476,
-      "length": 1,
-      "value": "-300"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
-      "kind": "IntegerLiteral",
-      "offset": 516,
-      "length": 1,
-      "value": "-501"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
-      "kind": "StringLiteral",
-      "offset": 613,
-      "length": 23,
-      "value": "\"iZettleSDK.iZettleSDKAuthorization\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
-      "kind": "StringLiteral",
-      "offset": 3227,
-      "length": 11,
-      "value": "\"Login_web\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3270,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
-      "kind": "StringLiteral",
-      "offset": 4705,
-      "length": 12,
-      "value": "\"Verify_web\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4749,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5901,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6154,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
-      "kind": "StringLiteral",
-      "offset": 6385,
-      "length": 18,
-      "value": "\"CFBundleURLTypes\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6457,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
-      "kind": "StringLiteral",
-      "offset": 6522,
-      "length": 20,
-      "value": "\"CFBundleURLSchemes\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6618,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
       "kind": "StringLiteral",
       "offset": 271,
@@ -2412,111 +2365,6 @@
       "offset": 423,
       "length": 4,
       "value": "-604"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
-      "kind": "IntegerLiteral",
-      "offset": 370,
-      "length": 1,
-      "value": "-600"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
-      "kind": "IntegerLiteral",
-      "offset": 399,
-      "length": 1,
-      "value": "-603"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
-      "kind": "IntegerLiteral",
-      "offset": 423,
-      "length": 1,
-      "value": "-604"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
-      "kind": "IntegerLiteral",
-      "offset": 370,
-      "length": 1,
-      "value": "-600"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
-      "kind": "IntegerLiteral",
-      "offset": 399,
-      "length": 1,
-      "value": "-603"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
-      "kind": "IntegerLiteral",
-      "offset": 423,
-      "length": 1,
-      "value": "-604"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
-      "kind": "StringLiteral",
-      "offset": 911,
-      "length": 14,
-      "value": "\"access_token\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
-      "kind": "StringLiteral",
-      "offset": 983,
-      "length": 12,
-      "value": "\"expires_in\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
-      "kind": "StringLiteral",
-      "offset": 1239,
-      "length": 15,
-      "value": "\"refresh_token\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
-      "kind": "StringLiteral",
-      "offset": 1684,
-      "length": 14,
-      "value": "\"access_token\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
-      "kind": "StringLiteral",
-      "offset": 1713,
-      "length": 12,
-      "value": "\"expires_in\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
-      "kind": "StringLiteral",
-      "offset": 1801,
-      "length": 15,
-      "value": "\"refresh_token\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
-      "kind": "StringLiteral",
-      "offset": 475,
-      "length": 20,
-      "value": "\"iZettleSDK.iZettleSDKOAuthToken\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorizationErrorExtensions.swift",
-      "kind": "StringLiteral",
-      "offset": 1002,
-      "length": 21,
-      "value": "\"#TechnicalErrorText\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorizationErrorExtensions.swift",
-      "kind": "StringLiteral",
-      "offset": 1928,
-      "length": 21,
-      "value": "\"#TechnicalErrorText\""
     }
   ]
 }
