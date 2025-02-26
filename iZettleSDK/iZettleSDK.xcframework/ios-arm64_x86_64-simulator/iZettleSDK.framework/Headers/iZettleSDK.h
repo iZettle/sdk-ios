@@ -74,7 +74,8 @@ typedef NS_ENUM(NSUInteger, IZPayPalReaderTippingStyle) {
     /// A percentage based option. It can be used together with `IZSDKPredefinedTippingValues` to utilize predefined percentage options.
     IZPayPalReaderTippingStylePredefinedPercentage,
     
-    /// Use Tipping settings. This option is only available for the Zettle Go app.
+    /// Uses the tipping style configured by the merchant in Settings (if configured, otherwise tipping is disabled)
+    ///   - Note: when using this style, ensure the Settings view is configured to display the PayPal Reader tipping Settings section. See `IZSDKSettingsConfiguration`.
     IZPayPalReaderTippingStyleSDKConfigured
 };
 
@@ -110,7 +111,7 @@ NS_SWIFT_NAME(init(paypalReaderTippingSettingsEnabled:));
 @property (nonatomic, readonly) IZZettleReaderTippingStyle zettleReaderTippingStyle;
 /// Tipping style to be used for the PayPal Reader. When specifying `IZPayPalReaderTippingStylePredefinedPercentage` you can optionally provide a value for `paypalReaderPredefinedTippingValues`.
 @property (nonatomic, readonly) IZPayPalReaderTippingStyle paypalReaderTippingStyle;
-///  Predefined percentages to be displayed on the card reader. Used only when `paypalReaderTippingStyle` is `IZPayPalReaderTippingStylePredefinedPercentage `.
+///  Predefined percentages to be displayed on the card reader. Used only when `paypalReaderTippingStyle` is `IZPayPalReaderTippingStylePredefinedPercentage `. If nil, market default values will be used.
 @property (nonatomic, readonly, strong, nullable) IZSDKPredefinedTippingValues *paypalReaderPredefinedTippingValues;
 
 /// Create tipping configuration by providing tipping style only for Zettle Reader.
@@ -258,6 +259,7 @@ NS_SWIFT_NAME(refund(amount:ofPayment:withRefundReference:presentFrom:completion
 
 @end
 
+#if  __has_include(<iZettlePayments/iZettlePayments-Swift.h>)
 @interface iZettleSDK (Operations)
 
 /// Present Zettle settings view. The user can switch account, access the Zettle FAQ, view card reader settings etc.
@@ -280,7 +282,6 @@ __deprecated_msg("Use presentSettingsFromViewController:configuration: instead."
                             configuration:(IZSDKSettingsConfiguration *)configuration
 NS_SWIFT_NAME(presentSettings(from:configuration:));
 
-#if  __has_include(<iZettlePayments/iZettlePayments-Swift.h>)
 /// Call from application:openURL:options: in the UIApplicationDelegate as part of the authorization flow.
 ///
 /// > Important: Only used for targets supporting iOS 9 and 10, applications targeting newer iOS versions can omit this step.
@@ -304,10 +305,8 @@ NS_SWIFT_NAME(applicationDidOpen(with:));
 /// - Throws: Raises an exception if any configuration step fails.
 - (void)startWithAuthorizationProvider:(id<iZettleSDKAuthorizationProvider>)provider
                    enableDeveloperMode:(BOOL)enableDeveloperMode;
-#endif
 @end
 
-#if  __has_include(<iZettlePayments/iZettlePayments-Swift.h>)
 @interface iZettleSDK(QRC)
 
 typedef void(^IZSDKPayPalQRCCompletion)(IZSDKPayPalQRCPaymentInfo * _Nullable paymentInfo, NSError * _Nullable error);
@@ -427,7 +426,7 @@ API_AVAILABLE(ios(13));
 ///
 /// - Parameters:
 ///     - amount: The amount to be charged in the logged in users currency.
-///     - enableTipping: Enable tipping flow with IZZettleReaderTippingStyleMarketDefault tipping style and IZPayPalReaderTippingStyleNone.
+///     - enableTipping: Enable tipping flow with IZZettleReaderTippingStyleMarketDefault tipping style and IZPayPalReaderTippingStyleMarketDefault.
 ///     - reference: The payment reference. Used to identify a Zettle payment, used when retrieving payment information at a later time or performing a refund. Max length 128. (Optional).
 ///     - viewController: A controller from which Zettle will present its UI.
 ///     - completion: Completion handler that will be called when the operation finishes.
@@ -437,7 +436,7 @@ API_AVAILABLE(ios(13));
 presentFromViewController:(UIViewController *)viewController
           completion:(iZettleSDKOperationCompletion)completion
 NS_SWIFT_NAME(charge(amount:enableTipping:reference:presentFrom:completion:))
-__deprecated_msg("Use chargeAmount:tippingConfiguration:reference:presentFromViewController:completion: instead.");
+__deprecated_msg("Use chargeAmount:tippingConfiguration:... to specify tipping style preferences for each reader type.");
 
 /// Perform a payment with an amount, tipping style and a reference.
 ///
@@ -447,17 +446,19 @@ __deprecated_msg("Use chargeAmount:tippingConfiguration:reference:presentFromVie
 ///
 /// - Parameters:
 ///     - amount: The amount to be charged in the logged in users currency.
-///     - tippingStyle: Selecting a tipping style or `None` to disable tipping for this payment.
+///     - tippingStyle: Select a tipping style or `None` to disable tipping for this payment.
 ///     - reference: The payment reference. Used to identify an Zettle payment, used when retrieving payment information at a later time or performing a refund. Max length 128. (Optional).
 ///     - viewController: A controller from which Zettle will present its UI.
 ///     - completion: Completion handler that will be called when the operation finishes.
+///
+/// - Note: `IZSDKTippingStyle` is deprecated. We will map the provided `tippingStyle` to the closest `IZZettleReaderTippingStyle` and `IZPayPalReaderTippingStyle` but you're strongly encoraged to migrate to providing explicit styles via `IZSDKTippingConfiguration`.
 - (void)chargeAmount:(NSDecimalNumber *)amount
         tippingStyle:(IZSDKTippingStyle)tippingStyle
            reference:(nullable NSString *)reference
 presentFromViewController:(UIViewController *)viewController
           completion:(iZettleSDKOperationCompletion)completion
 NS_SWIFT_NAME(charge(amount:tippingStyle:reference:presentFrom:completion:))
-__deprecated_msg("Use chargeAmount:tippingConfiguration:reference:presentFromViewController:completion: instead.");
+__deprecated_msg("Use chargeAmount:tippingConfiguration:... to specify tipping style preferences for each reader type.");
 
 /// Perform a payment with an amount, a reference and tipping configuration.
 ///

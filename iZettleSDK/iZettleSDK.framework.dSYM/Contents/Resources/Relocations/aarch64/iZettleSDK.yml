@@ -2,442 +2,425 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/distiller/Library/Developer/Xcode/DerivedData/Payments-akjmrumdnzlatxcuiuaxjqxspekz/Build/Intermediates.noindex/ArchiveIntermediates/iZettleSDK/InstallationBuildProductsLocation/Library/Frameworks/iZettleSDK.framework/iZettleSDK'
 relocations:
-  - { offsetInCU: 0x34, offset: 0xD7482, size: 0x8, addend: 0x0, symName: _iZettleSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x199F0, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0xD74B7, size: 0x8, addend: 0x0, symName: _iZettleSDKVersionNumber, symObjAddr: 0x30, symBinAddr: 0x19A20, symSize: 0x0 }
-  - { offsetInCU: 0x27, offset: 0xD74F4, size: 0x8, addend: 0x0, symName: '+[IZSDKPayPalQRCPaymentInfo withPaymentInfo:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x15C }
-  - { offsetInCU: 0x12F, offset: 0xD75FC, size: 0x8, addend: 0x0, symName: '+[IZSDKPayPalQRCPaymentInfo withPaymentInfo:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x15C }
-  - { offsetInCU: 0x1C2, offset: 0xD768F, size: 0x8, addend: 0x0, symName: '-[IZSDKPayPalQRCPaymentInfo initWithPaypalTransactionId:referenceNumber:amount:type:transactionId:]', symObjAddr: 0x15C, symBinAddr: 0x415C, symSize: 0x104 }
-  - { offsetInCU: 0x249, offset: 0xD7716, size: 0x8, addend: 0x0, symName: '-[IZSDKPayPalQRCPaymentInfo amount]', symObjAddr: 0x260, symBinAddr: 0x4260, symSize: 0x8 }
-  - { offsetInCU: 0x280, offset: 0xD774D, size: 0x8, addend: 0x0, symName: '-[IZSDKPayPalQRCPaymentInfo referenceNumber]', symObjAddr: 0x268, symBinAddr: 0x4268, symSize: 0x8 }
-  - { offsetInCU: 0x2B7, offset: 0xD7784, size: 0x8, addend: 0x0, symName: '-[IZSDKPayPalQRCPaymentInfo paypalTransactionId]', symObjAddr: 0x270, symBinAddr: 0x4270, symSize: 0x8 }
-  - { offsetInCU: 0x2EE, offset: 0xD77BB, size: 0x8, addend: 0x0, symName: '-[IZSDKPayPalQRCPaymentInfo type]', symObjAddr: 0x278, symBinAddr: 0x4278, symSize: 0x8 }
-  - { offsetInCU: 0x325, offset: 0xD77F2, size: 0x8, addend: 0x0, symName: '-[IZSDKPayPalQRCPaymentInfo transactionId]', symObjAddr: 0x280, symBinAddr: 0x4280, symSize: 0x8 }
-  - { offsetInCU: 0x35C, offset: 0xD7829, size: 0x8, addend: 0x0, symName: '-[IZSDKPayPalQRCPaymentInfo .cxx_destruct]', symObjAddr: 0x288, symBinAddr: 0x4288, symSize: 0x48 }
-  - { offsetInCU: 0x27, offset: 0xD78DC, size: 0x8, addend: 0x0, symName: '+[IZSDKPayPalQRCPaymentInfo(DevMode) paymentInfoForDevModeCase:amount:]', symObjAddr: 0x0, symBinAddr: 0x42D0, symSize: 0x8C }
-  - { offsetInCU: 0x87, offset: 0xD793C, size: 0x8, addend: 0x0, symName: '+[IZSDKPayPalQRCPaymentInfo(DevMode) paymentInfoForDevModeCase:amount:]', symObjAddr: 0x0, symBinAddr: 0x42D0, symSize: 0x8C }
-  - { offsetInCU: 0xDA, offset: 0xD798F, size: 0x8, addend: 0x0, symName: '+[IZSDKPayPalQRCPaymentInfo(DevMode) refundInfoForDevModeCase:amount:]', symObjAddr: 0x8C, symBinAddr: 0x435C, symSize: 0xD0 }
-  - { offsetInCU: 0x27, offset: 0xD7AAF, size: 0x8, addend: 0x0, symName: '+[NSDictionary(CardDevMode) ztl_cardPaymentInfoForDevModeCase:amount:isTippingEnabled:]', symObjAddr: 0x0, symBinAddr: 0x442C, symSize: 0x1D4 }
-  - { offsetInCU: 0x43, offset: 0xD7ACB, size: 0x8, addend: 0x0, symName: '+[NSDictionary(CardDevMode) ztl_cardPaymentInfoForDevModeCase:amount:isTippingEnabled:]', symObjAddr: 0x0, symBinAddr: 0x442C, symSize: 0x1D4 }
-  - { offsetInCU: 0xC6, offset: 0xD7B4E, size: 0x8, addend: 0x0, symName: '+[NSDictionary(CardDevMode) ztl_cardRefundInfoForDevModeCase:amount:]', symObjAddr: 0x1D4, symBinAddr: 0x4600, symSize: 0x168 }
-  - { offsetInCU: 0x27, offset: 0xD7C1B, size: 0x8, addend: 0x0, symName: '+[iZettleSDK(TippingConfigurationCreation) tippingConfigurationUsingAccount:inputTippingConfiguration:]', symObjAddr: 0x0, symBinAddr: 0x4768, symSize: 0xF0 }
-  - { offsetInCU: 0xDA, offset: 0xD7CCE, size: 0x8, addend: 0x0, symName: '+[iZettleSDK(TippingConfigurationCreation) tippingConfigurationUsingAccount:inputTippingConfiguration:]', symObjAddr: 0x0, symBinAddr: 0x4768, symSize: 0xF0 }
-  - { offsetInCU: 0x161, offset: 0xD7D55, size: 0x8, addend: 0x0, symName: '+[iZettleSDK(TippingConfigurationCreation) mapZettleTippingStyleToTippingInputStyle:]', symObjAddr: 0xF0, symBinAddr: 0x4858, symSize: 0x10 }
-  - { offsetInCU: 0x1A2, offset: 0xD7D96, size: 0x8, addend: 0x0, symName: '+[iZettleSDK(TippingConfigurationCreation) mapPaypalTippingStyleToTippingInputStyle:]', symObjAddr: 0x100, symBinAddr: 0x4868, symSize: 0x10 }
-  - { offsetInCU: 0x1E3, offset: 0xD7DD7, size: 0x8, addend: 0x0, symName: '+[iZettleSDK(TippingConfigurationCreation) exportPredefinedTipsValuesFrom:]', symObjAddr: 0x110, symBinAddr: 0x4878, symSize: 0x134 }
-  - { offsetInCU: 0x27, offset: 0xD7F23, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo initWithDictionary:]', symObjAddr: 0x0, symBinAddr: 0x49AC, symSize: 0x78 }
-  - { offsetInCU: 0x165, offset: 0xD8061, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo initWithDictionary:]', symObjAddr: 0x0, symBinAddr: 0x49AC, symSize: 0x78 }
-  - { offsetInCU: 0x1AC, offset: 0xD80A8, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo dictionary]', symObjAddr: 0x78, symBinAddr: 0x4A24, symSize: 0x8 }
-  - { offsetInCU: 0x1E3, offset: 0xD80DF, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo amount]', symObjAddr: 0x80, symBinAddr: 0x4A2C, symSize: 0x10 }
-  - { offsetInCU: 0x21A, offset: 0xD8116, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo transactionId]', symObjAddr: 0x90, symBinAddr: 0x4A3C, symSize: 0x10 }
-  - { offsetInCU: 0x251, offset: 0xD814D, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo gratuityAmount]', symObjAddr: 0xA0, symBinAddr: 0x4A4C, symSize: 0x10 }
-  - { offsetInCU: 0x288, offset: 0xD8184, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo referenceNumber]', symObjAddr: 0xB0, symBinAddr: 0x4A5C, symSize: 0x10 }
-  - { offsetInCU: 0x2BF, offset: 0xD81BB, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo numberOfInstallments]', symObjAddr: 0xC0, symBinAddr: 0x4A6C, symSize: 0x10 }
-  - { offsetInCU: 0x2F6, offset: 0xD81F2, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo installmentAmount]', symObjAddr: 0xD0, symBinAddr: 0x4A7C, symSize: 0x10 }
-  - { offsetInCU: 0x32D, offset: 0xD8229, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo entryMode]', symObjAddr: 0xE0, symBinAddr: 0x4A8C, symSize: 0x10 }
-  - { offsetInCU: 0x364, offset: 0xD8260, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo authorizationCode]', symObjAddr: 0xF0, symBinAddr: 0x4A9C, symSize: 0x10 }
-  - { offsetInCU: 0x39B, offset: 0xD8297, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo obfuscatedPan]', symObjAddr: 0x100, symBinAddr: 0x4AAC, symSize: 0x10 }
-  - { offsetInCU: 0x3D2, offset: 0xD82CE, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo panHash]', symObjAddr: 0x110, symBinAddr: 0x4ABC, symSize: 0x10 }
-  - { offsetInCU: 0x409, offset: 0xD8305, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo cardBrand]', symObjAddr: 0x120, symBinAddr: 0x4ACC, symSize: 0x10 }
-  - { offsetInCU: 0x440, offset: 0xD833C, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo cardIssuingBank]', symObjAddr: 0x130, symBinAddr: 0x4ADC, symSize: 0x10 }
-  - { offsetInCU: 0x477, offset: 0xD8373, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo TVR]', symObjAddr: 0x140, symBinAddr: 0x4AEC, symSize: 0x10 }
-  - { offsetInCU: 0x4AE, offset: 0xD83AA, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo TSI]', symObjAddr: 0x150, symBinAddr: 0x4AFC, symSize: 0x10 }
-  - { offsetInCU: 0x4E5, offset: 0xD83E1, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo AID]', symObjAddr: 0x160, symBinAddr: 0x4B0C, symSize: 0x10 }
-  - { offsetInCU: 0x51C, offset: 0xD8418, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo applicationName]', symObjAddr: 0x170, symBinAddr: 0x4B1C, symSize: 0x10 }
-  - { offsetInCU: 0x553, offset: 0xD844F, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo description]', symObjAddr: 0x180, symBinAddr: 0x4B2C, symSize: 0x8 }
-  - { offsetInCU: 0x58A, offset: 0xD8486, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo mxFIID]', symObjAddr: 0x188, symBinAddr: 0x4B34, symSize: 0x10 }
-  - { offsetInCU: 0x5C1, offset: 0xD84BD, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo mxCardType]', symObjAddr: 0x198, symBinAddr: 0x4B44, symSize: 0x10 }
-  - { offsetInCU: 0x5F8, offset: 0xD84F4, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo .cxx_destruct]', symObjAddr: 0x1A8, symBinAddr: 0x4B54, symSize: 0xC }
-  - { offsetInCU: 0x27, offset: 0xD8594, size: 0x8, addend: 0x0, symName: '+[NSError(CardPaymentDevMode) ztl_cardPaymentErrorForDevModeCase:]', symObjAddr: 0x0, symBinAddr: 0x4B60, symSize: 0xE0 }
-  - { offsetInCU: 0x4A, offset: 0xD85B7, size: 0x8, addend: 0x0, symName: '+[NSError(CardPaymentDevMode) ztl_cardPaymentErrorForDevModeCase:]', symObjAddr: 0x0, symBinAddr: 0x4B60, symSize: 0xE0 }
-  - { offsetInCU: 0x91, offset: 0xD85FE, size: 0x8, addend: 0x0, symName: '+[NSError(CardPaymentDevMode) ztl_cardPaymentErrorDomainForDevModeCase:]', symObjAddr: 0xE0, symBinAddr: 0x4C40, symSize: 0x2C }
-  - { offsetInCU: 0xD2, offset: 0xD863F, size: 0x8, addend: 0x0, symName: '+[NSError(CardPaymentDevMode) ztl_cardPaymentErrorCodeForDevModeCase:]', symObjAddr: 0x10C, symBinAddr: 0x4C6C, symSize: 0x28 }
-  - { offsetInCU: 0x113, offset: 0xD8680, size: 0x8, addend: 0x0, symName: '+[NSError(CardPaymentDevMode) ztl_cardPaymentErrorUserInfoForDevModeCase:]', symObjAddr: 0x134, symBinAddr: 0x4C94, symSize: 0x1F0 }
-  - { offsetInCU: 0x27, offset: 0xD872A, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(DevMode) showCardPaymentDevModeFrom:devModeProvider:amount:isTippingEnabled:completion:]', symObjAddr: 0x0, symBinAddr: 0x4E84, symSize: 0x1AC }
-  - { offsetInCU: 0xA8, offset: 0xD87AB, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(DevMode) showCardPaymentDevModeFrom:devModeProvider:amount:isTippingEnabled:completion:]', symObjAddr: 0x0, symBinAddr: 0x4E84, symSize: 0x1AC }
-  - { offsetInCU: 0x157, offset: 0xD885A, size: 0x8, addend: 0x0, symName: '___101-[iZettleSDK(DevMode) showCardPaymentDevModeFrom:devModeProvider:amount:isTippingEnabled:completion:]_block_invoke', symObjAddr: 0x1AC, symBinAddr: 0x5030, symSize: 0xB4 }
-  - { offsetInCU: 0x1D2, offset: 0xD88D5, size: 0x8, addend: 0x0, symName: '___101-[iZettleSDK(DevMode) showCardPaymentDevModeFrom:devModeProvider:amount:isTippingEnabled:completion:]_block_invoke_2', symObjAddr: 0x260, symBinAddr: 0x50E4, symSize: 0x84 }
-  - { offsetInCU: 0x287, offset: 0xD898A, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x2E4, symBinAddr: 0x5168, symSize: 0x34 }
-  - { offsetInCU: 0x2B0, offset: 0xD89B3, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x318, symBinAddr: 0x519C, symSize: 0x28 }
-  - { offsetInCU: 0x2CF, offset: 0xD89D2, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b48w, symObjAddr: 0x340, symBinAddr: 0x51C4, symSize: 0x40 }
-  - { offsetInCU: 0x2F8, offset: 0xD89FB, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48w, symObjAddr: 0x380, symBinAddr: 0x5204, symSize: 0x30 }
-  - { offsetInCU: 0x317, offset: 0xD8A1A, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(DevMode) showCardRefundDevModeFrom:devModeProvider:amount:completion:]', symObjAddr: 0x3B0, symBinAddr: 0x5234, symSize: 0x1A4 }
-  - { offsetInCU: 0x3BA, offset: 0xD8ABD, size: 0x8, addend: 0x0, symName: '___83-[iZettleSDK(DevMode) showCardRefundDevModeFrom:devModeProvider:amount:completion:]_block_invoke', symObjAddr: 0x554, symBinAddr: 0x53D8, symSize: 0xAC }
-  - { offsetInCU: 0x425, offset: 0xD8B28, size: 0x8, addend: 0x0, symName: '___83-[iZettleSDK(DevMode) showCardRefundDevModeFrom:devModeProvider:amount:completion:]_block_invoke_2', symObjAddr: 0x600, symBinAddr: 0x5484, symSize: 0x80 }
-  - { offsetInCU: 0x4CA, offset: 0xD8BCD, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(DevMode) showQRCPaymentDevModeFrom:devModeProvider:amount:appearance:completion:]', symObjAddr: 0x680, symBinAddr: 0x5504, symSize: 0x1B4 }
-  - { offsetInCU: 0x58D, offset: 0xD8C90, size: 0x8, addend: 0x0, symName: '___94-[iZettleSDK(DevMode) showQRCPaymentDevModeFrom:devModeProvider:amount:appearance:completion:]_block_invoke', symObjAddr: 0x834, symBinAddr: 0x56B8, symSize: 0xAC }
-  - { offsetInCU: 0x5F8, offset: 0xD8CFB, size: 0x8, addend: 0x0, symName: '___94-[iZettleSDK(DevMode) showQRCPaymentDevModeFrom:devModeProvider:amount:appearance:completion:]_block_invoke_2', symObjAddr: 0x8E0, symBinAddr: 0x5764, symSize: 0x80 }
-  - { offsetInCU: 0x69D, offset: 0xD8DA0, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(DevMode) showQRCRefundDevModeFrom:devModeProvider:amount:completion:]', symObjAddr: 0x960, symBinAddr: 0x57E4, symSize: 0x1A4 }
-  - { offsetInCU: 0x740, offset: 0xD8E43, size: 0x8, addend: 0x0, symName: '___82-[iZettleSDK(DevMode) showQRCRefundDevModeFrom:devModeProvider:amount:completion:]_block_invoke', symObjAddr: 0xB04, symBinAddr: 0x5988, symSize: 0xAC }
-  - { offsetInCU: 0x7AB, offset: 0xD8EAE, size: 0x8, addend: 0x0, symName: '___82-[iZettleSDK(DevMode) showQRCRefundDevModeFrom:devModeProvider:amount:completion:]_block_invoke_2', symObjAddr: 0xBB0, symBinAddr: 0x5A34, symSize: 0x80 }
-  - { offsetInCU: 0x850, offset: 0xD8F53, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(DevMode) showManualCardEntryPaymentDevModeFrom:devModeProvider:amount:completion:]', symObjAddr: 0xC30, symBinAddr: 0x5AB4, symSize: 0x1A4 }
-  - { offsetInCU: 0x8F3, offset: 0xD8FF6, size: 0x8, addend: 0x0, symName: '___95-[iZettleSDK(DevMode) showManualCardEntryPaymentDevModeFrom:devModeProvider:amount:completion:]_block_invoke', symObjAddr: 0xDD4, symBinAddr: 0x5C58, symSize: 0xAC }
-  - { offsetInCU: 0x95E, offset: 0xD9061, size: 0x8, addend: 0x0, symName: '___95-[iZettleSDK(DevMode) showManualCardEntryPaymentDevModeFrom:devModeProvider:amount:completion:]_block_invoke_2', symObjAddr: 0xE80, symBinAddr: 0x5D04, symSize: 0x80 }
-  - { offsetInCU: 0xA03, offset: 0xD9106, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(DevMode) showManualCardEntryRefundDevModeFrom:devModeProvider:amount:completion:]', symObjAddr: 0xF00, symBinAddr: 0x5D84, symSize: 0x1A4 }
-  - { offsetInCU: 0xAA6, offset: 0xD91A9, size: 0x8, addend: 0x0, symName: '___94-[iZettleSDK(DevMode) showManualCardEntryRefundDevModeFrom:devModeProvider:amount:completion:]_block_invoke', symObjAddr: 0x10A4, symBinAddr: 0x5F28, symSize: 0xAC }
-  - { offsetInCU: 0xB11, offset: 0xD9214, size: 0x8, addend: 0x0, symName: '___94-[iZettleSDK(DevMode) showManualCardEntryRefundDevModeFrom:devModeProvider:amount:completion:]_block_invoke_2', symObjAddr: 0x1150, symBinAddr: 0x5FD4, symSize: 0x80 }
-  - { offsetInCU: 0xBB6, offset: 0xD92B9, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(DevMode) createNewDevModeNavigationController]', symObjAddr: 0x11D0, symBinAddr: 0x6054, symSize: 0xA8 }
-  - { offsetInCU: 0x27, offset: 0xD9B73, size: 0x8, addend: 0x0, symName: '+[NSError(CardRefundDevMode) ztl_cardRefundErrorForDevModeCase:]', symObjAddr: 0x0, symBinAddr: 0x60FC, symSize: 0xB4 }
-  - { offsetInCU: 0x4A, offset: 0xD9B96, size: 0x8, addend: 0x0, symName: '+[NSError(CardRefundDevMode) ztl_cardRefundErrorForDevModeCase:]', symObjAddr: 0x0, symBinAddr: 0x60FC, symSize: 0xB4 }
-  - { offsetInCU: 0x91, offset: 0xD9BDD, size: 0x8, addend: 0x0, symName: '+[NSError(CardRefundDevMode) ztl_cardRefundErrorDomainForDevModeCase:]', symObjAddr: 0xB4, symBinAddr: 0x61B0, symSize: 0x2C }
-  - { offsetInCU: 0xD2, offset: 0xD9C1E, size: 0x8, addend: 0x0, symName: '+[NSError(CardRefundDevMode) ztl_cardRefundErrorCodeForDevModeCase:]', symObjAddr: 0xE0, symBinAddr: 0x61DC, symSize: 0x24 }
-  - { offsetInCU: 0x113, offset: 0xD9C5F, size: 0x8, addend: 0x0, symName: '+[NSError(CardRefundDevMode) ztl_cardRefundErrorUserInfoForDevModeCase:]', symObjAddr: 0x104, symBinAddr: 0x6200, symSize: 0xA4 }
-  - { offsetInCU: 0x27, offset: 0xD9D09, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_InvalidAmountError]', symObjAddr: 0x0, symBinAddr: 0x62A4, symSize: 0x8 }
-  - { offsetInCU: 0x41, offset: 0xD9D23, size: 0x8, addend: 0x0, symName: _IZSDKManualCardEntryErrorDomain, symObjAddr: 0xC68, symBinAddr: 0x24768, symSize: 0x0 }
-  - { offsetInCU: 0x10B, offset: 0xD9DED, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_InvalidAmountError]', symObjAddr: 0x0, symBinAddr: 0x62A4, symSize: 0x8 }
-  - { offsetInCU: 0x140, offset: 0xD9E22, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_InvalidTransactionConfigurationError]', symObjAddr: 0x8, symBinAddr: 0x62AC, symSize: 0x8 }
-  - { offsetInCU: 0x175, offset: 0xD9E57, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_PaymentCancelledByMerchantError]', symObjAddr: 0x10, symBinAddr: 0x62B4, symSize: 0x8 }
-  - { offsetInCU: 0x1AA, offset: 0xD9E8C, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_TechnicalError]', symObjAddr: 0x18, symBinAddr: 0x62BC, symSize: 0x8 }
-  - { offsetInCU: 0x1DF, offset: 0xD9EC1, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_PaymentNotFoundError]', symObjAddr: 0x20, symBinAddr: 0x62C4, symSize: 0x8 }
-  - { offsetInCU: 0x214, offset: 0xD9EF6, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_InsufficientFundsError]', symObjAddr: 0x28, symBinAddr: 0x62CC, symSize: 0x8 }
-  - { offsetInCU: 0x249, offset: 0xD9F2B, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_RefundFailedError]', symObjAddr: 0x30, symBinAddr: 0x62D4, symSize: 0x8 }
-  - { offsetInCU: 0x27E, offset: 0xD9F60, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_RefundCancelledError]', symObjAddr: 0x38, symBinAddr: 0x62DC, symSize: 0x8 }
-  - { offsetInCU: 0x2B3, offset: 0xD9F95, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_AmountTooLowErrorWithMinimumAmount:]', symObjAddr: 0x40, symBinAddr: 0x62E4, symSize: 0x6C }
-  - { offsetInCU: 0x308, offset: 0xD9FEA, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_AmountTooHighErrorWithMaximumAmount:]', symObjAddr: 0xAC, symBinAddr: 0x6350, symSize: 0x6C }
-  - { offsetInCU: 0x35D, offset: 0xDA03F, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_ErrorFromAPMPaymentInfoError:]', symObjAddr: 0x118, symBinAddr: 0x63BC, symSize: 0xA8 }
-  - { offsetInCU: 0x3B4, offset: 0xDA096, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_ErrorFromAPMRefundError:]', symObjAddr: 0x1C0, symBinAddr: 0x6464, symSize: 0xA8 }
-  - { offsetInCU: 0x40B, offset: 0xDA0ED, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_ErrorFromAPMError:]', symObjAddr: 0x268, symBinAddr: 0x650C, symSize: 0xA8 }
-  - { offsetInCU: 0x462, offset: 0xDA144, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_manualCardEntryErrorWith:]', symObjAddr: 0x310, symBinAddr: 0x65B4, symSize: 0x74 }
-  - { offsetInCU: 0x4A9, offset: 0xDA18B, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_errorCodeForPaymentError:]', symObjAddr: 0x384, symBinAddr: 0x6628, symSize: 0x38 }
-  - { offsetInCU: 0x4EC, offset: 0xDA1CE, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_errorCodeForPaymentInfoError:]', symObjAddr: 0x3BC, symBinAddr: 0x6660, symSize: 0x38 }
-  - { offsetInCU: 0x52F, offset: 0xDA211, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_errorCodeForRefundError:]', symObjAddr: 0x3F4, symBinAddr: 0x6698, symSize: 0x9C }
-  - { offsetInCU: 0x572, offset: 0xDA254, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_errorUserInfoFor:minAmountString:maxAmountString:]', symObjAddr: 0x490, symBinAddr: 0x6734, symSize: 0xA0 }
-  - { offsetInCU: 0x5D9, offset: 0xDA2BB, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_errorDescriptionFor:minAmountString:maxAmountString:]', symObjAddr: 0x530, symBinAddr: 0x67D4, symSize: 0x1A0 }
-  - { offsetInCU: 0x27, offset: 0xDA385, size: 0x8, addend: 0x0, symName: '-[IZAccount(iZettleSDK) fetchPaymentConfigIfNeeded]', symObjAddr: 0x0, symBinAddr: 0x6974, symSize: 0x60 }
-  - { offsetInCU: 0x3A, offset: 0xDA398, size: 0x8, addend: 0x0, symName: '+[iZettleSDK shared]', symObjAddr: 0x60, symBinAddr: 0x69D4, symSize: 0x40 }
-  - { offsetInCU: 0x64, offset: 0xDA3C2, size: 0x8, addend: 0x0, symName: _shared.once, symObjAddr: 0x23798, symBinAddr: 0x29D10, symSize: 0x0 }
-  - { offsetInCU: 0x7A, offset: 0xDA3D8, size: 0x8, addend: 0x0, symName: _shared.shared, symObjAddr: 0x237A0, symBinAddr: 0x29D18, symSize: 0x0 }
-  - { offsetInCU: 0x4D0, offset: 0xDA82E, size: 0x8, addend: 0x0, symName: '-[IZAccount(iZettleSDK) fetchPaymentConfigIfNeeded]', symObjAddr: 0x0, symBinAddr: 0x6974, symSize: 0x60 }
-  - { offsetInCU: 0x547, offset: 0xDA8A5, size: 0x8, addend: 0x0, symName: '___20+[iZettleSDK shared]_block_invoke', symObjAddr: 0xA0, symBinAddr: 0x6A14, symSize: 0x30 }
-  - { offsetInCU: 0x56E, offset: 0xDA8CC, size: 0x8, addend: 0x0, symName: '-[iZettleSDK startWithAuthorizationProvider:]', symObjAddr: 0xD0, symBinAddr: 0x6A44, symSize: 0x3B0 }
-  - { offsetInCU: 0x5F1, offset: 0xDA94F, size: 0x8, addend: 0x0, symName: '___45-[iZettleSDK startWithAuthorizationProvider:]_block_invoke', symObjAddr: 0x480, symBinAddr: 0x6DF4, symSize: 0x7C }
-  - { offsetInCU: 0x65B, offset: 0xDA9B9, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0x4FC, symBinAddr: 0x6E70, symSize: 0xC }
-  - { offsetInCU: 0x684, offset: 0xDA9E2, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w, symObjAddr: 0x508, symBinAddr: 0x6E7C, symSize: 0x8 }
-  - { offsetInCU: 0x6A3, offset: 0xDAA01, size: 0x8, addend: 0x0, symName: '___45-[iZettleSDK startWithAuthorizationProvider:]_block_invoke.12', symObjAddr: 0x510, symBinAddr: 0x6E84, symSize: 0x128 }
-  - { offsetInCU: 0x735, offset: 0xDAA93, size: 0x8, addend: 0x0, symName: '___45-[iZettleSDK startWithAuthorizationProvider:]_block_invoke_2', symObjAddr: 0x638, symBinAddr: 0x6FAC, symSize: 0x70 }
-  - { offsetInCU: 0x79F, offset: 0xDAAFD, size: 0x8, addend: 0x0, symName: '-[iZettleSDK setCardPaymentPayPalPartnerAttributionId:]', symObjAddr: 0x6A8, symBinAddr: 0x701C, symSize: 0xC }
-  - { offsetInCU: 0x7E2, offset: 0xDAB40, size: 0x8, addend: 0x0, symName: '-[iZettleSDK cardPaymentPayPalPartnerAttributionId]', symObjAddr: 0x6B4, symBinAddr: 0x7028, symSize: 0x8 }
-  - { offsetInCU: 0x819, offset: 0xDAB77, size: 0x8, addend: 0x0, symName: '-[iZettleSDK performAPMStateTrackingForKey:withCurrentState:withTrackingEvent:]', symObjAddr: 0x6BC, symBinAddr: 0x7030, symSize: 0x15C }
-  - { offsetInCU: 0x907, offset: 0xDAC65, size: 0x8, addend: 0x0, symName: '-[iZettleSDK version]', symObjAddr: 0x818, symBinAddr: 0x718C, symSize: 0xC }
-  - { offsetInCU: 0x93A, offset: 0xDAC98, size: 0x8, addend: 0x0, symName: '-[iZettleSDK trackingEndpointForAccount:]', symObjAddr: 0x824, symBinAddr: 0x7198, symSize: 0xB4 }
-  - { offsetInCU: 0x9B0, offset: 0xDAD0E, size: 0x8, addend: 0x0, symName: '-[iZettleSDK customTrackingSessionTimestamp]', symObjAddr: 0x8D8, symBinAddr: 0x724C, symSize: 0x8 }
-  - { offsetInCU: 0x9E3, offset: 0xDAD41, size: 0x8, addend: 0x0, symName: '-[iZettleSDK trackingEndpointForNetworkContext:]', symObjAddr: 0x8E0, symBinAddr: 0x7254, symSize: 0xB0 }
-  - { offsetInCU: 0xA42, offset: 0xDADA0, size: 0x8, addend: 0x0, symName: '-[iZettleSDK subscribeToAppLifeCycleEvents]', symObjAddr: 0x990, symBinAddr: 0x7304, symSize: 0x1F0 }
-  - { offsetInCU: 0xA85, offset: 0xDADE3, size: 0x8, addend: 0x0, symName: '___43-[iZettleSDK subscribeToAppLifeCycleEvents]_block_invoke', symObjAddr: 0xB80, symBinAddr: 0x74F4, symSize: 0xC }
-  - { offsetInCU: 0xAD0, offset: 0xDAE2E, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0xB8C, symBinAddr: 0x7500, symSize: 0x8 }
-  - { offsetInCU: 0xAF7, offset: 0xDAE55, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0xB94, symBinAddr: 0x7508, symSize: 0x8 }
-  - { offsetInCU: 0xB16, offset: 0xDAE74, size: 0x8, addend: 0x0, symName: '___43-[iZettleSDK subscribeToAppLifeCycleEvents]_block_invoke.27', symObjAddr: 0xB9C, symBinAddr: 0x7510, symSize: 0xC }
-  - { offsetInCU: 0xB61, offset: 0xDAEBF, size: 0x8, addend: 0x0, symName: '___43-[iZettleSDK subscribeToAppLifeCycleEvents]_block_invoke_2', symObjAddr: 0xBA8, symBinAddr: 0x751C, symSize: 0xC }
-  - { offsetInCU: 0xBAD, offset: 0xDAF0B, size: 0x8, addend: 0x0, symName: '___43-[iZettleSDK subscribeToAppLifeCycleEvents]_block_invoke_3', symObjAddr: 0xBB4, symBinAddr: 0x7528, symSize: 0xC }
-  - { offsetInCU: 0xBFC, offset: 0xDAF5A, size: 0x8, addend: 0x0, symName: '___43-[iZettleSDK subscribeToAppLifeCycleEvents]_block_invoke_4', symObjAddr: 0xBC0, symBinAddr: 0x7534, symSize: 0xC }
-  - { offsetInCU: 0xC4B, offset: 0xDAFA9, size: 0x8, addend: 0x0, symName: '___43-[iZettleSDK subscribeToAppLifeCycleEvents]_block_invoke_5', symObjAddr: 0xBCC, symBinAddr: 0x7540, symSize: 0xC }
-  - { offsetInCU: 0xC9A, offset: 0xDAFF8, size: 0x8, addend: 0x0, symName: '-[iZettleSDK didReceiveAppLifeCycleEvent:]', symObjAddr: 0xBD8, symBinAddr: 0x754C, symSize: 0x50 }
-  - { offsetInCU: 0xD39, offset: 0xDB097, size: 0x8, addend: 0x0, symName: '-[iZettleSDK _presentOperationFromViewController:withFunction:authorizationProvider:completion:]', symObjAddr: 0xC28, symBinAddr: 0x759C, symSize: 0xBC }
-  - { offsetInCU: 0xDB5, offset: 0xDB113, size: 0x8, addend: 0x0, symName: '___96-[iZettleSDK _presentOperationFromViewController:withFunction:authorizationProvider:completion:]_block_invoke', symObjAddr: 0xCE4, symBinAddr: 0x7658, symSize: 0x90 }
-  - { offsetInCU: 0xE50, offset: 0xDB1AE, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0xD74, symBinAddr: 0x76E8, symSize: 0x10 }
-  - { offsetInCU: 0xE79, offset: 0xDB1D7, size: 0x8, addend: 0x0, symName: '-[iZettleSDK _presentGeneralOperationFromViewController:withFunction:shouldFailOnAbortTaskCompletion:authorizationProvider:completion:]', symObjAddr: 0xD84, symBinAddr: 0x76F8, symSize: 0x3CC }
-  - { offsetInCU: 0xF5C, offset: 0xDB2BA, size: 0x8, addend: 0x0, symName: '___135-[iZettleSDK _presentGeneralOperationFromViewController:withFunction:shouldFailOnAbortTaskCompletion:authorizationProvider:completion:]_block_invoke', symObjAddr: 0x1150, symBinAddr: 0x7AC4, symSize: 0xA0 }
-  - { offsetInCU: 0xFDB, offset: 0xDB339, size: 0x8, addend: 0x0, symName: '___135-[iZettleSDK _presentGeneralOperationFromViewController:withFunction:shouldFailOnAbortTaskCompletion:authorizationProvider:completion:]_block_invoke.36', symObjAddr: 0x11F0, symBinAddr: 0x7B64, symSize: 0xC }
-  - { offsetInCU: 0x101D, offset: 0xDB37B, size: 0x8, addend: 0x0, symName: '___135-[iZettleSDK _presentGeneralOperationFromViewController:withFunction:shouldFailOnAbortTaskCompletion:authorizationProvider:completion:]_block_invoke.37', symObjAddr: 0x11FC, symBinAddr: 0x7B70, symSize: 0x3C }
-  - { offsetInCU: 0x1046, offset: 0xDB3A4, size: 0x8, addend: 0x0, symName: '-[iZettleSDK _validateConditions:]', symObjAddr: 0x1238, symBinAddr: 0x7BAC, symSize: 0xE4 }
-  - { offsetInCU: 0x108B, offset: 0xDB3E9, size: 0x8, addend: 0x0, symName: '-[iZettleSDK updateProgress:]', symObjAddr: 0x131C, symBinAddr: 0x7C90, symSize: 0x4 }
-  - { offsetInCU: 0x10C8, offset: 0xDB426, size: 0x8, addend: 0x0, symName: '-[iZettleSDK abortTask]', symObjAddr: 0x1320, symBinAddr: 0x7C94, symSize: 0x8 }
-  - { offsetInCU: 0x10FF, offset: 0xDB45D, size: 0x8, addend: 0x0, symName: '-[iZettleSDK setAbortTask:]', symObjAddr: 0x1328, symBinAddr: 0x7C9C, symSize: 0xC }
-  - { offsetInCU: 0x1140, offset: 0xDB49E, size: 0x8, addend: 0x0, symName: '-[iZettleSDK account]', symObjAddr: 0x1334, symBinAddr: 0x7CA8, symSize: 0x8 }
-  - { offsetInCU: 0x1177, offset: 0xDB4D5, size: 0x8, addend: 0x0, symName: '-[iZettleSDK setAccount:]', symObjAddr: 0x133C, symBinAddr: 0x7CB0, symSize: 0xC }
-  - { offsetInCU: 0x11B8, offset: 0xDB516, size: 0x8, addend: 0x0, symName: '-[iZettleSDK authorizationProvider]', symObjAddr: 0x1348, symBinAddr: 0x7CBC, symSize: 0x8 }
-  - { offsetInCU: 0x11EF, offset: 0xDB54D, size: 0x8, addend: 0x0, symName: '-[iZettleSDK appEventsManager]', symObjAddr: 0x1350, symBinAddr: 0x7CC4, symSize: 0x8 }
-  - { offsetInCU: 0x1226, offset: 0xDB584, size: 0x8, addend: 0x0, symName: '-[iZettleSDK provisioningProgressBlock]', symObjAddr: 0x1358, symBinAddr: 0x7CCC, symSize: 0x8 }
-  - { offsetInCU: 0x125D, offset: 0xDB5BB, size: 0x8, addend: 0x0, symName: '-[iZettleSDK setProvisioningProgressBlock:]', symObjAddr: 0x1360, symBinAddr: 0x7CD4, symSize: 0x8 }
-  - { offsetInCU: 0x129C, offset: 0xDB5FA, size: 0x8, addend: 0x0, symName: '-[iZettleSDK .cxx_destruct]', symObjAddr: 0x1368, symBinAddr: 0x7CDC, symSize: 0x78 }
-  - { offsetInCU: 0x12CF, offset: 0xDB62D, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(SharedOperations) logout]', symObjAddr: 0x13E0, symBinAddr: 0x7D54, symSize: 0x64 }
-  - { offsetInCU: 0x1314, offset: 0xDB672, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(SharedOperations) abortOperation]', symObjAddr: 0x1444, symBinAddr: 0x7DB8, symSize: 0x6C }
-  - { offsetInCU: 0x1348, offset: 0xDB6A6, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(SharedOperations) validateAmount:error:]', symObjAddr: 0x14B0, symBinAddr: 0x7E24, symSize: 0x314 }
-  - { offsetInCU: 0x13CF, offset: 0xDB72D, size: 0x8, addend: 0x0, symName: '-[IZSDKSettingsConfiguration initWithPayPalReaderTippingSettingsEnabled:]', symObjAddr: 0x17C4, symBinAddr: 0x8138, symSize: 0x48 }
-  - { offsetInCU: 0x1418, offset: 0xDB776, size: 0x8, addend: 0x0, symName: '-[IZSDKSettingsConfiguration paypalReaderTippingSettingsEnabled]', symObjAddr: 0x180C, symBinAddr: 0x8180, symSize: 0x8 }
-  - { offsetInCU: 0x144F, offset: 0xDB7AD, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(Operations) presentSettingsFromViewController:]', symObjAddr: 0x1814, symBinAddr: 0x8188, symSize: 0x68 }
-  - { offsetInCU: 0x14A5, offset: 0xDB803, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(Operations) presentSettingsFromViewController:configuration:]', symObjAddr: 0x187C, symBinAddr: 0x81F0, symSize: 0x148 }
-  - { offsetInCU: 0x150C, offset: 0xDB86A, size: 0x8, addend: 0x0, symName: '___74-[iZettleSDK(Operations) presentSettingsFromViewController:configuration:]_block_invoke', symObjAddr: 0x19C4, symBinAddr: 0x8338, symSize: 0x16C }
-  - { offsetInCU: 0x15D8, offset: 0xDB936, size: 0x8, addend: 0x0, symName: '___74-[iZettleSDK(Operations) presentSettingsFromViewController:configuration:]_block_invoke_2', symObjAddr: 0x1B30, symBinAddr: 0x84A4, symSize: 0x54 }
-  - { offsetInCU: 0x1616, offset: 0xDB974, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x1B84, symBinAddr: 0x84F8, symSize: 0x30 }
-  - { offsetInCU: 0x163F, offset: 0xDB99D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x1BB4, symBinAddr: 0x8528, symSize: 0x30 }
-  - { offsetInCU: 0x165E, offset: 0xDB9BC, size: 0x8, addend: 0x0, symName: '___74-[iZettleSDK(Operations) presentSettingsFromViewController:configuration:]_block_invoke.193', symObjAddr: 0x1BE4, symBinAddr: 0x8558, symSize: 0x4 }
-  - { offsetInCU: 0x16A1, offset: 0xDB9FF, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(Operations) enabledAPMTypes]', symObjAddr: 0x1BE8, symBinAddr: 0x855C, symSize: 0x17C }
-  - { offsetInCU: 0x170A, offset: 0xDBA68, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(Operations) applicationDidOpenWithURL:]', symObjAddr: 0x1D64, symBinAddr: 0x86D8, symSize: 0x154 }
-  - { offsetInCU: 0x174F, offset: 0xDBAAD, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(Operations) startWithAuthorizationProvider:enableDeveloperMode:]', symObjAddr: 0x1EB8, symBinAddr: 0x882C, symSize: 0x64 }
-  - { offsetInCU: 0x17A5, offset: 0xDBB03, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) setEnabledAlternativePaymentMethods:]', symObjAddr: 0x1F1C, symBinAddr: 0x8890, symSize: 0x154 }
-  - { offsetInCU: 0x1835, offset: 0xDBB93, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) _apmRetrieveOperationWithReference:requiredScopes:provider:shouldFailOnAbortTaskCompletion:presentFromViewController:completion:]', symObjAddr: 0x2070, symBinAddr: 0x89E4, symSize: 0x1B8 }
-  - { offsetInCU: 0x1901, offset: 0xDBC5F, size: 0x8, addend: 0x0, symName: '___147-[iZettleSDK(QRC) _apmRetrieveOperationWithReference:requiredScopes:provider:shouldFailOnAbortTaskCompletion:presentFromViewController:completion:]_block_invoke', symObjAddr: 0x2228, symBinAddr: 0x8B9C, symSize: 0xAC }
-  - { offsetInCU: 0x19A7, offset: 0xDBD05, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x22D4, symBinAddr: 0x8C48, symSize: 0x28 }
-  - { offsetInCU: 0x19D0, offset: 0xDBD2E, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) _apmHeadlessRetrieveOperationWithReference:provider:completion:]', symObjAddr: 0x2324, symBinAddr: 0x8C70, symSize: 0x134 }
-  - { offsetInCU: 0x1A69, offset: 0xDBDC7, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) _apmRefundOperationWithAmount:ofPaymentWithReference:refundReference:provider:shouldFailOnAbortTaskCompletion:presentFromViewController:completion:]', symObjAddr: 0x2458, symBinAddr: 0x8DA4, symSize: 0x21C }
-  - { offsetInCU: 0x1B46, offset: 0xDBEA4, size: 0x8, addend: 0x0, symName: '___166-[iZettleSDK(QRC) _apmRefundOperationWithAmount:ofPaymentWithReference:refundReference:provider:shouldFailOnAbortTaskCompletion:presentFromViewController:completion:]_block_invoke', symObjAddr: 0x2674, symBinAddr: 0x8FC0, symSize: 0x17C }
-  - { offsetInCU: 0x1C34, offset: 0xDBF92, size: 0x8, addend: 0x0, symName: '___166-[iZettleSDK(QRC) _apmRefundOperationWithAmount:ofPaymentWithReference:refundReference:provider:shouldFailOnAbortTaskCompletion:presentFromViewController:completion:]_block_invoke_2', symObjAddr: 0x27F0, symBinAddr: 0x913C, symSize: 0x118 }
-  - { offsetInCU: 0x1CCD, offset: 0xDC02B, size: 0x8, addend: 0x0, symName: '___166-[iZettleSDK(QRC) _apmRefundOperationWithAmount:ofPaymentWithReference:refundReference:provider:shouldFailOnAbortTaskCompletion:presentFromViewController:completion:]_block_invoke_3', symObjAddr: 0x2908, symBinAddr: 0x9254, symSize: 0x14 }
-  - { offsetInCU: 0x1D2B, offset: 0xDC089, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72s, symObjAddr: 0x291C, symBinAddr: 0x9268, symSize: 0x48 }
-  - { offsetInCU: 0x1D54, offset: 0xDC0B2, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72s, symObjAddr: 0x2964, symBinAddr: 0x92B0, symSize: 0x48 }
-  - { offsetInCU: 0x1D73, offset: 0xDC0D1, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) chargePayPalQRCWithAmount:reference:appearance:presentFromViewController:completion:]', symObjAddr: 0x29AC, symBinAddr: 0x92F8, symSize: 0xC8 }
-  - { offsetInCU: 0x1DFC, offset: 0xDC15A, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) chargePayPalQRCWithAmount:reference:presentedFromViewController:completion:]', symObjAddr: 0x2A74, symBinAddr: 0x93C0, symSize: 0x2B0 }
-  - { offsetInCU: 0x1EB7, offset: 0xDC215, size: 0x8, addend: 0x0, symName: '___94-[iZettleSDK(QRC) chargePayPalQRCWithAmount:reference:presentedFromViewController:completion:]_block_invoke', symObjAddr: 0x2D24, symBinAddr: 0x9670, symSize: 0x268 }
-  - { offsetInCU: 0x1F94, offset: 0xDC2F2, size: 0x8, addend: 0x0, symName: '___94-[iZettleSDK(QRC) chargePayPalQRCWithAmount:reference:presentedFromViewController:completion:]_block_invoke_2', symObjAddr: 0x2F8C, symBinAddr: 0x98D8, symSize: 0xC }
-  - { offsetInCU: 0x1FE3, offset: 0xDC341, size: 0x8, addend: 0x0, symName: '___94-[iZettleSDK(QRC) chargePayPalQRCWithAmount:reference:presentedFromViewController:completion:]_block_invoke.228', symObjAddr: 0x2F98, symBinAddr: 0x98E4, symSize: 0xC }
-  - { offsetInCU: 0x2032, offset: 0xDC390, size: 0x8, addend: 0x0, symName: '___94-[iZettleSDK(QRC) chargePayPalQRCWithAmount:reference:presentedFromViewController:completion:]_block_invoke.230', symObjAddr: 0x2FA4, symBinAddr: 0x98F0, symSize: 0x98 }
-  - { offsetInCU: 0x20DE, offset: 0xDC43C, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) validatePaypalQRCAmount:]', symObjAddr: 0x303C, symBinAddr: 0x9988, symSize: 0x384 }
-  - { offsetInCU: 0x2189, offset: 0xDC4E7, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) chargeVenmoQRCWithAmount:reference:presentedFromViewController:completion:]', symObjAddr: 0x33C0, symBinAddr: 0x9D0C, symSize: 0x2B0 }
-  - { offsetInCU: 0x2244, offset: 0xDC5A2, size: 0x8, addend: 0x0, symName: '___93-[iZettleSDK(QRC) chargeVenmoQRCWithAmount:reference:presentedFromViewController:completion:]_block_invoke', symObjAddr: 0x3670, symBinAddr: 0x9FBC, symSize: 0x268 }
-  - { offsetInCU: 0x2321, offset: 0xDC67F, size: 0x8, addend: 0x0, symName: '___93-[iZettleSDK(QRC) chargeVenmoQRCWithAmount:reference:presentedFromViewController:completion:]_block_invoke_2', symObjAddr: 0x38D8, symBinAddr: 0xA224, symSize: 0xC }
-  - { offsetInCU: 0x2370, offset: 0xDC6CE, size: 0x8, addend: 0x0, symName: '___93-[iZettleSDK(QRC) chargeVenmoQRCWithAmount:reference:presentedFromViewController:completion:]_block_invoke_3', symObjAddr: 0x38E4, symBinAddr: 0xA230, symSize: 0xC }
-  - { offsetInCU: 0x23BF, offset: 0xDC71D, size: 0x8, addend: 0x0, symName: '___93-[iZettleSDK(QRC) chargeVenmoQRCWithAmount:reference:presentedFromViewController:completion:]_block_invoke_4', symObjAddr: 0x38F0, symBinAddr: 0xA23C, symSize: 0x98 }
-  - { offsetInCU: 0x246B, offset: 0xDC7C9, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) validateVenmoQRCAmount:]', symObjAddr: 0x3988, symBinAddr: 0xA2D4, symSize: 0x384 }
-  - { offsetInCU: 0x2516, offset: 0xDC874, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) retrievePayPalQRCPaymentInfoForReference:presentFromViewController:completion:]', symObjAddr: 0x3D0C, symBinAddr: 0xA658, symSize: 0x120 }
-  - { offsetInCU: 0x257D, offset: 0xDC8DB, size: 0x8, addend: 0x0, symName: '___97-[iZettleSDK(QRC) retrievePayPalQRCPaymentInfoForReference:presentFromViewController:completion:]_block_invoke', symObjAddr: 0x3E2C, symBinAddr: 0xA778, symSize: 0x98 }
-  - { offsetInCU: 0x2629, offset: 0xDC987, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) retrievePayPalQRCPaymentInfoForReference:completion:]', symObjAddr: 0x3EC4, symBinAddr: 0xA810, symSize: 0xD4 }
-  - { offsetInCU: 0x267F, offset: 0xDC9DD, size: 0x8, addend: 0x0, symName: '___71-[iZettleSDK(QRC) retrievePayPalQRCPaymentInfoForReference:completion:]_block_invoke', symObjAddr: 0x3F98, symBinAddr: 0xA8E4, symSize: 0x98 }
-  - { offsetInCU: 0x272B, offset: 0xDCA89, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) refundPayPalQRCAmount:ofPaymentWithReference:refundReference:presentFromViewController:completion:]', symObjAddr: 0x4030, symBinAddr: 0xA97C, symSize: 0x23C }
-  - { offsetInCU: 0x27E6, offset: 0xDCB44, size: 0x8, addend: 0x0, symName: '___117-[iZettleSDK(QRC) refundPayPalQRCAmount:ofPaymentWithReference:refundReference:presentFromViewController:completion:]_block_invoke', symObjAddr: 0x426C, symBinAddr: 0xABB8, symSize: 0x98 }
-  - { offsetInCU: 0x2892, offset: 0xDCBF0, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) validatePayPalQRCReference:]', symObjAddr: 0x4304, symBinAddr: 0xAC50, symSize: 0x70 }
-  - { offsetInCU: 0x28D7, offset: 0xDCC35, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(CardReader) chargeAmount:enableTipping:reference:presentFromViewController:completion:]', symObjAddr: 0x4374, symBinAddr: 0xACC0, symSize: 0x8 }
-  - { offsetInCU: 0x2967, offset: 0xDCCC5, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(CardReader) chargeAmount:tippingStyle:reference:presentFromViewController:completion:]', symObjAddr: 0x437C, symBinAddr: 0xACC8, symSize: 0xD8 }
-  - { offsetInCU: 0x2A01, offset: 0xDCD5F, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(CardReader) chargeAmount:tippingConfiguration:reference:presentFromViewController:completion:]', symObjAddr: 0x4454, symBinAddr: 0xADA0, symSize: 0x308 }
-  - { offsetInCU: 0x2B06, offset: 0xDCE64, size: 0x8, addend: 0x0, symName: '___107-[iZettleSDK(CardReader) chargeAmount:tippingConfiguration:reference:presentFromViewController:completion:]_block_invoke', symObjAddr: 0x475C, symBinAddr: 0xB0A8, symSize: 0x90 }
-  - { offsetInCU: 0x2BA1, offset: 0xDCEFF, size: 0x8, addend: 0x0, symName: '___107-[iZettleSDK(CardReader) chargeAmount:tippingConfiguration:reference:presentFromViewController:completion:]_block_invoke_2', symObjAddr: 0x47EC, symBinAddr: 0xB138, symSize: 0x1E4 }
-  - { offsetInCU: 0x2C84, offset: 0xDCFE2, size: 0x8, addend: 0x0, symName: '___107-[iZettleSDK(CardReader) chargeAmount:tippingConfiguration:reference:presentFromViewController:completion:]_block_invoke_3', symObjAddr: 0x49D0, symBinAddr: 0xB31C, symSize: 0x164 }
-  - { offsetInCU: 0x2D8B, offset: 0xDD0E9, size: 0x8, addend: 0x0, symName: '___107-[iZettleSDK(CardReader) chargeAmount:tippingConfiguration:reference:presentFromViewController:completion:]_block_invoke_4', symObjAddr: 0x4B34, symBinAddr: 0xB480, symSize: 0x8 }
-  - { offsetInCU: 0x2DC9, offset: 0xDD127, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s, symObjAddr: 0x4B3C, symBinAddr: 0xB488, symSize: 0x38 }
-  - { offsetInCU: 0x2DF2, offset: 0xDD150, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x4B74, symBinAddr: 0xB4C0, symSize: 0x38 }
-  - { offsetInCU: 0x2E11, offset: 0xDD16F, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(CardReader) refundAmount:ofPaymentWithReference:refundReference:presentFromViewController:completion:]', symObjAddr: 0x4BAC, symBinAddr: 0xB4F8, symSize: 0x2A4 }
-  - { offsetInCU: 0x2ECC, offset: 0xDD22A, size: 0x8, addend: 0x0, symName: '___115-[iZettleSDK(CardReader) refundAmount:ofPaymentWithReference:refundReference:presentFromViewController:completion:]_block_invoke', symObjAddr: 0x4E50, symBinAddr: 0xB79C, symSize: 0x90 }
-  - { offsetInCU: 0x2F67, offset: 0xDD2C5, size: 0x8, addend: 0x0, symName: '___115-[iZettleSDK(CardReader) refundAmount:ofPaymentWithReference:refundReference:presentFromViewController:completion:]_block_invoke_2', symObjAddr: 0x4EE0, symBinAddr: 0xB82C, symSize: 0x184 }
-  - { offsetInCU: 0x303C, offset: 0xDD39A, size: 0x8, addend: 0x0, symName: '___115-[iZettleSDK(CardReader) refundAmount:ofPaymentWithReference:refundReference:presentFromViewController:completion:]_block_invoke_3', symObjAddr: 0x5064, symBinAddr: 0xB9B0, symSize: 0x80 }
-  - { offsetInCU: 0x308F, offset: 0xDD3ED, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(CardReader) retrievePaymentInfoForReference:presentFromViewController:completion:]', symObjAddr: 0x50E4, symBinAddr: 0xBA30, symSize: 0x198 }
-  - { offsetInCU: 0x3139, offset: 0xDD497, size: 0x8, addend: 0x0, symName: '___95-[iZettleSDK(CardReader) retrievePaymentInfoForReference:presentFromViewController:completion:]_block_invoke', symObjAddr: 0x527C, symBinAddr: 0xBBC8, symSize: 0xF4 }
-  - { offsetInCU: 0x31CE, offset: 0xDD52C, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(CardReader) retrievePaymentInfoForReference:completion:]', symObjAddr: 0x5370, symBinAddr: 0xBCBC, symSize: 0x27C }
-  - { offsetInCU: 0x3287, offset: 0xDD5E5, size: 0x8, addend: 0x0, symName: '___69-[iZettleSDK(CardReader) retrievePaymentInfoForReference:completion:]_block_invoke', symObjAddr: 0x55EC, symBinAddr: 0xBF38, symSize: 0x14 }
-  - { offsetInCU: 0x32F1, offset: 0xDD64F, size: 0x8, addend: 0x0, symName: '___69-[iZettleSDK(CardReader) retrievePaymentInfoForReference:completion:]_block_invoke.266', symObjAddr: 0x5600, symBinAddr: 0xBF4C, symSize: 0x50 }
-  - { offsetInCU: 0x334F, offset: 0xDD6AD, size: 0x8, addend: 0x0, symName: '___69-[iZettleSDK(CardReader) retrievePaymentInfoForReference:completion:]_block_invoke_2', symObjAddr: 0x5650, symBinAddr: 0xBF9C, symSize: 0x7C }
-  - { offsetInCU: 0x33C3, offset: 0xDD721, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(ManualCardEntry) chargeManualCardEntryWithAmount:reference:presentFromViewController:completion:]', symObjAddr: 0x56CC, symBinAddr: 0xC018, symSize: 0x3B0 }
-  - { offsetInCU: 0x34A5, offset: 0xDD803, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x5A7C, symBinAddr: 0xC3C8, symSize: 0x10 }
-  - { offsetInCU: 0x34CA, offset: 0xDD828, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x5A8C, symBinAddr: 0xC3D8, symSize: 0x8 }
-  - { offsetInCU: 0x34E9, offset: 0xDD847, size: 0x8, addend: 0x0, symName: '___110-[iZettleSDK(ManualCardEntry) chargeManualCardEntryWithAmount:reference:presentFromViewController:completion:]_block_invoke', symObjAddr: 0x5A94, symBinAddr: 0xC3E0, symSize: 0xF4 }
-  - { offsetInCU: 0x3538, offset: 0xDD896, size: 0x8, addend: 0x0, symName: '___110-[iZettleSDK(ManualCardEntry) chargeManualCardEntryWithAmount:reference:presentFromViewController:completion:]_block_invoke.286', symObjAddr: 0x5B88, symBinAddr: 0xC4D4, symSize: 0x128 }
-  - { offsetInCU: 0x3615, offset: 0xDD973, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64r, symObjAddr: 0x5CB0, symBinAddr: 0xC5FC, symSize: 0x4C }
-  - { offsetInCU: 0x363E, offset: 0xDD99C, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64r, symObjAddr: 0x5CFC, symBinAddr: 0xC648, symSize: 0x44 }
-  - { offsetInCU: 0x365D, offset: 0xDD9BB, size: 0x8, addend: 0x0, symName: '___110-[iZettleSDK(ManualCardEntry) chargeManualCardEntryWithAmount:reference:presentFromViewController:completion:]_block_invoke.288', symObjAddr: 0x5D40, symBinAddr: 0xC68C, symSize: 0xC0 }
-  - { offsetInCU: 0x371A, offset: 0xDDA78, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40r, symObjAddr: 0x5E00, symBinAddr: 0xC74C, symSize: 0x3C }
-  - { offsetInCU: 0x3743, offset: 0xDDAA1, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0x5E3C, symBinAddr: 0xC788, symSize: 0x2C }
-  - { offsetInCU: 0x3762, offset: 0xDDAC0, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(ManualCardEntry) retrieveManualCardEntryInfoForReference:presentFromViewController:completion:]', symObjAddr: 0x5E68, symBinAddr: 0xC7B4, symSize: 0x124 }
-  - { offsetInCU: 0x37C9, offset: 0xDDB27, size: 0x8, addend: 0x0, symName: '___108-[iZettleSDK(ManualCardEntry) retrieveManualCardEntryInfoForReference:presentFromViewController:completion:]_block_invoke', symObjAddr: 0x5F8C, symBinAddr: 0xC8D8, symSize: 0x98 }
-  - { offsetInCU: 0x3875, offset: 0xDDBD3, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(ManualCardEntry) retrieveManualCardEntryInfoForReference:completion:]', symObjAddr: 0x6024, symBinAddr: 0xC970, symSize: 0xD8 }
-  - { offsetInCU: 0x38CB, offset: 0xDDC29, size: 0x8, addend: 0x0, symName: '___82-[iZettleSDK(ManualCardEntry) retrieveManualCardEntryInfoForReference:completion:]_block_invoke', symObjAddr: 0x60FC, symBinAddr: 0xCA48, symSize: 0x98 }
-  - { offsetInCU: 0x3977, offset: 0xDDCD5, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(ManualCardEntry) refundManualCardEntryAmount:ofPaymentWithReference:refundReference:presentFromViewController:completion:]', symObjAddr: 0x6194, symBinAddr: 0xCAE0, symSize: 0x298 }
-  - { offsetInCU: 0x3A32, offset: 0xDDD90, size: 0x8, addend: 0x0, symName: '___135-[iZettleSDK(ManualCardEntry) refundManualCardEntryAmount:ofPaymentWithReference:refundReference:presentFromViewController:completion:]_block_invoke', symObjAddr: 0x642C, symBinAddr: 0xCD78, symSize: 0x98 }
-  - { offsetInCU: 0x3ADE, offset: 0xDDE3C, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(ManualCardEntry) validateManualCardEntryAmount:]', symObjAddr: 0x64C4, symBinAddr: 0xCE10, symSize: 0x384 }
-  - { offsetInCU: 0x3B89, offset: 0xDDEE7, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(ManualCardEntry) validateManualCardEntryReference:]', symObjAddr: 0x6848, symBinAddr: 0xD194, symSize: 0x70 }
-  - { offsetInCU: 0x3BCE, offset: 0xDDF2C, size: 0x8, addend: 0x0, symName: '-[IZSDKPredefinedTippingValues initWithOption1:option2:option3:]', symObjAddr: 0x68B8, symBinAddr: 0xD204, symSize: 0x5C }
-  - { offsetInCU: 0x3C39, offset: 0xDDF97, size: 0x8, addend: 0x0, symName: '-[IZSDKPredefinedTippingValues option1]', symObjAddr: 0x6914, symBinAddr: 0xD260, symSize: 0x8 }
-  - { offsetInCU: 0x3C70, offset: 0xDDFCE, size: 0x8, addend: 0x0, symName: '-[IZSDKPredefinedTippingValues option2]', symObjAddr: 0x691C, symBinAddr: 0xD268, symSize: 0x8 }
-  - { offsetInCU: 0x3CA7, offset: 0xDE005, size: 0x8, addend: 0x0, symName: '-[IZSDKPredefinedTippingValues option3]', symObjAddr: 0x6924, symBinAddr: 0xD270, symSize: 0x8 }
-  - { offsetInCU: 0x3CDE, offset: 0xDE03C, size: 0x8, addend: 0x0, symName: '-[IZSDKTippingConfiguration initWithZettleReaderTippingStyle:]', symObjAddr: 0x692C, symBinAddr: 0xD278, symSize: 0xC }
-  - { offsetInCU: 0x3D23, offset: 0xDE081, size: 0x8, addend: 0x0, symName: '-[IZSDKTippingConfiguration initWithPayPalReaderTippingStyle:]', symObjAddr: 0x6938, symBinAddr: 0xD284, symSize: 0x10 }
-  - { offsetInCU: 0x3D6C, offset: 0xDE0CA, size: 0x8, addend: 0x0, symName: '-[IZSDKTippingConfiguration initWithPayPalReaderTippingStyle:paypalReaderPredefinedTippingValues:]', symObjAddr: 0x6948, symBinAddr: 0xD294, symSize: 0x10 }
-  - { offsetInCU: 0x3DC6, offset: 0xDE124, size: 0x8, addend: 0x0, symName: '-[IZSDKTippingConfiguration initWithZettleReaderTippingStyle:paypalReaderTippingStyle:]', symObjAddr: 0x6958, symBinAddr: 0xD2A4, symSize: 0x8 }
-  - { offsetInCU: 0x3E1A, offset: 0xDE178, size: 0x8, addend: 0x0, symName: '-[IZSDKTippingConfiguration initWithZettleReaderTippingStyle:paypalReaderTippingStyle:paypalReaderPredefinedTippingValues:]', symObjAddr: 0x6960, symBinAddr: 0xD2AC, symSize: 0x4 }
-  - { offsetInCU: 0x3E7D, offset: 0xDE1DB, size: 0x8, addend: 0x0, symName: '-[IZSDKTippingConfiguration initWithZettleReaderTippingStyle:paypalReaderTippingStyle:nullablePayPalReaderPredefinedTips:]', symObjAddr: 0x6964, symBinAddr: 0xD2B0, symSize: 0x8C }
-  - { offsetInCU: 0x3EE8, offset: 0xDE246, size: 0x8, addend: 0x0, symName: '+[IZSDKTippingConfiguration sdkConfiguredTippingConfiguration]', symObjAddr: 0x69F0, symBinAddr: 0xD33C, symSize: 0x20 }
-  - { offsetInCU: 0x3F20, offset: 0xDE27E, size: 0x8, addend: 0x0, symName: '+[IZSDKTippingConfiguration disabledTippingConfiguration]', symObjAddr: 0x6A10, symBinAddr: 0xD35C, symSize: 0x20 }
-  - { offsetInCU: 0x3F58, offset: 0xDE2B6, size: 0x8, addend: 0x0, symName: '-[IZSDKTippingConfiguration zettleReaderTippingStyle]', symObjAddr: 0x6A30, symBinAddr: 0xD37C, symSize: 0x8 }
-  - { offsetInCU: 0x3F8F, offset: 0xDE2ED, size: 0x8, addend: 0x0, symName: '-[IZSDKTippingConfiguration paypalReaderTippingStyle]', symObjAddr: 0x6A38, symBinAddr: 0xD384, symSize: 0x8 }
-  - { offsetInCU: 0x3FC6, offset: 0xDE324, size: 0x8, addend: 0x0, symName: '-[IZSDKTippingConfiguration paypalReaderPredefinedTippingValues]', symObjAddr: 0x6A40, symBinAddr: 0xD38C, symSize: 0x8 }
-  - { offsetInCU: 0x3FFD, offset: 0xDE35B, size: 0x8, addend: 0x0, symName: '-[IZSDKTippingConfiguration .cxx_destruct]', symObjAddr: 0x6A48, symBinAddr: 0xD394, symSize: 0xC }
-  - { offsetInCU: 0x4031, offset: 0xDE38F, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(DarkMode) startWithAuthorizationProvider:enableDeveloperMode:enableDarkMode:]', symObjAddr: 0x6A54, symBinAddr: 0xD3A0, symSize: 0x8 }
-  - { offsetInCU: 0x27, offset: 0xDFF5F, size: 0x8, addend: 0x0, symName: '+[NSError(QRCDevMode) ztl_qrcPaymentErrorForDevModeCase:]', symObjAddr: 0x0, symBinAddr: 0xD3A8, symSize: 0x94 }
-  - { offsetInCU: 0x43, offset: 0xDFF7B, size: 0x8, addend: 0x0, symName: '+[NSError(QRCDevMode) ztl_qrcPaymentErrorForDevModeCase:]', symObjAddr: 0x0, symBinAddr: 0xD3A8, symSize: 0x94 }
-  - { offsetInCU: 0x86, offset: 0xDFFBE, size: 0x8, addend: 0x0, symName: '+[NSError(QRCDevMode) ztl_qrcRefundErrorForDevModeCase:]', symObjAddr: 0x94, symBinAddr: 0xD43C, symSize: 0x98 }
-  - { offsetInCU: 0x27, offset: 0xE0058, size: 0x8, addend: 0x0, symName: '+[IZSDKManualCardEntryPaymentInfo(DevMode) paymentInfoForDevModeCase:amount:]', symObjAddr: 0x0, symBinAddr: 0xD4D4, symSize: 0x154 }
-  - { offsetInCU: 0x51, offset: 0xE0082, size: 0x8, addend: 0x0, symName: '+[IZSDKManualCardEntryPaymentInfo(DevMode) paymentInfoForDevModeCase:amount:]', symObjAddr: 0x0, symBinAddr: 0xD4D4, symSize: 0x154 }
-  - { offsetInCU: 0xD3, offset: 0xE0104, size: 0x8, addend: 0x0, symName: '+[IZSDKManualCardEntryPaymentInfo(DevMode) refundInfoForDevModeCase:amount:]', symObjAddr: 0x154, symBinAddr: 0xD628, symSize: 0x1A0 }
-  - { offsetInCU: 0x27, offset: 0xE0233, size: 0x8, addend: 0x0, symName: '+[NSError(ManualCardEntryDevMode) ztl_mcePaymentErrorForDevModeCase:]', symObjAddr: 0x0, symBinAddr: 0xD7C8, symSize: 0x94 }
-  - { offsetInCU: 0x43, offset: 0xE024F, size: 0x8, addend: 0x0, symName: '+[NSError(ManualCardEntryDevMode) ztl_mcePaymentErrorForDevModeCase:]', symObjAddr: 0x0, symBinAddr: 0xD7C8, symSize: 0x94 }
-  - { offsetInCU: 0x86, offset: 0xE0292, size: 0x8, addend: 0x0, symName: '+[NSError(ManualCardEntryDevMode) ztl_mceRefundErrorForDevModeCase:]', symObjAddr: 0x94, symBinAddr: 0xD85C, symSize: 0xAC }
-  - { offsetInCU: 0x27, offset: 0xE032C, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCInvalidAmountError]', symObjAddr: 0x0, symBinAddr: 0xD908, symSize: 0x8 }
-  - { offsetInCU: 0x41, offset: 0xE0346, size: 0x8, addend: 0x0, symName: _IZSDKPayPalQRCErrorDomain, symObjAddr: 0xD80, symBinAddr: 0x24CC0, symSize: 0x0 }
-  - { offsetInCU: 0x120, offset: 0xE0425, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCInvalidAmountError]', symObjAddr: 0x0, symBinAddr: 0xD908, symSize: 0x8 }
-  - { offsetInCU: 0x155, offset: 0xE045A, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCInvalidTransactionConfigurationError]', symObjAddr: 0x8, symBinAddr: 0xD910, symSize: 0x8 }
-  - { offsetInCU: 0x18A, offset: 0xE048F, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCCancelledByBuyerError]', symObjAddr: 0x10, symBinAddr: 0xD918, symSize: 0x8 }
-  - { offsetInCU: 0x1BF, offset: 0xE04C4, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCPaymentCancelledByMerchantError]', symObjAddr: 0x18, symBinAddr: 0xD920, symSize: 0x8 }
-  - { offsetInCU: 0x1F4, offset: 0xE04F9, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCTechnicalError]', symObjAddr: 0x20, symBinAddr: 0xD928, symSize: 0x8 }
-  - { offsetInCU: 0x229, offset: 0xE052E, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCPaymentNotFoundError]', symObjAddr: 0x28, symBinAddr: 0xD930, symSize: 0x8 }
-  - { offsetInCU: 0x25E, offset: 0xE0563, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCInsufficientFundsError]', symObjAddr: 0x30, symBinAddr: 0xD938, symSize: 0x8 }
-  - { offsetInCU: 0x293, offset: 0xE0598, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCRefundFailedError]', symObjAddr: 0x38, symBinAddr: 0xD940, symSize: 0x8 }
-  - { offsetInCU: 0x2C8, offset: 0xE05CD, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCRefundCancelledError]', symObjAddr: 0x40, symBinAddr: 0xD948, symSize: 0x8 }
-  - { offsetInCU: 0x2FD, offset: 0xE0602, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCAmountTooLowErrorWithMinimumAmount:]', symObjAddr: 0x48, symBinAddr: 0xD950, symSize: 0x6C }
-  - { offsetInCU: 0x352, offset: 0xE0657, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCAmountTooHighErrorWithMaximumAmount:]', symObjAddr: 0xB4, symBinAddr: 0xD9BC, symSize: 0x6C }
-  - { offsetInCU: 0x3A7, offset: 0xE06AC, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCErrorFromAPMError:]', symObjAddr: 0x120, symBinAddr: 0xDA28, symSize: 0xA8 }
-  - { offsetInCU: 0x3FE, offset: 0xE0703, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCErrorFromAPMPaymentInfoError:]', symObjAddr: 0x1C8, symBinAddr: 0xDAD0, symSize: 0xA8 }
-  - { offsetInCU: 0x455, offset: 0xE075A, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCErrorFromAPMRefundError:]', symObjAddr: 0x270, symBinAddr: 0xDB78, symSize: 0xA8 }
-  - { offsetInCU: 0x4AC, offset: 0xE07B1, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCErrorWith:]', symObjAddr: 0x318, symBinAddr: 0xDC20, symSize: 0x74 }
-  - { offsetInCU: 0x4F3, offset: 0xE07F8, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_errorCodeForPaymentError:]', symObjAddr: 0x38C, symBinAddr: 0xDC94, symSize: 0x38 }
-  - { offsetInCU: 0x536, offset: 0xE083B, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_errorCodeForPaymentInfoError:]', symObjAddr: 0x3C4, symBinAddr: 0xDCCC, symSize: 0x38 }
-  - { offsetInCU: 0x579, offset: 0xE087E, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_errorCodeForRefundError:]', symObjAddr: 0x3FC, symBinAddr: 0xDD04, symSize: 0x9C }
-  - { offsetInCU: 0x5BC, offset: 0xE08C1, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_errorUserInfoFor:minAmountString:maxAmountString:]', symObjAddr: 0x498, symBinAddr: 0xDDA0, symSize: 0xA0 }
-  - { offsetInCU: 0x623, offset: 0xE0928, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_errorDescriptionFor:minAmountString:maxAmountString:]', symObjAddr: 0x538, symBinAddr: 0xDE40, symSize: 0x1C4 }
-  - { offsetInCU: 0x27, offset: 0xE09F2, size: 0x8, addend: 0x0, symName: '+[IZSDKManualCardEntryPaymentInfo withPaymentInfo:]', symObjAddr: 0x0, symBinAddr: 0xE004, symSize: 0xF8 }
-  - { offsetInCU: 0xAC, offset: 0xE0A77, size: 0x8, addend: 0x0, symName: '+[IZSDKManualCardEntryPaymentInfo withPaymentInfo:]', symObjAddr: 0x0, symBinAddr: 0xE004, symSize: 0xF8 }
-  - { offsetInCU: 0x11F, offset: 0xE0AEA, size: 0x8, addend: 0x0, symName: '-[IZSDKManualCardEntryPaymentInfo initWithReferenceNumber:amount:transactionId:]', symObjAddr: 0xF8, symBinAddr: 0xE0FC, symSize: 0xD0 }
-  - { offsetInCU: 0x186, offset: 0xE0B51, size: 0x8, addend: 0x0, symName: '-[IZSDKManualCardEntryPaymentInfo amount]', symObjAddr: 0x1C8, symBinAddr: 0xE1CC, symSize: 0x8 }
-  - { offsetInCU: 0x1BD, offset: 0xE0B88, size: 0x8, addend: 0x0, symName: '-[IZSDKManualCardEntryPaymentInfo referenceNumber]', symObjAddr: 0x1D0, symBinAddr: 0xE1D4, symSize: 0x8 }
-  - { offsetInCU: 0x1F4, offset: 0xE0BBF, size: 0x8, addend: 0x0, symName: '-[IZSDKManualCardEntryPaymentInfo transactionId]', symObjAddr: 0x1D8, symBinAddr: 0xE1DC, symSize: 0x8 }
-  - { offsetInCU: 0x22B, offset: 0xE0BF6, size: 0x8, addend: 0x0, symName: '-[IZSDKManualCardEntryPaymentInfo .cxx_destruct]', symObjAddr: 0x1E0, symBinAddr: 0xE1E4, symSize: 0x3C }
-  - { offsetInCU: 0x4F, offset: 0xE0CD1, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA35SDKAuthorizationProviderErrorDomainSo8NSStringCvp', symObjAddr: 0x27E0, symBinAddr: 0x297D0, symSize: 0x0 }
-  - { offsetInCU: 0x5D, offset: 0xE0CDF, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA35SDKAuthorizationProviderErrorDomain_WZ', symObjAddr: 0x0, symBinAddr: 0xE220, symSize: 0x70 }
-  - { offsetInCU: 0xC4, offset: 0xE0D46, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA35SDKAuthorizationProviderErrorDomainSo8NSStringCvg', symObjAddr: 0x70, symBinAddr: 0xE290, symSize: 0x40 }
-  - { offsetInCU: 0x106, offset: 0xE0D88, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO8rawValueACSgSi_tcfC', symObjAddr: 0xB0, symBinAddr: 0xE2D0, symSize: 0x58 }
-  - { offsetInCU: 0x12F, offset: 0xE0DB1, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO8rawValueSivg', symObjAddr: 0x108, symBinAddr: 0xE328, symSize: 0x14 }
-  - { offsetInCU: 0x173, offset: 0xE0DF5, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOSYAASY8rawValuexSg03RawG0Qz_tcfCTW', symObjAddr: 0x208, symBinAddr: 0xE428, symSize: 0x8 }
-  - { offsetInCU: 0x18F, offset: 0xE0E11, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOSYAASY8rawValue03RawG0QzvgTW', symObjAddr: 0x210, symBinAddr: 0xE430, symSize: 0x18 }
-  - { offsetInCU: 0x1A7, offset: 0xE0E29, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOSYAASY8rawValue03RawG0QzvgTW', symObjAddr: 0x210, symBinAddr: 0xE430, symSize: 0x18 }
-  - { offsetInCU: 0x1E6, offset: 0xE0E68, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationC8clientID11callbackURL19enforcedUserAccountACSS_10Foundation0G0VSSSgyXAtKcfC', symObjAddr: 0x228, symBinAddr: 0xE448, symSize: 0x70 }
-  - { offsetInCU: 0x20B, offset: 0xE0E8D, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationC8clientID11callbackURL19enforcedUserAccountACSS_10Foundation0G0VSSSgyXAtKcfc', symObjAddr: 0x298, symBinAddr: 0xE4B8, symSize: 0x270 }
-  - { offsetInCU: 0x298, offset: 0xE0F1A, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationC8clientID11callbackURL19enforcedUserAccountACSS_10Foundation0G0VSSSgyXAtKcfcTo', symObjAddr: 0xB2C, symBinAddr: 0xED4C, symSize: 0x110 }
-  - { offsetInCU: 0x2CA, offset: 0xE0F4C, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationCACycfC', symObjAddr: 0xC9C, symBinAddr: 0xEEBC, symSize: 0x20 }
-  - { offsetInCU: 0x2E8, offset: 0xE0F6A, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationCACycfc', symObjAddr: 0xCBC, symBinAddr: 0xEEDC, symSize: 0x2C }
-  - { offsetInCU: 0x34B, offset: 0xE0FCD, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationCACycfcTo', symObjAddr: 0xCE8, symBinAddr: 0xEF08, symSize: 0x2C }
-  - { offsetInCU: 0x3B2, offset: 0xE1034, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationCfD', symObjAddr: 0xD14, symBinAddr: 0xEF34, symSize: 0x34 }
-  - { offsetInCU: 0x404, offset: 0xE1086, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOACs0E0AAWl', symObjAddr: 0x508, symBinAddr: 0xE728, symSize: 0x44 }
-  - { offsetInCU: 0x49C, offset: 0xE111E, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK8validate33_B79720C8399F5587BAD10B51C57B1108LL11callbackURL10Foundation0L0VAG_tKF', symObjAddr: 0x54C, symBinAddr: 0xE76C, symSize: 0x5E0 }
-  - { offsetInCU: 0x894, offset: 0xE1516, size: 0x8, addend: 0x0, symName: '_$sSo8NSStringCSgIeyBa_SSSgIego_TR', symObjAddr: 0xC3C, symBinAddr: 0xEE5C, symSize: 0x60 }
-  - { offsetInCU: 0x8C2, offset: 0xE1544, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationCfETo', symObjAddr: 0xD48, symBinAddr: 0xEF68, symSize: 0x68 }
-  - { offsetInCU: 0x8F1, offset: 0xE1573, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationC16authorizeAccount10completionyyAA01iA13SDKOAuthTokenCSg_s5Error_pSgtc_tF', symObjAddr: 0xDB0, symBinAddr: 0xEFD0, symSize: 0x518 }
-  - { offsetInCU: 0x9CB, offset: 0xE164D, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x12C8, symBinAddr: 0xF4E8, symSize: 0x40 }
-  - { offsetInCU: 0x9DF, offset: 0xE1661, size: 0x8, addend: 0x0, symName: '_$sSo17IZOAuthTokenScopeCMa', symObjAddr: 0x1308, symBinAddr: 0xF528, symSize: 0x3C }
-  - { offsetInCU: 0x9F3, offset: 0xE1675, size: 0x8, addend: 0x0, symName: '_$s15iZettlePayments26AuthorizationConfigurationV17AccountIdentifierOSgWOc', symObjAddr: 0x1344, symBinAddr: 0xF564, symSize: 0x48 }
-  - { offsetInCU: 0xA07, offset: 0xE1689, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationCAC01iA8Payments26OAuthDefaultImplementationAAWl', symObjAddr: 0x138C, symBinAddr: 0xF5AC, symSize: 0x48 }
-  - { offsetInCU: 0xA1B, offset: 0xE169D, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationCMa', symObjAddr: 0x13D4, symBinAddr: 0xF5F4, symSize: 0x3C }
-  - { offsetInCU: 0xA2F, offset: 0xE16B1, size: 0x8, addend: 0x0, symName: '_$sSo6NSDataCIegg_ABIeyBy_TR', symObjAddr: 0x1410, symBinAddr: 0xF630, symSize: 0x50 }
-  - { offsetInCU: 0xA47, offset: 0xE16C9, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x1470, symBinAddr: 0xF690, symSize: 0x10 }
-  - { offsetInCU: 0xA5B, offset: 0xE16DD, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x1480, symBinAddr: 0xF6A0, symSize: 0x8 }
-  - { offsetInCU: 0xA6F, offset: 0xE16F1, size: 0x8, addend: 0x0, symName: '_$ss5Error_pIegg_So7NSErrorCIeyBy_TR', symObjAddr: 0x1488, symBinAddr: 0xF6A8, symSize: 0x50 }
-  - { offsetInCU: 0xA87, offset: 0xE1709, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationC16authorizeAccount10completionyyAA01iA13SDKOAuthTokenCSg_s5Error_pSgtc_tFTo', symObjAddr: 0x14FC, symBinAddr: 0xF71C, symSize: 0x74 }
-  - { offsetInCU: 0xAA3, offset: 0xE1725, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenCSgSo7NSErrorCSgIeyByy_ADs5Error_pSgIeggg_TR', symObjAddr: 0x1570, symBinAddr: 0xF790, symSize: 0x58 }
-  - { offsetInCU: 0xAB7, offset: 0xE1739, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationC13verifyAccount4uuid10completiony10Foundation4UUIDV_yAA01iA13SDKOAuthTokenCSg_s5Error_pSgtctF', symObjAddr: 0x15C8, symBinAddr: 0xF7E8, symSize: 0x4F8 }
-  - { offsetInCU: 0xB32, offset: 0xE17B4, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOSHAASQWb', symObjAddr: 0x1C78, symBinAddr: 0xFE98, symSize: 0x4 }
-  - { offsetInCU: 0xB46, offset: 0xE17C8, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOACSQAAWl', symObjAddr: 0x1C7C, symBinAddr: 0xFE9C, symSize: 0x44 }
-  - { offsetInCU: 0xB69, offset: 0xE17EB, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationC13verifyAccount4uuid10completiony10Foundation4UUIDV_yAA01iA13SDKOAuthTokenCSg_s5Error_pSgtctFTo', symObjAddr: 0x1CC0, symBinAddr: 0xFEE0, symSize: 0xC4 }
-  - { offsetInCU: 0xB9B, offset: 0xE181D, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x1D88, symBinAddr: 0xFFA8, symSize: 0xC }
-  - { offsetInCU: 0xBAF, offset: 0xE1831, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x1D94, symBinAddr: 0xFFB4, symSize: 0x4 }
-  - { offsetInCU: 0xBC3, offset: 0xE1845, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOwet', symObjAddr: 0x1D98, symBinAddr: 0xFFB8, symSize: 0x90 }
-  - { offsetInCU: 0xBD7, offset: 0xE1859, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOwst', symObjAddr: 0x1E28, symBinAddr: 0x10048, symSize: 0xBC }
-  - { offsetInCU: 0xBEB, offset: 0xE186D, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOwug', symObjAddr: 0x1EE4, symBinAddr: 0x10104, symSize: 0x8 }
-  - { offsetInCU: 0xBFF, offset: 0xE1881, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOwup', symObjAddr: 0x1EEC, symBinAddr: 0x1010C, symSize: 0x4 }
-  - { offsetInCU: 0xC13, offset: 0xE1895, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOwui', symObjAddr: 0x1EF0, symBinAddr: 0x10110, symSize: 0x8 }
-  - { offsetInCU: 0xC27, offset: 0xE18A9, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOMa', symObjAddr: 0x1EF8, symBinAddr: 0x10118, symSize: 0x10 }
-  - { offsetInCU: 0xC3B, offset: 0xE18BD, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationCMU', symObjAddr: 0x1F08, symBinAddr: 0x10128, symSize: 0x8 }
-  - { offsetInCU: 0xC4F, offset: 0xE18D1, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationCMr', symObjAddr: 0x1F10, symBinAddr: 0x10130, symSize: 0x84 }
-  - { offsetInCU: 0xC6E, offset: 0xE18F0, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationC13verifyAccount4uuid10completiony10Foundation4UUIDV_yAA01iA13SDKOAuthTokenCSg_s5Error_pSgtctF05$s10ia9SDK01iA13jk13CSgSo7NSErrorp11IeyByy_ADs5L12_pSgIeggg_TRALSo0R0CSgIeyByy_Tf1ncn_nTf4nng_n', symObjAddr: 0x1FB8, symBinAddr: 0x101D8, symSize: 0x548 }
-  - { offsetInCU: 0xCFC, offset: 0xE197E, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenCSgSo7NSErrorCSgIeyByy_ADs5Error_pSgIeggg_TRTA', symObjAddr: 0x2524, symBinAddr: 0x10744, symSize: 0x8 }
-  - { offsetInCU: 0xD10, offset: 0xE1992, size: 0x8, addend: 0x0, symName: '_$sSo8NSStringCSgIeyBa_SSSgIego_TRTA', symObjAddr: 0x256C, symBinAddr: 0x1078C, symSize: 0x8 }
-  - { offsetInCU: 0xD24, offset: 0xE19A6, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x25B0, symBinAddr: 0x107D0, symSize: 0x3C }
-  - { offsetInCU: 0xDC7, offset: 0xE1A49, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x11C, symBinAddr: 0xE33C, symSize: 0x24 }
-  - { offsetInCU: 0xE69, offset: 0xE1AEB, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOSHAASH9hashValueSivgTW', symObjAddr: 0x140, symBinAddr: 0xE360, symSize: 0x4C }
-  - { offsetInCU: 0xF41, offset: 0xE1BC3, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x18C, symBinAddr: 0xE3AC, symSize: 0x34 }
-  - { offsetInCU: 0xFBD, offset: 0xE1C3F, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x1C0, symBinAddr: 0xE3E0, symSize: 0x48 }
-  - { offsetInCU: 0x122B, offset: 0xE1EAD, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationC01iA8Payments26OAuthDefaultImplementationAadEP24performAuthorizationFlow4withSo8IZFutureCySo6NSDataCGAD0I13ConfigurationV_tFTW', symObjAddr: 0x1D84, symBinAddr: 0xFFA4, symSize: 0x4 }
-  - { offsetInCU: 0x4B, offset: 0xE1FEA, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeC6bridge06publicD014requiredScopes01iA8Payments0cD0CAA01ia16SDKAuthorizationD0_p_SaySo17IZOAuthTokenScopeCGtFZ', symObjAddr: 0x0, symBinAddr: 0x10848, symSize: 0x110 }
-  - { offsetInCU: 0xC3, offset: 0xE2062, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeC6bridge06publicD014requiredScopes01iA8Payments0cD0CAA01ia16SDKAuthorizationD0_p_SaySo17IZOAuthTokenScopeCGtFZSSSgycfU_', symObjAddr: 0x110, symBinAddr: 0x10958, symSize: 0xC }
-  - { offsetInCU: 0xDD, offset: 0xE207C, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeC6bridge06publicD014requiredScopes01iA8Payments0cD0CAA01ia16SDKAuthorizationD0_p_SaySo17IZOAuthTokenScopeCGtFZyySo012IZettleOAuthM0CSg_s5Error_pSgtccfU0_', symObjAddr: 0x11C, symBinAddr: 0x10964, symSize: 0xC0 }
-  - { offsetInCU: 0x118, offset: 0xE20B7, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeC6bridge06publicD014requiredScopes01iA8Payments0cD0CAA01ia16SDKAuthorizationD0_p_SaySo17IZOAuthTokenScopeCGtFZy10Foundation4UUIDV_ySo012IZettleOAuthM0CSg_s5Error_pSgtctcfU1_', symObjAddr: 0x280, symBinAddr: 0x10AC8, symSize: 0xE0 }
-  - { offsetInCU: 0x224, offset: 0xE21C3, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeC6bridge06publicD014requiredScopes01iA8Payments0cD0CAA01ia16SDKAuthorizationD0_p_SaySo17IZOAuthTokenScopeCGtFZTo', symObjAddr: 0x3C8, symBinAddr: 0x10C10, symSize: 0x120 }
-  - { offsetInCU: 0x285, offset: 0xE2224, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeCACycfC', symObjAddr: 0x4E8, symBinAddr: 0x10D30, symSize: 0x20 }
-  - { offsetInCU: 0x2A3, offset: 0xE2242, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeCACycfc', symObjAddr: 0x508, symBinAddr: 0x10D50, symSize: 0x34 }
-  - { offsetInCU: 0x2E0, offset: 0xE227F, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeCACycfcTo', symObjAddr: 0x53C, symBinAddr: 0x10D84, symSize: 0x3C }
-  - { offsetInCU: 0x31B, offset: 0xE22BA, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeCfD', symObjAddr: 0x578, symBinAddr: 0x10DC0, symSize: 0x34 }
-  - { offsetInCU: 0x349, offset: 0xE22E8, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeC6bridge06publicD014requiredScopes01iA8Payments0cD0CAA01ia16SDKAuthorizationD0_p_SaySo17IZOAuthTokenScopeCGtFZyySo012IZettleOAuthM0CSg_s5Error_pSgtccfU0_TA', symObjAddr: 0x200, symBinAddr: 0x10A48, symSize: 0x8 }
-  - { offsetInCU: 0x35D, offset: 0xE22FC, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenCSgs5Error_pSgIeggg_ADSo7NSErrorCSgIeyByy_TR', symObjAddr: 0x208, symBinAddr: 0x10A50, symSize: 0x78 }
-  - { offsetInCU: 0x375, offset: 0xE2314, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeC6bridge06publicD014requiredScopes01iA8Payments0cD0CAA01ia16SDKAuthorizationD0_p_SaySo17IZOAuthTokenScopeCGtFZy10Foundation4UUIDV_ySo012IZettleOAuthM0CSg_s5Error_pSgtctcfU1_TA', symObjAddr: 0x360, symBinAddr: 0x10BA8, symSize: 0x8 }
-  - { offsetInCU: 0x395, offset: 0xE2334, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeCMa', symObjAddr: 0x5AC, symBinAddr: 0x10DF4, symSize: 0x20 }
-  - { offsetInCU: 0x3A9, offset: 0xE2348, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeC6bridge06publicD014requiredScopes01iA8Payments0cD0CAA01ia16SDKAuthorizationD0_p_SaySo17IZOAuthTokenScopeCGtFZy10Foundation4UUIDV_ySo012IZettleOAuthM0CSg_s5Error_pSgtctcfU1_yAA01ia8SDKOAuthM0CSg_AUtcfU_TA', symObjAddr: 0x62C, symBinAddr: 0x10E38, symSize: 0x18 }
-  - { offsetInCU: 0x3BD, offset: 0xE235C, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x644, symBinAddr: 0x10E50, symSize: 0x10 }
-  - { offsetInCU: 0x3D1, offset: 0xE2370, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x654, symBinAddr: 0x10E60, symSize: 0x8 }
-  - { offsetInCU: 0x4B, offset: 0xE2514, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA24SDKOAuthTokenErrorDomainSo8NSStringCvp', symObjAddr: 0x2038, symBinAddr: 0x298A0, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0xE252E, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenC4dataAC10Foundation4DataV_tKcfC', symObjAddr: 0x0, symBinAddr: 0x10E8C, symSize: 0x48 }
-  - { offsetInCU: 0x8A, offset: 0xE2553, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenC4dataAC10Foundation4DataV_tKcfc', symObjAddr: 0x25C, symBinAddr: 0x110E8, symSize: 0x484 }
-  - { offsetInCU: 0x167, offset: 0xE2630, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenC4dataAC10Foundation4DataV_tKcfcTo', symObjAddr: 0x7A8, symBinAddr: 0x115F4, symSize: 0xB0 }
-  - { offsetInCU: 0x199, offset: 0xE2662, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenC06accessD09expiresIn07refreshD0ACSS_SiSSSgtKcfC', symObjAddr: 0x858, symBinAddr: 0x116A4, symSize: 0x70 }
-  - { offsetInCU: 0x1BE, offset: 0xE2687, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenC06accessD09expiresIn07refreshD0ACSS_SiSSSgtKcfc', symObjAddr: 0x8C8, symBinAddr: 0x11714, symSize: 0x430 }
-  - { offsetInCU: 0x383, offset: 0xE284C, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenC06accessD09expiresIn07refreshD0ACSS_SiSSSgtKcfcTo', symObjAddr: 0x1108, symBinAddr: 0x11F54, symSize: 0xC0 }
-  - { offsetInCU: 0x3B5, offset: 0xE287E, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenCACycfC', symObjAddr: 0x11C8, symBinAddr: 0x12014, symSize: 0x20 }
-  - { offsetInCU: 0x3D3, offset: 0xE289C, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenCACycfc', symObjAddr: 0x11E8, symBinAddr: 0x12034, symSize: 0x2C }
-  - { offsetInCU: 0x436, offset: 0xE28FF, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenCACycfcTo', symObjAddr: 0x1214, symBinAddr: 0x12060, symSize: 0x2C }
-  - { offsetInCU: 0x49D, offset: 0xE2966, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenCfD', symObjAddr: 0x1240, symBinAddr: 0x1208C, symSize: 0x30 }
-  - { offsetInCU: 0x4CB, offset: 0xE2994, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA24SDKOAuthTokenErrorDomain_WZ', symObjAddr: 0x48, symBinAddr: 0x10ED4, symSize: 0x70 }
-  - { offsetInCU: 0x532, offset: 0xE29FB, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA24SDKOAuthTokenErrorDomainSo8NSStringCvg', symObjAddr: 0xB8, symBinAddr: 0x10F44, symSize: 0x40 }
-  - { offsetInCU: 0x574, offset: 0xE2A3D, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO8rawValueACSgSi_tcfC', symObjAddr: 0xF8, symBinAddr: 0x10F84, symSize: 0x44 }
-  - { offsetInCU: 0x59D, offset: 0xE2A66, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO8rawValueSivg', symObjAddr: 0x13C, symBinAddr: 0x10FC8, symSize: 0x14 }
-  - { offsetInCU: 0x5E1, offset: 0xE2AAA, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOSYAASY8rawValuexSg03RawG0Qz_tcfCTW', symObjAddr: 0x23C, symBinAddr: 0x110C8, symSize: 0x8 }
-  - { offsetInCU: 0x5FD, offset: 0xE2AC6, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOSYAASY8rawValue03RawG0QzvgTW', symObjAddr: 0x244, symBinAddr: 0x110D0, symSize: 0x18 }
-  - { offsetInCU: 0x615, offset: 0xE2ADE, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOSYAASY8rawValue03RawG0QzvgTW', symObjAddr: 0x244, symBinAddr: 0x110D0, symSize: 0x18 }
-  - { offsetInCU: 0x653, offset: 0xE2B1C, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x6E0, symBinAddr: 0x1156C, symSize: 0x44 }
-  - { offsetInCU: 0x667, offset: 0xE2B30, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOACs0E0AAWl', symObjAddr: 0x764, symBinAddr: 0x115B0, symSize: 0x44 }
-  - { offsetInCU: 0x778, offset: 0xE2C41, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenCfETo', symObjAddr: 0x1270, symBinAddr: 0x120BC, symSize: 0x10 }
-  - { offsetInCU: 0x7BD, offset: 0xE2C86, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x1280, symBinAddr: 0x120CC, symSize: 0x64 }
-  - { offsetInCU: 0x820, offset: 0xE2CE9, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x1320, symBinAddr: 0x12130, symSize: 0xE0 }
-  - { offsetInCU: 0x86A, offset: 0xE2D33, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_ypTg5', symObjAddr: 0x1400, symBinAddr: 0x12210, symSize: 0x6C }
-  - { offsetInCU: 0x8F9, offset: 0xE2DC2, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV12mutatingFind_8isUniques10_HashTableV6BucketV6bucket_Sb5foundtx_SbtFSS_ypTg5', symObjAddr: 0x146C, symBinAddr: 0x1227C, symSize: 0xD8 }
-  - { offsetInCU: 0x95A, offset: 0xE2E23, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV4copyyyFSS_ypTg5', symObjAddr: 0x1544, symBinAddr: 0x12354, symSize: 0x1F4 }
-  - { offsetInCU: 0x9FC, offset: 0xE2EC5, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_ypTg5', symObjAddr: 0x1738, symBinAddr: 0x12548, symSize: 0x3A0 }
-  - { offsetInCU: 0xB5E, offset: 0xE3027, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenCMa', symObjAddr: 0x1C18, symBinAddr: 0x129EC, symSize: 0x20 }
-  - { offsetInCU: 0xB72, offset: 0xE303B, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0x1C38, symBinAddr: 0x12A0C, symSize: 0x10 }
-  - { offsetInCU: 0xB86, offset: 0xE304F, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x1C48, symBinAddr: 0x12A1C, symSize: 0x20 }
-  - { offsetInCU: 0xB9A, offset: 0xE3063, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOSHAASQWb', symObjAddr: 0x1C68, symBinAddr: 0x12A3C, symSize: 0x4 }
-  - { offsetInCU: 0xBAE, offset: 0xE3077, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOACSQAAWl', symObjAddr: 0x1C6C, symBinAddr: 0x12A40, symSize: 0x44 }
-  - { offsetInCU: 0xBC2, offset: 0xE308B, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOwet', symObjAddr: 0x1CC0, symBinAddr: 0x12A84, symSize: 0x90 }
-  - { offsetInCU: 0xBD6, offset: 0xE309F, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOwst', symObjAddr: 0x1D50, symBinAddr: 0x12B14, symSize: 0xBC }
-  - { offsetInCU: 0xBEA, offset: 0xE30B3, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOwug', symObjAddr: 0x1E0C, symBinAddr: 0x12BD0, symSize: 0x8 }
-  - { offsetInCU: 0xBFE, offset: 0xE30C7, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOwup', symObjAddr: 0x1E14, symBinAddr: 0x12BD8, symSize: 0x4 }
-  - { offsetInCU: 0xC12, offset: 0xE30DB, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOwui', symObjAddr: 0x1E18, symBinAddr: 0x12BDC, symSize: 0x8 }
-  - { offsetInCU: 0xC26, offset: 0xE30EF, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOMa', symObjAddr: 0x1E20, symBinAddr: 0x12BE4, symSize: 0x10 }
-  - { offsetInCU: 0xC3A, offset: 0xE3103, size: 0x8, addend: 0x0, symName: '_$sSD8IteratorV8_VariantOyxq___GSHRzr0_lWOe', symObjAddr: 0x1E90, symBinAddr: 0x12C54, symSize: 0x10 }
-  - { offsetInCU: 0xC4E, offset: 0xE3117, size: 0x8, addend: 0x0, symName: '_$sSS_yptWOc', symObjAddr: 0x1EA0, symBinAddr: 0x12C64, symSize: 0x48 }
-  - { offsetInCU: 0xCBC, offset: 0xE3185, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x150, symBinAddr: 0x10FDC, symSize: 0x24 }
-  - { offsetInCU: 0xD5E, offset: 0xE3227, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOSHAASH9hashValueSivgTW', symObjAddr: 0x174, symBinAddr: 0x11000, symSize: 0x4C }
-  - { offsetInCU: 0xE36, offset: 0xE32FF, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x1C0, symBinAddr: 0x1104C, symSize: 0x34 }
-  - { offsetInCU: 0xEB2, offset: 0xE337B, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x1F4, symBinAddr: 0x11080, symSize: 0x48 }
-  - { offsetInCU: 0xFD6, offset: 0xE349F, size: 0x8, addend: 0x0, symName: '_$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSS_yps11AnyHashableVypTg5', symObjAddr: 0xCF8, symBinAddr: 0x11B44, symSize: 0x410 }
-  - { offsetInCU: 0x110F, offset: 0xE35D8, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTg5Tf4gd_n', symObjAddr: 0x1AD8, symBinAddr: 0x128E8, symSize: 0x104 }
-  - { offsetInCU: 0x66, offset: 0xE38A9, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO16errorDescriptionSSSgvg', symObjAddr: 0x0, symBinAddr: 0x12CAC, symSize: 0x114 }
-  - { offsetInCU: 0x96, offset: 0xE38D9, size: 0x8, addend: 0x0, symName: '_$s15iZettlePayments18AuthorizationErrorOSgWOh', symObjAddr: 0x154, symBinAddr: 0x12DC0, symSize: 0x40 }
-  - { offsetInCU: 0xAA, offset: 0xE38ED, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO13failureReasonSSSgvg', symObjAddr: 0x194, symBinAddr: 0x12E00, symSize: 0x114 }
-  - { offsetInCU: 0xDA, offset: 0xE391D, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO18recoverySuggestionSSSgvg', symObjAddr: 0x2A8, symBinAddr: 0x12F14, symSize: 0x114 }
-  - { offsetInCU: 0x128, offset: 0xE396B, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO10Foundation09LocalizedE0AadEP16errorDescriptionSSSgvgTW', symObjAddr: 0x3BC, symBinAddr: 0x13028, symSize: 0x114 }
-  - { offsetInCU: 0x18E, offset: 0xE39D1, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO10Foundation09LocalizedE0AadEP13failureReasonSSSgvgTW', symObjAddr: 0x4D0, symBinAddr: 0x1313C, symSize: 0x114 }
-  - { offsetInCU: 0x1F4, offset: 0xE3A37, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO10Foundation09LocalizedE0AadEP18recoverySuggestionSSSgvgTW', symObjAddr: 0x5E4, symBinAddr: 0x13250, symSize: 0x114 }
-  - { offsetInCU: 0x23C, offset: 0xE3A7F, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO9errorCodeSivg', symObjAddr: 0x740, symBinAddr: 0x133AC, symSize: 0x14 }
-  - { offsetInCU: 0x2AE, offset: 0xE3AF1, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO13errorUserInfoSDySSypGvg', symObjAddr: 0x770, symBinAddr: 0x133DC, symSize: 0x240 }
-  - { offsetInCU: 0x3EC, offset: 0xE3C2F, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO10Foundation13CustomNSErrorAadEP9errorCodeSivgTW', symObjAddr: 0x9CC, symBinAddr: 0x13638, symSize: 0x14 }
-  - { offsetInCU: 0x40C, offset: 0xE3C4F, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO10Foundation13CustomNSErrorAadEP9errorCodeSivgTW', symObjAddr: 0x9CC, symBinAddr: 0x13638, symSize: 0x14 }
-  - { offsetInCU: 0x434, offset: 0xE3C77, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO10Foundation13CustomNSErrorAadEP13errorUserInfoSDySSypGvgTW', symObjAddr: 0x9E0, symBinAddr: 0x1364C, symSize: 0x4 }
-  - { offsetInCU: 0x477, offset: 0xE3CBA, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO16errorDescriptionSSSgvg', symObjAddr: 0x9E4, symBinAddr: 0x13650, symSize: 0x114 }
-  - { offsetInCU: 0x4A7, offset: 0xE3CEA, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO13failureReasonSSSgvg', symObjAddr: 0xAF8, symBinAddr: 0x13764, symSize: 0x114 }
-  - { offsetInCU: 0x4D7, offset: 0xE3D1A, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO18recoverySuggestionSSSgvg', symObjAddr: 0xC0C, symBinAddr: 0x13878, symSize: 0x114 }
-  - { offsetInCU: 0x525, offset: 0xE3D68, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO10Foundation09LocalizedE0AadEP16errorDescriptionSSSgvgTW', symObjAddr: 0xD20, symBinAddr: 0x1398C, symSize: 0x114 }
-  - { offsetInCU: 0x58B, offset: 0xE3DCE, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO10Foundation09LocalizedE0AadEP13failureReasonSSSgvgTW', symObjAddr: 0xE34, symBinAddr: 0x13AA0, symSize: 0x114 }
-  - { offsetInCU: 0x5F1, offset: 0xE3E34, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO10Foundation09LocalizedE0AadEP18recoverySuggestionSSSgvgTW', symObjAddr: 0xF48, symBinAddr: 0x13BB4, symSize: 0x114 }
-  - { offsetInCU: 0x639, offset: 0xE3E7C, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO9errorCodeSivg', symObjAddr: 0x10E4, symBinAddr: 0x13D50, symSize: 0x14 }
-  - { offsetInCU: 0x669, offset: 0xE3EAC, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO13errorUserInfoSDySSypGvg', symObjAddr: 0x114C, symBinAddr: 0x13DB8, symSize: 0x240 }
-  - { offsetInCU: 0x7A7, offset: 0xE3FEA, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO10Foundation13CustomNSErrorAadEP9errorCodeSivgTW', symObjAddr: 0x13E4, symBinAddr: 0x14050, symSize: 0x14 }
-  - { offsetInCU: 0x7C7, offset: 0xE400A, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO10Foundation13CustomNSErrorAadEP9errorCodeSivgTW', symObjAddr: 0x13E4, symBinAddr: 0x14050, symSize: 0x14 }
-  - { offsetInCU: 0x7EF, offset: 0xE4032, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO10Foundation13CustomNSErrorAadEP13errorUserInfoSDySSypGvgTW', symObjAddr: 0x13F8, symBinAddr: 0x14064, symSize: 0x4 }
-  - { offsetInCU: 0x80B, offset: 0xE404E, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO10Foundation09LocalizedE0AAs0E0PWb', symObjAddr: 0x13FC, symBinAddr: 0x14068, symSize: 0x4 }
-  - { offsetInCU: 0x81F, offset: 0xE4062, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO10Foundation13CustomNSErrorAAs0E0PWb', symObjAddr: 0x1444, symBinAddr: 0x1406C, symSize: 0x4 }
-  - { offsetInCU: 0x833, offset: 0xE4076, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO10Foundation09LocalizedE0AAs0E0PWb', symObjAddr: 0x1448, symBinAddr: 0x14070, symSize: 0x4 }
-  - { offsetInCU: 0x847, offset: 0xE408A, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO10Foundation13CustomNSErrorAAs0E0PWb', symObjAddr: 0x1490, symBinAddr: 0x14074, symSize: 0x4 }
-  - { offsetInCU: 0x85B, offset: 0xE409E, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOAC10Foundation13CustomNSErrorAAWl', symObjAddr: 0x1494, symBinAddr: 0x14078, symSize: 0x44 }
-  - { offsetInCU: 0x86F, offset: 0xE40B2, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOACSYAAWl', symObjAddr: 0x14D8, symBinAddr: 0x140BC, symSize: 0x44 }
-  - { offsetInCU: 0x883, offset: 0xE40C6, size: 0x8, addend: 0x0, symName: '_$sS2is17FixedWidthIntegersWl', symObjAddr: 0x151C, symBinAddr: 0x14100, symSize: 0x44 }
-  - { offsetInCU: 0x897, offset: 0xE40DA, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOAC10Foundation13CustomNSErrorAAWl', symObjAddr: 0x1560, symBinAddr: 0x14144, symSize: 0x44 }
-  - { offsetInCU: 0x8AB, offset: 0xE40EE, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOACSYAAWl', symObjAddr: 0x15A4, symBinAddr: 0x14188, symSize: 0x44 }
-  - { offsetInCU: 0x8D9, offset: 0xE411C, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOs0E0AAsADP9_userInfoyXlSgvgTW', symObjAddr: 0x738, symBinAddr: 0x133A4, symSize: 0x4 }
-  - { offsetInCU: 0x8F5, offset: 0xE4138, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOs0E0AAsADP19_getEmbeddedNSErroryXlSgyFTW', symObjAddr: 0x73C, symBinAddr: 0x133A8, symSize: 0x4 }
-  - { offsetInCU: 0x98D, offset: 0xE41D0, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO10Foundation09LocalizedE0AadEP10helpAnchorSSSgvgTW', symObjAddr: 0x6F8, symBinAddr: 0x13364, symSize: 0x4 }
-  - { offsetInCU: 0x9A9, offset: 0xE41EC, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOs0E0AAsADP7_domainSSvgTW', symObjAddr: 0x6FC, symBinAddr: 0x13368, symSize: 0x28 }
-  - { offsetInCU: 0x9C5, offset: 0xE4208, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOs0E0AAsADP7_domainSSvgTW', symObjAddr: 0x105C, symBinAddr: 0x13CC8, symSize: 0x28 }
+  - { offset: 0x73241, size: 0x8, addend: 0x0, symName: _iZettleSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x1CE20, symSize: 0x0 }
+  - { offset: 0x73276, size: 0x8, addend: 0x0, symName: _iZettleSDKVersionNumber, symObjAddr: 0x30, symBinAddr: 0x1CE50, symSize: 0x0 }
+  - { offset: 0x732B3, size: 0x8, addend: 0x0, symName: '+[IZSDKPayPalQRCPaymentInfo withPaymentInfo:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x15C }
+  - { offset: 0x73388, size: 0x8, addend: 0x0, symName: '+[IZSDKPayPalQRCPaymentInfo withPaymentInfo:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x15C }
+  - { offset: 0x7341B, size: 0x8, addend: 0x0, symName: '-[IZSDKPayPalQRCPaymentInfo initWithPaypalTransactionId:referenceNumber:amount:type:transactionId:]', symObjAddr: 0x15C, symBinAddr: 0x815C, symSize: 0x104 }
+  - { offset: 0x734A2, size: 0x8, addend: 0x0, symName: '-[IZSDKPayPalQRCPaymentInfo amount]', symObjAddr: 0x260, symBinAddr: 0x8260, symSize: 0x8 }
+  - { offset: 0x734D9, size: 0x8, addend: 0x0, symName: '-[IZSDKPayPalQRCPaymentInfo referenceNumber]', symObjAddr: 0x268, symBinAddr: 0x8268, symSize: 0x8 }
+  - { offset: 0x73510, size: 0x8, addend: 0x0, symName: '-[IZSDKPayPalQRCPaymentInfo paypalTransactionId]', symObjAddr: 0x270, symBinAddr: 0x8270, symSize: 0x8 }
+  - { offset: 0x73547, size: 0x8, addend: 0x0, symName: '-[IZSDKPayPalQRCPaymentInfo type]', symObjAddr: 0x278, symBinAddr: 0x8278, symSize: 0x8 }
+  - { offset: 0x7357E, size: 0x8, addend: 0x0, symName: '-[IZSDKPayPalQRCPaymentInfo transactionId]', symObjAddr: 0x280, symBinAddr: 0x8280, symSize: 0x8 }
+  - { offset: 0x735B5, size: 0x8, addend: 0x0, symName: '-[IZSDKPayPalQRCPaymentInfo .cxx_destruct]', symObjAddr: 0x288, symBinAddr: 0x8288, symSize: 0x48 }
+  - { offset: 0x736C6, size: 0x8, addend: 0x0, symName: '+[IZSDKPayPalQRCPaymentInfo(DevMode) paymentInfoForDevModeCase:amount:]', symObjAddr: 0x0, symBinAddr: 0x82D0, symSize: 0x8C }
+  - { offset: 0x736F4, size: 0x8, addend: 0x0, symName: '+[IZSDKPayPalQRCPaymentInfo(DevMode) paymentInfoForDevModeCase:amount:]', symObjAddr: 0x0, symBinAddr: 0x82D0, symSize: 0x8C }
+  - { offset: 0x73747, size: 0x8, addend: 0x0, symName: '+[IZSDKPayPalQRCPaymentInfo(DevMode) refundInfoForDevModeCase:amount:]', symObjAddr: 0x8C, symBinAddr: 0x835C, symSize: 0xD0 }
+  - { offset: 0x73894, size: 0x8, addend: 0x0, symName: '+[NSDictionary(CardDevMode) ztl_cardPaymentInfoForDevModeCase:amount:isTippingEnabled:]', symObjAddr: 0x0, symBinAddr: 0x842C, symSize: 0x1D4 }
+  - { offset: 0x738A2, size: 0x8, addend: 0x0, symName: '+[NSDictionary(CardDevMode) ztl_cardPaymentInfoForDevModeCase:amount:isTippingEnabled:]', symObjAddr: 0x0, symBinAddr: 0x842C, symSize: 0x1D4 }
+  - { offset: 0x73925, size: 0x8, addend: 0x0, symName: '+[NSDictionary(CardDevMode) ztl_cardRefundInfoForDevModeCase:amount:]', symObjAddr: 0x1D4, symBinAddr: 0x8600, symSize: 0x168 }
+  - { offset: 0x73A00, size: 0x8, addend: 0x0, symName: '+[iZettleSDK(TippingConfigurationCreation) tippingConfigurationUsingAccount:inputTippingConfiguration:]', symObjAddr: 0x0, symBinAddr: 0x8768, symSize: 0xF4 }
+  - { offset: 0x73A65, size: 0x8, addend: 0x0, symName: '+[iZettleSDK(TippingConfigurationCreation) tippingConfigurationUsingAccount:inputTippingConfiguration:]', symObjAddr: 0x0, symBinAddr: 0x8768, symSize: 0xF4 }
+  - { offset: 0x73AEC, size: 0x8, addend: 0x0, symName: '+[iZettleSDK(TippingConfigurationCreation) mapZettleTippingStyleToTippingInputStyle:]', symObjAddr: 0xF4, symBinAddr: 0x885C, symSize: 0x10 }
+  - { offset: 0x73B2D, size: 0x8, addend: 0x0, symName: '+[iZettleSDK(TippingConfigurationCreation) mapPaypalTippingStyleToTippingInputStyle:]', symObjAddr: 0x104, symBinAddr: 0x886C, symSize: 0x10 }
+  - { offset: 0x73B6E, size: 0x8, addend: 0x0, symName: '+[iZettleSDK(TippingConfigurationCreation) exportPredefinedTipsValuesFrom:fallbackValuesFromAccount:]', symObjAddr: 0x114, symBinAddr: 0x887C, symSize: 0x170 }
+  - { offset: 0x73D13, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo initWithDictionary:]', symObjAddr: 0x0, symBinAddr: 0x89EC, symSize: 0x78 }
+  - { offset: 0x73E41, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo initWithDictionary:]', symObjAddr: 0x0, symBinAddr: 0x89EC, symSize: 0x78 }
+  - { offset: 0x73E88, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo dictionary]', symObjAddr: 0x78, symBinAddr: 0x8A64, symSize: 0x8 }
+  - { offset: 0x73EBF, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo amount]', symObjAddr: 0x80, symBinAddr: 0x8A6C, symSize: 0x10 }
+  - { offset: 0x73EF6, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo transactionId]', symObjAddr: 0x90, symBinAddr: 0x8A7C, symSize: 0x10 }
+  - { offset: 0x73F2D, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo gratuityAmount]', symObjAddr: 0xA0, symBinAddr: 0x8A8C, symSize: 0x10 }
+  - { offset: 0x73F64, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo referenceNumber]', symObjAddr: 0xB0, symBinAddr: 0x8A9C, symSize: 0x10 }
+  - { offset: 0x73F9B, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo numberOfInstallments]', symObjAddr: 0xC0, symBinAddr: 0x8AAC, symSize: 0x10 }
+  - { offset: 0x73FD2, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo installmentAmount]', symObjAddr: 0xD0, symBinAddr: 0x8ABC, symSize: 0x10 }
+  - { offset: 0x74009, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo entryMode]', symObjAddr: 0xE0, symBinAddr: 0x8ACC, symSize: 0x10 }
+  - { offset: 0x74040, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo authorizationCode]', symObjAddr: 0xF0, symBinAddr: 0x8ADC, symSize: 0x10 }
+  - { offset: 0x74077, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo obfuscatedPan]', symObjAddr: 0x100, symBinAddr: 0x8AEC, symSize: 0x10 }
+  - { offset: 0x740AE, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo panHash]', symObjAddr: 0x110, symBinAddr: 0x8AFC, symSize: 0x10 }
+  - { offset: 0x740E5, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo cardBrand]', symObjAddr: 0x120, symBinAddr: 0x8B0C, symSize: 0x10 }
+  - { offset: 0x7411C, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo cardIssuingBank]', symObjAddr: 0x130, symBinAddr: 0x8B1C, symSize: 0x10 }
+  - { offset: 0x74153, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo TVR]', symObjAddr: 0x140, symBinAddr: 0x8B2C, symSize: 0x10 }
+  - { offset: 0x7418A, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo TSI]', symObjAddr: 0x150, symBinAddr: 0x8B3C, symSize: 0x10 }
+  - { offset: 0x741C1, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo AID]', symObjAddr: 0x160, symBinAddr: 0x8B4C, symSize: 0x10 }
+  - { offset: 0x741F8, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo applicationName]', symObjAddr: 0x170, symBinAddr: 0x8B5C, symSize: 0x10 }
+  - { offset: 0x7422F, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo description]', symObjAddr: 0x180, symBinAddr: 0x8B6C, symSize: 0x8 }
+  - { offset: 0x74266, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo mxFIID]', symObjAddr: 0x188, symBinAddr: 0x8B74, symSize: 0x10 }
+  - { offset: 0x7429D, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo mxCardType]', symObjAddr: 0x198, symBinAddr: 0x8B84, symSize: 0x10 }
+  - { offset: 0x742D4, size: 0x8, addend: 0x0, symName: '-[iZettleSDKPaymentInfo .cxx_destruct]', symObjAddr: 0x1A8, symBinAddr: 0x8B94, symSize: 0xC }
+  - { offset: 0x7437B, size: 0x8, addend: 0x0, symName: '+[NSError(CardPaymentDevMode) ztl_cardPaymentErrorForDevModeCase:]', symObjAddr: 0x0, symBinAddr: 0x8BA0, symSize: 0xE0 }
+  - { offset: 0x74389, size: 0x8, addend: 0x0, symName: '+[NSError(CardPaymentDevMode) ztl_cardPaymentErrorForDevModeCase:]', symObjAddr: 0x0, symBinAddr: 0x8BA0, symSize: 0xE0 }
+  - { offset: 0x743D0, size: 0x8, addend: 0x0, symName: '+[NSError(CardPaymentDevMode) ztl_cardPaymentErrorDomainForDevModeCase:]', symObjAddr: 0xE0, symBinAddr: 0x8C80, symSize: 0x2C }
+  - { offset: 0x74411, size: 0x8, addend: 0x0, symName: '+[NSError(CardPaymentDevMode) ztl_cardPaymentErrorCodeForDevModeCase:]', symObjAddr: 0x10C, symBinAddr: 0x8CAC, symSize: 0x28 }
+  - { offset: 0x74452, size: 0x8, addend: 0x0, symName: '+[NSError(CardPaymentDevMode) ztl_cardPaymentErrorUserInfoForDevModeCase:]', symObjAddr: 0x134, symBinAddr: 0x8CD4, symSize: 0x1F0 }
+  - { offset: 0x74511, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(DevMode) showCardPaymentDevModeFrom:devModeProvider:amount:isTippingEnabled:completion:]', symObjAddr: 0x0, symBinAddr: 0x8EC4, symSize: 0x1AC }
+  - { offset: 0x74559, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(DevMode) showCardPaymentDevModeFrom:devModeProvider:amount:isTippingEnabled:completion:]', symObjAddr: 0x0, symBinAddr: 0x8EC4, symSize: 0x1AC }
+  - { offset: 0x74608, size: 0x8, addend: 0x0, symName: '___101-[iZettleSDK(DevMode) showCardPaymentDevModeFrom:devModeProvider:amount:isTippingEnabled:completion:]_block_invoke', symObjAddr: 0x1AC, symBinAddr: 0x9070, symSize: 0xB4 }
+  - { offset: 0x74683, size: 0x8, addend: 0x0, symName: '___101-[iZettleSDK(DevMode) showCardPaymentDevModeFrom:devModeProvider:amount:isTippingEnabled:completion:]_block_invoke_2', symObjAddr: 0x260, symBinAddr: 0x9124, symSize: 0x84 }
+  - { offset: 0x74738, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x2E4, symBinAddr: 0x91A8, symSize: 0x34 }
+  - { offset: 0x74761, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x318, symBinAddr: 0x91DC, symSize: 0x28 }
+  - { offset: 0x74780, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b48w, symObjAddr: 0x340, symBinAddr: 0x9204, symSize: 0x40 }
+  - { offset: 0x747A9, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48w, symObjAddr: 0x380, symBinAddr: 0x9244, symSize: 0x30 }
+  - { offset: 0x747C8, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(DevMode) showCardRefundDevModeFrom:devModeProvider:amount:completion:]', symObjAddr: 0x3B0, symBinAddr: 0x9274, symSize: 0x1A4 }
+  - { offset: 0x7486B, size: 0x8, addend: 0x0, symName: '___83-[iZettleSDK(DevMode) showCardRefundDevModeFrom:devModeProvider:amount:completion:]_block_invoke', symObjAddr: 0x554, symBinAddr: 0x9418, symSize: 0xAC }
+  - { offset: 0x748D6, size: 0x8, addend: 0x0, symName: '___83-[iZettleSDK(DevMode) showCardRefundDevModeFrom:devModeProvider:amount:completion:]_block_invoke_2', symObjAddr: 0x600, symBinAddr: 0x94C4, symSize: 0x80 }
+  - { offset: 0x7497B, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(DevMode) showQRCPaymentDevModeFrom:devModeProvider:amount:appearance:completion:]', symObjAddr: 0x680, symBinAddr: 0x9544, symSize: 0x1B4 }
+  - { offset: 0x74A3E, size: 0x8, addend: 0x0, symName: '___94-[iZettleSDK(DevMode) showQRCPaymentDevModeFrom:devModeProvider:amount:appearance:completion:]_block_invoke', symObjAddr: 0x834, symBinAddr: 0x96F8, symSize: 0xAC }
+  - { offset: 0x74AA9, size: 0x8, addend: 0x0, symName: '___94-[iZettleSDK(DevMode) showQRCPaymentDevModeFrom:devModeProvider:amount:appearance:completion:]_block_invoke_2', symObjAddr: 0x8E0, symBinAddr: 0x97A4, symSize: 0x80 }
+  - { offset: 0x74B4E, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(DevMode) showQRCRefundDevModeFrom:devModeProvider:amount:completion:]', symObjAddr: 0x960, symBinAddr: 0x9824, symSize: 0x1A4 }
+  - { offset: 0x74BF1, size: 0x8, addend: 0x0, symName: '___82-[iZettleSDK(DevMode) showQRCRefundDevModeFrom:devModeProvider:amount:completion:]_block_invoke', symObjAddr: 0xB04, symBinAddr: 0x99C8, symSize: 0xAC }
+  - { offset: 0x74C5C, size: 0x8, addend: 0x0, symName: '___82-[iZettleSDK(DevMode) showQRCRefundDevModeFrom:devModeProvider:amount:completion:]_block_invoke_2', symObjAddr: 0xBB0, symBinAddr: 0x9A74, symSize: 0x80 }
+  - { offset: 0x74D01, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(DevMode) showManualCardEntryPaymentDevModeFrom:devModeProvider:amount:completion:]', symObjAddr: 0xC30, symBinAddr: 0x9AF4, symSize: 0x1A4 }
+  - { offset: 0x74DA4, size: 0x8, addend: 0x0, symName: '___95-[iZettleSDK(DevMode) showManualCardEntryPaymentDevModeFrom:devModeProvider:amount:completion:]_block_invoke', symObjAddr: 0xDD4, symBinAddr: 0x9C98, symSize: 0xAC }
+  - { offset: 0x74E0F, size: 0x8, addend: 0x0, symName: '___95-[iZettleSDK(DevMode) showManualCardEntryPaymentDevModeFrom:devModeProvider:amount:completion:]_block_invoke_2', symObjAddr: 0xE80, symBinAddr: 0x9D44, symSize: 0x80 }
+  - { offset: 0x74EB4, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(DevMode) showManualCardEntryRefundDevModeFrom:devModeProvider:amount:completion:]', symObjAddr: 0xF00, symBinAddr: 0x9DC4, symSize: 0x1A4 }
+  - { offset: 0x74F57, size: 0x8, addend: 0x0, symName: '___94-[iZettleSDK(DevMode) showManualCardEntryRefundDevModeFrom:devModeProvider:amount:completion:]_block_invoke', symObjAddr: 0x10A4, symBinAddr: 0x9F68, symSize: 0xAC }
+  - { offset: 0x74FC2, size: 0x8, addend: 0x0, symName: '___94-[iZettleSDK(DevMode) showManualCardEntryRefundDevModeFrom:devModeProvider:amount:completion:]_block_invoke_2', symObjAddr: 0x1150, symBinAddr: 0xA014, symSize: 0x80 }
+  - { offset: 0x75067, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(DevMode) createNewDevModeNavigationController]', symObjAddr: 0x11D0, symBinAddr: 0xA094, symSize: 0xA8 }
+  - { offset: 0x75949, size: 0x8, addend: 0x0, symName: '+[NSError(CardRefundDevMode) ztl_cardRefundErrorForDevModeCase:]', symObjAddr: 0x0, symBinAddr: 0xA13C, symSize: 0xB4 }
+  - { offset: 0x75957, size: 0x8, addend: 0x0, symName: '+[NSError(CardRefundDevMode) ztl_cardRefundErrorForDevModeCase:]', symObjAddr: 0x0, symBinAddr: 0xA13C, symSize: 0xB4 }
+  - { offset: 0x7599E, size: 0x8, addend: 0x0, symName: '+[NSError(CardRefundDevMode) ztl_cardRefundErrorDomainForDevModeCase:]', symObjAddr: 0xB4, symBinAddr: 0xA1F0, symSize: 0x2C }
+  - { offset: 0x759DF, size: 0x8, addend: 0x0, symName: '+[NSError(CardRefundDevMode) ztl_cardRefundErrorCodeForDevModeCase:]', symObjAddr: 0xE0, symBinAddr: 0xA21C, symSize: 0x24 }
+  - { offset: 0x75A20, size: 0x8, addend: 0x0, symName: '+[NSError(CardRefundDevMode) ztl_cardRefundErrorUserInfoForDevModeCase:]', symObjAddr: 0x104, symBinAddr: 0xA240, symSize: 0xA4 }
+  - { offset: 0x75ADF, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_InvalidAmountError]', symObjAddr: 0x0, symBinAddr: 0xA2E4, symSize: 0x8 }
+  - { offset: 0x75AF9, size: 0x8, addend: 0x0, symName: _IZSDKManualCardEntryErrorDomain, symObjAddr: 0xC68, symBinAddr: 0x24768, symSize: 0x0 }
+  - { offset: 0x75B91, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_InvalidAmountError]', symObjAddr: 0x0, symBinAddr: 0xA2E4, symSize: 0x8 }
+  - { offset: 0x75BC6, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_InvalidTransactionConfigurationError]', symObjAddr: 0x8, symBinAddr: 0xA2EC, symSize: 0x8 }
+  - { offset: 0x75BFB, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_PaymentCancelledByMerchantError]', symObjAddr: 0x10, symBinAddr: 0xA2F4, symSize: 0x8 }
+  - { offset: 0x75C30, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_TechnicalError]', symObjAddr: 0x18, symBinAddr: 0xA2FC, symSize: 0x8 }
+  - { offset: 0x75C65, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_PaymentNotFoundError]', symObjAddr: 0x20, symBinAddr: 0xA304, symSize: 0x8 }
+  - { offset: 0x75C9A, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_InsufficientFundsError]', symObjAddr: 0x28, symBinAddr: 0xA30C, symSize: 0x8 }
+  - { offset: 0x75CCF, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_RefundFailedError]', symObjAddr: 0x30, symBinAddr: 0xA314, symSize: 0x8 }
+  - { offset: 0x75D04, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_RefundCancelledError]', symObjAddr: 0x38, symBinAddr: 0xA31C, symSize: 0x8 }
+  - { offset: 0x75D39, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_AmountTooLowErrorWithMinimumAmount:]', symObjAddr: 0x40, symBinAddr: 0xA324, symSize: 0x6C }
+  - { offset: 0x75D8E, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_AmountTooHighErrorWithMaximumAmount:]', symObjAddr: 0xAC, symBinAddr: 0xA390, symSize: 0x6C }
+  - { offset: 0x75DE3, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_ErrorFromAPMPaymentInfoError:]', symObjAddr: 0x118, symBinAddr: 0xA3FC, symSize: 0xA8 }
+  - { offset: 0x75E3A, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_ErrorFromAPMRefundError:]', symObjAddr: 0x1C0, symBinAddr: 0xA4A4, symSize: 0xA8 }
+  - { offset: 0x75E91, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_ErrorFromAPMError:]', symObjAddr: 0x268, symBinAddr: 0xA54C, symSize: 0xA8 }
+  - { offset: 0x75EE8, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_manualCardEntryErrorWith:]', symObjAddr: 0x310, symBinAddr: 0xA5F4, symSize: 0x74 }
+  - { offset: 0x75F2F, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_errorCodeForPaymentError:]', symObjAddr: 0x384, symBinAddr: 0xA668, symSize: 0x38 }
+  - { offset: 0x75F72, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_errorCodeForPaymentInfoError:]', symObjAddr: 0x3BC, symBinAddr: 0xA6A0, symSize: 0x38 }
+  - { offset: 0x75FB5, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_errorCodeForRefundError:]', symObjAddr: 0x3F4, symBinAddr: 0xA6D8, symSize: 0x9C }
+  - { offset: 0x75FF8, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_errorUserInfoFor:minAmountString:maxAmountString:]', symObjAddr: 0x490, symBinAddr: 0xA774, symSize: 0xA0 }
+  - { offset: 0x7605F, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_errorDescriptionFor:minAmountString:maxAmountString:]', symObjAddr: 0x530, symBinAddr: 0xA814, symSize: 0x1A0 }
+  - { offset: 0x7615B, size: 0x8, addend: 0x0, symName: '-[IZAccount(iZettleSDK) fetchPaymentConfigIfNeeded]', symObjAddr: 0x0, symBinAddr: 0xA9B4, symSize: 0x60 }
+  - { offset: 0x7616E, size: 0x8, addend: 0x0, symName: '+[iZettleSDK shared]', symObjAddr: 0x60, symBinAddr: 0xAA14, symSize: 0x40 }
+  - { offset: 0x76198, size: 0x8, addend: 0x0, symName: _shared.once, symObjAddr: 0x24600, symBinAddr: 0x29D80, symSize: 0x0 }
+  - { offset: 0x761AE, size: 0x8, addend: 0x0, symName: _shared.shared, symObjAddr: 0x24608, symBinAddr: 0x29D88, symSize: 0x0 }
+  - { offset: 0x76568, size: 0x8, addend: 0x0, symName: '-[IZAccount(iZettleSDK) fetchPaymentConfigIfNeeded]', symObjAddr: 0x0, symBinAddr: 0xA9B4, symSize: 0x60 }
+  - { offset: 0x765DF, size: 0x8, addend: 0x0, symName: '___20+[iZettleSDK shared]_block_invoke', symObjAddr: 0xA0, symBinAddr: 0xAA54, symSize: 0x30 }
+  - { offset: 0x76606, size: 0x8, addend: 0x0, symName: '-[iZettleSDK startWithAuthorizationProvider:]', symObjAddr: 0xD0, symBinAddr: 0xAA84, symSize: 0x3B0 }
+  - { offset: 0x76689, size: 0x8, addend: 0x0, symName: '___45-[iZettleSDK startWithAuthorizationProvider:]_block_invoke', symObjAddr: 0x480, symBinAddr: 0xAE34, symSize: 0x7C }
+  - { offset: 0x766F3, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0x4FC, symBinAddr: 0xAEB0, symSize: 0xC }
+  - { offset: 0x7671C, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w, symObjAddr: 0x508, symBinAddr: 0xAEBC, symSize: 0x8 }
+  - { offset: 0x7673B, size: 0x8, addend: 0x0, symName: '___45-[iZettleSDK startWithAuthorizationProvider:]_block_invoke.12', symObjAddr: 0x510, symBinAddr: 0xAEC4, symSize: 0x128 }
+  - { offset: 0x767CD, size: 0x8, addend: 0x0, symName: '___45-[iZettleSDK startWithAuthorizationProvider:]_block_invoke_2', symObjAddr: 0x638, symBinAddr: 0xAFEC, symSize: 0x70 }
+  - { offset: 0x76837, size: 0x8, addend: 0x0, symName: '-[iZettleSDK setCardPaymentPayPalPartnerAttributionId:]', symObjAddr: 0x6A8, symBinAddr: 0xB05C, symSize: 0xC }
+  - { offset: 0x7687A, size: 0x8, addend: 0x0, symName: '-[iZettleSDK cardPaymentPayPalPartnerAttributionId]', symObjAddr: 0x6B4, symBinAddr: 0xB068, symSize: 0x8 }
+  - { offset: 0x768B1, size: 0x8, addend: 0x0, symName: '-[iZettleSDK performAPMStateTrackingForKey:withCurrentState:withTrackingEvent:]', symObjAddr: 0x6BC, symBinAddr: 0xB070, symSize: 0x15C }
+  - { offset: 0x7699F, size: 0x8, addend: 0x0, symName: '-[iZettleSDK version]', symObjAddr: 0x818, symBinAddr: 0xB1CC, symSize: 0xC }
+  - { offset: 0x769D2, size: 0x8, addend: 0x0, symName: '-[iZettleSDK trackingEndpointForAccount:]', symObjAddr: 0x824, symBinAddr: 0xB1D8, symSize: 0xB4 }
+  - { offset: 0x76A48, size: 0x8, addend: 0x0, symName: '-[iZettleSDK customTrackingSessionTimestamp]', symObjAddr: 0x8D8, symBinAddr: 0xB28C, symSize: 0x8 }
+  - { offset: 0x76A7C, size: 0x8, addend: 0x0, symName: '-[iZettleSDK trackingEndpointForNetworkContext:]', symObjAddr: 0x8E0, symBinAddr: 0xB294, symSize: 0xB0 }
+  - { offset: 0x76AE3, size: 0x8, addend: 0x0, symName: '-[iZettleSDK subscribeToAppLifeCycleEvents]', symObjAddr: 0x990, symBinAddr: 0xB344, symSize: 0x1F0 }
+  - { offset: 0x76B28, size: 0x8, addend: 0x0, symName: '___43-[iZettleSDK subscribeToAppLifeCycleEvents]_block_invoke', symObjAddr: 0xB80, symBinAddr: 0xB534, symSize: 0xC }
+  - { offset: 0x76B77, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0xB8C, symBinAddr: 0xB540, symSize: 0x8 }
+  - { offset: 0x76B9E, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0xB94, symBinAddr: 0xB548, symSize: 0x8 }
+  - { offset: 0x76BBD, size: 0x8, addend: 0x0, symName: '___43-[iZettleSDK subscribeToAppLifeCycleEvents]_block_invoke.27', symObjAddr: 0xB9C, symBinAddr: 0xB550, symSize: 0xC }
+  - { offset: 0x76C0C, size: 0x8, addend: 0x0, symName: '___43-[iZettleSDK subscribeToAppLifeCycleEvents]_block_invoke_2', symObjAddr: 0xBA8, symBinAddr: 0xB55C, symSize: 0xC }
+  - { offset: 0x76C5B, size: 0x8, addend: 0x0, symName: '___43-[iZettleSDK subscribeToAppLifeCycleEvents]_block_invoke_3', symObjAddr: 0xBB4, symBinAddr: 0xB568, symSize: 0xC }
+  - { offset: 0x76CAA, size: 0x8, addend: 0x0, symName: '___43-[iZettleSDK subscribeToAppLifeCycleEvents]_block_invoke_4', symObjAddr: 0xBC0, symBinAddr: 0xB574, symSize: 0xC }
+  - { offset: 0x76CF9, size: 0x8, addend: 0x0, symName: '___43-[iZettleSDK subscribeToAppLifeCycleEvents]_block_invoke_5', symObjAddr: 0xBCC, symBinAddr: 0xB580, symSize: 0xC }
+  - { offset: 0x76D48, size: 0x8, addend: 0x0, symName: '-[iZettleSDK didReceiveAppLifeCycleEvent:]', symObjAddr: 0xBD8, symBinAddr: 0xB58C, symSize: 0x50 }
+  - { offset: 0x76DE7, size: 0x8, addend: 0x0, symName: '-[iZettleSDK _presentOperationFromViewController:withFunction:authorizationProvider:completion:]', symObjAddr: 0xC28, symBinAddr: 0xB5DC, symSize: 0xBC }
+  - { offset: 0x76E63, size: 0x8, addend: 0x0, symName: '___96-[iZettleSDK _presentOperationFromViewController:withFunction:authorizationProvider:completion:]_block_invoke', symObjAddr: 0xCE4, symBinAddr: 0xB698, symSize: 0x90 }
+  - { offset: 0x76EFE, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0xD74, symBinAddr: 0xB728, symSize: 0x10 }
+  - { offset: 0x76F27, size: 0x8, addend: 0x0, symName: '-[iZettleSDK _presentGeneralOperationFromViewController:withFunction:shouldFailOnAbortTaskCompletion:authorizationProvider:completion:]', symObjAddr: 0xD84, symBinAddr: 0xB738, symSize: 0x3CC }
+  - { offset: 0x7700A, size: 0x8, addend: 0x0, symName: '___135-[iZettleSDK _presentGeneralOperationFromViewController:withFunction:shouldFailOnAbortTaskCompletion:authorizationProvider:completion:]_block_invoke', symObjAddr: 0x1150, symBinAddr: 0xBB04, symSize: 0xA0 }
+  - { offset: 0x77089, size: 0x8, addend: 0x0, symName: '___135-[iZettleSDK _presentGeneralOperationFromViewController:withFunction:shouldFailOnAbortTaskCompletion:authorizationProvider:completion:]_block_invoke.36', symObjAddr: 0x11F0, symBinAddr: 0xBBA4, symSize: 0xC }
+  - { offset: 0x770CB, size: 0x8, addend: 0x0, symName: '___135-[iZettleSDK _presentGeneralOperationFromViewController:withFunction:shouldFailOnAbortTaskCompletion:authorizationProvider:completion:]_block_invoke.37', symObjAddr: 0x11FC, symBinAddr: 0xBBB0, symSize: 0x3C }
+  - { offset: 0x770F4, size: 0x8, addend: 0x0, symName: '-[iZettleSDK _validateConditions:]', symObjAddr: 0x1238, symBinAddr: 0xBBEC, symSize: 0xE4 }
+  - { offset: 0x77139, size: 0x8, addend: 0x0, symName: '-[iZettleSDK updateProgress:]', symObjAddr: 0x131C, symBinAddr: 0xBCD0, symSize: 0x4 }
+  - { offset: 0x77176, size: 0x8, addend: 0x0, symName: '-[iZettleSDK abortTask]', symObjAddr: 0x1320, symBinAddr: 0xBCD4, symSize: 0x8 }
+  - { offset: 0x771AD, size: 0x8, addend: 0x0, symName: '-[iZettleSDK setAbortTask:]', symObjAddr: 0x1328, symBinAddr: 0xBCDC, symSize: 0xC }
+  - { offset: 0x771EE, size: 0x8, addend: 0x0, symName: '-[iZettleSDK account]', symObjAddr: 0x1334, symBinAddr: 0xBCE8, symSize: 0x8 }
+  - { offset: 0x77225, size: 0x8, addend: 0x0, symName: '-[iZettleSDK setAccount:]', symObjAddr: 0x133C, symBinAddr: 0xBCF0, symSize: 0xC }
+  - { offset: 0x77266, size: 0x8, addend: 0x0, symName: '-[iZettleSDK authorizationProvider]', symObjAddr: 0x1348, symBinAddr: 0xBCFC, symSize: 0x8 }
+  - { offset: 0x7729D, size: 0x8, addend: 0x0, symName: '-[iZettleSDK appEventsManager]', symObjAddr: 0x1350, symBinAddr: 0xBD04, symSize: 0x8 }
+  - { offset: 0x772D4, size: 0x8, addend: 0x0, symName: '-[iZettleSDK provisioningProgressBlock]', symObjAddr: 0x1358, symBinAddr: 0xBD0C, symSize: 0x8 }
+  - { offset: 0x7730B, size: 0x8, addend: 0x0, symName: '-[iZettleSDK setProvisioningProgressBlock:]', symObjAddr: 0x1360, symBinAddr: 0xBD14, symSize: 0x8 }
+  - { offset: 0x7734A, size: 0x8, addend: 0x0, symName: '-[iZettleSDK .cxx_destruct]', symObjAddr: 0x1368, symBinAddr: 0xBD1C, symSize: 0x78 }
+  - { offset: 0x7737D, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(SharedOperations) logout]', symObjAddr: 0x13E0, symBinAddr: 0xBD94, symSize: 0x64 }
+  - { offset: 0x773C2, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(SharedOperations) abortOperation]', symObjAddr: 0x1444, symBinAddr: 0xBDF8, symSize: 0x6C }
+  - { offset: 0x773F6, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(SharedOperations) validateAmount:error:]', symObjAddr: 0x14B0, symBinAddr: 0xBE64, symSize: 0x314 }
+  - { offset: 0x7747D, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(SharedOperations) refundAmount:ofPaymentWithReference:refundReference:presentFromViewController:completion:]', symObjAddr: 0x17C4, symBinAddr: 0xC178, symSize: 0x2A4 }
+  - { offset: 0x77538, size: 0x8, addend: 0x0, symName: '___121-[iZettleSDK(SharedOperations) refundAmount:ofPaymentWithReference:refundReference:presentFromViewController:completion:]_block_invoke', symObjAddr: 0x1A68, symBinAddr: 0xC41C, symSize: 0x90 }
+  - { offset: 0x775D3, size: 0x8, addend: 0x0, symName: '___121-[iZettleSDK(SharedOperations) refundAmount:ofPaymentWithReference:refundReference:presentFromViewController:completion:]_block_invoke_2', symObjAddr: 0x1AF8, symBinAddr: 0xC4AC, symSize: 0x184 }
+  - { offset: 0x776AC, size: 0x8, addend: 0x0, symName: '___121-[iZettleSDK(SharedOperations) refundAmount:ofPaymentWithReference:refundReference:presentFromViewController:completion:]_block_invoke_3', symObjAddr: 0x1C7C, symBinAddr: 0xC630, symSize: 0x80 }
+  - { offset: 0x776FF, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x1CFC, symBinAddr: 0xC6B0, symSize: 0x28 }
+  - { offset: 0x77728, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s, symObjAddr: 0x1D4C, symBinAddr: 0xC6D8, symSize: 0x38 }
+  - { offset: 0x77751, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x1D84, symBinAddr: 0xC710, symSize: 0x38 }
+  - { offset: 0x77770, size: 0x8, addend: 0x0, symName: '-[IZSDKSettingsConfiguration initWithPayPalReaderTippingSettingsEnabled:]', symObjAddr: 0x1DBC, symBinAddr: 0xC748, symSize: 0x48 }
+  - { offset: 0x777B9, size: 0x8, addend: 0x0, symName: '-[IZSDKSettingsConfiguration paypalReaderTippingSettingsEnabled]', symObjAddr: 0x1E04, symBinAddr: 0xC790, symSize: 0x8 }
+  - { offset: 0x777F0, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(Operations) presentSettingsFromViewController:]', symObjAddr: 0x1E0C, symBinAddr: 0xC798, symSize: 0x68 }
+  - { offset: 0x77846, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(Operations) presentSettingsFromViewController:configuration:]', symObjAddr: 0x1E74, symBinAddr: 0xC800, symSize: 0x148 }
+  - { offset: 0x778AD, size: 0x8, addend: 0x0, symName: '___74-[iZettleSDK(Operations) presentSettingsFromViewController:configuration:]_block_invoke', symObjAddr: 0x1FBC, symBinAddr: 0xC948, symSize: 0x16C }
+  - { offset: 0x77979, size: 0x8, addend: 0x0, symName: '___74-[iZettleSDK(Operations) presentSettingsFromViewController:configuration:]_block_invoke_2', symObjAddr: 0x2128, symBinAddr: 0xCAB4, symSize: 0x54 }
+  - { offset: 0x779B7, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x217C, symBinAddr: 0xCB08, symSize: 0x30 }
+  - { offset: 0x779E0, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x21AC, symBinAddr: 0xCB38, symSize: 0x30 }
+  - { offset: 0x779FF, size: 0x8, addend: 0x0, symName: '___74-[iZettleSDK(Operations) presentSettingsFromViewController:configuration:]_block_invoke.201', symObjAddr: 0x21DC, symBinAddr: 0xCB68, symSize: 0x4 }
+  - { offset: 0x77A42, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(Operations) enabledAPMTypes]', symObjAddr: 0x21E0, symBinAddr: 0xCB6C, symSize: 0x17C }
+  - { offset: 0x77AAB, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(Operations) applicationDidOpenWithURL:]', symObjAddr: 0x235C, symBinAddr: 0xCCE8, symSize: 0x154 }
+  - { offset: 0x77AF0, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(Operations) startWithAuthorizationProvider:enableDeveloperMode:]', symObjAddr: 0x24B0, symBinAddr: 0xCE3C, symSize: 0x64 }
+  - { offset: 0x77B46, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) setEnabledAlternativePaymentMethods:]', symObjAddr: 0x2514, symBinAddr: 0xCEA0, symSize: 0x154 }
+  - { offset: 0x77BD6, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) _apmRetrieveOperationWithReference:requiredScopes:provider:shouldFailOnAbortTaskCompletion:presentFromViewController:completion:]', symObjAddr: 0x2668, symBinAddr: 0xCFF4, symSize: 0x1B8 }
+  - { offset: 0x77CA2, size: 0x8, addend: 0x0, symName: '___147-[iZettleSDK(QRC) _apmRetrieveOperationWithReference:requiredScopes:provider:shouldFailOnAbortTaskCompletion:presentFromViewController:completion:]_block_invoke', symObjAddr: 0x2820, symBinAddr: 0xD1AC, symSize: 0xAC }
+  - { offset: 0x77D48, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) _apmHeadlessRetrieveOperationWithReference:provider:completion:]', symObjAddr: 0x28CC, symBinAddr: 0xD258, symSize: 0x134 }
+  - { offset: 0x77DE1, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) _apmRefundOperationWithAmount:ofPaymentWithReference:refundReference:provider:shouldFailOnAbortTaskCompletion:presentFromViewController:completion:]', symObjAddr: 0x2A00, symBinAddr: 0xD38C, symSize: 0x21C }
+  - { offset: 0x77EBE, size: 0x8, addend: 0x0, symName: '___166-[iZettleSDK(QRC) _apmRefundOperationWithAmount:ofPaymentWithReference:refundReference:provider:shouldFailOnAbortTaskCompletion:presentFromViewController:completion:]_block_invoke', symObjAddr: 0x2C1C, symBinAddr: 0xD5A8, symSize: 0x17C }
+  - { offset: 0x77FAC, size: 0x8, addend: 0x0, symName: '___166-[iZettleSDK(QRC) _apmRefundOperationWithAmount:ofPaymentWithReference:refundReference:provider:shouldFailOnAbortTaskCompletion:presentFromViewController:completion:]_block_invoke_2', symObjAddr: 0x2D98, symBinAddr: 0xD724, symSize: 0x118 }
+  - { offset: 0x78045, size: 0x8, addend: 0x0, symName: '___166-[iZettleSDK(QRC) _apmRefundOperationWithAmount:ofPaymentWithReference:refundReference:provider:shouldFailOnAbortTaskCompletion:presentFromViewController:completion:]_block_invoke_3', symObjAddr: 0x2EB0, symBinAddr: 0xD83C, symSize: 0x14 }
+  - { offset: 0x780A3, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72s, symObjAddr: 0x2EC4, symBinAddr: 0xD850, symSize: 0x48 }
+  - { offset: 0x780CC, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72s, symObjAddr: 0x2F0C, symBinAddr: 0xD898, symSize: 0x48 }
+  - { offset: 0x780EB, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) chargePayPalQRCWithAmount:reference:appearance:presentFromViewController:completion:]', symObjAddr: 0x2F54, symBinAddr: 0xD8E0, symSize: 0xC8 }
+  - { offset: 0x78174, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) chargePayPalQRCWithAmount:reference:presentedFromViewController:completion:]', symObjAddr: 0x301C, symBinAddr: 0xD9A8, symSize: 0x2B0 }
+  - { offset: 0x7822F, size: 0x8, addend: 0x0, symName: '___94-[iZettleSDK(QRC) chargePayPalQRCWithAmount:reference:presentedFromViewController:completion:]_block_invoke', symObjAddr: 0x32CC, symBinAddr: 0xDC58, symSize: 0x268 }
+  - { offset: 0x7830C, size: 0x8, addend: 0x0, symName: '___94-[iZettleSDK(QRC) chargePayPalQRCWithAmount:reference:presentedFromViewController:completion:]_block_invoke_2', symObjAddr: 0x3534, symBinAddr: 0xDEC0, symSize: 0xC }
+  - { offset: 0x7835B, size: 0x8, addend: 0x0, symName: '___94-[iZettleSDK(QRC) chargePayPalQRCWithAmount:reference:presentedFromViewController:completion:]_block_invoke.235', symObjAddr: 0x3540, symBinAddr: 0xDECC, symSize: 0xC }
+  - { offset: 0x783AA, size: 0x8, addend: 0x0, symName: '___94-[iZettleSDK(QRC) chargePayPalQRCWithAmount:reference:presentedFromViewController:completion:]_block_invoke.237', symObjAddr: 0x354C, symBinAddr: 0xDED8, symSize: 0x98 }
+  - { offset: 0x78456, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) validatePaypalQRCAmount:]', symObjAddr: 0x35E4, symBinAddr: 0xDF70, symSize: 0x384 }
+  - { offset: 0x78501, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) chargeVenmoQRCWithAmount:reference:presentedFromViewController:completion:]', symObjAddr: 0x3968, symBinAddr: 0xE2F4, symSize: 0x2B0 }
+  - { offset: 0x785BC, size: 0x8, addend: 0x0, symName: '___93-[iZettleSDK(QRC) chargeVenmoQRCWithAmount:reference:presentedFromViewController:completion:]_block_invoke', symObjAddr: 0x3C18, symBinAddr: 0xE5A4, symSize: 0x268 }
+  - { offset: 0x78699, size: 0x8, addend: 0x0, symName: '___93-[iZettleSDK(QRC) chargeVenmoQRCWithAmount:reference:presentedFromViewController:completion:]_block_invoke_2', symObjAddr: 0x3E80, symBinAddr: 0xE80C, symSize: 0xC }
+  - { offset: 0x786E8, size: 0x8, addend: 0x0, symName: '___93-[iZettleSDK(QRC) chargeVenmoQRCWithAmount:reference:presentedFromViewController:completion:]_block_invoke_3', symObjAddr: 0x3E8C, symBinAddr: 0xE818, symSize: 0xC }
+  - { offset: 0x78737, size: 0x8, addend: 0x0, symName: '___93-[iZettleSDK(QRC) chargeVenmoQRCWithAmount:reference:presentedFromViewController:completion:]_block_invoke_4', symObjAddr: 0x3E98, symBinAddr: 0xE824, symSize: 0x98 }
+  - { offset: 0x787E3, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) validateVenmoQRCAmount:]', symObjAddr: 0x3F30, symBinAddr: 0xE8BC, symSize: 0x384 }
+  - { offset: 0x7888E, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) retrievePayPalQRCPaymentInfoForReference:presentFromViewController:completion:]', symObjAddr: 0x42B4, symBinAddr: 0xEC40, symSize: 0x120 }
+  - { offset: 0x788F5, size: 0x8, addend: 0x0, symName: '___97-[iZettleSDK(QRC) retrievePayPalQRCPaymentInfoForReference:presentFromViewController:completion:]_block_invoke', symObjAddr: 0x43D4, symBinAddr: 0xED60, symSize: 0x98 }
+  - { offset: 0x789A1, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) retrievePayPalQRCPaymentInfoForReference:completion:]', symObjAddr: 0x446C, symBinAddr: 0xEDF8, symSize: 0xD4 }
+  - { offset: 0x789F7, size: 0x8, addend: 0x0, symName: '___71-[iZettleSDK(QRC) retrievePayPalQRCPaymentInfoForReference:completion:]_block_invoke', symObjAddr: 0x4540, symBinAddr: 0xEECC, symSize: 0x98 }
+  - { offset: 0x78AA3, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) refundPayPalQRCAmount:ofPaymentWithReference:refundReference:presentFromViewController:completion:]', symObjAddr: 0x45D8, symBinAddr: 0xEF64, symSize: 0x23C }
+  - { offset: 0x78B5E, size: 0x8, addend: 0x0, symName: '___117-[iZettleSDK(QRC) refundPayPalQRCAmount:ofPaymentWithReference:refundReference:presentFromViewController:completion:]_block_invoke', symObjAddr: 0x4814, symBinAddr: 0xF1A0, symSize: 0x98 }
+  - { offset: 0x78C0A, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(QRC) validatePayPalQRCReference:]', symObjAddr: 0x48AC, symBinAddr: 0xF238, symSize: 0x70 }
+  - { offset: 0x78C4F, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(CardReader) chargeAmount:enableTipping:reference:presentFromViewController:completion:]', symObjAddr: 0x491C, symBinAddr: 0xF2A8, symSize: 0x8 }
+  - { offset: 0x78CDF, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(CardReader) chargeAmount:tippingStyle:reference:presentFromViewController:completion:]', symObjAddr: 0x4924, symBinAddr: 0xF2B0, symSize: 0xDC }
+  - { offset: 0x78D9B, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(CardReader) chargeAmount:tippingConfiguration:reference:presentFromViewController:completion:]', symObjAddr: 0x4A00, symBinAddr: 0xF38C, symSize: 0x10 }
+  - { offset: 0x78E1C, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(CardReader) chargeAmount:tippingConfiguration:reference:paymentStyle:presentFromViewController:completion:]', symObjAddr: 0x4A10, symBinAddr: 0xF39C, symSize: 0x308 }
+  - { offset: 0x78F2E, size: 0x8, addend: 0x0, symName: '___120-[iZettleSDK(CardReader) chargeAmount:tippingConfiguration:reference:paymentStyle:presentFromViewController:completion:]_block_invoke', symObjAddr: 0x4D18, symBinAddr: 0xF6A4, symSize: 0x90 }
+  - { offset: 0x78FC9, size: 0x8, addend: 0x0, symName: '___120-[iZettleSDK(CardReader) chargeAmount:tippingConfiguration:reference:paymentStyle:presentFromViewController:completion:]_block_invoke_2', symObjAddr: 0x4DA8, symBinAddr: 0xF734, symSize: 0x1E4 }
+  - { offset: 0x790B0, size: 0x8, addend: 0x0, symName: '___120-[iZettleSDK(CardReader) chargeAmount:tippingConfiguration:reference:paymentStyle:presentFromViewController:completion:]_block_invoke_3', symObjAddr: 0x4F8C, symBinAddr: 0xF918, symSize: 0x164 }
+  - { offset: 0x791B7, size: 0x8, addend: 0x0, symName: '___120-[iZettleSDK(CardReader) chargeAmount:tippingConfiguration:reference:paymentStyle:presentFromViewController:completion:]_block_invoke_4', symObjAddr: 0x50F0, symBinAddr: 0xFA7C, symSize: 0x8 }
+  - { offset: 0x791F5, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(CardReader) retrievePaymentInfoForReference:presentFromViewController:completion:]', symObjAddr: 0x50F8, symBinAddr: 0xFA84, symSize: 0x198 }
+  - { offset: 0x7929F, size: 0x8, addend: 0x0, symName: '___95-[iZettleSDK(CardReader) retrievePaymentInfoForReference:presentFromViewController:completion:]_block_invoke', symObjAddr: 0x5290, symBinAddr: 0xFC1C, symSize: 0xF4 }
+  - { offset: 0x79334, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(CardReader) retrievePaymentInfoForReference:completion:]', symObjAddr: 0x5384, symBinAddr: 0xFD10, symSize: 0x27C }
+  - { offset: 0x793ED, size: 0x8, addend: 0x0, symName: '___69-[iZettleSDK(CardReader) retrievePaymentInfoForReference:completion:]_block_invoke', symObjAddr: 0x5600, symBinAddr: 0xFF8C, symSize: 0x14 }
+  - { offset: 0x79457, size: 0x8, addend: 0x0, symName: '___69-[iZettleSDK(CardReader) retrievePaymentInfoForReference:completion:]_block_invoke.268', symObjAddr: 0x5614, symBinAddr: 0xFFA0, symSize: 0x50 }
+  - { offset: 0x794B5, size: 0x8, addend: 0x0, symName: '___69-[iZettleSDK(CardReader) retrievePaymentInfoForReference:completion:]_block_invoke_2', symObjAddr: 0x5664, symBinAddr: 0xFFF0, symSize: 0x7C }
+  - { offset: 0x79529, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(ManualCardEntry) chargeManualCardEntryWithAmount:reference:presentFromViewController:completion:]', symObjAddr: 0x56E0, symBinAddr: 0x1006C, symSize: 0x3B0 }
+  - { offset: 0x7960B, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x5A90, symBinAddr: 0x1041C, symSize: 0x10 }
+  - { offset: 0x79630, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x5AA0, symBinAddr: 0x1042C, symSize: 0x8 }
+  - { offset: 0x7964F, size: 0x8, addend: 0x0, symName: '___110-[iZettleSDK(ManualCardEntry) chargeManualCardEntryWithAmount:reference:presentFromViewController:completion:]_block_invoke', symObjAddr: 0x5AA8, symBinAddr: 0x10434, symSize: 0xF4 }
+  - { offset: 0x7969E, size: 0x8, addend: 0x0, symName: '___110-[iZettleSDK(ManualCardEntry) chargeManualCardEntryWithAmount:reference:presentFromViewController:completion:]_block_invoke.289', symObjAddr: 0x5B9C, symBinAddr: 0x10528, symSize: 0x128 }
+  - { offset: 0x7977B, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64r, symObjAddr: 0x5CC4, symBinAddr: 0x10650, symSize: 0x4C }
+  - { offset: 0x797A4, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64r, symObjAddr: 0x5D10, symBinAddr: 0x1069C, symSize: 0x44 }
+  - { offset: 0x797C3, size: 0x8, addend: 0x0, symName: '___110-[iZettleSDK(ManualCardEntry) chargeManualCardEntryWithAmount:reference:presentFromViewController:completion:]_block_invoke.291', symObjAddr: 0x5D54, symBinAddr: 0x106E0, symSize: 0xC0 }
+  - { offset: 0x79880, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40r, symObjAddr: 0x5E14, symBinAddr: 0x107A0, symSize: 0x3C }
+  - { offset: 0x798A9, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0x5E50, symBinAddr: 0x107DC, symSize: 0x2C }
+  - { offset: 0x798C8, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(ManualCardEntry) retrieveManualCardEntryInfoForReference:presentFromViewController:completion:]', symObjAddr: 0x5E7C, symBinAddr: 0x10808, symSize: 0x124 }
+  - { offset: 0x7992F, size: 0x8, addend: 0x0, symName: '___108-[iZettleSDK(ManualCardEntry) retrieveManualCardEntryInfoForReference:presentFromViewController:completion:]_block_invoke', symObjAddr: 0x5FA0, symBinAddr: 0x1092C, symSize: 0x98 }
+  - { offset: 0x799DB, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(ManualCardEntry) retrieveManualCardEntryInfoForReference:completion:]', symObjAddr: 0x6038, symBinAddr: 0x109C4, symSize: 0xD8 }
+  - { offset: 0x79A31, size: 0x8, addend: 0x0, symName: '___82-[iZettleSDK(ManualCardEntry) retrieveManualCardEntryInfoForReference:completion:]_block_invoke', symObjAddr: 0x6110, symBinAddr: 0x10A9C, symSize: 0x98 }
+  - { offset: 0x79ADD, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(ManualCardEntry) refundManualCardEntryAmount:ofPaymentWithReference:refundReference:presentFromViewController:completion:]', symObjAddr: 0x61A8, symBinAddr: 0x10B34, symSize: 0x298 }
+  - { offset: 0x79B98, size: 0x8, addend: 0x0, symName: '___135-[iZettleSDK(ManualCardEntry) refundManualCardEntryAmount:ofPaymentWithReference:refundReference:presentFromViewController:completion:]_block_invoke', symObjAddr: 0x6440, symBinAddr: 0x10DCC, symSize: 0x98 }
+  - { offset: 0x79C44, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(ManualCardEntry) validateManualCardEntryAmount:]', symObjAddr: 0x64D8, symBinAddr: 0x10E64, symSize: 0x384 }
+  - { offset: 0x79CEF, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(ManualCardEntry) validateManualCardEntryReference:]', symObjAddr: 0x685C, symBinAddr: 0x111E8, symSize: 0x70 }
+  - { offset: 0x79D34, size: 0x8, addend: 0x0, symName: '-[IZSDKPredefinedTippingValues initWithOption1:option2:option3:]', symObjAddr: 0x68CC, symBinAddr: 0x11258, symSize: 0x5C }
+  - { offset: 0x79D9F, size: 0x8, addend: 0x0, symName: '-[IZSDKPredefinedTippingValues option1]', symObjAddr: 0x6928, symBinAddr: 0x112B4, symSize: 0x8 }
+  - { offset: 0x79DD6, size: 0x8, addend: 0x0, symName: '-[IZSDKPredefinedTippingValues option2]', symObjAddr: 0x6930, symBinAddr: 0x112BC, symSize: 0x8 }
+  - { offset: 0x79E0D, size: 0x8, addend: 0x0, symName: '-[IZSDKPredefinedTippingValues option3]', symObjAddr: 0x6938, symBinAddr: 0x112C4, symSize: 0x8 }
+  - { offset: 0x79E44, size: 0x8, addend: 0x0, symName: '-[IZSDKTippingConfiguration initWithZettleReaderTippingStyle:]', symObjAddr: 0x6940, symBinAddr: 0x112CC, symSize: 0xC }
+  - { offset: 0x79E89, size: 0x8, addend: 0x0, symName: '-[IZSDKTippingConfiguration initWithPayPalReaderTippingStyle:]', symObjAddr: 0x694C, symBinAddr: 0x112D8, symSize: 0x10 }
+  - { offset: 0x79ED2, size: 0x8, addend: 0x0, symName: '-[IZSDKTippingConfiguration initWithPayPalReaderTippingStyle:paypalReaderPredefinedTippingValues:]', symObjAddr: 0x695C, symBinAddr: 0x112E8, symSize: 0x10 }
+  - { offset: 0x79F2C, size: 0x8, addend: 0x0, symName: '-[IZSDKTippingConfiguration initWithZettleReaderTippingStyle:paypalReaderTippingStyle:]', symObjAddr: 0x696C, symBinAddr: 0x112F8, symSize: 0x8 }
+  - { offset: 0x79F80, size: 0x8, addend: 0x0, symName: '-[IZSDKTippingConfiguration initWithZettleReaderTippingStyle:paypalReaderTippingStyle:paypalReaderPredefinedTippingValues:]', symObjAddr: 0x6974, symBinAddr: 0x11300, symSize: 0x4 }
+  - { offset: 0x79FE3, size: 0x8, addend: 0x0, symName: '-[IZSDKTippingConfiguration initWithZettleReaderTippingStyle:paypalReaderTippingStyle:nullablePayPalReaderPredefinedTips:]', symObjAddr: 0x6978, symBinAddr: 0x11304, symSize: 0x8C }
+  - { offset: 0x7A04E, size: 0x8, addend: 0x0, symName: '+[IZSDKTippingConfiguration sdkConfiguredTippingConfiguration]', symObjAddr: 0x6A04, symBinAddr: 0x11390, symSize: 0x20 }
+  - { offset: 0x7A086, size: 0x8, addend: 0x0, symName: '+[IZSDKTippingConfiguration disabledTippingConfiguration]', symObjAddr: 0x6A24, symBinAddr: 0x113B0, symSize: 0x20 }
+  - { offset: 0x7A0BE, size: 0x8, addend: 0x0, symName: '-[IZSDKTippingConfiguration zettleReaderTippingStyle]', symObjAddr: 0x6A44, symBinAddr: 0x113D0, symSize: 0x8 }
+  - { offset: 0x7A0F5, size: 0x8, addend: 0x0, symName: '-[IZSDKTippingConfiguration paypalReaderTippingStyle]', symObjAddr: 0x6A4C, symBinAddr: 0x113D8, symSize: 0x8 }
+  - { offset: 0x7A12C, size: 0x8, addend: 0x0, symName: '-[IZSDKTippingConfiguration paypalReaderPredefinedTippingValues]', symObjAddr: 0x6A54, symBinAddr: 0x113E0, symSize: 0x8 }
+  - { offset: 0x7A163, size: 0x8, addend: 0x0, symName: '-[IZSDKTippingConfiguration .cxx_destruct]', symObjAddr: 0x6A5C, symBinAddr: 0x113E8, symSize: 0xC }
+  - { offset: 0x7A197, size: 0x8, addend: 0x0, symName: '-[iZettleSDK(DarkMode) startWithAuthorizationProvider:enableDeveloperMode:enableDarkMode:]', symObjAddr: 0x6A68, symBinAddr: 0x113F4, symSize: 0x8 }
+  - { offset: 0x7BD10, size: 0x8, addend: 0x0, symName: '+[NSError(QRCDevMode) ztl_qrcPaymentErrorForDevModeCase:]', symObjAddr: 0x0, symBinAddr: 0x113FC, symSize: 0x94 }
+  - { offset: 0x7BD1E, size: 0x8, addend: 0x0, symName: '+[NSError(QRCDevMode) ztl_qrcPaymentErrorForDevModeCase:]', symObjAddr: 0x0, symBinAddr: 0x113FC, symSize: 0x94 }
+  - { offset: 0x7BD61, size: 0x8, addend: 0x0, symName: '+[NSError(QRCDevMode) ztl_qrcRefundErrorForDevModeCase:]', symObjAddr: 0x94, symBinAddr: 0x11490, symSize: 0x98 }
+  - { offset: 0x7BE09, size: 0x8, addend: 0x0, symName: '+[IZSDKManualCardEntryPaymentInfo(DevMode) paymentInfoForDevModeCase:amount:]', symObjAddr: 0x0, symBinAddr: 0x11528, symSize: 0x154 }
+  - { offset: 0x7BE17, size: 0x8, addend: 0x0, symName: '+[IZSDKManualCardEntryPaymentInfo(DevMode) paymentInfoForDevModeCase:amount:]', symObjAddr: 0x0, symBinAddr: 0x11528, symSize: 0x154 }
+  - { offset: 0x7BE99, size: 0x8, addend: 0x0, symName: '+[IZSDKManualCardEntryPaymentInfo(DevMode) refundInfoForDevModeCase:amount:]', symObjAddr: 0x154, symBinAddr: 0x1167C, symSize: 0x1A0 }
+  - { offset: 0x7BFE1, size: 0x8, addend: 0x0, symName: '+[NSError(ManualCardEntryDevMode) ztl_mcePaymentErrorForDevModeCase:]', symObjAddr: 0x0, symBinAddr: 0x1181C, symSize: 0x94 }
+  - { offset: 0x7BFEF, size: 0x8, addend: 0x0, symName: '+[NSError(ManualCardEntryDevMode) ztl_mcePaymentErrorForDevModeCase:]', symObjAddr: 0x0, symBinAddr: 0x1181C, symSize: 0x94 }
+  - { offset: 0x7C032, size: 0x8, addend: 0x0, symName: '+[NSError(ManualCardEntryDevMode) ztl_mceRefundErrorForDevModeCase:]', symObjAddr: 0x94, symBinAddr: 0x118B0, symSize: 0xAC }
+  - { offset: 0x7C0DA, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCInvalidAmountError]', symObjAddr: 0x0, symBinAddr: 0x1195C, symSize: 0x8 }
+  - { offset: 0x7C0F4, size: 0x8, addend: 0x0, symName: _IZSDKPayPalQRCErrorDomain, symObjAddr: 0xD80, symBinAddr: 0x24CC0, symSize: 0x0 }
+  - { offset: 0x7C1A1, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCInvalidAmountError]', symObjAddr: 0x0, symBinAddr: 0x1195C, symSize: 0x8 }
+  - { offset: 0x7C1D6, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCInvalidTransactionConfigurationError]', symObjAddr: 0x8, symBinAddr: 0x11964, symSize: 0x8 }
+  - { offset: 0x7C20B, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCCancelledByBuyerError]', symObjAddr: 0x10, symBinAddr: 0x1196C, symSize: 0x8 }
+  - { offset: 0x7C240, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCPaymentCancelledByMerchantError]', symObjAddr: 0x18, symBinAddr: 0x11974, symSize: 0x8 }
+  - { offset: 0x7C275, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCTechnicalError]', symObjAddr: 0x20, symBinAddr: 0x1197C, symSize: 0x8 }
+  - { offset: 0x7C2AA, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCPaymentNotFoundError]', symObjAddr: 0x28, symBinAddr: 0x11984, symSize: 0x8 }
+  - { offset: 0x7C2DF, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCInsufficientFundsError]', symObjAddr: 0x30, symBinAddr: 0x1198C, symSize: 0x8 }
+  - { offset: 0x7C314, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCRefundFailedError]', symObjAddr: 0x38, symBinAddr: 0x11994, symSize: 0x8 }
+  - { offset: 0x7C349, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCRefundCancelledError]', symObjAddr: 0x40, symBinAddr: 0x1199C, symSize: 0x8 }
+  - { offset: 0x7C37E, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCAmountTooLowErrorWithMinimumAmount:]', symObjAddr: 0x48, symBinAddr: 0x119A4, symSize: 0x6C }
+  - { offset: 0x7C3D3, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCAmountTooHighErrorWithMaximumAmount:]', symObjAddr: 0xB4, symBinAddr: 0x11A10, symSize: 0x6C }
+  - { offset: 0x7C428, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCErrorFromAPMError:]', symObjAddr: 0x120, symBinAddr: 0x11A7C, symSize: 0xA8 }
+  - { offset: 0x7C47F, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCErrorFromAPMPaymentInfoError:]', symObjAddr: 0x1C8, symBinAddr: 0x11B24, symSize: 0xA8 }
+  - { offset: 0x7C4D6, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCErrorFromAPMRefundError:]', symObjAddr: 0x270, symBinAddr: 0x11BCC, symSize: 0xA8 }
+  - { offset: 0x7C52D, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_paypalQRCErrorWith:]', symObjAddr: 0x318, symBinAddr: 0x11C74, symSize: 0x74 }
+  - { offset: 0x7C574, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_errorCodeForPaymentError:]', symObjAddr: 0x38C, symBinAddr: 0x11CE8, symSize: 0x38 }
+  - { offset: 0x7C5B7, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_errorCodeForPaymentInfoError:]', symObjAddr: 0x3C4, symBinAddr: 0x11D20, symSize: 0x38 }
+  - { offset: 0x7C5FA, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_errorCodeForRefundError:]', symObjAddr: 0x3FC, symBinAddr: 0x11D58, symSize: 0x9C }
+  - { offset: 0x7C63D, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_errorUserInfoFor:minAmountString:maxAmountString:]', symObjAddr: 0x498, symBinAddr: 0x11DF4, symSize: 0xA0 }
+  - { offset: 0x7C6A4, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKPayPalQRCError) ztl_errorDescriptionFor:minAmountString:maxAmountString:]', symObjAddr: 0x538, symBinAddr: 0x11E94, symSize: 0x1C4 }
+  - { offset: 0x7C7A0, size: 0x8, addend: 0x0, symName: '+[IZSDKManualCardEntryPaymentInfo withPaymentInfo:]', symObjAddr: 0x0, symBinAddr: 0x12058, symSize: 0xF8 }
+  - { offset: 0x7C817, size: 0x8, addend: 0x0, symName: '+[IZSDKManualCardEntryPaymentInfo withPaymentInfo:]', symObjAddr: 0x0, symBinAddr: 0x12058, symSize: 0xF8 }
+  - { offset: 0x7C88A, size: 0x8, addend: 0x0, symName: '-[IZSDKManualCardEntryPaymentInfo initWithReferenceNumber:amount:transactionId:]', symObjAddr: 0xF8, symBinAddr: 0x12150, symSize: 0xD0 }
+  - { offset: 0x7C8F1, size: 0x8, addend: 0x0, symName: '-[IZSDKManualCardEntryPaymentInfo amount]', symObjAddr: 0x1C8, symBinAddr: 0x12220, symSize: 0x8 }
+  - { offset: 0x7C928, size: 0x8, addend: 0x0, symName: '-[IZSDKManualCardEntryPaymentInfo referenceNumber]', symObjAddr: 0x1D0, symBinAddr: 0x12228, symSize: 0x8 }
+  - { offset: 0x7C95F, size: 0x8, addend: 0x0, symName: '-[IZSDKManualCardEntryPaymentInfo transactionId]', symObjAddr: 0x1D8, symBinAddr: 0x12230, symSize: 0x8 }
+  - { offset: 0x7C996, size: 0x8, addend: 0x0, symName: '-[IZSDKManualCardEntryPaymentInfo .cxx_destruct]', symObjAddr: 0x1E0, symBinAddr: 0x12238, symSize: 0x3C }
+  - { offset: 0x7CA7F, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA35SDKAuthorizationProviderErrorDomainSo8NSStringCvp', symObjAddr: 0x26A8, symBinAddr: 0x29848, symSize: 0x0 }
+  - { offset: 0x7CA8D, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA35SDKAuthorizationProviderErrorDomain_WZ', symObjAddr: 0x0, symBinAddr: 0x12274, symSize: 0x70 }
+  - { offset: 0x7CAF4, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA35SDKAuthorizationProviderErrorDomainSo8NSStringCvg', symObjAddr: 0x70, symBinAddr: 0x122E4, symSize: 0x40 }
+  - { offset: 0x7CCAC, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOACs0E0AAWl', symObjAddr: 0x4B8, symBinAddr: 0x1272C, symSize: 0x44 }
+  - { offset: 0x7CD44, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK8validate33_B79720C8399F5587BAD10B51C57B1108LL11callbackURL10Foundation0L0VAG_tKF', symObjAddr: 0x4FC, symBinAddr: 0x12770, symSize: 0x56C }
+  - { offset: 0x7D161, size: 0x8, addend: 0x0, symName: '_$sSo8NSStringCSgIeyBa_SSSgIego_TR', symObjAddr: 0xB78, symBinAddr: 0x12DEC, symSize: 0x60 }
+  - { offset: 0x7D18F, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationCfETo', symObjAddr: 0xC84, symBinAddr: 0x12EF8, symSize: 0x68 }
+  - { offset: 0x7D1BE, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationC16authorizeAccount10completionyyAA01iA13SDKOAuthTokenCSg_s5Error_pSgtc_tF', symObjAddr: 0xCEC, symBinAddr: 0x12F60, symSize: 0x51C }
+  - { offset: 0x7D298, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x1208, symBinAddr: 0x1347C, symSize: 0x40 }
+  - { offset: 0x7D2AC, size: 0x8, addend: 0x0, symName: '_$sSo17IZOAuthTokenScopeCMa', symObjAddr: 0x1248, symBinAddr: 0x134BC, symSize: 0x3C }
+  - { offset: 0x7D2C0, size: 0x8, addend: 0x0, symName: '_$s15iZettlePayments26AuthorizationConfigurationV17AccountIdentifierOSgWOc', symObjAddr: 0x1284, symBinAddr: 0x134F8, symSize: 0x48 }
+  - { offset: 0x7D2D4, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationCAC01iA8Payments26OAuthDefaultImplementationAAWl', symObjAddr: 0x12CC, symBinAddr: 0x13540, symSize: 0x48 }
+  - { offset: 0x7D2E8, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationCMa', symObjAddr: 0x1314, symBinAddr: 0x13588, symSize: 0x3C }
+  - { offset: 0x7D2FC, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x1358, symBinAddr: 0x135CC, symSize: 0x10 }
+  - { offset: 0x7D310, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x1368, symBinAddr: 0x135DC, symSize: 0x8 }
+  - { offset: 0x7D324, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationC16authorizeAccount10completionyyAA01iA13SDKOAuthTokenCSg_s5Error_pSgtc_tFTo', symObjAddr: 0x13C4, symBinAddr: 0x13634, symSize: 0x74 }
+  - { offset: 0x7D340, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenCSgSo7NSErrorCSgIeyByy_ADs5Error_pSgIeggg_TR', symObjAddr: 0x1438, symBinAddr: 0x136A8, symSize: 0x58 }
+  - { offset: 0x7D354, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationC13verifyAccount4uuid10completiony10Foundation4UUIDV_yAA01iA13SDKOAuthTokenCSg_s5Error_pSgtctF', symObjAddr: 0x1490, symBinAddr: 0x13700, symSize: 0x4EC }
+  - { offset: 0x7D3CF, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationC13verifyAccount4uuid10completiony10Foundation4UUIDV_yAA01iA13SDKOAuthTokenCSg_s5Error_pSgtctFySo6NSDataCcfU_TA', symObjAddr: 0x1A90, symBinAddr: 0x13D00, symSize: 0x1C }
+  - { offset: 0x7D3E3, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationC13verifyAccount4uuid10completiony10Foundation4UUIDV_yAA01iA13SDKOAuthTokenCSg_s5Error_pSgtctFysAM_pcfU0_TA', symObjAddr: 0x1B38, symBinAddr: 0x13DA8, symSize: 0x1C }
+  - { offset: 0x7D3F7, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOSHAASQWb', symObjAddr: 0x1B54, symBinAddr: 0x13DC4, symSize: 0x4 }
+  - { offset: 0x7D40B, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOACSQAAWl', symObjAddr: 0x1B58, symBinAddr: 0x13DC8, symSize: 0x44 }
+  - { offset: 0x7D42E, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationC13verifyAccount4uuid10completiony10Foundation4UUIDV_yAA01iA13SDKOAuthTokenCSg_s5Error_pSgtctFTo', symObjAddr: 0x1B9C, symBinAddr: 0x13E0C, symSize: 0xC4 }
+  - { offset: 0x7D460, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x1C64, symBinAddr: 0x13ED4, symSize: 0xC }
+  - { offset: 0x7D474, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x1C70, symBinAddr: 0x13EE0, symSize: 0x4 }
+  - { offset: 0x7D488, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOwet', symObjAddr: 0x1C74, symBinAddr: 0x13EE4, symSize: 0x90 }
+  - { offset: 0x7D49C, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOwst', symObjAddr: 0x1D04, symBinAddr: 0x13F74, symSize: 0xBC }
+  - { offset: 0x7D4B0, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOwug', symObjAddr: 0x1DC0, symBinAddr: 0x14030, symSize: 0x8 }
+  - { offset: 0x7D4C4, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOwup', symObjAddr: 0x1DC8, symBinAddr: 0x14038, symSize: 0x4 }
+  - { offset: 0x7D4D8, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOwui', symObjAddr: 0x1DCC, symBinAddr: 0x1403C, symSize: 0x8 }
+  - { offset: 0x7D4EC, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOMa', symObjAddr: 0x1DD4, symBinAddr: 0x14044, symSize: 0x10 }
+  - { offset: 0x7D500, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationCMU', symObjAddr: 0x1DE4, symBinAddr: 0x14054, symSize: 0x8 }
+  - { offset: 0x7D514, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationCMr', symObjAddr: 0x1DEC, symBinAddr: 0x1405C, symSize: 0x84 }
+  - { offset: 0x7D533, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationC13verifyAccount4uuid10completiony10Foundation4UUIDV_yAA01iA13SDKOAuthTokenCSg_s5Error_pSgtctF05$s10ia9SDK01iA13jk13CSgSo7NSErrorp11IeyByy_ADs5L12_pSgIeggg_TRALSo0R0CSgIeyByy_Tf1ncn_nTf4nng_n', symObjAddr: 0x1E94, symBinAddr: 0x14104, symSize: 0x540 }
+  - { offset: 0x7D5C1, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenCSgSo7NSErrorCSgIeyByy_ADs5Error_pSgIeggg_TRTA', symObjAddr: 0x23F8, symBinAddr: 0x14668, symSize: 0x8 }
+  - { offset: 0x7D5D5, size: 0x8, addend: 0x0, symName: '_$sSo8NSStringCSgIeyBa_SSSgIego_TRTA', symObjAddr: 0x2434, symBinAddr: 0x146A4, symSize: 0x8 }
+  - { offset: 0x7D5E9, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x2478, symBinAddr: 0x146E8, symSize: 0x3C }
+  - { offset: 0x7D6AC, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x124, symBinAddr: 0x12398, symSize: 0x24 }
+  - { offset: 0x7D787, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOSHAASH9hashValueSivgTW', symObjAddr: 0x148, symBinAddr: 0x123BC, symSize: 0x4C }
+  - { offset: 0x7D84A, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x194, symBinAddr: 0x12408, symSize: 0x34 }
+  - { offset: 0x7D8B1, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x1C8, symBinAddr: 0x1243C, symSize: 0x48 }
+  - { offset: 0x7DA5B, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO8rawValueACSgSi_tcfC', symObjAddr: 0xB0, symBinAddr: 0x12324, symSize: 0x60 }
+  - { offset: 0x7DA7C, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO8rawValueSivg', symObjAddr: 0x110, symBinAddr: 0x12384, symSize: 0x14 }
+  - { offset: 0x7DAC1, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOSYAASY8rawValuexSg03RawG0Qz_tcfCTW', symObjAddr: 0x210, symBinAddr: 0x12484, symSize: 0x8 }
+  - { offset: 0x7DAD5, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOSYAASY8rawValue03RawG0QzvgTW', symObjAddr: 0x218, symBinAddr: 0x1248C, symSize: 0x18 }
+  - { offset: 0x7DAED, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOSYAASY8rawValue03RawG0QzvgTW', symObjAddr: 0x218, symBinAddr: 0x1248C, symSize: 0x18 }
+  - { offset: 0x7DB36, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationC8clientID11callbackURL19enforcedUserAccountACSS_10Foundation0G0VSSSgyXAtKcfC', symObjAddr: 0x230, symBinAddr: 0x124A4, symSize: 0x70 }
+  - { offset: 0x7DB4F, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationC8clientID11callbackURL19enforcedUserAccountACSS_10Foundation0G0VSSSgyXAtKcfc', symObjAddr: 0x2A0, symBinAddr: 0x12514, symSize: 0x218 }
+  - { offset: 0x7DBD5, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationC8clientID11callbackURL19enforcedUserAccountACSS_10Foundation0G0VSSSgyXAtKcfcTo', symObjAddr: 0xA68, symBinAddr: 0x12CDC, symSize: 0x110 }
+  - { offset: 0x7DBFF, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationCACycfC', symObjAddr: 0xBD8, symBinAddr: 0x12E4C, symSize: 0x20 }
+  - { offset: 0x7DC13, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationCACycfc', symObjAddr: 0xBF8, symBinAddr: 0x12E6C, symSize: 0x2C }
+  - { offset: 0x7DC71, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationCACycfcTo', symObjAddr: 0xC24, symBinAddr: 0x12E98, symSize: 0x2C }
+  - { offset: 0x7DCD0, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationCfD', symObjAddr: 0xC50, symBinAddr: 0x12EC4, symSize: 0x34 }
+  - { offset: 0x7DDB3, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA16SDKAuthorizationC01iA8Payments26OAuthDefaultImplementationAadEP24performAuthorizationFlow4withSo8IZFutureCySo6NSDataCGAD0I13ConfigurationV_tFTW', symObjAddr: 0x1C60, symBinAddr: 0x13ED0, symSize: 0x4 }
+  - { offset: 0x7E060, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeC6bridge06publicD014requiredScopes01iA8Payments0cD0CAA01ia16SDKAuthorizationD0_p_SaySo17IZOAuthTokenScopeCGtFZyySo012IZettleOAuthM0CSg_s5Error_pSgtccfU0_TA', symObjAddr: 0x200, symBinAddr: 0x14960, symSize: 0x8 }
+  - { offset: 0x7E074, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenCSgs5Error_pSgIeggg_ADSo7NSErrorCSgIeyByy_TR', symObjAddr: 0x208, symBinAddr: 0x14968, symSize: 0x78 }
+  - { offset: 0x7E08C, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeC6bridge06publicD014requiredScopes01iA8Payments0cD0CAA01ia16SDKAuthorizationD0_p_SaySo17IZOAuthTokenScopeCGtFZy10Foundation4UUIDV_ySo012IZettleOAuthM0CSg_s5Error_pSgtctcfU1_TA', symObjAddr: 0x360, symBinAddr: 0x14AC0, symSize: 0x8 }
+  - { offset: 0x7E0A0, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeCMa', symObjAddr: 0x5AC, symBinAddr: 0x14CB8, symSize: 0x20 }
+  - { offset: 0x7E0B4, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeC6bridge06publicD014requiredScopes01iA8Payments0cD0CAA01ia16SDKAuthorizationD0_p_SaySo17IZOAuthTokenScopeCGtFZy10Foundation4UUIDV_ySo012IZettleOAuthM0CSg_s5Error_pSgtctcfU1_yAA01ia8SDKOAuthM0CSg_AUtcfU_TA', symObjAddr: 0x62C, symBinAddr: 0x14CFC, symSize: 0x18 }
+  - { offset: 0x7E0C8, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x644, symBinAddr: 0x14D14, symSize: 0x10 }
+  - { offset: 0x7E0DC, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x654, symBinAddr: 0x14D24, symSize: 0x8 }
+  - { offset: 0x7E0FD, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeC6bridge06publicD014requiredScopes01iA8Payments0cD0CAA01ia16SDKAuthorizationD0_p_SaySo17IZOAuthTokenScopeCGtFZ', symObjAddr: 0x0, symBinAddr: 0x14760, symSize: 0x110 }
+  - { offset: 0x7E18B, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeC6bridge06publicD014requiredScopes01iA8Payments0cD0CAA01ia16SDKAuthorizationD0_p_SaySo17IZOAuthTokenScopeCGtFZSSSgycfU_', symObjAddr: 0x110, symBinAddr: 0x14870, symSize: 0xC }
+  - { offset: 0x7E1A5, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeC6bridge06publicD014requiredScopes01iA8Payments0cD0CAA01ia16SDKAuthorizationD0_p_SaySo17IZOAuthTokenScopeCGtFZyySo012IZettleOAuthM0CSg_s5Error_pSgtccfU0_', symObjAddr: 0x11C, symBinAddr: 0x1487C, symSize: 0xC0 }
+  - { offset: 0x7E1E0, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeC6bridge06publicD014requiredScopes01iA8Payments0cD0CAA01ia16SDKAuthorizationD0_p_SaySo17IZOAuthTokenScopeCGtFZy10Foundation4UUIDV_ySo012IZettleOAuthM0CSg_s5Error_pSgtctcfU1_', symObjAddr: 0x280, symBinAddr: 0x149E0, symSize: 0xE0 }
+  - { offset: 0x7E33A, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeC6bridge06publicD014requiredScopes01iA8Payments0cD0CAA01ia16SDKAuthorizationD0_p_SaySo17IZOAuthTokenScopeCGtFZTo', symObjAddr: 0x3C8, symBinAddr: 0x14B28, symSize: 0x120 }
+  - { offset: 0x7E3B5, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeCACycfc', symObjAddr: 0x508, symBinAddr: 0x14C48, symSize: 0x34 }
+  - { offset: 0x7E3ED, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK27AuthorizationProviderBridgeCACycfcTo', symObjAddr: 0x53C, symBinAddr: 0x14C7C, symSize: 0x3C }
+  - { offset: 0x7E4EB, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA24SDKOAuthTokenErrorDomainSo8NSStringCvp', symObjAddr: 0x1EB8, symBinAddr: 0x29910, symSize: 0x0 }
+  - { offset: 0x7E63A, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA24SDKOAuthTokenErrorDomain_WZ', symObjAddr: 0x48, symBinAddr: 0x14D98, symSize: 0x70 }
+  - { offset: 0x7E6A1, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA24SDKOAuthTokenErrorDomainSo8NSStringCvg', symObjAddr: 0xB8, symBinAddr: 0x14E08, symSize: 0x40 }
+  - { offset: 0x7E85C, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenCfETo', symObjAddr: 0x10AC, symBinAddr: 0x15DDC, symSize: 0x10 }
+  - { offset: 0x7E88B, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x10BC, symBinAddr: 0x15DEC, symSize: 0x44 }
+  - { offset: 0x7E89F, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOACs0E0AAWl', symObjAddr: 0x1140, symBinAddr: 0x15E30, symSize: 0x44 }
+  - { offset: 0x7E8BE, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x1184, symBinAddr: 0x15E74, symSize: 0x64 }
+  - { offset: 0x7E90C, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x1224, symBinAddr: 0x15ED8, symSize: 0xE0 }
+  - { offset: 0x7E98F, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_ypTg5', symObjAddr: 0x1304, symBinAddr: 0x15FB8, symSize: 0x68 }
+  - { offset: 0x7EA13, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV12mutatingFind_8isUniques10_HashTableV6BucketV6bucket_Sb5foundtx_SbtFSS_ypTg5', symObjAddr: 0x136C, symBinAddr: 0x16020, symSize: 0xD8 }
+  - { offset: 0x7EA5F, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV4copyyyFSS_ypTg5', symObjAddr: 0x1444, symBinAddr: 0x160F8, symSize: 0x1F8 }
+  - { offset: 0x7EB1D, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_ypTg5', symObjAddr: 0x163C, symBinAddr: 0x162F0, symSize: 0x32C }
+  - { offset: 0x7EC5D, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenCMa', symObjAddr: 0x1AA8, symBinAddr: 0x16720, symSize: 0x20 }
+  - { offset: 0x7EC71, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0x1AC8, symBinAddr: 0x16740, symSize: 0x10 }
+  - { offset: 0x7EC85, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x1AD8, symBinAddr: 0x16750, symSize: 0x20 }
+  - { offset: 0x7EC99, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOSHAASQWb', symObjAddr: 0x1AF8, symBinAddr: 0x16770, symSize: 0x4 }
+  - { offset: 0x7ECAD, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOACSQAAWl', symObjAddr: 0x1AFC, symBinAddr: 0x16774, symSize: 0x44 }
+  - { offset: 0x7ECC1, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOwet', symObjAddr: 0x1B50, symBinAddr: 0x167B8, symSize: 0x90 }
+  - { offset: 0x7ECD5, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOwst', symObjAddr: 0x1BE0, symBinAddr: 0x16848, symSize: 0xBC }
+  - { offset: 0x7ECE9, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOMa', symObjAddr: 0x1CB0, symBinAddr: 0x16904, symSize: 0x10 }
+  - { offset: 0x7ECFD, size: 0x8, addend: 0x0, symName: '_$sSD8IteratorV8_VariantOySSyp__GWOe', symObjAddr: 0x1D20, symBinAddr: 0x16938, symSize: 0x8 }
+  - { offset: 0x7ED11, size: 0x8, addend: 0x0, symName: '_$sSS_yptWOc', symObjAddr: 0x1D28, symBinAddr: 0x16940, symSize: 0x48 }
+  - { offset: 0x7EDAF, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x134, symBinAddr: 0x14E84, symSize: 0x24 }
+  - { offset: 0x7EE8A, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOSHAASH9hashValueSivgTW', symObjAddr: 0x158, symBinAddr: 0x14EA8, symSize: 0x4C }
+  - { offset: 0x7EF4D, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x1A4, symBinAddr: 0x14EF4, symSize: 0x34 }
+  - { offset: 0x7EFB4, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x1D8, symBinAddr: 0x14F28, symSize: 0x48 }
+  - { offset: 0x7F0F5, size: 0x8, addend: 0x0, symName: '_$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSS_yps11AnyHashableVypTg5', symObjAddr: 0xAC0, symBinAddr: 0x15810, symSize: 0x484 }
+  - { offset: 0x7F22C, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTgm5Tf4g_n', symObjAddr: 0x1968, symBinAddr: 0x1661C, symSize: 0x104 }
+  - { offset: 0x7F35C, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenC4dataAC10Foundation4DataV_tKcfC', symObjAddr: 0x0, symBinAddr: 0x14D50, symSize: 0x48 }
+  - { offset: 0x7F38C, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO8rawValueACSgSi_tcfC', symObjAddr: 0xF8, symBinAddr: 0x14E48, symSize: 0x28 }
+  - { offset: 0x7F3AD, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO8rawValueSivg', symObjAddr: 0x120, symBinAddr: 0x14E70, symSize: 0x14 }
+  - { offset: 0x7F3F2, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOSYAASY8rawValuexSg03RawG0Qz_tcfCTW', symObjAddr: 0x220, symBinAddr: 0x14F70, symSize: 0x8 }
+  - { offset: 0x7F406, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOSYAASY8rawValue03RawG0QzvgTW', symObjAddr: 0x228, symBinAddr: 0x14F78, symSize: 0x18 }
+  - { offset: 0x7F41E, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOSYAASY8rawValue03RawG0QzvgTW', symObjAddr: 0x228, symBinAddr: 0x14F78, symSize: 0x18 }
+  - { offset: 0x7F42F, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenC4dataAC10Foundation4DataV_tKcfc', symObjAddr: 0x240, symBinAddr: 0x14F90, symSize: 0x404 }
+  - { offset: 0x7F507, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenC4dataAC10Foundation4DataV_tKcfcTo', symObjAddr: 0x644, symBinAddr: 0x15394, symSize: 0xB0 }
+  - { offset: 0x7F531, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenC06accessD09expiresIn07refreshD0ACSS_SiSSSgtKcfC', symObjAddr: 0x6F4, symBinAddr: 0x15444, symSize: 0x70 }
+  - { offset: 0x7F5C2, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenC06accessD09expiresIn07refreshD0ACSS_SiSSSgtKcfc', symObjAddr: 0x764, symBinAddr: 0x154B4, symSize: 0x35C }
+  - { offset: 0x7F78F, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenC06accessD09expiresIn07refreshD0ACSS_SiSSSgtKcfcTo', symObjAddr: 0xF44, symBinAddr: 0x15C94, symSize: 0xC0 }
+  - { offset: 0x7F7B9, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenCACycfc', symObjAddr: 0x1024, symBinAddr: 0x15D54, symSize: 0x2C }
+  - { offset: 0x7F817, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenCACycfcTo', symObjAddr: 0x1050, symBinAddr: 0x15D80, symSize: 0x2C }
+  - { offset: 0x7F876, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA13SDKOAuthTokenCfD', symObjAddr: 0x107C, symBinAddr: 0x15DAC, symSize: 0x30 }
+  - { offset: 0x7F96F, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO16errorDescriptionSSSgvg', symObjAddr: 0x0, symBinAddr: 0x16988, symSize: 0xD4 }
+  - { offset: 0x7F99F, size: 0x8, addend: 0x0, symName: '_$s15iZettlePayments18AuthorizationErrorOSgWOh', symObjAddr: 0x114, symBinAddr: 0x16A5C, symSize: 0x40 }
+  - { offset: 0x7F9B3, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO13failureReasonSSSgvg', symObjAddr: 0x154, symBinAddr: 0x16A9C, symSize: 0xD4 }
+  - { offset: 0x7F9E3, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO18recoverySuggestionSSSgvg', symObjAddr: 0x228, symBinAddr: 0x16B70, symSize: 0xD4 }
+  - { offset: 0x7FA6D, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO9errorCodeSivg', symObjAddr: 0x5C0, symBinAddr: 0x16C8C, symSize: 0x14 }
+  - { offset: 0x7FADF, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO13errorUserInfoSDySSypGvg', symObjAddr: 0x5F0, symBinAddr: 0x16CBC, symSize: 0x208 }
+  - { offset: 0x7FC1D, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO10Foundation13CustomNSErrorAadEP13errorUserInfoSDySSypGvgTW', symObjAddr: 0x828, symBinAddr: 0x16EE0, symSize: 0x4 }
+  - { offset: 0x7FC39, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO16errorDescriptionSSSgvg', symObjAddr: 0x82C, symBinAddr: 0x16EE4, symSize: 0xD4 }
+  - { offset: 0x7FC69, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO13failureReasonSSSgvg', symObjAddr: 0x900, symBinAddr: 0x16FB8, symSize: 0xD4 }
+  - { offset: 0x7FC99, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO18recoverySuggestionSSSgvg', symObjAddr: 0x9D4, symBinAddr: 0x1708C, symSize: 0xD4 }
+  - { offset: 0x7FD23, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO9errorCodeSivg', symObjAddr: 0xDB8, symBinAddr: 0x171E8, symSize: 0x14 }
+  - { offset: 0x7FD53, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO13errorUserInfoSDySSypGvg', symObjAddr: 0xE20, symBinAddr: 0x17250, symSize: 0x208 }
+  - { offset: 0x7FE91, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO10Foundation13CustomNSErrorAadEP13errorUserInfoSDySSypGvgTW', symObjAddr: 0x1094, symBinAddr: 0x174B0, symSize: 0x4 }
+  - { offset: 0x7FEAD, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO10Foundation09LocalizedE0AAs0E0PWb', symObjAddr: 0x1098, symBinAddr: 0x174B4, symSize: 0x4 }
+  - { offset: 0x7FEC1, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorO10Foundation09LocalizedE0AAs0E0PWb', symObjAddr: 0x10E4, symBinAddr: 0x174B8, symSize: 0x4 }
+  - { offset: 0x7FED5, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOAC10Foundation13CustomNSErrorAAWl', symObjAddr: 0x1130, symBinAddr: 0x174BC, symSize: 0x44 }
+  - { offset: 0x7FEE9, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOACSYAAWl', symObjAddr: 0x1174, symBinAddr: 0x17500, symSize: 0x44 }
+  - { offset: 0x7FEFD, size: 0x8, addend: 0x0, symName: '_$sS2is17FixedWidthIntegersWl', symObjAddr: 0x11B8, symBinAddr: 0x17544, symSize: 0x44 }
+  - { offset: 0x7FF11, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOAC10Foundation13CustomNSErrorAAWl', symObjAddr: 0x11FC, symBinAddr: 0x17588, symSize: 0x44 }
+  - { offset: 0x7FF25, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOACSYAAWl', symObjAddr: 0x1240, symBinAddr: 0x175CC, symSize: 0x44 }
+  - { offset: 0x7FF4D, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOs0E0AAsADP9_userInfoyXlSgvgTW', symObjAddr: 0x5B8, symBinAddr: 0x16C84, symSize: 0x4 }
+  - { offset: 0x7FF69, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOs0E0AAsADP19_getEmbeddedNSErroryXlSgyFTW', symObjAddr: 0x5BC, symBinAddr: 0x16C88, symSize: 0x4 }
+  - { offset: 0x7FFE0, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorO10Foundation09LocalizedE0AadEP10helpAnchorSSSgvgTW', symObjAddr: 0x578, symBinAddr: 0x16C44, symSize: 0x4 }
+  - { offset: 0x7FFFC, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA18SDKOAuthTokenErrorOs0E0AAsADP7_domainSSvgTW', symObjAddr: 0x57C, symBinAddr: 0x16C48, symSize: 0x28 }
+  - { offset: 0x80018, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA29SDKAuthorizationProviderErrorOs0E0AAsADP7_domainSSvgTW', symObjAddr: 0xD28, symBinAddr: 0x17160, symSize: 0x28 }
 ...
