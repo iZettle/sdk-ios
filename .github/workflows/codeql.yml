@@ -1,0 +1,17 @@
+name: CodeQL scan
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "master", "main", "develop", "release/*", "sdk-release-v*" ]
+  pull_request:
+    branches: [ "master", "main", "develop", "release/*", "sdk-release-v*" ]
+  schedule:
+    - cron: '00 21 * * 0'
+
+jobs:
+  Scans:
+    uses: iZettle/.github/.github/workflows/codeql-swift-sm.yml@main
+    with:
+      app_name: ${{ github.repository }}
+      build_cmd: xcodebuild -scheme iZettle\ SDK\ Sample -project ./Example/iZettleSDKSample.xcodeproj -destination 'generic/platform=ios' CODE_SIGN_IDENTITY='' CODE_SIGNING_REQUIRED='' CODE_SIGNING_ALLOWED='NO' clean build
