@@ -64,7 +64,7 @@ class SelectionTableViewController: UITableViewController {
         case 4:
             enforceAccount()
         case 5:
-            iZettleSDK.shared().presentSettings(from: self, configuration: IZSDKSettingsConfiguration(paypalReaderTippingSettingsEnabled: true))
+            iZettleSDK.shared().presentSettings(from: self)
         default: break
         }
         

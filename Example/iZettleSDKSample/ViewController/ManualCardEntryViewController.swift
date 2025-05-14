@@ -2,7 +2,8 @@
 //  ManualCardEntryViewController.swift
 //  iZettle SDK Sample
 //
-//  Copyright © 2024 PayPal Inc. All rights reserved.
+//  Created by Priyal Porwal on 22/06/23.
+//  Copyright © 2023 iZettle. All rights reserved.
 //
 
 import UIKit

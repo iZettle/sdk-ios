@@ -6,6 +6,7 @@
 //
 
 #import "ConsoleViewController.h"
+#import "CardPaymentViewController.h"
 
 @interface ConsoleViewController ()
 @property (weak, nonatomic) IBOutlet UITextView *logTextView;
