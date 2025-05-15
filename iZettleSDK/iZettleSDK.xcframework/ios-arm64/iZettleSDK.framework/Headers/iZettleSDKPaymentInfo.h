@@ -61,6 +61,9 @@ typedef NS_ERROR_ENUM(IZSDKErrorDomain, IZSDKErrorCode) {
 @property (nonatomic, readonly, nullable) NSString *mxFIID;
 @property (nonatomic, readonly, nullable) NSString *mxCardType;
 
+/// If available, it indicates the total fees per transaction. Might be `nil` directly after completing a payment but be available in the completion of `retrievePaymentInfo...` calls made later on.
+@property (nonatomic, readonly, nullable) NSDecimalNumber *totalFees;
+
 @end
 
 NS_ASSUME_NONNULL_END

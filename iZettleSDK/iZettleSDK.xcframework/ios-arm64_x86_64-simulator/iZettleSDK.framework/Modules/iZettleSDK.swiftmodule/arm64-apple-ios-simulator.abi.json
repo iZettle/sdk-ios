@@ -2304,63 +2304,63 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "filePath": "\/Users\/mzakizadeh\/Documents\/payments-sdk-ios\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 285,
       "length": 36,
       "value": "\"com.izettle.sdk.authprovider.error\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "filePath": "\/Users\/mzakizadeh\/Documents\/payments-sdk-ios\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "IntegerLiteral",
       "offset": 409,
       "length": 4,
       "value": "-202"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "filePath": "\/Users\/mzakizadeh\/Documents\/payments-sdk-ios\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "IntegerLiteral",
       "offset": 444,
       "length": 4,
       "value": "-203"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "filePath": "\/Users\/mzakizadeh\/Documents\/payments-sdk-ios\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "IntegerLiteral",
       "offset": 476,
       "length": 4,
       "value": "-300"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "filePath": "\/Users\/mzakizadeh\/Documents\/payments-sdk-ios\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "IntegerLiteral",
       "offset": 516,
       "length": 4,
       "value": "-501"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "filePath": "\/Users\/mzakizadeh\/Documents\/payments-sdk-ios\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
       "kind": "StringLiteral",
       "offset": 271,
       "length": 29,
       "value": "\"com.izettle.sdk.token.error\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "filePath": "\/Users\/mzakizadeh\/Documents\/payments-sdk-ios\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
       "kind": "IntegerLiteral",
       "offset": 370,
       "length": 4,
       "value": "-600"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "filePath": "\/Users\/mzakizadeh\/Documents\/payments-sdk-ios\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 4,
       "value": "-603"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "filePath": "\/Users\/mzakizadeh\/Documents\/payments-sdk-ios\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
       "kind": "IntegerLiteral",
       "offset": 423,
       "length": 4,
