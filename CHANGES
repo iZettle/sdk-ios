@@ -1,3 +1,6 @@
+4.32.0
+- Optional Pricing Tier ID added to charge methods and payloads.
+
 4.25.1
 - Fix an issue where deprecated charge APIs did not enable tipping on the new PayPal Reader.
 

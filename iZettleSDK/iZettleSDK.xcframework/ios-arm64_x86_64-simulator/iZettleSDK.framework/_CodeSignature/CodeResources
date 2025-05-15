@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/iZettleSDK.h</key>
 		<data>
-		nG6dMFB0ADFqZWNva42jrihvh7g=
+		00+xjHFHp5VTSU4i9mk9HeDUYrY=
 		</data>
 		<key>Headers/iZettleSDKPaymentInfo.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OTZaMqxTDuBqZRcX4MPjk1fTEXM=
+		H40vVhy3Rba64qfRZofbcVhOPSA=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3bJy0WE41m2ymgqIG6FczkmWbho=
+		1PryXDYoPAQ/oqnB1Kb6wUCeGs8=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		IqNX3Ev12GjR5wnFqGdQ5GoFZts=
+		h+nU56hL6E/TXERv5EWoXOp63/4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>PrivateHeaders/iZettleSDK+WorkInProgress.h</key>
 		<data>
-		in0SjtcH2f8dvqOw+Rln7fUK8AY=
+		FVYBUSsYMJkKSLv+bvFh2xlsAHA=
 		</data>
 		<key>strip-frameworks.sh</key>
 		<data>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C6klnDWCDM7iAQ8bgnjVeZiVK9EezzRz6uedFQfADOU=
+			BLnCjgDfa9Q5vvkOpE/DytYlbiv+8PAxj3w0RVUD4pg=
 			</data>
 		</dict>
 		<key>Headers/iZettleSDKPaymentInfo.h</key>
@@ -158,7 +158,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kaVfZAKPXZdHzoHJ7DLbitAng5RNN7kQoQOVoA+GE/4=
+			UX+uBYSUhhnYC5RbHgfvZ+UiMyvP3A7LyZ3Y2ECat9E=
 			</data>
 		</dict>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -193,7 +193,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A3VrEmh48c3AbllWdD3BVWdVgaDcFDFPpG3XYa64FQE=
+			E5a87qvnU1zT3rOnvMBOhCNmiga9VS553+k4cn2SLBk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -221,7 +221,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TSERdorPmaKSXo41cbdCvvsLQUg9Mp5UjRvrXnBNYqc=
+			AddI2utp8GmQDp5rQMgD9wDOPMafTBYOhvcStHnwsWI=
 			</data>
 		</dict>
 		<key>strip-frameworks.sh</key>

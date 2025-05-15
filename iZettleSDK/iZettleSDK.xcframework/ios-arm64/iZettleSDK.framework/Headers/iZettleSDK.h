@@ -470,6 +470,27 @@ __deprecated_msg("Use chargeAmount:tippingConfiguration:... to specify tipping s
 ///     - amount: The amount to be charged in the logged in users currency.
 ///     - tippingConfiguration: Provide configuration for different tipping styles used for supported reader models (Zettle Reader and PayPal Reader)
 ///     - reference: The payment reference. Used to identify an Zettle payment, used when retrieving payment information at a later time or performing a refund. Max length 128. (Optional).
+///     - partnerPayeePricingTierId: Payee pricing tier code is a code that is created by Partner managers, SGMs or sales in order to set pricing tier.  The code provided is sent within the Card payments API calls. (Optional)
+///     - viewController: A controller from which Zettle will present its UI.
+///     - completion: Completion handler that will be called when the operation finishes.
+- (void)chargeAmount:(NSDecimalNumber *)amount
+tippingConfiguration:(IZSDKTippingConfiguration *)tippingConfiguration
+           reference:(nullable NSString *)reference
+payPalPartnerPayeePricingTierId:(nullable NSString *)pricingTierId
+presentFromViewController:(UIViewController *)viewController
+          completion:(iZettleSDKOperationCompletion)completion
+NS_SWIFT_NAME(charge(amount:tippingConfiguration:reference:payPalPartnerPayeePricingTierId:presentFrom:completion:));
+
+/// Perform a payment with an amount, a reference and tipping configuration.
+///
+/// > Important: Setting a tipping style does not guarantee that tipping flow will be displayed. Tipping flow will only be displayed for logged in account supporting specificed style and  active reader supporting tipping.
+///
+/// > Note: If developer mode is enabled, taking payments will not trigger real transactions.
+///
+/// - Parameters:
+///     - amount: The amount to be charged in the logged in users currency.
+///     - tippingConfiguration: Provide configuration for different tipping styles used for supported reader models (Zettle Reader and PayPal Reader)
+///     - reference: The payment reference. Used to identify an Zettle payment, used when retrieving payment information at a later time or performing a refund. Max length 128. (Optional).
 ///     - viewController: A controller from which Zettle will present its UI.
 ///     - completion: Completion handler that will be called when the operation finishes.
 - (void)chargeAmount:(NSDecimalNumber *)amount
@@ -478,7 +499,6 @@ tippingConfiguration:(IZSDKTippingConfiguration *)tippingConfiguration
 presentFromViewController:(UIViewController *)viewController
           completion:(iZettleSDKOperationCompletion)completion
 NS_SWIFT_NAME(charge(amount:tippingConfiguration:reference:presentFrom:completion:));
-
 @end
 
 @interface iZettleSDK(ManualCardEntry)
