@@ -1,3 +1,7 @@
+4.32.1
+- Fixed an authorization issue affecting some merchants when `enforcedUserAccount` is used.
+- Optional `totalFees` field added to `iZettleSDKPaymentInfo`.
+
 4.32.0
 - Optional Pricing Tier ID added to charge methods and payloads.
 
