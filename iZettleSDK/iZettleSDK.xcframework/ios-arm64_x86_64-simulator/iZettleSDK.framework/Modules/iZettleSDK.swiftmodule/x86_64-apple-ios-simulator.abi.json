@@ -22,6 +22,135 @@
         "moduleName": "iZettleSDK"
       },
       {
+        "kind": "TypeDecl",
+        "name": "iZettleSDKHelper",
+        "printedName": "iZettleSDKHelper",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "iZettleSDKHelper",
+                "printedName": "iZettleSDK.iZettleSDKHelper",
+                "usr": "c:@M@iZettleSDK@objc(cs)iZettleSDKHelper"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iZettleSDK@objc(cs)iZettleSDKHelper(im)init",
+            "mangledName": "$s10iZettleSDK01iA9SDKHelperCACycfc",
+            "moduleName": "iZettleSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iZettleSDK@objc(cs)iZettleSDKHelper",
+        "mangledName": "$s10iZettleSDK01iA9SDKHelperC",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iZettlePayments",
+        "printedName": "iZettlePayments",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK"
+      },
+      {
         "kind": "Var",
         "name": "iZettleSDKAuthorizationProviderErrorDomain",
         "printedName": "iZettleSDKAuthorizationProviderErrorDomain",
@@ -2304,63 +2433,70 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/mzakizadeh\/Documents\/payments-sdk-ios\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 7624,
+      "length": 40,
+      "value": "\"com.izettle.payments-sdk-ios.exception\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 285,
       "length": 36,
       "value": "\"com.izettle.sdk.authprovider.error\""
     },
     {
-      "filePath": "\/Users\/mzakizadeh\/Documents\/payments-sdk-ios\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "IntegerLiteral",
       "offset": 409,
       "length": 4,
       "value": "-202"
     },
     {
-      "filePath": "\/Users\/mzakizadeh\/Documents\/payments-sdk-ios\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "IntegerLiteral",
       "offset": 444,
       "length": 4,
       "value": "-203"
     },
     {
-      "filePath": "\/Users\/mzakizadeh\/Documents\/payments-sdk-ios\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "IntegerLiteral",
       "offset": 476,
       "length": 4,
       "value": "-300"
     },
     {
-      "filePath": "\/Users\/mzakizadeh\/Documents\/payments-sdk-ios\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "IntegerLiteral",
       "offset": 516,
       "length": 4,
       "value": "-501"
     },
     {
-      "filePath": "\/Users\/mzakizadeh\/Documents\/payments-sdk-ios\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
       "kind": "StringLiteral",
       "offset": 271,
       "length": 29,
       "value": "\"com.izettle.sdk.token.error\""
     },
     {
-      "filePath": "\/Users\/mzakizadeh\/Documents\/payments-sdk-ios\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
       "kind": "IntegerLiteral",
       "offset": 370,
       "length": 4,
       "value": "-600"
     },
     {
-      "filePath": "\/Users\/mzakizadeh\/Documents\/payments-sdk-ios\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 4,
       "value": "-603"
     },
     {
-      "filePath": "\/Users\/mzakizadeh\/Documents\/payments-sdk-ios\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
       "kind": "IntegerLiteral",
       "offset": 423,
       "length": 4,

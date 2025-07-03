@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/iZettleSDK-Swift.h</key>
 		<data>
-		VrmD3oh9dzR8ixAaIQB5sGuAzYs=
+		PLQO6azC1YHD5heJXYsCBsg1sNc=
 		</data>
 		<key>Headers/iZettleSDK.h</key>
 		<data>
@@ -26,47 +26,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WbryZGv2so5EHOGSbLBA49n9n9Y=
+		Q2sPIyRp0yKCDi4oIA1GMcWHBdg=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ijYzowU5Urziara1hJDGALTIOSw=
+		6z6P5rbLJxb3DMM3i7zxAMinhoY=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Zz+laSAyIwycyY0zZ/MztpL2fSg=
+		bn37i6I4EFb/uuxmQ33JoqN7lWc=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		E71ycDH2bcnyJGjiYPJkUCxTVCI=
+		GvWrTuvkhpIimAalz1NE/Wgtx6k=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Zz+laSAyIwycyY0zZ/MztpL2fSg=
+		bn37i6I4EFb/uuxmQ33JoqN7lWc=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4XdewHTHvnz30BvEg6CM24rLcIE=
+		JgjG2BQZJtqO+qw+L5w550DsH6w=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ijYzowU5Urziara1hJDGALTIOSw=
+		6z6P5rbLJxb3DMM3i7zxAMinhoY=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		uYmSjIzy3XZmUHPi5aNHMy8Pz0A=
+		bbjIBmfajwp8kSxxslPnoMnuB0s=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		w/Y8Oz5TyOwwqv5cYTfp06DUz00=
+		wNRHLCDuxBBKHOyBe6M+PMB1F00=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		uYmSjIzy3XZmUHPi5aNHMy8Pz0A=
+		bbjIBmfajwp8kSxxslPnoMnuB0s=
 		</data>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ud/Zs1vdR7d9l1Lz0jY2rHNidYc=
+		sznewBP9xolkHJQKnKIWCvQfkhs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>PrivateHeaders/iZettleSDK+WorkInProgress.h</key>
 		<data>
-		FVYBUSsYMJkKSLv+bvFh2xlsAHA=
+		yAL2lntuHY6NMoN7XfafnSrYPbk=
 		</data>
 		<key>strip-frameworks.sh</key>
 		<data>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PwWulqG2qzv+KJ75IkuzXYSuZ/4JaLItRlaJ4GTEvmM=
+			iH8qvbYSmaG105sOXaxXYYUYkKMRN27N46kyz10Us74=
 			</data>
 		</dict>
 		<key>Headers/iZettleSDK.h</key>
@@ -130,70 +130,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TPNR8pGfQ76SI6kdBH53l5UdcNLt1UC20YkH2EFhq7E=
+			uInDukhcliPjQlhrSVsSBgnpAKvueyY9tOQBMyqIIRM=
 			</data>
 		</dict>
 		<key>Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TtiIyfSwX96SF7SlKNd3BChutY4gtIypI302CSf213M=
+			OMviG8BH42TWTrB5FsUq6S0PVSfClBGOihSNIRYdCrc=
 			</data>
 		</dict>
 		<key>Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x46JQ+NuhFZa4pidAdsr3y9nMpCuIDweoUAzhXzw9BM=
+			uX8asH25geoqYS4sQv7AR5PQ1+JoYqBxGAHPDPlf4lg=
 			</data>
 		</dict>
 		<key>Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TtiIyfSwX96SF7SlKNd3BChutY4gtIypI302CSf213M=
+			OMviG8BH42TWTrB5FsUq6S0PVSfClBGOihSNIRYdCrc=
 			</data>
 		</dict>
 		<key>Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0ZoLjRaitUv28bhMqUe1Sbu/s94tshKKfqMyUk5HVCI=
+			aOnhKOyZVOnv+0uBCO02FLtE0Pu92ueKtI9+jwaZLOw=
 			</data>
 		</dict>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TPNR8pGfQ76SI6kdBH53l5UdcNLt1UC20YkH2EFhq7E=
+			uInDukhcliPjQlhrSVsSBgnpAKvueyY9tOQBMyqIIRM=
 			</data>
 		</dict>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XE0jyFHJDRWBNK6aog10wYpGj/LwD1IaU1iYyP7mPNs=
+			2OPodmDWB1T7I09FqDPwmmHdQcijR7R/vPJrJelxiyk=
 			</data>
 		</dict>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lVH45FEezVGCo1MtG1a9ycCae8L8nA0A+QSXQ3wdti4=
+			ke69Oy+FJLjYzGgV1VyxqktW9PUBEDr/53hx54AV5yE=
 			</data>
 		</dict>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XE0jyFHJDRWBNK6aog10wYpGj/LwD1IaU1iYyP7mPNs=
+			2OPodmDWB1T7I09FqDPwmmHdQcijR7R/vPJrJelxiyk=
 			</data>
 		</dict>
 		<key>Modules/iZettleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7p9Sgq8LsIfaKIqPk+bXdRsBpDEPxV6PEopYgw5KO70=
+			JdbmI2AK0IxGdrjAXY7X8Cnedmx7l4HPfdSNfenYwLA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -221,7 +221,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AddI2utp8GmQDp5rQMgD9wDOPMafTBYOhvcStHnwsWI=
+			pEVW655yH4gS1iEOjKhjo1zFM/jz+v+dRKkTiNtkDIo=
 			</data>
 		</dict>
 		<key>strip-frameworks.sh</key>

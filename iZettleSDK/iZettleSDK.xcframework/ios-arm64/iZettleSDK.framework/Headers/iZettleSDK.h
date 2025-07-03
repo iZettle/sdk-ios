@@ -176,6 +176,10 @@ NS_SWIFT_NAME(init(zettleReaderTippingStyle:paypalReaderTippingStyle:paypalReade
 
 @property (nonatomic, readonly) NSString *version;
 
+/// Indicates whether a user is currently logged in to the Zettle SDK.
+/// Returns `YES` if a user is authenticated and logged in, otherwise `NO`.
+@property (nonatomic, readonly) BOOL isLoggedIn;
+
 + (iZettleSDK *)shared;
 
 + (instancetype)new NS_UNAVAILABLE;
@@ -215,6 +219,30 @@ NS_SWIFT_NAME(init(zettleReaderTippingStyle:paypalReaderTippingStyle:paypalReade
 
 /// Attempt aborting the ongoing operation. Only use this if absolutely necessary. The state of the payment will be unknown to the user after this call.
 - (void)abortOperation;
+
+/// Initiates the login flow by presenting Zettle authentication UI.
+///
+/// This method presents the Zettle login interface from the provided view controller.
+/// After successful authentication, the user will be logged into the Zettle SDK and
+/// can access payment functionality.
+/// This method must be called from the main thread.
+///
+/// - Parameters:
+///     - completion: Completion handler that will be called when the login operation finishes.
+///       Returns nil if login is successful, otherwise returns an error object describing the failure.
+- (void)performLoginWithCompletion:(void (^)(NSError * _Nullable))completion;
+
+/// Initiates the login flow by presenting Zettle authentication UI with completion handler.
+///
+/// This method presents the Zettle login interface from the provided view controller.
+/// After authentication attempt completes, the completion handler will be called with the result.
+/// This method must be called from the main thread.
+///
+/// - Parameters:
+///     - viewController: A controller from which Zettle will present its login UI.
+///     - completion: Completion handler that will be called when the login operation finishes.
+///       Returns nil if login is successful, otherwise returns an error object describing the failure.
+- (void)performLoginFromViewController:(UIViewController *)viewController completion:(void (^)(NSError * _Nullable))completion;
 
 @end
 

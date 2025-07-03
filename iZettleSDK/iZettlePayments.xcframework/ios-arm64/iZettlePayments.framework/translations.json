@@ -443,6 +443,10 @@
         "es-US"
       ]
     },
+    "#KeyInActivationCheckingPermissionTitle": {
+      "text": "Checking permissions...",
+      "desc": "Title when checking permissions while activating"
+    },
     "#KeyInActivationCarouselText1": {
       "text": "Enter the card info to make a sale.",
       "desc": "Carousel text 1 for key in activation page",
@@ -467,6 +471,10 @@
         "es-US"
       ]
     },
+    "#KeyInActivationEnable": {
+      "text": "Enable",
+      "desc": "`Enable` button title"
+    },
     "#KeyInActivationDefaultSubTitle": {
       "text": "By activating, you acknowledge that terms and transaction fees apply.",
       "desc": "Default subtitle when Key In isn't activated",
@@ -474,6 +482,14 @@
         "en-US",
         "es-US"
       ]
+    },
+    "#KeyInActivationFeesActivatedBody": {
+      "text": "Manual card entry allows you to accept card payments from customers who aren't with you, like over the phone.",
+      "desc": "Extra description of the Key-In in the activation details panel related to fees in activated state"
+    },
+    "#KeyInActivationFPFeesBody": {
+      "text": "Since these transactions can have increased security risks, they include a higher transaction fee than automatic card transactions.<br><br>You should not store your customer's personal data outside your payment system.<br><br><a href=\"#FeesLink\">Transaction fees</a>",
+      "desc": "Description of the Key-In in the activation details panel related to fees"
     },
     "#KeyInActivationFeesBody": {
       "text": "Fees for transactions in which card details are manually entered are higher than automatic card transactions because manually entering card details increases security risks.<br><br><a href=\"#FeesLink\">View transaction fees</a>",
@@ -499,6 +515,22 @@
         "es-US"
       ]
     },
+    "#KeyInActivationInReviewTitle": {
+      "text": "In review",
+      "desc": "Default title when Key In is in review state"
+    },
+    "#KeyInActivationInReviewSubTitle": {
+      "text": "We’re still reviewing your info and will email you in 2–3 business days with an update.",
+      "desc": "Default subtitle when Key In is in review state"
+    },
+    "#KeyInActivationDeniedTitle": {
+      "text": "Not available",
+      "desc": "Default title when Key In is in denied state"
+    },
+    "#KeyInActivationDeniedSubTitle": {
+      "text": "This feature is not yet enabled in your partner settings.",
+      "desc": "Default subtitle when Key In is in denied state"
+    },
     "#KeyInActivationDetailHeader": {
       "text": "This payment option is ideal if you wish to take payments over the phone.",
       "desc": "Bold pre-description on the activation card",
@@ -506,6 +538,14 @@
         "en-US",
         "es-US"
       ]
+    },
+    "#KeyInActivationDetailsInActiveHeader": {
+      "text": "Accept payments from a customer's card details.",
+      "desc": "Bold pre-description after the activation of key-in"
+    },
+    "#KeyInActivationDetailActivatedHeader": {
+      "text": "Enable this option if you'd like to accept payments from a customer's card details.",
+      "desc": "Bold pre-description on the activation card in activated state"
     },
     "#KeyInAccessibilityAnnouncementActivated": {
       "text": "KeyIn, Activated, Will appear as a payment option.",
