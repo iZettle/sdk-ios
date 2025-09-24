@@ -103,7 +103,6 @@ NS_SWIFT_NAME(init(paypalReaderTippingSettingsEnabled:));
 
 @end
 
-
 /// Describes the tipping style preferences for each reader type.
 @interface IZSDKTippingConfiguration: NSObject
 

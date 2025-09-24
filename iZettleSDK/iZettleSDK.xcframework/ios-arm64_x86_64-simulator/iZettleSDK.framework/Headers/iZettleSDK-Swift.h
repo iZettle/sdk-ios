@@ -386,6 +386,7 @@ SWIFT_CLASS("_TtC10iZettleSDK16iZettleSDKHelper")
 @end
 
 
+
 @class NSData;
 
 /// Token representation
@@ -807,6 +808,7 @@ SWIFT_CLASS("_TtC10iZettleSDK16iZettleSDKHelper")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 @class NSData;

@@ -2435,7 +2435,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKHelper.swift",
       "kind": "StringLiteral",
-      "offset": 7624,
+      "offset": 9360,
       "length": 40,
       "value": "\"com.izettle.payments-sdk-ios.exception\""
     },

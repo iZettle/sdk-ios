@@ -386,6 +386,7 @@ SWIFT_CLASS("_TtC10iZettleSDK16iZettleSDKHelper")
 @end
 
 
+
 @class NSData;
 
 /// Token representation

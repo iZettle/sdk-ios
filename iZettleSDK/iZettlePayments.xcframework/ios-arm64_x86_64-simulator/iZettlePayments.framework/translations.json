@@ -253,11 +253,11 @@
       "text": "Card Payment"
     },
     "#CardReaderDatecs": {
-      "text": "Zettle Reader",
+      "text": "Card Reader",
       "desc": "Datecs reader name "
     },
     "#CardReaderDatecsV2": {
-      "text": "Zettle Reader 2",
+      "text": "Card Reader 2",
       "desc": "General reader name. We use `#CardReaderDatecs` for v1 readers"
     },
     "#CardReaderIsDownloadingFirmwareFromServer": {
@@ -350,7 +350,7 @@
       ]
     },
     "#CashRegisterPurchaseNotAllowedWithAPIAlertTitle": {
-      "text": "Zettle Cash Register is not compatible with this service",
+      "text": "Cash Register is not compatible with this service",
       "locales": [
         "sv-SE",
         "de-DE",
@@ -1682,7 +1682,7 @@
       ]
     },
     "#VenmoQRCActivationImageText": {
-      "text": "Accept Venmo payments with your Zettle app to get paid instantly.",
+      "text": "Accept Venmo payments with your Point of Sale App to get paid instantly.",
       "desc": "Info text below the image in the Activation screen",
       "locales": [
         "en-US",
@@ -2251,10 +2251,10 @@
       "text": "Later"
     },
     "#LocationNeededDescriptionSettings": {
-      "text": "To protect both you and the buyer, Zettle needs to register the location of payments. Turn on Location Services in your phone settings."
+      "text": "To protect both you and the buyer, Point of Sale needs to register the location of payments. Turn on Location Services in your phone settings."
     },
     "#LocationNeededTitle": {
-      "text": "Zettle needs your location"
+      "text": "Point of Sale needs your location"
     },
     "#LoginFailedAlertMessage": {
       "text": "Incorrect email or password."
@@ -2282,7 +2282,7 @@
     },
     "#Model": {
       "text": "Model",
-      "desc": "For example, \"The model of this android phone is Samsung GT-I9100, or card reader Zettle Reader 2\""
+      "desc": "For example, \"The model of this android phone is Samsung GT-I9100, or card reader Reader 2\""
     },
     "#NetworkErrorTitle": {
       "text": "Network error",
@@ -2733,7 +2733,7 @@
     },
     "#ReaderDisplayInsertCard": {
       "text": "Insert card",
-      "desc": "Zettle Reader(s) prompt used when reader is in idle mode (not yet ready for tapping the card). max 21 characters incl. space"
+      "desc": "Reader(s) prompt used when reader is in idle mode (not yet ready for tapping the card). max 21 characters incl. space"
     },
     "#ReaderDisplayPurchaseAborted": {
       "text": "Payment cancelled"
@@ -3157,7 +3157,7 @@
       ]
     },
     "#PaypalInvoiceOnboardingTitle": {
-      "text": "Create invoices on the Zettle app and get paid on the go",
+      "text": "Create invoices on the Point of Sale App and get paid on the go",
       "desc": "Default title when PayPal Invoice is opened for the first time",
       "locales": [
         "en-US",
@@ -3165,7 +3165,7 @@
       ]
     },
     "#PaypalInvoiceOnboardingText1": {
-      "text": "Email invoices directly to your customers right from the Zettle app",
+      "text": "Email invoices directly to your customers right from the Point of Sale App",
       "desc": "Paypal Invoice Onboarding information text 1",
       "locales": [
         "en-US",
@@ -3964,7 +3964,7 @@
       ]
     },
     "#PaypalInvoiceMarkAsPaidMessage": {
-      "text": "Mark the invoice as paid if you've received a payment outside of Zettle. Otherwise the invoice will be marked as paid automatically.",
+      "text": "Mark the invoice as paid if you've received a payment outside of Point of Sale. Otherwise the invoice will be marked as paid automatically.",
       "locales": [
         "en-US",
         "es-US"
@@ -4322,11 +4322,11 @@
       "desc": "Tap to pay generic error sub title"
     },
     "#TapToPayZettlebyPaypal": {
-      "text": "Zettle by PayPal",
+      "text": "PayPal Point of Sale",
       "desc": "Tap to pay PayPal Zettle text in the bottom of the payment processing screen"
     },
     "#TapToPayPaypalZettle": {
-      "text": "PayPal Zettle",
+      "text": "PayPal Point of Sale",
       "desc": "Tap to pay PayPal Zettle text in the bottom of the payment processing screen"
     },
     "#TapToPayTitle": {
@@ -4350,7 +4350,7 @@
       "desc": "Tap to pay provisionoing completed subtitle"
     },
     "#SpeechReaderNumber": {
-      "text": "Zettle reader %@",
+      "text": "Reader %@",
       "desc": "Spoken instruction; Zettle reader 005"
     },
     "#SpeechPayPalReaderNumber": {
@@ -4429,7 +4429,7 @@
     },
     "#KeyInActivationOnTitleSDK": {
       "text": "Payment method activated",
-      "desc": "Title when Manual card entry payment method is activated by SDK merchants",
+      "desc": "Title when manual card entry payment method is activated by SDK merchants",
       "locales": [
         "en-US",
         "es-US"
@@ -4437,7 +4437,7 @@
     },
     "#KeyInActivationOnSubTitleSDK": {
       "text": "Available as a payment option",
-      "desc": "Subtitle when Manual card entry payment method is activated by SDK merchants",
+      "desc": "Subtitle when manual card entry payment method is activated by SDK merchants",
       "locales": [
         "en-US",
         "es-US"
