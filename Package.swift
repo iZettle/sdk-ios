@@ -14,13 +14,16 @@ let package = Package(
     dependencies: [],
     targets: [
         .binaryTarget(
-            name: "iZettleSDK", 
-            path: "./iZettleSDK/iZettleSDK.xcframework"),
+            name: "iZettleSDK",
+            url: "https://github.com/iZettle/sdk-ios/releases/download/4.53.1/iZettleSDK.xcframework.zip",
+            checksum: "8ee18a692066c71dddff9c56e88ca5713520e0d9bb6f59c4409d1e54ab42a274"),
         .binaryTarget(
-            name: "iZettlePayments", 
-            path: "./iZettleSDK/iZettlePayments.xcframework"),
+            name: "iZettlePayments",
+            url: "https://github.com/iZettle/sdk-ios/releases/download/4.53.1/iZettlePayments.xcframework.zip",
+            checksum: "46783aa5cb0ceeca343c3560d974ea4e2d38a2db95f8bc83df30f2d86cefc392"),
         .binaryTarget(
             name: "PPRiskMagnes",
-            path: "./iZettleSDK/PPRiskMagnes.xcframework")
+            url: "https://github.com/iZettle/sdk-ios/releases/download/4.53.1/PPRiskMagnes.xcframework.zip", // TODO: not available today
+            checksum: "todo")
     ]
 )

@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   s.author       = { 'PayPal Inc' => 'hello@izettle.com' }
   s.platform     = :ios, '12.0'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 x86_64' }
-  s.source       = { :git => 'https://github.com/iZettle/sdk-ios.git', :tag => "#{s.version}" }
-  s.source_files =  "#{s.name}/**/*.{h,swift}" 
-  s.preserve_paths = 'iZettleSDK/iZettleSDK.xcframework'
+  s.source       = { :http => "https://github.com/iZettle/sdk-ios/releases/download/#{s.version}/iZettleSDK.zip", type: :zip }
+  s.source_files =  []
+  s.preserve_paths = '**/*'
   s.public_header_files = 'iZettleSDK/iZettleSDK.xcframework/**/*.h'
   s.vendored_frameworks = 'iZettleSDK/iZettleSDK.xcframework', 'iZettleSDK/iZettlePayments.xcframework', 'iZettleSDK/PPRiskMagnes.xcframework'
   s.frameworks = 'SystemConfiguration', 'CoreLocation', 'ExternalAccessory', 'AudioToolbox', 'AVFoundation', 'MediaPlayer', 'QuartzCore', 'Accelerate', 'MessageUI', 'CoreData'
