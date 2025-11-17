@@ -14,71 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 @class IZSDKPayPalQRCPaymentInfo;
 @class IZSDKManualCardEntryPaymentInfo;
 @protocol iZettleSDKAuthorizationProvider;
+@protocol ZettleUserAuthorizationDelegate;
 
 typedef void(^iZettleSDKOperationCompletion)(iZettleSDKPaymentInfo * _Nullable paymentInfo, NSError * _Nullable error);
-
-/// Defining which tipping style to be used when initiating a payment with tipping.
-///
-/// Read more at [developer portal](https://developer.zettle.com/docs/ios-sdk/concepts/tipping-support) to understand which type(s) your market supports and what the difference between tipping styles are.
-///
-/// **Important:** If your market does not support the selected style then the market default will be used.
-typedef NS_ENUM(NSUInteger, IZSDKTippingStyle) {
-    /// Disable tipping option.
-    IZSDKTippingStyleNone = 0,
-    
-    /// The market default option.
-    IZSDKTippingStyleMarketDefault,
-    
-    /// An amount based option.
-    IZSDKTippingStyleAmount,
-    
-    /// A percentage based option.
-    IZSDKTippingStylePercentage
-};
-__deprecated_msg("Use IZZettleReaderTippingStyle and IZPayPalReaderTippingStyle instead.");
-
-/// Defining which tipping style to be used when initiating a payment with tipping for Zettle readers.
-///
-/// Read more at [developer portal](https://developer.zettle.com/docs/ios-sdk/concepts/tipping-support) to understand which type(s) your market supports and what the difference between tipping styles are.
-///
-/// **Important:** If your market does not support the selected style then the market default will be used.
-typedef NS_ENUM(NSUInteger, IZZettleReaderTippingStyle) {
-    /// Disable tipping option.
-    IZZettleReaderTippingStyleNone = 0,
-    
-    /// The market default option.
-    IZZettleReaderTippingStyleMarketDefault,
-    
-    /// An amount based option.
-    IZZettleReaderTippingStyleAmount,
-    
-    /// A percentage based option.
-    IZZettleReaderTippingStylePercentage
-};
-
-/// Defining which tipping style to be used when initiating a payment with tipping for PayPal readers.
-///
-/// Read more at [developer portal](https://developer.zettle.com/docs/ios-sdk/concepts/tipping-support) to understand which type(s) your market supports and what the difference between tipping styles are.
-///
-/// **Important:** If your market does not support the selected style then the market default will be used.
-typedef NS_ENUM(NSUInteger, IZPayPalReaderTippingStyle) {
-    /// Disable tipping option.
-    IZPayPalReaderTippingStyleNone = 0,
-    
-    /// The market default option.
-    IZPayPalReaderTippingStyleMarketDefault,
-    
-    /// A custom amount based option.
-    IZPayPalReaderTippingStyleCustomAmount,
-    
-    /// A percentage based option. It can be used together with `IZSDKPredefinedTippingValues` to utilize predefined percentage options.
-    IZPayPalReaderTippingStylePredefinedPercentage,
-    
-    /// Uses the tipping style configured by the merchant in Settings (if configured, otherwise tipping is disabled)
-    ///   - Note: when using this style, ensure the Settings view is configured to display the PayPal Reader tipping Settings section. See `IZSDKSettingsConfiguration`.
-    IZPayPalReaderTippingStyleSDKConfigured
-};
-
 
 @interface IZSDKSettingsConfiguration: NSObject
 
@@ -87,87 +25,6 @@ typedef NS_ENUM(NSUInteger, IZPayPalReaderTippingStyle) {
 
 - (instancetype)initWithPayPalReaderTippingSettingsEnabled:(BOOL)paypalReaderTippingSettingsEnabled
 NS_SWIFT_NAME(init(paypalReaderTippingSettingsEnabled:));
-
-@end
-
-/// A companion type specifying 3 predefined percentage options (provided option values should be between 0 and 100). To be used together with `IZPayPalReaderTippingStylePredefinedPercentage` style as part of `IZSDKTippingConfiguration`.
-@interface IZSDKPredefinedTippingValues: NSObject
-
-@property (nonatomic, readonly) NSUInteger option1;
-@property (nonatomic, readonly) NSUInteger option2;
-@property (nonatomic, readonly) NSUInteger option3;
-
-- (instancetype)initWithOption1:(NSUInteger)option1
-                        option2:(NSUInteger)option2
-                        option3:(NSUInteger)option3;
-
-@end
-
-/// Describes the tipping style preferences for each reader type.
-@interface IZSDKTippingConfiguration: NSObject
-
-/// Tipping style to be used for the Zettle Reader.
-@property (nonatomic, readonly) IZZettleReaderTippingStyle zettleReaderTippingStyle;
-/// Tipping style to be used for the PayPal Reader. When specifying `IZPayPalReaderTippingStylePredefinedPercentage` you can optionally provide a value for `paypalReaderPredefinedTippingValues`.
-@property (nonatomic, readonly) IZPayPalReaderTippingStyle paypalReaderTippingStyle;
-///  Predefined percentages to be displayed on the card reader. Used only when `paypalReaderTippingStyle` is `IZPayPalReaderTippingStylePredefinedPercentage `. If nil, market default values will be used.
-@property (nonatomic, readonly, strong, nullable) IZSDKPredefinedTippingValues *paypalReaderPredefinedTippingValues;
-
-/// Create tipping configuration by providing tipping style only for Zettle Reader.
-/// Tipping will be disabled for PayPal Reader.
-/// - Parameter zettleReaderTippingStyle: The tipping style for Zettle reader tipping
-- (instancetype)initWithZettleReaderTippingStyle:(IZZettleReaderTippingStyle)zettleReaderTippingStyle
-NS_SWIFT_NAME(init(zettleReaderTippingStyle:));
-
-/// Create tipping configuration by providing tipping style only for Zettle Reader.
-/// Tipping will be disabled for Zettle Reader.
-/// - Parameter paypalReaderTippingStyle: The tipping style for PayPal reader tipping
-- (instancetype)initWithPayPalReaderTippingStyle:(IZPayPalReaderTippingStyle)paypalReaderTippingStyle
-NS_SWIFT_NAME(init(paypalReaderTippingStyle:));
-
-/// Create a tipping configuration with provided tipping style and predefined values for PayPal reader.
-/// Pass `None` to disable tipping for this payment for this reader model.
-/// Only `Percentage` tipping style supports predefined tipping values for now.
-/// If `Amount` tipping style is passed alongside with predefined tipping values, the predefined values will be ignored.
-/// Tipping will be disabled for Zettle Reader.
-/// - Parameters:
-///   - paypalReaderTippingStyle: The tipping style for PayPal reader tipping
-///   - paypalReaderPredefinedTippingValues: The predefined tipping values for the PayPal reader
-- (instancetype)initWithPayPalReaderTippingStyle:(IZPayPalReaderTippingStyle)paypalReaderTippingStyle
-             paypalReaderPredefinedTippingValues:(IZSDKPredefinedTippingValues *)paypalReaderPredefinedTippingValues
-NS_SWIFT_NAME(init(paypalReaderTippingStyle:paypalReaderPredefinedTippingValues:));
-
-/// Create a tipping configuration with provided tipping style for PayPal Reader and Zettle Reader.
-/// Pass `None` to disable tipping for this payment for corresponding reader model.
-/// - Parameters:
-///   - zettleReaderTippingStyle: The tipping style for Zettle reader tipping
-///   - paypalReaderTippingStyle: The tipping style for PayPal reader tipping
-- (instancetype)initWithZettleReaderTippingStyle:(IZZettleReaderTippingStyle)zettleReaderTippingStyle
-                        paypalReaderTippingStyle:(IZPayPalReaderTippingStyle)paypalReaderTippingStyle
-NS_SWIFT_NAME(init(zettleReaderTippingStyle:paypalReaderTippingStyle:));
-
-/// Create a tipping configuration with provided tipping style and predefined values for PayPal Reader and provided tipping style for Zettle Reader.
-/// Pass `None` to disable tipping for this payment for corresponding reader model.
-/// Only `Percentage` tipping style supports predefined tipping values for now for PayPal Reader.
-/// If `Amount` tipping style is passed alongside with predefined tipping values for PayPal Reader, the predefined values will be ignored.
-/// - Parameters:
-///   - zettleReaderTippingStyle: The tipping style for Zettle reader tipping
-///   - paypalReaderTippingStyle: The tipping style for PayPal reader tipping
-///   - paypalReaderPredefinedTippingValues: The predefined tipping values for the PayPal reader
-- (instancetype)initWithZettleReaderTippingStyle:(IZZettleReaderTippingStyle)zettleReaderTippingStyle
-                        paypalReaderTippingStyle:(IZPayPalReaderTippingStyle)paypalReaderTippingStyle
-             paypalReaderPredefinedTippingValues:(IZSDKPredefinedTippingValues *)paypalReaderPredefinedTippingValues
-NS_SWIFT_NAME(init(zettleReaderTippingStyle:paypalReaderTippingStyle:paypalReaderPredefinedTippingValues:));
-
-/// Preconfigured tipping configuration.
-/// Zettle Reader: `IZZettleReaderTippingStyleMarketDefault` is used.
-/// PayPal Reader: `IZPayPalReaderTippingStyleSDKConfigured` is used.
-+ (instancetype)sdkConfiguredTippingConfiguration;
-
-/// Preconfigured tipping configuration.
-/// Zettle Reader: `IZZettleReaderTippingStyleNone` is used.
-/// PayPal Reader: `IZPayPalReaderTippingStyleNone` is used.
-+ (instancetype)disabledTippingConfiguration;
 
 @end
 
@@ -184,6 +41,8 @@ NS_SWIFT_NAME(init(zettleReaderTippingStyle:paypalReaderTippingStyle:paypalReade
 + (instancetype)new NS_UNAVAILABLE;
 - (instancetype)init NS_UNAVAILABLE;
 
+@property (weak, nonatomic) id<ZettleUserAuthorizationDelegate> authorizationObserver;
+ 
 /// Initializes SDK.
 ///
 /// This method performs validation checks.
@@ -288,26 +147,6 @@ NS_SWIFT_NAME(refund(amount:ofPayment:withRefundReference:presentFrom:completion
 
 #if  __has_include(<iZettlePayments/iZettlePayments-Swift.h>)
 @interface iZettleSDK (Operations)
-
-/// Present Zettle settings view. The user can switch account, access the Zettle FAQ, view card reader settings etc.
-/// Does not enable PayPal Reader tipping settings by default - use `presentSettingsFromViewController:configuration:`
-/// to explicitly configure settings instead.
-///
-/// - Parameters:
-///     - viewController:  A controller from which Zettle will present its UI.
-- (void)presentSettingsFromViewController:(UIViewController *)viewController
-NS_SWIFT_NAME(presentSettings(from:))
-__deprecated_msg("Use presentSettingsFromViewController:configuration: instead.");
-
-/// Present Zettle settings view with an option to display PayPal reader tipping settings.
-/// The user can switch account, access the Zettle FAQ, view card reader settings etc.
-///
-/// - Parameters:
-///     - viewController:  A controller from which Zettle will present its UI.
-///     - configuration: Defines the presentation of additional features on the SDK settings page (e.g. PayPal Reader tipping Settings).
-- (void)presentSettingsFromViewController:(UIViewController *)viewController
-                            configuration:(IZSDKSettingsConfiguration *)configuration
-NS_SWIFT_NAME(presentSettings(from:configuration:));
 
 /// Call from application:openURL:options: in the UIApplicationDelegate as part of the authorization flow.
 ///
@@ -440,92 +279,6 @@ API_AVAILABLE(ios(13));
                    completion:(IZSDKPayPalQRCCompletion)completion
 NS_SWIFT_NAME(refundPayPalQRC(amount:ofPayment:withRefundReference:presentFrom:completion:))
 API_AVAILABLE(ios(13));
-@end
-
-@interface iZettleSDK(CardReader)
-/// Perform a payment with an amount and a reference.
-///
-/// > Tip: Deprecated. Use ``chargeAmount:tippingStyle:reference:presentFromViewController:completion:`` instead.
-///
-/// > Important: Enabling tipping does not guarantee that tipping flow will be displayed. Tipping flow will only be displayed for logged in account and active reader supports tipping.
-///
-/// > Note: If developer mode is enabled, taking payments will not trigger real transactions.
-///
-/// - Parameters:
-///     - amount: The amount to be charged in the logged in users currency.
-///     - enableTipping: Enable tipping flow with IZZettleReaderTippingStyleMarketDefault tipping style and IZPayPalReaderTippingStyleMarketDefault.
-///     - reference: The payment reference. Used to identify a Zettle payment, used when retrieving payment information at a later time or performing a refund. Max length 128. (Optional).
-///     - viewController: A controller from which Zettle will present its UI.
-///     - completion: Completion handler that will be called when the operation finishes.
-- (void)chargeAmount:(NSDecimalNumber *)amount
-       enableTipping:(BOOL)enableTipping
-           reference:(nullable NSString *)reference
-presentFromViewController:(UIViewController *)viewController
-          completion:(iZettleSDKOperationCompletion)completion
-NS_SWIFT_NAME(charge(amount:enableTipping:reference:presentFrom:completion:))
-__deprecated_msg("Use chargeAmount:tippingConfiguration:... to specify tipping style preferences for each reader type.");
-
-/// Perform a payment with an amount, tipping style and a reference.
-///
-/// > Important: Setting a tipping style does not guarantee that tipping flow will be displayed. Tipping flow will only be displayed for logged in account supporting specificed style and  active reader supporting tipping.
-///
-/// > Note: If developer mode is enabled, taking payments will not trigger real transactions.
-///
-/// - Parameters:
-///     - amount: The amount to be charged in the logged in users currency.
-///     - tippingStyle: Select a tipping style or `None` to disable tipping for this payment.
-///     - reference: The payment reference. Used to identify an Zettle payment, used when retrieving payment information at a later time or performing a refund. Max length 128. (Optional).
-///     - viewController: A controller from which Zettle will present its UI.
-///     - completion: Completion handler that will be called when the operation finishes.
-///
-/// - Note: `IZSDKTippingStyle` is deprecated. We will map the provided `tippingStyle` to the closest `IZZettleReaderTippingStyle` and `IZPayPalReaderTippingStyle` but you're strongly encoraged to migrate to providing explicit styles via `IZSDKTippingConfiguration`.
-- (void)chargeAmount:(NSDecimalNumber *)amount
-        tippingStyle:(IZSDKTippingStyle)tippingStyle
-           reference:(nullable NSString *)reference
-presentFromViewController:(UIViewController *)viewController
-          completion:(iZettleSDKOperationCompletion)completion
-NS_SWIFT_NAME(charge(amount:tippingStyle:reference:presentFrom:completion:))
-__deprecated_msg("Use chargeAmount:tippingConfiguration:... to specify tipping style preferences for each reader type.");
-
-/// Perform a payment with an amount, a reference and tipping configuration.
-///
-/// > Important: Setting a tipping style does not guarantee that tipping flow will be displayed. Tipping flow will only be displayed for logged in account supporting specificed style and  active reader supporting tipping.
-///
-/// > Note: If developer mode is enabled, taking payments will not trigger real transactions.
-///
-/// - Parameters:
-///     - amount: The amount to be charged in the logged in users currency.
-///     - tippingConfiguration: Provide configuration for different tipping styles used for supported reader models (Zettle Reader and PayPal Reader)
-///     - reference: The payment reference. Used to identify an Zettle payment, used when retrieving payment information at a later time or performing a refund. Max length 128. (Optional).
-///     - partnerPayeePricingTierId: Payee pricing tier code is a code that is created by Partner managers, SGMs or sales in order to set pricing tier.  The code provided is sent within the Card payments API calls. (Optional)
-///     - viewController: A controller from which Zettle will present its UI.
-///     - completion: Completion handler that will be called when the operation finishes.
-- (void)chargeAmount:(NSDecimalNumber *)amount
-tippingConfiguration:(IZSDKTippingConfiguration *)tippingConfiguration
-           reference:(nullable NSString *)reference
-payPalPartnerPayeePricingTierId:(nullable NSString *)pricingTierId
-presentFromViewController:(UIViewController *)viewController
-          completion:(iZettleSDKOperationCompletion)completion
-NS_SWIFT_NAME(charge(amount:tippingConfiguration:reference:payPalPartnerPayeePricingTierId:presentFrom:completion:));
-
-/// Perform a payment with an amount, a reference and tipping configuration.
-///
-/// > Important: Setting a tipping style does not guarantee that tipping flow will be displayed. Tipping flow will only be displayed for logged in account supporting specificed style and  active reader supporting tipping.
-///
-/// > Note: If developer mode is enabled, taking payments will not trigger real transactions.
-///
-/// - Parameters:
-///     - amount: The amount to be charged in the logged in users currency.
-///     - tippingConfiguration: Provide configuration for different tipping styles used for supported reader models (Zettle Reader and PayPal Reader)
-///     - reference: The payment reference. Used to identify an Zettle payment, used when retrieving payment information at a later time or performing a refund. Max length 128. (Optional).
-///     - viewController: A controller from which Zettle will present its UI.
-///     - completion: Completion handler that will be called when the operation finishes.
-- (void)chargeAmount:(NSDecimalNumber *)amount
-tippingConfiguration:(IZSDKTippingConfiguration *)tippingConfiguration
-           reference:(nullable NSString *)reference
-presentFromViewController:(UIViewController *)viewController
-          completion:(iZettleSDKOperationCompletion)completion
-NS_SWIFT_NAME(charge(amount:tippingConfiguration:reference:presentFrom:completion:));
 @end
 
 @interface iZettleSDK(ManualCardEntry)

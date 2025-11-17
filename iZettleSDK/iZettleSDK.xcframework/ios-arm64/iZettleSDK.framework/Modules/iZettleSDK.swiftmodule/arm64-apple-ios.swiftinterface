@@ -1,15 +1,42 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name iZettleSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name iZettleSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import Foundation
 import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_exported import iZettleSDK
+extension iZettleSDK {
+  @available(*, deprecated, message: "Use presentSettings(from:configuration:) instead.")
+  @objc(presentSettingsFromViewController:) dynamic public func presentSettings(from viewController: UIKit.UIViewController)
+  @objc(presentSettingsFromViewController:configuration:) dynamic public func presentSettings(from viewController: UIKit.UIViewController, configuration: IZSDKSettingsConfiguration)
+}
 @_hasMissingDesignatedInitializers @objc final public class iZettleSDKHelper : ObjectiveC.NSObject {
   @objc deinit
+}
+@objc final public class ZettleUserInfo : ObjectiveC.NSObject {
+  @objc final public let userId: Swift.String
+  @objc final public let organizationId: Swift.String
+  @objc final public let country: Swift.String
+  @objc final public let currency: Swift.String
+  @objc final public let publicName: Swift.String
+  @objc final public let timeZone: Foundation.TimeZone
+  @objc final public let maxTippingPercentage: Foundation.NSDecimalNumber?
+  @objc final public let minTippingPercentage: Foundation.NSDecimalNumber?
+  @objc public init(userId: Swift.String, country: Swift.String, currency: Swift.String, publicName: Swift.String, organizationId: Swift.String, timeZone: Foundation.TimeZone, maxTippingPercentage: Foundation.NSDecimalNumber?, minTippingPercentage: Foundation.NSDecimalNumber?)
+  @objc override final public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+}
+extension ZettleUserInfo {
+  public static func == (lhs: ZettleUserInfo, rhs: ZettleUserInfo) -> Swift.Bool
+}
+@objc public protocol ZettleUserAuthorizationDelegate {
+  @objc func userDidLogin(with info: ZettleUserInfo)
+  @objc func userDidLogout()
 }
 public let iZettleSDKAuthorizationProviderErrorDomain: Foundation.NSErrorDomain
 public enum iZettleSDKAuthorizationProviderError : Swift.Int {
@@ -43,10 +70,74 @@ public enum iZettleSDKOAuthTokenError : Swift.Int {
   @objc public init(accessToken: Swift.String, expiresIn: Swift.Int, refreshToken: Swift.String?) throws
   @objc deinit
 }
+@available(*, deprecated, message: "Use IZZettleReaderTippingStyle and IZPayPalReaderTippingStyle instead.")
+@objc public enum IZSDKTippingStyle : Swift.UInt {
+  case none = 0
+  case marketDefault
+  case amount
+  case percentage
+  public init?(rawValue: Swift.UInt)
+  @available(*, deprecated, message: "Use IZZettleReaderTippingStyle and IZPayPalReaderTippingStyle instead.")
+  public typealias RawValue = Swift.UInt
+  public var rawValue: Swift.UInt {
+    get
+  }
+}
+@objc public enum IZZettleReaderTippingStyle : Swift.UInt {
+  case none = 0
+  case marketDefault
+  case amount
+  case percentage
+  public init?(rawValue: Swift.UInt)
+  public typealias RawValue = Swift.UInt
+  public var rawValue: Swift.UInt {
+    get
+  }
+}
+@objc public enum IZPayPalReaderTippingStyle : Swift.UInt {
+  case none = 0
+  case marketDefault
+  case customAmount
+  case predefinedPercentage
+  case sdkConfigured
+  public init?(rawValue: Swift.UInt)
+  public typealias RawValue = Swift.UInt
+  public var rawValue: Swift.UInt {
+    get
+  }
+}
+@objc public class IZSDKPredefinedTippingValues : ObjectiveC.NSObject {
+  @objc final public let option1: Swift.UInt
+  @objc final public let option2: Swift.UInt
+  @objc final public let option3: Swift.UInt
+  @objc public init(option1: Swift.UInt, option2: Swift.UInt, option3: Swift.UInt)
+  @objc deinit
+}
+@objc public class IZSDKTippingConfiguration : ObjectiveC.NSObject {
+  @objc final public let zettleReaderTippingStyle: IZZettleReaderTippingStyle
+  @objc final public let paypalReaderTippingStyle: IZPayPalReaderTippingStyle
+  @objc final public let paypalReaderPredefinedTippingValues: IZSDKPredefinedTippingValues?
+  @objc public init(zettleReaderTippingStyle: IZZettleReaderTippingStyle)
+  @objc public init(payPalReaderTippingStyle: IZPayPalReaderTippingStyle)
+  @objc public init(payPalReaderTippingStyle: IZPayPalReaderTippingStyle, paypalReaderPredefinedTippingValues: IZSDKPredefinedTippingValues)
+  @objc public init(zettleReaderTippingStyle: IZZettleReaderTippingStyle, paypalReaderTippingStyle: IZPayPalReaderTippingStyle)
+  @objc public init(zettleReaderTippingStyle: IZZettleReaderTippingStyle, paypalReaderTippingStyle: IZPayPalReaderTippingStyle, paypalReaderPredefinedTippingValues: IZSDKPredefinedTippingValues)
+  @objc(sdkConfiguredTippingConfiguration) public static func sdkConfigured() -> IZSDKTippingConfiguration
+  @objc(disabledTippingConfiguration) public static func disabled() -> IZSDKTippingConfiguration
+  @objc deinit
+}
 public typealias iZettleAuthorizationCompletion = (_ tokenData: iZettleSDKOAuthToken?, _ error: (any Swift.Error)?) -> Swift.Void
 @objc public protocol iZettleSDKAuthorizationProvider {
   @objc func authorizeAccount(completion: @escaping iZettleAuthorizationCompletion)
   @objc func verifyAccount(uuid: Foundation.UUID, completion: @escaping iZettleAuthorizationCompletion)
+}
+extension iZettleSDK {
+  @available(*, deprecated, message: "Use charge(amount:tippingConfiguration:... to specify tipping style preferences for each reader type")
+  @objc(chargeAmount:enableTipping:reference:presentFromViewController:completion:) dynamic public func charge(amount: Foundation.NSDecimalNumber, enableTipping: Swift.Bool, reference: Swift.String?, presentFrom viewController: UIKit.UIViewController, completion: @escaping iZettleSDKOperationCompletion)
+  @available(*, deprecated, message: "Use charge(amount:tippingConfiguration:... to specify tipping style preferences for each reader type")
+  @objc(chargeAmount:tippingStyle:reference:presentFromViewController:completion:) dynamic public func charge(amount: Foundation.NSDecimalNumber, tippingStyle: IZSDKTippingStyle, reference: Swift.String?, presentFrom viewController: UIKit.UIViewController, completion: @escaping iZettleSDKOperationCompletion)
+  @objc(chargeAmount:tippingConfiguration:reference:presentFromViewController:completion:) dynamic public func charge(amount: Foundation.NSDecimalNumber, tippingConfiguration: IZSDKTippingConfiguration, reference: Swift.String?, presentFrom viewController: UIKit.UIViewController, completion: @escaping iZettleSDKOperationCompletion)
+  @objc(chargeAmount:tippingConfiguration:reference:payPalPartnerPayeePricingTierId:presentFromViewController:completion:) dynamic public func charge(amount: Foundation.NSDecimalNumber, tippingConfiguration: IZSDKTippingConfiguration, reference: Swift.String?, payPalPartnerPayeePricingTierId: Swift.String?, presentFrom viewController: UIKit.UIViewController, completion: @escaping iZettleSDKOperationCompletion)
 }
 extension iZettleSDKOAuthTokenError : Foundation.LocalizedError {
   public var errorDescription: Swift.String? {
@@ -98,3 +189,15 @@ extension iZettleSDKAuthorizationProviderError : Swift.RawRepresentable {}
 extension iZettleSDKOAuthTokenError : Swift.Equatable {}
 extension iZettleSDKOAuthTokenError : Swift.Hashable {}
 extension iZettleSDKOAuthTokenError : Swift.RawRepresentable {}
+@available(*, deprecated, message: "Use IZZettleReaderTippingStyle and IZPayPalReaderTippingStyle instead.")
+extension IZSDKTippingStyle : Swift.Equatable {}
+@available(*, deprecated, message: "Use IZZettleReaderTippingStyle and IZPayPalReaderTippingStyle instead.")
+extension IZSDKTippingStyle : Swift.Hashable {}
+@available(*, deprecated, message: "Use IZZettleReaderTippingStyle and IZPayPalReaderTippingStyle instead.")
+extension IZSDKTippingStyle : Swift.RawRepresentable {}
+extension IZZettleReaderTippingStyle : Swift.Equatable {}
+extension IZZettleReaderTippingStyle : Swift.Hashable {}
+extension IZZettleReaderTippingStyle : Swift.RawRepresentable {}
+extension IZPayPalReaderTippingStyle : Swift.Equatable {}
+extension IZPayPalReaderTippingStyle : Swift.Hashable {}
+extension IZPayPalReaderTippingStyle : Swift.RawRepresentable {}

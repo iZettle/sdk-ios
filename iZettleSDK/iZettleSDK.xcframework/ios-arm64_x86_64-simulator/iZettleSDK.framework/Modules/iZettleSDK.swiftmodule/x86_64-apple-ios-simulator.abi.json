@@ -9,6 +9,20 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "iZettleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "iZettlePayments",
+        "printedName": "iZettlePayments",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "iZettleSDK",
         "declAttributes": [
           "RawDocComment"
@@ -130,6 +144,833 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZettleUserInfo",
+        "printedName": "ZettleUserInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userId",
+            "printedName": "userId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo(py)userId",
+            "mangledName": "$s10iZettleSDK0A8UserInfoC6userIdSSvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo(im)userId",
+                "mangledName": "$s10iZettleSDK0A8UserInfoC6userIdSSvg",
+                "moduleName": "iZettleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "organizationId",
+            "printedName": "organizationId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo(py)organizationId",
+            "mangledName": "$s10iZettleSDK0A8UserInfoC14organizationIdSSvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo(im)organizationId",
+                "mangledName": "$s10iZettleSDK0A8UserInfoC14organizationIdSSvg",
+                "moduleName": "iZettleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "country",
+            "printedName": "country",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo(py)country",
+            "mangledName": "$s10iZettleSDK0A8UserInfoC7countrySSvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo(im)country",
+                "mangledName": "$s10iZettleSDK0A8UserInfoC7countrySSvg",
+                "moduleName": "iZettleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currency",
+            "printedName": "currency",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo(py)currency",
+            "mangledName": "$s10iZettleSDK0A8UserInfoC8currencySSvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo(im)currency",
+                "mangledName": "$s10iZettleSDK0A8UserInfoC8currencySSvg",
+                "moduleName": "iZettleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "publicName",
+            "printedName": "publicName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo(py)publicName",
+            "mangledName": "$s10iZettleSDK0A8UserInfoC10publicNameSSvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo(im)publicName",
+                "mangledName": "$s10iZettleSDK0A8UserInfoC10publicNameSSvg",
+                "moduleName": "iZettleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeZone",
+            "printedName": "timeZone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TimeZone",
+                "printedName": "Foundation.TimeZone",
+                "usr": "s:10Foundation8TimeZoneV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo(py)timeZone",
+            "mangledName": "$s10iZettleSDK0A8UserInfoC8timeZone10Foundation04TimeF0Vvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TimeZone",
+                    "printedName": "Foundation.TimeZone",
+                    "usr": "s:10Foundation8TimeZoneV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo(im)timeZone",
+                "mangledName": "$s10iZettleSDK0A8UserInfoC8timeZone10Foundation04TimeF0Vvg",
+                "moduleName": "iZettleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxTippingPercentage",
+            "printedName": "maxTippingPercentage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDecimalNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDecimalNumber",
+                    "printedName": "Foundation.NSDecimalNumber",
+                    "usr": "c:objc(cs)NSDecimalNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo(py)maxTippingPercentage",
+            "mangledName": "$s10iZettleSDK0A8UserInfoC20maxTippingPercentageSo15NSDecimalNumberCSgvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSDecimalNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSDecimalNumber",
+                        "printedName": "Foundation.NSDecimalNumber",
+                        "usr": "c:objc(cs)NSDecimalNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo(im)maxTippingPercentage",
+                "mangledName": "$s10iZettleSDK0A8UserInfoC20maxTippingPercentageSo15NSDecimalNumberCSgvg",
+                "moduleName": "iZettleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minTippingPercentage",
+            "printedName": "minTippingPercentage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDecimalNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDecimalNumber",
+                    "printedName": "Foundation.NSDecimalNumber",
+                    "usr": "c:objc(cs)NSDecimalNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo(py)minTippingPercentage",
+            "mangledName": "$s10iZettleSDK0A8UserInfoC20minTippingPercentageSo15NSDecimalNumberCSgvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSDecimalNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSDecimalNumber",
+                        "printedName": "Foundation.NSDecimalNumber",
+                        "usr": "c:objc(cs)NSDecimalNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo(im)minTippingPercentage",
+                "mangledName": "$s10iZettleSDK0A8UserInfoC20minTippingPercentageSo15NSDecimalNumberCSgvg",
+                "moduleName": "iZettleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(userId:country:currency:publicName:organizationId:timeZone:maxTippingPercentage:minTippingPercentage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZettleUserInfo",
+                "printedName": "iZettleSDK.ZettleUserInfo",
+                "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TimeZone",
+                "printedName": "Foundation.TimeZone",
+                "usr": "s:10Foundation8TimeZoneV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDecimalNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDecimalNumber",
+                    "printedName": "Foundation.NSDecimalNumber",
+                    "usr": "c:objc(cs)NSDecimalNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDecimalNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDecimalNumber",
+                    "printedName": "Foundation.NSDecimalNumber",
+                    "usr": "c:objc(cs)NSDecimalNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo(im)initWithUserId:country:currency:publicName:organizationId:timeZone:maxTippingPercentage:minTippingPercentage:",
+            "mangledName": "$s10iZettleSDK0A8UserInfoC6userId7country8currency10publicName012organizationF08timeZone20maxTippingPercentage03minoP0ACSS_S4S10Foundation04TimeM0VSo15NSDecimalNumberCSgAQtcfc",
+            "moduleName": "iZettleSDK",
+            "objc_name": "initWithUserId:country:currency:publicName:organizationId:timeZone:maxTippingPercentage:minTippingPercentage:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo(py)description",
+            "mangledName": "$s10iZettleSDK0A8UserInfoC11descriptionSSvp",
+            "moduleName": "iZettleSDK",
+            "overriding": true,
+            "objc_name": "description",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo(im)description",
+                "mangledName": "$s10iZettleSDK0A8UserInfoC11descriptionSSvg",
+                "moduleName": "iZettleSDK",
+                "overriding": true,
+                "objc_name": "description",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZettleUserInfo",
+                "printedName": "iZettleSDK.ZettleUserInfo",
+                "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo(im)init",
+            "mangledName": "$s10iZettleSDK0A8UserInfoCACycfc",
+            "moduleName": "iZettleSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZettleUserInfo",
+                "printedName": "iZettleSDK.ZettleUserInfo",
+                "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZettleUserInfo",
+                "printedName": "iZettleSDK.ZettleUserInfo",
+                "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10iZettleSDK0A8UserInfoC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10iZettleSDK0A8UserInfoC2eeoiySbAC_ACtFZ",
+            "moduleName": "iZettleSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo",
+        "mangledName": "$s10iZettleSDK0A8UserInfoC",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZettleUserAuthorizationDelegate",
+        "printedName": "ZettleUserAuthorizationDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "userDidLogin",
+            "printedName": "userDidLogin(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZettleUserInfo",
+                "printedName": "iZettleSDK.ZettleUserInfo",
+                "usr": "c:@M@iZettleSDK@objc(cs)ZettleUserInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iZettleSDK@objc(pl)ZettleUserAuthorizationDelegate(im)userDidLoginWith:",
+            "mangledName": "$s10iZettleSDK0A25UserAuthorizationDelegateP12userDidLogin4withyAA0aC4InfoC_tF",
+            "moduleName": "iZettleSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : iZettleSDK.ZettleUserAuthorizationDelegate>",
+            "sugared_genericSig": "<Self where Self : iZettleSDK.ZettleUserAuthorizationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userDidLogout",
+            "printedName": "userDidLogout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iZettleSDK@objc(pl)ZettleUserAuthorizationDelegate(im)userDidLogout",
+            "mangledName": "$s10iZettleSDK0A25UserAuthorizationDelegateP13userDidLogoutyyF",
+            "moduleName": "iZettleSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : iZettleSDK.ZettleUserAuthorizationDelegate>",
+            "sugared_genericSig": "<Self where Self : iZettleSDK.ZettleUserAuthorizationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@iZettleSDK@objc(pl)ZettleUserAuthorizationDelegate",
+        "mangledName": "$s10iZettleSDK0A25UserAuthorizationDelegateP",
+        "moduleName": "iZettleSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           }
         ]
       },
@@ -2226,6 +3067,1802 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "iZettlePayments",
+        "printedName": "iZettlePayments",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IZSDKTippingStyle",
+        "printedName": "IZSDKTippingStyle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.IZSDKTippingStyle.Type) -> iZettleSDK.IZSDKTippingStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IZSDKTippingStyle",
+                    "printedName": "iZettleSDK.IZSDKTippingStyle",
+                    "usr": "c:@M@iZettleSDK@E@IZSDKTippingStyle"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.IZSDKTippingStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IZSDKTippingStyle",
+                        "printedName": "iZettleSDK.IZSDKTippingStyle",
+                        "usr": "c:@M@iZettleSDK@E@IZSDKTippingStyle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@iZettleSDK@E@IZSDKTippingStyle@IZSDKTippingStyleNone",
+            "mangledName": "$s10iZettleSDK17IZSDKTippingStyleO4noneyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "marketDefault",
+            "printedName": "marketDefault",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.IZSDKTippingStyle.Type) -> iZettleSDK.IZSDKTippingStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IZSDKTippingStyle",
+                    "printedName": "iZettleSDK.IZSDKTippingStyle",
+                    "usr": "c:@M@iZettleSDK@E@IZSDKTippingStyle"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.IZSDKTippingStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IZSDKTippingStyle",
+                        "printedName": "iZettleSDK.IZSDKTippingStyle",
+                        "usr": "c:@M@iZettleSDK@E@IZSDKTippingStyle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@iZettleSDK@E@IZSDKTippingStyle@IZSDKTippingStyleMarketDefault",
+            "mangledName": "$s10iZettleSDK17IZSDKTippingStyleO13marketDefaultyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "amount",
+            "printedName": "amount",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.IZSDKTippingStyle.Type) -> iZettleSDK.IZSDKTippingStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IZSDKTippingStyle",
+                    "printedName": "iZettleSDK.IZSDKTippingStyle",
+                    "usr": "c:@M@iZettleSDK@E@IZSDKTippingStyle"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.IZSDKTippingStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IZSDKTippingStyle",
+                        "printedName": "iZettleSDK.IZSDKTippingStyle",
+                        "usr": "c:@M@iZettleSDK@E@IZSDKTippingStyle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@iZettleSDK@E@IZSDKTippingStyle@IZSDKTippingStyleAmount",
+            "mangledName": "$s10iZettleSDK17IZSDKTippingStyleO6amountyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "percentage",
+            "printedName": "percentage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.IZSDKTippingStyle.Type) -> iZettleSDK.IZSDKTippingStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IZSDKTippingStyle",
+                    "printedName": "iZettleSDK.IZSDKTippingStyle",
+                    "usr": "c:@M@iZettleSDK@E@IZSDKTippingStyle"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.IZSDKTippingStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IZSDKTippingStyle",
+                        "printedName": "iZettleSDK.IZSDKTippingStyle",
+                        "usr": "c:@M@iZettleSDK@E@IZSDKTippingStyle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@iZettleSDK@E@IZSDKTippingStyle@IZSDKTippingStylePercentage",
+            "mangledName": "$s10iZettleSDK17IZSDKTippingStyleO10percentageyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iZettleSDK.IZSDKTippingStyle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IZSDKTippingStyle",
+                    "printedName": "iZettleSDK.IZSDKTippingStyle",
+                    "usr": "c:@M@iZettleSDK@E@IZSDKTippingStyle"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10iZettleSDK17IZSDKTippingStyleO8rawValueACSgSu_tcfc",
+            "mangledName": "$s10iZettleSDK17IZSDKTippingStyleO8rawValueACSgSu_tcfc",
+            "moduleName": "iZettleSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10iZettleSDK17IZSDKTippingStyleO8rawValueSuvp",
+            "mangledName": "$s10iZettleSDK17IZSDKTippingStyleO8rawValueSuvp",
+            "moduleName": "iZettleSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10iZettleSDK17IZSDKTippingStyleO8rawValueSuvg",
+                "mangledName": "$s10iZettleSDK17IZSDKTippingStyleO8rawValueSuvg",
+                "moduleName": "iZettleSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@iZettleSDK@E@IZSDKTippingStyle",
+        "mangledName": "$s10iZettleSDK17IZSDKTippingStyleO",
+        "moduleName": "iZettleSDK",
+        "deprecated": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "Available",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "UInt",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IZZettleReaderTippingStyle",
+        "printedName": "IZZettleReaderTippingStyle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.IZZettleReaderTippingStyle.Type) -> iZettleSDK.IZZettleReaderTippingStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IZZettleReaderTippingStyle",
+                    "printedName": "iZettleSDK.IZZettleReaderTippingStyle",
+                    "usr": "c:@M@iZettleSDK@E@IZZettleReaderTippingStyle"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.IZZettleReaderTippingStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IZZettleReaderTippingStyle",
+                        "printedName": "iZettleSDK.IZZettleReaderTippingStyle",
+                        "usr": "c:@M@iZettleSDK@E@IZZettleReaderTippingStyle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@iZettleSDK@E@IZZettleReaderTippingStyle@IZZettleReaderTippingStyleNone",
+            "mangledName": "$s10iZettleSDK26IZZettleReaderTippingStyleO4noneyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "marketDefault",
+            "printedName": "marketDefault",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.IZZettleReaderTippingStyle.Type) -> iZettleSDK.IZZettleReaderTippingStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IZZettleReaderTippingStyle",
+                    "printedName": "iZettleSDK.IZZettleReaderTippingStyle",
+                    "usr": "c:@M@iZettleSDK@E@IZZettleReaderTippingStyle"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.IZZettleReaderTippingStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IZZettleReaderTippingStyle",
+                        "printedName": "iZettleSDK.IZZettleReaderTippingStyle",
+                        "usr": "c:@M@iZettleSDK@E@IZZettleReaderTippingStyle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@iZettleSDK@E@IZZettleReaderTippingStyle@IZZettleReaderTippingStyleMarketDefault",
+            "mangledName": "$s10iZettleSDK26IZZettleReaderTippingStyleO13marketDefaultyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "amount",
+            "printedName": "amount",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.IZZettleReaderTippingStyle.Type) -> iZettleSDK.IZZettleReaderTippingStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IZZettleReaderTippingStyle",
+                    "printedName": "iZettleSDK.IZZettleReaderTippingStyle",
+                    "usr": "c:@M@iZettleSDK@E@IZZettleReaderTippingStyle"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.IZZettleReaderTippingStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IZZettleReaderTippingStyle",
+                        "printedName": "iZettleSDK.IZZettleReaderTippingStyle",
+                        "usr": "c:@M@iZettleSDK@E@IZZettleReaderTippingStyle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@iZettleSDK@E@IZZettleReaderTippingStyle@IZZettleReaderTippingStyleAmount",
+            "mangledName": "$s10iZettleSDK26IZZettleReaderTippingStyleO6amountyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "percentage",
+            "printedName": "percentage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.IZZettleReaderTippingStyle.Type) -> iZettleSDK.IZZettleReaderTippingStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IZZettleReaderTippingStyle",
+                    "printedName": "iZettleSDK.IZZettleReaderTippingStyle",
+                    "usr": "c:@M@iZettleSDK@E@IZZettleReaderTippingStyle"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.IZZettleReaderTippingStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IZZettleReaderTippingStyle",
+                        "printedName": "iZettleSDK.IZZettleReaderTippingStyle",
+                        "usr": "c:@M@iZettleSDK@E@IZZettleReaderTippingStyle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@iZettleSDK@E@IZZettleReaderTippingStyle@IZZettleReaderTippingStylePercentage",
+            "mangledName": "$s10iZettleSDK26IZZettleReaderTippingStyleO10percentageyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iZettleSDK.IZZettleReaderTippingStyle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IZZettleReaderTippingStyle",
+                    "printedName": "iZettleSDK.IZZettleReaderTippingStyle",
+                    "usr": "c:@M@iZettleSDK@E@IZZettleReaderTippingStyle"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10iZettleSDK26IZZettleReaderTippingStyleO8rawValueACSgSu_tcfc",
+            "mangledName": "$s10iZettleSDK26IZZettleReaderTippingStyleO8rawValueACSgSu_tcfc",
+            "moduleName": "iZettleSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10iZettleSDK26IZZettleReaderTippingStyleO8rawValueSuvp",
+            "mangledName": "$s10iZettleSDK26IZZettleReaderTippingStyleO8rawValueSuvp",
+            "moduleName": "iZettleSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10iZettleSDK26IZZettleReaderTippingStyleO8rawValueSuvg",
+                "mangledName": "$s10iZettleSDK26IZZettleReaderTippingStyleO8rawValueSuvg",
+                "moduleName": "iZettleSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@iZettleSDK@E@IZZettleReaderTippingStyle",
+        "mangledName": "$s10iZettleSDK26IZZettleReaderTippingStyleO",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "UInt",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IZPayPalReaderTippingStyle",
+        "printedName": "IZPayPalReaderTippingStyle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.IZPayPalReaderTippingStyle.Type) -> iZettleSDK.IZPayPalReaderTippingStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IZPayPalReaderTippingStyle",
+                    "printedName": "iZettleSDK.IZPayPalReaderTippingStyle",
+                    "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.IZPayPalReaderTippingStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IZPayPalReaderTippingStyle",
+                        "printedName": "iZettleSDK.IZPayPalReaderTippingStyle",
+                        "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle@IZPayPalReaderTippingStyleNone",
+            "mangledName": "$s10iZettleSDK26IZPayPalReaderTippingStyleO4noneyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "marketDefault",
+            "printedName": "marketDefault",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.IZPayPalReaderTippingStyle.Type) -> iZettleSDK.IZPayPalReaderTippingStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IZPayPalReaderTippingStyle",
+                    "printedName": "iZettleSDK.IZPayPalReaderTippingStyle",
+                    "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.IZPayPalReaderTippingStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IZPayPalReaderTippingStyle",
+                        "printedName": "iZettleSDK.IZPayPalReaderTippingStyle",
+                        "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle@IZPayPalReaderTippingStyleMarketDefault",
+            "mangledName": "$s10iZettleSDK26IZPayPalReaderTippingStyleO13marketDefaultyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "customAmount",
+            "printedName": "customAmount",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.IZPayPalReaderTippingStyle.Type) -> iZettleSDK.IZPayPalReaderTippingStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IZPayPalReaderTippingStyle",
+                    "printedName": "iZettleSDK.IZPayPalReaderTippingStyle",
+                    "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.IZPayPalReaderTippingStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IZPayPalReaderTippingStyle",
+                        "printedName": "iZettleSDK.IZPayPalReaderTippingStyle",
+                        "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle@IZPayPalReaderTippingStyleCustomAmount",
+            "mangledName": "$s10iZettleSDK26IZPayPalReaderTippingStyleO12customAmountyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "predefinedPercentage",
+            "printedName": "predefinedPercentage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.IZPayPalReaderTippingStyle.Type) -> iZettleSDK.IZPayPalReaderTippingStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IZPayPalReaderTippingStyle",
+                    "printedName": "iZettleSDK.IZPayPalReaderTippingStyle",
+                    "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.IZPayPalReaderTippingStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IZPayPalReaderTippingStyle",
+                        "printedName": "iZettleSDK.IZPayPalReaderTippingStyle",
+                        "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle@IZPayPalReaderTippingStylePredefinedPercentage",
+            "mangledName": "$s10iZettleSDK26IZPayPalReaderTippingStyleO20predefinedPercentageyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "sdkConfigured",
+            "printedName": "sdkConfigured",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.IZPayPalReaderTippingStyle.Type) -> iZettleSDK.IZPayPalReaderTippingStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IZPayPalReaderTippingStyle",
+                    "printedName": "iZettleSDK.IZPayPalReaderTippingStyle",
+                    "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.IZPayPalReaderTippingStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IZPayPalReaderTippingStyle",
+                        "printedName": "iZettleSDK.IZPayPalReaderTippingStyle",
+                        "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle@IZPayPalReaderTippingStyleSdkConfigured",
+            "mangledName": "$s10iZettleSDK26IZPayPalReaderTippingStyleO13sdkConfiguredyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iZettleSDK.IZPayPalReaderTippingStyle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IZPayPalReaderTippingStyle",
+                    "printedName": "iZettleSDK.IZPayPalReaderTippingStyle",
+                    "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10iZettleSDK26IZPayPalReaderTippingStyleO8rawValueACSgSu_tcfc",
+            "mangledName": "$s10iZettleSDK26IZPayPalReaderTippingStyleO8rawValueACSgSu_tcfc",
+            "moduleName": "iZettleSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10iZettleSDK26IZPayPalReaderTippingStyleO8rawValueSuvp",
+            "mangledName": "$s10iZettleSDK26IZPayPalReaderTippingStyleO8rawValueSuvp",
+            "moduleName": "iZettleSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10iZettleSDK26IZPayPalReaderTippingStyleO8rawValueSuvg",
+                "mangledName": "$s10iZettleSDK26IZPayPalReaderTippingStyleO8rawValueSuvg",
+                "moduleName": "iZettleSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle",
+        "mangledName": "$s10iZettleSDK26IZPayPalReaderTippingStyleO",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "UInt",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IZSDKPredefinedTippingValues",
+        "printedName": "IZSDKPredefinedTippingValues",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "option1",
+            "printedName": "option1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iZettleSDK@objc(cs)IZSDKPredefinedTippingValues(py)option1",
+            "mangledName": "$s10iZettleSDK28IZSDKPredefinedTippingValuesC7option1Suvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZSDKPredefinedTippingValues(im)option1",
+                "mangledName": "$s10iZettleSDK28IZSDKPredefinedTippingValuesC7option1Suvg",
+                "moduleName": "iZettleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "option2",
+            "printedName": "option2",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iZettleSDK@objc(cs)IZSDKPredefinedTippingValues(py)option2",
+            "mangledName": "$s10iZettleSDK28IZSDKPredefinedTippingValuesC7option2Suvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZSDKPredefinedTippingValues(im)option2",
+                "mangledName": "$s10iZettleSDK28IZSDKPredefinedTippingValuesC7option2Suvg",
+                "moduleName": "iZettleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "option3",
+            "printedName": "option3",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iZettleSDK@objc(cs)IZSDKPredefinedTippingValues(py)option3",
+            "mangledName": "$s10iZettleSDK28IZSDKPredefinedTippingValuesC7option3Suvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZSDKPredefinedTippingValues(im)option3",
+                "mangledName": "$s10iZettleSDK28IZSDKPredefinedTippingValuesC7option3Suvg",
+                "moduleName": "iZettleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(option1:option2:option3:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IZSDKPredefinedTippingValues",
+                "printedName": "iZettleSDK.IZSDKPredefinedTippingValues",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZSDKPredefinedTippingValues"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iZettleSDK@objc(cs)IZSDKPredefinedTippingValues(im)initWithOption1:option2:option3:",
+            "mangledName": "$s10iZettleSDK28IZSDKPredefinedTippingValuesC7option17option27option3ACSu_S2utcfc",
+            "moduleName": "iZettleSDK",
+            "objc_name": "initWithOption1:option2:option3:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IZSDKPredefinedTippingValues",
+                "printedName": "iZettleSDK.IZSDKPredefinedTippingValues",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZSDKPredefinedTippingValues"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iZettleSDK@objc(cs)IZSDKPredefinedTippingValues(im)init",
+            "mangledName": "$s10iZettleSDK28IZSDKPredefinedTippingValuesCACycfc",
+            "moduleName": "iZettleSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iZettleSDK@objc(cs)IZSDKPredefinedTippingValues",
+        "mangledName": "$s10iZettleSDK28IZSDKPredefinedTippingValuesC",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IZSDKTippingConfiguration",
+        "printedName": "IZSDKTippingConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "zettleReaderTippingStyle",
+            "printedName": "zettleReaderTippingStyle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IZZettleReaderTippingStyle",
+                "printedName": "iZettleSDK.IZZettleReaderTippingStyle",
+                "usr": "c:@M@iZettleSDK@E@IZZettleReaderTippingStyle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration(py)zettleReaderTippingStyle",
+            "mangledName": "$s10iZettleSDK25IZSDKTippingConfigurationC24zettleReaderTippingStyleAA08IZZettlefgH0Ovp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IZZettleReaderTippingStyle",
+                    "printedName": "iZettleSDK.IZZettleReaderTippingStyle",
+                    "usr": "c:@M@iZettleSDK@E@IZZettleReaderTippingStyle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration(im)zettleReaderTippingStyle",
+                "mangledName": "$s10iZettleSDK25IZSDKTippingConfigurationC24zettleReaderTippingStyleAA08IZZettlefgH0Ovg",
+                "moduleName": "iZettleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "paypalReaderTippingStyle",
+            "printedName": "paypalReaderTippingStyle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IZPayPalReaderTippingStyle",
+                "printedName": "iZettleSDK.IZPayPalReaderTippingStyle",
+                "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration(py)paypalReaderTippingStyle",
+            "mangledName": "$s10iZettleSDK25IZSDKTippingConfigurationC24paypalReaderTippingStyleAA08IZPayPalfgH0Ovp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IZPayPalReaderTippingStyle",
+                    "printedName": "iZettleSDK.IZPayPalReaderTippingStyle",
+                    "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration(im)paypalReaderTippingStyle",
+                "mangledName": "$s10iZettleSDK25IZSDKTippingConfigurationC24paypalReaderTippingStyleAA08IZPayPalfgH0Ovg",
+                "moduleName": "iZettleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "paypalReaderPredefinedTippingValues",
+            "printedName": "paypalReaderPredefinedTippingValues",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iZettleSDK.IZSDKPredefinedTippingValues?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IZSDKPredefinedTippingValues",
+                    "printedName": "iZettleSDK.IZSDKPredefinedTippingValues",
+                    "usr": "c:@M@iZettleSDK@objc(cs)IZSDKPredefinedTippingValues"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration(py)paypalReaderPredefinedTippingValues",
+            "mangledName": "$s10iZettleSDK25IZSDKTippingConfigurationC35paypalReaderPredefinedTippingValuesAA015IZSDKPredefinedhI0CSgvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "iZettleSDK.IZSDKPredefinedTippingValues?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IZSDKPredefinedTippingValues",
+                        "printedName": "iZettleSDK.IZSDKPredefinedTippingValues",
+                        "usr": "c:@M@iZettleSDK@objc(cs)IZSDKPredefinedTippingValues"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration(im)paypalReaderPredefinedTippingValues",
+                "mangledName": "$s10iZettleSDK25IZSDKTippingConfigurationC35paypalReaderPredefinedTippingValuesAA015IZSDKPredefinedhI0CSgvg",
+                "moduleName": "iZettleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(zettleReaderTippingStyle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IZSDKTippingConfiguration",
+                "printedName": "iZettleSDK.IZSDKTippingConfiguration",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IZZettleReaderTippingStyle",
+                "printedName": "iZettleSDK.IZZettleReaderTippingStyle",
+                "usr": "c:@M@iZettleSDK@E@IZZettleReaderTippingStyle"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration(im)initWithZettleReaderTippingStyle:",
+            "mangledName": "$s10iZettleSDK25IZSDKTippingConfigurationC24zettleReaderTippingStyleAcA08IZZettlefgH0O_tcfc",
+            "moduleName": "iZettleSDK",
+            "objc_name": "initWithZettleReaderTippingStyle:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(payPalReaderTippingStyle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IZSDKTippingConfiguration",
+                "printedName": "iZettleSDK.IZSDKTippingConfiguration",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IZPayPalReaderTippingStyle",
+                "printedName": "iZettleSDK.IZPayPalReaderTippingStyle",
+                "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration(im)initWithPayPalReaderTippingStyle:",
+            "mangledName": "$s10iZettleSDK25IZSDKTippingConfigurationC24payPalReaderTippingStyleAcA05IZPayfghI0O_tcfc",
+            "moduleName": "iZettleSDK",
+            "objc_name": "initWithPayPalReaderTippingStyle:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(payPalReaderTippingStyle:paypalReaderPredefinedTippingValues:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IZSDKTippingConfiguration",
+                "printedName": "iZettleSDK.IZSDKTippingConfiguration",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IZPayPalReaderTippingStyle",
+                "printedName": "iZettleSDK.IZPayPalReaderTippingStyle",
+                "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IZSDKPredefinedTippingValues",
+                "printedName": "iZettleSDK.IZSDKPredefinedTippingValues",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZSDKPredefinedTippingValues"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration(im)initWithPayPalReaderTippingStyle:paypalReaderPredefinedTippingValues:",
+            "mangledName": "$s10iZettleSDK25IZSDKTippingConfigurationC24payPalReaderTippingStyle06paypalg10PredefinedH6ValuesAcA05IZPayfghI0O_AA015IZSDKPredefinedhL0Ctcfc",
+            "moduleName": "iZettleSDK",
+            "objc_name": "initWithPayPalReaderTippingStyle:paypalReaderPredefinedTippingValues:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(zettleReaderTippingStyle:paypalReaderTippingStyle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IZSDKTippingConfiguration",
+                "printedName": "iZettleSDK.IZSDKTippingConfiguration",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IZZettleReaderTippingStyle",
+                "printedName": "iZettleSDK.IZZettleReaderTippingStyle",
+                "usr": "c:@M@iZettleSDK@E@IZZettleReaderTippingStyle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IZPayPalReaderTippingStyle",
+                "printedName": "iZettleSDK.IZPayPalReaderTippingStyle",
+                "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration(im)initWithZettleReaderTippingStyle:paypalReaderTippingStyle:",
+            "mangledName": "$s10iZettleSDK25IZSDKTippingConfigurationC24zettleReaderTippingStyle06paypalfgH0AcA08IZZettlefgH0O_AA08IZPayPalfgH0Otcfc",
+            "moduleName": "iZettleSDK",
+            "objc_name": "initWithZettleReaderTippingStyle:paypalReaderTippingStyle:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(zettleReaderTippingStyle:paypalReaderTippingStyle:paypalReaderPredefinedTippingValues:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IZSDKTippingConfiguration",
+                "printedName": "iZettleSDK.IZSDKTippingConfiguration",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IZZettleReaderTippingStyle",
+                "printedName": "iZettleSDK.IZZettleReaderTippingStyle",
+                "usr": "c:@M@iZettleSDK@E@IZZettleReaderTippingStyle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IZPayPalReaderTippingStyle",
+                "printedName": "iZettleSDK.IZPayPalReaderTippingStyle",
+                "usr": "c:@M@iZettleSDK@E@IZPayPalReaderTippingStyle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IZSDKPredefinedTippingValues",
+                "printedName": "iZettleSDK.IZSDKPredefinedTippingValues",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZSDKPredefinedTippingValues"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration(im)initWithZettleReaderTippingStyle:paypalReaderTippingStyle:paypalReaderPredefinedTippingValues:",
+            "mangledName": "$s10iZettleSDK25IZSDKTippingConfigurationC24zettleReaderTippingStyle06paypalfgH00if10PredefinedG6ValuesAcA08IZZettlefgH0O_AA08IZPayPalfgH0OAA015IZSDKPredefinedgK0Ctcfc",
+            "moduleName": "iZettleSDK",
+            "objc_name": "initWithZettleReaderTippingStyle:paypalReaderTippingStyle:paypalReaderPredefinedTippingValues:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "sdkConfigured",
+            "printedName": "sdkConfigured()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IZSDKTippingConfiguration",
+                "printedName": "iZettleSDK.IZSDKTippingConfiguration",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration(cm)sdkConfiguredTippingConfiguration",
+            "mangledName": "$s10iZettleSDK25IZSDKTippingConfigurationC13sdkConfiguredACyFZ",
+            "moduleName": "iZettleSDK",
+            "static": true,
+            "objc_name": "sdkConfiguredTippingConfiguration",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disabled",
+            "printedName": "disabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IZSDKTippingConfiguration",
+                "printedName": "iZettleSDK.IZSDKTippingConfiguration",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration(cm)disabledTippingConfiguration",
+            "mangledName": "$s10iZettleSDK25IZSDKTippingConfigurationC8disabledACyFZ",
+            "moduleName": "iZettleSDK",
+            "static": true,
+            "objc_name": "disabledTippingConfiguration",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IZSDKTippingConfiguration",
+                "printedName": "iZettleSDK.IZSDKTippingConfiguration",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration(im)init",
+            "mangledName": "$s10iZettleSDK25IZSDKTippingConfigurationCACycfc",
+            "moduleName": "iZettleSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration",
+        "mangledName": "$s10iZettleSDK25IZSDKTippingConfigurationC",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "iZettleSDKAuthorizationProvider",
         "printedName": "iZettleSDKAuthorizationProvider",
@@ -2427,6 +5064,659 @@
         "printedName": "iZettlePayments",
         "declKind": "Import",
         "moduleName": "iZettleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iZettlePayments",
+        "printedName": "iZettlePayments",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iZettlePayments",
+        "printedName": "iZettlePayments",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iZettlePayments",
+        "printedName": "iZettlePayments",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iZettlePayments",
+        "printedName": "iZettlePayments",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "iZettleSDK",
+        "printedName": "iZettleSDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "presentSettings",
+            "printedName": "presentSettings(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@iZettleSDK@@objc(cs)iZettleSDK(im)presentSettingsFromViewController:",
+            "mangledName": "$sSo10iZettleSDKCAAE15presentSettings4fromySo16UIViewControllerC_tF",
+            "moduleName": "iZettleSDK",
+            "deprecated": true,
+            "objc_name": "presentSettingsFromViewController:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Available",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentSettings",
+            "printedName": "presentSettings(from:configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IZSDKSettingsConfiguration",
+                "printedName": "iZettleSDK.IZSDKSettingsConfiguration",
+                "usr": "c:objc(cs)IZSDKSettingsConfiguration"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@iZettleSDK@@objc(cs)iZettleSDK(im)presentSettingsFromViewController:configuration:",
+            "mangledName": "$sSo10iZettleSDKCAAE15presentSettings4from13configurationySo16UIViewControllerC_So26IZSDKSettingsConfigurationCtF",
+            "moduleName": "iZettleSDK",
+            "objc_name": "presentSettingsFromViewController:configuration:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "charge",
+            "printedName": "charge(amount:enableTipping:reference:presentFrom:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDecimalNumber",
+                "printedName": "Foundation.NSDecimalNumber",
+                "usr": "c:objc(cs)NSDecimalNumber"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.iZettleSDKPaymentInfo?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(iZettleSDK.iZettleSDKPaymentInfo?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "iZettleSDK.iZettleSDKPaymentInfo?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "iZettleSDKPaymentInfo",
+                            "printedName": "iZettleSDK.iZettleSDKPaymentInfo",
+                            "usr": "c:objc(cs)iZettleSDKPaymentInfo"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@iZettleSDK@@objc(cs)iZettleSDK(im)chargeAmount:enableTipping:reference:presentFromViewController:completion:",
+            "mangledName": "$sSo10iZettleSDKCAAE6charge6amount13enableTipping9reference11presentFrom10completionySo15NSDecimalNumberC_SbSSSgSo16UIViewControllerCySo01iA14SDKPaymentInfoCSg_s5Error_pSgtctF",
+            "moduleName": "iZettleSDK",
+            "deprecated": true,
+            "objc_name": "chargeAmount:enableTipping:reference:presentFromViewController:completion:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Available",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "charge",
+            "printedName": "charge(amount:tippingStyle:reference:presentFrom:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDecimalNumber",
+                "printedName": "Foundation.NSDecimalNumber",
+                "usr": "c:objc(cs)NSDecimalNumber"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IZSDKTippingStyle",
+                "printedName": "iZettleSDK.IZSDKTippingStyle",
+                "usr": "c:@M@iZettleSDK@E@IZSDKTippingStyle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.iZettleSDKPaymentInfo?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(iZettleSDK.iZettleSDKPaymentInfo?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "iZettleSDK.iZettleSDKPaymentInfo?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "iZettleSDKPaymentInfo",
+                            "printedName": "iZettleSDK.iZettleSDKPaymentInfo",
+                            "usr": "c:objc(cs)iZettleSDKPaymentInfo"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@iZettleSDK@@objc(cs)iZettleSDK(im)chargeAmount:tippingStyle:reference:presentFromViewController:completion:",
+            "mangledName": "$sSo10iZettleSDKCAAE6charge6amount12tippingStyle9reference11presentFrom10completionySo15NSDecimalNumberC_AA012IZSDKTippingF0OSSSgSo16UIViewControllerCySo01iA14SDKPaymentInfoCSg_s5Error_pSgtctF",
+            "moduleName": "iZettleSDK",
+            "deprecated": true,
+            "objc_name": "chargeAmount:tippingStyle:reference:presentFromViewController:completion:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Available",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "charge",
+            "printedName": "charge(amount:tippingConfiguration:reference:presentFrom:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDecimalNumber",
+                "printedName": "Foundation.NSDecimalNumber",
+                "usr": "c:objc(cs)NSDecimalNumber"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IZSDKTippingConfiguration",
+                "printedName": "iZettleSDK.IZSDKTippingConfiguration",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.iZettleSDKPaymentInfo?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(iZettleSDK.iZettleSDKPaymentInfo?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "iZettleSDK.iZettleSDKPaymentInfo?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "iZettleSDKPaymentInfo",
+                            "printedName": "iZettleSDK.iZettleSDKPaymentInfo",
+                            "usr": "c:objc(cs)iZettleSDKPaymentInfo"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@iZettleSDK@@objc(cs)iZettleSDK(im)chargeAmount:tippingConfiguration:reference:presentFromViewController:completion:",
+            "mangledName": "$sSo10iZettleSDKCAAE6charge6amount20tippingConfiguration9reference11presentFrom10completionySo15NSDecimalNumberC_AA012IZSDKTippingF0CSSSgSo16UIViewControllerCySo01iA14SDKPaymentInfoCSg_s5Error_pSgtctF",
+            "moduleName": "iZettleSDK",
+            "objc_name": "chargeAmount:tippingConfiguration:reference:presentFromViewController:completion:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "charge",
+            "printedName": "charge(amount:tippingConfiguration:reference:payPalPartnerPayeePricingTierId:presentFrom:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDecimalNumber",
+                "printedName": "Foundation.NSDecimalNumber",
+                "usr": "c:objc(cs)NSDecimalNumber"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IZSDKTippingConfiguration",
+                "printedName": "iZettleSDK.IZSDKTippingConfiguration",
+                "usr": "c:@M@iZettleSDK@objc(cs)IZSDKTippingConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.iZettleSDKPaymentInfo?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(iZettleSDK.iZettleSDKPaymentInfo?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "iZettleSDK.iZettleSDKPaymentInfo?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "iZettleSDKPaymentInfo",
+                            "printedName": "iZettleSDK.iZettleSDKPaymentInfo",
+                            "usr": "c:objc(cs)iZettleSDKPaymentInfo"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@iZettleSDK@@objc(cs)iZettleSDK(im)chargeAmount:tippingConfiguration:reference:payPalPartnerPayeePricingTierId:presentFromViewController:completion:",
+            "mangledName": "$sSo10iZettleSDKCAAE6charge6amount20tippingConfiguration9reference31payPalPartnerPayeePricingTierId11presentFrom10completionySo15NSDecimalNumberC_AA012IZSDKTippingF0CSSSgANSo16UIViewControllerCySo01iA14SDKPaymentInfoCSg_s5Error_pSgtctF",
+            "moduleName": "iZettleSDK",
+            "objc_name": "chargeAmount:tippingConfiguration:reference:payPalPartnerPayeePricingTierId:presentFromViewController:completion:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)iZettleSDK",
+        "moduleName": "iZettleSDK",
+        "isOpen": true,
+        "objc_name": "iZettleSDK",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -2434,10 +5724,80 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 712,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKHelper.swift",
       "kind": "StringLiteral",
-      "offset": 9360,
+      "offset": 1103,
+      "length": 25,
+      "value": "\"iZettle SDK not started\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 12049,
       "length": 40,
       "value": "\"com.izettle.payments-sdk-ios.exception\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2576,
+      "length": 8,
+      "value": "\"userId\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2606,
+      "length": 16,
+      "value": "\"organisationId\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2652,
+      "length": 9,
+      "value": "\"country\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2684,
+      "length": 15,
+      "value": "\"currency_code\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2723,
+      "length": 12,
+      "value": "\"publicName\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2761,
+      "length": 10,
+      "value": "\"timeZone\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2807,
+      "length": 22,
+      "value": "\"maxTippingPercentage\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2872,
+      "length": 22,
+      "value": "\"minTippingPercentage\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
@@ -2501,6 +5861,97 @@
       "offset": 423,
       "length": 4,
       "value": "-604"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 758,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 805,
+      "length": 13,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 861,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 913,
+      "length": 10,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1452,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1499,
+      "length": 13,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1555,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1607,
+      "length": 10,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2146,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2193,
+      "length": 13,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2255,
+      "length": 12,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2415,
+      "length": 20,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2731,
+      "length": 13,
+      "value": "4"
     }
   ]
 }
