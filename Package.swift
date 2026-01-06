@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "sdk-ios",
+    name: "izettle-sdk-ios",
     platforms: [
         .iOS(.v12)
     ],
