@@ -26,7 +26,7 @@
 		</data>
 		<key>ios-arm64/iZettleSDK.framework/Info.plist</key>
 		<data>
-		O8GTkWsmQsLwRkzmu6T2LM2nlNk=
+		u5TtBuQagkGdwiq+NuCnTJwiLCU=
 		</data>
 		<key>ios-arm64/iZettleSDK.framework/Modules/iZettleSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>ios-arm64/iZettleSDK.framework/iZettleSDK</key>
 		<data>
-		rC7aZQmpsoqCICRzQwgClp+XE9E=
+		ruoPc6oJhWEu5OnnJiiA8Z3ZUjg=
 		</data>
 		<key>ios-arm64/iZettleSDK.framework/strip-frameworks.sh</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/iZettleSDK.framework/Info.plist</key>
 		<data>
-		38Gb+ZBH39RQFUbQV62Nl1zuLCA=
+		ebwVHZtS3HwHh1O9ztQFwMdFFXQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/iZettleSDK.framework/Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -126,11 +126,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/iZettleSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		TIQGQyjVm4zhIrFOEU2KSjuibdI=
+		r7UGcCDZDPYl/D1LGeTW7nvbLnQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/iZettleSDK.framework/iZettleSDK</key>
 		<data>
-		nqbDVFj55cn0bUNSoq8TSvZsOwo=
+		T+FqYpdqU0LbyxzB7uCQRq2Ilnc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/iZettleSDK.framework/strip-frameworks.sh</key>
 		<data>
@@ -198,11 +198,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O8GTkWsmQsLwRkzmu6T2LM2nlNk=
+			u5TtBuQagkGdwiq+NuCnTJwiLCU=
 			</data>
 			<key>hash2</key>
 			<data>
-			DM1SRJDRAl/ztrdMNEfC2ylE4JIlido+hHj1voF9w8o=
+			6WA7Oq6CBfvbC5sLP3PhPqOnBkbPfUDdTe9559eJDQE=
 			</data>
 		</dict>
 		<key>ios-arm64/iZettleSDK.framework/Modules/iZettleSDK.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -275,11 +275,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rC7aZQmpsoqCICRzQwgClp+XE9E=
+			ruoPc6oJhWEu5OnnJiiA8Z3ZUjg=
 			</data>
 			<key>hash2</key>
 			<data>
-			HxVct5nbyd5C8aXh4AsHH8vtRxCIRkU2aIAsDyynkBU=
+			gZUavwWcCF/9ZBVKB9sAn0TGql2Ty5TUzYG1qBCCg78=
 			</data>
 		</dict>
 		<key>ios-arm64/iZettleSDK.framework/strip-frameworks.sh</key>
@@ -352,11 +352,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			38Gb+ZBH39RQFUbQV62Nl1zuLCA=
+			ebwVHZtS3HwHh1O9ztQFwMdFFXQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			QlJf2GbXYmcow/dm5nsHBTyV3ZaUAe9yb0vA+CXgwZI=
+			/3zXB4kRR9HmK2iUe+DWmec81Ap9LRr0IcYPYu7oaew=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/iZettleSDK.framework/Modules/iZettleSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -473,22 +473,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TIQGQyjVm4zhIrFOEU2KSjuibdI=
+			r7UGcCDZDPYl/D1LGeTW7nvbLnQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			AIujpoCgmch68a2WULmZxJhvEdL1jIxpCUHupKdhMvw=
+			+5v0IO2nPlw7jDU9Ak9QLV8br/oV6TfOy/vehxly/n0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/iZettleSDK.framework/iZettleSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nqbDVFj55cn0bUNSoq8TSvZsOwo=
+			T+FqYpdqU0LbyxzB7uCQRq2Ilnc=
 			</data>
 			<key>hash2</key>
 			<data>
-			WBXOjoMsqBjgfvPCn6dWXctOyNqlN+5D+yth767bkhM=
+			VGc9Ybx4xp6yFeRzOGnQswO5iqw91WK1BQjwDT+I7RI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/iZettleSDK.framework/strip-frameworks.sh</key>

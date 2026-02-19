@@ -106,7 +106,7 @@
 		</data>
 		<key>ios-arm64/iZettlePayments.framework/Info.plist</key>
 		<data>
-		EJLfW277WtakK2eVjP1ipnQNGMQ=
+		VlCoN70EG+A2R36h1MyxpqF+Eoc=
 		</data>
 		<key>ios-arm64/iZettlePayments.framework/Issuers.plist</key>
 		<data>
@@ -222,7 +222,7 @@
 		</data>
 		<key>ios-arm64/iZettlePayments.framework/iZettlePayments</key>
 		<data>
-		D+dPChYktDgL5pybpZX/785/3Yo=
+		Do5XU3qwyBoL41T8vC9ViWP72lY=
 		</data>
 		<key>ios-arm64/iZettlePayments.framework/invoicing_send.svg</key>
 		<data>
@@ -434,7 +434,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/iZettlePayments.framework/Info.plist</key>
 		<data>
-		5YOf0jYQ4uMUPR4tRUnJMh3CCkg=
+		++ThN2qarHoJLU8zTClAFrgkWG0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/iZettlePayments.framework/Issuers.plist</key>
 		<data>
@@ -518,7 +518,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/iZettlePayments.framework/_CodeSignature/CodeResources</key>
 		<data>
-		npeL+Grd9a7uWsdFF2Jpkj2oyfQ=
+		ICX+SGosJbeL6I3isa2p7FYA5/k=
 		</data>
 		<key>ios-arm64_x86_64-simulator/iZettlePayments.framework/__README__.md</key>
 		<data>
@@ -554,7 +554,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/iZettlePayments.framework/iZettlePayments</key>
 		<data>
-		zzUZjIVhS34Lr2Y8u4EA6fa8IFM=
+		SHeblN1hFeWKtlJkGlaN3zl+tZ4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/iZettlePayments.framework/invoicing_send.svg</key>
 		<data>
@@ -946,11 +946,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EJLfW277WtakK2eVjP1ipnQNGMQ=
+			VlCoN70EG+A2R36h1MyxpqF+Eoc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Azv0sJ8mRiFerl5uTKYHl9rBjrxuZrgpwslgClWAt3E=
+			aL5SSD4mUam9/B5zO7MNaOlpOSc8Q70i+PxleJ0s0cg=
 			</data>
 		</dict>
 		<key>ios-arm64/iZettlePayments.framework/Issuers.plist</key>
@@ -1265,11 +1265,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D+dPChYktDgL5pybpZX/785/3Yo=
+			Do5XU3qwyBoL41T8vC9ViWP72lY=
 			</data>
 			<key>hash2</key>
 			<data>
-			dcF8tNqnfNu9dpXedTF+PsCCLqVbEv7bFlsdeJ5qIAI=
+			oVQa2tdPQtq1s1zcT+GYsVwZGBdcBo0ZyxgOoXzjgX4=
 			</data>
 		</dict>
 		<key>ios-arm64/iZettlePayments.framework/invoicing_send.svg</key>
@@ -1848,11 +1848,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5YOf0jYQ4uMUPR4tRUnJMh3CCkg=
+			++ThN2qarHoJLU8zTClAFrgkWG0=
 			</data>
 			<key>hash2</key>
 			<data>
-			cNbBxwYF+Ztor46i7wWoDcTHJMt1rrTN4tuKMCLgXig=
+			XRGaInnXA86S03V1DwvA/ls2XneILkVV3g8NGgpCZ6c=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/iZettlePayments.framework/Issuers.plist</key>
@@ -2079,11 +2079,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			npeL+Grd9a7uWsdFF2Jpkj2oyfQ=
+			ICX+SGosJbeL6I3isa2p7FYA5/k=
 			</data>
 			<key>hash2</key>
 			<data>
-			tbN8lNlxiqhIV4pimMdAz3VsIuF69siVOZWP3OGEVZI=
+			anwKZYbTycCOMuQo4YTw14P1Zu6pZVMUfPBajERBsY4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/iZettlePayments.framework/__README__.md</key>
@@ -2178,11 +2178,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zzUZjIVhS34Lr2Y8u4EA6fa8IFM=
+			SHeblN1hFeWKtlJkGlaN3zl+tZ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			5PhH5FNHzkhEqsZdVQ2rvx5x5YuuCZ/R15mWCBGtyiI=
+			61QWdRYVk7KNu2pH5OXv8ql///a6w4cysg1zslsYf/I=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/iZettlePayments.framework/invoicing_send.svg</key>

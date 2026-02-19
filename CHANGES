@@ -1,3 +1,6 @@
+4.61.1
+- Fixed an authorization issue affecting some merchants when `enforcedUserAccount` is used.
+
 4.61.0
 - Fixes in communication with card readers.
 
