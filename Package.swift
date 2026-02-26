@@ -1,6 +1,13 @@
 // swift-tools-version: 5.7
 import PackageDescription
 
+let version = "UNSET"
+let frameworks = [
+    "iZettleSDK": "UNSET",
+    "iZettlePayments": "UNSET",
+    "PPRiskMagnes": "UNSET"
+]
+
 let package = Package(
     name: "sdk-ios",
     platforms: [
@@ -9,18 +16,11 @@ let package = Package(
     products: [
         .library(
             name: "sdk-ios",
-            targets: ["iZettleSDK", "iZettlePayments", "PPRiskMagnes"]),
+            targets: frameworks.map({ (name: String, checksum: String) in name }))
     ],
     dependencies: [],
-    targets: [
-        .binaryTarget(
-            name: "iZettleSDK", 
-            path: "./iZettleSDK/iZettleSDK.xcframework"),
-        .binaryTarget(
-            name: "iZettlePayments", 
-            path: "./iZettleSDK/iZettlePayments.xcframework"),
-        .binaryTarget(
-            name: "PPRiskMagnes",
-            path: "./iZettleSDK/PPRiskMagnes.xcframework")
-    ]
+    targets: frameworks.map({ (name: String, checksum: String) in Target.binaryTarget(
+        name: name,
+        url: "https://github.com/iZettle/sdk-ios/releases/download/\(version)/\(name).xcframework.zip",
+        checksum: checksum) })
 )

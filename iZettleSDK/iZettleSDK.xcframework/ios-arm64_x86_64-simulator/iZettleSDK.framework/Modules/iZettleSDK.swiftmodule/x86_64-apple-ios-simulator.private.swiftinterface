@@ -3,6 +3,7 @@
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name iZettleSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import Foundation
+import ProximityReader
 import Swift
 import _Concurrency
 import _StringProcessing
@@ -180,6 +181,49 @@ extension iZettleSDKAuthorizationProviderError : Foundation.CustomNSError {
     get
   }
   public var errorUserInfo: [Swift.String : Any] {
+    get
+  }
+}
+public enum ProximityReaderError : Swift.Error {
+  case notAllowed
+  case backgroundRequestNotAllowed
+  case unsupported
+  case osVersionNotSupported
+  case passcodeDisabled
+  case noNetworkConnection
+  case networkError
+  case networkAuthenticationError
+  case accountNotLinked
+  case accountAlreadyLinked
+  case accountLinkingFailed
+  case accountLinkingRequiresiCloudSignIn
+  case accountLinkingCancelled
+  case accountLinkingCheckFailed
+  case accountDeactivated
+  case requestInterrupted
+  case readFromBackgroundNotAllowed
+  case readCancelled
+  case invalidAmount
+  case nfcDisabled
+  case invalidCurrencyCode
+  case readNotAllowedDuringCall
+  case cardReadFailed
+  case paymentCardDeclined
+  case pinEntryFailed
+  case pinEntryTimeout
+  case pinCancelled
+  case custom(code: Swift.Int, info: [Swift.String : Swift.AnyHashable])
+}
+extension ProximityReaderError : Foundation.CustomNSError {
+  public static var errorDomain: Swift.String {
+    get
+  }
+}
+extension ProximityReaderError : Swift.Equatable {
+  public static func == (lhs: ProximityReaderError, rhs: ProximityReaderError) -> Swift.Bool
+}
+extension ProximityReaderError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
     get
   }
 }

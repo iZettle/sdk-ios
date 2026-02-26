@@ -5134,6 +5134,1413 @@
         "moduleName": "iZettleSDK"
       },
       {
+        "kind": "Import",
+        "name": "iZettlePayments",
+        "printedName": "iZettlePayments",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ProximityReaderError",
+        "printedName": "ProximityReaderError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "notAllowed",
+            "printedName": "notAllowed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO10notAllowedyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO10notAllowedyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundRequestNotAllowed",
+            "printedName": "backgroundRequestNotAllowed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO27backgroundRequestNotAllowedyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO27backgroundRequestNotAllowedyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unsupported",
+            "printedName": "unsupported",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO11unsupportedyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO11unsupportedyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "osVersionNotSupported",
+            "printedName": "osVersionNotSupported",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO21osVersionNotSupportedyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO21osVersionNotSupportedyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "passcodeDisabled",
+            "printedName": "passcodeDisabled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO16passcodeDisabledyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO16passcodeDisabledyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "noNetworkConnection",
+            "printedName": "noNetworkConnection",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO19noNetworkConnectionyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO19noNetworkConnectionyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "networkError",
+            "printedName": "networkError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO07networkE0yA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO07networkE0yA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "networkAuthenticationError",
+            "printedName": "networkAuthenticationError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO021networkAuthenticationE0yA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO021networkAuthenticationE0yA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accountNotLinked",
+            "printedName": "accountNotLinked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO16accountNotLinkedyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO16accountNotLinkedyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accountAlreadyLinked",
+            "printedName": "accountAlreadyLinked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO20accountAlreadyLinkedyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO20accountAlreadyLinkedyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accountLinkingFailed",
+            "printedName": "accountLinkingFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO20accountLinkingFailedyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO20accountLinkingFailedyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accountLinkingRequiresiCloudSignIn",
+            "printedName": "accountLinkingRequiresiCloudSignIn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO34accountLinkingRequiresiCloudSignInyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO34accountLinkingRequiresiCloudSignInyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accountLinkingCancelled",
+            "printedName": "accountLinkingCancelled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO23accountLinkingCancelledyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO23accountLinkingCancelledyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accountLinkingCheckFailed",
+            "printedName": "accountLinkingCheckFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO25accountLinkingCheckFailedyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO25accountLinkingCheckFailedyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accountDeactivated",
+            "printedName": "accountDeactivated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO18accountDeactivatedyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO18accountDeactivatedyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requestInterrupted",
+            "printedName": "requestInterrupted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO18requestInterruptedyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO18requestInterruptedyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "readFromBackgroundNotAllowed",
+            "printedName": "readFromBackgroundNotAllowed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO28readFromBackgroundNotAllowedyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO28readFromBackgroundNotAllowedyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "readCancelled",
+            "printedName": "readCancelled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO13readCancelledyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO13readCancelledyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidAmount",
+            "printedName": "invalidAmount",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO13invalidAmountyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO13invalidAmountyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nfcDisabled",
+            "printedName": "nfcDisabled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO11nfcDisabledyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO11nfcDisabledyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidCurrencyCode",
+            "printedName": "invalidCurrencyCode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO19invalidCurrencyCodeyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO19invalidCurrencyCodeyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "readNotAllowedDuringCall",
+            "printedName": "readNotAllowedDuringCall",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO24readNotAllowedDuringCallyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO24readNotAllowedDuringCallyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cardReadFailed",
+            "printedName": "cardReadFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO14cardReadFailedyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO14cardReadFailedyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "paymentCardDeclined",
+            "printedName": "paymentCardDeclined",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO19paymentCardDeclinedyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO19paymentCardDeclinedyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pinEntryFailed",
+            "printedName": "pinEntryFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO14pinEntryFailedyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO14pinEntryFailedyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pinEntryTimeout",
+            "printedName": "pinEntryTimeout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO15pinEntryTimeoutyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO15pinEntryTimeoutyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pinCancelled",
+            "printedName": "pinCancelled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProximityReaderError",
+                    "printedName": "iZettleSDK.ProximityReaderError",
+                    "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO12pinCancelledyA2CmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO12pinCancelledyA2CmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iZettleSDK.ProximityReaderError.Type) -> (Swift.Int, [Swift.String : Swift.AnyHashable]) -> iZettleSDK.ProximityReaderError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, [Swift.String : Swift.AnyHashable]) -> iZettleSDK.ProximityReaderError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(code: Swift.Int, info: [Swift.String : Swift.AnyHashable])",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Swift.AnyHashable]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AnyHashable",
+                                "printedName": "Swift.AnyHashable",
+                                "usr": "s:s11AnyHashableV"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iZettleSDK.ProximityReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProximityReaderError",
+                        "printedName": "iZettleSDK.ProximityReaderError",
+                        "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO6customyACSi_SDySSs11AnyHashableVGtcACmF",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO6customyACSi_SDySSs11AnyHashableVGtcACmF",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDomain",
+            "printedName": "errorDomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO11errorDomainSSvpZ",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO11errorDomainSSvpZ",
+            "moduleName": "iZettleSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10iZettleSDK20ProximityReaderErrorO11errorDomainSSvgZ",
+                "mangledName": "$s10iZettleSDK20ProximityReaderErrorO11errorDomainSSvgZ",
+                "moduleName": "iZettleSDK",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProximityReaderError",
+                "printedName": "iZettleSDK.ProximityReaderError",
+                "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProximityReaderError",
+                "printedName": "iZettleSDK.ProximityReaderError",
+                "usr": "s:10iZettleSDK20ProximityReaderErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "iZettleSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10iZettleSDK20ProximityReaderErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s10iZettleSDK20ProximityReaderErrorO16errorDescriptionSSSgvp",
+            "moduleName": "iZettleSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10iZettleSDK20ProximityReaderErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s10iZettleSDK20ProximityReaderErrorO16errorDescriptionSSSgvg",
+                "moduleName": "iZettleSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10iZettleSDK20ProximityReaderErrorO",
+        "mangledName": "$s10iZettleSDK20ProximityReaderErrorO",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomNSError",
+            "printedName": "CustomNSError",
+            "usr": "s:10Foundation13CustomNSErrorP",
+            "mangledName": "$s10Foundation13CustomNSErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ProximityReader",
+        "printedName": "ProximityReader",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iZettlePayments",
+        "printedName": "iZettlePayments",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "ProximityReader",
+        "printedName": "ProximityReader",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "iZettleSDK",
         "printedName": "iZettleSDK",
@@ -5723,231 +7130,231 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKHelper.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/iZettleSDKHelper.swift",
       "kind": "BooleanLiteral",
       "offset": 712,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKHelper.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/iZettleSDKHelper.swift",
       "kind": "StringLiteral",
       "offset": 1103,
       "length": 25,
       "value": "\"iZettle SDK not started\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKHelper.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/iZettleSDKHelper.swift",
       "kind": "StringLiteral",
       "offset": 12049,
       "length": 40,
       "value": "\"com.izettle.payments-sdk-ios.exception\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
       "kind": "StringLiteral",
       "offset": 2576,
       "length": 8,
       "value": "\"userId\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
       "kind": "StringLiteral",
       "offset": 2606,
       "length": 16,
       "value": "\"organisationId\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
       "kind": "StringLiteral",
       "offset": 2652,
       "length": 9,
       "value": "\"country\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
       "kind": "StringLiteral",
       "offset": 2684,
       "length": 15,
       "value": "\"currency_code\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
       "kind": "StringLiteral",
       "offset": 2723,
       "length": 12,
       "value": "\"publicName\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
       "kind": "StringLiteral",
       "offset": 2761,
       "length": 10,
       "value": "\"timeZone\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
       "kind": "StringLiteral",
       "offset": 2807,
       "length": 22,
       "value": "\"maxTippingPercentage\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
       "kind": "StringLiteral",
       "offset": 2872,
       "length": 22,
       "value": "\"minTippingPercentage\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 285,
       "length": 36,
       "value": "\"com.izettle.sdk.authprovider.error\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "IntegerLiteral",
       "offset": 409,
       "length": 4,
       "value": "-202"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "IntegerLiteral",
       "offset": 444,
       "length": 4,
       "value": "-203"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "IntegerLiteral",
       "offset": 476,
       "length": 4,
       "value": "-300"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "IntegerLiteral",
       "offset": 516,
       "length": 4,
       "value": "-501"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
       "kind": "StringLiteral",
       "offset": 271,
       "length": 29,
       "value": "\"com.izettle.sdk.token.error\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
       "kind": "IntegerLiteral",
       "offset": 370,
       "length": 4,
       "value": "-600"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 4,
       "value": "-603"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
       "kind": "IntegerLiteral",
       "offset": 423,
       "length": 4,
       "value": "-604"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 758,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 805,
       "length": 13,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 861,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 913,
       "length": 10,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 1452,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 1499,
       "length": 13,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 1555,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 1607,
       "length": 10,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 2146,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 2193,
       "length": 13,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 2255,
       "length": 12,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 2415,
       "length": 20,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/tmp\/harness\/OWeA4piHRwmznslPOF8mEA\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 2731,
       "length": 13,

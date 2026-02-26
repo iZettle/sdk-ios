@@ -21,13 +21,10 @@ typedef NS_ERROR_ENUM(IZSDKErrorDomain, IZSDKErrorCode) {
     IZSDKErrorCodeNotEligible                 = -404,
     IZSDKErrorCodeAccountNotLinked            = -405,
     IZSDKErrorCodeNoNetwork                   = -406,
-    IZSDKErrorCodeUnableToPresentView         = -407,
-    
-#if defined(IS_TTP_AVAILABLE) || defined(TTP_ONLY_SDK)
+    IZSDKErrorCodeUnableToPresentView         = -407,    
     IZSDKErrorCodeGratuityInvalidAmount = -408,
     IZSDKErrorCodeGratuityTooHigh = -409,
     IZSDKErrorCodeGratuityTooLow = -410
-#endif
 };
 
 @interface iZettleSDKPaymentInfo : NSObject
