@@ -1,3 +1,7 @@
+4.83.0
+- Added `currentAccount` property to `iZettleSDK` to access the currently logged-in user's details.
+- Refund errors are now typed. Use `IZRefundErrorDomain` and `IZRefundErrorCode` to handle specific failure cases like `alreadyRefunded`, `refundDateExpired`, and more.
+
 4.70.3
 - General bug fixes and improvements
 
@@ -6,6 +10,7 @@
 
 4.61.0
 - Fixes in communication with card readers.
+- Added authorizationObserver property to iZettleSDK for observing user authentication state changes
 
 4.53.1
 - Fix `performLogin` API exception.
