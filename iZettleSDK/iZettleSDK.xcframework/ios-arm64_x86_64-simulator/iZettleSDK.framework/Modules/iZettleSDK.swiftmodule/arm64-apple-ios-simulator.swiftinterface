@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name iZettleSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import Foundation
 import Swift
 import _Concurrency
@@ -16,7 +16,7 @@ extension iZettleSDK {
 @_hasMissingDesignatedInitializers @objc final public class iZettleSDKHelper : ObjectiveC.NSObject {
   @objc deinit
 }
-@objc final public class ZettleUserInfo : ObjectiveC.NSObject {
+@_hasMissingDesignatedInitializers @objc final public class ZettleUserInfo : ObjectiveC.NSObject {
   @objc final public let userId: Swift.String
   @objc final public let organizationId: Swift.String
   @objc final public let country: Swift.String
@@ -25,7 +25,6 @@ extension iZettleSDK {
   @objc final public let timeZone: Foundation.TimeZone
   @objc final public let maxTippingPercentage: Foundation.NSDecimalNumber?
   @objc final public let minTippingPercentage: Foundation.NSDecimalNumber?
-  @objc public init(userId: Swift.String, country: Swift.String, currency: Swift.String, publicName: Swift.String, organizationId: Swift.String, timeZone: Foundation.TimeZone, maxTippingPercentage: Foundation.NSDecimalNumber?, minTippingPercentage: Foundation.NSDecimalNumber?)
   @objc override final public var description: Swift.String {
     @objc get
   }
@@ -44,22 +43,35 @@ public enum iZettleSDKAuthorizationProviderError : Swift.Int {
   case callbackURLMissing
   case clientIdInvalid
   case presentationNotPossible
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
 }
 @objc final public class iZettleSDKAuthorization : ObjectiveC.NSObject, iZettleSDKAuthorizationProvider {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(clientID: Swift.String, callbackURL: Foundation.URL, enforcedUserAccount: @autoclosure @escaping () -> Swift.String? = nil) throws
+  #endif
   @objc deinit
+}
+extension iZettleSDK {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc dynamic public var currentAccount: ZettleUserInfo? {
+    @objc get
+  }
+  #endif
 }
 public let iZettleSDKOAuthTokenErrorDomain: Foundation.NSErrorDomain
 public enum iZettleSDKOAuthTokenError : Swift.Int {
   case dataMissing
   case scopeMissing
   case expired
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -67,7 +79,9 @@ public enum iZettleSDKOAuthTokenError : Swift.Int {
 }
 @objc public class iZettleSDKOAuthToken : ObjectiveC.NSObject {
   @objc convenience public init(data: Foundation.Data) throws
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(accessToken: Swift.String, expiresIn: Swift.Int, refreshToken: Swift.String?) throws
+  #endif
   @objc deinit
 }
 @available(*, deprecated, message: "Use IZZettleReaderTippingStyle and IZPayPalReaderTippingStyle instead.")
@@ -76,7 +90,9 @@ public enum iZettleSDKOAuthTokenError : Swift.Int {
   case marketDefault
   case amount
   case percentage
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.UInt)
+  #endif
   @available(*, deprecated, message: "Use IZZettleReaderTippingStyle and IZPayPalReaderTippingStyle instead.")
   public typealias RawValue = Swift.UInt
   public var rawValue: Swift.UInt {
@@ -88,7 +104,9 @@ public enum iZettleSDKOAuthTokenError : Swift.Int {
   case marketDefault
   case amount
   case percentage
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.UInt)
+  #endif
   public typealias RawValue = Swift.UInt
   public var rawValue: Swift.UInt {
     get
@@ -100,7 +118,9 @@ public enum iZettleSDKOAuthTokenError : Swift.Int {
   case customAmount
   case predefinedPercentage
   case sdkConfigured
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.UInt)
+  #endif
   public typealias RawValue = Swift.UInt
   public var rawValue: Swift.UInt {
     get
@@ -132,23 +152,37 @@ public typealias iZettleAuthorizationCompletion = (_ tokenData: iZettleSDKOAuthT
   @objc func verifyAccount(uuid: Foundation.UUID, completion: @escaping iZettleAuthorizationCompletion)
 }
 extension iZettleSDK {
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Use charge(amount:tippingConfiguration:... to specify tipping style preferences for each reader type")
   @objc(chargeAmount:enableTipping:reference:presentFromViewController:completion:) dynamic public func charge(amount: Foundation.NSDecimalNumber, enableTipping: Swift.Bool, reference: Swift.String?, presentFrom viewController: UIKit.UIViewController, completion: @escaping iZettleSDKOperationCompletion)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Use charge(amount:tippingConfiguration:... to specify tipping style preferences for each reader type")
   @objc(chargeAmount:tippingStyle:reference:presentFromViewController:completion:) dynamic public func charge(amount: Foundation.NSDecimalNumber, tippingStyle: IZSDKTippingStyle, reference: Swift.String?, presentFrom viewController: UIKit.UIViewController, completion: @escaping iZettleSDKOperationCompletion)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(chargeAmount:tippingConfiguration:reference:presentFromViewController:completion:) dynamic public func charge(amount: Foundation.NSDecimalNumber, tippingConfiguration: IZSDKTippingConfiguration, reference: Swift.String?, presentFrom viewController: UIKit.UIViewController, completion: @escaping iZettleSDKOperationCompletion)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(chargeAmount:tippingConfiguration:reference:payPalPartnerPayeePricingTierId:presentFromViewController:completion:) dynamic public func charge(amount: Foundation.NSDecimalNumber, tippingConfiguration: IZSDKTippingConfiguration, reference: Swift.String?, payPalPartnerPayeePricingTierId: Swift.String?, presentFrom viewController: UIKit.UIViewController, completion: @escaping iZettleSDKOperationCompletion)
+  #endif
 }
 extension iZettleSDKOAuthTokenError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var failureReason: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var recoverySuggestion: Swift.String? {
     get
   }
+  #endif
 }
 extension iZettleSDKOAuthTokenError : Foundation.CustomNSError {
   public var errorCode: Swift.Int {
@@ -162,15 +196,21 @@ extension iZettleSDKOAuthTokenError : Foundation.CustomNSError {
   }
 }
 extension iZettleSDKAuthorizationProviderError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var failureReason: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var recoverySuggestion: Swift.String? {
     get
   }
+  #endif
 }
 extension iZettleSDKAuthorizationProviderError : Foundation.CustomNSError {
   public var errorCode: Swift.Int {

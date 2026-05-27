@@ -27,6 +27,25 @@ typedef NS_ERROR_ENUM(IZSDKErrorDomain, IZSDKErrorCode) {
     IZSDKErrorCodeGratuityTooLow = -410
 };
 
+/// Refund error domain.
+extern NSErrorDomain const IZRefundErrorDomain;
+
+/// Defines refund errors.
+typedef NS_ERROR_ENUM(IZRefundErrorDomain, IZRefundErrorCode) {
+    IZRefundErrorCodeCancelledByUser,
+    IZRefundErrorCodeNotRefundable,
+    IZRefundErrorCodeBackendError,
+    IZRefundErrorCodeRefundFailed,
+    IZRefundErrorCodeInvalidToken,
+    IZRefundErrorCodeAlreadyRefunded,
+    IZRefundErrorCodeRefundAmountExceedOriginalAmount,
+    IZRefundErrorCodeRefundOnlyFullAmountAllowed,
+    IZRefundErrorCodeRefundInsufficientFunds,
+    IZRefundErrorCodeRefundNotApprovedByAcquirer,
+    IZRefundErrorCodeRefundUnknownError,
+    IZRefundErrorCodeRefundDateExpired
+};
+
 @interface iZettleSDKPaymentInfo : NSObject
 
 /// Dictionary representation of the payment information.

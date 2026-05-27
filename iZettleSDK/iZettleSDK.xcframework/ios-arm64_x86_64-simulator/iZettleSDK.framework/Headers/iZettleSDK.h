@@ -7,6 +7,7 @@
 #import <iZettleSDK/IZSDKManualCardEntryPaymentInfo.h>
 #import <iZettleSDK/iZettleSDKPaymentInfo.h>
 #import <iZettleSDK/IZSDKPayPalQRCPaymentInfo.h>
+//#import <iZettleSDK/iZettleSDKPairingSession+objc.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -343,6 +344,5 @@ NS_SWIFT_NAME(refundManualCardEntry(amount:ofPayment:withRefundReference:present
 
 @end
 #endif
-
 
 NS_ASSUME_NONNULL_END
