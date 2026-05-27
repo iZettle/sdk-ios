@@ -15,7 +15,7 @@ The iOS SDK example app is to help you get started with Zettle Payments SDK for 
 
 You can use the example to learn about SDK. For example, SDK structure, input data format, and payment and refund payload.
 
-For information about Zettle Payments SDK for iOS, see [iOS SDK docs on Zettle Developer Portal](https://developer.zettle.com/docs/ios-sdk).
+For information about Zettle Payments SDK for iOS, see [iOS SDK docs on Zettle Developer Portal](https://developer.zettle.com/docs/payment-integrations/ios-sdk).
 
 ### Structure
 
@@ -47,7 +47,7 @@ In the example app Xcode project, fill in  `iZettleSDKSample/AppDelegate.m` with
  }];
  ...
 ```
-> **Note:** The SDK provides default login and custom login. To use custom login for the example app with `iZettleSDKSample/CustomAuthorizationProvider.m`, you need to set up authorisation code grant with PKCE. For more information about custom login, see [Initialise SDK for custom login](https://developer.zettletest.com/docs/ios-sdk/initialization#initialise-sdk-for-custom-login).
+> **Note:** The SDK provides default login and custom login. To use custom login for the example app with `iZettleSDKSample/CustomAuthorizationProvider.m`, you need to set up authorisation code grant with PKCE. For more information about custom login, see [Initialise SDK for custom login](https://developer.zettle.com/docs/payment-integrations/ios-sdk/initialization#initialise-sdk-for-custom-login).
 
 ## Step 2: Initialise the example app
 
