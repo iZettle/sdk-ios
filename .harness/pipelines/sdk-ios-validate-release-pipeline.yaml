@@ -1,0 +1,100 @@
+pipeline:
+
+  identifier: sdk_ios_validate_release
+  name: Validate Release
+  description: Validates sdk-ios release branches.
+  projectIdentifier: um_ioszettle
+  orgIdentifier: g_mobile_paypal
+
+  tags:
+    team: app_platform
+    app: payments_sdk
+    platform: ios
+    pipelineType: paypal_internal
+
+  properties:
+    ci:
+      codebase:
+        connectorRef: org.PayPalZettle_GitHub_App_Connector
+        repoName: sdk-ios
+        build: <+input>
+        prCloneStrategy: SourceBranch
+        sparseCheckout: []
+        persistCredentials: true
+        depth: 1
+        lfs: false
+
+  variables:
+    - name: RERUN_WEB_HOOK
+      type: String
+      value: <+variable.pipeline_rerun_web_hook>
+
+  notificationRules:
+    - name: Notify on Failure
+      identifier: notify_on_failure
+      pipelineEvents:
+        - type: PipelineFailed
+      notificationMethod:
+        type: Webhook
+        spec:
+          webhookUrl: <+pipeline.variables.RERUN_WEB_HOOK>
+      enabled: true
+
+  stages:
+    - stage:
+        name: Validate Release
+        description: Runs release branch validation lanes.
+        identifier: validate_release
+        type: CI
+        timeout: 45m
+
+        variables:
+          - name: HARNESS_CI_INTERNAL_ROUTE_TO_RUNNER
+            type: String
+            description: ""
+            required: true
+            value: "true"
+          - name: HARNESS_CI_INTERNAL_CONTAINERLESS
+            type: String
+            description: ""
+            required: false
+            value: "true"
+        delegateSelectors:
+          - macos
+
+        strategy:
+          matrix:
+            nodeName: "<+matrix.lane.title>"
+            lane:
+              - title: Build Sample App
+                fastlane_lane: build_sample_app
+              - title: Check Changelog
+                fastlane_lane: check_changelog
+              - title: Check Podspec
+                fastlane_lane: check_podspec
+
+        spec:
+          cloneCodebase: true
+          platform:
+            os: MacOS
+            arch: Arm64
+          runtime:
+            type: Docker
+            spec: {}
+
+          execution:
+            steps:
+              - step:
+                  name: Run <+matrix.lane.title>
+                  identifier: run_release_validation_lane
+                  type: Run
+                  spec:
+                    shell: Bash
+                    command: |
+                      set -euo pipefail
+
+                      export GITHUB_WORKSPACE="${PWD}"
+
+                      gem install bundler
+                      bundle install
+                      bundle exec fastlane ios <+matrix.lane.fastlane_lane>
