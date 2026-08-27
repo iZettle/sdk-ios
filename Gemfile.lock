@@ -5,6 +5,7 @@ GEM
       base64
       nkf
       rexml
+    abbrev (0.1.2)
     activesupport (7.2.1)
       base64
       bigdecimal
@@ -41,6 +42,7 @@ GEM
       aws-eventstream (~> 1, >= 1.0.2)
     babosa (1.0.4)
     base64 (0.2.0)
+    benchmark (0.5.0)
     bigdecimal (3.1.8)
     claide (1.1.0)
     cocoapods (1.15.2)
@@ -225,6 +227,7 @@ GEM
     molinillo (0.8.0)
     multi_json (1.15.0)
     multipart-post (2.4.1)
+    mutex_m (0.3.0)
     nanaimo (0.3.0)
     nap (1.1.0)
     naturally (2.2.1)
@@ -287,8 +290,12 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
+  abbrev
+  benchmark
   cocoapods (>= 1.15.0)
   fastlane (>= 2.219.0)
+  logger
+  mutex_m
 
 BUNDLED WITH
    2.5.11

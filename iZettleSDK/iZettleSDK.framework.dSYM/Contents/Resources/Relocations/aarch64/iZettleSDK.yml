@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/tmp/harness/UtQuPPj8QZuaQsYdMUkU2w/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/iZettleSDK/InstallationBuildProductsLocation/Library/Frameworks/iZettleSDK.framework/iZettleSDK'
+binary-path:     '/Users/ferrari/.harness-delegate/tmp/harness/zLuvj4rQTFOwKQuqRNMDrQ/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/iZettleSDK/InstallationBuildProductsLocation/Library/Frameworks/iZettleSDK.framework/iZettleSDK'
 relocations:
   - { offset: 0xED8FA, size: 0x8, addend: 0x0, symName: _iZettleSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x206A0, symSize: 0x0 }
   - { offset: 0xED92F, size: 0x8, addend: 0x0, symName: _iZettleSDKVersionNumber, symObjAddr: 0x30, symBinAddr: 0x206D0, symSize: 0x0 }
@@ -91,8 +91,8 @@ relocations:
   - { offset: 0xEFF50, size: 0x8, addend: 0x0, symName: '+[NSError(IZSDKManualCardEntryErrorDomain) ztl_mce_errorDescriptionFor:minAmountString:maxAmountString:]', symObjAddr: 0x560, symBinAddr: 0x5DE4, symSize: 0x1B8 }
   - { offset: 0xF004C, size: 0x8, addend: 0x0, symName: '-[iZettleSDK forwardPaymentManager]', symObjAddr: 0x0, symBinAddr: 0x5F9C, symSize: 0x8 }
   - { offset: 0xF005F, size: 0x8, addend: 0x0, symName: '+[iZettleSDK shared]', symObjAddr: 0x8, symBinAddr: 0x5FA4, symSize: 0x30 }
-  - { offset: 0xF0089, size: 0x8, addend: 0x0, symName: _shared.once, symObjAddr: 0x1FDC0, symBinAddr: 0x33560, symSize: 0x0 }
-  - { offset: 0xF009F, size: 0x8, addend: 0x0, symName: _shared.shared, symObjAddr: 0x1FDC8, symBinAddr: 0x33568, symSize: 0x0 }
+  - { offset: 0xF0089, size: 0x8, addend: 0x0, symName: _shared.once, symObjAddr: 0x20018, symBinAddr: 0x33560, symSize: 0x0 }
+  - { offset: 0xF009F, size: 0x8, addend: 0x0, symName: _shared.shared, symObjAddr: 0x20020, symBinAddr: 0x33568, symSize: 0x0 }
   - { offset: 0xF023D, size: 0x8, addend: 0x0, symName: '-[iZettleSDK forwardPaymentManager]', symObjAddr: 0x0, symBinAddr: 0x5F9C, symSize: 0x8 }
   - { offset: 0xF02A4, size: 0x8, addend: 0x0, symName: '+[iZettleSDK shared].cold.1', symObjAddr: 0x6A64, symBinAddr: 0x1CF84, symSize: 0x14 }
   - { offset: 0xF02C0, size: 0x8, addend: 0x0, symName: '+[iZettleSDK shared].cold.1', symObjAddr: 0x6A64, symBinAddr: 0x1CF84, symSize: 0x14 }
@@ -264,7 +264,7 @@ relocations:
   - { offset: 0xF6229, size: 0x8, addend: 0x0, symName: '_$sSo9NSDecimalawet', symObjAddr: 0x7C0, symBinAddr: 0xE064, symSize: 0x20 }
   - { offset: 0xF623D, size: 0x8, addend: 0x0, symName: '_$sSo9NSDecimalawst', symObjAddr: 0x7E0, symBinAddr: 0xE084, symSize: 0x2C }
   - { offset: 0xF6251, size: 0x8, addend: 0x0, symName: '_$sSo9NSDecimalaMa', symObjAddr: 0x80C, symBinAddr: 0xE0B0, symSize: 0x50 }
-  - { offset: 0xF651F, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA9SDKHelperC6sharedACvpZ', symObjAddr: 0x11E10, symBinAddr: 0x343D8, symSize: 0x0 }
+  - { offset: 0xF651F, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA9SDKHelperC6sharedACvpZ', symObjAddr: 0x11FB0, symBinAddr: 0x343D8, symSize: 0x0 }
   - { offset: 0xF660F, size: 0x8, addend: 0x0, symName: '_$sSo15NSExceptionNamea10iZettleSDKE12sdkException33_D3D10E15BEAAFFF87E1E7B453A522CD0LLABvpZ', symObjAddr: 0x2730, symBinAddr: 0x32E00, symSize: 0x0 }
   - { offset: 0xF661D, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA9SDKHelperC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0xE110, symSize: 0x3C }
   - { offset: 0xF6674, size: 0x8, addend: 0x0, symName: '_$s10iZettleSDK01iA9SDKHelperCfETo', symObjAddr: 0x234, symBinAddr: 0xE344, symSize: 0x90 }
