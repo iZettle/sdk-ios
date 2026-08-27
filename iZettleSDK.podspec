@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'iZettleSDK'
-  s.version      = '4.70.3'
+  s.version      = '4.70.4'
   s.summary      = 'iZettle SDK for iOS'
   s.description  = <<-DESC
                     For detailed information, please see iZettleSDK documentation and Readme.
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { 'PayPal Inc' => 'hello@izettle.com' }
   s.platform     = :ios, '12.0'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 x86_64' }
-  s.source       = { :http => "https://github.com/iZettle/sdk-ios/releases/download/#{s.version}/iZettleSDK.zip", type: :zip, :sha256 => '15a90c92a28d12be608a71c9eb1c0c1d5540eefc7b55db7229be434c26c0e303' }
+  s.source       = { :http => "https://github.com/iZettle/sdk-ios/releases/download/#{s.version}/iZettleSDK.zip", type: :zip, :sha256 => 'a9cdb44cbfddd255e4063e6cf8f650cd917a122a2491d1b363a540f5b59e52bb' }
   s.source_files = []
   s.preserve_paths = '**/*'
   s.public_header_files = 'iZettleSDK/iZettleSDK.xcframework/**/*.h'

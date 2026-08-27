@@ -1,11 +1,11 @@
 // swift-tools-version: 5.7
 import PackageDescription
 
-let version = "4.70.3"
+let version = "4.70.4"
 let frameworks = [
-    "iZettleSDK": "818fe69db3d0f3ffc067ba69675090ca239909406fb8b1cf2876aacb8fe98de2",
-    "iZettlePayments": "4e28ddd0f0474b2a5651fd86b0d27e364d9303574522bd7c7c29514aa7ac9799",
-    "PPRiskMagnes": "630b7cc093d357fa92fd9d7e4e5d297e4865d1fc345e4e74c5f47e81f2faf5fa"
+    "iZettleSDK": "00dbfd95883107c8ec5624012cc4dcc63092be8d4f8d328cc885ac8677e5f151",
+    "iZettlePayments": "b5944f0981c450099d8b379ee51eb6db3ee7cfd5be3f938e4895ee6d5bfaf815",
+    "PPRiskMagnes": "7a83ff4134f686d8e048f6aa2bcaba05faeedb2d4341432a66b50b9e84fad041"
 ]
 
 let package = Package(

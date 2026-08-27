@@ -94,7 +94,7 @@
 		</data>
 		<key>Account.momd/VersionInfo.plist</key>
 		<data>
-		S2zV3DbRfUg27anR/BWCwnvCN1o=
+		/EYHXjPQBrXl1e8n3ZI2wN/UN0U=
 		</data>
 		<key>Assets.car</key>
 		<data>
@@ -578,7 +578,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kKzr5n45lCcAOBKZhCbNqILUZos=
+		ej3ZhA5/slMLSPfUIg5abdk0/Gc=
 		</data>
 		<key>Issuers.plist</key>
 		<data>
@@ -594,7 +594,7 @@
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		0VD6V9jcjUjv61yxmjG4jueEAz8=
+		h0QBncC2NWWOM0PUIpxUe7+0zVs=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -610,11 +610,11 @@
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cNeZ00J3dmbDg3otwoywjTi7HxA=
+		SLTFQg+nOse81niAUP8TH3oC95w=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		0VD6V9jcjUjv61yxmjG4jueEAz8=
+		h0QBncC2NWWOM0PUIpxUe7+0zVs=
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -630,7 +630,7 @@
 		</data>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		THmDwBMw33BjPXcqOragPV68Ci8=
+		hMMaNFYs7KgtAgSJsesaz/Lji1g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1009,7 +1009,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L7XOVK5wfyqdbD2XVinJr5oQf7jf49xMqVyVOIxaG+o=
+			UifPJ0BAFRQoyuHV8e9GRF7akzOZCfTmj6Hy2YUomIc=
 			</data>
 		</dict>
 		<key>Assets.car</key>
@@ -1877,7 +1877,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8BxTkjBjPkWz82nlk5o0X2A4a+1++ZPsaYxBt+A545c=
+			GAuAgxGmxHSkC5sdpEI1PJWxJbGrzOuONag48gzOX8k=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1905,14 +1905,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NaB7VkdLtenfmZS5iWqxYx5G4a4io+SKBRiJ7SSItuY=
+			2i/K9QYZiHZMy34KXEDUBVlE5qD6FVcYvJNCLHpzBS0=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8BxTkjBjPkWz82nlk5o0X2A4a+1++ZPsaYxBt+A545c=
+			GAuAgxGmxHSkC5sdpEI1PJWxJbGrzOuONag48gzOX8k=
 			</data>
 		</dict>
 		<key>Modules/iZettlePayments.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1940,7 +1940,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ns835jKYowDCcoq04zRH65J8y7beY+x9ajNgFBMP030=
+			sVW0PQ9Rtmw1RbeK0Sakf2pXeKAuoL34TcIBUlfFklE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

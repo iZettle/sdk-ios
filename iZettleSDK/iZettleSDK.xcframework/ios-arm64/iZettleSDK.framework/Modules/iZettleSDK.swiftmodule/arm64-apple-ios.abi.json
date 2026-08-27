@@ -5101,13 +5101,6 @@
       },
       {
         "kind": "Import",
-        "name": "iZettlePayments",
-        "printedName": "iZettlePayments",
-        "declKind": "Import",
-        "moduleName": "iZettleSDK"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5132,6 +5125,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "iZettlePayments",
+        "printedName": "iZettlePayments",
+        "declKind": "Import",
+        "moduleName": "iZettleSDK"
       },
       {
         "kind": "Import",
@@ -5730,231 +5730,231 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/iZettleSDKHelper.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/iZettleSDKHelper.swift",
       "kind": "BooleanLiteral",
       "offset": 712,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/iZettleSDKHelper.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/iZettleSDKHelper.swift",
       "kind": "StringLiteral",
       "offset": 1103,
       "length": 25,
       "value": "\"iZettle SDK not started\""
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/iZettleSDKHelper.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/iZettleSDKHelper.swift",
       "kind": "StringLiteral",
       "offset": 12049,
       "length": 40,
       "value": "\"com.izettle.payments-sdk-ios.exception\""
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
       "kind": "StringLiteral",
       "offset": 2576,
       "length": 8,
       "value": "\"userId\""
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
       "kind": "StringLiteral",
       "offset": 2606,
       "length": 16,
       "value": "\"organisationId\""
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
       "kind": "StringLiteral",
       "offset": 2652,
       "length": 9,
       "value": "\"country\""
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
       "kind": "StringLiteral",
       "offset": 2684,
       "length": 15,
       "value": "\"currency_code\""
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
       "kind": "StringLiteral",
       "offset": 2723,
       "length": 12,
       "value": "\"publicName\""
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
       "kind": "StringLiteral",
       "offset": 2761,
       "length": 10,
       "value": "\"timeZone\""
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
       "kind": "StringLiteral",
       "offset": 2807,
       "length": 22,
       "value": "\"maxTippingPercentage\""
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ZettleUserInfo.swift",
       "kind": "StringLiteral",
       "offset": 2872,
       "length": 22,
       "value": "\"minTippingPercentage\""
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 285,
       "length": 36,
       "value": "\"com.izettle.sdk.authprovider.error\""
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "IntegerLiteral",
       "offset": 409,
       "length": 4,
       "value": "-202"
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "IntegerLiteral",
       "offset": 444,
       "length": 4,
       "value": "-203"
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "IntegerLiteral",
       "offset": 476,
       "length": 4,
       "value": "-300"
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/iZettleSDKAuthorization.swift",
       "kind": "IntegerLiteral",
       "offset": 516,
       "length": 4,
       "value": "-501"
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
       "kind": "StringLiteral",
       "offset": 271,
       "length": 29,
       "value": "\"com.izettle.sdk.token.error\""
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
       "kind": "IntegerLiteral",
       "offset": 370,
       "length": 4,
       "value": "-600"
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 4,
       "value": "-603"
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/iZettleSDKOAuthToken.swift",
       "kind": "IntegerLiteral",
       "offset": 423,
       "length": 4,
       "value": "-604"
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 758,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 805,
       "length": 13,
       "value": "1"
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 861,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 913,
       "length": 10,
       "value": "3"
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 1452,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 1499,
       "length": 13,
       "value": "1"
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 1555,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 1607,
       "length": 10,
       "value": "3"
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 2146,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 2193,
       "length": 13,
       "value": "1"
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 2255,
       "length": 12,
       "value": "2"
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 2415,
       "length": 20,
       "value": "3"
     },
     {
-      "filePath": "\/tmp\/harness\/UtQuPPj8QZuaQsYdMUkU2w\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
+      "filePath": "\/Users\/ferrari\/.harness-delegate\/tmp\/harness\/zLuvj4rQTFOwKQuqRNMDrQ\/iZettleSDK\/Sources\/ReaderPayments\/IZSDKTippingConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 2731,
       "length": 13,
