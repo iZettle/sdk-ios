@@ -1,0 +1,19 @@
+inputSet:
+  name: Release Validation Input Set
+  identifier: Release_Validation_Input_Set
+  description: Input set for sdk-release-v* branch validation.
+  orgIdentifier: g_mobile_paypal
+  projectIdentifier: um_ioszettle
+  pipeline:
+    identifier: sdk_ios_validate_release
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
+  tags:
+    team: app_platform
+    app: payments_sdk
+    platform: ios
