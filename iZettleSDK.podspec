@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { 'PayPal Inc' => 'hello@izettle.com' }
   s.platform     = :ios, '12.0'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 x86_64' }
-  s.source       = { :http => "https://github.com/iZettle/sdk-ios/releases/download/#{s.version}/iZettleSDK.zip", type: :zip, :sha256 => 'a9cdb44cbfddd255e4063e6cf8f650cd917a122a2491d1b363a540f5b59e52bb' }
+  s.source       = { :http => "https://github.com/iZettle/sdk-ios/releases/download/#{s.version}/iZettleSDK.zip", type: :zip, :sha256 => 'c21447b703c5b027f87f98ad1aa1241f7221321213b09b66032b353f85edf5b7' }
   s.source_files = []
   s.preserve_paths = '**/*'
   s.public_header_files = 'iZettleSDK/iZettleSDK.xcframework/**/*.h'

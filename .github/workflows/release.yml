@@ -12,7 +12,7 @@ jobs:
       - name: Install gem dependencies
         run:  gem install bundler && bundle install
       - name: Create GitHub Release
-        env: 
+        env:
           GITHUB_TOKEN: ${{ github.token }}
           REPO_NAME: ${{ github.repository }}
           GIT_SHA: ${{ github.sha }}

@@ -3,9 +3,9 @@ import PackageDescription
 
 let version = "4.70.4"
 let frameworks = [
-    "iZettleSDK": "00dbfd95883107c8ec5624012cc4dcc63092be8d4f8d328cc885ac8677e5f151",
-    "iZettlePayments": "b5944f0981c450099d8b379ee51eb6db3ee7cfd5be3f938e4895ee6d5bfaf815",
-    "PPRiskMagnes": "7a83ff4134f686d8e048f6aa2bcaba05faeedb2d4341432a66b50b9e84fad041"
+    "iZettleSDK": "3dbeb9d230973e82508072da8650e5e777322a75d1461bf317ab3864471e7b2e",
+    "iZettlePayments": "47ef33a2fe781895c3492f980732500e6c43cbebf7099b487e280184e24f8311",
+    "PPRiskMagnes": "f3d63ca13f921e1f51c4a407684162316293a127ac25364ee1eb07a2487f8f65"
 ]
 
 let package = Package(
